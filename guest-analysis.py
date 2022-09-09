@@ -50,7 +50,7 @@ for guest in frequency.keys():
     guest_html += '<h2>Episodes</h2><ol>'
     for topic in topics_by_guest[guest]:
         desc = descriptions[topic['date'] + '_' + topic['topic']]
-        guest_html += '<li><a href="' + topic['episode_link'] + '" target="_blank">' + topic['topic'] + '&nearr;</a><p>' + desc + '</p></li>'
+        guest_html += '<li><a href="https://www.bbc.co.uk/sounds/play/' + topic['episode_link'].split('/').pop() + '" target="_blank">' + topic['topic'] + '&nearr;</a><p>' + desc + '</p></li>'
     guest_html += '</ol>'
 
     ranked_frequency.append(el)
