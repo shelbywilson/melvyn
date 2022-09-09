@@ -76,7 +76,7 @@
                     let experts = ''
 
                     ep.experts.forEach(expert => 
-                        experts += `<div class="expert"><a href="/guests/${expert.name.replace(/\s/g, '_')}.html">${expert.name}</a></div><div><em>${expert.title}</em></div>`
+                        experts += `<div class="expert"><a href="./guests/${expert.name.replace(/\s/g, '_')}.html">${expert.name}</a></div><div><em>${expert.title}</em></div>`
                     )
 
                     el.innerHTML = `
@@ -111,19 +111,9 @@
     <body>
         <main>
             <div>
-                <!-- <header>
-                    <h1>
-                        <span>r</span><span>e</span><span>c</span><span>o</span><span>m</span><span>m</span><span>e</span><span>n</span><span>d</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span><span>s</span>
-                    </h1>
-                    <h2>
-                        from the creative independent interviews
-                    </h2>
-                    <input type="checkbox" id="group-toggle" onchange="applyFilter()" />
-                </header> -->
                 <div id="episodes">
                 </div>
             </div>
-            <!-- <button id="more" onclick="display()">more</button> -->
         </main>
     </body>
 </html>
