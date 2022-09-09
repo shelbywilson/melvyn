@@ -6,7 +6,12 @@ f = open('./data/episodes.json')
 data = json.load(f)
 f.close()
 
+f = open('./data/bbc_descriptions_short.json')
+descriptions = json.load(f)
+f.close()
+
 frequency = {}
+frequency_min = {}
 ranked_frequency = []
 topics_by_guest = {}
 
@@ -23,13 +28,14 @@ for episode in data:
                 # print('different title', guest['name'], guest['title'], frequency[guest['name']]['title'])
 
         if (guest['name'] not in topics_by_guest):
-            topics_by_guest[guest['name']] = [ {'topic': episode['topic'], 'episode_link': episode['episode_link'] }]
+            topics_by_guest[guest['name']] = [ {'topic': episode['topic'], 'date': episode['date'], 'episode_link': episode['episode_link'] }]
         else:
-            topics_by_guest[guest['name']].append({'topic': episode['topic'], 'episode_link': episode['episode_link'] })
+            topics_by_guest[guest['name']].append({'topic': episode['topic'], 'date': episode['date'], 'episode_link': episode['episode_link'] })
 
 for guest in frequency.keys():
     el = frequency[guest].copy()
     el['name'] = guest
+    frequency_min[guest] = el['count']
     guest_html = ''
     try:
         if el['links'][0]['text'] == guest:
@@ -43,7 +49,8 @@ for guest in frequency.keys():
     guest_html += '<em>' + frequency[guest]['title'][0] + '</em>'
     guest_html += '<h2>Episodes</h2><ol>'
     for topic in topics_by_guest[guest]:
-        guest_html += '<li><a href="' + topic['episode_link'] + '" target="_blank">' + topic['topic'] + '&nearr;</a></li>'
+        desc = descriptions[topic['date'] + '_' + topic['topic']]
+        guest_html += '<li><a href="' + topic['episode_link'] + '" target="_blank">' + topic['topic'] + '&nearr;</a><p>' + desc + '</p></li>'
     guest_html += '</ol>'
 
     ranked_frequency.append(el)
@@ -60,6 +67,10 @@ ranked_frequency.sort(reverse=True, key=get_count)
 
 w = open('./data/guest_frequency.json', 'w')
 json.dump(frequency, w, indent=4, ensure_ascii=False)
+w.close()
+
+w = open('./data/guest_frequency_min.json', 'w')
+json.dump(frequency_min, w, indent=4, ensure_ascii=False)
 w.close()
 
 w = open('./data/ranked_guest_frequency.json', 'w')

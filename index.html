@@ -16,12 +16,21 @@
         <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
 
         <style>
+            @keyframes spin {
+                from {
+                    transform:rotate(0deg);
+                }
+                to {
+                    transform:rotate(360deg);
+                }
+            }
             .row {
                 display: flex;
-                padding: 1rem 0;
+                border-top: 2px solid #000;
+                margin: 1rem 0;
             }
             .row > div {
-                padding: 1.5rem 1.5rem 1.5rem 0;
+                padding: 1.5rem;
             }
             .row h3 {
                 margin: 0 0 0.5rem 0;
@@ -33,15 +42,32 @@
                 flex: 0 0 150px;
             }
             .expert:not(:first-child) {
-                padding-top: 0.5rem;
+                padding-top: 1rem;
             }
             .expert a {
                 margin-left: 0.5rem;
             }
+            #loading {
+                display: flex;
+                justify-content: center;
+                padding: 4rem;
+            }
+            #loading img {
+                width: 80px;
+                display: block;
+                animation: spin 3000ms infinite linear;
+            }
 
             @media screen and (max-width: 776px) {
+                #episodes {
+                    margin: 0 -1rem;
+                }
                 .row {
                     flex-direction: column;
+                    padding: 1.5rem;
+                }
+                .row > div {
+                    padding: 0.75rem 0;
                 }
                 .row > .desc, .row .date {
                     flex: 1 1 100%;
@@ -54,27 +80,31 @@
             let bbcDescriptions = {};
             let guestFrequency = {};
             window.onload = () => {
-                fetch('./data/bbc-descriptions.json')
-                    .then(res => res.json())
-                    .then(data => {
-                        bbcDescriptions = data;
-                    })
-                    .then(() => {
-                        fetch('./data/guest_frequency.json')
-                            .then(res => res.json())
-                            .then(data => {
-                                guestFrequency = data;
-                            })
-                            .then(() => {
-                                fetch('./data/episodes.json')
-                                    .then(res => res.json())
-                                    .then(data => {
-                                        episodes = data;
+                Promise.all(['./data/bbc_descriptions_short.json', './data/guest_frequency_min.json', './data/episodes_min.json'].map((request) => {
+                    return fetch(request).then((response) => {
+                        return response.json();
+                    }).then((data) => {
+                        return data;
+                    });
+                })).then((values) => {
+                    [bbcDescriptions, guestFrequency, episodes] = values;
+                    document.getElementById('loading').style.display = 'none';
+                    display();
+                }).catch(
+                    console.error.bind(console)
+                );
+                // Promise.all([fetch('./data/bbc_descriptions_short.json'), fetch('./data/guest_frequency_min.json'), fetch('./data/episodes_min.json')])
+                //     .then(values => { 
+                //         return [values[0].json(), values[1].json(), values[2].json()]
+                //     })
+                //     .then(data => {
+                //         bbcDescriptions = data[0];
+                //         guestFrequency = data[1];
+                //         episodes = data[2];
 
-                                        display();
-                                    })
-                            })
-                    })
+                //         document.getElementById('loading').style.display = 'none';
+                //         display();
+                //     })
             }
             function display() {
                 episodes.forEach(ep => {
@@ -88,7 +118,7 @@
                                 ${expert.name}
                             </strong>
                             <a href="./guests/${expert.name.replace(/\s/g, '_')}.html">
-                                ${guestFrequency[expert.name].count} ${guestFrequency[expert.name].count === 1 ? 'episode' : 'episodes'}
+                                ${guestFrequency[expert.name]} ${guestFrequency[expert.name] === 1 ? 'episode' : 'episodes'}
                             </a>
                         </div>
                         <div>
@@ -107,7 +137,7 @@
                                 </a>
                             </h3>
                             <p>
-                                ${bbcDescriptions[ep.date + '_' + ep.topic].short_desc}
+                                ${bbcDescriptions[ep.date + '_' + ep.topic]}
                             </p>
                             <div>
                                 <a href="${ep.wiki_link}" target="_blank">
@@ -131,6 +161,9 @@
                 <h1>
                     Hello,
                 </h1>
+                <div id="loading">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
+                </div>
                 <div id="episodes">
                 </div>
             </div>

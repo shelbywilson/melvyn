@@ -12,6 +12,7 @@ html_page = urllib.request.urlopen('https://en.wikipedia.org/wiki/List_of_In_Our
 soup = BeautifulSoup(html_page, "html.parser")
 rows = soup.findAll('tr')
 episodes = []
+episodes_min = []
 for row in rows:
     i = 0
     date = ''
@@ -19,6 +20,7 @@ for row in rows:
     topic = ''
     wiki_link = ''
     experts = []
+    experts_min = []
     for col in row.findAll('td'):
         if (i == 0):
             date = col.get_text().strip()
@@ -39,9 +41,11 @@ for row in rows:
                 for a in li.find_all('a'):
                     links.append({ 'text': a.get_text(), 'wiki': 'https://en.wikipedia.org' + a.get('href') })
                 experts.append({ 'name': name, 'title': title, 'links': links })
+                experts_min.append({ 'name': name, 'title': title })
         i += 1
     if topic != "" and episode_link != "":
         episodes.insert(0, { 'date': date, 'episode_link': episode_link, 'topic': topic, 'wiki_link': wiki_link, 'experts': experts })
+        episodes_min.insert(0, { 'date': date, 'episode_link': episode_link, 'topic': topic, 'wiki_link': wiki_link, 'experts': experts_min })
 
 #     url = link.get('href')
 #     found = False
@@ -58,4 +62,8 @@ for row in rows:
 
 w = open('./data/episodes.json', 'w')
 json.dump(episodes, w, indent=4, ensure_ascii=False)
+w.close()
+
+w = open('./data/episodes_min.json', 'w')
+json.dump(episodes_min, w)
 w.close()
