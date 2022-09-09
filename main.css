@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    max-width: 1000px;
+    line-height: 1.4;
+    padding: 1rem;
+}
+h1 {
+    margin: 0;
+}
+li {
+    margin: 0.75rem;
+}

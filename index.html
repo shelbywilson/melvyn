@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow" />
+        <meta name="description" content="" />
+        <meta property="og:url" content="h" />
+        <meta property="og:title" content="in our time" />
+        <meta property="og:description" content="" />
+        <meta name="theme-color" content="#000">
+        <title>in our time</title>
+        <link rel="stylesheet" type="text/css" href="./main.css" />
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
+
+        <style>
+            .row {
+                display: flex;
+            }
+            .row > div {
+                padding: 0.5rem;
+            }
+            .row h3 {
+                margin: 0 0 0.5rem 0;
+            }
+            .row > :first-child {
+                flex: 0 0 35%;
+            }
+            .row > :nth-child(2) {
+                flex: 0 0 150px;
+            }
+            .expert:not(:first-child) {
+                padding-top: 0.5rem;
+            }
+
+            @media screen and (max-width: 776px) {
+                .row {
+                    flex-direction: column;
+                }
+                .row > :first-child, .row > :nth-child(2) {
+                    flex: 1 1 100%;
+                }
+            }
+        </style>
+
+        <script>
+            // let allRecs = [];
+            // let allFlattened = [];
+            // let flattened = [];
+            // let recs = [];
+            // let vocations = {};
+            let episodes = [];
+            let bbcDescriptions = {}
+            window.onload = () => {
+                fetch('./data/bbc-descriptions.json')
+                .then(res => res.json())
+                    .then(desc => {
+                        bbcDescriptions = desc;
+                    })
+                    .then(() => {
+                    fetch('./data/episodes.json')
+                        .then(res => res.json())
+                        .then(eps => {
+                            episodes = eps;
+
+                            display();
+                        })
+                    })
+            }
+            function display() {
+                episodes.forEach(ep => {
+                    const el = document.createElement('div')
+                    el.classList = ['row']
+                    let experts = ''
+
+                    ep.experts.forEach(expert => 
+                        experts += `<div class="expert"><a href="/guests/${expert.name.replace(/\s/g, '_')}.html">${expert.name}</a></div><div><em>${expert.title}</em></div>`
+                    )
+
+                    el.innerHTML = `
+                        <div>
+                            <h3>
+                                <a href="https://www.bbc.co.uk/sounds/play/${ep.episode_link.split('/').pop()}" target="_blank">
+                                    ${ep.topic} &nearr;
+                                </a>
+                            </h3>
+                            <p>
+                                ${bbcDescriptions[ep.date + '_' + ep.topic].short_desc}
+                            </p>
+                            <div>
+                                <a href="${ep.wiki_link}" target="_blank">
+                                    wiki &nearr;
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            ${ep.date}
+                        </div>
+                        <div>
+                            ${experts}
+                        </div>
+                    `;
+
+                    document.body.querySelector('#episodes').append(el)
+                })
+            }
+        </script>
+    </head>
+    <body>
+        <main>
+            <div>
+                <!-- <header>
+                    <h1>
+                        <span>r</span><span>e</span><span>c</span><span>o</span><span>m</span><span>m</span><span>e</span><span>n</span><span>d</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span><span>s</span>
+                    </h1>
+                    <h2>
+                        from the creative independent interviews
+                    </h2>
+                    <input type="checkbox" id="group-toggle" onchange="applyFilter()" />
+                </header> -->
+                <div id="episodes">
+                </div>
+            </div>
+            <!-- <button id="more" onclick="display()">more</button> -->
+        </main>
+    </body>
+</html>
