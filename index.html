@@ -18,55 +18,62 @@
         <style>
             .row {
                 display: flex;
+                padding: 1rem 0;
             }
             .row > div {
-                padding: 0.5rem;
+                padding: 1.5rem 1.5rem 1.5rem 0;
             }
             .row h3 {
                 margin: 0 0 0.5rem 0;
             }
-            .row > :first-child {
+            .row .desc {
                 flex: 0 0 35%;
             }
-            .row > :nth-child(2) {
+            .row .date {
                 flex: 0 0 150px;
             }
             .expert:not(:first-child) {
                 padding-top: 0.5rem;
+            }
+            .expert a {
+                margin-left: 0.5rem;
             }
 
             @media screen and (max-width: 776px) {
                 .row {
                     flex-direction: column;
                 }
-                .row > :first-child, .row > :nth-child(2) {
+                .row > .desc, .row .date {
                     flex: 1 1 100%;
                 }
             }
         </style>
 
         <script>
-            // let allRecs = [];
-            // let allFlattened = [];
-            // let flattened = [];
-            // let recs = [];
-            // let vocations = {};
             let episodes = [];
-            let bbcDescriptions = {}
+            let bbcDescriptions = {};
+            let guestFrequency = {};
             window.onload = () => {
                 fetch('./data/bbc-descriptions.json')
-                .then(res => res.json())
-                    .then(desc => {
-                        bbcDescriptions = desc;
+                    .then(res => res.json())
+                    .then(data => {
+                        bbcDescriptions = data;
                     })
                     .then(() => {
-                    fetch('./data/episodes.json')
-                        .then(res => res.json())
-                        .then(eps => {
-                            episodes = eps;
+                        fetch('./data/guest_frequency.json')
+                            .then(res => res.json())
+                            .then(data => {
+                                guestFrequency = data;
+                            })
+                            .then(() => {
+                                fetch('./data/episodes.json')
+                                    .then(res => res.json())
+                                    .then(data => {
+                                        episodes = data;
 
-                            display();
-                        })
+                                        display();
+                                    })
+                            })
                     })
             }
             function display() {
@@ -76,11 +83,24 @@
                     let experts = ''
 
                     ep.experts.forEach(expert => 
-                        experts += `<div class="expert"><a href="./guests/${expert.name.replace(/\s/g, '_')}.html">${expert.name}</a></div><div><em>${expert.title}</em></div>`
+                        experts += `<div class="expert">
+                            <strong>
+                                ${expert.name}
+                            </strong>
+                            <a href="./guests/${expert.name.replace(/\s/g, '_')}.html">
+                                ${guestFrequency[expert.name].count} ${guestFrequency[expert.name].count === 1 ? 'episode' : 'episodes'}
+                            </a>
+                        </div>
+                        <div>
+                            <em>${expert.title}</em>
+                        </div>`
                     )
 
                     el.innerHTML = `
-                        <div>
+                        <div class="date">
+                            ${ep.date}
+                        </div>
+                        <div class="desc">
                             <h3>
                                 <a href="https://www.bbc.co.uk/sounds/play/${ep.episode_link.split('/').pop()}" target="_blank">
                                     ${ep.topic} &nearr;
@@ -96,9 +116,6 @@
                             </div>
                         </div>
                         <div>
-                            ${ep.date}
-                        </div>
-                        <div>
                             ${experts}
                         </div>
                     `;
@@ -111,6 +128,9 @@
     <body>
         <main>
             <div>
+                <h1>
+                    Hello,
+                </h1>
                 <div id="episodes">
                 </div>
             </div>
