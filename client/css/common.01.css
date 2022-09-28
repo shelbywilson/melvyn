@@ -1,0 +1,165 @@
+:root {
+    --padding: 2rem;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.04rem;
+    line-height: 1.6;
+    background: whitesmoke;
+    color: darkslategray;
+}
+header {
+    margin-bottom: 2rem;
+}
+main {
+    max-width: 1100px;
+    padding: var(--padding);
+    margin: 0 auto;
+}
+h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 3rem;
+    font-weight: 400;
+}
+h2 {
+    margin: var(--padding) 0;
+    font-weight: 400;
+}
+h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+img {
+    max-width: 100%;
+}
+p {
+    margin: 1.5rem 0;
+}
+.header-back-link {
+    margin: 0 0 0.5rem 0;
+}
+.text-right {
+    text-align: right;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.space-between {
+    justify-content: space-between;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.align-baseline {
+    align-items: baseline;
+}
+.no-wrap {
+    white-space: nowrap;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.ranking .label {
+    height: 0.75rem;
+}
+.ranking p {
+    margin: 0;
+}
+.ranking > div:first-child {
+    width: 150px;
+    align-items: center;
+}
+.progress-bar {
+    background: gainsboro;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100px;
+    position: relative;
+    height: 1rem;
+    margin: 0.125rem 0.5rem 0 0;
+}
+.progress-bar > div {
+    position: absolute;
+    height: 100%;
+}
+.score-0, .score-20 {
+    background: hsl(300, 20%, 50%);
+}
+.score-40 {
+    background: hsl(300, 40%, 50%);
+}
+.score-60 {
+    background: hsl(300, 60%, 50%);
+}
+.score-80 {
+    background: hsl(300, 80%, 50%);
+}
+.score-100 {
+    background: hsl(300, 100%, 50%);
+}
+
+.episode-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content-col p:first-child {
+    margin-top: 0;
+}
+.content-col, .meta-col, .wiki-col {
+    padding: 0 var(--padding);
+}
+.meta-col {
+    padding-right: 0;
+    flex: 1 1 32%;
+}
+.content-col {
+    padding-left: 0;
+    flex: 1 1 38%;
+}
+.wiki-col {
+    text-align: center;
+    flex: 0 0 240px;
+}
+.ranking p {
+    margin: 1rem 0 0 var(--padding);
+}
+.wiki-col {
+    text-align: center;
+}
+@media screen and (max-width: 776px) {
+    .m-column {
+        flex-direction: column;
+        flex: 1 1 auto;
+    }
+    .content-col {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+    .meta-col {
+        padding-left: 0;
+    }
+    .wiki-col {
+        padding: 0;
+        margin-bottom: 4rem;
+        flex: 1 1 auto;
+    }
+}

@@ -1,4 +1,117 @@
 {
+    "Edith Hall": {
+        "count": 18,
+        "first": "5 February 2004",
+        "last": "22 September 2022",
+        "links": [
+            {
+                "text": "Edith Hall",
+                "wiki": "https://en.wikipedia.org/wiki/Edith_Hall"
+            },
+            {
+                "text": "Durham University",
+                "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+            }
+        ],
+        "title": [
+            "Professor of Classics at Durham University",
+            "Professor of Classics at King's College London",
+            "Professor of Classics at King's College, London",
+            "Professor of Classics and Drama at Royal Holloway, University of London",
+            "Professor of Classics at Royal Holloway, University of London",
+            "Professor of Drama and Classics at Royal Holloway, University of London",
+            "Professor of Greek Cultural History at Durham University",
+            "Leverhulme Professor of Greek Cultural History, Durham University",
+            "Leverhulme Professor of Greek Cultural History at Durham University",
+            "Leverhulme Professor of Greek Cultural History at the University of Durham and author of Inventing the Barbarian: Greek Self-Definition through Tragedy"
+        ]
+    },
+    "Christopher Gill": {
+        "count": 1,
+        "first": "22 September 2022",
+        "last": "22 September 2022",
+        "links": [
+            {
+                "text": "University of Exeter",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+            }
+        ],
+        "title": [
+            "Emeritus Professor of Ancient Thought at the University of Exeter"
+        ]
+    },
+    "Angie Hobbs": {
+        "count": 24,
+        "first": "29 March 2001",
+        "last": "22 September 2022",
+        "links": [
+            {
+                "text": "Angie Hobbs",
+                "wiki": "https://en.wikipedia.org/wiki/Angie_Hobbs"
+            },
+            {
+                "text": "University of Sheffield",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+            }
+        ],
+        "title": [
+            "Professor of the Public Understanding of Philosophy at the University of Sheffield",
+            "Professor of the Public Understanding of Philosophy, University of Sheffield",
+            "associate professor of Philosophy and Senior Fellow in the Public Understanding of Philosophy at the University of Warwick",
+            "associate professor in Philosophy at the University of Warwick",
+            "associate professor of Philosophy at the University of Warwick",
+            "associate professor of Philosophy at Warwick University",
+            "Lecturer in Philosophy at the University of Warwick",
+            "Lecturer in Philosophy, University of Warwick",
+            "Lecturer in Philosophy at the University of Warwick and author of Plato and the Hero: Courage, Manliness and the Impersonal Good",
+            "lecturer in philosophy at Warwick University"
+        ]
+    },
+    "David Dwan": {
+        "count": 1,
+        "first": "15 September 2022",
+        "last": "15 September 2022",
+        "links": [
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Professor of English Literature and Intellectual History at the University of Oxford"
+        ]
+    },
+    "Lisa Mullen": {
+        "count": 1,
+        "first": "15 September 2022",
+        "last": "15 September 2022",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Teaching Associate in Modern Contemporary Literature at the University of Cambridge"
+        ]
+    },
+    "John Bowen": {
+        "count": 6,
+        "first": "12 July 2001",
+        "last": "15 September 2022",
+        "links": [
+            {
+                "text": "University of York",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_York"
+            }
+        ],
+        "title": [
+            "Professor of English Literature at the University of York",
+            "Professor of Nineteenth Century Literature at the University of York",
+            "Professor of Nineteenth-Century Literature at the University of York",
+            "Senior Lecturer in English at the University of Keele"
+        ]
+    },
     "Judith Hawley": {
         "count": 13,
         "first": "10 June 2004",
@@ -676,33 +789,6 @@
         ],
         "title": [
             "The Aud Jebsen Curator of Sixteenth-Century Italian Paintings at the National Gallery"
-        ]
-    },
-    "Edith Hall": {
-        "count": 17,
-        "first": "5 February 2004",
-        "last": "24 March 2022",
-        "links": [
-            {
-                "text": "Edith Hall",
-                "wiki": "https://en.wikipedia.org/wiki/Edith_Hall"
-            },
-            {
-                "text": "Durham University",
-                "wiki": "https://en.wikipedia.org/wiki/Durham_University"
-            }
-        ],
-        "title": [
-            "Professor of Classics at Durham University",
-            "Professor of Classics at King's College London",
-            "Professor of Classics at King's College, London",
-            "Professor of Classics and ama at Royal Holloway, University of London",
-            "Professor of Classics at Royal Holloway, University of London",
-            "Professor of Drama and Classics at Royal Holloway, University of London",
-            "Professor of Greek Cultural History at Durham University",
-            "Leverhulme Professor of Greek Cultural History, Durham University",
-            "Leverhulme Professor of Greek Cultural History at Durham University",
-            "Leverhulme Professor of Greek Cultural History at the University of Durham and author of Inventing the Barbarian: Greek Self-Definition through Tragedy"
         ]
     },
     "Oliver Taplin": {
@@ -1463,33 +1549,6 @@
             "Research Professor of National Security at Air University, Alabama"
         ]
     },
-    "Angie Hobbs": {
-        "count": 23,
-        "first": "29 March 2001",
-        "last": "25 November 2021",
-        "links": [
-            {
-                "text": "Angie Hobbs",
-                "wiki": "https://en.wikipedia.org/wiki/Angie_Hobbs"
-            },
-            {
-                "text": "University of Sheffield",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
-            }
-        ],
-        "title": [
-            "Professor of the Public Understanding of Philosophy at the University of Sheffield",
-            "Professor of the Public Understanding of Philosophy, University of Sheffield",
-            "associate professor of Philosophy and Senior Fellow in the Public Understanding of Philosophy at the University of Warwick",
-            "associate professor in Philosophy at the University of Warwick",
-            "associate professor of Philosophy at the University of Warwick",
-            "associate professor of Philosophy at Warwick University",
-            "Lecturer in Philosophy at the University of Warwick",
-            "Lecturer in Philosophy, University of Warwick",
-            "Lecturer in Philosophy at the University of Warwick and author of Plato and the Hero: Courage, Manliness and the Impersonal Good",
-            "lecturer in philosophy at Warwick University"
-        ]
-    },
     "Frisbee Sheffield": {
         "count": 3,
         "first": "3 January 2014",
@@ -1910,22 +1969,6 @@
         ],
         "title": [
             "Professor Emerita in English Studies, Lund University"
-        ]
-    },
-    "John Bowen": {
-        "count": 5,
-        "first": "12 July 2001",
-        "last": "30 September 2021",
-        "links": [
-            {
-                "text": "University of York",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_York"
-            }
-        ],
-        "title": [
-            "Professor of Nineteenth Century Literature at the University of York",
-            "Professor of Nineteenth-Century Literature at the University of York",
-            "Senior Lecturer in English at the University of Keele"
         ]
     },
     "Tom Harrison": {
@@ -9491,8 +9534,8 @@
         ]
     },
     "Alice König": {
-        "count": 2,
-        "first": "12 December 2013",
+        "count": 3,
+        "first": "15 March 2012",
         "last": "31 March 2016",
         "links": [
             {
@@ -14642,20 +14685,6 @@
             "Emeritus Professor of Architecture and Urban Design at the London School of Economics"
         ]
     },
-    "Alice Koenig": {
-        "count": 1,
-        "first": "15 March 2012",
-        "last": "15 March 2012",
-        "links": [
-            {
-                "text": "University of St Andrews",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
-            }
-        ],
-        "title": [
-            "Lecturer in Latin and Classical Studies at the University of St Andrews"
-        ]
-    },
     "Peter Swaab": {
         "count": 1,
         "first": "8 March 2012",
@@ -15412,8 +15441,7 @@
         ],
         "title": [
             "Professor of English Literature and Drama at the University of Nottingham",
-            "Professor of English Literature at the University of Nottingham",
-            "Professor of English Literature and ama at the University of Nottingham"
+            "Professor of English Literature at the University of Nottingham"
         ]
     },
     "Mary Ann Lund": {
@@ -23207,6 +23235,10 @@
             {
                 "text": "Claire Tomalin",
                 "wiki": "https://en.wikipedia.org/wiki/Claire_Tomalin"
+            },
+            {
+                "text": "literary biographer",
+                "wiki": "https://en.wikipedia.org/wiki/Literary_biographer"
             }
         ],
         "title": [

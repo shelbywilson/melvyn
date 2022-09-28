@@ -1,12 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib.request
 import json
-# from util import parse_page
-
-# f = open('../data/recommendations.json')
-
-# data = json.load(f)
-# f.close()
 
 html_page = urllib.request.urlopen('https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes')
 soup = BeautifulSoup(html_page, "html.parser")
@@ -30,6 +24,8 @@ for row in rows:
             topic = col.get_text().strip()
             if (col.find('a')):
                 wiki_link = 'https://en.wikipedia.org' + col.find('a').get('href')
+            else: 
+                print('--- no wiki link', topic)
         if (i == 2):
             for li in col.findAll('li'):
                 name = li.get_text().split(',')[0]
@@ -60,10 +56,10 @@ for row in rows:
 
     #         data.insert(0, info)
 
-w = open('./data/episodes.json', 'w')
+w = open('./../data/episodes.json', 'w')
 json.dump(episodes, w, indent=4, ensure_ascii=False)
 w.close()
 
-w = open('./data/episodes_min.json', 'w')
+w = open('./../data/episodes_min.json', 'w')
 json.dump(episodes_min, w)
 w.close()

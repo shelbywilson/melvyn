@@ -1,0 +1,6 @@
+li {
+    margin: 2rem 0;
+}
+li li {
+    margin: 0.5rem 0;
+}

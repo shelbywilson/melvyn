@@ -1,5 +1,89 @@
 [
     {
+        "date": "22 September 2022",
+        "episode_link": "https://www.bbc.co.uk/sounds/play/m001c6t3",
+        "topic": "Plato's Atlantis",
+        "wiki_link": "https://en.wikipedia.org/wiki/Atlantis",
+        "experts": [
+            {
+                "name": "Edith Hall",
+                "title": "Professor of Classics at Durham University",
+                "links": [
+                    {
+                        "text": "Edith Hall",
+                        "wiki": "https://en.wikipedia.org/wiki/Edith_Hall"
+                    },
+                    {
+                        "text": "Durham University",
+                        "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+                    }
+                ]
+            },
+            {
+                "name": "Christopher Gill",
+                "title": "Emeritus Professor of Ancient Thought at the University of Exeter",
+                "links": [
+                    {
+                        "text": "University of Exeter",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+                    }
+                ]
+            },
+            {
+                "name": "Angie Hobbs",
+                "title": "Professor of the Public Understanding of Philosophy at the University of Sheffield",
+                "links": [
+                    {
+                        "text": "Angie Hobbs",
+                        "wiki": "https://en.wikipedia.org/wiki/Angie_Hobbs"
+                    },
+                    {
+                        "text": "University of Sheffield",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 September 2022",
+        "episode_link": "https://www.bbc.co.uk/sounds/play/m001bz77",
+        "topic": "Nineteen Eighty-Four",
+        "wiki_link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+        "experts": [
+            {
+                "name": "David Dwan",
+                "title": "Professor of English Literature and Intellectual History at the University of Oxford",
+                "links": [
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Lisa Mullen",
+                "title": "Teaching Associate in Modern Contemporary Literature at the University of Cambridge",
+                "links": [
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "John Bowen",
+                "title": "Professor of English Literature at the University of York",
+                "links": [
+                    {
+                        "text": "University of York",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_York"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "30 June 2022",
         "episode_link": "https://www.bbc.co.uk/programmes/m0018nsd",
         "topic": "John Bull",
@@ -19089,9 +19173,13 @@
                 ]
             },
             {
-                "name": "Alice Koenig",
+                "name": "Alice König",
                 "title": "Lecturer in Latin and Classical Studies at the University of St Andrews",
                 "links": [
+                    {
+                        "text": "Alice König",
+                        "wiki": "https://en.wikipedia.org/wiki/Alice_K%C3%B6nig"
+                    },
                     {
                         "text": "University of St Andrews",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
@@ -19511,8 +19599,8 @@
     {
         "date": "12 January 2012",
         "episode_link": "https://www.bbc.co.uk/programmes/b0196tcr",
-        "topic": "The Safavid Dynasty",
-        "wiki_link": "https://en.wikipedia.org/wiki/Safavid_Dynasty",
+        "topic": "The Safavid dynasty",
+        "wiki_link": "https://en.wikipedia.org/wiki/Safavid_dynasty",
         "experts": [
             {
                 "name": "Robert Gleave",
@@ -20696,7 +20784,7 @@
             },
             {
                 "name": "Edith Hall",
-                "title": "Professor of Classics and ama at Royal Holloway, University of London",
+                "title": "Professor of Classics and Drama at Royal Holloway, University of London",
                 "links": [
                     {
                         "text": "Edith Hall",
@@ -23976,7 +24064,7 @@
             },
             {
                 "name": "Edith Hall",
-                "title": "Professor of Classics and ama at Royal Holloway, University of London",
+                "title": "Professor of Classics and Drama at Royal Holloway, University of London",
                 "links": [
                     {
                         "text": "Edith Hall",
@@ -24601,7 +24689,7 @@
             },
             {
                 "name": "Julie Sanders",
-                "title": "Professor of English Literature and ama at the University of Nottingham",
+                "title": "Professor of English Literature and Drama at the University of Nottingham",
                 "links": [
                     {
                         "text": "Julie Sanders",
@@ -26584,7 +26672,7 @@
             },
             {
                 "name": "Julie Sanders",
-                "title": "Professor of English Literature and ama at the University of Nottingham",
+                "title": "Professor of English Literature and Drama at the University of Nottingham",
                 "links": [
                     {
                         "text": "Julie Sanders",
@@ -29108,7 +29196,7 @@
             },
             {
                 "name": "Edith Hall",
-                "title": "Professor of Classics and ama at Royal Holloway, University of London",
+                "title": "Professor of Classics and Drama at Royal Holloway, University of London",
                 "links": [
                     {
                         "text": "Edith Hall",
@@ -38932,6 +39020,10 @@
                     {
                         "text": "Claire Tomalin",
                         "wiki": "https://en.wikipedia.org/wiki/Claire_Tomalin"
+                    },
+                    {
+                        "text": "literary biographer",
+                        "wiki": "https://en.wikipedia.org/wiki/Literary_biographer"
                     }
                 ]
             },

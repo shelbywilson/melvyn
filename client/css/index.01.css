@@ -1,0 +1,61 @@
+@keyframes loading {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.filters {
+    margin-top: 1rem;
+}
+.ranking {
+    display: flex;
+    flex-direction: row;
+}
+.episode {
+    border-top: 1px solid;
+    padding: var(--padding);
+}
+.episode-title {
+    margin-bottom: var(--padding);
+}
+.episode:last-child {
+    border-bottom: 1px solid;
+}
+.episode-about {
+    display: flex;
+    flex-direction: row;
+}
+.expert:not(:last-child) {
+    margin: 0 0 1.5rem 0;
+}
+.ranking {
+    margin-top: var(--padding);
+}
+#loading {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+#loading img {
+    width: 100px;
+    display: block;
+    animation: loading 3000ms infinite linear;
+}
+#episodes {
+    margin: 0 calc(-1 * var(--padding));
+}
+input[type="text"], select {
+    padding: 3px;
+    width: 200px;
+}
+
+@media screen and (max-width: 776px) {
+    .episode-about, .ranking {
+        flex-direction: column;
+    }
+    .ranking {
+        margin-top: 3rem;
+    }
+}
