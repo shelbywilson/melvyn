@@ -1,0 +1,44 @@
+/* .episodes-list {
+    margin: 0 -1rem;
+}
+.episode {
+    max-width: 100%;
+    flex: 508px 0 0;
+    margin: 3rem 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.episode div:first-child {
+   flex: 200px 0 0;
+   max-width: 33vw;
+}
+.episode div:last-child {
+    padding-left: 1rem;
+ }
+ .episode div:last-child p {
+    margin: 0.75rem 0;
+ } */
+ .category-summary {
+    max-width: 700px;
+ }
+ ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -1.25rem;
+    list-style-type: none;
+ }
+ li {
+    margin-left: 0;
+    margin-right: 0;
+    flex: 50% 0 0;
+ }
+ @media screen and (max-width: 776px) {
+    ol {
+        flex-direction: column;
+    }
+    li {
+        flex: auto 1 1;
+        margin-bottom: 1rem;
+    }
+}

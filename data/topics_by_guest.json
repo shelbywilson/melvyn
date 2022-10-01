@@ -1,11 +1,129 @@
 {
+    "Victoria Martin": [
+        {
+            "topic": "The Electron",
+            "wiki_link": "https://en.wikipedia.org/wiki/Electron",
+            "title": "Professor of Collider Physics at the University of Edinburgh",
+            "date": "29 September 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001cf1n"
+        }
+    ],
+    "Harry Cliff": [
+        {
+            "topic": "The Electron",
+            "wiki_link": "https://en.wikipedia.org/wiki/Electron",
+            "title": "Research Fellow in Particle Physics at the University of Cambridge",
+            "date": "29 September 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001cf1n"
+        }
+    ],
+    "Frank Close": [
+        {
+            "topic": "The Electron",
+            "wiki_link": "https://en.wikipedia.org/wiki/Electron",
+            "title": "Professor Emeritus of Theoretical Physics and Fellow Emeritus at Exeter College at the University of Oxford",
+            "date": "29 September 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001cf1n"
+        },
+        {
+            "topic": "The Manhattan Project",
+            "wiki_link": "https://en.wikipedia.org/wiki/Manhattan_Project",
+            "title": "Emeritus Professor of Theoretical Physics at the University of Oxford and a Fellow of Exeter College, Oxford",
+            "date": "7 October 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m00108h1"
+        },
+        {
+            "topic": "Eclipses",
+            "wiki_link": "https://en.wikipedia.org/wiki/Eclipse",
+            "title": "Emeritus Professor of Physics at the University of Oxford",
+            "date": "31 December 2020",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000qmnj"
+        },
+        {
+            "topic": "The Proton",
+            "wiki_link": "https://en.wikipedia.org/wiki/Proton",
+            "title": "Professor Emeritus of Physics at the University of Oxford",
+            "date": "26 April 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/b09zt3mr"
+        },
+        {
+            "topic": "Pauli's exclusion principle",
+            "wiki_link": "https://en.wikipedia.org/wiki/Pauli_exclusion_principle",
+            "title": "Fellow Emeritus at Exeter College, Oxford",
+            "date": "6 April 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b08kscgb"
+        },
+        {
+            "topic": "The Neutron",
+            "wiki_link": "https://en.wikipedia.org/wiki/Neutron",
+            "title": "Professor Emeritus of Physics at the University of Oxford",
+            "date": "14 April 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b076mnkr"
+        },
+        {
+            "topic": "Perpetual motion",
+            "wiki_link": "https://en.wikipedia.org/wiki/Perpetual_motion",
+            "title": "Professor Emeritus of Physics at the University of Oxford",
+            "date": "24 September 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b06c06nd"
+        },
+        {
+            "topic": "The Photon",
+            "wiki_link": "https://en.wikipedia.org/wiki/Photon",
+            "title": "Professor Emeritus of Physics at the University of Oxford",
+            "date": "12 February 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b051vlpf"
+        },
+        {
+            "topic": "Conductors and Semiconductors",
+            "wiki_link": "https://en.wikipedia.org/wiki/Electrical_Conductor",
+            "title": "Professor of Physics at the University of Oxford",
+            "date": "23 February 2012",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01c7sml"
+        },
+        {
+            "topic": "The Neutrino",
+            "wiki_link": "https://en.wikipedia.org/wiki/Neutrino",
+            "title": "Professor of Physics at Exeter College at the University of Oxford",
+            "date": "14 April 2011",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0106tjc"
+        },
+        {
+            "topic": "Radiation",
+            "wiki_link": "https://en.wikipedia.org/wiki/Radiation",
+            "title": "Professor of Physics at Exeter College, University of Oxford",
+            "date": "12 November 2009",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00nqljy"
+        },
+        {
+            "topic": "The Vacuum of Space",
+            "wiki_link": "https://en.wikipedia.org/wiki/Vacuum",
+            "title": "Professor of Physics at Exeter College, Oxford",
+            "date": "30 April 2009",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00jz5t3"
+        },
+        {
+            "topic": "Antimatter",
+            "wiki_link": "https://en.wikipedia.org/wiki/Antimatter",
+            "title": "Professor of Physics at Exeter College, University of Oxford",
+            "date": "4 October 2007",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00808w8"
+        },
+        {
+            "topic": "Laws of Nature",
+            "wiki_link": "https://en.wikipedia.org/wiki/Scientific_law",
+            "title": "theoretical physicist and author of Lucifer's Legacy: The Meaning of Asymmetry",
+            "date": "19 October 2000",
+            "episode_link": "https://www.bbc.co.uk/programmes/p00546x5"
+        }
+    ],
     "Edith Hall": [
         {
             "topic": "Plato's Atlantis",
             "wiki_link": "https://en.wikipedia.org/wiki/Atlantis",
             "title": "Professor of Classics at Durham University",
             "date": "22 September 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m001c6t3"
+            "episode_link": "https://www.bbc.co.uk/programmes/m001c6t3"
         },
         {
             "topic": "Antigone",
@@ -133,7 +251,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Atlantis",
             "title": "Emeritus Professor of Ancient Thought at the University of Exeter",
             "date": "22 September 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m001c6t3"
+            "episode_link": "https://www.bbc.co.uk/programmes/m001c6t3"
         }
     ],
     "Angie Hobbs": [
@@ -142,7 +260,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Atlantis",
             "title": "Professor of the Public Understanding of Philosophy at the University of Sheffield",
             "date": "22 September 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m001c6t3"
+            "episode_link": "https://www.bbc.co.uk/programmes/m001c6t3"
         },
         {
             "topic": "Plato's Gorgias",
@@ -312,7 +430,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
             "title": "Professor of English Literature and Intellectual History at the University of Oxford",
             "date": "15 September 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m001bz77"
+            "episode_link": "https://www.bbc.co.uk/programmes/m001bz77"
         }
     ],
     "Lisa Mullen": [
@@ -321,7 +439,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
             "title": "Teaching Associate in Modern Contemporary Literature at the University of Cambridge",
             "date": "15 September 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m001bz77"
+            "episode_link": "https://www.bbc.co.uk/programmes/m001bz77"
         }
     ],
     "John Bowen": [
@@ -330,7 +448,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
             "title": "Professor of English Literature at the University of York",
             "date": "15 September 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m001bz77"
+            "episode_link": "https://www.bbc.co.uk/programmes/m001bz77"
         },
         {
             "topic": "The Tenant of Wildfell Hall",
@@ -553,7 +671,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Star#Post–main_sequence",
             "title": "Astronomer Royal, Fellow of Trinity College, Cambridge",
             "date": "9 June 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m0018128"
+            "episode_link": "https://www.bbc.co.uk/programmes/m0018128"
         },
         {
             "topic": "Relativity",
@@ -618,7 +736,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Star#Post–main_sequence",
             "title": "Emeritus Member of the Institute of Astronomy and Emeritus Fellow of Emmanuel College, Cambridge",
             "date": "9 June 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m0018128"
+            "episode_link": "https://www.bbc.co.uk/programmes/m0018128"
         },
         {
             "topic": "William and Caroline Herschel",
@@ -746,7 +864,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Star#Post–main_sequence",
             "title": "Professor of Astrophysics at the University of Southampton",
             "date": "9 June 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m0018128"
+            "episode_link": "https://www.bbc.co.uk/programmes/m0018128"
         }
     ],
     "Sally Sedgwick": [
@@ -755,7 +873,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Hegel",
             "title": "Professor and Chair of Philosophy at Boston University",
             "date": "26 May 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m0017k8w"
+            "episode_link": "https://www.bbc.co.uk/programmes/m0017k8w"
         }
     ],
     "Robert Stern": [
@@ -764,7 +882,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Hegel",
             "title": "Professor of Philosophy at the University of Sheffield",
             "date": "26 May 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m0017k8w"
+            "episode_link": "https://www.bbc.co.uk/programmes/m0017k8w"
         },
         {
             "topic": "Hope",
@@ -780,7 +898,7 @@
             "wiki_link": "https://en.wikipedia.org/wiki/Hegel",
             "title": "Professor of Philosophy at the University of Warwick",
             "date": "26 May 2022",
-            "episode_link": "https://www.bbc.co.uk/sounds/play/m0017k8w"
+            "episode_link": "https://www.bbc.co.uk/programmes/m0017k8w"
         }
     ],
     "Vladimir Urbanek": [
@@ -2582,99 +2700,6 @@
             "title": "Founder and President of the Atomic Heritage Foundation",
             "date": "7 October 2021",
             "episode_link": "https://www.bbc.co.uk/programmes/m00108h1"
-        }
-    ],
-    "Frank Close": [
-        {
-            "topic": "The Manhattan Project",
-            "wiki_link": "https://en.wikipedia.org/wiki/Manhattan_Project",
-            "title": "Emeritus Professor of Theoretical Physics at the University of Oxford and a Fellow of Exeter College, Oxford",
-            "date": "7 October 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m00108h1"
-        },
-        {
-            "topic": "Eclipses",
-            "wiki_link": "https://en.wikipedia.org/wiki/Eclipse",
-            "title": "Emeritus Professor of Physics at the University of Oxford",
-            "date": "31 December 2020",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000qmnj"
-        },
-        {
-            "topic": "The Proton",
-            "wiki_link": "https://en.wikipedia.org/wiki/Proton",
-            "title": "Professor Emeritus of Physics at the University of Oxford",
-            "date": "26 April 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/b09zt3mr"
-        },
-        {
-            "topic": "Pauli's exclusion principle",
-            "wiki_link": "https://en.wikipedia.org/wiki/Pauli_exclusion_principle",
-            "title": "Fellow Emeritus at Exeter College, Oxford",
-            "date": "6 April 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b08kscgb"
-        },
-        {
-            "topic": "The Neutron",
-            "wiki_link": "https://en.wikipedia.org/wiki/Neutron",
-            "title": "Professor Emeritus of Physics at the University of Oxford",
-            "date": "14 April 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b076mnkr"
-        },
-        {
-            "topic": "Perpetual motion",
-            "wiki_link": "https://en.wikipedia.org/wiki/Perpetual_motion",
-            "title": "Professor Emeritus of Physics at the University of Oxford",
-            "date": "24 September 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b06c06nd"
-        },
-        {
-            "topic": "The Photon",
-            "wiki_link": "https://en.wikipedia.org/wiki/Photon",
-            "title": "Professor Emeritus of Physics at the University of Oxford",
-            "date": "12 February 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b051vlpf"
-        },
-        {
-            "topic": "Conductors and Semiconductors",
-            "wiki_link": "https://en.wikipedia.org/wiki/Electrical_Conductor",
-            "title": "Professor of Physics at the University of Oxford",
-            "date": "23 February 2012",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01c7sml"
-        },
-        {
-            "topic": "The Neutrino",
-            "wiki_link": "https://en.wikipedia.org/wiki/Neutrino",
-            "title": "Professor of Physics at Exeter College at the University of Oxford",
-            "date": "14 April 2011",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0106tjc"
-        },
-        {
-            "topic": "Radiation",
-            "wiki_link": "https://en.wikipedia.org/wiki/Radiation",
-            "title": "Professor of Physics at Exeter College, University of Oxford",
-            "date": "12 November 2009",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00nqljy"
-        },
-        {
-            "topic": "The Vacuum of Space",
-            "wiki_link": "https://en.wikipedia.org/wiki/Vacuum",
-            "title": "Professor of Physics at Exeter College, Oxford",
-            "date": "30 April 2009",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00jz5t3"
-        },
-        {
-            "topic": "Antimatter",
-            "wiki_link": "https://en.wikipedia.org/wiki/Antimatter",
-            "title": "Professor of Physics at Exeter College, University of Oxford",
-            "date": "4 October 2007",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00808w8"
-        },
-        {
-            "topic": "Laws of Nature",
-            "wiki_link": "https://en.wikipedia.org/wiki/Scientific_law",
-            "title": "theoretical physicist and author of Lucifer's Legacy: The Meaning of Asymmetry",
-            "date": "19 October 2000",
-            "episode_link": "https://www.bbc.co.uk/programmes/p00546x5"
         }
     ],
     "Alexandra Lewis": [

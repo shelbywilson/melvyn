@@ -29,6 +29,7 @@
             let episodes = [];
             let bbcDescriptions = {};
             let guestFrequency = {};
+            let categoriesByEpisode = {};
             let scores = {};
             let thumbnails = {};
 
@@ -38,7 +39,7 @@
 
                 window.onhashchange = display;
                 
-                Promise.all(['scores', './data/bbc_descriptions_short.json', './data/guest_frequency_min.json', './data/episodes_min.json', './data/episode_thumbnails.json'].map((url, i) => {
+                Promise.all(['scores', './data/bbc_descriptions_short.json', './data/guest_frequency_min.json', './data/episodes_min.json', './data/episode_thumbnails.json', './data/categories_by_episode.json',].map((url, i) => {
                     if (i === 0) {
                         return getScores()
                     } 
@@ -49,7 +50,7 @@
                         return data;
                     });
                 })).then((values) => {
-                    [scores, bbcDescriptions, guestFrequency, episodes, thumbnails] = values;
+                    [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode] = values;
                     document.getElementById('loading').style.display = 'none';
 
                     document.getElementById('search').addEventListener('input', filter)
@@ -78,21 +79,22 @@
                     }
                     
                     return ep.topic.toLowerCase().indexOf(state.search) > -1 
-                        || bbcDescriptions[ep.date + '_' + ep.topic].toLowerCase().indexOf(state.search) > -1
-                        || ep.experts.find(expert => expert.name.toLowerCase().indexOf(state.search) > -1)
+                        || (bbcDescriptions[ep.date + '_' + ep.topic] || '').toLowerCase().indexOf(state.search) > -1
+                        || ep.experts.findIndex(expert => expert.name.toLowerCase().indexOf(state.search) > -1) > -1
                         || (scores[ep.topic] || {Comments: ''}).Comments.toLowerCase().indexOf(state.search) > -1
                 }).sort((a, b) => {
                     switch (state.sortBy) {
                         case 'name':
                             return a.topic.localeCompare(b.topic)
                         case 'score':
-                            return scores[b.topic].Score - scores[a.topic].Score
+                            return (scores[b.topic] || {}).Score - (scores[a.topic] || {}).Score
                         case 'date':
                         default:
                             return new Date(b.date) - new Date(a.date)
                     }
                 })
 
+                state.start = Math.min(state.start, filtered.length - 1)
                 state.end = Math.min(state.end, filtered.length - 1)
 
                 document.getElementById('episodes').innerHTML = '';
@@ -114,7 +116,7 @@
                     ep.experts.forEach(expert => 
                         experts += `<div class="expert">
                             <div class="flex-row">
-                                <a href="./guests/${expert.name.replace(/\s/g, '_')}.html">
+                                <a href="./guest/${expert.name.replace(/\s/g, '_').substring(0,100)}.html">
                                     ${expert.name} 
                                     (${guestFrequency[expert.name]} ${guestFrequency[expert.name] === 1 ? 'episode' : 'episodes'})
                                 </a>
@@ -142,7 +144,7 @@
                                 </div>
                                 <p>
                                     <a href="https://www.bbc.co.uk/sounds/play/${ep.episode_link.split('/').pop()}" target="_blank">
-                                        listen &nearr;
+                                        listen &#8599;
                                     </a>
                                 </p>
                             </div>
@@ -158,7 +160,7 @@
                                                 : ''
                                             }
                                             <div>
-                                                wikipedia article &nearr;
+                                                wikipedia article &#8599;
                                             </div>
                                         </a>
                                     </div>
@@ -170,6 +172,7 @@
                                 ${experts}
                             </div>
                         </div>
+                        ${getCategoriesHTML(ep.topic)}
                         ${getRankingHTML(score)}
                     `;
 
@@ -179,6 +182,18 @@
                 document.getElementById('count').innerText = `${filtered.length} ${filtered.length === 1 ? 'episode' : 'episodes'}`
                 document.getElementById('start-to-end').innerText = `${1 + state.start} to ${1 + state.end}`
             }
+
+            function getCategoriesHTML(topic) {
+                let html = '';
+                if ((categoriesByEpisode[topic].length || []) > 0) {
+                    categoriesByEpisode[topic].forEach(cat => {
+                        html += '<a href="./category/' + cat.replace(/\s/g, '_').substring(0, 100) + '.html">' + cat + '</a>'
+                    })
+                    return `<div class="categories">${html}</div>`
+                }
+                return ''
+            }
+
             function changePage(direction) {
                 if (direction === -1) {
                     state.start = Math.max(0, state.start - PAGE_SIZE);

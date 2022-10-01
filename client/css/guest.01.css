@@ -13,6 +13,7 @@ h3 {
 }
 .ranking p {
     margin-left: 0;
+    margin-top: 0.5rem;
 }
 @media screen and (max-width: 776px) {
     .episode-content {

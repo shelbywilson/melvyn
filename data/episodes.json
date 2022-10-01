@@ -1,7 +1,57 @@
 [
     {
+        "date": "29 September 2022",
+        "episode_link": "https://www.bbc.co.uk/programmes/m001cf1n",
+        "topic": "The Electron",
+        "wiki_link": "https://en.wikipedia.org/wiki/Electron",
+        "experts": [
+            {
+                "name": "Victoria Martin",
+                "title": "Professor of Collider Physics at the University of Edinburgh",
+                "links": [
+                    {
+                        "text": "Victoria Martin",
+                        "wiki": "https://en.wikipedia.org/wiki/Victoria_Martin"
+                    },
+                    {
+                        "text": "University of Edinburgh",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+                    }
+                ]
+            },
+            {
+                "name": "Harry Cliff",
+                "title": "Research Fellow in Particle Physics at the University of Cambridge",
+                "links": [
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Frank Close",
+                "title": "Professor Emeritus of Theoretical Physics and Fellow Emeritus at Exeter College at the University of Oxford",
+                "links": [
+                    {
+                        "text": "Frank Close",
+                        "wiki": "https://en.wikipedia.org/wiki/Frank_Close"
+                    },
+                    {
+                        "text": "Exeter College",
+                        "wiki": "https://en.wikipedia.org/wiki/Exeter_College,_Oxford"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "22 September 2022",
-        "episode_link": "https://www.bbc.co.uk/sounds/play/m001c6t3",
+        "episode_link": "https://www.bbc.co.uk/programmes/m001c6t3",
         "topic": "Plato's Atlantis",
         "wiki_link": "https://en.wikipedia.org/wiki/Atlantis",
         "experts": [
@@ -47,7 +97,7 @@
     },
     {
         "date": "15 September 2022",
-        "episode_link": "https://www.bbc.co.uk/sounds/play/m001bz77",
+        "episode_link": "https://www.bbc.co.uk/programmes/m001bz77",
         "topic": "Nineteen Eighty-Four",
         "wiki_link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
         "experts": [
@@ -202,7 +252,7 @@
     },
     {
         "date": "9 June 2022",
-        "episode_link": "https://www.bbc.co.uk/sounds/play/m0018128",
+        "episode_link": "https://www.bbc.co.uk/programmes/m0018128",
         "topic": "The Death of Stars",
         "wiki_link": "https://en.wikipedia.org/wiki/Star#Post–main_sequence",
         "experts": [
@@ -256,7 +306,7 @@
     },
     {
         "date": "26 May 2022",
-        "episode_link": "https://www.bbc.co.uk/sounds/play/m0017k8w",
+        "episode_link": "https://www.bbc.co.uk/programmes/m0017k8w",
         "topic": "Hegel's Philosophy of History",
         "wiki_link": "https://en.wikipedia.org/wiki/Hegel",
         "experts": [

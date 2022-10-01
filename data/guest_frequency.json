@@ -1,4 +1,67 @@
 {
+    "Victoria Martin": {
+        "count": 1,
+        "first": "29 September 2022",
+        "last": "29 September 2022",
+        "links": [
+            {
+                "text": "Victoria Martin",
+                "wiki": "https://en.wikipedia.org/wiki/Victoria_Martin"
+            },
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "Professor of Collider Physics at the University of Edinburgh"
+        ]
+    },
+    "Harry Cliff": {
+        "count": 1,
+        "first": "29 September 2022",
+        "last": "29 September 2022",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Research Fellow in Particle Physics at the University of Cambridge"
+        ]
+    },
+    "Frank Close": {
+        "count": 14,
+        "first": "19 October 2000",
+        "last": "29 September 2022",
+        "links": [
+            {
+                "text": "Frank Close",
+                "wiki": "https://en.wikipedia.org/wiki/Frank_Close"
+            },
+            {
+                "text": "Exeter College",
+                "wiki": "https://en.wikipedia.org/wiki/Exeter_College,_Oxford"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Professor Emeritus of Theoretical Physics and Fellow Emeritus at Exeter College at the University of Oxford",
+            "Emeritus Professor of Theoretical Physics at the University of Oxford and a Fellow of Exeter College, Oxford",
+            "Emeritus Professor of Physics at the University of Oxford",
+            "Professor Emeritus of Physics at the University of Oxford",
+            "Fellow Emeritus at Exeter College, Oxford",
+            "Professor of Physics at the University of Oxford",
+            "Professor of Physics at Exeter College at the University of Oxford",
+            "Professor of Physics at Exeter College, University of Oxford",
+            "Professor of Physics at Exeter College, Oxford",
+            "theoretical physicist and author of Lucifer's Legacy: The Meaning of Asymmetry"
+        ]
+    },
     "Edith Hall": {
         "count": 18,
         "first": "5 February 2004",
@@ -1910,36 +1973,6 @@
         ],
         "title": [
             "Founder and President of the Atomic Heritage Foundation"
-        ]
-    },
-    "Frank Close": {
-        "count": 13,
-        "first": "19 October 2000",
-        "last": "7 October 2021",
-        "links": [
-            {
-                "text": "Frank Close",
-                "wiki": "https://en.wikipedia.org/wiki/Frank_Close"
-            },
-            {
-                "text": "University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
-            },
-            {
-                "text": "Exeter College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/Exeter_College,_Oxford"
-            }
-        ],
-        "title": [
-            "Emeritus Professor of Theoretical Physics at the University of Oxford and a Fellow of Exeter College, Oxford",
-            "Emeritus Professor of Physics at the University of Oxford",
-            "Professor Emeritus of Physics at the University of Oxford",
-            "Fellow Emeritus at Exeter College, Oxford",
-            "Professor of Physics at the University of Oxford",
-            "Professor of Physics at Exeter College at the University of Oxford",
-            "Professor of Physics at Exeter College, University of Oxford",
-            "Professor of Physics at Exeter College, Oxford",
-            "theoretical physicist and author of Lucifer's Legacy: The Meaning of Asymmetry"
         ]
     },
     "Alexandra Lewis": {

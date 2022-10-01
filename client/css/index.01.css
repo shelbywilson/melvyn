@@ -58,4 +58,8 @@ input[type="text"], select {
     .ranking {
         margin-top: 3rem;
     }
+    .ranking p {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
 }
