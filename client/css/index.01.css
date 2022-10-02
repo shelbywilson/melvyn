@@ -62,4 +62,13 @@ input[type="text"], select {
         margin-left: 0;
         margin-top: 0.5rem;
     }
+    .filters {
+        width: 100%;
+    }
+    .filters .flex-column {
+        width: 100%;
+    }
+    input[type="text"], select {
+        width: 100%;
+    }
 }

@@ -66,7 +66,7 @@ def get_episode_row(key, this_guest = False):
         guest_list = 'Featuring: '
     for expert in episode['experts']:
         if expert['name'] != this_guest:
-            guest_list += '<span><a href="./../guest/' + get_url(expert['name']) + '.html">' + expert['name'] + '</a></span>, '
+            guest_list += '<span>' + a(expert['name'], './../guest/' + get_url(expert['name']) + '.html', 'no-wrap') + '</span>, '
     guest_list = guest_list[:len(guest_list) - 2]
 
     content = (
