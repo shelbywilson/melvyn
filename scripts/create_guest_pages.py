@@ -1,5 +1,5 @@
 import json
-from html_util import get_url, get_html_page, div, p, li, a, get_episode_row
+from html_util import get_url, get_html_page, div, get_episode_row
 
 def create_guest_pages():
     print('\n### start create_guest_pages')
@@ -83,7 +83,7 @@ def create_guest_pages():
         guest_html += '</ol>'
         
         w = open('./../guest/' + get_url(guest) + '.html', 'w')
-        w.write(get_html_page(guest_html, guest, ['guest.01'], ['util', 'add-episode-scores']))
+        w.write(get_html_page(guest_html, guest, ['guest'], ['util', 'add-episode-scores']))
         w.close()
     
     print('\t', len(topics_by_guest.keys()), 'guest pages written')
@@ -111,7 +111,7 @@ def create_guest_pages():
     index_html += '</ul>'
 
     w = open('./../guest/index.html', 'w')
-    w.write(get_html_page(index_html, 'all guests', ['guests.01'], ['util.js']))
+    w.write(get_html_page(index_html, 'all guests', ['guests'], ['util.js']))
     w.close()
 
     print('### end create_guest_pages')

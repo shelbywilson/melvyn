@@ -52,7 +52,7 @@ def create_topic_category_page():
         index_html += '<details><summary>' + key + ' (' + str(len(topics_by_category[key])) + ')</summary>' + p(episode_list) + '</details>'
 
         w = open('./../category/' + get_url(key) + '.html', 'w')
-        w.write(get_html_page(category_html, key, ['guest.01', 'category.01'], ['util', 'add-episode-scores']))
+        w.write(get_html_page(category_html, key, ['guest', 'category'], ['util', 'add-episode-scores']))
         w.close()
     
     print('\t', len(topics_by_category.keys()), 'category pages written')
