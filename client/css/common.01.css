@@ -121,7 +121,24 @@ p {
 .score-100 {
     background: hsl(300, 100%, 50%);
 }
-
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#episodes {
+    margin: 0 calc(-1 * var(--padding));
+}
+.episode {
+    border-top: 1px solid;
+    padding: var(--padding);
+}
+.episode-title {
+    margin-bottom: var(--padding);
+}
+.episode:last-child {
+    border-bottom: 1px solid;
+}
 .episode-content {
     display: flex;
     flex-direction: row;
@@ -145,6 +162,9 @@ p {
     text-align: center;
     flex: 0 0 240px;
     text-align: center;
+}
+header .categories {
+    margin-top: var(--padding);
 }
 .categories {
     margin-top: 3rem;

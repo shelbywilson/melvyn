@@ -48,9 +48,6 @@ def create_guest_pages():
             # print('\t--- no wiki link ', guest)
         guest_html += '</p>'
 
-        # end header
-        guest_html += '</header>'
-
         # add set of categories
         set_of_cat = []
         for episode in topics_by_guest[guest]:
@@ -62,11 +59,6 @@ def create_guest_pages():
             except:
                 pass
                 
-        related_html = ''
-        for category in sorted(set_of_cat, key=sort_by_frequency_category, reverse=True):
-            related_html += '<a href="./../category/' + get_url(category) + '.html">' + category + '</a>'
-        guest_html += div(related_html, 'categories')
-
         # add episode count
         count = frequency[guest]['count']
         if count != 1:
@@ -75,8 +67,17 @@ def create_guest_pages():
             count_label = ' episode'
         guest_html += '<p class="mb-0">' + str(frequency[guest]['count']) + count_label + '</p>'
 
+        # add related categories
+        related_html = ''
+        for category in sorted(set_of_cat, key=sort_by_frequency_category, reverse=True):
+            related_html += '<a href="./../category/' + get_url(category) + '.html">' + category + '</a>'
+        guest_html += div(related_html, 'categories')
+
+        # end header
+        guest_html += '</header>'
+
         # add episodes
-        guest_html += '<ol>'
+        guest_html += '<ol id="episodes">'
         for episode in topics_by_guest[guest]:
             guest_html += get_episode_row(episode['topic'], guest)
         guest_html += '</ol>'

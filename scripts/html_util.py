@@ -66,7 +66,7 @@ def get_episode_row(key, this_guest = False):
         guest_list = 'Featuring: '
     for expert in episode['experts']:
         if expert['name'] != this_guest:
-            guest_list += '<span>' + a(expert['name'], './../guest/' + get_url(expert['name']) + '.html', 'no-wrap') + '</span>, '
+            guest_list += '<span>' + a(expert['name'], './../guest/' + get_url(expert['name']) + '.html', 'no-wrap', False) + '</span>, '
     guest_list = guest_list[:len(guest_list) - 2]
 
     content = (
@@ -79,10 +79,11 @@ def get_episode_row(key, this_guest = False):
     ranking_placeholder = '<div data-topic="' + episode['topic'] + '" class="episode-ranking"><div class="ranking"><div class="flex-row"><div class="progress-bar"><div class="score-60"></div></div><div class="ranking-label">&nbsp;</div></div></div></div>'
 
     return li(
-        div('<h3>' + episode['topic'] + '</h3>') 
+        div('<h3>' + episode['topic'] + '</h3>', 'episode-title') 
         + div(div(content, "content-col")
         + div(wiki_link, "wiki-col") 
         + div(ranking_placeholder , "meta-col"), "episode-content") 
+        , 'episode'
     )
 
 def get_html_page(content, title = "", css = [], js = []):

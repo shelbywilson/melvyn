@@ -21,7 +21,8 @@ def create_topic_category_page():
         return len(topics_by_category[key])
 
     for key in sorted(topics_by_category.keys(), key=sort_by_len, reverse=True):
-        category_html = p(a('&larr; episodes', './../', '', False), 'header-back-link')
+        category_html = '<header>' 
+        category_html += p(a('&larr; episodes', './../', '', False), 'header-back-link')
         category_html += '<h1>' + key + '</h1>'
     
         try:
@@ -43,8 +44,10 @@ def create_topic_category_page():
         for cat in sorted(related_categories, key=sort_by_len, reverse=True):
             related_html += a(cat, './../category/' + get_url(cat) + '.html', '', False)
 
-        category_html += '<ol>' + episode_list + '</ol>'
         category_html += div(related_html, 'categories')
+        category_html += '</header>' 
+
+        category_html += '<ol id="episodes">' + episode_list + '</ol>'
 
         index_html += '<details><summary>' + key + ' (' + str(len(topics_by_category[key])) + ')</summary>' + p(episode_list) + '</details>'
 

@@ -13,16 +13,6 @@
     display: flex;
     flex-direction: row;
 }
-.episode {
-    border-top: 1px solid;
-    padding: var(--padding);
-}
-.episode-title {
-    margin-bottom: var(--padding);
-}
-.episode:last-child {
-    border-bottom: 1px solid;
-}
 .episode-about {
     display: flex;
     flex-direction: row;
@@ -42,9 +32,6 @@
     width: 100px;
     display: block;
     animation: loading 3000ms infinite linear;
-}
-#episodes {
-    margin: 0 calc(-1 * var(--padding));
 }
 input[type="text"], select {
     padding: 3px;

@@ -1,12 +1,5 @@
-header {
+header p {
     max-width: 700px;
-}
-ol {
-    padding-left: 1.25rem;
-    margin: 4rem 0 0 0;
-}
-li {
-    margin: 0 0 5rem -1.25rem;
 }
 h3 {
     margin-bottom: 1.5rem;
