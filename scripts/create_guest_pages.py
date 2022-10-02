@@ -1,5 +1,5 @@
 import json
-from html_util import get_url, get_html_page, div, p, li, a
+from html_util import get_url, get_html_page, div, p, li, a, get_episode_row
 
 def create_guest_pages():
     print('\n### start create_guest_pages')
@@ -12,18 +12,6 @@ def create_guest_pages():
 
     f = open('./../data/topics_by_guest.json')
     topics_by_guest = json.load(f)
-    f.close()
-
-    f = open('./../data/episodes.json')
-    episodes = json.load(f)
-    f.close()
-
-    f = open('./../data/bbc_descriptions_short.json')
-    descriptions = json.load(f)
-    f.close()
-
-    f = open('./../data/episode_thumbnails.json')
-    episode_thumbnails = json.load(f)
     f.close()
 
     f = open('./../data/categories_by_episode.json')
@@ -72,7 +60,7 @@ def create_guest_pages():
                     if category not in set_of_cat:
                         set_of_cat.append(category)
             except:
-                print('')
+                pass
                 
         related_html = ''
         for category in sorted(set_of_cat, key=sort_by_frequency_category, reverse=True):
@@ -90,47 +78,11 @@ def create_guest_pages():
         # add episodes
         guest_html += '<ol>'
         for episode in topics_by_guest[guest]:
-            desc = descriptions[episode['date'] + '_' + episode['topic']]
-            # prev_guest_title = episode['title'] 
-
-            # get episode thumbnail
-            wiki_img = ''
-            try:
-                if episode_thumbnails[episode['topic']] != "":
-                    wiki_img = '<div><img src="' + episode_thumbnails[episode['topic']] + '" /></div>'
-            except:
-                wiki_img = ''
-            wiki_link = '<a href="' + episode['wiki_link'] + '" target="_blank">' + wiki_img + '<div>wikipedia article &#8599;</div></a>'
-            ranking_placeholder = '<div data-topic="' + episode['topic'] + '" class="episode-ranking"><div class="ranking"><div class="flex-row"><div class="progress-bar"><div class="score-60"></div></div><div class="ranking-label">&nbsp;</div></div></div></div>'
-            
-            # list guests
-            other_guests = ''
-            for ep in episodes:
-                if (ep['topic'] == episode['topic']):
-                    for expert in ep['experts']:
-                        if expert['name'] != guest:
-                            other_guests += '<span><a href="./../guest/' + get_url(expert['name']) + '.html">' + expert['name'] + '</a></span>, '
-                    break
-            other_guests = other_guests[:len(other_guests) - 2]
-                
-            # list categories 
-            categories_by_episode_html = ''
-            # try:
-            #     for category in categories_by_episode[episode['topic']]:
-            #         categories_by_episode_html += '<a href="./../category/' + get_url(category) + '.html">' + category + '</a>'
-            # except:
-            #     print('\t no non-unique episode categories', episode['topic'])
-            # if (categories_by_episode_html):
-            #     categories_by_episode_html = div(categories_by_episode_html, 'categories')
-
-            content = p(desc) + p(episode['date']) + p(a('listen &#8599;', 'https://www.bbc.co.uk/sounds/play/' + episode['episode_link'].split('/').pop())) + p('Also featuring: ' + other_guests)
-            meta_content = ranking_placeholder
-
-            guest_html += li(div('<h3>' + episode['topic'] + '</h3>') + div(div(content, "content-col") + div(wiki_link, "wiki-col") + div(meta_content , "meta-col"), "episode-content") + categories_by_episode_html)
+            guest_html += get_episode_row(episode['topic'], guest)
         guest_html += '</ol>'
         
         w = open('./../guest/' + get_url(guest) + '.html', 'w')
-        w.write(get_html_page(guest_html, guest, ['guest.01'], ['util', 'guest-page']))
+        w.write(get_html_page(guest_html, guest, ['guest.01'], ['util', 'add-episode-scores']))
         w.close()
     
     print('\t', len(topics_by_guest.keys()), 'guest pages written')

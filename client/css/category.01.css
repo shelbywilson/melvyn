@@ -21,7 +21,7 @@
  .category-summary {
     max-width: 700px;
  }
- ol {
+ /* ol {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,13 +32,13 @@
     margin-left: 0;
     margin-right: 0;
     flex: 50% 0 0;
- }
+ } */
  @media screen and (max-width: 776px) {
-    ol {
+    /* ol {
         flex-direction: column;
     }
     li {
         flex: auto 1 1;
         margin-bottom: 1rem;
-    }
+    } */
 }

@@ -1,6 +1,19 @@
 import json
+
 f = open('./../config/config.json')
 config = json.load(f)
+f.close()
+
+f = open('./../data/episodes_dictionary.json')
+episodes_dictionary = json.load(f)
+f.close()
+
+f = open('./../data/bbc_descriptions_short.json')
+descriptions = json.load(f)
+f.close()
+
+f = open('./../data/episode_thumbnails.json')
+episode_thumbnails = json.load(f)
 f.close()
 
 def div(inner, _class = ""):
@@ -31,6 +44,46 @@ def wrapper(tag, inner, _class = "", attr = []):
 def get_url(key):
     url = key.replace(' ', '_')
     return url[0:config['MAX_LENGTH_URL']]
+
+def get_wiki_img(key):
+    wiki_img = ''
+    try:
+        if episode_thumbnails[key] != "":
+            wiki_img = '<div><img src="' + episode_thumbnails[key] + '" /></div>'
+    except:
+        pass
+    return wiki_img
+
+def get_description(key):
+    return descriptions[episodes_dictionary[key]['date'] + '_' + key]
+
+def get_episode_row(key, this_guest = False):
+    episode = episodes_dictionary[key]
+
+    if this_guest:
+        guest_list = 'Also featuring: '
+    else: 
+        guest_list = 'Featuring: '
+    for expert in episode['experts']:
+        if expert['name'] != this_guest:
+            guest_list += '<span><a href="./../guest/' + get_url(expert['name']) + '.html">' + expert['name'] + '</a></span>, '
+    guest_list = guest_list[:len(guest_list) - 2]
+
+    content = (
+        p(get_description(key)) 
+        + p(episode['date']) 
+        + p(a('listen &#8599;', 'https://www.bbc.co.uk/sounds/play/' + episode['episode_link'].split('/').pop())) 
+        + p(guest_list)
+    )
+    wiki_link = '<a href="' + episode['wiki_link'] + '" target="_blank">' + get_wiki_img(key) + '<div>wikipedia article &#8599;</div></a>'
+    ranking_placeholder = '<div data-topic="' + episode['topic'] + '" class="episode-ranking"><div class="ranking"><div class="flex-row"><div class="progress-bar"><div class="score-60"></div></div><div class="ranking-label">&nbsp;</div></div></div></div>'
+
+    return li(
+        div('<h3>' + episode['topic'] + '</h3>') 
+        + div(div(content, "content-col")
+        + div(wiki_link, "wiki-col") 
+        + div(ranking_placeholder , "meta-col"), "episode-content") 
+    )
 
 def get_html_page(content, title = "", css = [], js = []):
     meta = ''

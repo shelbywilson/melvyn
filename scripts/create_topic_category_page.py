@@ -1,5 +1,5 @@
 import json
-from html_util import get_html_page, get_url, div, li, p, a
+from html_util import get_html_page, get_url, div, p, a, get_episode_row
 
 def create_topic_category_page():
     print('\n### start create_topic_category_page')
@@ -9,18 +9,6 @@ def create_topic_category_page():
 
     f = open('./../data/categories_by_episode.json')
     categories_by_episode = json.load(f)
-    f.close()
-
-    f = open('./../data/episodes_dictionary.json')
-    episodes_dictionary = json.load(f)
-    f.close()
-
-    f = open('./../data/episode_thumbnails.json')
-    thumbnails = json.load(f)
-    f.close()
-
-    f = open('./../data/bbc_descriptions_short.json')
-    descriptions = json.load(f)
     f.close()
 
     f = open('./../data/category_summaries.json')
@@ -45,27 +33,15 @@ def create_topic_category_page():
 
         episode_list = ''
         related_categories = set()
-        for episode in sorted(topics_by_category[key]):
-            episode_list += li(
-                div(
-                    '<h3 class="">' + episode + '</h3>' 
-                    + div(
-                        div(
-                            p(descriptions[episodes_dictionary[episode]['date'] + '_' + episode]) + p(episodes_dictionary[episode]['date']) 
-                            + p(a('listen &#8599;', 'https://www.bbc.co.uk/sounds/play/' + episodes_dictionary[episode]['episode_link'].split('/').pop(), 'content-col'))
-                        , 'content-col') 
-                        + div('<img src="' + thumbnails[episode] + '" />', 'wiki-col')
-                        # + div('&nbsp;', 'meta-col')
-                    , 'episode-content')
-                ) 
-            )
-            for cat in categories_by_episode[episode]:
+        for topic in sorted(topics_by_category[key]):
+            episode_list += get_episode_row(topic)
+            for cat in categories_by_episode[topic]:
                 if cat != key:
                     related_categories.add(cat)
 
         related_html = ''
         for cat in sorted(related_categories, key=sort_by_len, reverse=True):
-            related_html += a(cat, './../category/' + get_url( get_url(cat)) + '.html', '', False)
+            related_html += a(cat, './../category/' + get_url(cat) + '.html', '', False)
 
         category_html += '<ol>' + episode_list + '</ol>'
         category_html += div(related_html, 'categories')
@@ -73,7 +49,7 @@ def create_topic_category_page():
         index_html += '<details><summary>' + key + ' (' + str(len(topics_by_category[key])) + ')</summary>' + p(episode_list) + '</details>'
 
         w = open('./../category/' + get_url(key) + '.html', 'w')
-        w.write(get_html_page(category_html, key, ['guest.01', 'category.01']))
+        w.write(get_html_page(category_html, key, ['guest.01', 'category.01'], ['util', 'add-episode-scores']))
         w.close()
     
     print('\t', len(topics_by_category.keys()), 'category pages written')

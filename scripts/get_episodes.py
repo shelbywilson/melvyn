@@ -46,9 +46,10 @@ def get_episodes():
                     experts_min.append({ 'name': name, 'title': title })
             i += 1
         if topic != "" and episode_link != "":
-            ep = { 'date': date, 'episode_link': episode_link, 'topic': topic, 'wiki_link': wiki_link, 'experts': experts }
+            id = len(episodes_dictionary) + 1
+            ep = { 'date': date, 'id': id, 'episode_link': episode_link, 'topic': topic, 'wiki_link': wiki_link, 'experts': experts }
             episodes.insert(0, ep)
-            episodes_min.insert(0, { 'date': date, 'episode_link': episode_link, 'topic': topic, 'wiki_link': wiki_link, 'experts': experts_min })
+            episodes_min.insert(0, { 'date': date, 'id': id, 'episode_link': episode_link, 'topic': topic, 'wiki_link': wiki_link, 'experts': experts_min })
             episodes_dictionary[topic] = ep
 
     #     url = link.get('href')
@@ -77,3 +78,6 @@ def get_episodes():
     w.close()
 
     print('\n### end get_episodes')
+
+if __name__=="__main__":
+    get_episodes()
