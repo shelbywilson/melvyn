@@ -86,11 +86,14 @@
                     if (!state.search) {
                         return true;
                     }
+
+                    const normalizedSearch = state.search.toLowerCase()
                     
-                    return ep.topic.toLowerCase().indexOf(state.search) > -1 
-                        || (bbcDescriptions[ep.date + '_' + ep.topic] || '').toLowerCase().indexOf(state.search) > -1
-                        || ep.experts.findIndex(expert => expert.name.toLowerCase().indexOf(state.search) > -1) > -1
-                        || (scores[ep.topic] || {Comments: ''}).Comments.toLowerCase().indexOf(state.search) > -1
+                    return ep.topic.toLowerCase().indexOf(normalizedSearch) > -1 
+                        || categoriesByEpisode[ep.topic].find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1)
+                        || (bbcDescriptions[ep.date + '_' + ep.topic] || '').toLowerCase().indexOf(normalizedSearch) > -1
+                        || ep.experts.find(expert => expert.name.toLowerCase().indexOf(normalizedSearch) > -1)
+                        || (scores[ep.topic] || {Comments: ''}).Comments.toLowerCase().indexOf(normalizedSearch) > -1
                 }).sort((a, b) => {
                     switch (state.sortBy) {
                         case 'name':
