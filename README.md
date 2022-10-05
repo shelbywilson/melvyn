@@ -3,7 +3,7 @@
 [https://shelby.cool/melvyn/](https://shelby.cool/melvyn/)
 
 ## scripts
-Episodes are scraped from [Wikipedia's List of In Our Time Programmes](https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes) and their descriptions from [BBC](https://www.bbc.co.uk/sounds/brand/b006qykl) using python. 
+Using python scripts, episodes are scraped from [Wikipedia's List of In Our Time Programmes](https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes) and their descriptions are scraped from [BBC](https://www.bbc.co.uk/sounds/brand/b006qykl) and html pages are generated from this data. 
 
 If there is an associated Wikipedia article, that is followed and its categories are compiled. Any categories to which multiple episodes' articles are associated will be displayed (this is to reduce noise since any categories that only apply to a single episode are not a useful/interesting grouping), and these link to a category page:
 
