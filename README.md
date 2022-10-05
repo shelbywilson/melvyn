@@ -14,7 +14,7 @@ e.g. Aesthetics and Theoretical Physics
 In the cases where categories share an identical set of episodes, they are collapsed into a single category (e.g. ["Ancient Greek metaphysicians, Ancient Greek ethicists, Ancient Greek metaphilosophers"](https://shelby.cool/melvyn/category/Ancient_Greek_metaphilosophers,_Ancient_Greek_metaphysicians,_Ancient_Greek_ethicists.html) is a single category since all three are associated to the episodes: "Plato's Gorgias", "Heraclitus", "Pythagoras", and "Socrates").
 
 Each guest has their own page as well:
-<img width="1171" alt="Emma Smith" src="https://user-images.githubusercontent.com/5523024/193951523-740f7194-ea5c-46b1-acfe-cf19cf39b110.png">
+<img width="1171" alt="Emma Smith" src="https://user-images.githubusercontent.com/5523024/193951523-740f7194-ea5c-46b1-acfe-cf19cf39b110.png">(https://shelby.cool/melvyn/guest/Emma_Smith.html)
 
 A Google sheet supplies ranking and comments.
 
