@@ -12,9 +12,11 @@ def get_topic_categories():
     episodes = json.load(f)
     f.close()
 
-    f = open('./../data/topics_by_category.json')
-    dictionary = json.load(f)
-    f.close()
+    # f = open('./../data/topics_by_category.json')
+    # dictionary = json.load(f)
+    # f.close()
+
+    dictionary = {}
 
     f = open('./../data/categories_by_episode.json')
     categories_by_episode = json.load(f)
@@ -32,18 +34,18 @@ def get_topic_categories():
     for episode in episodes:
         categories_by_episode[episode['topic']] = []
         if (episode['wiki_link'] != ""):
-            if episode['topic'] not in categories_by_episode:
-                print('new episode', episodes['topic'])
-                html_page = urllib.request.urlopen(episode['wiki_link'])
-                soup = BeautifulSoup(html_page, "html.parser")
-                try:
-                    categories = soup.find('div', {'id': "mw-normal-catlinks"}).find_all('li')
-                    for category in categories:
-                        if (category.get_text() not in dictionary):
-                            dictionary[category.get_text()] = []
-                        dictionary[category.get_text()].append(episode['topic'])
-                except:
-                    print('\tno categories', episode['topic'])
+            # if episode['topic'] not in categories_by_episode:
+            #     print('new episode', episodes['topic'])
+            html_page = urllib.request.urlopen(episode['wiki_link'])
+            soup = BeautifulSoup(html_page, "html.parser")
+            try:
+                categories = soup.find('div', {'id': "mw-normal-catlinks"}).find_all('li')
+                for category in categories:
+                    if (category.get_text() not in dictionary):
+                        dictionary[category.get_text()] = []
+                    dictionary[category.get_text()].append(episode['topic'])
+            except:
+                print('\tno categories', episode['topic'])
         # else:
             # print('\t--', 'no wiki link', episode['topic'])
     print('\t', len(dictionary.keys()), 'categories')

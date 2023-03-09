@@ -1,132 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="index,follow" />
-        <meta name="googlebot" content="index,follow" />
-        <meta name="description" content="" />
-        <meta property="og:url" content="h" />
-        <meta property="og:title" content="in our time" />
-        <meta property="og:description" content="" />
-        <meta name="theme-color" content="#000">
-        <title>in our time</title>
-        <link rel="stylesheet" type="text/css" href="./client/css/common.02.css" />
-        <link rel="stylesheet" type="text/css" href="./client/css/index.02.css" />
-        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
-        <script src="client/util.js"></script>
 
-        <script>
-            let page = parseInt(window.location.hash.split('page=').pop()) || 0
-            const PAGE_SIZE = 50;
-            let state = {
-                start: page * PAGE_SIZE, 
-                end: (page + 1) * PAGE_SIZE,
-                scoredOnly: false,
-                sortBy: 'date',
-            }
-            let config = {};
-            let episodes = [];
-            let bbcDescriptions = {};
-            let guestFrequency = {};
-            let categoriesByEpisode = {};
-            let scores = {};
-            let thumbnails = {};
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="description" content="" />
+    <meta property="og:url" content="h" />
+    <meta property="og:title" content="in our time" />
+    <meta property="og:description" content="" />
+    <meta name="theme-color" content="#000">
+    <title>in our time</title>
+    <link rel="stylesheet" type="text/css" href="./client/css/common.02.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/index.02.css" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
+    <script src="client/util.js"></script>
 
-            window.onload = () => {
-                const reader = new FileReader();
-                state.scoredOnly = document.getElementById('scored-only').checked;
+    <script>
+        let page = parseInt(window.location.hash.split('page=').pop()) || 0
+        const PAGE_SIZE = 50;
+        let state = {
+            start: page * PAGE_SIZE,
+            end: (page + 1) * PAGE_SIZE,
+            scoredOnly: false,
+            sortBy: 'date',
+        }
+        let config = {};
+        let episodes = [];
+        let bbcDescriptions = {};
+        let guestFrequency = {};
+        let categoriesByEpisode = {};
+        let scores = {};
+        let thumbnails = {};
 
-                window.onhashchange = display;
-                
-                Promise.all([
-                    'scores', 
-                    './data/bbc_descriptions_short.json', 
-                    './data/guest_frequency_min.json', 
-                    './data/episodes_min.json', 
-                    './data/episode_thumbnails.json', 
-                    './data/categories_by_episode.json',
-                    './config/config.json'
-                    ].map((url, i) => {
-                    if (i === 0) {
-                        return getScores()
-                    } 
+        window.onload = () => {
+            const reader = new FileReader();
+            state.scoredOnly = document.getElementById('scored-only').checked;
 
-                    return fetch(url).then((response) => {
-                        return response.json();
-                    }).then((data) => {
-                        return data;
-                    });
-                })).then((values) => {
-                    [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode, config] = values;
-                    document.getElementById('loading').style.display = 'none';
+            window.onhashchange = display;
 
-                    document.getElementById('search').addEventListener('input', filter)
-                    document.getElementById('scored-only').addEventListener('input', filter)
-                    document.getElementById('sort-by').addEventListener('change', filter)
+            Promise.all([
+                'scores',
+                './data/bbc_descriptions_short.json',
+                './data/guest_frequency_min.json',
+                './data/episodes_min.json',
+                './data/episode_thumbnails.json',
+                './data/categories_by_episode.json',
+                './config/config.json'
+            ].map((url, i) => {
+                if (i === 0) {
+                    return getScores()
+                }
 
-                    state.end = Math.min(episodes.length - 1, ((page + 1) * PAGE_SIZE) - 1)
-                    
-                    display();
-                }).catch(
-                    console.error.bind(console)
-                );
-            }
+                return fetch(url).then((response) => {
+                    return response.json();
+                }).then((data) => {
+                    return data;
+                });
+            })).then((values) => {
+                [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode, config] = values;
+                document.getElementById('loading').style.display = 'none';
 
-            function display() {
-                const filtered = episodes.filter(ep => {
-                    if (!state.scoredOnly) {
-                        return true;
-                    }
-                    let score = scores[ep.topic] || {}
+                document.getElementById('search').addEventListener('input', filter)
+                document.getElementById('scored-only').addEventListener('input', filter)
+                document.getElementById('sort-by').addEventListener('change', filter)
 
-                    return !!score.Score
-                }).filter(ep => {
-                    if (!state.search) {
-                        return true;
-                    }
+                state.end = Math.min(episodes.length - 1, ((page + 1) * PAGE_SIZE) - 1)
 
-                    const normalizedSearch = state.search.toLowerCase()
-                    
-                    return ep.topic.toLowerCase().indexOf(normalizedSearch) > -1 
-                        || categoriesByEpisode[ep.topic].find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1)
-                        || (bbcDescriptions[ep.date + '_' + ep.topic] || '').toLowerCase().indexOf(normalizedSearch) > -1
-                        || ep.experts.find(expert => expert.name.toLowerCase().indexOf(normalizedSearch) > -1)
-                        || (scores[ep.topic] || {Comments: ''}).Comments.toLowerCase().indexOf(normalizedSearch) > -1
-                }).sort((a, b) => {
-                    switch (state.sortBy) {
-                        case 'name':
-                            return a.topic.localeCompare(b.topic)
-                        case 'score':
-                            return (scores[b.topic] || {}).Score - (scores[a.topic] || {}).Score
-                        case 'date':
-                        default:
-                            return new Date(b.date) - new Date(a.date)
-                    }
-                })
+                display();
+            }).catch(
+                console.error.bind(console)
+            );
+        }
 
-                state.start = Math.min(state.start, filtered.length - 1)
-                state.end = Math.min(state.end, filtered.length - 1)
+        function display() {
+            const filtered = episodes.filter(ep => {
+                if (!state.scoredOnly) {
+                    return true;
+                }
+                let score = scores[ep.topic] || {}
 
-                document.getElementById('episodes').innerHTML = '';
+                return !!score.Score
+            }).filter(ep => {
+                if (!state.search) {
+                    return true;
+                }
 
-                document.getElementById('first-page').disabled = state.start === 0;
-                document.getElementById('prev-page').disabled = state.start === 0;
-                document.getElementById('next-page').disabled = state.end >= filtered.length - 1;
-                document.getElementById('last-page').disabled = state.end >= filtered.length - 1;
+                const normalizedSearch = state.search.toLowerCase()
 
-                window.location.hash = state.start > 0 ? `page=${Math.floor(state.start / PAGE_SIZE)}` : ''
+                return ep.topic.toLowerCase().indexOf(normalizedSearch) > -1 ||
+                    categoriesByEpisode[ep.topic].find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
+                    (bbcDescriptions[ep.date + '_' + ep.topic] || '').toLowerCase().indexOf(normalizedSearch) > -1 ||
+                    ep.experts.find(expert => expert.name.toLowerCase().indexOf(normalizedSearch) > -1) ||
+                    (scores[ep.topic] || {
+                        Comments: ''
+                    }).Comments.toLowerCase().indexOf(normalizedSearch) > -1
+            }).sort((a, b) => {
+                switch (state.sortBy) {
+                    case 'name':
+                        return a.topic.localeCompare(b.topic)
+                    case 'score':
+                        return (scores[b.topic] || {}).Score - (scores[a.topic] || {}).Score
+                    case 'date':
+                    default:
+                        return new Date(b.date) - new Date(a.date)
+                }
+            })
 
-                filtered.slice(state.start, state.end + 1).forEach(ep => {
-                    const el = document.createElement('div')
-                    el.classList = ['episode flex-column']
-                    let experts = ''
+            state.start = Math.min(state.start, filtered.length - 1)
+            state.end = Math.min(state.end, filtered.length - 1)
 
-                    let score = scores[ep.topic] || {}
+            document.getElementById('episodes').innerHTML = '';
 
-                    ep.experts.forEach(expert => 
-                        experts += `<div class="expert">
+            document.getElementById('first-page').disabled = state.start === 0;
+            document.getElementById('prev-page').disabled = state.start === 0;
+            document.getElementById('next-page').disabled = state.end >= filtered.length - 1;
+            document.getElementById('last-page').disabled = state.end >= filtered.length - 1;
+
+            window.location.hash = state.start > 0 ? `page=${Math.floor(state.start / PAGE_SIZE)}` : ''
+
+            filtered.slice(state.start, state.end + 1).forEach(ep => {
+                        const el = document.createElement('div')
+                        el.classList = ['episode flex-column']
+                        let experts = ''
+
+                        let score = scores[ep.topic] || {}
+
+                        ep.experts.forEach(expert =>
+                            experts += `<div class="expert">
                             <div class="flex-row">
                                 <a href="./guest/${expert.name.replace(/\s/g, '_').substring(0,100)}.html">
                                     ${expert.name} 
@@ -138,9 +141,9 @@
                             </div>
                         </div>
                         `
-                    )
+                        )
 
-                    el.innerHTML = `
+                        el.innerHTML = `
                         <div class="episode-title">
                             <h3>
                                 ${ep.topic}
@@ -233,24 +236,28 @@
 
                 display();
             }
-        </script>
-    </head>
-    <body>
-        <main>
-            <div>
-                <header>
+    </script>
+</head>
+
+<body>
+    <main>
+        <div>
+            <header>
+                <div class="flex-row space-between">
                     <h1>
                         Hello,
                     </h1>
+                    <a href='https://github.com/shelbywilson/melvyn' target="_blank">about</a>
+                </div>
 
-                    <div class="filters flex-row justify-end">
-                        <div class="flex-column">
-                            <label class="mb-1">
+                <div class="filters flex-row justify-end">
+                    <div class="flex-column">
+                        <label class="mb-1">
                                 <input id="scored-only" type="checkbox" />
                                 scored only
                             </label>
-                            <input class="mb-1" id="search" type="text" placeholder="search" />
-                            <select id="sort-by" value="date" class="mb-1">
+                        <input class="mb-1" id="search" type="text" placeholder="search" />
+                        <select id="sort-by" value="date" class="mb-1">
                                 <option disabled>
                                     sort by
                                 </option>
@@ -264,29 +271,30 @@
                                     score
                                 </option>
                             </select>
-                            <div class="mb-1">
-                                <button id="first-page" disabled="true" onclick="changePage('first')">&#8676;</button>
-                                <button id="prev-page" disabled="true" onclick="changePage(-1)">&#8592;</button>
-                                <button id="next-page" disabled="true" onclick="changePage(1)">&#8594;</button>
-                                <button id="last-page" disabled="true" onclick="changePage('last')">&#8677;</button>
-                            </div>
-                            <div class="mb-1 flex-row space-between">
-                                <span id="start-to-end">
+                        <div class="mb-1">
+                            <button id="first-page" disabled="true" onclick="changePage('first')">&#8676;</button>
+                            <button id="prev-page" disabled="true" onclick="changePage(-1)">&#8592;</button>
+                            <button id="next-page" disabled="true" onclick="changePage(1)">&#8594;</button>
+                            <button id="last-page" disabled="true" onclick="changePage('last')">&#8677;</button>
+                        </div>
+                        <div class="mb-1 flex-row space-between">
+                            <span id="start-to-end">
                                     &nbsp;
                                 </span>
-                                <span id="count">
+                            <span id="count">
                                     &nbsp;
                                 </span>
-                            </div>
                         </div>
                     </div>
-                </header>
-                <div id="loading">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
                 </div>
-                <div id="episodes">
-                </div>
+            </header>
+            <div id="loading">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
             </div>
-        </main>
-    </body>
+            <div id="episodes">
+            </div>
+        </div>
+    </main>
+</body>
+
 </html>
