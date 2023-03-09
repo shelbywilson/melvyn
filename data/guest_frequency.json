@@ -1,4 +1,869 @@
 {
+    "Ole Grell": {
+        "count": 1,
+        "first": "2 February 2023",
+        "last": "2 February 2023",
+        "links": [
+            {
+                "text": "Open University",
+                "wiki": "https://en.wikipedia.org/wiki/Open_university"
+            }
+        ],
+        "title": [
+            "Emeritus Professor in Early Modern History at the Open University"
+        ]
+    },
+    "Adam Mosley": {
+        "count": 3,
+        "first": "31 January 2008",
+        "last": "2 February 2023",
+        "links": [
+            {
+                "text": "Swansea University",
+                "wiki": "https://en.wikipedia.org/wiki/Swansea_University"
+            }
+        ],
+        "title": [
+            "Associate Professor of History at Swansea University",
+            "associate professor in the Department of History at Swansea University",
+            "Lecturer in the Department of History at the University of Wales, Swansea"
+        ]
+    },
+    "Emma Perkins": {
+        "count": 1,
+        "first": "2 February 2023",
+        "last": "2 February 2023",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Affiliate Scholar in the Department of History and Philosophy of Science at the University of Cambridge."
+        ]
+    },
+    "Nigel Hussey": {
+        "count": 1,
+        "first": "26 January 2023",
+        "last": "26 January 2023",
+        "links": [],
+        "title": [
+            "Professor of Experimental Condensed Matter Physics at the University of Bristol and Radbout University"
+        ]
+    },
+    "Suchitra Sebastian": {
+        "count": 1,
+        "first": "26 January 2023",
+        "last": "26 January 2023",
+        "links": [
+            {
+                "text": "Suchitra Sebastian",
+                "wiki": "https://en.wikipedia.org/wiki/Suchitra_Sebastian"
+            },
+            {
+                "text": "Cavendish Laboratory",
+                "wiki": "https://en.wikipedia.org/wiki/Cavendish_Laboratory"
+            },
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Professor of Physics at the Cavendish Laboratory at the University of Cambridge"
+        ]
+    },
+    "Stephen Blundell": {
+        "count": 3,
+        "first": "7 March 2013",
+        "last": "26 January 2023",
+        "links": [
+            {
+                "text": "Stephen Blundell",
+                "wiki": "https://en.wikipedia.org/wiki/Stephen_Blundell"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            },
+            {
+                "text": "Mansfield College",
+                "wiki": "https://en.wikipedia.org/wiki/Mansfield_College,_Oxford"
+            }
+        ],
+        "title": [
+            "Professor of Physics at the University of Oxford and Fellow of Mansfield College",
+            "Professor of Physics and Fellow of Mansfield College, University of Oxford",
+            "Professor of Physics at the University of Oxford"
+        ]
+    },
+    "Fabienne Peter": {
+        "count": 1,
+        "first": "19 January 2023",
+        "last": "19 January 2023",
+        "links": [
+            {
+                "text": "Fabienne Peter",
+                "wiki": "https://en.wikipedia.org/wiki/Fabienne_Peter"
+            },
+            {
+                "text": "University of Warwick",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Warwick"
+            }
+        ],
+        "title": [
+            "Professor of Philosophy at the University of Warwick"
+        ]
+    },
+    "Martin O'Neill": {
+        "count": 1,
+        "first": "19 January 2023",
+        "last": "19 January 2023",
+        "links": [
+            {
+                "text": "University of York",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_York"
+            }
+        ],
+        "title": [
+            "Professor of Political Philosophy at the University of York"
+        ]
+    },
+    "Jonathan Wolff": {
+        "count": 1,
+        "first": "19 January 2023",
+        "last": "19 January 2023",
+        "links": [
+            {
+                "text": "Jonathan Wolff",
+                "wiki": "https://en.wikipedia.org/wiki/Jonathan_Wolff_(philosopher)"
+            },
+            {
+                "text": "Blavatnik School of Government",
+                "wiki": "https://en.wikipedia.org/wiki/Blavatnik_School_of_Government"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            },
+            {
+                "text": "Wolfson College",
+                "wiki": "https://en.wikipedia.org/wiki/Wolfson_College,_Oxford"
+            }
+        ],
+        "title": [
+            "The Alfred Landecker Professor of Values and Public Policy at the Blavatnik School of Government, University of Oxford and Fellow of Wolfson College"
+        ]
+    },
+    "Mary Ann Lund": {
+        "count": 2,
+        "first": "12 May 2011",
+        "last": "12 January 2023",
+        "links": [
+            {
+                "text": "University of Leicester",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
+            }
+        ],
+        "title": [
+            "Associate Professor in Renaissance English Literature at the University of Leicester",
+            "Lecturer in English at the University of Leicester"
+        ]
+    },
+    "Sue Wiseman": {
+        "count": 1,
+        "first": "12 January 2023",
+        "last": "12 January 2023",
+        "links": [
+            {
+                "text": "Birkbeck",
+                "wiki": "https://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
+            },
+            {
+                "text": "University of London",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_London"
+            }
+        ],
+        "title": [
+            "Professor of Seventeenth Century Literature at Birkbeck, University of London"
+        ]
+    },
+    "Hugh Adlington": {
+        "count": 1,
+        "first": "12 January 2023",
+        "last": "12 January 2023",
+        "links": [
+            {
+                "text": "University of Birmingham",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Birmingham"
+            }
+        ],
+        "title": [
+            "Professor of English Literature at the University of Birmingham"
+        ]
+    },
+    "Rosemary Ashton": {
+        "count": 10,
+        "first": "12 October 2000",
+        "last": "29 December 2022",
+        "links": [
+            {
+                "text": "Rosemary Ashton",
+                "wiki": "https://en.wikipedia.org/wiki/Rosemary_Ashton"
+            },
+            {
+                "text": "University College London",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Emeritus Quain Professor of English Language and Literature at University College London",
+            "Quain Professor of English Language and Literature at University College, London",
+            "Quain Professor of English Language and Literature at University College London",
+            "Professor of English at University College London",
+            "Professor of English, University College London"
+        ]
+    },
+    "Stephen Halliday": {
+        "count": 1,
+        "first": "29 December 2022",
+        "last": "29 December 2022",
+        "links": [],
+        "title": [
+            "Author of The Great Stink of London: Sir Joseph Bazalgette and the Cleansing of the Victorian Metropolis"
+        ]
+    },
+    "Paul Dobraszczyk": {
+        "count": 1,
+        "first": "29 December 2022",
+        "last": "29 December 2022",
+        "links": [
+            {
+                "text": "University College London",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Lecturer at the Bartlett School of Architecture at University College London"
+        ]
+    },
+    "Karen O'Brien": {
+        "count": 15,
+        "first": "5 December 2002",
+        "last": "22 December 2022",
+        "links": [
+            {
+                "text": "Karen O'Brien",
+                "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+            },
+            {
+                "text": "Durham University",
+                "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+            }
+        ],
+        "title": [
+            "Vice-Chancellor of Durham University",
+            "Professor of English Literature at the University of Oxford",
+            "Professor of English Literature at King's College London",
+            "Vice Principal and Professor of English Literature at King's College London",
+            "Pro-Vice Chancellor for Education at the University of Birmingham",
+            "Pro-Vice-Chancellor for Education at the University of Birmingham",
+            "Professor of English at the University of Warwick",
+            "Professor of English Literature at the University of Warwick",
+            "Professor in English at the University of Warwick",
+            "Reader in English and American Literature at the University of Warwick"
+        ]
+    },
+    "Fiona Stafford": {
+        "count": 2,
+        "first": "24 October 2019",
+        "last": "22 December 2022",
+        "links": [
+            {
+                "text": "Fiona Stafford",
+                "wiki": "https://en.wikipedia.org/wiki/Fiona_Stafford"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Professor of English Language and Literature at the University of Oxford",
+            "Professor of English at the University of Oxford"
+        ]
+    },
+    "Paddy Bullard": {
+        "count": 1,
+        "first": "22 December 2022",
+        "last": "22 December 2022",
+        "links": [
+            {
+                "text": "University of Reading",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Reading"
+            }
+        ],
+        "title": [
+            "Associate Professor of English Literature and Book History at the University of Reading"
+        ]
+    },
+    "Stella Bruzzi": {
+        "count": 2,
+        "first": "30 December 2021",
+        "last": "15 December 2022",
+        "links": [
+            {
+                "text": "University College London",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Professor of Film and Dean of Arts and Humanities at University College London"
+        ]
+    },
+    "Ian Christie": {
+        "count": 1,
+        "first": "15 December 2022",
+        "last": "15 December 2022",
+        "links": [
+            {
+                "text": "Ian Christie",
+                "wiki": "https://en.wikipedia.org/wiki/Ian_Christie_(film_scholar)"
+            },
+            {
+                "text": "Birkbeck",
+                "wiki": "https://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
+            },
+            {
+                "text": "University of London",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_London"
+            }
+        ],
+        "title": [
+            "Professor of Film and Media History at Birkbeck, University of London"
+        ]
+    },
+    "John David Rhodes": {
+        "count": 1,
+        "first": "15 December 2022",
+        "last": "15 December 2022",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Professor of Film Studies and Visual Culture at the University of Cambridge"
+        ]
+    },
+    "Ian McBride": {
+        "count": 2,
+        "first": "29 January 2009",
+        "last": "8 December 2022",
+        "links": [
+            {
+                "text": "Ian McBride",
+                "wiki": "https://en.wikipedia.org/wiki/Ian_McBride"
+            },
+            {
+                "text": "Hertford College",
+                "wiki": "https://en.wikipedia.org/wiki/Hertford_College,_Oxford"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Foster Professor of Irish History at Hertford College, University of Oxford",
+            "Senior Lecturer in the History Department at King's College London"
+        ]
+    },
+    "Catriona Kennedy": {
+        "count": 2,
+        "first": "2 May 2019",
+        "last": "8 December 2022",
+        "links": [
+            {
+                "text": "Catriona Kennedy",
+                "wiki": "https://en.wikipedia.org/wiki/Catriona_Kennedy"
+            },
+            {
+                "text": "University of York",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_York"
+            }
+        ],
+        "title": [
+            "Senior Lecturer in Modern History at the University of York",
+            "Senior Lecturer in Modern British and Irish History and Director of the Centre for Eighteenth Century Studies at the University of York"
+        ]
+    },
+    "Liam Chambers": {
+        "count": 1,
+        "first": "8 December 2022",
+        "last": "8 December 2022",
+        "links": [
+            {
+                "text": "Liam Chambers",
+                "wiki": "https://en.wikipedia.org/wiki/Liam_Chambers"
+            },
+            {
+                "text": "Mary Immaculate College, Limerick",
+                "wiki": "https://en.wikipedia.org/wiki/Mary_Immaculate_College"
+            }
+        ],
+        "title": [
+            "Head of Department and Senior Lecturer in History at Mary Immaculate College, Limerick"
+        ]
+    },
+    "Sarah Bowden": {
+        "count": 1,
+        "first": "1 December 2022",
+        "last": "1 December 2022",
+        "links": [
+            {
+                "text": "King’s College London",
+                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+            }
+        ],
+        "title": [
+            "Reader in German and Medieval Studies at King’s College London"
+        ]
+    },
+    "Mark Chinca": {
+        "count": 2,
+        "first": "31 December 2015",
+        "last": "1 December 2022",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Professor of Medieval German and Comparative Literature at the University of Cambridge",
+            "Reader in Medieval German literature at the University of Cambridge"
+        ]
+    },
+    "Bettina Bildhauer": {
+        "count": 1,
+        "first": "1 December 2022",
+        "last": "1 December 2022",
+        "links": [
+            {
+                "text": "Bettina Bildhauer",
+                "wiki": "https://en.wikipedia.org/wiki/Bettina_Bildhauer"
+            },
+            {
+                "text": "University of St Andrews",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
+            }
+        ],
+        "title": [
+            "Professor of Modern Languages at the University of St Andrews"
+        ]
+    },
+    "Erika Jones": {
+        "count": 1,
+        "first": "24 November 2022",
+        "last": "24 November 2022",
+        "links": [
+            {
+                "text": "Royal Museums Greenwich",
+                "wiki": "https://en.wikipedia.org/wiki/Royal_Museums_Greenwich"
+            }
+        ],
+        "title": [
+            "Curator of Navigation and Oceanography at Royal Museums Greenwich"
+        ]
+    },
+    "Sam Robinson": {
+        "count": 1,
+        "first": "24 November 2022",
+        "last": "24 November 2022",
+        "links": [
+            {
+                "text": "University of Southampton",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Southampton"
+            }
+        ],
+        "title": [
+            "Southampton Marine and Maritime Institute Research Fellow at the University of Southampton"
+        ]
+    },
+    "Giles Miller": {
+        "count": 1,
+        "first": "24 November 2022",
+        "last": "24 November 2022",
+        "links": [
+            {
+                "text": "Natural History Museum, London",
+                "wiki": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London"
+            }
+        ],
+        "title": [
+            "Principal Curator of Micropalaeontology at the Natural History Museum, London"
+        ]
+    },
+    "Paul Cartledge": {
+        "count": 20,
+        "first": "6 May 2004",
+        "last": "17 November 2022",
+        "links": [
+            {
+                "text": "Paul Cartledge",
+                "wiki": "https://en.wikipedia.org/wiki/Paul_Cartledge"
+            },
+            {
+                "text": "Clare College",
+                "wiki": "https://en.wikipedia.org/wiki/Clare_College,_Cambridge"
+            },
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "Emeritus AG Leventis Professor of Greek Culture, University of Cambridge and Senior Research Fellow of Clare College",
+            "A.G. Leventis Senior Research Fellow and Emeritus Professor of Greek Culture at Clare College, Cambridge",
+            "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, Cambridge",
+            "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, Cambridge",
+            "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "A. G. Leventis Professor of Greek Culture at the University of Cambridge",
+            "A.G. Leventis Professor of Greek Culture at Cambridge University",
+            "A. G. Leventis Professor of Greek Culture at Cambridge University",
+            "A G Leventis Professor of Greek Culture and a Fellow of Clare College, Cambridge",
+            "AG Leventis Professor of Greek Culture and Fellow of Clare College, Cambridge",
+            "AG Leventis Professor of Greek Culture at the University of Cambridge",
+            "Professor of Greek History at the University of Cambridge"
+        ]
+    },
+    "Kathryn Tempest": {
+        "count": 1,
+        "first": "17 November 2022",
+        "last": "17 November 2022",
+        "links": [
+            {
+                "text": "University of Roehampton",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Roehampton"
+            }
+        ],
+        "title": [
+            "Reader in Latin Literature and Roman History at the University of Roehampton"
+        ]
+    },
+    "Jon Hesk": {
+        "count": 1,
+        "first": "17 November 2022",
+        "last": "17 November 2022",
+        "links": [
+            {
+                "text": "University of St Andrews",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
+            }
+        ],
+        "title": [
+            "Reader in Greek and Classical Studies at the University of St Andrews"
+        ]
+    },
+    "Robin Schuldenfrei": {
+        "count": 1,
+        "first": "10 November 2022",
+        "last": "10 November 2022",
+        "links": [
+            {
+                "text": "The Courtauld Institute of Art",
+                "wiki": "https://en.wikipedia.org/wiki/The_Courtauld_Institute_of_Art"
+            }
+        ],
+        "title": [
+            "Tangen Reader in 20th Century Modernism at The Courtauld Institute of Art"
+        ]
+    },
+    "Alan Powers": {
+        "count": 1,
+        "first": "10 November 2022",
+        "last": "10 November 2022",
+        "links": [
+            {
+                "text": "Alan Powers",
+                "wiki": "https://en.wikipedia.org/wiki/Alan_Powers"
+            },
+            {
+                "text": "London School of Architecture",
+                "wiki": "https://en.wikipedia.org/wiki/London_School_of_Architecture"
+            }
+        ],
+        "title": [
+            "History Leader at the London School of Architecture"
+        ]
+    },
+    "Michael White": {
+        "count": 1,
+        "first": "10 November 2022",
+        "last": "10 November 2022",
+        "links": [
+            {
+                "text": "University of York",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_York"
+            }
+        ],
+        "title": [
+            "Professor of the History of Art at the University of York"
+        ]
+    },
+    "Matthew J Smith": {
+        "count": 1,
+        "first": "3 November 2022",
+        "last": "3 November 2022",
+        "links": [
+            {
+                "text": "University College London",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Professor of History and Director of the Centre for the Study of the Legacies of British Slavery at University College London"
+        ]
+    },
+    "Diana Paton": {
+        "count": 1,
+        "first": "3 November 2022",
+        "last": "3 November 2022",
+        "links": [
+            {
+                "text": "Diana Paton",
+                "wiki": "https://en.wikipedia.org/wiki/Diana_Paton"
+            },
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "The William Robertson Professor of History at the University of Edinburgh"
+        ]
+    },
+    "Lawrence Goldman": {
+        "count": 9,
+        "first": "30 December 2010",
+        "last": "3 November 2022",
+        "links": [
+            {
+                "text": "Lawrence Goldman",
+                "wiki": "https://en.wikipedia.org/wiki/Lawrence_Goldman"
+            },
+            {
+                "text": "St Peter's College",
+                "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Emeritus Fellow in History at St Peter's College, University of Oxford",
+            "Emeritus Fellow in History at St Peter’s College, University of Oxford",
+            "Professor of History at the Institute of Historical Research, University of London",
+            "Director of the Institute of Historical Research at the University of London",
+            "Fellow in Modern History at St Peter's College, Oxford",
+            "Fellow and Tutor in History at St Peter's College, University of Oxford"
+        ]
+    },
+    "Jane Potter": {
+        "count": 1,
+        "first": "27 October 2022",
+        "last": "27 October 2022",
+        "links": [
+            {
+                "text": "Oxford Brookes University",
+                "wiki": "https://en.wikipedia.org/wiki/Oxford_Brookes_University"
+            }
+        ],
+        "title": [
+            "Reader in The School of Arts at Oxford Brookes University"
+        ]
+    },
+    "Fran Brearton": {
+        "count": 5,
+        "first": "7 June 2007",
+        "last": "27 October 2022",
+        "links": [
+            {
+                "text": "Queen's University Belfast",
+                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+            }
+        ],
+        "title": [
+            "Professor of Modern Poetry at Queen's University Belfast",
+            "Reader in English at Queen's University Belfast",
+            "Reader in English at Queen's University Belfast and Assistant Director of the Seamus Heaney Centre for Poetry for Poetry",
+            "Reader in English and Assistant Director of the Seamus Heaney Centre for Poetry at the University of Belfast"
+        ]
+    },
+    "Guy Cuthbertson": {
+        "count": 1,
+        "first": "27 October 2022",
+        "last": "27 October 2022",
+        "links": [
+            {
+                "text": "Liverpool Hope University",
+                "wiki": "https://en.wikipedia.org/wiki/Liverpool_Hope_University"
+            }
+        ],
+        "title": [
+            "Professor of British Literature and Culture at Liverpool Hope University"
+        ]
+    },
+    "Emily Rayfield": {
+        "count": 1,
+        "first": "20 October 2022",
+        "last": "20 October 2022",
+        "links": [
+            {
+                "text": "Emily Rayfield",
+                "wiki": "https://en.wikipedia.org/wiki/Emily_Rayfield"
+            },
+            {
+                "text": "University of Bristol",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+            }
+        ],
+        "title": [
+            "Professor of Palaeobiology at the University of Bristol"
+        ]
+    },
+    "Michael Coates": {
+        "count": 1,
+        "first": "20 October 2022",
+        "last": "20 October 2022",
+        "links": [
+            {
+                "text": "Michael Coates",
+                "wiki": "https://en.wikipedia.org/wiki/Michael_Coates"
+            },
+            {
+                "text": "University of Chicago",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Chicago"
+            }
+        ],
+        "title": [
+            "Chair and Professor of Organismal Biology and Anatomy at the University of Chicago"
+        ]
+    },
+    "Steve Brusatte": {
+        "count": 2,
+        "first": "26 October 2017",
+        "last": "20 October 2022",
+        "links": [
+            {
+                "text": "Steve Brusatte",
+                "wiki": "https://en.wikipedia.org/wiki/Steve_Brusatte"
+            },
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "Professor of Palaeontology and Evolution at the University of Edinburgh",
+            "Reader and Chancellor's Fellow in Vertebrate Palaeontology at the University of Edinburgh"
+        ]
+    },
+    "Tamar Garb": {
+        "count": 2,
+        "first": "20 October 2011",
+        "last": "13 October 2022",
+        "links": [
+            {
+                "text": "Tamar Garb",
+                "wiki": "https://en.wikipedia.org/wiki/Tamar_Garb"
+            },
+            {
+                "text": "University College London",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Professor of History of Art at University College London",
+            "Durning Lawrence Professor in the History of Art at University College London"
+        ]
+    },
+    "Lois Oliver": {
+        "count": 1,
+        "first": "13 October 2022",
+        "last": "13 October 2022",
+        "links": [],
+        "title": [
+            "Curator at the Royal Academy and Adjunct Professor of Art History at the American University of Notre Dame London"
+        ]
+    },
+    "Claire Moran": {
+        "count": 1,
+        "first": "13 October 2022",
+        "last": "13 October 2022",
+        "links": [
+            {
+                "text": "Queen's University Belfast",
+                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+            }
+        ],
+        "title": [
+            "Reader in French at Queen's University Belfast"
+        ]
+    },
+    "Helen Nicholson": {
+        "count": 2,
+        "first": "11 January 2018",
+        "last": "6 October 2022",
+        "links": [
+            {
+                "text": "Medieval History",
+                "wiki": "https://en.wikipedia.org/wiki/Medieval_History"
+            },
+            {
+                "text": "Cardiff University",
+                "wiki": "https://en.wikipedia.org/wiki/Cardiff_University"
+            }
+        ],
+        "title": [
+            "Professor of Medieval History at Cardiff University"
+        ]
+    },
+    "Mike Carr": {
+        "count": 1,
+        "first": "6 October 2022",
+        "last": "6 October 2022",
+        "links": [
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "Lecturer in Late Medieval History at the University of Edinburgh"
+        ]
+    },
+    "Jonathan Phillips": {
+        "count": 1,
+        "first": "6 October 2022",
+        "last": "6 October 2022",
+        "links": [
+            {
+                "text": "University of London",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_London"
+            }
+        ],
+        "title": [
+            "Professor of Crusading History at Royal Holloway, University of London"
+        ]
+    },
     "Victoria Martin": {
         "count": 1,
         "first": "29 September 2022",
@@ -329,7 +1194,7 @@
         "title": [
             "Astronomer Royal, Fellow of Trinity College, Cambridge",
             "Astronomer Royal and Emeritus Professor of Cosmology and Astrophysics at the University of Cambridge",
-            "President of the Royal Society and Professor of Cosmology and Astrophysics at the University of Cambridge",
+            "president of the Royal Society and Professor of Cosmology and Astrophysics at the University of Cambridge",
             "Astronomer Royal and Professor of Cosmology and Astrophysics, Cambridge University",
             "Royal Society Research Professor in Astronomy and Physics, Cambridge University",
             "Astronomer Royal, Professor of Physics and Astronomy at Cambridge University",
@@ -1176,6 +2041,10 @@
         "last": "10 February 2022",
         "links": [
             {
+                "text": "Carolin Duttlinger",
+                "wiki": "https://en.wikipedia.org/wiki/Carolin_Duttlinger"
+            },
+            {
                 "text": "University of Oxford",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
             }
@@ -1371,24 +2240,6 @@
         ],
         "title": [
             "Professor of Modern English and American Literature at Royal Holloway, University of London"
-        ]
-    },
-    "Stella Bruzzi": {
-        "count": 1,
-        "first": "30 December 2021",
-        "last": "30 December 2021",
-        "links": [
-            {
-                "text": "Stella Bruzzi",
-                "wiki": "https://en.wikipedia.org/wiki/Stella_Bruzzi"
-            },
-            {
-                "text": "University College London",
-                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
-            }
-        ],
-        "title": [
-            "Professor of Film and Dean of Arts and Humanities at University College London"
         ]
     },
     "Joe McElhaney": {
@@ -1972,7 +2823,7 @@
             }
         ],
         "title": [
-            "Founder and President of the Atomic Heritage Foundation"
+            "Founder and president of the Atomic Heritage Foundation"
         ]
     },
     "Alexandra Lewis": {
@@ -2034,38 +2885,6 @@
         ],
         "title": [
             "Professor of Ancient History at the University of Bristol"
-        ]
-    },
-    "Paul Cartledge": {
-        "count": 19,
-        "first": "6 May 2004",
-        "last": "23 September 2021",
-        "links": [
-            {
-                "text": "Paul Cartledge",
-                "wiki": "https://en.wikipedia.org/wiki/Paul_Cartledge"
-            },
-            {
-                "text": "Clare College, University of Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/Clare_College,_Cambridge"
-            }
-        ],
-        "title": [
-            "A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "Emeritus AG Leventis Professor of Greek Culture, University of Cambridge and Senior Research Fellow of Clare College",
-            "A.G. Leventis Senior Research Fellow and Emeritus Professor of Greek Culture at Clare College, Cambridge",
-            "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, Cambridge",
-            "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, Cambridge",
-            "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "A. G. Leventis Professor of Greek Culture at the University of Cambridge",
-            "A.G. Leventis Professor of Greek Culture at Cambridge University",
-            "A. G. Leventis Professor of Greek Culture at Cambridge University",
-            "A G Leventis Professor of Greek Culture and a Fellow of Clare College, Cambridge",
-            "AG Leventis Professor of Greek Culture and Fellow of Clare College, Cambridge",
-            "AG Leventis Professor of Greek Culture at the University of Cambridge",
-            "Professor of Greek History at the University of Cambridge"
         ]
     },
     "Anjali Goswami": {
@@ -2233,32 +3052,6 @@
         ],
         "title": [
             "Adjunct Professor at the University of California"
-        ]
-    },
-    "Lawrence Goldman": {
-        "count": 8,
-        "first": "30 December 2010",
-        "last": "10 June 2021",
-        "links": [
-            {
-                "text": "Lawrence Goldman",
-                "wiki": "https://en.wikipedia.org/wiki/Lawrence_Goldman"
-            },
-            {
-                "text": "St Peter’s College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
-            },
-            {
-                "text": "University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
-            }
-        ],
-        "title": [
-            "Emeritus Fellow in History at St Peter’s College, University of Oxford",
-            "Professor of History at the Institute of Historical Research, University of London",
-            "Director of the Institute of Historical Research at the University of London",
-            "Fellow in Modern History at St Peter's College, Oxford",
-            "Fellow and Tutor in History at St Peter's College, University of Oxford"
         ]
     },
     "Fiona Hughes": {
@@ -2921,28 +3714,6 @@
             "Professor of English Literature and Book History at the University of Edinburgh"
         ]
     },
-    "Rosemary Ashton": {
-        "count": 9,
-        "first": "12 October 2000",
-        "last": "4 March 2021",
-        "links": [
-            {
-                "text": "Rosemary Ashton",
-                "wiki": "https://en.wikipedia.org/wiki/Rosemary_Ashton"
-            },
-            {
-                "text": "University College London",
-                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
-            }
-        ],
-        "title": [
-            "Emeritus Quain Professor of English Language and Literature at University College London",
-            "Quain Professor of English Language and Literature at University College, London",
-            "Quain Professor of English Language and Literature at University College London",
-            "Professor of English at University College London",
-            "Professor of English, University College London"
-        ]
-    },
     "Simon Goldhill": {
         "count": 8,
         "first": "8 February 2001",
@@ -3121,7 +3892,7 @@
         "title": [
             "Emeritus Fellow of Clare College, Cambridge",
             "fellow of Clare College, Cambridge",
-            "President of the British Society for the History of Science",
+            "president of the British Society for the History of Science",
             "President Elect of the British Society for the History of Science",
             "Senior Tutor of Clare College, University of Cambridge",
             "Senior Tutor and Director of Studies Clare College, Cambridge",
@@ -4655,24 +5426,6 @@
             "Professor of Modern Scottish Literature and Bishop Wardlaw Professor of Poetry at the University of St Andrews"
         ]
     },
-    "Fiona Stafford": {
-        "count": 1,
-        "first": "24 October 2019",
-        "last": "24 October 2019",
-        "links": [
-            {
-                "text": "Fiona Stafford",
-                "wiki": "https://en.wikipedia.org/wiki/Fiona_Stafford"
-            },
-            {
-                "text": "University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
-            }
-        ],
-        "title": [
-            "Professor of English at the University of Oxford"
-        ]
-    },
     "Murray Pittock": {
         "count": 6,
         "first": "8 May 2003",
@@ -5168,28 +5921,6 @@
             "Emeritus Professor of Physics at the University of Birmingham"
         ]
     },
-    "Karen O'Brien": {
-        "count": 14,
-        "first": "5 December 2002",
-        "last": "16 May 2019",
-        "links": [
-            {
-                "text": "University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
-            }
-        ],
-        "title": [
-            "Professor of English Literature at the University of Oxford",
-            "Professor of English Literature at King's College London",
-            "Vice Principal and Professor of English Literature at King's College London",
-            "Pro-Vice Chancellor for Education at the University of Birmingham",
-            "Pro-Vice-Chancellor for Education at the University of Birmingham",
-            "Professor of English at the University of Warwick",
-            "Professor of English Literature at the University of Warwick",
-            "Professor in English at the University of Warwick",
-            "Reader in English and American Literature at the University of Warwick"
-        ]
-    },
     "Michael Rossington": {
         "count": 1,
         "first": "16 May 2019",
@@ -5264,24 +5995,6 @@
             "Professor of English at the University of Roehampton"
         ]
     },
-    "Catriona Kennedy": {
-        "count": 1,
-        "first": "2 May 2019",
-        "last": "2 May 2019",
-        "links": [
-            {
-                "text": "Catriona Kennedy",
-                "wiki": "https://en.wikipedia.org/wiki/Catriona_Kennedy"
-            },
-            {
-                "text": "University of York",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_York"
-            }
-        ],
-        "title": [
-            "Senior Lecturer in Modern British and Irish History and Director of the Centre for Eighteenth Century Studies at the University of York"
-        ]
-    },
     "Shushma Malik": {
         "count": 1,
         "first": "25 April 2019",
@@ -5326,7 +6039,7 @@
             }
         ],
         "title": [
-            "Professor of Renaissance Drama at Lancaster University and Chair of the British Shakespeare Association"
+            "Professor of Renaissance Drama at Lancaster University and chair of the British Shakespeare Association"
         ]
     },
     "Gareth Fraser": {
@@ -7274,20 +7987,6 @@
             "Professor of Russian Literature and Dean of Arts at the University of Bristol"
         ]
     },
-    "Helen Nicholson": {
-        "count": 1,
-        "first": "11 January 2018",
-        "last": "11 January 2018",
-        "links": [
-            {
-                "text": "Cardiff University",
-                "wiki": "https://en.wikipedia.org/wiki/Cardiff_University"
-            }
-        ],
-        "title": [
-            "Professor of Medieval History at Cardiff University"
-        ]
-    },
     "Kate Fleet": {
         "count": 2,
         "first": "12 November 2015",
@@ -7559,29 +8258,15 @@
             "Lecturer in Heritage in the Department of Archaeology at the University of Cambridge, Fellow of Selwyn College"
         ]
     },
-    "Steve Brusatte": {
-        "count": 1,
-        "first": "26 October 2017",
-        "last": "26 October 2017",
-        "links": [
-            {
-                "text": "Steve Brusatte",
-                "wiki": "https://en.wikipedia.org/wiki/Steve_Brusatte"
-            },
-            {
-                "text": "University of Edinburgh",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
-            }
-        ],
-        "title": [
-            "Reader and Chancellor's Fellow in Vertebrate Palaeontology at the University of Edinburgh"
-        ]
-    },
     "Maria McNamara": {
         "count": 1,
         "first": "26 October 2017",
         "last": "26 October 2017",
         "links": [
+            {
+                "text": "Maria McNamara",
+                "wiki": "https://en.wikipedia.org/wiki/Maria_McNamara"
+            },
             {
                 "text": "University College Cork",
                 "wiki": "https://en.wikipedia.org/wiki/University_College_Cork"
@@ -8632,21 +9317,6 @@
             "Tutor in Philosophy at New College, Oxford University"
         ]
     },
-    "Adam Mosley": {
-        "count": 2,
-        "first": "31 January 2008",
-        "last": "29 December 2016",
-        "links": [
-            {
-                "text": "Swansea University",
-                "wiki": "https://en.wikipedia.org/wiki/Swansea_University"
-            }
-        ],
-        "title": [
-            "associate professor in the Department of History at Swansea University",
-            "Lecturer in the Department of History at the University of Wales, Swansea"
-        ]
-    },
     "David Moody": {
         "count": 1,
         "first": "21 December 2016",
@@ -8659,23 +9329,6 @@
         ],
         "title": [
             "Emeritus Professor of English and American Literature at the University of York"
-        ]
-    },
-    "Fran Brearton": {
-        "count": 4,
-        "first": "7 June 2007",
-        "last": "21 December 2016",
-        "links": [
-            {
-                "text": "Queen's University Belfast",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
-            }
-        ],
-        "title": [
-            "Professor of Modern Poetry at Queen's University Belfast",
-            "Reader in English at Queen's University Belfast",
-            "Reader in English at Queen's University Belfast and Assistant Director of the Seamus Heaney Centre for Poetry for Poetry",
-            "Reader in English and Assistant Director of the Seamus Heaney Centre for Poetry at the University of Belfast"
         ]
     },
     "Angela McShane": {
@@ -9651,7 +10304,7 @@
             }
         ],
         "title": [
-            "Professor of the History of Early Modern Ideas at Royal Holloway, University of London and President of the Historical Association",
+            "Professor of the History of Early Modern Ideas at Royal Holloway, University of London and president of the Historical Association",
             "Professor of the History of Early Modern Ideas at Royal Holloway, University of London",
             "Reader in the History of Early Modern Ideas at Royal Holloway College, University of London"
         ]
@@ -10016,24 +10669,6 @@
         ],
         "title": [
             "Professor of Space Physics at Imperial College London"
-        ]
-    },
-    "Mark Chinca": {
-        "count": 1,
-        "first": "31 December 2015",
-        "last": "31 December 2015",
-        "links": [
-            {
-                "text": "Medieval German literature",
-                "wiki": "https://en.wikipedia.org/wiki/Medieval_German_literature"
-            },
-            {
-                "text": "University of Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
-            }
-        ],
-        "title": [
-            "Reader in Medieval German literature at the University of Cambridge"
         ]
     },
     "Geoffrey Cantor": {
@@ -10657,6 +11292,10 @@
         "last": "7 May 2015",
         "links": [
             {
+                "text": "Bashabi Fraser",
+                "wiki": "https://en.wikipedia.org/wiki/Bashabi_Fraser"
+            },
+            {
                 "text": "Edinburgh Napier University",
                 "wiki": "https://en.wikipedia.org/wiki/Edinburgh_Napier_University"
             }
@@ -10681,29 +11320,6 @@
         ],
         "title": [
             "Leverhulme Postdoctoral Fellow at SOAS, University of London"
-        ]
-    },
-    "Stephen Blundell": {
-        "count": 2,
-        "first": "7 March 2013",
-        "last": "30 April 2015",
-        "links": [
-            {
-                "text": "Stephen Blundell",
-                "wiki": "https://en.wikipedia.org/wiki/Stephen_Blundell"
-            },
-            {
-                "text": "Mansfield College",
-                "wiki": "https://en.wikipedia.org/wiki/Mansfield_College,_Oxford"
-            },
-            {
-                "text": "University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
-            }
-        ],
-        "title": [
-            "Professor of Physics and Fellow of Mansfield College, University of Oxford",
-            "Professor of Physics at the University of Oxford"
         ]
     },
     "Arwen Deuss": {
@@ -12950,7 +13566,7 @@
         "links": [
             {
                 "text": "Joel Felix",
-                "wiki": "https://en.wikipedia.org/wiki/Joel_Felix"
+                "wiki": "https://en.wikipedia.org/wiki/Joel_Felix_(historian)"
             },
             {
                 "text": "University of Reading",
@@ -15176,28 +15792,6 @@
             "Professor of Philosophy at the University of Zurich"
         ]
     },
-    "Tamar Garb": {
-        "count": 1,
-        "first": "20 October 2011",
-        "last": "20 October 2011",
-        "links": [
-            {
-                "text": "Tamar Garb",
-                "wiki": "https://en.wikipedia.org/wiki/Tamar_Garb"
-            },
-            {
-                "text": "Durning Lawrence Professor in the History of Art",
-                "wiki": "https://en.wikipedia.org/wiki/Edwin_Durning-Lawrence"
-            },
-            {
-                "text": "University College London",
-                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
-            }
-        ],
-        "title": [
-            "Durning Lawrence Professor in the History of Art at University College London"
-        ]
-    },
     "Simon Lee": {
         "count": 1,
         "first": "20 October 2011",
@@ -15477,20 +16071,6 @@
             "Professor of English Literature at the University of Nottingham"
         ]
     },
-    "Mary Ann Lund": {
-        "count": 1,
-        "first": "12 May 2011",
-        "last": "12 May 2011",
-        "links": [
-            {
-                "text": "University of Leicester",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
-            }
-        ],
-        "title": [
-            "Lecturer in English at the University of Leicester"
-        ]
-    },
     "Susan James": {
         "count": 3,
         "first": "19 May 2005",
@@ -15746,7 +16326,7 @@
         ],
         "title": [
             "Professor of Neuroscience at the University of Oxford",
-            "Professor of Physiology, Oxford University, President of the British Association for the Advancement of Science, Fellow of the Royal Society and targeted in the 1980s by animal welfare activists protesting at his research methods"
+            "Professor of Physiology, Oxford University, president of the British Association for the Advancement of Science, Fellow of the Royal Society and targeted in the 1980s by animal welfare activists protesting at his research methods"
         ]
     },
     "Tilli Tansey": {
@@ -17619,24 +18199,6 @@
             "Professor in German at Keble College, Oxford"
         ]
     },
-    "Ian McBride": {
-        "count": 1,
-        "first": "29 January 2009",
-        "last": "29 January 2009",
-        "links": [
-            {
-                "text": "Ian McBride",
-                "wiki": "https://en.wikipedia.org/wiki/Ian_McBride"
-            },
-            {
-                "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
-            }
-        ],
-        "title": [
-            "Senior Lecturer in the History Department at King's College London"
-        ]
-    },
     "John Burrow": {
         "count": 1,
         "first": "22 January 2009",
@@ -17727,7 +18289,7 @@
         "links": [
             {
                 "text": "Jim Secord",
-                "wiki": "https://en.wikipedia.org/w/index.php?title=Jim_Secord&action=edit&redlink=1"
+                "wiki": "https://en.wikipedia.org/wiki/Jim_Secord"
             }
         ],
         "title": [
@@ -21157,6 +21719,10 @@
         "last": "21 October 2004",
         "links": [
             {
+                "text": "Malcolm Gaskill",
+                "wiki": "https://en.wikipedia.org/wiki/Malcolm_Gaskill"
+            },
+            {
                 "text": "Churchill College, Cambridge",
                 "wiki": "https://en.wikipedia.org/wiki/Churchill_College,_Cambridge"
             }
@@ -22482,7 +23048,7 @@
         "links": [
             {
                 "text": "Tim Winter",
-                "wiki": "https://en.wikipedia.org/wiki/Tim_Winter"
+                "wiki": "https://en.wikipedia.org/wiki/Timothy_John_Winter"
             }
         ],
         "title": [
@@ -24959,7 +25525,7 @@
             }
         ],
         "title": [
-            "consultant surgeon and President of the Royal College of Surgeons of England"
+            "consultant surgeon and president of the Royal College of Surgeons of England"
         ]
     },
     "Sheila McLean": {
@@ -25800,7 +26366,7 @@
             }
         ],
         "title": [
-            "Britain's first professor of Biological Gerontology, University of Manchester and President of the British Society for Research into Ageing"
+            "Britain's first professor of Biological Gerontology, University of Manchester and president of the British Society for Research into Ageing"
         ]
     },
     "Will Self": {
