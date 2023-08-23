@@ -1,4 +1,58 @@
 {
+    "The Dead Sea Scrolls": [],
+    "Walt Whitman": [
+        "19th-century essayists",
+        "Pantheists",
+        "Hall of Fame for Great Americans inductees",
+        "19th-century pseudonymous writers",
+        "19th-century American poets",
+        "American male journalists",
+        "19th-century mystics",
+        "War writers",
+        "American male essayists, American male poets"
+    ],
+    "Linnaeus": [
+        "Fellows of the Royal Society",
+        "Members of the American Philosophical Society",
+        "Members of the Royal Swedish Academy of Sciences",
+        "Members of the French Academy of Sciences",
+        "Members of the Prussian Academy of Sciences"
+    ],
+    "The Battle of Crécy": [],
+    "Cnut": [
+        "House of Wessex, Monarchs of England before 1066"
+    ],
+    "A Room of One's Own": [],
+    "Solon the Lawgiver": [
+        "7th-century BC Greek people",
+        "6th-century BC philosophers"
+    ],
+    "Mercantilism": [],
+    "The Ramayana": [
+        "Hindu texts"
+    ],
+    "Megaliths": [],
+    "Paul Erdős": [
+        "Foreign associates of the National Academy of Sciences",
+        "Members of the Royal Netherlands Academy of Arts and Sciences",
+        "Jewish agnostics",
+        "Jewish atheists",
+        "Probability theorists",
+        "Foreign Members of the Royal Society",
+        "Institute for Advanced Study visiting scholars"
+    ],
+    "Stevie Smith": [
+        "English women poets",
+        "English women novelists",
+        "20th-century English poets",
+        "Pseudonymous women writers",
+        "English atheists",
+        "20th-century English novelists",
+        "20th-century pseudonymous writers"
+    ],
+    "Chartism": [
+        "Social history of the United Kingdom"
+    ],
     "Tycho Brahe": [
         "Leipzig University alumni",
         "16th-century Latin-language writers",
@@ -25,10 +79,10 @@
         "Sonneteers",
         "English male non-fiction writers",
         "Literary theorists",
-        "Social commentators",
-        "Literacy and society theorists",
         "Writers from London",
+        "Literacy and society theorists",
         "17th-century English poets",
+        "Lutheran saints",
         "People celebrated in the Lutheran liturgical calendar",
         "16th-century English poets",
         "Anglican poets",
@@ -61,7 +115,7 @@
     "The Challenger Expedition 1872–1876": [
         "Royal Society"
     ],
-    "Demosthenes's Philippics": [],
+    "Demosthenes' Philippics": [],
     "Bauhaus": [
         "Art movements"
     ],
@@ -70,12 +124,14 @@
     ],
     "Wilfred Owen": [
         "English male poets",
-        "English people of Welsh descent",
         "20th-century English poets",
+        "English people of Welsh descent",
+        "20th-century English male writers",
+        "War writers",
         "British Army personnel of World War I",
         "People with post-traumatic stress disorder",
-        "20th-century English male writers",
-        "English LGBT poets"
+        "English LGBT poets",
+        "English people with disabilities"
     ],
     "The Fish-Tetrapod Transition": [],
     "Berthe Morisot": [],
@@ -110,77 +166,56 @@
         "Light sources"
     ],
     "Hegel's Philosophy of History": [
-        "Social philosophers",
-        "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
-        "Philosophers of science",
-        "Political philosophers",
         "Philosophers of religion",
-        "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
-        "Theorists on Western civilization",
         "Philosophers of art",
         "Philosophy writers",
-        "Continental philosophers",
         "Philosophers of language",
-        "Philosophers of social science",
-        "19th-century essayists",
-        "Writers about religion and science",
         "Enlightenment philosophers",
-        "Metaphilosophers",
-        "Philosophers of logic",
-        "Romanticism",
+        "Writers about religion and science",
+        "19th-century essayists",
         "Philosophers of law",
-        "Philosophers of psychology",
         "German male non-fiction writers",
         "19th-century German male writers",
+        "Pantheists",
         "19th-century German philosophers",
         "German Lutherans",
         "18th-century essayists",
-        "German ethicists",
-        "Metaphysics writers",
-        "Pantheists",
-        "19th-century German non-fiction writers",
-        "German political philosophers",
         "18th-century German male writers",
         "19th-century German writers",
-        "German social commentators",
-        "Idealists",
-        "Phenomenologists",
-        "Rationalists",
+        "German political philosophers",
         "Theoretical historians",
-        "19th-century historians",
+        "18th-century German philosophers",
         "Heidelberg University alumni",
+        "19th-century mystics",
         "18th-century German writers",
-        "German logicians",
         "German male essayists",
-        "Historians of philosophy",
+        "German idealists",
         "Philosophy academics",
-        "18th-century German philosophers, German philosophers, 18th-century non-fiction writers",
-        "18th-century historians, German historians, 19th-century educators, 18th-century educators"
+        "18th-century historians, 19th-century historians, 18th-century educators, 19th-century educators"
     ],
     "Jan Amos Komenský": [
         "Philosophers of education",
+        "Lutheran saints",
         "17th-century Latin-language writers",
         "Heidelberg University alumni"
     ],
     "Li Bai and Du Fu": [],
-    "Davidian Revolution": [],
+    "The Davidian Revolution": [],
     "Early Christian Martyrdom": [
         "Christian terminology"
     ],
     "Olympe de Gouges": [
         "18th-century philosophers",
+        "French political philosophers",
         "French women philosophers",
         "Executed philosophers",
         "French philosophers",
         "18th-century French writers",
         "Deist philosophers",
         "Executed writers",
-        "French political philosophers",
         "Women religious writers",
         "18th-century French women writers"
     ],
@@ -203,11 +238,11 @@
     ],
     "Seismology": [],
     "Arthashastra": [
-        "Sanskrit texts, Hindu texts"
+        "Hindu texts",
+        "Sanskrit texts"
     ],
     "Peter Kropotkin": [
         "Social philosophers",
-        "Political philosophers",
         "Philosophy writers",
         "19th-century essayists",
         "20th-century essayists",
@@ -217,8 +252,8 @@
         "Anti-consumerists",
         "Historians of the French Revolution",
         "Philosophy academics",
-        "Russian atheists",
-        "Anarchist writers"
+        "Anarchist writers",
+        "Russian atheists"
     ],
     "Romeo and Juliet": [
         "English Renaissance plays",
@@ -231,52 +266,31 @@
         "Plays adapted into radio programs"
     ],
     "Walter Benjamin": [
-        "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Epistemologists",
-        "Ontologists",
-        "Metaphysicians",
-        "Theorists on Western civilization",
         "Philosophers of literature",
-        "Writers about activism and social change",
         "Philosophers of art",
-        "Philosophy writers",
-        "Continental philosophers",
         "Philosophers of language",
-        "Philosophers of social science",
         "20th-century essayists",
-        "Aphorists",
         "German male non-fiction writers",
         "Jewish philosophers",
-        "Social commentators",
         "Philosophers of technology",
-        "Critics of work and the work ethic",
-        "German political philosophers",
-        "Critical theorists",
-        "Philosophers of war",
         "20th-century German philosophers",
         "20th-century translators",
-        "Marxist theorists",
         "Humboldt University of Berlin alumni",
-        "20th-century mystics",
         "German male essayists",
         "20th-century German non-fiction writers",
-        "Jewish socialists",
-        "German Marxist writers, German anti-capitalists"
+        "German Marxist writers",
+        "Jewish socialists"
     ],
-    "Temperance Movement": [
-        "Feminism and history"
-    ],
+    "Temperance Movement": [],
     "Colette": [
         "20th-century French novelists",
         "French women novelists",
         "Burials at Père Lachaise Cemetery",
         "20th-century French women writers",
-        "Bisexual women",
-        "French bisexual writers",
         "French LGBT novelists",
-        "19th-century French novelists, 19th-century French women writers"
+        "19th-century French women writers, 19th-century French novelists"
     ],
     "The Gold Standard": [],
     "Thomas Hardy's Poetry": [
@@ -291,7 +305,7 @@
         "19th-century English novelists",
         "Fellows of the Royal Society of Literature",
         "Philosophical pessimists",
-        "English male short story writers, English male novelists"
+        "English male novelists, English male short story writers"
     ],
     "Fritz Lang": [],
     "The Hittites": [
@@ -319,15 +333,15 @@
         "Logicians",
         "Natural philosophers",
         "Philosophers of love",
-        "Idealists",
-        "Rationalists",
         "Ancient Greek philosophers of mind",
         "Philosophers of death",
         "5th-century BC Greek people",
         "Ancient Greek political philosophers",
+        "Rationalists",
         "Ancient Greek metaphysicians",
         "Ancient Greek physicists",
         "Attic Greek writers",
+        "Idealists",
         "Ancient Greek epistemologists, Ancient Greek ethicists"
     ],
     "The Decadent Movement": [
@@ -339,8 +353,8 @@
         "Fellows of the Royal Society",
         "Fellows of the American Academy of Arts and Sciences",
         "Recipients of the Copley Medal",
-        "German Lutherans",
         "Members of the Royal Swedish Academy of Sciences",
+        "German Lutherans",
         "Honorary members of the Saint Petersburg Academy of Sciences",
         "18th-century classical composers",
         "19th-century German male musicians",
@@ -363,7 +377,6 @@
         "Analytic philosophers",
         "British ethicists",
         "Virtue ethicists",
-        "Historians of philosophy",
         "20th-century British philosophers",
         "Alumni of Newnham College, Cambridge",
         "James Tait Black Memorial Prize recipients"
@@ -391,8 +404,8 @@
     "The Evolution of Crocodiles": [],
     "Shakespeare's Sonnets": [],
     "Edward Gibbon": [
-        "Theorists on Western civilization",
         "Fellows of the Royal Society",
+        "Theorists on Western civilization",
         "Critics of religions",
         "English essayists",
         "English male non-fiction writers",
@@ -409,64 +422,66 @@
         "English male non-fiction writers",
         "English non-fiction writers",
         "19th-century British philanthropists",
-        "English philanthropists"
+        "English philanthropists",
+        "British social reformers"
     ],
     "Kant's Copernican Revolution": [
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
         "Philosophers of religion",
         "Epistemologists",
         "Ontologists",
-        "Theorists on Western civilization",
         "Philosophers of literature",
         "Writers about activism and social change",
         "Philosophers of art",
         "Philosophy writers",
-        "Continental philosophers",
-        "Philosophers of social science",
-        "19th-century essayists",
-        "Writers about religion and science",
+        "Theorists on Western civilization",
         "Enlightenment philosophers",
-        "Metaphilosophers",
-        "Philosophers of logic",
+        "Writers about religion and science",
+        "19th-century essayists",
         "Philosophers of law",
         "Age of Enlightenment",
+        "Philosophers of social science",
         "German male non-fiction writers",
+        "Philosophers of logic",
         "19th-century German male writers",
+        "Metaphilosophers",
         "19th-century German philosophers",
         "German Lutherans",
+        "18th-century philosophers",
         "Logicians",
         "Natural philosophers",
         "Philosophers of sexuality",
         "18th-century essayists",
         "German ethicists",
-        "19th-century German non-fiction writers",
-        "German political philosophers",
-        "Philosophers of war",
+        "Members of the Prussian Academy of Sciences",
         "18th-century German male writers",
         "19th-century German writers",
-        "Idealists",
-        "Rationalists",
+        "German political philosophers",
         "Theoretical historians",
+        "19th-century German non-fiction writers",
         "Lecturers",
-        "Members of the Prussian Academy of Sciences",
+        "Philosophers of war",
+        "18th-century German philosophers",
+        "Rationalists",
         "18th-century German writers",
-        "German logicians",
+        "German idealists",
+        "Idealists",
         "German nationalists",
-        "Humor researchers",
-        "18th-century German philosophers, German philosophers, 18th-century non-fiction writers"
+        "German philosophers",
+        "Humor researchers"
     ],
     "The Interregnum": [
         "Historical eras"
     ],
     "Journey to the West": [
         "Novels adapted into operas",
-        "Pigs in literature",
-        "Picaresque novels"
+        "Picaresque novels",
+        "Pigs in literature"
     ],
     "Longitude": [],
     "The Second Barons' War": [
@@ -488,16 +503,18 @@
         "Fellows of the Royal Society",
         "Fellows of the American Academy of Arts and Sciences",
         "Members of the Royal Swedish Academy of Sciences",
-        "Members of the Académie Française",
         "Members of the Royal Netherlands Academy of Arts and Sciences",
         "Members of the French Academy of Sciences",
+        "Members of the Académie Française",
         "Fluid dynamicists",
+        "Probability theorists",
         "Determinists",
         "French physicists",
         "Theoretical physicists"
     ],
-    "Russo-Japanese War": [
-        "Wars involving Japan"
+    "The Russo-Japanese War": [
+        "Wars involving Japan",
+        "Wars involving the Russian Empire"
     ],
     "David Ricardo": [
         "19th-century English writers",
@@ -545,7 +562,6 @@
     ],
     "Saint Cuthbert": [
         "Anglican saints",
-        "English Roman Catholics",
         "Northumbrian saints",
         "English Roman Catholic saints, History of Catholicism in England"
     ],
@@ -559,19 +575,20 @@
         "Adultery in novels",
         "Modernist novels",
         "Metafictional novels",
-        "American novels adapted into plays, American novels adapted into films, American novels adapted into television shows"
+        "American novels adapted into films, American novels adapted into plays, American novels adapted into television shows"
     ],
     "Eclipses": [
         "Concepts in astronomy",
         "Astronomical events"
     ],
-    "Chinese Cultural Revolution": [
+    "The Cultural Revolution": [
         "Vandalized works of art"
     ],
     "John Wesley and Methodism": [
         "Anglican saints",
         "Christian humanists",
         "Christian radicals",
+        "Lutheran saints",
         "People celebrated in the Lutheran liturgical calendar",
         "Founders of religions",
         "English evangelicals",
@@ -592,15 +609,15 @@
     ],
     "Mary Astell": [
         "17th-century English writers",
-        "Feminism and history",
         "English philosophers",
+        "Pseudonymous women writers",
         "18th-century English writers",
+        "Feminism and history",
         "18th-century English non-fiction writers",
         "18th-century British philosophers",
         "English women activists",
         "English women non-fiction writers",
         "18th-century pseudonymous writers",
-        "Pseudonymous women writers",
         "English feminists, English feminist writers"
     ],
     "Piers Plowman": [
@@ -615,12 +632,13 @@
         "Fellows of the Royal Society",
         "20th-century atheists",
         "English people of Scottish descent",
-        "English inventors",
-        "20th-century English philosophers",
         "English atheists",
+        "English inventors",
+        "20th-century English mathematicians",
+        "20th-century English philosophers",
         "English logicians",
         "English people of Irish descent",
-        "LGBT philosophers"
+        "Castrated people"
     ],
     "Deism": [
         "Philosophy of religion"
@@ -641,16 +659,18 @@
     "Covenanters": [],
     "Paul Dirac": [
         "Fellows of the Royal Society",
+        "Members of the American Philosophical Society",
         "Recipients of the Copley Medal",
         "Foreign associates of the National Academy of Sciences",
         "English agnostics",
         "Royal Medal winners",
         "Members of the Order of Merit",
-        "English Nobel laureates",
         "Alumni of St John's College, Cambridge",
-        "British Nobel laureates",
+        "Institute for Advanced Study visiting scholars",
         "Theoretical physicists",
-        "Academic staff of the University of Göttingen"
+        "20th-century English mathematicians",
+        "Academic staff of the University of Göttingen",
+        "British Nobel laureates, English Nobel laureates"
     ],
     "Evolution of the horse": [],
     "Valladolid Debate": [
@@ -659,14 +679,13 @@
     "Battle of the Teutoburg Forest": [],
     "George Sand": [
         "Writers from Paris",
-        "French socialists",
-        "Légion d'honneur refusals",
-        "French women novelists",
         "19th-century pseudonymous writers",
-        "French bisexual writers",
         "Pseudonymous women writers",
+        "French women novelists",
+        "French socialists",
+        "Legion of Honour refusals",
         "19th-century letter writers",
-        "19th-century French novelists, 19th-century French women writers"
+        "19th-century French women writers, 19th-century French novelists"
     ],
     "Alcuin": [
         "Anglican saints",
@@ -675,14 +694,14 @@
         "Christian hagiographers"
     ],
     "Solar Wind": [],
-    "Siege of Paris (1870–71)": [],
+    "The Siege of Paris (1870–71)": [],
     "Catullus": [
         "Golden Age Latin writers",
         "1st-century BC Romans",
-        "Ancient LGBT people"
+        "Bisexual poets"
     ],
     "Tutankhamun": [
-        "Pharaohs of the Eighteenth Dynasty of Egypt, Historical negationism in ancient Egypt"
+        "Historical negationism in ancient Egypt, Pharaohs of the Eighteenth Dynasty of Egypt"
     ],
     "Auden": [
         "English male poets",
@@ -692,23 +711,23 @@
         "British male essayists",
         "English male dramatists and playwrights",
         "Modernist theatre",
+        "20th-century English poets",
         "Anglican poets",
         "American male non-fiction writers",
-        "20th-century English poets",
-        "Anthologists",
-        "Members of the American Academy of Arts and Letters",
         "20th-century English male writers",
+        "Members of the American Academy of Arts and Letters",
         "English LGBT poets",
         "Alumni of Christ Church, Oxford",
         "English literary critics",
-        "Formalist poets"
+        "Formalist poets",
+        "American male essayists, American male poets"
     ],
     "Coffee": [],
     "Lawrence of Arabia": [
         "20th-century translators",
         "Alumni of Magdalen College, Oxford",
         "British Army personnel of World War I",
-        "Chevaliers of the Légion d'honneur",
+        "Knights of the Legion of Honour",
         "Translators of Homer"
     ],
     "Li Shizhen": [],
@@ -716,7 +735,9 @@
     "Crime and Punishment": [
         "Novels first published in serial form"
     ],
-    "The Treaty of Limerick": [],
+    "The Treaty of Limerick": [
+        "William III of England, Mary II of England"
+    ],
     "Hybrids": [
         "Evolutionary biology"
     ],
@@ -734,25 +755,26 @@
     "Rousseau on Education": [
         "Social philosophers",
         "Philosophers of culture",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
-        "Political philosophers",
         "Philosophers of literature",
         "Writers about activism and social change",
         "Philosophers of art",
         "Enlightenment philosophers",
-        "Romanticism",
         "Age of Enlightenment",
-        "Social commentators",
+        "Romanticism",
         "Philosophers of economics",
         "18th-century philosophers",
         "Simple living advocates",
+        "French political philosophers",
         "Catholic philosophers",
         "Deist philosophers",
         "18th-century classical composers",
+        "Liberal theorists",
         "Contributors to the Encyclopédie (1751–1772)",
-        "Autobiographers"
+        "Autobiographers",
+        "Hypochondriacs"
     ],
     "Dorothy Hodgkin": [
         "Fellows of the Royal Society",
@@ -761,17 +783,18 @@
         "Foreign associates of the National Academy of Sciences",
         "Royal Medal winners",
         "Members of the Order of Merit",
-        "English Nobel laureates",
-        "British Nobel laureates",
         "Scientists with disabilities",
+        "English people with disabilities",
         "Alumni of Newnham College, Cambridge",
-        "Nobel laureates in Chemistry"
+        "Nobel laureates in Chemistry",
+        "British Nobel laureates, English Nobel laureates"
     ],
     "The Rapture": [
         "Christian terminology"
     ],
-    "Napoleon's Retreat from Russia": [
-        "Wars involving France"
+    "Napoleon's Retreat from Moscow": [
+        "Wars involving France",
+        "Wars involving the Russian Empire"
     ],
     "Federico Garcia Lorca": [
         "Sonneteers",
@@ -780,7 +803,7 @@
         "LGBT Roman Catholics"
     ],
     "Doggerland": [],
-    "The Mytilenian Debate": [],
+    "The Mytilenaean Debate": [],
     "The Inca": [
         "History of indigenous peoples of the Americas"
     ],
@@ -802,8 +825,8 @@
     "Frankenstein": [
         "British novels adapted into films",
         "British novels adapted into television shows",
-        "Romanticism",
         "British novels adapted into plays",
+        "Romanticism",
         "Novels adapted into comics",
         "Censored books",
         "Novels adapted into ballets",
@@ -816,40 +839,19 @@
     ],
     "Bergson and Time": [
         "Philosophers of mind",
-        "Philosophers of science",
-        "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
-        "Philosophers of art",
-        "Continental philosophers",
         "Philosophers of language",
         "Fellows of the American Academy of Arts and Sciences",
-        "19th-century essayists",
-        "Writers about religion and science",
-        "20th-century essayists",
-        "Metaphilosophers",
-        "Philosophers of psychology",
         "Jewish philosophers",
         "Writers from Paris",
-        "Empiricists",
         "Nobel laureates in Literature",
-        "Philosophers of mathematics",
+        "19th-century philosophers",
         "20th-century French philosophers",
-        "Members of the Académie Française",
-        "Analytic philosophers",
-        "French male non-fiction writers",
         "École Normale Supérieure alumni",
+        "Phenomenologists",
         "French Nobel laureates",
-        "Grand Croix of the Légion d'honneur",
-        "Philosophers of time",
-        "19th-century French male writers",
-        "19th-century French philosophers",
-        "20th-century French male writers",
-        "Corresponding Fellows of the British Academy",
-        "French ethicists",
-        "History of psychology",
-        "Lycée Condorcet alumni, French essayists"
+        "Lycée Condorcet alumni"
     ],
     "The Gordon Riots": [
         "Anti-Catholicism in England",
@@ -858,7 +860,6 @@
     "Nero": [
         "Ancient Roman adoptees",
         "Julio-Claudian dynasty",
-        "Bisexual men",
         "Roman philhellenes",
         "Roman pharaohs"
     ],
@@ -884,7 +885,7 @@
         "English Catholic poets"
     ],
     "Authenticity": [
-        "Aesthetics"
+        "Concepts in aesthetics"
     ],
     "William Cecil": [
         "People of the Elizabethan era",
@@ -896,6 +897,7 @@
     "Aristotle's biology": [],
     "Owain Glyndŵr": [],
     "Emmy Noether": [
+        "Institute for Advanced Study visiting scholars",
         "Academic staff of the University of Göttingen"
     ],
     "Samuel Beckett": [
@@ -906,13 +908,13 @@
         "Modernist writers",
         "Alumni of Trinity College Dublin",
         "Philosophical pessimists",
-        "Burials at Montparnasse Cemetery",
-        "Irish male novelists",
-        "Absurdist writers",
         "Scholars of Trinity College Dublin",
         "Writers from Dublin (city)",
-        "Irish male dramatists and playwrights, Irish expatriates in France",
-        "20th-century Irish poets, 20th-century Irish dramatists and playwrights, 20th-century Irish male writers",
+        "Absurdist writers",
+        "Irish male novelists",
+        "Burials at Montparnasse Cemetery",
+        "Irish expatriates in France, Irish male dramatists and playwrights",
+        "20th-century Irish male writers, 20th-century Irish poets, 20th-century Irish dramatists and playwrights",
         "Irish Nobel laureates, Irish modernist poets"
     ],
     "Papal Infallibility": [
@@ -927,7 +929,7 @@
         "Works of unknown authorship",
         "Cotton Library"
     ],
-    "The Thirty Years' War": [
+    "The Thirty Years War": [
         "Wars involving France"
     ],
     "The Long March": [],
@@ -953,16 +955,17 @@
     "Is Shakespeare History? The Romans": [],
     "Is Shakespeare History? The Plantagenets": [],
     "Edith Wharton": [
+        "19th-century American poets",
         "Members of the American Academy of Arts and Letters",
         "German–English translators",
-        "Chevaliers of the Légion d'honneur",
-        "19th-century American poets",
+        "Knights of the Legion of Honour",
         "American autobiographers"
     ],
     "Dietrich Bonhoeffer": [
         "Anglican saints",
         "Christian humanists",
         "Christian radicals",
+        "Lutheran saints",
         "People celebrated in the Lutheran liturgical calendar",
         "Christian poets",
         "Executed philosophers",
@@ -984,15 +987,15 @@
         "Victorian poets",
         "19th-century British short story writers",
         "Epic poets",
+        "English atheists",
         "English fantasy writers",
         "English socialists",
+        "Libertarian socialists",
         "Artist authors",
-        "English atheists",
         "Translators of Homer",
         "Botanical illustrators",
-        "Libertarian socialists",
         "Mythopoeic writers",
-        "English male short story writers, English male novelists"
+        "English male novelists, English male short story writers"
     ],
     "The Mexican-American War": [
         "History of United States expansionism",
@@ -1003,13 +1006,14 @@
     ],
     "Montesquieu": [
         "Philosophers of history",
-        "Political philosophers",
         "Fellows of the Royal Society",
         "Enlightenment philosophers",
         "Philosophers of law",
+        "French political philosophers",
         "French Roman Catholics",
-        "Members of the Académie Française",
         "Members of the Prussian Academy of Sciences",
+        "Members of the Académie Française",
+        "Liberal theorists",
         "Contributors to the Encyclopédie (1751–1772)"
     ],
     "Persepolis": [],
@@ -1046,15 +1050,13 @@
         "Political philosophers",
         "Philosophers of law",
         "Writers from Paris",
-        "French Roman Catholics",
-        "Members of the Académie Française",
-        "French philosophers",
-        "French male non-fiction writers",
         "French political philosophers",
+        "French Roman Catholics",
+        "French philosophers",
+        "Members of the Académie Française",
         "Historians of the French Revolution",
-        "Chevaliers of the Légion d'honneur",
-        "19th-century French male writers",
-        "19th-century French philosophers",
+        "French male non-fiction writers",
+        "Knights of the Legion of Honour",
         "French sociologists"
     ],
     "Augustine's Confessions": [
@@ -1066,16 +1068,16 @@
         "Philosophers of education",
         "Political philosophers",
         "Philosophers of social science",
-        "Philosophers of war",
         "People whose existence is disputed",
         "Theoretical historians",
+        "Philosophers of war",
         "Political realists",
         "Military theorists"
     ],
     "Rosalind Franklin": [
         "English agnostics",
-        "Deaths from cancer in England",
         "Jewish agnostics",
+        "Deaths from cancer in England",
         "Alumni of Newnham College, Cambridge"
     ],
     "Fungi": [],
@@ -1083,6 +1085,7 @@
         "Anglican saints",
         "19th-century male writers",
         "Lecturers",
+        "American male journalists",
         "American autobiographers"
     ],
     "Cephalopods": [],
@@ -1097,12 +1100,13 @@
         "1st-century BC Roman augurs, 1st-century BC Roman consuls"
     ],
     "Anna Akhmatova": [
-        "20th-century translators",
+        "Pseudonymous women writers",
         "20th-century pseudonymous writers",
-        "Pseudonymous women writers"
+        "20th-century translators"
     ],
     "The Siege of Malta, 1565": [
-        "Sieges involving the Ottoman Empire"
+        "Sieges involving the Ottoman Empire",
+        "Ottoman–Spanish conflicts"
     ],
     "Hamlet": [
         "English Renaissance plays",
@@ -1122,7 +1126,6 @@
     ],
     "Thomas Becket": [
         "Anglican saints",
-        "English Roman Catholics",
         "People from the City of London",
         "English Roman Catholic saints, History of Catholicism in England"
     ],
@@ -1132,16 +1135,16 @@
         "Novels adapted into radio programs",
         "Allegory",
         "Novels about revenge",
-        "American novels adapted into plays, American novels adapted into films, American novels adapted into television shows"
+        "American novels adapted into films, American novels adapted into plays, American novels adapted into television shows"
     ],
     "Carl Friedrich Gauss": [
         "Fellows of the Royal Society",
         "Fellows of the American Academy of Arts and Sciences",
         "Recipients of the Copley Medal",
-        "German Lutherans",
         "Members of the Royal Swedish Academy of Sciences",
-        "Honorary members of the Saint Petersburg Academy of Sciences",
+        "German Lutherans",
         "Members of the Royal Netherlands Academy of Arts and Sciences",
+        "Honorary members of the Saint Petersburg Academy of Sciences",
         "Recipients of the Pour le Mérite (civil class)",
         "University of Göttingen alumni",
         "Members of the Göttingen Academy of Sciences and Humanities",
@@ -1155,8 +1158,8 @@
         "Writers from Paris",
         "18th-century philosophers",
         "19th-century philosophers",
-        "French Roman Catholics",
         "French women philosophers",
+        "French Roman Catholics",
         "French philosophers",
         "Conversationalists",
         "18th-century French writers",
@@ -1165,7 +1168,8 @@
         "18th-century French women writers",
         "18th-century letter writers",
         "19th-century letter writers",
-        "19th-century French novelists, 19th-century French women writers"
+        "French feminists",
+        "19th-century French women writers, 19th-century French novelists"
     ],
     "The Picts": [],
     "Picasso's Guernica": [
@@ -1175,12 +1179,12 @@
     "The Congress of Vienna": [],
     "Aphra Behn": [
         "Burials at Westminster Abbey",
+        "English women poets",
         "17th-century English poets",
         "17th-century English writers",
-        "Feminism and history",
-        "17th-century English dramatists and playwrights",
-        "English women poets",
         "English women novelists",
+        "17th-century English dramatists and playwrights",
+        "Feminism and history",
         "English feminists, English feminist writers"
     ],
     "Constantine the Great": [
@@ -1225,39 +1229,36 @@
         "Catholic theology and doctrine"
     ],
     "Louis Pasteur": [
-        "Recipients of the Copley Medal",
         "Members of the American Philosophical Society",
+        "Recipients of the Copley Medal",
         "Foreign associates of the National Academy of Sciences",
+        "Members of the Royal Netherlands Academy of Arts and Sciences",
         "Honorary members of the Saint Petersburg Academy of Sciences",
+        "Members of the French Academy of Sciences",
         "French Roman Catholics",
         "Members of the Académie Française",
-        "Members of the Royal Netherlands Academy of Arts and Sciences",
-        "Members of the French Academy of Sciences",
+        "Scientists with disabilities",
         "École Normale Supérieure alumni",
-        "Grand Croix of the Légion d'honneur"
+        "Foreign Members of the Royal Society",
+        "Grand Cross of the Legion of Honour"
     ],
     "Emily Dickinson": [
         "Christian poets",
-        "Calvinist and Reformed poets",
-        "19th-century American poets"
+        "19th-century American poets",
+        "Calvinist and Reformed poets"
     ],
     "The Battle of Lincoln 1217": [],
     "The Egyptian Book of the Dead": [
         "Works of unknown authorship"
     ],
     "Roger Bacon": [
-        "Philosophers of history",
         "Philosophers of mind",
         "Philosophers of science",
-        "Philosophers of religion",
-        "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
         "Philosophers of literature",
         "Philosophers of language",
-        "Philosophers of technology",
-        "Empiricists",
         "Natural philosophers",
+        "Empiricists",
         "Catholic philosophers",
         "English philosophers",
         "Scholastic philosophers",
@@ -1270,11 +1271,11 @@
         "19th-century philosophers",
         "20th-century German philosophers",
         "Marxist theorists",
+        "German Marxist writers",
         "Jewish socialists",
         "European democratic socialists",
         "German revolutionaries",
-        "German women philosophers",
-        "German Marxist writers, German anti-capitalists"
+        "German women philosophers"
     ],
     "Pauli's exclusion principle": [
         "Spintronics"
@@ -1291,20 +1292,19 @@
         "Victorian novelists",
         "English short story writers",
         "19th-century English women writers",
+        "English women novelists",
         "19th-century British short story writers",
         "19th-century English novelists",
         "English Unitarians",
-        "English women novelists",
-        "Victorian women writers",
-        "English biographers"
+        "Victorian women writers"
     ],
     "The Kuiper belt": [
         "Solar System"
     ],
     "Seneca the Younger": [
         "Philosophers of mind",
-        "Political philosophers",
         "Philosophers of literature",
+        "Political philosophers",
         "Philosophers of art",
         "Philosophers of language",
         "Philosophers of social science",
@@ -1335,22 +1335,20 @@
         "Philosophers of science",
         "Political philosophers",
         "Philosophy writers",
-        "Continental philosophers",
         "Fellows of the American Academy of Arts and Sciences",
         "Philosophers of law",
-        "Jewish philosophers",
         "Philosophers of technology",
         "Existentialists",
         "German ethicists",
+        "Jewish agnostics",
         "German political philosophers",
         "20th-century German philosophers",
         "Heidelberg University alumni",
         "Women religious writers",
         "Members of the American Academy of Arts and Letters",
-        "Jewish agnostics",
+        "American political philosophers",
         "20th-century German non-fiction writers",
-        "German women philosophers",
-        "American social commentators, American political philosophers"
+        "German women philosophers"
     ],
     "Parasitism": [],
     "Mary, Queen of Scots": [
@@ -1363,46 +1361,43 @@
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
-        "Theorists on Western civilization",
+        "Ontologists",
         "Philosophers of literature",
         "Writers about activism and social change",
         "Philosophers of art",
         "Philosophy writers",
-        "Continental philosophers",
+        "Theorists on Western civilization",
         "Critics of religions",
-        "Philosophers of social science",
-        "Writers about religion and science",
-        "Aphorists",
         "Critics of the Catholic Church",
-        "Metaphilosophers",
-        "Philosophers of psychology",
+        "Writers about religion and science",
+        "Philosophers of social science",
+        "Aphorists",
         "German male non-fiction writers",
         "19th-century German male writers",
+        "Metaphilosophers",
         "19th-century German philosophers",
         "Philosophers of sexuality",
         "Existentialists",
-        "Critics of Christianity",
-        "German ethicists",
+        "Philosophers of psychology",
         "19th-century philosophers",
         "Critics of work and the work ethic",
-        "19th-century German non-fiction writers",
         "Anti-consumerists",
-        "Critical theorists",
-        "Irony theorists",
+        "German ethicists",
         "Leipzig University alumni",
-        "German social commentators",
+        "Irony theorists",
+        "19th-century German non-fiction writers",
         "19th-century German male musicians",
-        "Philosophers of time",
+        "Critical theorists",
+        "German critics of Christianity",
         "Determinists",
         "19th-century German novelists",
         "People from the Province of Saxony",
-        "Philosophers of nihilism"
+        "Philosophers of time"
     ],
     "Johannes Kepler": [
         "Anglican saints",
@@ -1418,17 +1413,17 @@
         "19th-century atheists",
         "Victorian novelists",
         "19th-century English women writers",
-        "Feminism and history",
+        "Scientists with disabilities",
         "19th-century British writers",
+        "English atheists",
         "British classical liberals",
         "English Unitarians",
         "English abolitionists",
-        "Scientists with disabilities",
+        "Feminism and history",
         "English translators",
         "Victorian women writers",
         "19th-century British economists",
         "Classical economists",
-        "English atheists",
         "19th-century British philosophers",
         "British women essayists",
         "English suffragists"
@@ -1470,7 +1465,6 @@
         "Novels adapted into radio programs",
         "Allegory",
         "British novellas",
-        "Pigs in literature",
         "Dystopian novels",
         "English novels"
     ],
@@ -1489,11 +1483,11 @@
     "Penicillin": [],
     "Margery Kempe and English Mysticism": [
         "Anglican saints",
-        "English Roman Catholics",
         "Women religious writers",
         "Women mystics",
         "English women non-fiction writers",
-        "Roman Catholic mystics"
+        "Roman Catholic mystics",
+        "English Roman Catholics"
     ],
     "The Gettysburg Address": [],
     "The Muses": [],
@@ -1558,18 +1552,15 @@
         "Philosophers of culture",
         "Philosophers of history",
         "Philosophers of education",
-        "Political philosophers",
         "Philosophers of religion",
-        "Theorists on Western civilization",
         "Writers about activism and social change",
+        "Theorists on Western civilization",
         "Critics of religions",
-        "Enlightenment philosophers",
         "Members of the American Philosophical Society",
-        "Critics of Christianity",
+        "Enlightenment philosophers",
         "18th-century philosophers",
-        "19th-century philosophers",
         "Hall of Fame for Great Americans inductees",
-        "English social commentators",
+        "19th-century philosophers",
         "18th-century English people",
         "19th-century male writers",
         "American male non-fiction writers",
@@ -1579,11 +1570,12 @@
         "British classical liberals",
         "18th-century English writers",
         "English inventors",
+        "Liberal theorists",
+        "American political philosophers",
         "English republicans",
         "American abolitionists",
         "American deists",
         "Critics of Judaism",
-        "American social commentators, American political philosophers",
         "Founding Fathers of the United States, People of the American Enlightenment, 18th-century American writers"
     ],
     "Saturn": [
@@ -1601,11 +1593,11 @@
         "Recipients of the Copley Medal",
         "Foreign associates of the National Academy of Sciences",
         "Members of the Royal Swedish Academy of Sciences",
-        "Honorary members of the Saint Petersburg Academy of Sciences",
         "Members of the Royal Netherlands Academy of Arts and Sciences",
+        "Honorary members of the Saint Petersburg Academy of Sciences",
+        "Members of the French Academy of Sciences",
         "Royal Medal winners",
         "18th-century English people",
-        "Members of the French Academy of Sciences",
         "Recipients of the Pour le Mérite (civil class)",
         "English inventors",
         "19th-century British physicists",
@@ -1634,7 +1626,9 @@
         "John Murray (publishing house) books",
         "Novels set in England"
     ],
-    "The Battle of Lepanto": [],
+    "The Battle of Lepanto": [
+        "Ottoman–Spanish conflicts"
+    ],
     "P v NP": [
         "Unsolved problems in computer science"
     ],
@@ -1642,64 +1636,45 @@
         "Former empires in Africa"
     ],
     "Simone de Beauvoir": [
-        "Social philosophers",
-        "Philosophers of culture",
         "Philosophers of education",
-        "Political philosophers",
-        "Epistemologists",
-        "Ontologists",
-        "Metaphysicians",
-        "Philosophers of literature",
         "Philosophers of art",
-        "Continental philosophers",
         "Atheist philosophers",
         "Writers from Paris",
         "Philosophers of sexuality",
         "Existentialists",
         "20th-century French philosophers",
-        "French women philosophers",
-        "Critical theorists",
-        "French atheists",
-        "Phenomenologists",
-        "20th-century French novelists",
-        "French socialists",
-        "Légion d'honneur refusals",
-        "University of Paris alumni",
         "French political philosophers",
+        "French women philosophers",
+        "French atheists",
+        "20th-century French novelists",
+        "University of Paris alumni",
         "French women novelists",
         "French literary critics",
         "Former Roman Catholics",
         "20th-century French women writers",
-        "Bisexual women",
-        "French bisexual writers",
         "French LGBT novelists",
-        "LGBT philosophers",
-        "French ethicists",
         "Burials at Montparnasse Cemetery",
-        "Philosophers of nihilism",
+        "French feminists",
         "Feminist philosophers",
         "French communists",
-        "Jerusalem Prize recipients",
-        "French social commentators"
+        "Infectious disease deaths in France",
+        "Jerusalem Prize recipients"
     ],
     "Holbein at the Tudor Court": [],
     "Alexander the Great": [
-        "Ancient LGBT people",
-        "City founders",
-        "Deified people"
+        "City founders"
     ],
     "Perpetual motion": [
         "Pseudoscience"
     ],
     "Frida Kahlo": [
-        "Women who experienced pregnancy loss",
-        "Bisexual women"
+        "Women who experienced pregnancy loss"
     ],
     "Frederick the Great": [
         "Age of Enlightenment",
-        "Critics of Christianity",
         "18th-century classical composers",
         "German male classical composers",
+        "German critics of Christianity",
         "18th-century German composers",
         "German classical composers",
         "Royal reburials",
@@ -1740,13 +1715,13 @@
     "Fanny Burney": [
         "English essayists",
         "Writers from London",
+        "English women poets",
         "19th-century English women writers",
+        "English women novelists",
         "English satirists",
         "Conversationalists",
-        "English women poets",
         "19th-century English novelists",
         "18th-century English writers",
-        "English women novelists",
         "English diarists",
         "British women essayists",
         "18th-century English novelists",
@@ -1757,15 +1732,15 @@
     ],
     "Sappho": [
         "6th-century BC Greek people",
-        "Ancient LGBT people"
+        "7th-century BC Greek people"
     ],
     "The California Gold Rush": [
         "History of United States expansionism"
     ],
     "The Curies": [
         "French atheists",
-        "Légion d'honneur refusals",
         "University of Paris alumni",
+        "Legion of Honour refusals",
         "French Nobel laureates",
         "Former Roman Catholics",
         "Nobel laureates in Chemistry",
@@ -1792,7 +1767,9 @@
     "Beowulf": [
         "Poems adapted into films"
     ],
-    "The Eunuch": [],
+    "The Eunuch": [
+        "Castrated people"
+    ],
     "Wealth of Nations": [
         "Classical liberalism"
     ],
@@ -1801,7 +1778,7 @@
         "Force carriers, Bosons"
     ],
     "Ashoka the Great": [
-        "Ancient history of Pakistan, Ancient history of Afghanistan"
+        "Ancient history of Afghanistan, Ancient history of Pakistan"
     ],
     "Thucydides": [
         "Political realists",
@@ -1813,26 +1790,15 @@
     ],
     "Phenomenology": [
         "Philosophical schools and traditions",
-        "Social philosophy",
-        "Concepts in the philosophy of mind",
-        "Philosophical methodology",
-        "Criticism of rationalism",
-        "History of philosophy",
-        "Intellectual history",
-        "Theory of mind",
-        "Philosophy of mind",
-        "Qualia",
-        "Phenomenology, Consciousness"
+        "Phenomenology"
     ],
     "Bruegel's The Fight Between Carnival and Lent": [],
     "Truth": [
-        "Concepts in metaphysics",
-        "Virtue",
         "Concepts in epistemology",
+        "Virtue",
         "Ontology",
-        "Ethical principles",
-        "Philosophy of mind",
-        "Concepts in logic"
+        "Metaphysical properties",
+        "Ethical principles"
     ],
     "Behavioural ecology": [],
     "Zen": [],
@@ -1840,15 +1806,17 @@
         "Aphorists",
         "Modernist writers",
         "Fabulists",
+        "Jewish atheists",
         "Jewish socialists",
         "Absurdist writers",
-        "Weird fiction writers",
-        "20th-century deaths from tuberculosis"
+        "20th-century deaths from tuberculosis",
+        "Weird fiction writers"
     ],
     "Aesop": [
         "People whose existence is disputed",
         "6th-century BC Greek people",
-        "Fabulists"
+        "Fabulists",
+        "7th-century BC Greek people"
     ],
     "Brunel": [
         "Fellows of the Royal Society",
@@ -1856,7 +1824,7 @@
         "Lycée Henri-IV alumni"
     ],
     "Hatshepsut": [
-        "Pharaohs of the Eighteenth Dynasty of Egypt, Historical negationism in ancient Egypt"
+        "Historical negationism in ancient Egypt, Pharaohs of the Eighteenth Dynasty of Egypt"
     ],
     "Nuclear Fusion": [
         "Physical phenomena"
@@ -1873,16 +1841,16 @@
         "Victorian novelists",
         "19th-century English poets",
         "English short story writers",
-        "19th-century British short story writers",
-        "English Nobel laureates",
         "20th-century English poets",
-        "Fellows of the Royal Society of Literature",
-        "British Nobel laureates",
+        "19th-century British short story writers",
+        "20th-century English novelists",
         "20th-century English male writers",
+        "Fellows of the Royal Society of Literature",
         "19th-century English non-fiction writers",
         "Mythopoeic writers",
         "Weird fiction writers",
-        "English male short story writers, English male novelists"
+        "English male novelists, English male short story writers",
+        "British Nobel laureates, English Nobel laureates"
     ],
     "The Battle of Talas": [],
     "Julius Caesar": [
@@ -1929,13 +1897,14 @@
         "Irish Anglicans",
         "Independent scientists",
         "Discoverers of chemical elements",
+        "17th-century Anglo-Irish people",
         "17th-century English philosophers"
     ],
     "The Bluestockings": [],
     "The Talmud": [],
     "The Rubaiyat of Omar Khayyam": [],
     "Photosynthesis": [],
-    "The Second Sino-Japanese War": [
+    "The Sino-Japanese War": [
         "Wars involving Japan"
     ],
     "The Tale of Sinuhe": [],
@@ -1960,33 +1929,32 @@
         "Philosophers of culture",
         "Philosophers of history",
         "Writers about activism and social change",
-        "Continental philosophers",
         "19th-century German male writers",
         "Philosophers of economics",
         "19th-century German philosophers",
         "Critics of work and the work ethic",
-        "German political philosophers",
         "19th-century German writers",
-        "German social commentators",
+        "German political philosophers",
         "20th-century German philosophers",
         "University of Göttingen alumni",
         "Heidelberg University alumni",
         "Humboldt University of Berlin alumni",
         "Members of the Bavarian Academy of Sciences",
         "German nationalists",
-        "People from the Province of Saxony"
+        "People from the Province of Saxony",
+        "Continental philosophers"
     ],
     "Bishop Berkeley": [
         "Philosophers of science",
         "Epistemologists",
-        "Anglican saints",
         "Enlightenment philosophers",
         "Empiricists",
-        "Idealists",
         "Alumni of Trinity College Dublin",
+        "Idealists",
         "Scholars of Trinity College Dublin",
+        "17th-century Anglo-Irish people",
         "Anglican philosophers",
-        "18th-century Irish male writers, 18th-century Irish writers, 18th-century Anglo-Irish people"
+        "18th-century Irish writers, 18th-century Irish male writers, 18th-century Anglo-Irish people"
     ],
     "The Trinity": [
         "Christian terminology",
@@ -1998,6 +1966,7 @@
     "The Eye": [],
     "Social Darwinism": [
         "Social theories",
+        "Pseudoscience",
         "Political theories",
         "Conservatism",
         "Theories of history"
@@ -2020,7 +1989,6 @@
         "Complex systems theory"
     ],
     "Pliny the Younger": [
-        "Critics of Christianity",
         "1st-century Romans",
         "Ancient Roman adoptees",
         "Silver Age Latin writers",
@@ -2055,16 +2023,19 @@
         "Concepts in astronomy"
     ],
     "The Mamluks": [],
-    "Blaise Pascal": [
+    "Pascal": [
         "Aphorists",
         "Christian humanists",
         "Catholic philosophers",
         "French philosophers",
         "Fluid dynamicists",
         "Critics of atheism",
+        "Probability theorists",
         "French physicists",
+        "Hypochondriacs",
         "17th-century Christian mystics",
-        "Roman Catholic mystics"
+        "Roman Catholic mystics",
+        "French Roman Catholic writers"
     ],
     "The Invention of Radio": [],
     "Romance of the Three Kingdoms": [
@@ -2082,47 +2053,44 @@
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
-        "Theorists on Western civilization",
+        "Ontologists",
         "Writers about activism and social change",
-        "Continental philosophers",
+        "Theorists on Western civilization",
         "Philosophers of language",
-        "Philosophers of social science",
+        "Members of the American Philosophical Society",
         "Writers about religion and science",
         "20th-century essayists",
-        "Metaphilosophers",
-        "Jewish philosophers",
-        "Members of the American Philosophical Society",
-        "Social commentators",
-        "20th-century atheists",
-        "Atheist philosophers",
-        "Writers from Paris",
-        "Literacy and society theorists",
+        "Philosophers of social science",
         "Foreign associates of the National Academy of Sciences",
-        "Metaphysics writers",
-        "20th-century French philosophers",
-        "Critical theorists",
-        "Members of the Académie Française",
+        "20th-century atheists",
+        "Jewish philosophers",
+        "Atheist philosophers",
+        "Metaphilosophers",
+        "Writers from Paris",
         "Members of the Royal Netherlands Academy of Arts and Sciences",
+        "Literacy and society theorists",
+        "20th-century French philosophers",
         "French atheists",
+        "Members of the Académie Française",
+        "University of Paris alumni",
+        "Metaphysics writers",
+        "Writers about globalization",
         "Phenomenologists",
         "French male non-fiction writers",
-        "University of Paris alumni",
-        "Writers about globalization",
-        "Grand Croix of the Légion d'honneur",
-        "Intellectual history",
+        "Critical theorists",
+        "Jewish atheists",
         "Philosophy academics",
-        "20th-century French male writers",
-        "Corresponding Fellows of the British Academy",
+        "Lycée Condorcet alumni",
         "French sociologists",
-        "Philosophers of linguistics",
-        "Lycée Condorcet alumni, French essayists"
+        "Grand Cross of the Legion of Honour",
+        "Intellectual history",
+        "Philosophers of linguistics"
     ],
     "Cosmic rays": [
         "Concepts in astronomy"
@@ -2134,32 +2102,11 @@
         "Western esotericism"
     ],
     "Montaigne": [
-        "Social philosophers",
-        "Philosophers of culture",
-        "Philosophers of history",
         "Philosophers of education",
-        "Philosophers of mind",
         "Philosophers of science",
-        "Political philosophers",
-        "Philosophers of religion",
-        "Epistemologists",
-        "Ontologists",
-        "Metaphysicians",
-        "Theorists on Western civilization",
-        "Philosophers of literature",
-        "Philosophers of social science",
-        "Aphorists",
-        "Metaphilosophers",
-        "Philosophers of logic",
-        "Philosophers of psychology",
-        "Literary theorists",
         "Christian humanists",
-        "Empiricists",
-        "Literacy and society theorists",
-        "Metaphysics writers",
-        "Irony theorists",
         "16th-century male writers",
-        "French social commentators"
+        "French Roman Catholic writers"
     ],
     "The Putney Debates": [],
     "The Amazons": [],
@@ -2181,7 +2128,6 @@
     ],
     "Chekhov": [
         "Modernist theatre",
-        "Modernism",
         "Russian atheists",
         "20th-century deaths from tuberculosis"
     ],
@@ -2198,7 +2144,7 @@
         "History of climate variability and change"
     ],
     "Epicureanism": [
-        "Philosophy of life"
+        "Materialism"
     ],
     "The War of 1812": [
         "Wars involving the United Kingdom",
@@ -2224,103 +2170,106 @@
     "Bertrand Russell": [
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
-        "Political philosophers",
         "Philosophers of religion",
-        "Epistemologists",
-        "Ontologists",
-        "Metaphysicians",
-        "Theorists on Western civilization",
-        "Philosophers of literature",
         "Fellows of the Royal Society",
+        "Epistemologists",
+        "Metaphysicians",
+        "Ontologists",
+        "Philosophers of literature",
+        "Political philosophers",
         "Writers about activism and social change",
+        "Theorists on Western civilization",
         "Philosophers of language",
         "Critics of religions",
-        "Philosophers of social science",
-        "19th-century essayists",
-        "Writers about religion and science",
-        "20th-century essayists",
-        "English essayists",
         "Critics of the Catholic Church",
-        "Metaphilosophers",
-        "Philosophers of logic",
+        "Writers about religion and science",
+        "English essayists",
+        "19th-century essayists",
         "Philosophers of law",
+        "20th-century essayists",
+        "Philosophers of social science",
         "English male non-fiction writers",
+        "Philosophers of logic",
         "20th-century atheists",
-        "Philosophers of technology",
         "Atheist philosophers",
+        "Metaphilosophers",
         "English people of Scottish descent",
         "Philosophers of economics",
-        "Empiricists",
         "Nobel laureates in Literature",
-        "Philosophers of mathematics",
+        "Philosophers of technology",
         "Logicians",
         "Philosophers of sexuality",
-        "Critics of Christianity",
-        "Metaphysics writers",
+        "Philosophers of mathematics",
         "19th-century atheists",
-        "Critics of work and the work ethic",
         "Philosophers of love",
+        "Empiricists",
+        "Critics of work and the work ethic",
         "Aristotelian philosophers",
         "English agnostics",
-        "English social commentators",
         "Members of the Order of Merit",
-        "Analytic philosophers",
         "Rhetoric theorists",
-        "English Nobel laureates",
+        "Metaphysics writers",
         "Writers about globalization",
         "English people of Welsh descent",
+        "Analytic philosophers",
         "British ethicists",
         "Utilitarians",
         "English socialists",
-        "British consciousness researchers and theorists",
         "Free speech activists",
         "Freethought writers",
+        "20th-century English mathematicians",
         "20th-century English philosophers",
         "English logicians",
         "European democratic socialists",
         "Jerusalem Prize recipients",
         "Georgists",
         "Alumni of Trinity College, Cambridge",
+        "British consciousness researchers and theorists",
         "Consequentialists",
         "English political philosophers",
         "English political writers",
         "Fellows of Trinity College, Cambridge",
         "Linguistic turn",
-        "Nonviolence advocates"
+        "Nonviolence advocates",
+        "Anti-nationalists",
+        "British Nobel laureates, English Nobel laureates"
     ],
     "Crystallography": [],
     "The Borgias": [],
     "Simone Weil": [
         "Social philosophers",
         "Philosophers of science",
-        "Political philosophers",
         "Philosophers of religion",
-        "Continental philosophers",
-        "Jewish philosophers",
+        "Political philosophers",
         "Christian humanists",
-        "Philosophers of technology",
+        "Jewish philosophers",
         "Writers from Paris",
+        "Philosophers of technology",
         "Christian radicals",
         "20th-century French philosophers",
-        "French women philosophers",
-        "Marxist theorists",
-        "French socialists",
+        "Critics of work and the work ethic",
         "French political philosophers",
+        "French women philosophers",
+        "French socialists",
         "École Normale Supérieure alumni",
+        "Marxist theorists",
         "Women mystics",
         "20th-century French women writers",
+        "French feminists",
         "French communists",
         "20th-century deaths from tuberculosis",
         "Lycée Henri-IV alumni",
+        "Continental philosophers",
         "Nonviolence advocates",
-        "French anti-capitalists, French anarchists, French anti-fascists"
+        "French anti-fascists, French anti-capitalists"
     ],
     "The Upanishads": [
         "Works of unknown authorship",
-        "Sanskrit texts, Hindu texts"
+        "Hindu texts",
+        "Sanskrit texts"
     ],
     "The Anarchy": [],
     "Fermat's Last Theorem": [],
@@ -2333,7 +2282,9 @@
         "13th-century Latin writers",
         "12th-century Latin writers"
     ],
-    "The Ontological Argument": [],
+    "The Ontological Argument": [
+        "Ontology"
+    ],
     "The Druids": [],
     "The Cell": [],
     "Hadrian's Wall": [],
@@ -2348,15 +2299,15 @@
         "Philosophers of science",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
+        "Ontologists",
         "Philosophers of art",
         "Philosophers of logic",
         "Philosophers of psychology",
         "Philosophers of mathematics",
-        "Metaphysics writers",
         "Islamic philosophers",
         "Aristotelian philosophers",
+        "Metaphysics writers",
         "Intellectual history",
         "Alchemists of the medieval Islamic world"
     ],
@@ -2387,9 +2338,9 @@
     "Clausewitz and On War": [
         "German male non-fiction writers",
         "19th-century German male writers",
-        "Philosophers of war",
         "19th-century German writers",
         "Theoretical historians",
+        "Philosophers of war",
         "Political realists",
         "Military theorists",
         "German untitled nobility"
@@ -2405,7 +2356,7 @@
         "Picaresque novels",
         "Novels set in England"
     ],
-    "Battle of Bosworth Field": [],
+    "The Battle of Bosworth Field": [],
     "Neoplatonism": [
         "Spirituality",
         "Western esotericism"
@@ -2443,36 +2394,37 @@
         "Philosophers of history",
         "Philosophers of education",
         "Philosophers of science",
-        "Political philosophers",
         "Philosophers of religion",
-        "Theorists on Western civilization",
-        "Philosophers of literature",
         "Fellows of the Royal Society",
+        "Philosophers of literature",
+        "Political philosophers",
         "Writers about activism and social change",
         "Philosophy writers",
+        "Theorists on Western civilization",
         "Fellows of the American Academy of Arts and Sciences",
+        "Members of the American Philosophical Society",
         "Writers about religion and science",
-        "Aphorists",
         "Recipients of the Copley Medal",
         "Age of Enlightenment",
-        "Members of the American Philosophical Society",
+        "Aphorists",
         "Philosophers of technology",
+        "Hall of Fame for Great Americans inductees",
         "Honorary members of the Saint Petersburg Academy of Sciences",
         "Simple living advocates",
-        "Hall of Fame for Great Americans inductees",
         "Rhetoric theorists",
         "American male non-fiction writers",
-        "American people of English descent",
+        "American political philosophers",
         "People associated with electricity",
         "Independent scientists",
+        "American male journalists",
         "Humor researchers",
         "18th-century pseudonymous writers",
         "18th-century letter writers",
+        "American people of English descent",
         "American slave owners",
         "American autobiographers",
         "American abolitionists",
         "American deists",
-        "American social commentators, American political philosophers",
         "Founding Fathers of the United States, People of the American Enlightenment, 18th-century American writers"
     ],
     "Conductors and Semiconductors": [],
@@ -2489,8 +2441,8 @@
     "The Scientific method": [
         "Philosophy of science",
         "Scientific revolution",
-        "Empiricism",
-        "Scientific method"
+        "Scientific method",
+        "Empiricism"
     ],
     "1848: Year of Revolution": [
         "Romanticism",
@@ -2517,20 +2469,21 @@
         "Ancient Greek philosophers of mind",
         "5th-century BC Greek people",
         "Ancient Greek political philosophers",
-        "Philosophers of time",
         "6th-century BC Greek people",
         "5th-century BC philosophers",
+        "6th-century BC philosophers",
         "Ancient Greek metaphysicians",
         "Ancient Greek physicists",
+        "Philosophers of time",
         "Ancient Greek epistemologists, Ancient Greek ethicists"
     ],
     "Christina Rossetti": [
         "Anglican saints",
         "Sonneteers",
         "Writers from London",
+        "English women poets",
         "Victorian poets",
         "19th-century English women writers",
-        "English women poets",
         "19th-century British writers",
         "English fantasy writers",
         "Victorian women writers",
@@ -2542,9 +2495,7 @@
         "2nd-century philosophers",
         "Roman-era geographers"
     ],
-    "The Continental-Analytic Split": [
-        "Western philosophy"
-    ],
+    "The Continental-Analytic Split": [],
     "The Moon": [
         "Solar System",
         "Astronomical objects known since antiquity"
@@ -2559,37 +2510,37 @@
     "David Hume": [
         "Social philosophers",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
         "Philosophers of religion",
         "Epistemologists",
         "Ontologists",
-        "Theorists on Western civilization",
         "Writers about activism and social change",
         "Philosophers of art",
         "Philosophy writers",
+        "Theorists on Western civilization",
         "Critics of religions",
-        "Philosophers of social science",
-        "Writers about religion and science",
         "Critics of the Catholic Church",
         "Enlightenment philosophers",
-        "Metaphilosophers",
+        "Writers about religion and science",
+        "Philosophers of social science",
         "Philosophers of logic",
-        "Philosophers of psychology",
+        "Metaphilosophers",
         "Philosophers of economics",
-        "Empiricists",
-        "Philosophers of mathematics",
         "British male essayists",
+        "Philosophers of psychology",
+        "Philosophers of mathematics",
         "18th-century essayists",
+        "Empiricists",
         "Deist philosophers",
         "Alumni of the University of Edinburgh",
         "Virtue ethicists",
-        "Criticism of rationalism",
-        "British consciousness researchers and theorists",
         "Freethought writers",
         "18th-century British philosophers",
-        "Conservatism"
+        "Conservatism",
+        "British consciousness researchers and theorists",
+        "Criticism of rationalism"
     ],
     "The Etruscan Civilisation": [],
     "Shinto": [
@@ -2603,7 +2554,7 @@
     "Malthusianism": [
         "Theories of history"
     ],
-    "John Wycliff and the Lollards": [
+    "Wyclif and the Lollards": [
         "Anglican saints",
         "Critics of the Catholic Church",
         "Christian humanists",
@@ -2612,12 +2563,11 @@
         "English Reformation"
     ],
     "The Origins of Infectious Disease": [],
-    "Battle of Stamford Bridge": [
+    "The Battle of Stamford Bridge": [
         "Last stands"
     ],
     "Xenophon": [
         "Social philosophers",
-        "Political philosophers",
         "Ancient Greek political philosophers",
         "Attic Greek writers",
         "Classical-era Greek historians",
@@ -2629,18 +2579,8 @@
     "The Anatomy of Melancholy": [],
     "Islamic Law and its Origins": [],
     "Cogito Ergo Sum": [
-        "Concepts in metaphysics",
         "Concepts in epistemology",
-        "Ontology",
-        "Concepts in the philosophy of science",
-        "Concepts in the philosophy of mind",
-        "Metaphysical theories",
-        "Theory of mind",
-        "Epistemological theories",
-        "Metaphysics of mind",
-        "Qualia",
-        "Western philosophy",
-        "Philosophical problems"
+        "Concepts in the philosophy of mind"
     ],
     "The Pelagian Controversy": [
         "Christian terminology"
@@ -2654,13 +2594,15 @@
         "English non-fiction writers",
         "19th-century British philanthropists",
         "English philanthropists",
+        "British social reformers",
         "English women activists",
         "English women non-fiction writers",
         "English activists"
     ],
     "The Bhagavad Gita": [
         "Works of unknown authorship",
-        "Sanskrit texts, Hindu texts"
+        "Hindu texts",
+        "Sanskrit texts"
     ],
     "The Dawn of the Iron Age": [
         "Historical eras",
@@ -2668,11 +2610,10 @@
     ],
     "The Medieval University": [],
     "Free Will(500th programme)": [
+        "Concepts in ethics",
         "Concepts in metaphysics",
         "Philosophy of life",
-        "Concepts in ethics",
-        "Philosophy of religion",
-        "Philosophical problems"
+        "Philosophy of religion"
     ],
     "The Age of the Universe": [
         "Concepts in astronomy",
@@ -2719,8 +2660,8 @@
         "Members of the Royal Swedish Academy of Sciences",
         "Hall of Fame for Great Americans inductees",
         "Scientists with disabilities",
-        "American people of English descent",
         "People associated with electricity",
+        "American people of English descent",
         "Congressional Gold Medal recipients",
         "American deists",
         "Honorary Members of the USSR Academy of Sciences, Recipients of the Matteucci Medal"
@@ -2739,13 +2680,12 @@
     ],
     "The Unicorn": [],
     "History of logic": [
-        "History of science by discipline",
-        "History of logic"
+        "History of science by discipline"
     ],
     "Sturm und Drang": [
         "Romanticism",
         "Criticism of rationalism",
-        "Sturm und Drang, Johann Wolfgang von Goethe"
+        "Johann Wolfgang von Goethe, Sturm und Drang"
     ],
     "The Spanish Armada": [
         "Invasions of England"
@@ -2759,7 +2699,8 @@
         "Roman-era geographers"
     ],
     "Athelstan": [
-        "Founding monarchs"
+        "Founding monarchs",
+        "House of Wessex, Monarchs of England before 1066"
     ],
     "Antarctica": [],
     "The Neanderthals": [],
@@ -2773,8 +2714,8 @@
         "Philosophers of culture",
         "Philosophers of history",
         "Philosophers of education",
-        "Political philosophers",
         "Philosophers of religion",
+        "Political philosophers",
         "Philosophers of art",
         "Philosophers of economics",
         "18th-century philosophers",
@@ -2783,7 +2724,6 @@
         "Virtue ethicists",
         "Irish Anglicans",
         "Critics of atheism",
-        "British social commentators",
         "English people of Irish descent",
         "Writers from Dublin (city)",
         "Streathamites",
@@ -2791,7 +2731,7 @@
         "Conservatism",
         "British political philosophers",
         "British MPs 1780–1784, Members of the Parliament of Great Britain for English constituencies",
-        "18th-century Irish male writers, 18th-century Irish writers, 18th-century Anglo-Irish people"
+        "18th-century Irish writers, 18th-century Irish male writers, 18th-century Anglo-Irish people"
     ],
     "Giorgio Vasari's Lives of the Artists": [],
     "The Cavendish Family": [],
@@ -2802,14 +2742,13 @@
         "Philosophers of science",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
+        "Ontologists",
         "Existentialists",
-        "Philosophers of war",
         "Philosophers of death",
+        "Philosophers of war",
         "Analytic philosophers",
-        "Members of the American Academy of Arts and Letters",
-        "Corresponding Fellows of the British Academy"
+        "Members of the American Academy of Arts and Letters"
     ],
     "The Cool Universe": [],
     "The Great Wall of China": [],
@@ -2824,13 +2763,12 @@
     ],
     "William Hazlitt": [
         "English essayists",
-        "English social commentators",
         "English philosophers",
         "English literary critics"
     ],
     "The History of the City (2 of 2)": [],
     "The History of the City (1 of 2)": [],
-    "The Scream and Edvard Munch": [],
+    "Munch and The Scream": [],
     "Boudica": [],
     "The Infant Brain": [],
     "Calvinism": [
@@ -2858,27 +2796,30 @@
         "British novels adapted into plays",
         "Victorian novels"
     ],
-    "The Glencoe Massacre": [],
+    "The Glencoe Massacre": [
+        "William III of England, Mary II of England"
+    ],
     "The Frankfurt School": [
         "Social philosophy",
         "Cultural studies"
     ],
     "The History of the Royal Society": [
+        "Social history of the United Kingdom",
         "Royal Society",
         "Organisations based in London with royal patronage",
         "1660 establishments in England"
     ],
     "Mary Wollstonecraft": [
         "Philosophers of education",
-        "English essayists",
         "Enlightenment philosophers",
+        "English essayists",
         "18th-century essayists",
+        "English women novelists",
         "English philosophers",
         "English travel writers",
         "Writers of Gothic fiction",
         "Historians of the French Revolution",
         "English Unitarians",
-        "English women novelists",
         "English republicans",
         "German–English translators",
         "18th-century British philosophers",
@@ -2894,23 +2835,25 @@
         "5th-century BC Greek people",
         "6th-century BC Greek people",
         "5th-century BC philosophers",
+        "6th-century BC philosophers",
         "Ancient Greek metaphysicians"
     ],
     "The Silk Road": [
-        "Ancient history of Pakistan, Ancient history of Afghanistan"
+        "Ancient history of Afghanistan, Ancient history of Pakistan"
     ],
     "Joyce's A Portrait of the Artist as a Young Man": [
         "Literary theorists",
         "Modernist writers",
         "Irony theorists",
         "Trope theorists",
-        "Modernism",
         "Irish male poets",
         "Metaphor theorists",
+        "Libertarian socialists",
+        "Modernism",
         "Humor researchers",
         "Irish male novelists",
-        "Irish male dramatists and playwrights, Irish expatriates in France",
-        "20th-century Irish poets, 20th-century Irish dramatists and playwrights, 20th-century Irish male writers"
+        "Irish expatriates in France, Irish male dramatists and playwrights",
+        "20th-century Irish male writers, 20th-century Irish poets, 20th-century Irish dramatists and playwrights"
     ],
     "Sparta": [],
     "Radiation": [
@@ -2921,45 +2864,42 @@
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
-        "Political philosophers",
         "Philosophers of religion",
         "Epistemologists",
         "Ontologists",
-        "Theorists on Western civilization",
         "Philosophers of literature",
+        "Political philosophers",
         "Philosophers of art",
         "Philosophy writers",
-        "Continental philosophers",
+        "Theorists on Western civilization",
         "Philosophers of language",
         "Critics of religions",
         "19th-century essayists",
         "Aphorists",
-        "Metaphilosophers",
-        "Philosophers of logic",
-        "Philosophers of psychology",
         "German male non-fiction writers",
+        "Philosophers of logic",
         "19th-century German male writers",
         "Atheist philosophers",
+        "Metaphilosophers",
         "19th-century German philosophers",
         "Logicians",
-        "Critics of Christianity",
-        "German ethicists",
+        "Philosophers of psychology",
         "19th-century atheists",
         "19th-century philosophers",
         "Philosophers of love",
         "Simple living advocates",
-        "19th-century German non-fiction writers",
-        "Critical theorists",
+        "German ethicists",
         "19th-century German writers",
-        "German social commentators",
-        "Idealists",
-        "Phenomenologists",
+        "19th-century German non-fiction writers",
         "University of Göttingen alumni",
-        "German logicians",
+        "Phenomenologists",
+        "Critical theorists",
+        "German critics of Christianity",
         "German male essayists",
+        "German idealists",
         "Critics of Judaism",
         "Philosophers of pessimism"
     ],
@@ -2975,15 +2915,16 @@
     "Akhenaten": [
         "Founders of religions",
         "City founders",
-        "Pharaohs of the Eighteenth Dynasty of Egypt, Historical negationism in ancient Egypt"
+        "Historical negationism in ancient Egypt, Pharaohs of the Eighteenth Dynasty of Egypt"
     ],
     "Calculus": [],
     "St Thomas Aquinas": [
-        "Metaphysicians",
         "Anglican saints",
+        "Metaphysicians",
         "Writers about religion and science",
         "Philosophers of law",
         "Aristotelian philosophers",
+        "Lutheran saints",
         "Catholic philosophers",
         "University of Paris alumni",
         "Virtue ethicists",
@@ -3001,13 +2942,12 @@
         "Philosophical schools and traditions",
         "Philosophy of science",
         "History of science",
+        "Linguistic turn",
         "Epistemological theories",
         "Empiricism",
-        "Linguistic turn",
-        "Western philosophy",
         "Epistemology of science"
     ],
-    "The Sunni and Shia Islam": [],
+    "Sunni and Shia Islam": [],
     "Elizabethan Revenge": [
         "English Renaissance plays",
         "Theatrical genres"
@@ -3028,7 +2968,8 @@
     ],
     "The Whale: A History": [],
     "The Siege of Vienna": [
-        "Sieges involving the Ottoman Empire"
+        "Sieges involving the Ottoman Empire",
+        "Ottoman–Spanish conflicts"
     ],
     "The Magna Carta": [
         "Cotton Library"
@@ -3044,8 +2985,8 @@
         "Philosophers of mind",
         "Philosophers of literature",
         "English male poets",
-        "20th-century essayists",
         "English essayists",
+        "20th-century essayists",
         "Philosophers of technology",
         "Anti-consumerists",
         "English short story writers",
@@ -3053,11 +2994,11 @@
         "Male essayists",
         "English satirists",
         "English travel writers",
-        "20th-century mystics",
-        "British consciousness researchers and theorists",
+        "20th-century English novelists",
         "James Tait Black Memorial Prize recipients",
         "20th-century English philosophers",
-        "English male short story writers, English male novelists"
+        "20th-century mystics",
+        "English male novelists, English male short story writers"
     ],
     "Baconian Science": [],
     "The School of Athens": [],
@@ -3065,14 +3006,13 @@
         "Wars involving France",
         "Wars involving the United Kingdom",
         "Wars involving Japan",
+        "Wars involving the Russian Empire",
         "Wars involving the United States",
         "Looting"
     ],
     "The Library of Alexandria": [],
     "The Measurement problem in Physics": [],
-    "The Waste Land and Modernity": [
-        "Holy Grail"
-    ],
+    "The Waste Land and Modernity": [],
     "The Observatory at Jaipur": [],
     "Carthage's Destruction": [
         "Last stands",
@@ -3094,10 +3034,11 @@
         "Neoclassical writers",
         "18th-century pseudonymous writers",
         "18th-century English novelists",
+        "17th-century Anglo-Irish people",
         "English political writers",
-        "English male short story writers, English male novelists",
+        "English male novelists, English male short story writers",
         "Irish fantasy writers, Anglo-Irish artists",
-        "18th-century Irish male writers, 18th-century Irish writers, 18th-century Anglo-Irish people"
+        "18th-century Irish writers, 18th-century Irish male writers, 18th-century Anglo-Irish people"
     ],
     "History of History": [],
     "Thoreau and the American Idyll": [
@@ -3107,19 +3048,20 @@
         "Philosophers of mind",
         "Philosophers of science",
         "Pantheists",
-        "Critics of work and the work ethic",
+        "Hall of Fame for Great Americans inductees",
         "Philosophers of love",
         "Simple living advocates",
+        "Critics of work and the work ethic",
         "Anti-consumerists",
-        "Hall of Fame for Great Americans inductees",
         "Lecturers",
         "American male non-fiction writers",
+        "19th-century American poets",
+        "American political philosophers",
         "19th-century diarists",
         "Anarchist writers",
-        "19th-century American poets",
         "American abolitionists",
         "19th-century deaths from tuberculosis",
-        "American social commentators, American political philosophers"
+        "American male essayists, American male poets"
     ],
     "Darwin: Life After Origins": [],
     "Darwin: On the Origin of Species": [
@@ -3130,11 +3072,11 @@
     ],
     "Darwin: On the Origins of Charles Darwin": [
         "Fellows of the Royal Society",
-        "Burials at Westminster Abbey",
-        "Recipients of the Copley Medal",
         "Members of the American Philosophical Society",
-        "English Anglicans",
+        "Recipients of the Copley Medal",
+        "Burials at Westminster Abbey",
         "Members of the Royal Swedish Academy of Sciences",
+        "English Anglicans",
         "Members of the Royal Netherlands Academy of Arts and Sciences",
         "English agnostics",
         "Royal Medal winners",
@@ -3157,7 +3099,7 @@
     "The Great Reform Act": [],
     "The Baroque Movement": [
         "Art movements",
-        "Early Modern period"
+        "Early modern period"
     ],
     "Neuroscience": [
         "Neuroscience"
@@ -3169,8 +3111,6 @@
     ],
     "Dante's Inferno": [],
     "Vitalism": [
-        "Philosophy of science",
-        "Emergence",
         "Pseudoscience"
     ],
     "Gödel's Incompleteness Theorems": [],
@@ -3188,14 +3128,9 @@
         "History of the Mediterranean"
     ],
     "The Music of the Spheres": [
-        "Concepts in metaphysics",
         "Concepts in aesthetics",
-        "History of science",
-        "Concepts in the philosophy of science",
-        "Metaphysical theories",
-        "History of philosophy",
-        "Concepts in logic",
-        "History of logic"
+        "Concepts in metaphysics",
+        "Concepts in the philosophy of science"
     ],
     "The Riddle of the Sands": [
         "British novels adapted into films",
@@ -3211,7 +3146,7 @@
     "The Enclosures of the 18th Century": [],
     "Materialism": [
         "Ontology",
-        "Metaphysical theories"
+        "Materialism"
     ],
     "Yeats and Irish Politics": [
         "Sonneteers",
@@ -3220,15 +3155,15 @@
         "Anglican poets",
         "Irish male poets",
         "Fellows of the Royal Society of Literature",
-        "Anthologists",
         "Irish Anglicans",
         "Formalist poets",
         "Victorian writers",
-        "Irish male dramatists and playwrights, Irish expatriates in France",
-        "20th-century Irish poets, 20th-century Irish dramatists and playwrights, 20th-century Irish male writers",
+        "Anthologists",
+        "Irish expatriates in France, Irish male dramatists and playwrights",
+        "20th-century Irish male writers, 20th-century Irish poets, 20th-century Irish dramatists and playwrights",
         "Irish fantasy writers, Anglo-Irish artists",
         "Irish Nobel laureates, Irish modernist poets",
-        "19th-century Irish poets, Symbolist dramatists and playwrights, 19th-century Irish dramatists and playwrights"
+        "19th-century Irish dramatists and playwrights, 19th-century Irish poets, Symbolist dramatists and playwrights"
     ],
     "The Norman Yoke": [],
     "The Laws of Motion": [
@@ -3243,27 +3178,25 @@
         "Philosophers of mind",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
+        "Ontologists",
         "Philosophers of literature",
         "Philosophers of art",
         "Philosophy writers",
-        "Continental philosophers",
         "19th-century essayists",
         "Aphorists",
-        "Metaphilosophers",
-        "Philosophers of psychology",
         "Christian humanists",
-        "Social commentators",
+        "Metaphilosophers",
         "Existentialists",
+        "Philosophers of psychology",
         "Philosophers of love",
         "Christian radicals",
         "People celebrated in the Lutheran liturgical calendar",
-        "Irony theorists",
+        "19th-century pseudonymous writers",
         "Christian poets",
         "19th-century male writers",
         "Philosophers of death",
-        "19th-century pseudonymous writers",
+        "Irony theorists",
         "Christian ethicists",
         "19th-century diarists",
         "19th-century deaths from tuberculosis"
@@ -3271,10 +3204,10 @@
     "The Greek Myths": [],
     "Ada Lovelace": [
         "English people of Scottish descent",
-        "19th-century English women writers",
         "English women poets",
-        "19th-century British writers",
+        "19th-century English women writers",
         "Deaths from cancer in England",
+        "19th-century British writers",
         "19th-century British inventors"
     ],
     "Lear": [
@@ -3300,12 +3233,11 @@
         "Geology theories"
     ],
     "The Fisher King": [
-        "Holy Grail",
-        "Arthurian characters"
+        "Arthurian characters",
+        "Holy Grail"
     ],
     "The Charge of the Light Brigade": [],
     "Camus": [
-        "Continental philosophers",
         "20th-century atheists",
         "Atheist philosophers",
         "Nobel laureates in Literature",
@@ -3316,13 +3248,12 @@
         "20th-century French novelists",
         "Philosophers of death",
         "French socialists",
-        "Légion d'honneur refusals",
+        "Legion of Honour refusals",
         "French Nobel laureates",
-        "20th-century French male writers",
-        "Absurdist writers",
         "Libertarian socialists",
+        "Absurdist writers",
         "Philosophers of pessimism",
-        "French anti-capitalists, French anarchists, French anti-fascists"
+        "French anti-fascists, French anti-capitalists"
     ],
     "The Nicene Creed": [
         "Christian terminology",
@@ -3332,7 +3263,7 @@
     "The Sassanid Empire": [
         "Former empires",
         "Ancient Syria",
-        "Ancient history of Pakistan, Ancient history of Afghanistan"
+        "Ancient history of Afghanistan, Ancient history of Pakistan"
     ],
     "Genetic Mutation": [
         "Evolutionary biology"
@@ -3347,12 +3278,12 @@
         "Philosophers of science",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
+        "Ontologists",
         "Philosophers of logic",
+        "Logicians",
         "Philosophers of psychology",
         "Philosophers of mathematics",
-        "Logicians",
         "Islamic philosophers",
         "Aristotelian philosophers",
         "Classical humanists",
@@ -3360,9 +3291,8 @@
         "Alchemists of the medieval Islamic world"
     ],
     "Guilt": [
-        "Philosophy of life",
         "Emotions",
-        "Morality"
+        "Philosophy of life"
     ],
     "Taste": [
         "Concepts in aesthetics"
@@ -3373,17 +3303,16 @@
     "The Divine Right of Kings": [
         "Religion and politics",
         "Sovereignty",
-        "Deified people",
-        "Early Modern period"
+        "Early modern period"
     ],
     "Antimatter": [],
     "Socrates": [
         "Philosophers of education",
         "Critics of religions",
         "Philosophers of love",
-        "Irony theorists",
         "Executed philosophers",
         "Ancient Greek philosophers of mind",
+        "Irony theorists",
         "Ancient Greek political philosophers",
         "5th-century BC philosophers",
         "5th-century BC Athenians",
@@ -3409,16 +3338,23 @@
     ],
     "Renaissance Astrology": [],
     "Siegfried Sassoon": [
-        "English Roman Catholics",
         "20th-century English poets",
-        "Bisexual men",
+        "Deaths from cancer in England",
+        "20th-century English novelists",
+        "20th-century English male writers",
+        "LGBT Roman Catholics",
         "English Catholic poets",
+        "War writers",
         "British Army personnel of World War I",
         "People with post-traumatic stress disorder",
         "English LGBT poets",
+        "English people with disabilities",
         "James Tait Black Memorial Prize recipients",
         "English diarists",
-        "LGBT Roman Catholics"
+        "Bisexual poets",
+        "English Roman Catholics",
+        "Bisexual male writers",
+        "Deaths from stomach cancer"
     ],
     "Ockham's Razor": [
         "Concepts in epistemology",
@@ -3437,36 +3373,34 @@
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
+        "Ontologists",
         "Philosophy writers",
         "Critics of religions",
         "Critics of the Catholic Church",
         "Enlightenment philosophers",
-        "Metaphilosophers",
         "Age of Enlightenment",
         "Jewish philosophers",
-        "Social commentators",
+        "Metaphilosophers",
         "Pantheists",
-        "Rationalists",
         "17th-century Latin-language writers",
+        "Rationalists",
         "Determinists",
         "Critics of Judaism"
     ],
     "Greek and Roman Love Poetry": [],
     "Symmetry": [
-        "Aesthetics",
-        "Theoretical physics"
+        "Theoretical physics",
+        "Aesthetics"
     ],
     "The Opium Wars": [],
     "St Hilda": [
         "Anglican saints",
-        "English Roman Catholics",
         "Northumbrian saints",
         "English Roman Catholic saints, History of Catholicism in England"
     ],
@@ -3475,8 +3409,8 @@
         "German Lutherans",
         "University of Göttingen alumni",
         "Humboldt University of Berlin alumni",
-        "Grand Croix of the Légion d'honneur",
         "German nationalists",
+        "Grand Cross of the Legion of Honour",
         "People from the Province of Saxony"
     ],
     "Epistolary Literature": [
@@ -3514,39 +3448,37 @@
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
-        "Political philosophers",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
-        "Theorists on Western civilization",
+        "Ontologists",
+        "Political philosophers",
         "Writers about activism and social change",
+        "Theorists on Western civilization",
         "Critics of religions",
         "Writers about religion and science",
         "20th-century essayists",
         "Philosophers of logic",
+        "Foreign associates of the National Academy of Sciences",
         "Jewish philosophers",
-        "Philosophers of technology",
         "Philosophers of economics",
-        "Philosophers of mathematics",
+        "Philosophers of technology",
         "Logicians",
         "British male essayists",
-        "Foreign associates of the National Academy of Sciences",
-        "Metaphysics writers",
+        "Philosophers of mathematics",
         "Aristotelian philosophers",
-        "Rationalists",
-        "Recipients of the Pour le Mérite (civil class)",
-        "Writers about globalization",
-        "British ethicists",
         "Jewish agnostics",
-        "British consciousness researchers and theorists",
-        "British social commentators",
-        "Historians of philosophy",
+        "Recipients of the Pour le Mérite (civil class)",
+        "Metaphysics writers",
+        "Writers about globalization",
+        "Rationalists",
+        "British ethicists",
         "20th-century British philosophers",
         "Knights Bachelor",
+        "British consciousness researchers and theorists",
         "British political philosophers",
         "British agnostics"
     ],
@@ -3569,25 +3501,25 @@
         "Philosophers of mind",
         "Philosophers of literature",
         "Philosophers of art",
+        "Sonneteers",
         "20th-century essayists",
         "Aphorists",
-        "Sonneteers",
         "Literary theorists",
         "Philosophers of mathematics",
         "Literacy and society theorists",
-        "Metaphysics writers",
         "Male essayists",
-        "20th-century translators",
         "Lecturers",
         "Trope theorists",
+        "Metaphysics writers",
         "Metaphor theorists",
-        "20th-century mystics",
-        "Anthologists",
-        "Philosophers of time",
+        "20th-century translators",
         "Philosophical pessimists",
+        "Philosophers of time",
         "Jerusalem Prize recipients",
         "Weird fiction writers",
-        "Philosophers of pessimism"
+        "Philosophers of pessimism",
+        "20th-century mystics",
+        "Anthologists"
     ],
     "Constantinople Siege and Fall": [
         "Last stands",
@@ -3602,8 +3534,7 @@
     "The Speed of Light": [],
     "Altruism": [
         "Virtue",
-        "Social philosophy",
-        "Morality"
+        "Social philosophy"
     ],
     "The Peasants' Revolt": [],
     "Pope": [
@@ -3612,13 +3543,13 @@
         "English male non-fiction writers",
         "British male essayists",
         "18th-century essayists",
-        "English Roman Catholics",
         "People from the City of London",
         "18th-century English male writers",
         "English Catholic poets",
         "Neoclassical writers",
         "18th-century English non-fiction writers",
-        "Translators of Homer"
+        "Translators of Homer",
+        "English Roman Catholics"
     ],
     "The Poincaré conjecture": [],
     "The Encyclopédie": [
@@ -3639,34 +3570,34 @@
         "Philosophers of history",
         "Philosophers of mind",
         "Philosophers of science",
-        "Political philosophers",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
+        "Ontologists",
         "Philosophers of literature",
+        "Political philosophers",
         "Philosophers of language",
         "Philosophers of logic",
-        "Philosophers of psychology",
         "Logicians",
+        "Philosophers of psychology",
         "Islamic philosophers",
         "Aristotelian philosophers"
     ],
     "Humboldt": [
         "Fellows of the American Academy of Arts and Sciences",
-        "Recipients of the Copley Medal",
         "Members of the American Philosophical Society",
-        "German Lutherans",
+        "Recipients of the Copley Medal",
         "Members of the Royal Swedish Academy of Sciences",
+        "German Lutherans",
         "Honorary members of the Saint Petersburg Academy of Sciences",
         "Members of the French Academy of Sciences",
+        "Members of the Prussian Academy of Sciences",
         "Recipients of the Pour le Mérite (civil class)",
         "University of Göttingen alumni",
-        "Members of the Prussian Academy of Sciences",
         "Members of the Göttingen Academy of Sciences and Humanities",
         "Independent scientists",
         "Members of the Bavarian Academy of Sciences",
-        "19th-century LGBT people",
+        "Foreign Members of the Royal Society",
         "German travel writers"
     ],
     "Comedy in Ancient Greek Theatre": [],
@@ -3684,7 +3615,7 @@
         "Novels adapted into comics",
         "Censored books",
         "Novels first published in serial form",
-        "American novels adapted into plays, American novels adapted into films, American novels adapted into television shows"
+        "American novels adapted into films, American novels adapted into plays, American novels adapted into television shows"
     ],
     "The Heart": [],
     "Mathematics and Music": [],
@@ -3694,39 +3625,38 @@
         "Philosophers of history",
         "Philosophers of mind",
         "Philosophers of science",
-        "Political philosophers",
-        "Theorists on Western civilization",
         "Philosophy writers",
+        "Theorists on Western civilization",
         "Philosophers of language",
         "Fellows of the American Academy of Arts and Sciences",
-        "19th-century essayists",
         "English essayists",
-        "Philosophers of logic",
-        "Philosophers of psychology",
+        "19th-century essayists",
         "English male non-fiction writers",
+        "Philosophers of logic",
         "English people of Scottish descent",
         "Philosophers of economics",
-        "Empiricists",
         "Logicians",
         "British male essayists",
         "Philosophers of sexuality",
+        "Philosophers of psychology",
+        "Empiricists",
         "English non-fiction writers",
         "English agnostics",
-        "English social commentators",
         "19th-century British writers",
         "British ethicists",
         "19th-century English writers",
         "British classical liberals",
         "Utilitarians",
+        "Liberal theorists",
         "English republicans",
         "Free speech activists",
-        "British social commentators",
         "Classical economists",
         "English logicians",
         "European democratic socialists",
         "19th-century British philosophers",
         "English suffragists",
         "Feminist philosophers",
+        "Infectious disease deaths in France",
         "Consequentialists",
         "English political philosophers",
         "English political writers",
@@ -3751,38 +3681,38 @@
         "Philosophers of history",
         "Philosophers of education",
         "Philosophers of science",
-        "Political philosophers",
-        "Theorists on Western civilization",
         "Philosophers of literature",
+        "Political philosophers",
         "Writers about activism and social change",
         "Philosophers of art",
         "Philosophy writers",
+        "Theorists on Western civilization",
         "Philosophers of language",
-        "Philosophers of social science",
-        "19th-century essayists",
         "Enlightenment philosophers",
-        "Literary theorists",
+        "19th-century essayists",
+        "Philosophers of social science",
         "German male non-fiction writers",
-        "Social commentators",
         "19th-century German male writers",
-        "Literacy and society theorists",
+        "Pantheists",
+        "Literary theorists",
         "19th-century German philosophers",
         "Natural philosophers",
         "Philosophers of sexuality",
+        "Literacy and society theorists",
         "18th-century essayists",
         "German ethicists",
-        "Pantheists",
-        "19th-century German non-fiction writers",
         "Leipzig University alumni",
         "18th-century German male writers",
+        "19th-century German non-fiction writers",
         "Epic poets",
-        "19th-century historians",
+        "18th-century German philosophers",
         "Romantic poets",
         "Members of the Göttingen Academy of Sciences and Humanities",
         "Fabulists",
         "Members of the Bavarian Academy of Sciences",
         "Freethought writers",
         "Epigrammatists",
+        "German philosophers",
         "19th-century German novelists",
         "German Freemasons",
         "Philosophers of linguistics",
@@ -3792,12 +3722,12 @@
         "19th-century travel writers",
         "Color scientists",
         "German autobiographers",
-        "18th-century German philosophers, German philosophers, 18th-century non-fiction writers",
-        "18th-century historians, German historians, 19th-century educators, 18th-century educators",
-        "Sturm und Drang, Johann Wolfgang von Goethe"
+        "18th-century historians, 19th-century historians, 18th-century educators, 19th-century educators",
+        "Johann Wolfgang von Goethe, Sturm und Drang"
     ],
     "The Carolingian Renaissance": [],
     "The Royal Society": [
+        "Social history of the United Kingdom",
         "Royal Society",
         "Organisations based in London with royal patronage",
         "1660 establishments in England"
@@ -3806,6 +3736,7 @@
         "Novels adapted into operas",
         "Novels adapted into comics",
         "Novels adapted into ballets",
+        "Literary archetypes",
         "Metafictional novels"
     ],
     "Negative numbers": [],
@@ -3846,34 +3777,32 @@
         "Unsolved problems in computer science",
         "Artificial intelligence",
         "Artificial intelligence",
-        "Emerging technologies",
-        "Emerging technologies",
         "Computational fields of study",
-        "Computational fields of study"
+        "Computational fields of study",
+        "Emerging technologies",
+        "Emerging technologies"
     ],
     "Hobbes": [
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
-        "Political philosophers",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
+        "Ontologists",
+        "Political philosophers",
         "Theorists on Western civilization",
         "Philosophers of language",
         "Critics of religions",
         "Critics of the Catholic Church",
         "Philosophers of law",
-        "Empiricists",
         "Philosophers of mathematics",
-        "Critics of Christianity",
+        "Empiricists",
         "17th-century English male writers",
         "17th-century English writers",
-        "English social commentators",
         "17th-century Latin-language writers",
         "Rhetoric theorists",
         "Political realists",
@@ -3888,7 +3817,7 @@
     "Pragmatism": [
         "Philosophical schools and traditions",
         "Philosophy of science",
-        "Empiricism"
+        "Epistemological theories"
     ],
     "Greyfriars and Blackfriars": [],
     "Asteroids": [
@@ -3896,7 +3825,6 @@
     ],
     "Johnson": [
         "Anglican saints",
-        "English male poets",
         "English essayists",
         "Burials at Westminster Abbey",
         "Writers from London",
@@ -3907,7 +3835,6 @@
         "18th-century English male writers",
         "18th-century English writers",
         "English literary critics",
-        "English biographers",
         "Streathamites"
     ],
     "Cynicism": [],
@@ -3918,49 +3845,49 @@
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
-        "Theorists on Western civilization",
+        "Ontologists",
         "Writers about activism and social change",
-        "Continental philosophers",
+        "Theorists on Western civilization",
         "Critics of religions",
         "Writers about religion and science",
         "Philosophers of law",
         "German male non-fiction writers",
-        "Philosophers of technology",
         "Atheist philosophers",
         "Philosophers of economics",
         "19th-century German philosophers",
+        "Philosophers of technology",
         "19th-century atheists",
         "Critics of work and the work ethic",
-        "German political philosophers",
         "Anti-consumerists",
-        "German social commentators",
-        "Marxist theorists",
+        "German political philosophers",
         "Writers about globalization",
         "Humboldt University of Berlin alumni",
+        "Marxist theorists",
         "Pamphleteers",
+        "German Marxist writers",
         "German revolutionaries",
         "Burials at Highgate Cemetery",
-        "German Marxist writers, German anti-capitalists"
+        "Anti-nationalists"
     ],
     "Marlowe": [
         "English male poets",
         "English male dramatists and playwrights",
         "People of the Elizabethan era",
         "16th-century English poets",
-        "16th-century English dramatists and playwrights, English Renaissance dramatists"
+        "English Renaissance dramatists, 16th-century English dramatists and playwrights"
     ],
     "Merlin": [
         "People whose existence is disputed",
         "Male characters in literature",
-        "Holy Grail",
-        "Arthurian characters"
+        "Literary archetypes",
+        "Arthurian characters",
+        "Holy Grail"
     ],
     "The KT Boundary": [
         "Extinction events",
@@ -3978,8 +3905,8 @@
     ],
     "The French Revolution's Reign of Terror": [],
     "Beauty": [
-        "Concepts in metaphysics",
-        "Concepts in aesthetics"
+        "Concepts in aesthetics",
+        "Metaphysical properties"
     ],
     "Abelard and Heloise": [
         "Philosophers of language",
@@ -3988,12 +3915,13 @@
         "Medieval Latin poets",
         "Scholastic philosophers",
         "Christian ethicists",
+        "Castrated people",
         "12th-century Latin writers"
     ],
     "Perception and the Senses": [
+        "Concepts in the philosophy of mind",
         "Neuropsychological assessment",
         "Perception",
-        "Philosophy of mind",
         "Sources of knowledge"
     ],
     "The Aeneid": [
@@ -4004,7 +3932,8 @@
         "Anthropology"
     ],
     "Alfred and the Battle of Edington": [
-        "Anglican saints"
+        "Anglican saints",
+        "House of Wessex, Monarchs of England before 1066"
     ],
     "John Ruskin": [
         "English essayists",
@@ -4027,13 +3956,11 @@
     ],
     "Modernist Utopias": [
         "Art movements",
-        "Aesthetics",
         "Modernism",
+        "Aesthetics",
         "Modern art"
     ],
-    "Stoicism": [
-        "Virtue"
-    ],
+    "Stoicism": [],
     "Alchemy": [
         "History of science"
     ],
@@ -4041,11 +3968,9 @@
         "Evolution"
     ],
     "The Mind/Body Problem": [
-        "Metaphysics of mind",
         "Neuroscience",
-        "History of psychology",
-        "Philosophical problems",
-        "Cognition"
+        "Cognition",
+        "Metaphysics of mind, Consciousness"
     ],
     "Tsar Alexander II's assassination": [],
     "The Roman Republic": [
@@ -4065,7 +3990,7 @@
     ],
     "The Venerable Bede": [
         "Anglican saints",
-        "English Roman Catholics",
+        "Lutheran saints",
         "Trope theorists",
         "Northumbrian saints",
         "Christian hagiographers",
@@ -4080,11 +4005,9 @@
     "Zoroastrianism": [],
     "Electrickery": [],
     "Rhetoric": [
-        "History of philosophy",
-        "Intellectual history",
         "Rhetoric",
-        "Narratology",
-        "History of logic"
+        "Intellectual history",
+        "Narratology"
     ],
     "Witchcraft": [],
     "The Han Synthesis": [],
@@ -4092,18 +4015,17 @@
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
+        "Philosophers of education",
         "Philosophers of science",
-        "Political philosophers",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
-        "Theorists on Western civilization",
+        "Ontologists",
         "Philosophers of literature",
+        "Political philosophers",
         "Philosophers of art",
         "Philosophy writers",
-        "Continental philosophers",
+        "Theorists on Western civilization",
         "Fellows of the American Academy of Arts and Sciences",
         "Critics of religions",
         "Philosophers of social science",
@@ -4115,28 +4037,26 @@
         "Philosophers of sexuality",
         "Existentialists",
         "20th-century French philosophers",
-        "Critical theorists",
         "French atheists",
-        "Phenomenologists",
         "French philosophers",
         "20th-century French novelists",
         "Philosophers of death",
-        "French socialists",
-        "Légion d'honneur refusals",
-        "French male non-fiction writers",
         "Scientists with disabilities",
+        "French socialists",
+        "Legion of Honour refusals",
         "École Normale Supérieure alumni",
+        "Phenomenologists",
         "French Nobel laureates",
-        "French literary critics",
-        "French ethicists",
-        "Burials at Montparnasse Cemetery",
         "Libertarian socialists",
+        "French male non-fiction writers",
+        "French literary critics",
+        "Critical theorists",
+        "Burials at Montparnasse Cemetery",
         "French sociologists",
-        "Philosophers of nihilism",
         "French communists",
-        "French social commentators",
         "Lycée Henri-IV alumni",
-        "French anti-capitalists, French anarchists, French anti-fascists"
+        "Continental philosophers",
+        "French anti-fascists, French anti-capitalists"
     ],
     "Politeness": [
         "Virtue"
@@ -4148,8 +4068,8 @@
     "Agincourt": [],
     "The Odyssey": [
         "Poems adapted into films",
-        "Pigs in literature",
         "Trojan War literature",
+        "Pigs in literature",
         "Public domain books"
     ],
     "Pi": [],
@@ -4158,7 +4078,6 @@
         "Members of the American Philosophical Society",
         "Hall of Fame for Great Americans inductees",
         "American male non-fiction writers",
-        "American people of English descent",
         "Free speech activists",
         "American slave owners",
         "Congressional Gold Medal recipients",
@@ -4169,10 +4088,8 @@
         "Western esotericism"
     ],
     "Empiricism": [
-        "Philosophical schools and traditions",
         "Philosophy of science",
         "Philosophical methodology",
-        "Epistemological theories",
         "Empiricism"
     ],
     "Babylon": [
@@ -4188,12 +4105,12 @@
     ],
     "Zero": [],
     "Heroism": [
+        "Literary archetypes",
         "Good and evil"
     ],
     "Tea": [],
     "Hysteria": [
-        "Emotions",
-        "History of psychology"
+        "Emotions"
     ],
     "The Later Romantics": [
         "Romanticism"
@@ -4211,18 +4128,17 @@
     "Dreams": [],
     "The Mughal Empire": [],
     "Rutherford": [
-        "Burials at Westminster Abbey",
-        "Recipients of the Copley Medal",
         "Members of the American Philosophical Society",
+        "Recipients of the Copley Medal",
+        "Burials at Westminster Abbey",
         "Foreign associates of the National Academy of Sciences",
-        "English Nobel laureates",
-        "British Nobel laureates",
         "19th-century British physicists",
         "Nobel laureates in Chemistry",
         "Experimental physicists",
         "Knights Bachelor",
         "Discoverers of chemical elements",
         "Fellows of Trinity College, Cambridge",
+        "British Nobel laureates, English Nobel laureates",
         "Honorary Members of the USSR Academy of Sciences, Recipients of the Matteucci Medal"
     ],
     "The Sublime": [
@@ -4236,10 +4152,8 @@
         "Formal sciences"
     ],
     "Lamarck and Natural Selection": [
-        "French Roman Catholics",
         "Members of the French Academy of Sciences",
-        "18th-century French writers",
-        "19th-century French male writers"
+        "18th-century French writers"
     ],
     "The Alphabet": [],
     "The Devil": [],
@@ -4248,30 +4162,28 @@
         "Philosophers of culture",
         "Philosophers of mind",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
-        "Theorists on Western civilization",
+        "Ontologists",
         "Philosophers of art",
         "Philosophy writers",
+        "Theorists on Western civilization",
         "Philosophers of language",
-        "Philosophers of social science",
         "20th-century essayists",
-        "Metaphilosophers",
+        "Philosophers of social science",
         "Philosophers of logic",
         "Jewish philosophers",
-        "Philosophers of mathematics",
+        "Metaphilosophers",
         "British male essayists",
-        "Analytic philosophers",
-        "Bisexual men",
-        "Deaths from cancer in England",
+        "Philosophers of mathematics",
         "Jewish agnostics",
-        "British social commentators",
+        "Deaths from cancer in England",
+        "Analytic philosophers",
         "People with post-traumatic stress disorder",
         "20th-century British philosophers",
-        "LGBT philosophers",
         "Alumni of Trinity College, Cambridge",
         "Fellows of Trinity College, Cambridge",
         "Linguistic turn",
+        "Bisexual male writers",
         "British agnostics"
     ],
     "St Bartholomew's Day Massacre": [
@@ -4283,17 +4195,16 @@
     ],
     "Duty": [
         "Virtue",
-        "Ethical principles"
+        "Concepts in ethics"
     ],
     "Sensation": [
         "Literary genres"
     ],
     "Robin Hood": [
-        "People whose existence is disputed"
+        "People whose existence is disputed",
+        "Literary archetypes"
     ],
-    "Infinity": [
-        "Concepts in logic"
-    ],
+    "Infinity": [],
     "The Schism": [
         "Christian terminology",
         "Western culture",
@@ -4304,13 +4215,14 @@
     ],
     "Maxwell": [
         "Fellows of the Royal Society",
-        "Alumni of the University of Edinburgh",
         "Deaths from cancer in England",
+        "Alumni of the University of Edinburgh",
         "19th-century British physicists",
         "People associated with electricity",
         "Theoretical physicists",
         "Optical physicists",
         "Alumni of Trinity College, Cambridge",
+        "Deaths from stomach cancer",
         "Color scientists"
     ],
     "The Apocalypse": [],
@@ -4344,30 +4256,27 @@
         "Writers about activism and social change",
         "Philosophers of art",
         "Critics of religions",
-        "19th-century essayists",
-        "20th-century essayists",
-        "Aphorists",
         "Critics of the Catholic Church",
-        "Literary theorists",
+        "Aphorists",
         "20th-century atheists",
         "Writers from Paris",
         "19th-century atheists",
-        "19th-century philosophers",
         "20th-century French philosophers",
         "Modernist writers",
         "French atheists",
-        "20th-century translators",
         "20th-century French novelists",
-        "French male non-fiction writers",
         "Conversationalists",
-        "20th-century mystics",
         "Burials at Père Lachaise Cemetery",
+        "LGBT Roman Catholics",
+        "French male non-fiction writers",
         "French literary critics",
         "Former Roman Catholics",
+        "19th-century mystics",
         "French LGBT novelists",
-        "19th-century French philosophers",
-        "19th-century LGBT people",
-        "Lycée Condorcet alumni, French essayists"
+        "Hypochondriacs",
+        "Lycée Condorcet alumni",
+        "French Roman Catholic writers",
+        "20th-century mystics"
     ],
     "The Spanish Civil War": [],
     "The Life of Stars": [
@@ -4399,8 +4308,7 @@
     "The Scottish Enlightenment": [
         "Age of Enlightenment",
         "Philosophical schools and traditions",
-        "Scientific revolution",
-        "History of philosophy"
+        "Scientific revolution"
     ],
     "Imagination": [
         "Mental processes",
@@ -4434,6 +4342,7 @@
     ],
     "The American West": [],
     "The Soul": [
+        "Concepts in the philosophy of mind",
         "Concepts in metaphysics",
         "Religious philosophical concepts"
     ],
@@ -4452,14 +4361,14 @@
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of history",
-        "Philosophers of education",
         "Philosophers of mind",
-        "Political philosophers",
+        "Philosophers of education",
         "Philosophers of religion",
         "Epistemologists",
-        "Ontologists",
         "Metaphysicians",
+        "Ontologists",
         "Philosophers of literature",
+        "Political philosophers",
         "Writers about activism and social change",
         "19th-century essayists",
         "20th-century essayists",
@@ -4487,24 +4396,21 @@
         "Simple living advocates",
         "Founders of religions",
         "Classical humanists",
-        "5th-century BC philosophers",
-        "Deified people"
+        "5th-century BC philosophers"
     ],
     "Milton": [
         "Social philosophers",
-        "Political philosophers",
         "Philosophers of religion",
+        "Political philosophers",
         "Writers about activism and social change",
         "English male poets",
-        "English essayists",
         "Critics of the Catholic Church",
         "Sonneteers",
-        "Burials at Westminster Abbey",
-        "Literary theorists",
+        "English essayists",
         "Christian humanists",
-        "Social commentators",
-        "Literacy and society theorists",
+        "Literary theorists",
         "Writers from London",
+        "Literacy and society theorists",
         "English male dramatists and playwrights",
         "17th-century English male writers",
         "17th-century English poets",
@@ -4530,8 +4436,7 @@
     ],
     "Virtue": [
         "Virtue",
-        "Concepts in ethics",
-        "Morality"
+        "Concepts in ethics"
     ],
     "The Celts": [],
     "Anatomy": [],
@@ -4547,19 +4452,19 @@
         "Anglican poets",
         "Irish male poets",
         "Fellows of the Royal Society of Literature",
-        "Anthologists",
         "Irish Anglicans",
         "Formalist poets",
         "Victorian writers",
-        "Irish male dramatists and playwrights, Irish expatriates in France",
-        "20th-century Irish poets, 20th-century Irish dramatists and playwrights, 20th-century Irish male writers",
+        "Anthologists",
+        "Irish expatriates in France, Irish male dramatists and playwrights",
+        "20th-century Irish male writers, 20th-century Irish poets, 20th-century Irish dramatists and playwrights",
         "Irish fantasy writers, Anglo-Irish artists",
         "Irish Nobel laureates, Irish modernist poets",
-        "19th-century Irish poets, Symbolist dramatists and playwrights, 19th-century Irish dramatists and playwrights"
+        "19th-century Irish dramatists and playwrights, 19th-century Irish poets, Symbolist dramatists and playwrights"
     ],
     "Happiness": [
-        "Emotions",
         "Concepts in ethics",
+        "Emotions",
         "Philosophy of love"
     ],
     "Catharism": [
@@ -4580,15 +4485,16 @@
         "Writers of Gothic fiction",
         "Burials at Père Lachaise Cemetery",
         "Alumni of Magdalen College, Oxford",
-        "Bisexual men",
         "LGBT Roman Catholics",
-        "Irish male novelists",
+        "Bisexual poets",
         "Scholars of Trinity College Dublin",
         "Writers from Dublin (city)",
-        "19th-century LGBT people",
-        "Irish male dramatists and playwrights, Irish expatriates in France",
+        "Irish male novelists",
+        "Infectious disease deaths in France",
+        "Bisexual male writers",
+        "Irish expatriates in France, Irish male dramatists and playwrights",
         "Irish fantasy writers, Anglo-Irish artists",
-        "19th-century Irish poets, Symbolist dramatists and playwrights, 19th-century Irish dramatists and playwrights"
+        "19th-century Irish dramatists and playwrights, 19th-century Irish poets, Symbolist dramatists and playwrights"
     ],
     "Third Crusade": [
         "Wars involving France"
@@ -4607,9 +4513,8 @@
         "Social philosophers",
         "Philosophers of culture",
         "Philosophers of education",
-        "Epistemologists",
-        "Aphorists",
         "Philosophers of law",
+        "Aphorists",
         "Founders of religions",
         "Classical humanists",
         "5th-century BC historians"
@@ -4617,6 +4522,7 @@
     "Napoleon and Wellington": [
         "French Roman Catholics",
         "Royal reburials",
+        "Deaths from stomach cancer",
         "Leaders who took power by coup"
     ],
     "Democracy": [
@@ -4632,35 +4538,31 @@
         "Writers about activism and social change",
         "English male poets",
         "Critics of religions",
-        "19th-century essayists",
-        "English essayists",
         "Critics of the Catholic Church",
         "Burials at Westminster Abbey",
         "English male non-fiction writers",
-        "Literacy and society theorists",
         "Writers from London",
         "British male essayists",
         "English Anglicans",
+        "Literacy and society theorists",
         "Victorian novelists",
         "English male dramatists and playwrights",
         "19th-century English poets",
-        "English social commentators",
+        "19th-century pseudonymous writers",
         "English satirists",
         "19th-century British short story writers",
         "Lecturers",
         "Trope theorists",
         "English travel writers",
-        "19th-century historians",
         "Writers of Gothic fiction",
         "19th-century English novelists",
         "19th-century British philanthropists",
         "English philanthropists",
-        "19th-century pseudonymous writers",
         "19th-century English non-fiction writers",
+        "British social reformers",
         "19th-century letter writers",
-        "English biographers",
         "19th-century travel writers",
-        "English male short story writers, English male novelists"
+        "English male novelists, English male short story writers"
     ],
     "The Earth's Origins": [
         "Geology theories"
@@ -4670,7 +4572,6 @@
         "Social theories",
         "Philosophy of life",
         "Modernism",
-        "Metaphysical theories",
         "Criticism of rationalism"
     ],
     "The Sonnet": [],
@@ -4678,8 +4579,9 @@
         "18th-century rebellions"
     ],
     "Evil": [
-        "Social philosophy",
         "Concepts in ethics",
+        "Social philosophy",
+        "Concepts in metaphysics",
         "Good and evil",
         "Religious philosophical concepts"
     ],
@@ -4687,7 +4589,8 @@
     "The Glorious Revolution": [
         "Anti-Catholicism in England",
         "Invasions of England",
-        "Civil wars in England"
+        "Civil wars in England",
+        "William III of England, Mary II of England"
     ],
     "Black Holes": [
         "Concepts in astronomy"
@@ -4707,12 +4610,10 @@
         "17th-century English poets",
         "16th-century English poets",
         "17th-century English dramatists and playwrights",
-        "16th-century English dramatists and playwrights, English Renaissance dramatists",
-        "Burials in Warwickshire, English male stage actors, King's Men (playing company), Shakespeare family, 17th-century English male actors, People educated at King Edward VI School, Stratford-upon-Avon, People from Stratford-upon-Avon, 16th-century English male actors, William Shakespeare"
+        "English Renaissance dramatists, 16th-century English dramatists and playwrights",
+        "William Shakespeare, Burials in Warwickshire, Shakespeare family, English male stage actors, King's Men (playing company), 17th-century English male actors, People from Stratford-upon-Avon, People educated at King Edward VI School, Stratford-upon-Avon, 16th-century English male actors"
     ],
-    "Money": [
-        "Emergence"
-    ],
+    "Money": [],
     "Quantum Gravity": [
         "Physics beyond the Standard Model"
     ],
@@ -4727,8 +4628,8 @@
     "Imperial Science": [],
     "Science and Religion": [
         "Philosophy of science",
-        "History of science",
-        "Philosophy of religion"
+        "Philosophy of religion",
+        "History of science"
     ],
     "The Enlightenment in Britain": [
         "Age of Enlightenment",
@@ -4767,7 +4668,7 @@
         "19th-century literature"
     ],
     "Hitler in History": [
-        "Critics of Christianity",
+        "German critics of Christianity",
         "Former Roman Catholics",
         "20th-century German non-fiction writers",
         "German revolutionaries"
@@ -4785,7 +4686,7 @@
         "Western culture",
         "Historical eras",
         "Renaissance",
-        "Early Modern period",
+        "Early modern period",
         "Christendom"
     ],
     "The American Ideal": [],
@@ -4804,8 +4705,8 @@
         "17th-century English poets",
         "16th-century English poets",
         "17th-century English dramatists and playwrights",
-        "16th-century English dramatists and playwrights, English Renaissance dramatists",
-        "Burials in Warwickshire, English male stage actors, King's Men (playing company), Shakespeare family, 17th-century English male actors, People educated at King Edward VI School, Stratford-upon-Avon, People from Stratford-upon-Avon, 16th-century English male actors, William Shakespeare"
+        "English Renaissance dramatists, 16th-century English dramatists and playwrights",
+        "William Shakespeare, Burials in Warwickshire, Shakespeare family, English male stage actors, King's Men (playing company), 17th-century English male actors, People from Stratford-upon-Avon, People educated at King Edward VI School, Stratford-upon-Avon, 16th-century English male actors"
     ],
     "Death": [],
     "Human Origins": [],
@@ -4816,17 +4717,20 @@
         "Main topic articles",
         "Humanities"
     ],
-    "Materialism and the Consumer": [],
+    "Materialism and the Consumer": [
+        "Materialism"
+    ],
     "Lenin": [
         "Political philosophers",
         "Critics of religions",
         "20th-century atheists",
         "Atheist philosophers",
         "19th-century atheists",
-        "Marxist theorists",
         "19th-century pseudonymous writers",
-        "Russian atheists",
         "20th-century pseudonymous writers",
+        "Marxist theorists",
+        "Russian atheists",
+        "Anti-nationalists",
         "Leaders who took power by coup"
     ],
     "The Age of Doubt": [],
@@ -4842,38 +4746,38 @@
         "Philosophers of history",
         "Philosophers of education",
         "Philosophers of science",
-        "Political philosophers",
-        "Theorists on Western civilization",
         "Philosophers of literature",
+        "Political philosophers",
         "Writers about activism and social change",
         "Philosophers of art",
         "Philosophy writers",
+        "Theorists on Western civilization",
         "Philosophers of language",
-        "Philosophers of social science",
-        "19th-century essayists",
         "Enlightenment philosophers",
-        "Literary theorists",
+        "19th-century essayists",
+        "Philosophers of social science",
         "German male non-fiction writers",
-        "Social commentators",
         "19th-century German male writers",
-        "Literacy and society theorists",
+        "Pantheists",
+        "Literary theorists",
         "19th-century German philosophers",
         "Natural philosophers",
         "Philosophers of sexuality",
+        "Literacy and society theorists",
         "18th-century essayists",
         "German ethicists",
-        "Pantheists",
-        "19th-century German non-fiction writers",
         "Leipzig University alumni",
         "18th-century German male writers",
+        "19th-century German non-fiction writers",
         "Epic poets",
-        "19th-century historians",
+        "18th-century German philosophers",
         "Romantic poets",
         "Members of the Göttingen Academy of Sciences and Humanities",
         "Fabulists",
         "Members of the Bavarian Academy of Sciences",
         "Freethought writers",
         "Epigrammatists",
+        "German philosophers",
         "19th-century German novelists",
         "German Freemasons",
         "Philosophers of linguistics",
@@ -4883,9 +4787,8 @@
         "19th-century travel writers",
         "Color scientists",
         "German autobiographers",
-        "18th-century German philosophers, German philosophers, 18th-century non-fiction writers",
-        "18th-century historians, German historians, 19th-century educators, 18th-century educators",
-        "Sturm und Drang, Johann Wolfgang von Goethe"
+        "18th-century historians, 19th-century historians, 18th-century educators, 19th-century educators",
+        "Johann Wolfgang von Goethe, Sturm und Drang"
     ],
     "Republicanism": [],
     "Economic Rights": [],
@@ -4897,17 +4800,15 @@
         "History of climate variability and change"
     ],
     "Time": [
-        "Concepts in metaphysics",
+        "Concepts in aesthetics",
         "Concepts in epistemology",
         "Main topic articles",
         "Ontology",
-        "Concepts in aesthetics",
-        "Concepts in the philosophy of science",
-        "Physical phenomena",
         "Concepts in the philosophy of mind",
-        "Metaphysical theories",
-        "Perception",
-        "Qualia"
+        "Concepts in metaphysics",
+        "Physical phenomena",
+        "Concepts in the philosophy of science",
+        "Perception"
     ],
     "Prayer": [
         "Spirituality"
@@ -4920,30 +4821,28 @@
         "Theatrical genres"
     ],
     "Consciousness": [
-        "Concepts in metaphysics",
         "Concepts in epistemology",
         "Ontology",
-        "Concepts in the philosophy of science",
-        "Mental processes",
         "Concepts in the philosophy of mind",
+        "Mental processes",
+        "Metaphysical properties",
+        "Concepts in the philosophy of science",
         "Neuropsychological assessment",
-        "Theory of mind",
-        "Metaphysics of mind",
-        "Emergence",
-        "Phenomenology, Consciousness"
+        "Phenomenology",
+        "Metaphysics of mind, Consciousness"
     ],
     "Progress": [
         "Philosophical schools and traditions",
-        "Concepts in metaphysics",
-        "Virtue",
         "Social theories",
-        "Concepts in epistemology",
-        "Ontology",
-        "Philosophy of life",
         "Concepts in aesthetics",
-        "Ethical principles",
+        "Concepts in epistemology",
+        "Virtue",
+        "Ontology",
+        "Concepts in metaphysics",
+        "Philosophy of life",
         "Anthropology",
         "Social concepts",
+        "Ethical principles",
         "Theories of history",
         "Epistemology of science",
         "Human evolution",
@@ -4954,7 +4853,9 @@
         "Main topic articles"
     ],
     "Atrocity in the 20th Century": [],
-    "The Individual": [],
+    "The Individual": [
+        "Metaphysical properties"
+    ],
     "The Nation State": [],
     "Utopia": [],
     "Maths and Storytelling": [
@@ -5020,8 +4921,8 @@
         "17th-century English poets",
         "16th-century English poets",
         "17th-century English dramatists and playwrights",
-        "16th-century English dramatists and playwrights, English Renaissance dramatists",
-        "Burials in Warwickshire, English male stage actors, King's Men (playing company), Shakespeare family, 17th-century English male actors, People educated at King Edward VI School, Stratford-upon-Avon, People from Stratford-upon-Avon, 16th-century English male actors, William Shakespeare"
+        "English Renaissance dramatists, 16th-century English dramatists and playwrights",
+        "William Shakespeare, Burials in Warwickshire, Shakespeare family, English male stage actors, King's Men (playing company), 17th-century English male actors, People from Stratford-upon-Avon, People educated at King Edward VI School, Stratford-upon-Avon, 16th-century English male actors"
     ],
     "The Avant Garde's Decline and Fall in the 20th Century": [
         "Concepts in aesthetics",
@@ -5054,17 +4955,15 @@
     "History's relevance in the 20th century": [],
     "Work in the 20th Century": [],
     "The Brain and Consciousness": [
-        "Concepts in metaphysics",
         "Concepts in epistemology",
         "Ontology",
-        "Concepts in the philosophy of science",
-        "Mental processes",
         "Concepts in the philosophy of mind",
+        "Mental processes",
+        "Metaphysical properties",
+        "Concepts in the philosophy of science",
         "Neuropsychological assessment",
-        "Theory of mind",
-        "Metaphysics of mind",
-        "Emergence",
-        "Phenomenology, Consciousness"
+        "Phenomenology",
+        "Metaphysics of mind, Consciousness"
     ],
     "The City in the 20th Century": [],
     "Science in the 20th century": [],

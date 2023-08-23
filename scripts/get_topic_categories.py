@@ -44,6 +44,8 @@ def get_topic_categories():
                     if (category.get_text() not in dictionary):
                         dictionary[category.get_text()] = []
                     dictionary[category.get_text()].append(episode['topic'])
+
+                print('\tcategories for', episode['topic'])
             except:
                 print('\tno categories', episode['topic'])
         # else:
@@ -53,6 +55,8 @@ def get_topic_categories():
     w = open('./../data/topics_by_category.json', 'w')
     json.dump(dictionary, w, indent=4, ensure_ascii=False)
     w.close()
+
+    print('\twrite topics_by_category.json')
 
     # frequency distribution
     # distribution = {}

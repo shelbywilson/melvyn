@@ -91,7 +91,7 @@
                 const normalizedSearch = state.search.toLowerCase()
 
                 return ep.topic.toLowerCase().indexOf(normalizedSearch) > -1 ||
-                    categoriesByEpisode[ep.topic].find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
+                    (categoriesByEpisode[ep.topic] || []).find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
                     (bbcDescriptions[ep.date + '_' + ep.topic] || '').toLowerCase().indexOf(normalizedSearch) > -1 ||
                     ep.experts.find(expert => expert.name.toLowerCase().indexOf(normalizedSearch) > -1) ||
                     (scores[ep.topic] || {
@@ -200,7 +200,7 @@
 
             function getCategoriesHTML(topic) {
                 let html = '';
-                if ((categoriesByEpisode[topic].length || []) > 0) {
+                if ((categoriesByEpisode[topic]|| []).length > 0) {
                     categoriesByEpisode[topic].forEach(cat => {
                         html += '<a href="./category/' + cat.replace(/\s/g, '_').substring(0, config.MAX_LENGTH_URL) + '.html">' + cat + '</a>'
                     })

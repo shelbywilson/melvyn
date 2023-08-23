@@ -1,5 +1,600 @@
 [
     {
+        "date": "4 May 2023",
+        "id": 979,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001ljc0",
+        "topic": "The Dead Sea Scrolls",
+        "wiki_link": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls",
+        "experts": [
+            {
+                "name": "Sarah Pearce",
+                "title": "Ian Karten Professor of Jewish Studies and Head of the School of Humanities at the University of Southampton",
+                "links": [
+                    {
+                        "text": "Sarah Pearce",
+                        "wiki": "https://en.wikipedia.org/wiki/Sarah_Pearce"
+                    },
+                    {
+                        "text": "University of Southampton",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Southampton"
+                    }
+                ]
+            },
+            {
+                "name": "Charlotte Hempel",
+                "title": "Professor of Hebrew Bible and Second Temple Judaism at the University of Birmingham",
+                "links": [
+                    {
+                        "text": "Charlotte Hempel",
+                        "wiki": "https://en.wikipedia.org/wiki/Charlotte_Hempel"
+                    },
+                    {
+                        "text": "University of Birmingham",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Birmingham"
+                    }
+                ]
+            },
+            {
+                "name": "George Brooke",
+                "title": "Rylands Professor Emeritus of Biblical Criticism and Exegesis at the University of Manchester",
+                "links": [
+                    {
+                        "text": "George Brooke",
+                        "wiki": "https://en.wikipedia.org/wiki/George_J._Brooke"
+                    },
+                    {
+                        "text": "University of Manchester",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "27 April 2023",
+        "id": 978,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001l99w",
+        "topic": "Walt Whitman",
+        "wiki_link": "https://en.wikipedia.org/wiki/Walt_Whitman",
+        "experts": [
+            {
+                "name": "Sarah Churchwell",
+                "title": "Professor of American Literature and the Public Understanding of the Humanities at the University of London",
+                "links": [
+                    {
+                        "text": "Sarah Churchwell",
+                        "wiki": "https://en.wikipedia.org/wiki/Sarah_Churchwell"
+                    },
+                    {
+                        "text": "University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_London"
+                    }
+                ]
+            },
+            {
+                "name": "Peter Riley",
+                "title": "Lecturer in 19th Century American Literature at the University of Exeter",
+                "links": [
+                    {
+                        "text": "University of Exeter",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+                    }
+                ]
+            },
+            {
+                "name": "Mark Ford",
+                "title": "Professor of English and American Literature at University College London",
+                "links": [
+                    {
+                        "text": "University College London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "20 April 2023",
+        "id": 977,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001l291",
+        "topic": "Linnaeus",
+        "wiki_link": "https://en.wikipedia.org/wiki/Linnaeus",
+        "experts": [
+            {
+                "name": "Staffan Müller-Wille",
+                "title": "University Lecturer in History of Life, Human and Earth Sciences at the University of Cambridge",
+                "links": [
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Stella Sandford",
+                "title": "Professor of Modern European Philosophy at Kingston University London",
+                "links": [
+                    {
+                        "text": "Kingston University London",
+                        "wiki": "https://en.wikipedia.org/wiki/Kingston_University_London"
+                    }
+                ]
+            },
+            {
+                "name": "Steve Jones",
+                "title": "Senior Research Fellow in Genetics at University College London",
+                "links": [
+                    {
+                        "text": "University College London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "13 April 2023",
+        "id": 976,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001kx5s",
+        "topic": "The Battle of Crécy",
+        "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Cr%C3%A9cy",
+        "experts": [
+            {
+                "name": "Anne Curry",
+                "title": "Emeritus Professor of Medieval History at the University of Southampton",
+                "links": [
+                    {
+                        "text": "Anne Curry",
+                        "wiki": "https://en.wikipedia.org/wiki/Anne_Curry"
+                    },
+                    {
+                        "text": "University of Southampton",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Southampton"
+                    }
+                ]
+            },
+            {
+                "name": "Andrew Ayton",
+                "title": "Senior Research Fellow in History at Keele University",
+                "links": [
+                    {
+                        "text": "Keele University",
+                        "wiki": "https://en.wikipedia.org/wiki/Keele_University"
+                    }
+                ]
+            },
+            {
+                "name": "Erika Graham-Goering",
+                "title": "Lecturer in Late Medieval History at Durham University",
+                "links": [
+                    {
+                        "text": "Durham University",
+                        "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "6 April 2023",
+        "id": 975,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001kpty",
+        "topic": "Cnut",
+        "wiki_link": "https://en.wikipedia.org/wiki/Cnut",
+        "experts": [
+            {
+                "name": "Erin Goeres",
+                "title": "Associate Professor of Old Norse Language and Literature at University College London",
+                "links": [
+                    {
+                        "text": "University College London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "Pragya Vohra",
+                "title": "Lecturer in Medieval History at the University of York",
+                "links": [
+                    {
+                        "text": "University of York",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_York"
+                    }
+                ]
+            },
+            {
+                "name": "Elizabeth Tyler",
+                "title": "Professor of Medieval Literature and Co-Director of the Centre for Medieval Studies at the University of York",
+                "links": [
+                    {
+                        "text": "Elizabeth Tyler",
+                        "wiki": "https://en.wikipedia.org/wiki/Elizabeth_M._Tyler"
+                    },
+                    {
+                        "text": "University of York",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_York"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "30 March 2023",
+        "id": 974,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001kh32",
+        "topic": "A Room of One's Own",
+        "wiki_link": "https://en.wikipedia.org/wiki/A_Room_of_One%27s_Own",
+        "experts": [
+            {
+                "name": "Hermione Lee",
+                "title": "Emeritus Professor of English Literature at the University of Oxford",
+                "links": [
+                    {
+                        "text": "Hermione Lee",
+                        "wiki": "https://en.wikipedia.org/wiki/Hermione_Lee"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Michele Barrett",
+                "title": "Emeritus Professor of Modern Literary and Cultural Theory at Queen Mary University of London",
+                "links": [
+                    {
+                        "text": "Queen Mary University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Queen_Mary_University_of_London"
+                    }
+                ]
+            },
+            {
+                "name": "Alexandra Harris",
+                "title": "Professor of English at the University of Birmingham",
+                "links": [
+                    {
+                        "text": "Alexandra Harris",
+                        "wiki": "https://en.wikipedia.org/wiki/Alexandra_Harris"
+                    },
+                    {
+                        "text": "University of Birmingham",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Birmingham"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "23 March 2023",
+        "id": 973,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001k7wb",
+        "topic": "Solon the Lawgiver",
+        "wiki_link": "https://en.wikipedia.org/wiki/Solon",
+        "experts": [
+            {
+                "name": "Melissa Lane",
+                "title": "Class of 1943 Professor of Politics at Princeton University",
+                "links": [
+                    {
+                        "text": "Melissa Lane",
+                        "wiki": "https://en.wikipedia.org/wiki/Melissa_Lane"
+                    },
+                    {
+                        "text": "Princeton University",
+                        "wiki": "https://en.wikipedia.org/wiki/Princeton_University"
+                    }
+                ]
+            },
+            {
+                "name": "Hans van Wees",
+                "title": "Grote Professor of Ancient History at University College London",
+                "links": [
+                    {
+                        "text": "University College London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "William Allan",
+                "title": "Professor of Greek and McConnell Laing Tutorial Fellow in Greek and Latin Languages and Literature at University College, University of Oxford",
+                "links": [
+                    {
+                        "text": "William Allan",
+                        "wiki": "https://en.wikipedia.org/wiki/William_Allan_(classicist)"
+                    },
+                    {
+                        "text": "University College",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College,_Oxford"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "16 March 2023",
+        "id": 972,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001k0zv",
+        "topic": "Mercantilism",
+        "wiki_link": "https://en.wikipedia.org/wiki/Mercantilism",
+        "experts": [
+            {
+                "name": "D'Maris Coffman",
+                "title": "Professor in Economics and Finance of the Built Environment at University College London",
+                "links": [
+                    {
+                        "text": "University College London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "Craig Muldrew",
+                "title": "Professor of Social and Economic History at the University of Cambridge and a Member of Queens' College",
+                "links": [
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    },
+                    {
+                        "text": "Queens' College",
+                        "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Helen Paul",
+                "title": "Lecturer in Economics and Economic History at the University of Southampton",
+                "links": [
+                    {
+                        "text": "University of Southampton",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Southampton"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "9 March 2023",
+        "id": 971,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001jst2",
+        "topic": "The Ramayana",
+        "wiki_link": "https://en.wikipedia.org/wiki/Ramayana",
+        "experts": [
+            {
+                "name": "Jessica Frazier",
+                "title": "Lecturer in the Study of Religion at the University of Oxford and a Fellow of the Oxford Centre for Hindu Studies",
+                "links": [
+                    {
+                        "text": "Jessica Frazier",
+                        "wiki": "https://en.wikipedia.org/wiki/Jessica_Frazier"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    },
+                    {
+                        "text": "Oxford Centre for Hindu Studies",
+                        "wiki": "https://en.wikipedia.org/wiki/Oxford_Centre_for_Hindu_Studies"
+                    }
+                ]
+            },
+            {
+                "name": "Chakravarthi Ram-Prasad",
+                "title": "Distinguished Professor of Comparative Religion and Philosophy at Lancaster University",
+                "links": [
+                    {
+                        "text": "Chakravarthi Ram-Prasad",
+                        "wiki": "https://en.wikipedia.org/wiki/Chakravarthi_Ram-Prasad"
+                    },
+                    {
+                        "text": "Lancaster University",
+                        "wiki": "https://en.wikipedia.org/wiki/Lancaster_University"
+                    }
+                ]
+            },
+            {
+                "name": "Naomi Appleton",
+                "title": "Senior Lecturer in Asian Religions at the University of Edinburgh",
+                "links": [
+                    {
+                        "text": "University of Edinburgh",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2 Mar 2023",
+        "id": 970,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001jkzg",
+        "topic": "Megaliths",
+        "wiki_link": "https://en.wikipedia.org/wiki/Megaliths",
+        "experts": [
+            {
+                "name": "Vicki Cummings",
+                "title": "Professor of Neolithic Archaeology at the University of Central Lancashire",
+                "links": [
+                    {
+                        "text": "University of Central Lancashire",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Central_Lancashire"
+                    }
+                ]
+            },
+            {
+                "name": "Julian Thomas",
+                "title": "Professor of Archaeology at the University of Manchester",
+                "links": [
+                    {
+                        "text": "Julian Thomas",
+                        "wiki": "https://en.wikipedia.org/wiki/Julian_Thomas"
+                    },
+                    {
+                        "text": "University of Manchester",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
+                    }
+                ]
+            },
+            {
+                "name": "Susan Greaney",
+                "title": "Lecturer in Archaeology at the University of Exeter",
+                "links": [
+                    {
+                        "text": "Susan Greaney",
+                        "wiki": "https://en.wikipedia.org/wiki/Susan_Greaney"
+                    },
+                    {
+                        "text": "University of Exeter",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "23 Feb 2023",
+        "id": 969,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001jc68",
+        "topic": "Paul Erdős",
+        "wiki_link": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
+        "experts": [
+            {
+                "name": "Colva Roney-Dougal",
+                "title": "Professor of Pure Mathematics at the University of St Andrews",
+                "links": [
+                    {
+                        "text": "Colva Roney-Dougal",
+                        "wiki": "https://en.wikipedia.org/wiki/Colva_Roney-Dougal"
+                    },
+                    {
+                        "text": "University of St Andrews",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
+                    }
+                ]
+            },
+            {
+                "name": "Timothy Gowers",
+                "title": "Professor of Mathematics at the Collège de France in Paris and Fellow of Trinity College, Cambridge",
+                "links": [
+                    {
+                        "text": "Timothy Gowers",
+                        "wiki": "https://en.wikipedia.org/wiki/Timothy_Gowers"
+                    },
+                    {
+                        "text": "Collège de France",
+                        "wiki": "https://en.wikipedia.org/wiki/Coll%C3%A8ge_de_France"
+                    },
+                    {
+                        "text": "Trinity College, Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/Trinity_College,_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Andrew Treglown",
+                "title": "Associate Professor in Mathematics at the University of Birmingham",
+                "links": [
+                    {
+                        "text": "University of Birmingham",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Birmingham"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "16 Feb 2023",
+        "id": 968,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001j45h",
+        "topic": "Stevie Smith",
+        "wiki_link": "https://en.wikipedia.org/wiki/Stevie_Smith",
+        "experts": [
+            {
+                "name": "Jeremy Noel-Tod",
+                "title": "Associate Professor in the School of Literature, Drama and Creative Writing at the University of East Anglia",
+                "links": [
+                    {
+                        "text": "University of East Anglia",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+                    }
+                ]
+            },
+            {
+                "name": "Noreen Masud",
+                "title": "Lecturer in Twentieth Century Literature at the University of Bristol",
+                "links": [
+                    {
+                        "text": "University of Bristol",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+                    }
+                ]
+            },
+            {
+                "name": "Will May",
+                "title": "Professor of Modern and Contemporary Literature at the University of Southampton",
+                "links": [
+                    {
+                        "text": "University of Southampton",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Southampton"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "9 Feb 2023",
+        "id": 967,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001hx7n",
+        "topic": "Chartism",
+        "wiki_link": "https://en.wikipedia.org/wiki/Chartism",
+        "experts": [
+            {
+                "name": "Joan Allen",
+                "title": "Visiting Fellow in History at Newcastle University and Chair of the Society for the Study of Labour History",
+                "links": [
+                    {
+                        "text": "Newcastle University",
+                        "wiki": "https://en.wikipedia.org/wiki/Newcastle_University"
+                    }
+                ]
+            },
+            {
+                "name": "Emma Griffin",
+                "title": "Professor of Modern British History at the University of East Anglia and President of the Royal Historical Society",
+                "links": [
+                    {
+                        "text": "Emma Griffin",
+                        "wiki": "https://en.wikipedia.org/wiki/Emma_Griffin"
+                    },
+                    {
+                        "text": "University of East Anglia",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_East_Anglia"
+                    },
+                    {
+                        "text": "Royal Historical Society",
+                        "wiki": "https://en.wikipedia.org/wiki/Royal_Historical_Society"
+                    }
+                ]
+            },
+            {
+                "name": "Robert Saunders",
+                "title": "Reader in Modern British History at Queen Mary University of London",
+                "links": [
+                    {
+                        "text": "Queen Mary University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Queen_Mary_University_of_London"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "2 February 2023",
         "id": 966,
         "episode_link": "https://www.bbc.co.uk/programmes/m001hnlf",
@@ -459,7 +1054,7 @@
         "date": "17 November 2022",
         "id": 956,
         "episode_link": "https://www.bbc.co.uk/programmes/m001f4ws",
-        "topic": "Demosthenes's Philippics",
+        "topic": "Demosthenes' Philippics",
         "wiki_link": "https://en.wikipedia.org/wiki/Philippic",
         "experts": [
             {
@@ -1162,6 +1757,10 @@
                 "title": "Professor of Early Modern Intellectual History at the University of Oxford and Fellow of St Anne’s College",
                 "links": [
                     {
+                        "text": "Howard Hotson",
+                        "wiki": "https://en.wikipedia.org/wiki/Howard_Hotson"
+                    },
+                    {
                         "text": "University of Oxford",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
                     },
@@ -1232,7 +1831,7 @@
         "date": "5 May 2022",
         "id": 939,
         "episode_link": "https://www.bbc.co.uk/programmes/m0016xty",
-        "topic": "Davidian Revolution",
+        "topic": "The Davidian Revolution",
         "wiki_link": "https://en.wikipedia.org/wiki/Davidian_Revolution",
         "experts": [
             {
@@ -3282,7 +3881,7 @@
         "date": "1 April 2021",
         "id": 894,
         "episode_link": "https://www.bbc.co.uk/programmes/m000tnq3",
-        "topic": "Russo-Japanese War",
+        "topic": "The Russo-Japanese War",
         "wiki_link": "https://en.wikipedia.org/wiki/Russo-Japanese_War",
         "experts": [
             {
@@ -3917,8 +4516,8 @@
         "date": "17 December 2020",
         "id": 881,
         "episode_link": "https://www.bbc.co.uk/programmes/m000q9b6",
-        "topic": "Chinese Cultural Revolution",
-        "wiki_link": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+        "topic": "The Cultural Revolution",
+        "wiki_link": "https://en.wikipedia.org/wiki/The_Cultural_Revolution",
         "experts": [
             {
                 "name": "Rana Mitter",
@@ -4924,7 +5523,7 @@
         "date": "16 January 2020",
         "id": 860,
         "episode_link": "https://www.bbc.co.uk/programmes/m000d8rv",
-        "topic": "Siege of Paris (1870–71)",
+        "topic": "The Siege of Paris (1870–71)",
         "wiki_link": "https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%9371)",
         "experts": [
             {
@@ -5658,7 +6257,7 @@
         "date": "19 September 2019",
         "id": 844,
         "episode_link": "https://www.bbc.co.uk/programmes/m0008jd2",
-        "topic": "Napoleon's Retreat from Russia",
+        "topic": "Napoleon's Retreat from Moscow",
         "wiki_link": "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
         "experts": [
             {
@@ -5783,8 +6382,8 @@
         "date": "20 June 2019",
         "id": 841,
         "episode_link": "https://www.bbc.co.uk/programmes/m000614s",
-        "topic": "The Mytilenian Debate",
-        "wiki_link": "https://en.wikipedia.org/wiki/Mytilenian_Debate",
+        "topic": "The Mytilenaean Debate",
+        "wiki_link": "https://en.wikipedia.org/wiki/Mytilenean_Debate",
         "experts": [
             {
                 "name": "Angela Hobbs",
@@ -6972,7 +7571,7 @@
         "date": "6 December 2018",
         "id": 814,
         "episode_link": "https://www.bbc.co.uk/programmes/m0001fv2",
-        "topic": "The Thirty Years' War",
+        "topic": "The Thirty Years War",
         "wiki_link": "https://en.wikipedia.org/wiki/Thirty_Years_War",
         "experts": [
             {
@@ -15663,7 +16262,7 @@
         "date": "8 May 2014",
         "id": 632,
         "episode_link": "https://www.bbc.co.uk/programmes/b042ldyq",
-        "topic": "The Second Sino-Japanese War",
+        "topic": "The Sino-Japanese War",
         "wiki_link": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War",
         "experts": [
             {
@@ -17317,7 +17916,7 @@
         "date": "19 September 2013",
         "id": 600,
         "episode_link": "https://www.bbc.co.uk/programmes/b03b2v6m",
-        "topic": "Blaise Pascal",
+        "topic": "Pascal",
         "wiki_link": "https://en.wikipedia.org/wiki/Blaise_Pascal",
         "experts": [
             {
@@ -20075,7 +20674,7 @@
         "date": "26 April 2012",
         "id": 546,
         "episode_link": "https://www.bbc.co.uk/programmes/b01ghc43",
-        "topic": "Battle of Bosworth Field",
+        "topic": "The Battle of Bosworth Field",
         "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Bosworth_Field",
         "experts": [
             {
@@ -21907,7 +22506,7 @@
         "date": "16 June 2011",
         "id": 510,
         "episode_link": "https://www.bbc.co.uk/programmes/b011vh4k",
-        "topic": "John Wycliff and the Lollards",
+        "topic": "Wyclif and the Lollards",
         "wiki_link": "https://en.wikipedia.org/wiki/John_Wycliff",
         "experts": [
             {
@@ -21992,7 +22591,7 @@
         "date": "2 June 2011",
         "id": 508,
         "episode_link": "https://www.bbc.co.uk/programmes/b011jvlt",
-        "topic": "Battle of Stamford Bridge",
+        "topic": "The Battle of Stamford Bridge",
         "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge",
         "experts": [
             {
@@ -24653,8 +25252,8 @@
         "date": "18 March 2010",
         "id": 455,
         "episode_link": "https://www.bbc.co.uk/programmes/b00rbmrx",
-        "topic": "The Scream and Edvard Munch",
-        "wiki_link": "https://en.wikipedia.org/wiki/The_Scream",
+        "topic": "Munch and The Scream",
+        "wiki_link": "https://en.wikipedia.org/wiki/Edvard_Munch",
         "experts": [
             {
                 "name": "David Jackson",
@@ -25973,7 +26572,7 @@
         "date": "25 June 2009",
         "id": 427,
         "episode_link": "https://www.bbc.co.uk/programmes/b00l5mhl",
-        "topic": "The Sunni and Shia Islam",
+        "topic": "Sunni and Shia Islam",
         "wiki_link": "https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations",
         "experts": [
             {
@@ -29172,6 +29771,10 @@
                 "name": "Howard Hotson",
                 "title": "Lecturer in Modern History at the University of Oxford",
                 "links": [
+                    {
+                        "text": "Howard Hotson",
+                        "wiki": "https://en.wikipedia.org/wiki/Howard_Hotson"
+                    },
                     {
                         "text": "University of Oxford",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
@@ -44076,7 +44679,7 @@
                 "links": [
                     {
                         "text": "D. J. Taylor",
-                        "wiki": "https://en.wikipedia.org/wiki/D._J._Taylor"
+                        "wiki": "https://en.wikipedia.org/wiki/D._J._Taylor_(writer)"
                     }
                 ]
             },
