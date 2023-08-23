@@ -16,11 +16,9 @@ def get_topic_categories():
     # dictionary = json.load(f)
     # f.close()
 
-    dictionary = {}
-
-    f = open('./../data/categories_by_episode.json')
-    categories_by_episode = json.load(f)
-    f.close()
+    # f = open('./../data/categories_by_episode.json')
+    # categories_by_episode = json.load(f)
+    # f.close()
 
     try:
         f = open('./../data/category_summaries.json')
@@ -30,7 +28,9 @@ def get_topic_categories():
         category_summaries = {}
 
 
+    dictionary = {}
     categories_by_episode = {}
+
     for episode in episodes:
         categories_by_episode[episode['topic']] = []
         if (episode['wiki_link'] != ""):
@@ -122,6 +122,7 @@ def get_topic_categories():
             non_unique_categories.pop(topic)
         
         new_key = new_key[:len(new_key) - 2]
+        print('\tcombined category', new_key)
         non_unique_categories[new_key] = episodes
 
     for key in non_unique_categories:
@@ -145,8 +146,8 @@ def get_topic_categories():
     json.dump(categories_by_episode, w, indent=4, ensure_ascii=False)
     w.close()
 
-    create_guest_pages()
-    create_topic_category_page()
+    # create_guest_pages()
+    # create_topic_category_page()
 
     print('### end get_topic_categories')
 

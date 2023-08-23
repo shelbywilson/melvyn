@@ -1,5 +1,11 @@
 import json
 from html_util import get_html_page, get_url, div, p, a, get_episode_row
+import os
+import glob
+
+files = glob.glob('./category/*')
+for f in files:
+    os.remove(f)
 
 def create_topic_category_page():
     print('\n### start create_topic_category_page')

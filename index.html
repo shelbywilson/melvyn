@@ -43,12 +43,12 @@
 
             Promise.all([
                 'scores',
-                './data/bbc_descriptions_short.json',
-                './data/guest_frequency_min.json',
-                './data/episodes_min.json',
-                './data/episode_thumbnails.json',
-                './data/categories_by_episode.json',
-                './config/config.json'
+                './data/bbc_descriptions_short.json?v=1',
+                './data/guest_frequency_min.json?v=1',
+                './data/episodes_min.json?v=1',
+                './data/episode_thumbnails.json?v=1',
+                './data/categories_by_episode.json?v=1',
+                './config/config.json?v=1'
             ].map((url, i) => {
                 if (i === 0) {
                     return getScores()

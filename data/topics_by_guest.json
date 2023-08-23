@@ -1,4 +1,612 @@
 {
+    "Michele Dougherty": [
+        {
+            "topic": "Jupiter",
+            "wiki_link": "https://en.wikipedia.org/wiki/Jupiter",
+            "title": "Professor of Space Physics and Head of the Department of Physics at Imperial College London",
+            "date": "29 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001n8mv"
+        },
+        {
+            "topic": "Saturn",
+            "wiki_link": "https://en.wikipedia.org/wiki/Saturn",
+            "title": "Professor of Space Physics at Imperial College London",
+            "date": "14 January 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b06vmr1m"
+        }
+    ],
+    "Leigh Fletcher": [
+        {
+            "topic": "Jupiter",
+            "wiki_link": "https://en.wikipedia.org/wiki/Jupiter",
+            "title": "Professor of Planetary Science at the University of Leicester",
+            "date": "29 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001n8mv"
+        }
+    ],
+    "Carolin Crawford": [
+        {
+            "topic": "Jupiter",
+            "wiki_link": "https://en.wikipedia.org/wiki/Jupiter",
+            "title": "Emeritus Fellow of Emmanuel College, University of Cambridge, and Emeritus Member of the Institute of Astronomy, Cambridge",
+            "date": "29 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001n8mv"
+        },
+        {
+            "topic": "The Death of Stars",
+            "wiki_link": "https://en.wikipedia.org/wiki/Star#Post–main_sequence",
+            "title": "Emeritus Member of the Institute of Astronomy and Emeritus Fellow of Emmanuel College, Cambridge",
+            "date": "9 June 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0018128"
+        },
+        {
+            "topic": "William and Caroline Herschel",
+            "wiki_link": "https://en.wikipedia.org/wiki/William_Herschel",
+            "title": "Institute of Astronomy, Cambridge and an Emeritus Fellow of Emmanuel College, University of Cambridge",
+            "date": "11 November 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0011c4p"
+        },
+        {
+            "topic": "Eclipses",
+            "wiki_link": "https://en.wikipedia.org/wiki/Eclipse",
+            "title": "Public Astronomer based at the Institute of Astronomy, University of Cambridge and a fellow of Emmanuel College",
+            "date": "31 December 2020",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000qmnj"
+        },
+        {
+            "topic": "Venus",
+            "wiki_link": "https://en.wikipedia.org/wiki/Venus",
+            "title": "Public Astronomer at the Institute of Astronomy and Fellow of Emmanuel College, Cambridge",
+            "date": "27 December 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0001rm1"
+        },
+        {
+            "topic": "The Kuiper belt",
+            "wiki_link": "https://en.wikipedia.org/wiki/Kuiper_belt",
+            "title": "Public Astronomer at the Institute of Astronomy and Fellow of Emmanuel College, Cambridge",
+            "date": "2 March 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b08g7ttx"
+        },
+        {
+            "topic": "Saturn",
+            "wiki_link": "https://en.wikipedia.org/wiki/Saturn",
+            "title": "Public Astronomer at the Institute of Astronomy and Fellow of Emmanuel College, Cambridge",
+            "date": "14 January 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b06vmr1m"
+        },
+        {
+            "topic": "Dark matter",
+            "wiki_link": "https://en.wikipedia.org/wiki/Dark_matter",
+            "title": "Public Astronomer at the Institute of Astronomy, University of Cambridge",
+            "date": "12 March 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b054t3s2"
+        },
+        {
+            "topic": "The Sun",
+            "wiki_link": "https://en.wikipedia.org/wiki/Sun",
+            "title": "Fellow of Emmanuel College, Cambridge, Professor of Astronomy at Gresham College",
+            "date": "10 July 2014",
+            "episode_link": "https://www.bbc.co.uk/programmes/b048nlfb"
+        },
+        {
+            "topic": "Exoplanets",
+            "wiki_link": "https://en.wikipedia.org/wiki/Exoplanet",
+            "title": "Gresham Professor of Astronomy and a member of the Institute of Astronomy at the University of Cambridge",
+            "date": "3 October 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b03brwql"
+        },
+        {
+            "topic": "Cosmic rays",
+            "wiki_link": "https://en.wikipedia.org/wiki/Cosmic_ray",
+            "title": "Gresham Professor of Astronomy and a member of the Institute of Astronomy at the University of Cambridge",
+            "date": "16 May 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01sdnkg"
+        },
+        {
+            "topic": "The Moon",
+            "wiki_link": "https://en.wikipedia.org/wiki/Moon",
+            "title": "Professor of Astronomy at Gresham College and Fellow and College Lecturer at Emmanuel College, University of Cambridge",
+            "date": "3 November 2011",
+            "episode_link": "https://www.bbc.co.uk/programmes/b016lh15"
+        },
+        {
+            "topic": "The Age of the Universe",
+            "wiki_link": "https://en.wikipedia.org/wiki/Age_of_the_Universe",
+            "title": "Member of the Institute of Astronomy and Fellow of Emmanuel College at the University of Cambridge",
+            "date": "3 March 2011",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00yz3gy"
+        },
+        {
+            "topic": "The Cool Universe",
+            "wiki_link": "",
+            "title": "Member of the Institute of Astronomy, and Fellow of Emmanuel College, at the University of Cambridge",
+            "date": "6 May 2010",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00s7b6r"
+        },
+        {
+            "topic": "Gravitational Waves",
+            "wiki_link": "https://en.wikipedia.org/wiki/Gravitational_wave",
+            "title": "Royal Society Research Fellow at the Institute of Astronomy, Cambridge",
+            "date": "17 May 2007",
+            "episode_link": "https://www.bbc.co.uk/programmes/b007h8gv"
+        },
+        {
+            "topic": "Galaxies",
+            "wiki_link": "https://en.wikipedia.org/wiki/Galaxies",
+            "title": "Royal Society University Research Fellow at the Institute of Astronomy at Cambridge",
+            "date": "29 June 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003c1cn"
+        },
+        {
+            "topic": "Asteroids",
+            "wiki_link": "https://en.wikipedia.org/wiki/Asteroids",
+            "title": "Royal Society Research Fellow, University of Cambridge",
+            "date": "3 November 2005",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003k9kh"
+        },
+        {
+            "topic": "Dark Energy",
+            "wiki_link": "https://en.wikipedia.org/wiki/Dark_Energy",
+            "title": "Royal Society University Research Fellow at the Institute of Astronomy, University of Cambridge",
+            "date": "17 March 2005",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003k9g5"
+        },
+        {
+            "topic": "The Planets",
+            "wiki_link": "https://en.wikipedia.org/wiki/Planets",
+            "title": "Royal Society Research Fellow at the Institute of Astronomy in Cambridge",
+            "date": "27 May 2004",
+            "episode_link": "https://www.bbc.co.uk/programmes/p004y25b"
+        }
+    ],
+    "Rachael Wiseman": [
+        {
+            "topic": "Elizabeth Anscombe",
+            "wiki_link": "https://en.wikipedia.org/wiki/G._E._M._Anscombe",
+            "title": "Senior Lecturer in Philosophy at the University of Liverpool",
+            "date": "22 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001n1yy"
+        }
+    ],
+    "Constantine Sandis": [
+        {
+            "topic": "Elizabeth Anscombe",
+            "wiki_link": "https://en.wikipedia.org/wiki/G._E._M._Anscombe",
+            "title": "Visiting Professor of Philosophy at the University of Hertfordshire, and Director of Lex Academic",
+            "date": "22 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001n1yy"
+        }
+    ],
+    "Roger Teichmann": [
+        {
+            "topic": "Elizabeth Anscombe",
+            "wiki_link": "https://en.wikipedia.org/wiki/G._E._M._Anscombe",
+            "title": "Lecturer in Philosophy at  St Hilda’s College, University of Oxford",
+            "date": "22 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001n1yy"
+        }
+    ],
+    "Karolina Watroba": [
+        {
+            "topic": "Death in Venice",
+            "wiki_link": "https://en.wikipedia.org/wiki/Death_in_Venice",
+            "title": "Post-Doctoral Research Fellow in Modern Languages at All Souls College, University of Oxford",
+            "date": "15 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001mt6l"
+        }
+    ],
+    "Erica Wickerson": [
+        {
+            "topic": "Death in Venice",
+            "wiki_link": "https://en.wikipedia.org/wiki/Death_in_Venice",
+            "title": "a Former Research Fellow at St Johns College, University of Cambridge",
+            "date": "15 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001mt6l"
+        }
+    ],
+    "Sean Williams": [
+        {
+            "topic": "Death in Venice",
+            "wiki_link": "https://en.wikipedia.org/wiki/Death_in_Venice",
+            "title": "Senior Lecturer in German and European Cultural History at the University of Sheffield",
+            "date": "15 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001mt6l"
+        }
+    ],
+    "Nick Lowe": [
+        {
+            "topic": "Oedipus Rex",
+            "wiki_link": "https://en.wikipedia.org/wiki/Oedipus_Rex",
+            "title": "Reader in Classical Literature at Royal Holloway, University of London",
+            "date": "08 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001mlm4"
+        },
+        {
+            "topic": "Aristotle's Poetics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Poetics_(Aristotle)",
+            "title": "Reader in Classical Literature at Royal Holloway, University of London",
+            "date": "27 January 2011",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00xw210"
+        },
+        {
+            "topic": "The Delphic Oracle",
+            "wiki_link": "https://en.wikipedia.org/wiki/Delphic_Oracle",
+            "title": "Reader in Classical Literature at Royal Holloway, University of London",
+            "date": "30 September 2010",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00txj8d"
+        },
+        {
+            "topic": "The Greek Myths",
+            "wiki_link": "https://en.wikipedia.org/wiki/Greek_Mythology",
+            "title": "Senior Lecturer in Classics at Royal Holloway, University of London",
+            "date": "13 March 2008",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0093z1k"
+        },
+        {
+            "topic": "Greek and Roman Love Poetry",
+            "wiki_link": "https://en.wikipedia.org/wiki/Greek_poetry",
+            "title": "Senior Lecturer in Classics at Royal Holloway, University of London",
+            "date": "26 April 2007",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0077744"
+        },
+        {
+            "topic": "Comedy in Ancient Greek Theatre",
+            "wiki_link": "https://en.wikipedia.org/wiki/Ancient_Greek_comedy",
+            "title": "Senior Lecturer in Classics at Royal Holloway, University of London",
+            "date": "13 July 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003c1d3"
+        }
+    ],
+    "Fiona Macintosh": [
+        {
+            "topic": "Oedipus Rex",
+            "wiki_link": "https://en.wikipedia.org/wiki/Oedipus_Rex",
+            "title": "Professor of Classical Reception and Fellow of St Hilda’s College at the University of Oxford",
+            "date": "08 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001mlm4"
+        }
+    ],
+    "Edith Hall": [
+        {
+            "topic": "Oedipus Rex",
+            "wiki_link": "https://en.wikipedia.org/wiki/Oedipus_Rex",
+            "title": "Professor of Classics at Durham University",
+            "date": "08 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001mlm4"
+        },
+        {
+            "topic": "Plato's Atlantis",
+            "wiki_link": "https://en.wikipedia.org/wiki/Atlantis",
+            "title": "Professor of Classics at Durham University",
+            "date": "22 September 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001c6t3"
+        },
+        {
+            "topic": "Antigone",
+            "wiki_link": "https://en.wikipedia.org/wiki/Antigone",
+            "title": "Professor of Classics at Durham University",
+            "date": "24 March 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0015lwj"
+        },
+        {
+            "topic": "The Bacchae",
+            "wiki_link": "https://en.wikipedia.org/wiki/The_Bacchae",
+            "title": "Professor of Classics at King's College London",
+            "date": "18 March 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000t6kp"
+        },
+        {
+            "topic": "Pericles",
+            "wiki_link": "https://en.wikipedia.org/wiki/Pericles",
+            "title": "Professor of Classics at King's College London",
+            "date": "17 September 2020",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000mk25"
+        },
+        {
+            "topic": "The Iliad",
+            "wiki_link": "https://en.wikipedia.org/wiki/The_Iliad",
+            "title": "Professor of Classics at King's College London",
+            "date": "13 September 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0bh5x1y"
+        },
+        {
+            "topic": "Thebes",
+            "wiki_link": "https://en.wikipedia.org/wiki/Thebes,_Greece",
+            "title": "Professor of Classics at King's College London",
+            "date": "23 November 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b09fj9mt"
+        },
+        {
+            "topic": "Sappho",
+            "wiki_link": "https://en.wikipedia.org/wiki/Sappho",
+            "title": "Professor of Classics at King's College, London",
+            "date": "9 April 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b05pqsk4"
+        },
+        {
+            "topic": "Queen Zenobia",
+            "wiki_link": "https://en.wikipedia.org/wiki/Queen_Zenobia",
+            "title": "Professor of Classics at King's College London",
+            "date": "30 May 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01snjpp"
+        },
+        {
+            "topic": "The Trojan War",
+            "wiki_link": "https://en.wikipedia.org/wiki/Trojan_War",
+            "title": "Professor of Classics at King's College London",
+            "date": "31 May 2012",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01j6srl"
+        },
+        {
+            "topic": "Xenophon",
+            "wiki_link": "https://en.wikipedia.org/wiki/Xenophon",
+            "title": "Professor of Classics and Drama at Royal Holloway, University of London",
+            "date": "26 May 2011",
+            "episode_link": "https://www.bbc.co.uk/programmes/b011cffd"
+        },
+        {
+            "topic": "The Delphic Oracle",
+            "wiki_link": "https://en.wikipedia.org/wiki/Delphic_Oracle",
+            "title": "Professor of Classics at Royal Holloway, University of London",
+            "date": "30 September 2010",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00txj8d"
+        },
+        {
+            "topic": "Sparta",
+            "wiki_link": "https://en.wikipedia.org/wiki/Sparta",
+            "title": "Professor of Classics and Drama at Royal Holloway, University of London",
+            "date": "19 November 2009",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00nvz72"
+        },
+        {
+            "topic": "Greek and Roman Love Poetry",
+            "wiki_link": "https://en.wikipedia.org/wiki/Greek_poetry",
+            "title": "Professor of Classics and Drama at Royal Holloway, University of London",
+            "date": "26 April 2007",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0077744"
+        },
+        {
+            "topic": "Comedy in Ancient Greek Theatre",
+            "wiki_link": "https://en.wikipedia.org/wiki/Ancient_Greek_comedy",
+            "title": "Professor of Drama and Classics at Royal Holloway, University of London",
+            "date": "13 July 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003c1d3"
+        },
+        {
+            "topic": "The Oresteia",
+            "wiki_link": "https://en.wikipedia.org/wiki/Oresteia",
+            "title": "Professor of Greek Cultural History at Durham University",
+            "date": "29 December 2005",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003k9fk"
+        },
+        {
+            "topic": "The Aeneid",
+            "wiki_link": "https://en.wikipedia.org/wiki/Aeneid",
+            "title": "Leverhulme Professor of Greek Cultural History, Durham University",
+            "date": "21 April 2005",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003k9c1"
+        },
+        {
+            "topic": "The Odyssey",
+            "wiki_link": "https://en.wikipedia.org/wiki/Odyssey",
+            "title": "Leverhulme Professor of Greek Cultural History at Durham University",
+            "date": "9 September 2004",
+            "episode_link": "https://www.bbc.co.uk/programmes/p004y297"
+        },
+        {
+            "topic": "Thermopylae",
+            "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
+            "title": "Leverhulme Professor of Greek Cultural History at the University of Durham and author of Inventing the Barbarian: Greek Self-Definition through Tragedy",
+            "date": "5 February 2004",
+            "episode_link": "https://www.bbc.co.uk/programmes/p004y278"
+        }
+    ],
+    "Mike Murphy": [
+        {
+            "topic": "Mitochondria",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mitochondrion",
+            "title": "Professor of Mitochondrial Redox Biology at the University of Cambridge",
+            "date": "01 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001md34"
+        },
+        {
+            "topic": "Free Radicals",
+            "wiki_link": "https://en.wikipedia.org/wiki/Free_Radicals",
+            "title": "Professor of Mitochondrial Redox Biology at Cambridge University",
+            "date": "1 November 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0000xqd"
+        }
+    ],
+    "Florencia Camus": [
+        {
+            "topic": "Mitochondria",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mitochondrion",
+            "title": "NERC Independent Research Fellow at University College London",
+            "date": "01 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001md34"
+        }
+    ],
+    "Nick Lane": [
+        {
+            "topic": "Mitochondria",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mitochondrion",
+            "title": "Professor of Evolutionary Biochemistry at University College London",
+            "date": "01 June 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001md34"
+        },
+        {
+            "topic": "Free Radicals",
+            "wiki_link": "https://en.wikipedia.org/wiki/Free_Radicals",
+            "title": "Professor of Evolutionary Biochemistry at University College London",
+            "date": "1 November 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0000xqd"
+        },
+        {
+            "topic": "Extremophiles",
+            "wiki_link": "https://en.wikipedia.org/wiki/Extremophiles",
+            "title": "Reader in Evolutionary Biochemistry at University College London",
+            "date": "25 June 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b05zl3v2"
+        },
+        {
+            "topic": "Photosynthesis",
+            "wiki_link": "https://en.wikipedia.org/wiki/Photosynthesis",
+            "title": "Reader in Evolutionary Biochemistry at University College London",
+            "date": "15 May 2014",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0435jyv"
+        },
+        {
+            "topic": "The Cell",
+            "wiki_link": "https://en.wikipedia.org/wiki/Cell_(biology)",
+            "title": "Senior Lecturer in the Department of Genetics, Evolution and Environment, University College London",
+            "date": "13 September 2012",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01mk8vh"
+        }
+    ],
+    "Catriona Seth": [
+        {
+            "topic": "Louis XIV: The Sun King",
+            "wiki_link": "https://en.wikipedia.org/wiki/Louis_XIV",
+            "title": "Marshal Foch Professor of French Literature at the University of Oxford",
+            "date": "25 May 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001m4v6"
+        },
+        {
+            "topic": "Olympe de Gouges",
+            "wiki_link": "https://en.wikipedia.org/wiki/Olympe_de_Gouges",
+            "title": "Marshal Foch Professor of French Literature at the University of Oxford",
+            "date": "21 April 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0016hdj"
+        },
+        {
+            "topic": "Maria Theresa",
+            "wiki_link": "https://en.wikipedia.org/wiki/Maria_Theresa",
+            "title": "Marshal Foch Professor of French Literature at the University of Oxford",
+            "date": "22 October 2020",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000nlyv"
+        },
+        {
+            "topic": "Marie Antoinette",
+            "wiki_link": "https://en.wikipedia.org/wiki/Marie_Antoinette",
+            "title": "Marshal Foch Professor of French Literature at the University of Oxford",
+            "date": "8 November 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000117y"
+        },
+        {
+            "topic": "Germaine de Staël",
+            "wiki_link": "https://en.wikipedia.org/wiki/Germaine_de_Sta%C3%ABl",
+            "title": "Marshal Foch Professor of French Literature at the University of Oxford",
+            "date": "16 November 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b09drjm1"
+        }
+    ],
+    "Guy Rowlands": [
+        {
+            "topic": "Louis XIV: The Sun King",
+            "wiki_link": "https://en.wikipedia.org/wiki/Louis_XIV",
+            "title": "Professor of Early Modern History at the University of St Andrews",
+            "date": "25 May 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001m4v6"
+        }
+    ],
+    "Penny Roberts": [
+        {
+            "topic": "Louis XIV: The Sun King",
+            "wiki_link": "https://en.wikipedia.org/wiki/Louis_XIV",
+            "title": "Professor of Early Modern History at the University of Warwick",
+            "date": "25 May 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001m4v6"
+        },
+        {
+            "topic": "The Field of the Cloth of Gold",
+            "wiki_link": "https://en.wikipedia.org/wiki/Field_of_the_Cloth_of_Gold",
+            "title": "Senior Lecturer in History at the University of Warwick",
+            "date": "6 October 2005",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003k9dl"
+        },
+        {
+            "topic": "St Bartholomew's Day Massacre",
+            "wiki_link": "https://en.wikipedia.org/wiki/St_Bartholomew%27s_Day_Massacre",
+            "title": "Lecturer in History at the University of Warwick",
+            "date": "27 November 2003",
+            "episode_link": "https://www.bbc.co.uk/programmes/p005493t"
+        }
+    ],
+    "Katharine Earnshaw": [
+        {
+            "topic": "Virgil's Georgics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Georgics",
+            "title": "Senior Lecturer in Classics and Ancient History at the University of Exeter",
+            "date": "18 May 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001lyt4"
+        }
+    ],
+    "Neville Morley": [
+        {
+            "topic": "Virgil's Georgics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Georgics",
+            "title": "Professor of Classics and Ancient History at the University of Exeter",
+            "date": "18 May 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001lyt4"
+        },
+        {
+            "topic": "Roman Slavery",
+            "wiki_link": "https://en.wikipedia.org/wiki/Slavery_in_ancient_Rome",
+            "title": "Professor of Classics and Ancient History at the University of Exeter",
+            "date": "5 April 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/b09xnl51"
+        },
+        {
+            "topic": "Thucydides",
+            "wiki_link": "https://en.wikipedia.org/wiki/Thucydides",
+            "title": "Professor of Ancient History at the University of Bristol",
+            "date": "29 January 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b050bcf1"
+        }
+    ],
+    "Diana Spencer": [
+        {
+            "topic": "Virgil's Georgics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Georgics",
+            "title": "Professor of Classics at the University of Birmingham",
+            "date": "18 May 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001lyt4"
+        },
+        {
+            "topic": "Alexander the Great",
+            "wiki_link": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+            "title": "Professor of Classics at the University of Birmingham",
+            "date": "1 October 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b06d9bkx"
+        }
+    ],
+    "Satona Suzuki": [
+        {
+            "topic": "The Shimabara Rebellion",
+            "wiki_link": "https://en.wikipedia.org/wiki/Shimabara_Rebellion",
+            "title": "Lecturer in Japanese and Modern Japanese History at SOAS University of London",
+            "date": "11 May 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001lrd7"
+        }
+    ],
+    "Erica Baffelli": [
+        {
+            "topic": "The Shimabara Rebellion",
+            "wiki_link": "https://en.wikipedia.org/wiki/Shimabara_Rebellion",
+            "title": "Professor of Japanese Studies at the University of Manchester",
+            "date": "11 May 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001lrd7"
+        }
+    ],
+    "Christopher Harding": [
+        {
+            "topic": "The Shimabara Rebellion",
+            "wiki_link": "https://en.wikipedia.org/wiki/Shimabara_Rebellion",
+            "title": "Senior Lecturer in Asian History at the University of Edinburgh",
+            "date": "11 May 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001lrd7"
+        }
+    ],
     "Sarah Pearce": [
         {
             "topic": "The Dead Sea Scrolls",
@@ -1956,134 +2564,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/p00546x5"
         }
     ],
-    "Edith Hall": [
-        {
-            "topic": "Plato's Atlantis",
-            "wiki_link": "https://en.wikipedia.org/wiki/Atlantis",
-            "title": "Professor of Classics at Durham University",
-            "date": "22 September 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m001c6t3"
-        },
-        {
-            "topic": "Antigone",
-            "wiki_link": "https://en.wikipedia.org/wiki/Antigone",
-            "title": "Professor of Classics at Durham University",
-            "date": "24 March 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0015lwj"
-        },
-        {
-            "topic": "The Bacchae",
-            "wiki_link": "https://en.wikipedia.org/wiki/The_Bacchae",
-            "title": "Professor of Classics at King's College London",
-            "date": "18 March 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000t6kp"
-        },
-        {
-            "topic": "Pericles",
-            "wiki_link": "https://en.wikipedia.org/wiki/Pericles",
-            "title": "Professor of Classics at King's College London",
-            "date": "17 September 2020",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000mk25"
-        },
-        {
-            "topic": "The Iliad",
-            "wiki_link": "https://en.wikipedia.org/wiki/The_Iliad",
-            "title": "Professor of Classics at King's College London",
-            "date": "13 September 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0bh5x1y"
-        },
-        {
-            "topic": "Thebes",
-            "wiki_link": "https://en.wikipedia.org/wiki/Thebes,_Greece",
-            "title": "Professor of Classics at King's College London",
-            "date": "23 November 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b09fj9mt"
-        },
-        {
-            "topic": "Sappho",
-            "wiki_link": "https://en.wikipedia.org/wiki/Sappho",
-            "title": "Professor of Classics at King's College, London",
-            "date": "9 April 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b05pqsk4"
-        },
-        {
-            "topic": "Queen Zenobia",
-            "wiki_link": "https://en.wikipedia.org/wiki/Queen_Zenobia",
-            "title": "Professor of Classics at King's College London",
-            "date": "30 May 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01snjpp"
-        },
-        {
-            "topic": "The Trojan War",
-            "wiki_link": "https://en.wikipedia.org/wiki/Trojan_War",
-            "title": "Professor of Classics at King's College London",
-            "date": "31 May 2012",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01j6srl"
-        },
-        {
-            "topic": "Xenophon",
-            "wiki_link": "https://en.wikipedia.org/wiki/Xenophon",
-            "title": "Professor of Classics and Drama at Royal Holloway, University of London",
-            "date": "26 May 2011",
-            "episode_link": "https://www.bbc.co.uk/programmes/b011cffd"
-        },
-        {
-            "topic": "The Delphic Oracle",
-            "wiki_link": "https://en.wikipedia.org/wiki/Delphic_Oracle",
-            "title": "Professor of Classics at Royal Holloway, University of London",
-            "date": "30 September 2010",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00txj8d"
-        },
-        {
-            "topic": "Sparta",
-            "wiki_link": "https://en.wikipedia.org/wiki/Sparta",
-            "title": "Professor of Classics and Drama at Royal Holloway, University of London",
-            "date": "19 November 2009",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00nvz72"
-        },
-        {
-            "topic": "Greek and Roman Love Poetry",
-            "wiki_link": "https://en.wikipedia.org/wiki/Greek_poetry",
-            "title": "Professor of Classics and Drama at Royal Holloway, University of London",
-            "date": "26 April 2007",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0077744"
-        },
-        {
-            "topic": "Comedy in Ancient Greek Theatre",
-            "wiki_link": "https://en.wikipedia.org/wiki/Ancient_Greek_comedy",
-            "title": "Professor of Drama and Classics at Royal Holloway, University of London",
-            "date": "13 July 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003c1d3"
-        },
-        {
-            "topic": "The Oresteia",
-            "wiki_link": "https://en.wikipedia.org/wiki/Oresteia",
-            "title": "Professor of Greek Cultural History at Durham University",
-            "date": "29 December 2005",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003k9fk"
-        },
-        {
-            "topic": "The Aeneid",
-            "wiki_link": "https://en.wikipedia.org/wiki/Aeneid",
-            "title": "Leverhulme Professor of Greek Cultural History, Durham University",
-            "date": "21 April 2005",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003k9c1"
-        },
-        {
-            "topic": "The Odyssey",
-            "wiki_link": "https://en.wikipedia.org/wiki/Odyssey",
-            "title": "Leverhulme Professor of Greek Cultural History at Durham University",
-            "date": "9 September 2004",
-            "episode_link": "https://www.bbc.co.uk/programmes/p004y297"
-        },
-        {
-            "topic": "Thermopylae",
-            "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
-            "title": "Leverhulme Professor of Greek Cultural History at the University of Durham and author of Inventing the Barbarian: Greek Self-Definition through Tragedy",
-            "date": "5 February 2004",
-            "episode_link": "https://www.bbc.co.uk/programmes/p004y278"
-        }
-    ],
     "Christopher Gill": [
         {
             "topic": "Plato's Atlantis",
@@ -2569,134 +3049,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/p00545j9"
         }
     ],
-    "Carolin Crawford": [
-        {
-            "topic": "The Death of Stars",
-            "wiki_link": "https://en.wikipedia.org/wiki/Star#Post–main_sequence",
-            "title": "Emeritus Member of the Institute of Astronomy and Emeritus Fellow of Emmanuel College, Cambridge",
-            "date": "9 June 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0018128"
-        },
-        {
-            "topic": "William and Caroline Herschel",
-            "wiki_link": "https://en.wikipedia.org/wiki/William_Herschel",
-            "title": "Institute of Astronomy, Cambridge and an Emeritus Fellow of Emmanuel College, University of Cambridge",
-            "date": "11 November 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0011c4p"
-        },
-        {
-            "topic": "Eclipses",
-            "wiki_link": "https://en.wikipedia.org/wiki/Eclipse",
-            "title": "Public Astronomer based at the Institute of Astronomy, University of Cambridge and a fellow of Emmanuel College",
-            "date": "31 December 2020",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000qmnj"
-        },
-        {
-            "topic": "Venus",
-            "wiki_link": "https://en.wikipedia.org/wiki/Venus",
-            "title": "Public Astronomer at the Institute of Astronomy and Fellow of Emmanuel College, Cambridge",
-            "date": "27 December 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0001rm1"
-        },
-        {
-            "topic": "The Kuiper belt",
-            "wiki_link": "https://en.wikipedia.org/wiki/Kuiper_belt",
-            "title": "Public Astronomer at the Institute of Astronomy and Fellow of Emmanuel College, Cambridge",
-            "date": "2 March 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b08g7ttx"
-        },
-        {
-            "topic": "Saturn",
-            "wiki_link": "https://en.wikipedia.org/wiki/Saturn",
-            "title": "Public Astronomer at the Institute of Astronomy and Fellow of Emmanuel College, Cambridge",
-            "date": "14 January 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b06vmr1m"
-        },
-        {
-            "topic": "Dark matter",
-            "wiki_link": "https://en.wikipedia.org/wiki/Dark_matter",
-            "title": "Public Astronomer at the Institute of Astronomy, University of Cambridge",
-            "date": "12 March 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b054t3s2"
-        },
-        {
-            "topic": "The Sun",
-            "wiki_link": "https://en.wikipedia.org/wiki/Sun",
-            "title": "Fellow of Emmanuel College, Cambridge, Professor of Astronomy at Gresham College",
-            "date": "10 July 2014",
-            "episode_link": "https://www.bbc.co.uk/programmes/b048nlfb"
-        },
-        {
-            "topic": "Exoplanets",
-            "wiki_link": "https://en.wikipedia.org/wiki/Exoplanet",
-            "title": "Gresham Professor of Astronomy and a member of the Institute of Astronomy at the University of Cambridge",
-            "date": "3 October 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b03brwql"
-        },
-        {
-            "topic": "Cosmic rays",
-            "wiki_link": "https://en.wikipedia.org/wiki/Cosmic_ray",
-            "title": "Gresham Professor of Astronomy and a member of the Institute of Astronomy at the University of Cambridge",
-            "date": "16 May 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01sdnkg"
-        },
-        {
-            "topic": "The Moon",
-            "wiki_link": "https://en.wikipedia.org/wiki/Moon",
-            "title": "Professor of Astronomy at Gresham College and Fellow and College Lecturer at Emmanuel College, University of Cambridge",
-            "date": "3 November 2011",
-            "episode_link": "https://www.bbc.co.uk/programmes/b016lh15"
-        },
-        {
-            "topic": "The Age of the Universe",
-            "wiki_link": "https://en.wikipedia.org/wiki/Age_of_the_Universe",
-            "title": "Member of the Institute of Astronomy and Fellow of Emmanuel College at the University of Cambridge",
-            "date": "3 March 2011",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00yz3gy"
-        },
-        {
-            "topic": "The Cool Universe",
-            "wiki_link": "",
-            "title": "Member of the Institute of Astronomy, and Fellow of Emmanuel College, at the University of Cambridge",
-            "date": "6 May 2010",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00s7b6r"
-        },
-        {
-            "topic": "Gravitational Waves",
-            "wiki_link": "https://en.wikipedia.org/wiki/Gravitational_wave",
-            "title": "Royal Society Research Fellow at the Institute of Astronomy, Cambridge",
-            "date": "17 May 2007",
-            "episode_link": "https://www.bbc.co.uk/programmes/b007h8gv"
-        },
-        {
-            "topic": "Galaxies",
-            "wiki_link": "https://en.wikipedia.org/wiki/Galaxies",
-            "title": "Royal Society University Research Fellow at the Institute of Astronomy at Cambridge",
-            "date": "29 June 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003c1cn"
-        },
-        {
-            "topic": "Asteroids",
-            "wiki_link": "https://en.wikipedia.org/wiki/Asteroids",
-            "title": "Royal Society Research Fellow, University of Cambridge",
-            "date": "3 November 2005",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003k9kh"
-        },
-        {
-            "topic": "Dark Energy",
-            "wiki_link": "https://en.wikipedia.org/wiki/Dark_Energy",
-            "title": "Royal Society University Research Fellow at the Institute of Astronomy, University of Cambridge",
-            "date": "17 March 2005",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003k9g5"
-        },
-        {
-            "topic": "The Planets",
-            "wiki_link": "https://en.wikipedia.org/wiki/Planets",
-            "title": "Royal Society Research Fellow at the Institute of Astronomy in Cambridge",
-            "date": "27 May 2004",
-            "episode_link": "https://www.bbc.co.uk/programmes/p004y25b"
-        }
-    ],
     "Mark Sullivan": [
         {
             "topic": "The Death of Stars",
@@ -2776,8 +3128,8 @@
     ],
     "Tim Barrett": [
         {
-            "topic": "Li Bai and Du Fu",
-            "wiki_link": "https://en.wikipedia.org/wiki/Li_Bai",
+            "topic": "Tang Era Poetry",
+            "wiki_link": "",
             "title": "Professor Emeritus of East Asian History at SOAS, University of London",
             "date": "12 May 2022",
             "episode_link": "https://www.bbc.co.uk/programmes/m00174d0"
@@ -2834,8 +3186,8 @@
     ],
     "Tian Yuan Tan": [
         {
-            "topic": "Li Bai and Du Fu",
-            "wiki_link": "https://en.wikipedia.org/wiki/Li_Bai",
+            "topic": "Tang Era Poetry",
+            "wiki_link": "",
             "title": "Shaw Professor of Chinese at the University of Oxford and Professorial Fellow at University College",
             "date": "12 May 2022",
             "episode_link": "https://www.bbc.co.uk/programmes/m00174d0"
@@ -2843,8 +3195,8 @@
     ],
     "Frances Wood": [
         {
-            "topic": "Li Bai and Du Fu",
-            "wiki_link": "https://en.wikipedia.org/wiki/Li_Bai",
+            "topic": "Tang Era Poetry",
+            "wiki_link": "",
             "title": "Former Curator of the Chinese Collections at the British Library",
             "date": "12 May 2022",
             "episode_link": "https://www.bbc.co.uk/programmes/m00174d0"
@@ -2995,36 +3347,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m0016ptt"
         }
     ],
-    "Catriona Seth": [
-        {
-            "topic": "Olympe de Gouges",
-            "wiki_link": "https://en.wikipedia.org/wiki/Olympe_de_Gouges",
-            "title": "Marshal Foch Professor of French Literature at the University of Oxford",
-            "date": "21 April 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0016hdj"
-        },
-        {
-            "topic": "Maria Theresa",
-            "wiki_link": "https://en.wikipedia.org/wiki/Maria_Theresa",
-            "title": "Marshal Foch Professor of French Literature at the University of Oxford",
-            "date": "22 October 2020",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000nlyv"
-        },
-        {
-            "topic": "Marie Antoinette",
-            "wiki_link": "https://en.wikipedia.org/wiki/Marie_Antoinette",
-            "title": "Marshal Foch Professor of French Literature at the University of Oxford",
-            "date": "8 November 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000117y"
-        },
-        {
-            "topic": "Germaine de Staël",
-            "wiki_link": "https://en.wikipedia.org/wiki/Germaine_de_Sta%C3%ABl",
-            "title": "Marshal Foch Professor of French Literature at the University of Oxford",
-            "date": "16 November 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b09drjm1"
-        }
-    ],
     "Katherine Astbury": [
         {
             "topic": "Olympe de Gouges",
@@ -3084,7 +3406,7 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m00168lg"
         },
         {
-            "topic": "The Paleocene–Eocene Thermal Maximum",
+            "topic": "The Paleocene-Eocene Thermal Maximum",
             "wiki_link": "https://en.wikipedia.org/wiki/Paleocene%E2%80%93Eocene_Thermal_Maximum",
             "title": "Professor of Palaeoclimatology at University College London",
             "date": "16 March 2017",
@@ -6585,7 +6907,7 @@
     ],
     "Alan Outram": [
         {
-            "topic": "Evolution of the horse",
+            "topic": "The Evolution of Horses",
             "wiki_link": "https://en.wikipedia.org/wiki/Evolution_of_the_horse",
             "title": "Professor of Archaeological Science at the University of Exeter",
             "date": "27 February 2020",
@@ -6594,7 +6916,7 @@
     ],
     "Christine Janis": [
         {
-            "topic": "Evolution of the horse",
+            "topic": "The Evolution of Horses",
             "wiki_link": "https://en.wikipedia.org/wiki/Evolution_of_the_horse",
             "title": "Honorary Professor in Palaeobiology at the University of Bristol and Professor Emerita in Ecology and Evolutionary Biology at Brown University",
             "date": "27 February 2020",
@@ -6603,7 +6925,7 @@
     ],
     "John Hutchinson": [
         {
-            "topic": "Evolution of the horse",
+            "topic": "The Evolution of Horses",
             "wiki_link": "https://en.wikipedia.org/wiki/Evolution_of_the_horse",
             "title": "Professor in Evolutionary Biomechanics at the Royal Veterinary College",
             "date": "27 February 2020",
@@ -8326,50 +8648,11 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m000117y"
         }
     ],
-    "Nick Lane": [
-        {
-            "topic": "Free Radicals",
-            "wiki_link": "https://en.wikipedia.org/wiki/Free_Radicals",
-            "title": "Professor of Evolutionary Biochemistry at University College London",
-            "date": "1 November 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0000xqd"
-        },
-        {
-            "topic": "Extremophiles",
-            "wiki_link": "https://en.wikipedia.org/wiki/Extremophiles",
-            "title": "Reader in Evolutionary Biochemistry at University College London",
-            "date": "25 June 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b05zl3v2"
-        },
-        {
-            "topic": "Photosynthesis",
-            "wiki_link": "https://en.wikipedia.org/wiki/Photosynthesis",
-            "title": "Reader in Evolutionary Biochemistry at University College London",
-            "date": "15 May 2014",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0435jyv"
-        },
-        {
-            "topic": "The Cell",
-            "wiki_link": "https://en.wikipedia.org/wiki/Cell_(biology)",
-            "title": "Senior Lecturer in the Department of Genetics, Evolution and Environment, University College London",
-            "date": "13 September 2012",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01mk8vh"
-        }
-    ],
     "Anna Croft": [
         {
             "topic": "Free Radicals",
             "wiki_link": "https://en.wikipedia.org/wiki/Free_Radicals",
             "title": "Associate Professor at the Department of Chemical and Environmental Engineering at the University of Nottingham",
-            "date": "1 November 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0000xqd"
-        }
-    ],
-    "Mike Murphy": [
-        {
-            "topic": "Free Radicals",
-            "wiki_link": "https://en.wikipedia.org/wiki/Free_Radicals",
-            "title": "Professor of Mitochondrial Redox Biology at Cambridge University",
             "date": "1 November 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/m0000xqd"
         }
@@ -9133,22 +9416,6 @@
             "title": "Professor Emeritus of Railway Studies at the University of York",
             "date": "11 April 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09y6zfr"
-        }
-    ],
-    "Neville Morley": [
-        {
-            "topic": "Roman Slavery",
-            "wiki_link": "https://en.wikipedia.org/wiki/Slavery_in_ancient_Rome",
-            "title": "Professor of Classics and Ancient History at the University of Exeter",
-            "date": "5 April 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/b09xnl51"
-        },
-        {
-            "topic": "Thucydides",
-            "wiki_link": "https://en.wikipedia.org/wiki/Thucydides",
-            "title": "Professor of Ancient History at the University of Bristol",
-            "date": "29 January 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b050bcf1"
         }
     ],
     "Ulrike Roth": [
@@ -10194,7 +10461,7 @@
     ],
     "Dame Jane Francis": [
         {
-            "topic": "The Paleocene–Eocene Thermal Maximum",
+            "topic": "The Paleocene-Eocene Thermal Maximum",
             "wiki_link": "https://en.wikipedia.org/wiki/Paleocene%E2%80%93Eocene_Thermal_Maximum",
             "title": "Professor of Palaeoclimatology at the British Antarctic Survey",
             "date": "16 March 2017",
@@ -10203,7 +10470,7 @@
     ],
     "Tracy Aze": [
         {
-            "topic": "The Paleocene–Eocene Thermal Maximum",
+            "topic": "The Paleocene-Eocene Thermal Maximum",
             "wiki_link": "https://en.wikipedia.org/wiki/Paleocene%E2%80%93Eocene_Thermal_Maximum",
             "title": "Lecturer in Marine Micropaleontology at the University of Leeds",
             "date": "16 March 2017",
@@ -11580,15 +11847,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/b06wg9dw"
         }
     ],
-    "Michele Dougherty": [
-        {
-            "topic": "Saturn",
-            "wiki_link": "https://en.wikipedia.org/wiki/Saturn",
-            "title": "Professor of Space Physics at Imperial College London",
-            "date": "14 January 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b06vmr1m"
-        }
-    ],
     "Geoffrey Cantor": [
         {
             "topic": "Michael Faraday",
@@ -11903,15 +12161,6 @@
             "title": "Professor of Early Modern History at the University of Southampton",
             "date": "15 October 2015",
             "episode_link": "https://www.bbc.co.uk/programmes/b06gw3jj"
-        }
-    ],
-    "Diana Spencer": [
-        {
-            "topic": "Alexander the Great",
-            "wiki_link": "https://en.wikipedia.org/wiki/Alexander_the_Great",
-            "title": "Professor of Classics at the University of Birmingham",
-            "date": "1 October 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b06d9bkx"
         }
     ],
     "Rachel Mairs": [
@@ -16068,43 +16317,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/b00y2srx"
         }
     ],
-    "Nick Lowe": [
-        {
-            "topic": "Aristotle's Poetics",
-            "wiki_link": "https://en.wikipedia.org/wiki/Poetics_(Aristotle)",
-            "title": "Reader in Classical Literature at Royal Holloway, University of London",
-            "date": "27 January 2011",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00xw210"
-        },
-        {
-            "topic": "The Delphic Oracle",
-            "wiki_link": "https://en.wikipedia.org/wiki/Delphic_Oracle",
-            "title": "Reader in Classical Literature at Royal Holloway, University of London",
-            "date": "30 September 2010",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00txj8d"
-        },
-        {
-            "topic": "The Greek Myths",
-            "wiki_link": "https://en.wikipedia.org/wiki/Greek_Mythology",
-            "title": "Senior Lecturer in Classics at Royal Holloway, University of London",
-            "date": "13 March 2008",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0093z1k"
-        },
-        {
-            "topic": "Greek and Roman Love Poetry",
-            "wiki_link": "https://en.wikipedia.org/wiki/Greek_poetry",
-            "title": "Senior Lecturer in Classics at Royal Holloway, University of London",
-            "date": "26 April 2007",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0077744"
-        },
-        {
-            "topic": "Comedy in Ancient Greek Theatre",
-            "wiki_link": "https://en.wikipedia.org/wiki/Ancient_Greek_comedy",
-            "title": "Senior Lecturer in Classics at Royal Holloway, University of London",
-            "date": "13 July 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003c1d3"
-        }
-    ],
     "Stephen Halliwell": [
         {
             "topic": "Aristotle's Poetics",
@@ -19836,22 +20048,6 @@
             "title": "Professor of Latin, University of Newcastle",
             "date": "20 October 2005",
             "episode_link": "https://www.bbc.co.uk/programmes/p003k9js"
-        }
-    ],
-    "Penny Roberts": [
-        {
-            "topic": "The Field of the Cloth of Gold",
-            "wiki_link": "https://en.wikipedia.org/wiki/Field_of_the_Cloth_of_Gold",
-            "title": "Senior Lecturer in History at the University of Warwick",
-            "date": "6 October 2005",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003k9dl"
-        },
-        {
-            "topic": "St Bartholomew's Day Massacre",
-            "wiki_link": "https://en.wikipedia.org/wiki/St_Bartholomew%27s_Day_Massacre",
-            "title": "Lecturer in History at the University of Warwick",
-            "date": "27 November 2003",
-            "episode_link": "https://www.bbc.co.uk/programmes/p005493t"
         }
     ],
     "John Heilbron": [

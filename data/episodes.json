@@ -1,5 +1,393 @@
 [
     {
+        "date": "29 June 2023",
+        "id": 987,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001n8mv",
+        "topic": "Jupiter",
+        "wiki_link": "https://en.wikipedia.org/wiki/Jupiter",
+        "experts": [
+            {
+                "name": "Michele Dougherty",
+                "title": "Professor of Space Physics and Head of the Department of Physics at Imperial College London",
+                "links": [
+                    {
+                        "text": "Michele Dougherty",
+                        "wiki": "https://en.wikipedia.org/wiki/Michele_Dougherty"
+                    },
+                    {
+                        "text": "Imperial College London",
+                        "wiki": "https://en.wikipedia.org/wiki/Imperial_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "Leigh Fletcher",
+                "title": "Professor of Planetary Science at the University of Leicester",
+                "links": [
+                    {
+                        "text": "University of Leicester",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
+                    }
+                ]
+            },
+            {
+                "name": "Carolin Crawford",
+                "title": "Emeritus Fellow of Emmanuel College, University of Cambridge, and Emeritus Member of the Institute of Astronomy, Cambridge",
+                "links": [
+                    {
+                        "text": "Carolin Crawford",
+                        "wiki": "https://en.wikipedia.org/wiki/Carolin_Crawford"
+                    },
+                    {
+                        "text": "Emmanuel College",
+                        "wiki": "https://en.wikipedia.org/wiki/Emmanuel_College,_Cambridge"
+                    },
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    },
+                    {
+                        "text": "Institute of Astronomy, Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/Institute_of_Astronomy,_Cambridge"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "22 June 2023",
+        "id": 986,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001n1yy",
+        "topic": "Elizabeth Anscombe",
+        "wiki_link": "https://en.wikipedia.org/wiki/G._E._M._Anscombe",
+        "experts": [
+            {
+                "name": "Rachael Wiseman",
+                "title": "Senior Lecturer in Philosophy at the University of Liverpool",
+                "links": [
+                    {
+                        "text": "University of Liverpool",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Liverpool"
+                    }
+                ]
+            },
+            {
+                "name": "Constantine Sandis",
+                "title": "Visiting Professor of Philosophy at the University of Hertfordshire, and Director of Lex Academic",
+                "links": [
+                    {
+                        "text": "Constantine Sandis",
+                        "wiki": "https://en.wikipedia.org/wiki/Constantine_Sandis"
+                    },
+                    {
+                        "text": "University of Hertfordshire",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Hertfordshire"
+                    }
+                ]
+            },
+            {
+                "name": "Roger Teichmann",
+                "title": "Lecturer in Philosophy at  St Hilda’s College, University of Oxford",
+                "links": [
+                    {
+                        "text": "St Hilda’s College",
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2023",
+        "id": 985,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001mt6l",
+        "topic": "Death in Venice",
+        "wiki_link": "https://en.wikipedia.org/wiki/Death_in_Venice",
+        "experts": [
+            {
+                "name": "Karolina Watroba",
+                "title": "Post-Doctoral Research Fellow in Modern Languages at All Souls College, University of Oxford",
+                "links": [
+                    {
+                        "text": "All Souls College",
+                        "wiki": "https://en.wikipedia.org/wiki/All_Souls_College,_Oxford"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Erica Wickerson",
+                "title": "a Former Research Fellow at St Johns College, University of Cambridge",
+                "links": [
+                    {
+                        "text": "St Johns College",
+                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                    },
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Sean Williams",
+                "title": "Senior Lecturer in German and European Cultural History at the University of Sheffield",
+                "links": [
+                    {
+                        "text": "University of Sheffield",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "08 June 2023",
+        "id": 984,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001mlm4",
+        "topic": "Oedipus Rex",
+        "wiki_link": "https://en.wikipedia.org/wiki/Oedipus_Rex",
+        "experts": [
+            {
+                "name": "Nick Lowe",
+                "title": "Reader in Classical Literature at Royal Holloway, University of London",
+                "links": [
+                    {
+                        "text": "Nick Lowe",
+                        "wiki": "https://en.wikipedia.org/wiki/Nick_Lowe_(classicist)"
+                    },
+                    {
+                        "text": "Royal Holloway",
+                        "wiki": "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
+                    },
+                    {
+                        "text": "University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_London"
+                    }
+                ]
+            },
+            {
+                "name": "Fiona Macintosh",
+                "title": "Professor of Classical Reception and Fellow of St Hilda’s College at the University of Oxford",
+                "links": [
+                    {
+                        "text": "Fiona Macintosh",
+                        "wiki": "https://en.wikipedia.org/wiki/Fiona_Macintosh"
+                    },
+                    {
+                        "text": "St Hilda’s College",
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Edith Hall",
+                "title": "Professor of Classics at Durham University",
+                "links": [
+                    {
+                        "text": "Edith Hall",
+                        "wiki": "https://en.wikipedia.org/wiki/Edith_Hall"
+                    },
+                    {
+                        "text": "Durham University",
+                        "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "01 June 2023",
+        "id": 983,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001md34",
+        "topic": "Mitochondria",
+        "wiki_link": "https://en.wikipedia.org/wiki/Mitochondrion",
+        "experts": [
+            {
+                "name": "Mike Murphy",
+                "title": "Professor of Mitochondrial Redox Biology at the University of Cambridge",
+                "links": [
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Florencia Camus",
+                "title": "NERC Independent Research Fellow at University College London",
+                "links": [
+                    {
+                        "text": "NERC",
+                        "wiki": "https://en.wikipedia.org/wiki/Natural_Environment_Research_Council"
+                    },
+                    {
+                        "text": "University College London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "Nick Lane",
+                "title": "Professor of Evolutionary Biochemistry at University College London",
+                "links": [
+                    {
+                        "text": "Nick Lane",
+                        "wiki": "https://en.wikipedia.org/wiki/Nick_Lane"
+                    },
+                    {
+                        "text": "University College London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "25 May 2023",
+        "id": 982,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001m4v6",
+        "topic": "Louis XIV: The Sun King",
+        "wiki_link": "https://en.wikipedia.org/wiki/Louis_XIV",
+        "experts": [
+            {
+                "name": "Catriona Seth",
+                "title": "Marshal Foch Professor of French Literature at the University of Oxford",
+                "links": [
+                    {
+                        "text": "Catriona Seth",
+                        "wiki": "https://en.wikipedia.org/wiki/Catriona_Seth"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Guy Rowlands",
+                "title": "Professor of Early Modern History at the University of St Andrews",
+                "links": [
+                    {
+                        "text": "Guy Rowlands",
+                        "wiki": "https://en.wikipedia.org/wiki/Guy_Rowlands"
+                    },
+                    {
+                        "text": "University of St Andrews",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
+                    }
+                ]
+            },
+            {
+                "name": "Penny Roberts",
+                "title": "Professor of Early Modern History at the University of Warwick",
+                "links": [
+                    {
+                        "text": "University of Warwick",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Warwick"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "18 May 2023",
+        "id": 981,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001lyt4",
+        "topic": "Virgil's Georgics",
+        "wiki_link": "https://en.wikipedia.org/wiki/Georgics",
+        "experts": [
+            {
+                "name": "Katharine Earnshaw",
+                "title": "Senior Lecturer in Classics and Ancient History at the University of Exeter",
+                "links": [
+                    {
+                        "text": "University of Exeter",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+                    }
+                ]
+            },
+            {
+                "name": "Neville Morley",
+                "title": "Professor of Classics and Ancient History at the University of Exeter",
+                "links": [
+                    {
+                        "text": "University of Exeter",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+                    }
+                ]
+            },
+            {
+                "name": "Diana Spencer",
+                "title": "Professor of Classics at the University of Birmingham",
+                "links": [
+                    {
+                        "text": "Diana Spencer",
+                        "wiki": "https://en.wikipedia.org/wiki/Diana_Spencer_(classicist)"
+                    },
+                    {
+                        "text": "University of Birmingham",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Birmingham"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "11 May 2023",
+        "id": 980,
+        "episode_link": "https://www.bbc.co.uk/programmes/m001lrd7",
+        "topic": "The Shimabara Rebellion",
+        "wiki_link": "https://en.wikipedia.org/wiki/Shimabara_Rebellion",
+        "experts": [
+            {
+                "name": "Satona Suzuki",
+                "title": "Lecturer in Japanese and Modern Japanese History at SOAS University of London",
+                "links": [
+                    {
+                        "text": "SOAS University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/SOAS_University_of_London"
+                    }
+                ]
+            },
+            {
+                "name": "Erica Baffelli",
+                "title": "Professor of Japanese Studies at the University of Manchester",
+                "links": [
+                    {
+                        "text": "University of Manchester",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
+                    }
+                ]
+            },
+            {
+                "name": "Christopher Harding",
+                "title": "Senior Lecturer in Asian History at the University of Edinburgh",
+                "links": [
+                    {
+                        "text": "Christopher Harding",
+                        "wiki": "https://en.wikipedia.org/wiki/Christopher_Harding"
+                    },
+                    {
+                        "text": "University of Edinburgh",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "4 May 2023",
         "id": 979,
         "episode_link": "https://www.bbc.co.uk/programmes/m001ljc0",
@@ -530,6 +918,10 @@
                 "title": "Lecturer in Twentieth Century Literature at the University of Bristol",
                 "links": [
                     {
+                        "text": "Noreen Masud",
+                        "wiki": "https://en.wikipedia.org/wiki/Noreen_Masud"
+                    },
+                    {
                         "text": "University of Bristol",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
                     }
@@ -643,7 +1035,16 @@
             {
                 "name": "Nigel Hussey",
                 "title": "Professor of Experimental Condensed Matter Physics at the University of Bristol and Radbout University",
-                "links": []
+                "links": [
+                    {
+                        "text": "University of Bristol",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+                    },
+                    {
+                        "text": "Radbout University",
+                        "wiki": "https://en.wikipedia.org/wiki/Radboud_University_Nijmegen"
+                    }
+                ]
             },
             {
                 "name": "Suchitra Sebastian",
@@ -1305,7 +1706,16 @@
             {
                 "name": "Lois Oliver",
                 "title": "Curator at the Royal Academy and Adjunct Professor of Art History at the American University of Notre Dame London",
-                "links": []
+                "links": [
+                    {
+                        "text": "Royal Academy",
+                        "wiki": "https://en.wikipedia.org/wiki/Royal_Academy_of_Arts"
+                    },
+                    {
+                        "text": "University of Notre Dame",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Notre_Dame"
+                    }
+                ]
             },
             {
                 "name": "Claire Moran",
@@ -1776,8 +2186,8 @@
         "date": "12 May 2022",
         "id": 940,
         "episode_link": "https://www.bbc.co.uk/programmes/m00174d0",
-        "topic": "Li Bai and Du Fu",
-        "wiki_link": "https://en.wikipedia.org/wiki/Li_Bai",
+        "topic": "Tang Era Poetry",
+        "wiki_link": "",
         "experts": [
             {
                 "name": "Tim Barrett",
@@ -5241,7 +5651,7 @@
         "date": "27 February 2020",
         "id": 866,
         "episode_link": "https://www.bbc.co.uk/programmes/m000fp9y",
-        "topic": "Evolution of the horse",
+        "topic": "The Evolution of Horses",
         "wiki_link": "https://en.wikipedia.org/wiki/Evolution_of_the_horse",
         "experts": [
             {
@@ -10753,7 +11163,7 @@
         "date": "16 March 2017",
         "id": 745,
         "episode_link": "https://www.bbc.co.uk/programmes/b08hpmmf",
-        "topic": "The Paleocene–Eocene Thermal Maximum",
+        "topic": "The Paleocene-Eocene Thermal Maximum",
         "wiki_link": "https://en.wikipedia.org/wiki/Paleocene%E2%80%93Eocene_Thermal_Maximum",
         "experts": [
             {

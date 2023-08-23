@@ -1,4 +1,448 @@
 {
+    "Michele Dougherty": {
+        "count": 2,
+        "first": "14 January 2016",
+        "last": "29 June 2023",
+        "links": [
+            {
+                "text": "Michele Dougherty",
+                "wiki": "https://en.wikipedia.org/wiki/Michele_Dougherty"
+            },
+            {
+                "text": "Imperial College London",
+                "wiki": "https://en.wikipedia.org/wiki/Imperial_College_London"
+            }
+        ],
+        "title": [
+            "Professor of Space Physics and Head of the Department of Physics at Imperial College London",
+            "Professor of Space Physics at Imperial College London"
+        ]
+    },
+    "Leigh Fletcher": {
+        "count": 1,
+        "first": "29 June 2023",
+        "last": "29 June 2023",
+        "links": [
+            {
+                "text": "University of Leicester",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
+            }
+        ],
+        "title": [
+            "Professor of Planetary Science at the University of Leicester"
+        ]
+    },
+    "Carolin Crawford": {
+        "count": 19,
+        "first": "27 May 2004",
+        "last": "29 June 2023",
+        "links": [
+            {
+                "text": "Carolin Crawford",
+                "wiki": "https://en.wikipedia.org/wiki/Carolin_Crawford"
+            },
+            {
+                "text": "Emmanuel College",
+                "wiki": "https://en.wikipedia.org/wiki/Emmanuel_College,_Cambridge"
+            },
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            },
+            {
+                "text": "Institute of Astronomy, Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/Institute_of_Astronomy,_Cambridge"
+            }
+        ],
+        "title": [
+            "Emeritus Fellow of Emmanuel College, University of Cambridge, and Emeritus Member of the Institute of Astronomy, Cambridge",
+            "Emeritus Member of the Institute of Astronomy and Emeritus Fellow of Emmanuel College, Cambridge",
+            "Institute of Astronomy, Cambridge and an Emeritus Fellow of Emmanuel College, University of Cambridge",
+            "Public Astronomer based at the Institute of Astronomy, University of Cambridge and a fellow of Emmanuel College",
+            "Public Astronomer at the Institute of Astronomy and Fellow of Emmanuel College, Cambridge",
+            "Public Astronomer at the Institute of Astronomy, University of Cambridge",
+            "Fellow of Emmanuel College, Cambridge, Professor of Astronomy at Gresham College",
+            "Gresham Professor of Astronomy and a member of the Institute of Astronomy at the University of Cambridge",
+            "Professor of Astronomy at Gresham College and Fellow and College Lecturer at Emmanuel College, University of Cambridge",
+            "Member of the Institute of Astronomy and Fellow of Emmanuel College at the University of Cambridge",
+            "Member of the Institute of Astronomy, and Fellow of Emmanuel College, at the University of Cambridge",
+            "Royal Society Research Fellow at the Institute of Astronomy, Cambridge",
+            "Royal Society University Research Fellow at the Institute of Astronomy at Cambridge",
+            "Royal Society Research Fellow, University of Cambridge",
+            "Royal Society University Research Fellow at the Institute of Astronomy, University of Cambridge",
+            "Royal Society Research Fellow at the Institute of Astronomy in Cambridge"
+        ]
+    },
+    "Rachael Wiseman": {
+        "count": 1,
+        "first": "22 June 2023",
+        "last": "22 June 2023",
+        "links": [
+            {
+                "text": "University of Liverpool",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Liverpool"
+            }
+        ],
+        "title": [
+            "Senior Lecturer in Philosophy at the University of Liverpool"
+        ]
+    },
+    "Constantine Sandis": {
+        "count": 1,
+        "first": "22 June 2023",
+        "last": "22 June 2023",
+        "links": [
+            {
+                "text": "Constantine Sandis",
+                "wiki": "https://en.wikipedia.org/wiki/Constantine_Sandis"
+            },
+            {
+                "text": "University of Hertfordshire",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Hertfordshire"
+            }
+        ],
+        "title": [
+            "Visiting Professor of Philosophy at the University of Hertfordshire, and Director of Lex Academic"
+        ]
+    },
+    "Roger Teichmann": {
+        "count": 1,
+        "first": "22 June 2023",
+        "last": "22 June 2023",
+        "links": [
+            {
+                "text": "St Hilda’s College",
+                "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Lecturer in Philosophy at  St Hilda’s College, University of Oxford"
+        ]
+    },
+    "Karolina Watroba": {
+        "count": 1,
+        "first": "15 June 2023",
+        "last": "15 June 2023",
+        "links": [
+            {
+                "text": "All Souls College",
+                "wiki": "https://en.wikipedia.org/wiki/All_Souls_College,_Oxford"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Post-Doctoral Research Fellow in Modern Languages at All Souls College, University of Oxford"
+        ]
+    },
+    "Erica Wickerson": {
+        "count": 1,
+        "first": "15 June 2023",
+        "last": "15 June 2023",
+        "links": [
+            {
+                "text": "St Johns College",
+                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+            },
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "a Former Research Fellow at St Johns College, University of Cambridge"
+        ]
+    },
+    "Sean Williams": {
+        "count": 1,
+        "first": "15 June 2023",
+        "last": "15 June 2023",
+        "links": [
+            {
+                "text": "University of Sheffield",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+            }
+        ],
+        "title": [
+            "Senior Lecturer in German and European Cultural History at the University of Sheffield"
+        ]
+    },
+    "Nick Lowe": {
+        "count": 6,
+        "first": "13 July 2006",
+        "last": "08 June 2023",
+        "links": [
+            {
+                "text": "Nick Lowe",
+                "wiki": "https://en.wikipedia.org/wiki/Nick_Lowe_(classicist)"
+            },
+            {
+                "text": "Royal Holloway",
+                "wiki": "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
+            },
+            {
+                "text": "University of London",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_London"
+            }
+        ],
+        "title": [
+            "Reader in Classical Literature at Royal Holloway, University of London",
+            "Senior Lecturer in Classics at Royal Holloway, University of London"
+        ]
+    },
+    "Fiona Macintosh": {
+        "count": 1,
+        "first": "08 June 2023",
+        "last": "08 June 2023",
+        "links": [
+            {
+                "text": "Fiona Macintosh",
+                "wiki": "https://en.wikipedia.org/wiki/Fiona_Macintosh"
+            },
+            {
+                "text": "St Hilda’s College",
+                "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Professor of Classical Reception and Fellow of St Hilda’s College at the University of Oxford"
+        ]
+    },
+    "Edith Hall": {
+        "count": 19,
+        "first": "5 February 2004",
+        "last": "08 June 2023",
+        "links": [
+            {
+                "text": "Edith Hall",
+                "wiki": "https://en.wikipedia.org/wiki/Edith_Hall"
+            },
+            {
+                "text": "Durham University",
+                "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+            }
+        ],
+        "title": [
+            "Professor of Classics at Durham University",
+            "Professor of Classics at King's College London",
+            "Professor of Classics at King's College, London",
+            "Professor of Classics and Drama at Royal Holloway, University of London",
+            "Professor of Classics at Royal Holloway, University of London",
+            "Professor of Drama and Classics at Royal Holloway, University of London",
+            "Professor of Greek Cultural History at Durham University",
+            "Leverhulme Professor of Greek Cultural History, Durham University",
+            "Leverhulme Professor of Greek Cultural History at Durham University",
+            "Leverhulme Professor of Greek Cultural History at the University of Durham and author of Inventing the Barbarian: Greek Self-Definition through Tragedy"
+        ]
+    },
+    "Mike Murphy": {
+        "count": 2,
+        "first": "1 November 2018",
+        "last": "01 June 2023",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Professor of Mitochondrial Redox Biology at the University of Cambridge",
+            "Professor of Mitochondrial Redox Biology at Cambridge University"
+        ]
+    },
+    "Florencia Camus": {
+        "count": 1,
+        "first": "01 June 2023",
+        "last": "01 June 2023",
+        "links": [
+            {
+                "text": "NERC",
+                "wiki": "https://en.wikipedia.org/wiki/Natural_Environment_Research_Council"
+            },
+            {
+                "text": "University College London",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "NERC Independent Research Fellow at University College London"
+        ]
+    },
+    "Nick Lane": {
+        "count": 5,
+        "first": "13 September 2012",
+        "last": "01 June 2023",
+        "links": [
+            {
+                "text": "Nick Lane",
+                "wiki": "https://en.wikipedia.org/wiki/Nick_Lane"
+            },
+            {
+                "text": "University College London",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Professor of Evolutionary Biochemistry at University College London",
+            "Reader in Evolutionary Biochemistry at University College London",
+            "Senior Lecturer in the Department of Genetics, Evolution and Environment, University College London"
+        ]
+    },
+    "Catriona Seth": {
+        "count": 5,
+        "first": "16 November 2017",
+        "last": "25 May 2023",
+        "links": [
+            {
+                "text": "Catriona Seth",
+                "wiki": "https://en.wikipedia.org/wiki/Catriona_Seth"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Marshal Foch Professor of French Literature at the University of Oxford"
+        ]
+    },
+    "Guy Rowlands": {
+        "count": 1,
+        "first": "25 May 2023",
+        "last": "25 May 2023",
+        "links": [
+            {
+                "text": "Guy Rowlands",
+                "wiki": "https://en.wikipedia.org/wiki/Guy_Rowlands"
+            },
+            {
+                "text": "University of St Andrews",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
+            }
+        ],
+        "title": [
+            "Professor of Early Modern History at the University of St Andrews"
+        ]
+    },
+    "Penny Roberts": {
+        "count": 3,
+        "first": "27 November 2003",
+        "last": "25 May 2023",
+        "links": [
+            {
+                "text": "University of Warwick",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Warwick"
+            }
+        ],
+        "title": [
+            "Professor of Early Modern History at the University of Warwick",
+            "Senior Lecturer in History at the University of Warwick",
+            "Lecturer in History at the University of Warwick"
+        ]
+    },
+    "Katharine Earnshaw": {
+        "count": 1,
+        "first": "18 May 2023",
+        "last": "18 May 2023",
+        "links": [
+            {
+                "text": "University of Exeter",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+            }
+        ],
+        "title": [
+            "Senior Lecturer in Classics and Ancient History at the University of Exeter"
+        ]
+    },
+    "Neville Morley": {
+        "count": 3,
+        "first": "29 January 2015",
+        "last": "18 May 2023",
+        "links": [
+            {
+                "text": "University of Exeter",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+            }
+        ],
+        "title": [
+            "Professor of Classics and Ancient History at the University of Exeter",
+            "Professor of Ancient History at the University of Bristol"
+        ]
+    },
+    "Diana Spencer": {
+        "count": 2,
+        "first": "1 October 2015",
+        "last": "18 May 2023",
+        "links": [
+            {
+                "text": "Diana Spencer",
+                "wiki": "https://en.wikipedia.org/wiki/Diana_Spencer_(classicist)"
+            },
+            {
+                "text": "University of Birmingham",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Birmingham"
+            }
+        ],
+        "title": [
+            "Professor of Classics at the University of Birmingham"
+        ]
+    },
+    "Satona Suzuki": {
+        "count": 1,
+        "first": "11 May 2023",
+        "last": "11 May 2023",
+        "links": [
+            {
+                "text": "SOAS University of London",
+                "wiki": "https://en.wikipedia.org/wiki/SOAS_University_of_London"
+            }
+        ],
+        "title": [
+            "Lecturer in Japanese and Modern Japanese History at SOAS University of London"
+        ]
+    },
+    "Erica Baffelli": {
+        "count": 1,
+        "first": "11 May 2023",
+        "last": "11 May 2023",
+        "links": [
+            {
+                "text": "University of Manchester",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
+            }
+        ],
+        "title": [
+            "Professor of Japanese Studies at the University of Manchester"
+        ]
+    },
+    "Christopher Harding": {
+        "count": 1,
+        "first": "11 May 2023",
+        "last": "11 May 2023",
+        "links": [
+            {
+                "text": "Christopher Harding",
+                "wiki": "https://en.wikipedia.org/wiki/Christopher_Harding"
+            },
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "Senior Lecturer in Asian History at the University of Edinburgh"
+        ]
+    },
     "Sarah Pearce": {
         "count": 1,
         "first": "4 May 2023",
@@ -600,6 +1044,10 @@
         "last": "16 Feb 2023",
         "links": [
             {
+                "text": "Noreen Masud",
+                "wiki": "https://en.wikipedia.org/wiki/Noreen_Masud"
+            },
+            {
                 "text": "University of Bristol",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
             }
@@ -723,7 +1171,16 @@
         "count": 1,
         "first": "26 January 2023",
         "last": "26 January 2023",
-        "links": [],
+        "links": [
+            {
+                "text": "University of Bristol",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+            },
+            {
+                "text": "Radbout University",
+                "wiki": "https://en.wikipedia.org/wiki/Radboud_University_Nijmegen"
+            }
+        ],
         "title": [
             "Professor of Experimental Condensed Matter Physics at the University of Bristol and Radbout University"
         ]
@@ -1475,7 +1932,16 @@
         "count": 1,
         "first": "13 October 2022",
         "last": "13 October 2022",
-        "links": [],
+        "links": [
+            {
+                "text": "Royal Academy",
+                "wiki": "https://en.wikipedia.org/wiki/Royal_Academy_of_Arts"
+            },
+            {
+                "text": "University of Notre Dame",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Notre_Dame"
+            }
+        ],
         "title": [
             "Curator at the Royal Academy and Adjunct Professor of Art History at the American University of Notre Dame London"
         ]
@@ -1601,33 +2067,6 @@
             "Professor of Physics at Exeter College, University of Oxford",
             "Professor of Physics at Exeter College, Oxford",
             "theoretical physicist and author of Lucifer's Legacy: The Meaning of Asymmetry"
-        ]
-    },
-    "Edith Hall": {
-        "count": 18,
-        "first": "5 February 2004",
-        "last": "22 September 2022",
-        "links": [
-            {
-                "text": "Edith Hall",
-                "wiki": "https://en.wikipedia.org/wiki/Edith_Hall"
-            },
-            {
-                "text": "Durham University",
-                "wiki": "https://en.wikipedia.org/wiki/Durham_University"
-            }
-        ],
-        "title": [
-            "Professor of Classics at Durham University",
-            "Professor of Classics at King's College London",
-            "Professor of Classics at King's College, London",
-            "Professor of Classics and Drama at Royal Holloway, University of London",
-            "Professor of Classics at Royal Holloway, University of London",
-            "Professor of Drama and Classics at Royal Holloway, University of London",
-            "Professor of Greek Cultural History at Durham University",
-            "Leverhulme Professor of Greek Cultural History, Durham University",
-            "Leverhulme Professor of Greek Cultural History at Durham University",
-            "Leverhulme Professor of Greek Cultural History at the University of Durham and author of Inventing the Barbarian: Greek Self-Definition through Tragedy"
         ]
     },
     "Christopher Gill": {
@@ -1876,42 +2315,6 @@
             "Astronomer Royal, Professor of Physics and Astronomy at Cambridge University",
             "Astronomer Royal and Royal Society Research Professor in Astronomy and Physics at Cambridge University",
             "Astronomer Royal and Royal Society Research Professor in Astronomy and Physics, Cambridge University"
-        ]
-    },
-    "Carolin Crawford": {
-        "count": 18,
-        "first": "27 May 2004",
-        "last": "9 June 2022",
-        "links": [
-            {
-                "text": "Carolin Crawford",
-                "wiki": "https://en.wikipedia.org/wiki/Carolin_Crawford"
-            },
-            {
-                "text": "Institute of Astronomy",
-                "wiki": "https://en.wikipedia.org/wiki/Institute_of_Astronomy,_Cambridge"
-            },
-            {
-                "text": "Emmanuel College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/Emmanuel_College,_Cambridge"
-            }
-        ],
-        "title": [
-            "Emeritus Member of the Institute of Astronomy and Emeritus Fellow of Emmanuel College, Cambridge",
-            "Institute of Astronomy, Cambridge and an Emeritus Fellow of Emmanuel College, University of Cambridge",
-            "Public Astronomer based at the Institute of Astronomy, University of Cambridge and a fellow of Emmanuel College",
-            "Public Astronomer at the Institute of Astronomy and Fellow of Emmanuel College, Cambridge",
-            "Public Astronomer at the Institute of Astronomy, University of Cambridge",
-            "Fellow of Emmanuel College, Cambridge, Professor of Astronomy at Gresham College",
-            "Gresham Professor of Astronomy and a member of the Institute of Astronomy at the University of Cambridge",
-            "Professor of Astronomy at Gresham College and Fellow and College Lecturer at Emmanuel College, University of Cambridge",
-            "Member of the Institute of Astronomy and Fellow of Emmanuel College at the University of Cambridge",
-            "Member of the Institute of Astronomy, and Fellow of Emmanuel College, at the University of Cambridge",
-            "Royal Society Research Fellow at the Institute of Astronomy, Cambridge",
-            "Royal Society University Research Fellow at the Institute of Astronomy at Cambridge",
-            "Royal Society Research Fellow, University of Cambridge",
-            "Royal Society University Research Fellow at the Institute of Astronomy, University of Cambridge",
-            "Royal Society Research Fellow at the Institute of Astronomy in Cambridge"
         ]
     },
     "Mark Sullivan": {
@@ -2205,24 +2608,6 @@
         ],
         "title": [
             "Senior Lecturer in Classics, History and Liberal Arts at  King's College London"
-        ]
-    },
-    "Catriona Seth": {
-        "count": 4,
-        "first": "16 November 2017",
-        "last": "21 April 2022",
-        "links": [
-            {
-                "text": "Catriona Seth",
-                "wiki": "https://en.wikipedia.org/wiki/Catriona_Seth"
-            },
-            {
-                "text": "University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
-            }
-        ],
-        "title": [
-            "Marshal Foch Professor of French Literature at the University of Oxford"
         ]
     },
     "Katherine Astbury": {
@@ -7334,26 +7719,6 @@
             "Reader in French Eighteenth-Century Studies at the University of Sheffield"
         ]
     },
-    "Nick Lane": {
-        "count": 4,
-        "first": "13 September 2012",
-        "last": "1 November 2018",
-        "links": [
-            {
-                "text": "Nick Lane",
-                "wiki": "https://en.wikipedia.org/wiki/Nick_Lane"
-            },
-            {
-                "text": "University College London",
-                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
-            }
-        ],
-        "title": [
-            "Professor of Evolutionary Biochemistry at University College London",
-            "Reader in Evolutionary Biochemistry at University College London",
-            "Senior Lecturer in the Department of Genetics, Evolution and Environment, University College London"
-        ]
-    },
     "Anna Croft": {
         "count": 1,
         "first": "1 November 2018",
@@ -7366,24 +7731,6 @@
         ],
         "title": [
             "Associate Professor at the Department of Chemical and Environmental Engineering at the University of Nottingham"
-        ]
-    },
-    "Mike Murphy": {
-        "count": 1,
-        "first": "1 November 2018",
-        "last": "1 November 2018",
-        "links": [
-            {
-                "text": "Mike Murphy",
-                "wiki": "https://en.wikipedia.org/wiki/Mike_Murphy"
-            },
-            {
-                "text": "Cambridge University",
-                "wiki": "https://en.wikipedia.org/wiki/Cambridge_University"
-            }
-        ],
-        "title": [
-            "Professor of Mitochondrial Redox Biology at Cambridge University"
         ]
     },
     "Jonathan Bate": {
@@ -8080,21 +8427,6 @@
         ],
         "title": [
             "Professor Emeritus of Railway Studies at the University of York"
-        ]
-    },
-    "Neville Morley": {
-        "count": 2,
-        "first": "29 January 2015",
-        "last": "5 April 2018",
-        "links": [
-            {
-                "text": "University of Exeter",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
-            }
-        ],
-        "title": [
-            "Professor of Classics and Ancient History at the University of Exeter",
-            "Professor of Ancient History at the University of Bristol"
         ]
     },
     "Ulrike Roth": {
@@ -11085,24 +11417,6 @@
             "associate professor of American History at the University of Oxford and Fellow of St Cross College"
         ]
     },
-    "Michele Dougherty": {
-        "count": 1,
-        "first": "14 January 2016",
-        "last": "14 January 2016",
-        "links": [
-            {
-                "text": "Michele Dougherty",
-                "wiki": "https://en.wikipedia.org/wiki/Michele_Dougherty"
-            },
-            {
-                "text": "Imperial College London",
-                "wiki": "https://en.wikipedia.org/wiki/Imperial_College_London"
-            }
-        ],
-        "title": [
-            "Professor of Space Physics at Imperial College London"
-        ]
-    },
     "Geoffrey Cantor": {
         "count": 1,
         "first": "25 December 2015",
@@ -11407,24 +11721,6 @@
         ],
         "title": [
             "Professor of Early Modern History at the University of Southampton"
-        ]
-    },
-    "Diana Spencer": {
-        "count": 1,
-        "first": "1 October 2015",
-        "last": "1 October 2015",
-        "links": [
-            {
-                "text": "Diana Spencer",
-                "wiki": "https://en.wikipedia.org/wiki/Diana_Spencer_(classicist)"
-            },
-            {
-                "text": "University of Birmingham",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Birmingham"
-            }
-        ],
-        "title": [
-            "Professor of Classics at the University of Birmingham"
         ]
     },
     "Rachel Mairs": {
@@ -16781,25 +17077,6 @@
             "Reader in History at the University of St Andrews"
         ]
     },
-    "Nick Lowe": {
-        "count": 5,
-        "first": "13 July 2006",
-        "last": "27 January 2011",
-        "links": [
-            {
-                "text": "Nick Lowe",
-                "wiki": "https://en.wikipedia.org/wiki/Nick_Lowe_(classicist)"
-            },
-            {
-                "text": "Royal Holloway, University of London",
-                "wiki": "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
-            }
-        ],
-        "title": [
-            "Reader in Classical Literature at Royal Holloway, University of London",
-            "Senior Lecturer in Classics at Royal Holloway, University of London"
-        ]
-    },
     "Stephen Halliwell": {
         "count": 1,
         "first": "27 January 2011",
@@ -21627,21 +21904,6 @@
         ],
         "title": [
             "Professor of Latin, University of Newcastle"
-        ]
-    },
-    "Penny Roberts": {
-        "count": 2,
-        "first": "27 November 2003",
-        "last": "6 October 2005",
-        "links": [
-            {
-                "text": "University of Warwick",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Warwick"
-            }
-        ],
-        "title": [
-            "Senior Lecturer in History at the University of Warwick",
-            "Lecturer in History at the University of Warwick"
         ]
     },
     "John Heilbron": {
