@@ -19,7 +19,10 @@ Each guest has their own page as well:
 A Google sheet supplies ranking and comments.
 
 ## to update
-##### from `/scripts`
+#### from `/scripts`
+##### install dependencies
+`pip3 install -r requirements.txt`
+##### update content
 `python update_all.py`
 
 ## local server

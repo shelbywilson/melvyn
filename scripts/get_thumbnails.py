@@ -13,25 +13,31 @@ def get_thumbnails():
 
     for episode in episodes:
         if (episode['wiki_link'] != ""):
-            if (not episode['topic'] in dictionary):
+            if (not episode['topic'] in dictionary or dictionary[episode['topic']] == ''):
                 print(episode['wiki_link'])
-                html_page = urllib.request.urlopen(episode['wiki_link'])
-                soup = BeautifulSoup(html_page, "html.parser")
                 try:
-                    thumb = soup.find('td', {'class': "infobox-image"}).find('img')['src']
-                    # print('\tinfobox')
-                except:
+                    html_page = urllib.request.urlopen(episode['wiki_link'])
+                    soup = BeautifulSoup(html_page, "html.parser")
                     try:
-                        thumb = soup.find('div', {'class': "thumb"}).find('img')['src']
-                        # print('\tthumb')
+                        thumb = soup.find('td', {'class': "infobox-image"}).find('img')['src']
+                        # print('\tinfobox')
                     except:
                         try:
-                            thumb = soup.find('table', {'class': "sidebar"}).find('img')['src']
-                            # print('\tsidebar')
+                            thumb = soup.find('div', {'class': "thumb"}).find('img')['src']
+                            # print('\tthumb')
                         except:
-                            # print('\tnot found')
-                            thumb = ''
-                dictionary[episode['topic']] = thumb
+                            try:
+                                thumb = soup.find('table', {'class': "sidebar"}).find('img')['src']
+                                # print('\tsidebar')
+                            except:
+                                try:
+                                    thumb = soup.find('figure', {'class': 'mw-default-size'}).find('img')['src']
+                                except:
+                                    # print('\tnot found')
+                                    thumb = ''
+                    dictionary[episode['topic']] = thumb
+                except:
+                    print('skip', episode['topic'])
             # else:
             #     print('skip', episode['topic'])
         else:
@@ -40,3 +46,6 @@ def get_thumbnails():
     w = open('./../data/episode_thumbnails.json', 'w')
     json.dump(dictionary, w, indent=4, ensure_ascii=False)
     w.close()
+
+if __name__ == "__main__":
+    get_thumbnails()
