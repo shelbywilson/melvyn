@@ -1,217 +1,4 @@
 {
-    "Social philosophers": [
-        "Peter Kropotkin",
-        "Kant's Copernican Revolution",
-        "Marcus Aurelius",
-        "Rousseau on Education",
-        "Tocqueville: Democracy in America",
-        "Hannah Arendt",
-        "Nietzsche's Genealogy of Morality",
-        "Thomas Paine's Common Sense",
-        "Weber's The Protestant Ethic",
-        "Lévi-Strauss",
-        "Simone Weil",
-        "Benjamin Franklin",
-        "David Hume",
-        "Xenophon",
-        "Edmund Burke",
-        "William James's The Varieties of Religious Experience",
-        "Schopenhauer",
-        "Thoreau and the American Idyll",
-        "Kierkegaard",
-        "Spinoza",
-        "Popper",
-        "Averroes",
-        "Mill",
-        "Goethe",
-        "Hobbes",
-        "Marx",
-        "Sartre",
-        "Wittgenstein",
-        "Tolstoy",
-        "The Buddha",
-        "Milton",
-        "Confucius",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Philosophers of culture": [
-        "Walter Benjamin",
-        "Iris Murdoch",
-        "Kant's Copernican Revolution",
-        "Rousseau on Education",
-        "Tocqueville: Democracy in America",
-        "Sun Tzu and The Art of War",
-        "Hannah Arendt",
-        "Nietzsche's Genealogy of Morality",
-        "Thomas Paine's Common Sense",
-        "Weber's The Protestant Ethic",
-        "Lévi-Strauss",
-        "Bertrand Russell",
-        "Benjamin Franklin",
-        "Edmund Burke",
-        "Schopenhauer",
-        "Aldous Huxley's Brave New World",
-        "Thoreau and the American Idyll",
-        "Kierkegaard",
-        "Spinoza",
-        "Popper",
-        "Jorge Luis Borges",
-        "Averroes",
-        "Mill",
-        "Goethe",
-        "Hobbes",
-        "Marx",
-        "Sartre",
-        "Wittgenstein",
-        "Tolstoy",
-        "Confucius",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Philosophers of history": [
-        "Hegel's Philosophy of History",
-        "Walter Benjamin",
-        "Iris Murdoch",
-        "Kant's Copernican Revolution",
-        "Montesquieu",
-        "Tocqueville: Democracy in America",
-        "Hannah Arendt",
-        "Nietzsche's Genealogy of Morality",
-        "Thomas Paine's Common Sense",
-        "Weber's The Protestant Ethic",
-        "Lévi-Strauss",
-        "Bertrand Russell",
-        "Benjamin Franklin",
-        "David Hume",
-        "Edmund Burke",
-        "William James's The Varieties of Religious Experience",
-        "Ibn Khaldun",
-        "Schopenhauer",
-        "Thoreau and the American Idyll",
-        "Spinoza",
-        "Popper",
-        "Averroes",
-        "Mill",
-        "Goethe",
-        "Hobbes",
-        "Marx",
-        "Sartre",
-        "Tolstoy",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Philosophers of mind": [
-        "Elizabeth Anscombe",
-        "Hegel's Philosophy of History",
-        "Kant's Copernican Revolution",
-        "Marcus Aurelius",
-        "Rousseau on Education",
-        "Bergson and Time",
-        "Roger Bacon",
-        "Nietzsche's Genealogy of Morality",
-        "Lévi-Strauss",
-        "Bertrand Russell",
-        "David Hume",
-        "William James's The Varieties of Religious Experience",
-        "Schopenhauer",
-        "Aldous Huxley's Brave New World",
-        "Thoreau and the American Idyll",
-        "Kierkegaard",
-        "Avicenna",
-        "Spinoza",
-        "Popper",
-        "Jorge Luis Borges",
-        "Averroes",
-        "Mill",
-        "Hobbes",
-        "Marx",
-        "Sartre",
-        "Wittgenstein",
-        "Tolstoy",
-        "The Buddha"
-    ],
-    "Philosophers of education": [
-        "Jan Amos Komenský",
-        "Plato's Gorgias",
-        "Kant's Copernican Revolution",
-        "Rousseau on Education",
-        "Sun Tzu and The Art of War",
-        "Hannah Arendt",
-        "Nietzsche's Genealogy of Morality",
-        "Thomas Paine's Common Sense",
-        "Simone de Beauvoir",
-        "Lévi-Strauss",
-        "Montaigne",
-        "Bertrand Russell",
-        "Al-Kindi",
-        "Benjamin Franklin",
-        "David Hume",
-        "Edmund Burke",
-        "Mary Wollstonecraft",
-        "Schopenhauer",
-        "Socrates",
-        "Spinoza",
-        "Popper",
-        "Goethe",
-        "Hobbes",
-        "Marx",
-        "Sartre",
-        "Tolstoy",
-        "Confucius",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Philosophers of science": [
-        "Kant's Copernican Revolution",
-        "Rousseau on Education",
-        "Roger Bacon",
-        "Hannah Arendt",
-        "Robert Boyle",
-        "Bishop Berkeley",
-        "Lévi-Strauss",
-        "Montaigne",
-        "Bertrand Russell",
-        "Simone Weil",
-        "Al-Kindi",
-        "Benjamin Franklin",
-        "David Hume",
-        "William James's The Varieties of Religious Experience",
-        "Schopenhauer",
-        "Thoreau and the American Idyll",
-        "Avicenna",
-        "Spinoza",
-        "Popper",
-        "Averroes",
-        "Mill",
-        "Goethe",
-        "Hobbes",
-        "Marx",
-        "Sartre",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Philosophers of religion": [
-        "John Donne",
-        "Hegel's Philosophy of History",
-        "Kant's Copernican Revolution",
-        "Nietzsche's Genealogy of Morality",
-        "Thomas Paine's Common Sense",
-        "Lévi-Strauss",
-        "Bertrand Russell",
-        "Simone Weil",
-        "Al-Kindi",
-        "Benjamin Franklin",
-        "Heraclitus",
-        "David Hume",
-        "Edmund Burke",
-        "William James's The Varieties of Religious Experience",
-        "Schopenhauer",
-        "Kierkegaard",
-        "Avicenna",
-        "Spinoza",
-        "Popper",
-        "Averroes",
-        "Hobbes",
-        "Marx",
-        "Tolstoy",
-        "Milton"
-    ],
     "Fellows of the Royal Society": [
         "Linnaeus",
         "William and Caroline Herschel",
@@ -255,31 +42,29 @@
         "St Hilda",
         "Wilberforce",
         "Johnson",
-        "Alfred and the Battle of Edington",
         "The Venerable Bede"
     ],
-    "Epistemologists": [
-        "Kant's Copernican Revolution",
-        "Bergson and Time",
-        "Nietzsche's Genealogy of Morality",
-        "Al-Ghazali",
-        "Bishop Berkeley",
-        "Lévi-Strauss",
-        "Bertrand Russell",
-        "Al-Kindi",
+    "Social philosophers": [
+        "Peter Kropotkin",
+        "Marcus Aurelius",
+        "Rousseau on Education",
+        "Hannah Arendt",
+        "Thomas Paine's Common Sense",
+        "Benjamin Franklin",
         "David Hume",
-        "William James's The Varieties of Religious Experience",
-        "Schopenhauer",
+        "Xenophon",
+        "Edmund Burke",
         "Kierkegaard",
-        "Avicenna",
         "Spinoza",
         "Popper",
         "Averroes",
         "Hobbes",
         "Marx",
-        "Sartre",
         "Wittgenstein",
-        "Tolstoy"
+        "Tolstoy",
+        "The Buddha",
+        "Milton",
+        "Confucius"
     ],
     "Ontologists": [
         "Plato's Gorgias",
@@ -303,47 +88,29 @@
         "Wittgenstein",
         "Tolstoy"
     ],
-    "Writers about activism and social change": [
-        "John Donne",
-        "Kant's Copernican Revolution",
-        "Rousseau on Education",
-        "Nietzsche's Genealogy of Morality",
-        "Thomas Paine's Common Sense",
-        "Weber's The Protestant Ethic",
-        "Lévi-Strauss",
-        "Bertrand Russell",
-        "Benjamin Franklin",
-        "David Hume",
-        "Popper",
-        "Goethe",
-        "Marx",
-        "Proust",
-        "Tolstoy",
-        "Milton",
-        "Dickens",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Metaphysicians": [
-        "Hegel's Philosophy of History",
-        "Bergson and Time",
-        "Roger Bacon",
-        "Nietzsche's Genealogy of Morality",
-        "Al-Ghazali",
-        "Lévi-Strauss",
-        "Bertrand Russell",
-        "Al-Kindi",
-        "William James's The Varieties of Religious Experience",
-        "St Thomas Aquinas",
-        "Kierkegaard",
-        "Spinoza",
-        "Popper",
-        "Hobbes",
-        "Marx",
-        "Sartre",
-        "Wittgenstein",
-        "Tolstoy"
+    "British novels adapted into films": [
+        "Fielding's Tom Jones",
+        "Alice's Adventures in Wonderland",
+        "Persuasion",
+        "Nineteen Eighty-Four",
+        "A Christmas Carol",
+        "The Tenant of Wildfell Hall",
+        "The Time Machine",
+        "Frankenstein",
+        "Wuthering Heights",
+        "Animal Farm",
+        "Tess of the d'Urbervilles",
+        "Emma",
+        "Jane Eyre",
+        "Mrs Dalloway",
+        "Decline and Fall",
+        "Robinson Crusoe",
+        "Silas Marner",
+        "The Riddle of the Sands",
+        "Heart of Darkness"
     ],
     "Philosophy writers": [
+        "Philippa Foot",
         "Hegel's Philosophy of History",
         "Peter Kropotkin",
         "Iris Murdoch",
@@ -362,6 +129,26 @@
         "Sartre",
         "Wittgenstein",
         "Goethe and the Science of the Enlightenment"
+    ],
+    "Fellows of the American Academy of Arts and Sciences": [
+        "Condorcet",
+        "Karl Barth",
+        "Elizabeth Anscombe",
+        "William and Caroline Herschel",
+        "Iris Murdoch",
+        "Pierre-Simon Laplace",
+        "Dorothy Hodgkin",
+        "Bergson and Time",
+        "Samuel Beckett",
+        "Carl Friedrich Gauss",
+        "Hannah Arendt",
+        "John Dalton",
+        "Michael Faraday",
+        "Benjamin Franklin",
+        "Humboldt",
+        "Mill",
+        "Sartre",
+        "Washington and the American Revolution"
     ],
     "Philosophers of literature": [
         "Walter Benjamin",
@@ -403,100 +190,66 @@
         "Wittgenstein",
         "Goethe and the Science of the Enlightenment"
     ],
-    "Political philosophers": [
+    "Philosophers of mind": [
         "Marcus Aurelius",
-        "Tocqueville: Democracy in America",
-        "Sun Tzu and The Art of War",
-        "Hannah Arendt",
-        "Bertrand Russell",
-        "Simone Weil",
-        "Benjamin Franklin",
-        "Edmund Burke",
-        "Schopenhauer",
-        "Popper",
-        "Averroes",
-        "Goethe",
-        "Hobbes",
-        "Sartre",
-        "Tolstoy",
-        "Milton",
-        "Lenin",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "British novels adapted into films": [
-        "Persuasion",
-        "Nineteen Eighty-Four",
-        "A Christmas Carol",
-        "The Tenant of Wildfell Hall",
-        "The Time Machine",
-        "Frankenstein",
-        "Wuthering Heights",
-        "Animal Farm",
-        "Tess of the d'Urbervilles",
-        "Emma",
-        "Jane Eyre",
-        "Mrs Dalloway",
-        "Decline and Fall",
-        "Robinson Crusoe",
-        "Silas Marner",
-        "The Riddle of the Sands",
-        "Heart of Darkness"
-    ],
-    "Philosophers of art": [
-        "Hegel's Philosophy of History",
-        "Walter Benjamin",
-        "Kant's Copernican Revolution",
         "Rousseau on Education",
-        "Nietzsche's Genealogy of Morality",
-        "Simone de Beauvoir",
-        "Al-Kindi",
-        "David Hume",
-        "Edmund Burke",
-        "Schopenhauer",
-        "Kierkegaard",
-        "Jorge Luis Borges",
-        "Goethe",
-        "Sartre",
-        "Wittgenstein",
-        "Proust",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Fellows of the American Academy of Arts and Sciences": [
-        "Elizabeth Anscombe",
-        "William and Caroline Herschel",
-        "Iris Murdoch",
-        "Pierre-Simon Laplace",
-        "Dorothy Hodgkin",
-        "Bergson and Time",
-        "Samuel Beckett",
-        "Carl Friedrich Gauss",
-        "Hannah Arendt",
-        "John Dalton",
-        "Michael Faraday",
-        "Benjamin Franklin",
-        "Humboldt",
-        "Mill",
-        "Sartre",
-        "Washington and the American Revolution"
-    ],
-    "Philosophers of language": [
-        "Elizabeth Anscombe",
-        "Hegel's Philosophy of History",
-        "Walter Benjamin",
         "Bergson and Time",
         "Roger Bacon",
         "Lévi-Strauss",
-        "Bertrand Russell",
-        "Schopenhauer",
+        "David Hume",
+        "Kierkegaard",
+        "Avicenna",
+        "Spinoza",
+        "Popper",
+        "Jorge Luis Borges",
         "Averroes",
-        "Mill",
-        "Goethe",
         "Hobbes",
-        "Abelard and Heloise",
+        "Marx",
+        "Sartre",
         "Wittgenstein",
+        "Tolstoy",
+        "The Buddha"
+    ],
+    "Writers about activism and social change": [
+        "John Donne",
+        "Kant's Copernican Revolution",
+        "Rousseau on Education",
+        "Nietzsche's Genealogy of Morality",
+        "Thomas Paine's Common Sense",
+        "Weber's The Protestant Ethic",
+        "Lévi-Strauss",
+        "Bertrand Russell",
+        "Benjamin Franklin",
+        "David Hume",
+        "Popper",
+        "Goethe",
+        "Marx",
+        "Tolstoy",
+        "Milton",
+        "Dickens",
         "Goethe and the Science of the Enlightenment"
     ],
+    "Philosophers of history": [
+        "Iris Murdoch",
+        "Hannah Arendt",
+        "Thomas Paine's Common Sense",
+        "Bertrand Russell",
+        "Benjamin Franklin",
+        "David Hume",
+        "Edmund Burke",
+        "William James's The Varieties of Religious Experience",
+        "Ibn Khaldun",
+        "Thoreau and the American Idyll",
+        "Spinoza",
+        "Popper",
+        "Averroes",
+        "Mill",
+        "Hobbes",
+        "Marx",
+        "Tolstoy"
+    ],
     "English male poets": [
+        "Sir Thomas Wyatt",
         "John Donne",
         "Wilfred Owen",
         "Auden",
@@ -513,30 +266,86 @@
         "Shakespeare's Work",
         "Shakespeare and Literary Criticism"
     ],
-    "Critics of religions": [
-        "Edward Gibbon",
-        "Nietzsche's Genealogy of Morality",
-        "Thomas Paine's Common Sense",
-        "Bertrand Russell",
+    "Philosophers of religion": [
+        "Condorcet",
+        "John Donne",
+        "Lévi-Strauss",
+        "Simone Weil",
+        "Al-Kindi",
+        "Heraclitus",
         "David Hume",
-        "Schopenhauer",
-        "Socrates",
+        "Edmund Burke",
+        "Kierkegaard",
+        "Avicenna",
+        "Spinoza",
+        "Popper",
+        "Averroes",
+        "Hobbes",
+        "Marx",
+        "Tolstoy"
+    ],
+    "Metaphysicians": [
+        "Hegel's Philosophy of History",
+        "Bergson and Time",
+        "Roger Bacon",
+        "Nietzsche's Genealogy of Morality",
+        "Al-Ghazali",
+        "Lévi-Strauss",
+        "Al-Kindi",
+        "St Thomas Aquinas",
+        "Kierkegaard",
         "Spinoza",
         "Popper",
         "Hobbes",
         "Marx",
         "Sartre",
-        "Proust",
-        "Dickens",
-        "Lenin"
+        "Wittgenstein",
+        "Tolstoy"
+    ],
+    "Philosophers of education": [
+        "Jan Amos Komenský",
+        "Plato's Gorgias",
+        "Rousseau on Education",
+        "Sun Tzu and The Art of War",
+        "Hannah Arendt",
+        "Al-Kindi",
+        "David Hume",
+        "Edmund Burke",
+        "Mary Wollstonecraft",
+        "Socrates",
+        "Spinoza",
+        "Popper",
+        "Hobbes",
+        "Marx",
+        "Tolstoy",
+        "Confucius"
+    ],
+    "Philosophers of culture": [
+        "Iris Murdoch",
+        "Rousseau on Education",
+        "Sun Tzu and The Art of War",
+        "Hannah Arendt",
+        "Edmund Burke",
+        "Kierkegaard",
+        "Spinoza",
+        "Popper",
+        "Jorge Luis Borges",
+        "Averroes",
+        "Mill",
+        "Hobbes",
+        "Marx",
+        "Wittgenstein",
+        "Tolstoy",
+        "Confucius"
     ],
     "Novels adapted into operas": [
+        "Fielding's Tom Jones",
         "Death in Venice",
         "Nineteen Eighty-Four",
         "A Christmas Carol",
         "The Tenant of Wildfell Hall",
         "Journey to the West",
-        "Great Gatsby",
+        "The Great Gatsby",
         "Moby Dick",
         "Wuthering Heights",
         "Eugene Onegin",
@@ -545,6 +354,71 @@
         "Voltaire's Candide",
         "Madame Bovary",
         "Don Quixote"
+    ],
+    "Philosophers of science": [
+        "Albert Einstein",
+        "Rousseau on Education",
+        "Roger Bacon",
+        "Hannah Arendt",
+        "Robert Boyle",
+        "Bishop Berkeley",
+        "Al-Kindi",
+        "Benjamin Franklin",
+        "David Hume",
+        "Avicenna",
+        "Spinoza",
+        "Averroes",
+        "Mill",
+        "Hobbes",
+        "Marx"
+    ],
+    "Members of the American Philosophical Society": [
+        "Nikola Tesla",
+        "Albert Einstein",
+        "Linnaeus",
+        "Paul Dirac",
+        "President Ulysses S Grant",
+        "Louis Pasteur",
+        "Thomas Paine's Common Sense",
+        "Lévi-Strauss",
+        "Benjamin Franklin",
+        "Thomas Edison",
+        "Darwin: On the Origins of Charles Darwin",
+        "Humboldt",
+        "Washington and the American Revolution",
+        "Rutherford"
+    ],
+    "Enlightenment philosophers": [
+        "Condorcet",
+        "Hegel's Philosophy of History",
+        "Kant's Copernican Revolution",
+        "Rousseau on Education",
+        "Montesquieu",
+        "Thomas Paine's Common Sense",
+        "Bishop Berkeley",
+        "Moses Mendelssohn",
+        "David Hume",
+        "Mary Wollstonecraft",
+        "Spinoza",
+        "Goethe",
+        "Milton",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "British novels adapted into television shows": [
+        "Persuasion",
+        "Nineteen Eighty-Four",
+        "A Christmas Carol",
+        "The Tenant of Wildfell Hall",
+        "Frankenstein",
+        "Middlemarch",
+        "Wuthering Heights",
+        "North and South",
+        "Animal Farm",
+        "Tess of the d'Urbervilles",
+        "Emma",
+        "Jane Eyre",
+        "Robinson Crusoe",
+        "Heart of Darkness"
     ],
     "Concepts in astronomy": [
         "The Death of Stars",
@@ -562,52 +436,25 @@
         "Black Holes",
         "The Universe's Origins"
     ],
-    "British novels adapted into television shows": [
+    "British novels adapted into plays": [
+        "Fielding's Tom Jones",
+        "Alice's Adventures in Wonderland",
         "Persuasion",
         "Nineteen Eighty-Four",
         "A Christmas Carol",
         "The Tenant of Wildfell Hall",
         "Frankenstein",
-        "Middlemarch",
-        "Wuthering Heights",
         "Animal Farm",
         "Tess of the d'Urbervilles",
         "Emma",
         "Jane Eyre",
         "Robinson Crusoe",
-        "Heart of Darkness"
-    ],
-    "Members of the American Philosophical Society": [
-        "Linnaeus",
-        "Paul Dirac",
-        "President Ulysses S Grant",
-        "Louis Pasteur",
-        "Thomas Paine's Common Sense",
-        "Lévi-Strauss",
-        "Benjamin Franklin",
-        "Thomas Edison",
-        "Darwin: On the Origins of Charles Darwin",
-        "Humboldt",
-        "Washington and the American Revolution",
-        "Rutherford"
-    ],
-    "Critics of the Catholic Church": [
-        "John Donne",
-        "Nietzsche's Genealogy of Morality",
-        "Garibaldi and the Risorgimento",
-        "Bertrand Russell",
-        "Erasmus",
-        "David Hume",
-        "Wyclif and the Lollards",
-        "Spinoza",
-        "Hobbes",
-        "Proust",
-        "Milton",
-        "Dickens"
+        "Silas Marner"
     ],
     "Sonneteers": [
+        "Sir Thomas Wyatt",
         "John Donne",
-        "Federico Garcia Lorca",
+        "Lorca",
         "Gerard Manley Hopkins",
         "John Clare",
         "Christina Rossetti",
@@ -619,19 +466,62 @@
         "Shakespeare's Work",
         "Shakespeare and Literary Criticism"
     ],
-    "Enlightenment philosophers": [
-        "Hegel's Philosophy of History",
+    "Epistemologists": [
+        "Al-Ghazali",
+        "Bishop Berkeley",
+        "Al-Kindi",
+        "David Hume",
+        "Kierkegaard",
+        "Avicenna",
+        "Spinoza",
+        "Popper",
+        "Averroes",
+        "Hobbes",
+        "Marx",
+        "Wittgenstein",
+        "Tolstoy"
+    ],
+    "Solar System": [
+        "Mercury",
+        "Jupiter",
+        "Venus",
+        "The Kuiper belt",
+        "Saturn",
+        "The Sun",
+        "Comets",
+        "The Moon",
+        "Mars",
+        "Astronomy and Empire",
+        "Asteroids",
+        "The Planets"
+    ],
+    "Critics of the Catholic Church": [
+        "Julian the Apostate",
+        "John Donne",
+        "Nietzsche's Genealogy of Morality",
+        "Garibaldi and the Risorgimento",
+        "Bertrand Russell",
+        "Erasmus",
+        "David Hume",
+        "Wyclif and the Lollards",
+        "Spinoza",
+        "Hobbes",
+        "Milton",
+        "Dickens"
+    ],
+    "Age of Enlightenment": [
+        "Condorcet",
         "Kant's Copernican Revolution",
         "Rousseau on Education",
-        "Montesquieu",
-        "Thomas Paine's Common Sense",
-        "Bishop Berkeley",
-        "Moses Mendelssohn",
-        "David Hume",
-        "Mary Wollstonecraft",
+        "Ludwig van Beethoven",
+        "Robert Hooke",
+        "Frederick the Great",
+        "Benjamin Franklin",
+        "Women and Enlightenment Science",
         "Spinoza",
-        "Goethe",
-        "Goethe and the Science of the Enlightenment"
+        "The Encyclopédie",
+        "The Enlightenment in Scotland",
+        "The Enlightenment in Britain"
     ],
     "Writers about religion and science": [
         "Hegel's Philosophy of History",
@@ -703,31 +593,70 @@
         "Oscar Wilde",
         "Confucius"
     ],
-    "Solar System": [
-        "Jupiter",
-        "Venus",
-        "The Kuiper belt",
-        "Saturn",
-        "The Sun",
-        "Comets",
-        "The Moon",
-        "Mars",
-        "Astronomy and Empire",
-        "Asteroids",
-        "The Planets"
+    "Atheist philosophers": [
+        "Philippa Foot",
+        "Condorcet",
+        "Iris Murdoch",
+        "Simone de Beauvoir",
+        "Lévi-Strauss",
+        "Bertrand Russell",
+        "Schopenhauer",
+        "Camus",
+        "Marx",
+        "Sartre",
+        "Lenin"
     ],
-    "British novels adapted into plays": [
-        "Persuasion",
+    "Censored books": [
+        "Lysistrata",
         "Nineteen Eighty-Four",
-        "A Christmas Carol",
-        "The Tenant of Wildfell Hall",
         "Frankenstein",
         "Animal Farm",
         "Tess of the d'Urbervilles",
-        "Emma",
-        "Jane Eyre",
-        "Robinson Crusoe",
-        "Silas Marner"
+        "The Talmud",
+        "James Joyce's Ulysses",
+        "Voltaire's Candide",
+        "Madame Bovary",
+        "The Encyclopédie",
+        "Uncle Tom's Cabin"
+    ],
+    "Novels first published in serial form": [
+        "Germinal",
+        "Crime and Punishment",
+        "The Time Machine",
+        "Middlemarch",
+        "Eugene Onegin",
+        "North and South",
+        "Tess of the d'Urbervilles",
+        "James Joyce's Ulysses",
+        "Madame Bovary",
+        "Heart of Darkness",
+        "Uncle Tom's Cabin"
+    ],
+    "German male non-fiction writers": [
+        "Albert Einstein",
+        "Hegel's Philosophy of History",
+        "Walter Benjamin",
+        "Kant's Copernican Revolution",
+        "Nietzsche's Genealogy of Morality",
+        "Clausewitz and On War",
+        "Moses Mendelssohn",
+        "Schopenhauer",
+        "Goethe",
+        "Marx",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "English male non-fiction writers": [
+        "John Donne",
+        "Polidori's The Vampyre",
+        "Edward Gibbon",
+        "Booth's Life and Labour Survey",
+        "Auden",
+        "Sir Thomas Browne",
+        "Bertrand Russell",
+        "Wilberforce",
+        "Pope",
+        "Mill",
+        "Dickens"
     ],
     "Philosophers of law": [
         "Hegel's Philosophy of History",
@@ -755,67 +684,17 @@
         "Rutherford",
         "Dickens"
     ],
-    "Age of Enlightenment": [
-        "Kant's Copernican Revolution",
-        "Rousseau on Education",
-        "Ludwig van Beethoven",
-        "Robert Hooke",
-        "Frederick the Great",
-        "Benjamin Franklin",
-        "Women and Enlightenment Science",
-        "Spinoza",
-        "The Encyclopédie",
-        "The Scottish Enlightenment",
-        "The Enlightenment in Britain"
-    ],
-    "Romanticism": [
-        "Rousseau on Education",
-        "Frankenstein",
-        "Germaine de Staël",
-        "1848: Year of Revolution",
-        "Sturm und Drang",
-        "The Brothers Grimm",
-        "The Later Romantics",
-        "The Sublime",
-        "Bohemianism",
-        "Wagner",
-        "The Romantics"
-    ],
-    "English male non-fiction writers": [
-        "John Donne",
-        "Polidori's The Vampyre",
-        "Edward Gibbon",
-        "Booth's Life and Labour Survey",
-        "Auden",
-        "Sir Thomas Browne",
-        "Bertrand Russell",
-        "Pope",
-        "Mill",
-        "Dickens"
-    ],
-    "German male non-fiction writers": [
-        "Hegel's Philosophy of History",
-        "Walter Benjamin",
-        "Kant's Copernican Revolution",
-        "Nietzsche's Genealogy of Morality",
-        "Clausewitz and On War",
-        "Moses Mendelssohn",
-        "Schopenhauer",
-        "Goethe",
-        "Marx",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Philosophers of logic": [
-        "Kant's Copernican Revolution",
-        "Bertrand Russell",
-        "Al-Kindi",
-        "David Hume",
-        "Schopenhauer",
-        "Avicenna",
-        "Popper",
-        "Averroes",
-        "Mill",
-        "Wittgenstein"
+    "Last stands": [
+        "The Sack of Rome 1527",
+        "The Shimabara Rebellion",
+        "The Siege of Tenochtitlan",
+        "The Battle of Stamford Bridge",
+        "Custer's Last Stand",
+        "The Battle of Bannockburn",
+        "Carthage's Destruction",
+        "Constantinople Siege and Fall",
+        "Agincourt",
+        "Thermopylae"
     ],
     "Philosophers of social science": [
         "Kant's Copernican Revolution",
@@ -830,7 +709,7 @@
         "Goethe and the Science of the Enlightenment"
     ],
     "Novels adapted into comics": [
-        "Great Gatsby",
+        "The Great Gatsby",
         "Frankenstein",
         "Moby Dick",
         "Animal Farm",
@@ -841,23 +720,78 @@
         "Uncle Tom's Cabin",
         "Don Quixote"
     ],
-    "Christian humanists": [
-        "John Wesley and Methodism",
-        "Dietrich Bonhoeffer",
-        "Pascal",
-        "Montaigne",
-        "Simone Weil",
-        "Erasmus",
-        "Wyclif and the Lollards",
-        "Kierkegaard",
-        "Wilberforce",
-        "Milton"
+    "Main topic articles": [
+        "Nature",
+        "Mathematics and Platonism",
+        "History and Understanding the Past",
+        "Time",
+        "Education",
+        "Maths and Storytelling",
+        "Mathematics",
+        "Language and the Mind",
+        "Science in the 20th century",
+        "Politics in the 20th Century"
+    ],
+    "Victorian novels": [
+        "Alice's Adventures in Wonderland",
+        "A Christmas Carol",
+        "The Tenant of Wildfell Hall",
+        "Middlemarch",
+        "Wuthering Heights",
+        "Tess of the d'Urbervilles",
+        "Jane Eyre",
+        "Silas Marner",
+        "Heart of Darkness"
+    ],
+    "Members of the Royal Swedish Academy of Sciences": [
+        "Condorcet",
+        "Linnaeus",
+        "William and Caroline Herschel",
+        "Pierre-Simon Laplace",
+        "Carl Friedrich Gauss",
+        "Michael Faraday",
+        "Thomas Edison",
+        "Darwin: On the Origins of Charles Darwin",
+        "Humboldt"
+    ],
+    "18th-century philosophers": [
+        "Condorcet",
+        "Olympe de Gouges",
+        "Kant's Copernican Revolution",
+        "Emilie du Châtelet",
+        "Rousseau on Education",
+        "Germaine de Staël",
+        "Thomas Paine's Common Sense",
+        "Moses Mendelssohn",
+        "Edmund Burke"
+    ],
+    "Pantheists": [
+        "Albert Einstein",
+        "Walt Whitman",
+        "Hegel's Philosophy of History",
+        "Thomas Hardy's Poetry",
+        "Thoreau and the American Idyll",
+        "Spinoza",
+        "Goethe",
+        "Jung",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "Philosophers of mathematics": [
+        "Albert Einstein",
+        "Bertrand Russell",
+        "Al-Kindi",
+        "David Hume",
+        "Avicenna",
+        "Popper",
+        "Jorge Luis Borges",
+        "Hobbes",
+        "Wittgenstein"
     ],
     "Novels adapted into ballets": [
         "Death in Venice",
         "Nineteen Eighty-Four",
         "A Christmas Carol",
-        "Great Gatsby",
+        "The Great Gatsby",
         "Frankenstein",
         "Wuthering Heights",
         "Eugene Onegin",
@@ -875,17 +809,6 @@
         "The Needham Question",
         "Rutherford"
     ],
-    "Censored books": [
-        "Nineteen Eighty-Four",
-        "Frankenstein",
-        "Animal Farm",
-        "Tess of the d'Urbervilles",
-        "James Joyce's Ulysses",
-        "Voltaire's Candide",
-        "Madame Bovary",
-        "The Encyclopédie",
-        "Uncle Tom's Cabin"
-    ],
     "19th-century German male writers": [
         "Hegel's Philosophy of History",
         "Kant's Copernican Revolution",
@@ -895,6 +818,17 @@
         "Schopenhauer",
         "The Brothers Grimm",
         "Goethe",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "19th-century German philosophers": [
+        "Hegel's Philosophy of History",
+        "Kant's Copernican Revolution",
+        "Rosa Luxemburg",
+        "Nietzsche's Genealogy of Morality",
+        "Weber's The Protestant Ethic",
+        "Schopenhauer",
+        "Goethe",
+        "Marx",
         "Goethe and the Science of the Enlightenment"
     ],
     "20th-century atheists": [
@@ -919,17 +853,6 @@
         "Popper",
         "Wittgenstein"
     ],
-    "Atheist philosophers": [
-        "Iris Murdoch",
-        "Simone de Beauvoir",
-        "Lévi-Strauss",
-        "Bertrand Russell",
-        "Schopenhauer",
-        "Camus",
-        "Marx",
-        "Sartre",
-        "Lenin"
-    ],
     "Metaphilosophers": [
         "Kant's Copernican Revolution",
         "Nietzsche's Genealogy of Morality",
@@ -941,16 +864,16 @@
         "Spinoza",
         "Wittgenstein"
     ],
-    "English people of Scottish descent": [
-        "Alan Turing",
-        "Elizabeth Gaskell's novel North and South",
-        "Voyages of James Cook",
-        "Rudyard Kipling",
-        "Alfred Russel Wallace",
-        "Bertrand Russell",
-        "Ada Lovelace",
-        "Mill",
-        "John Ruskin"
+    "Christian humanists": [
+        "John Wesley and Methodism",
+        "Dietrich Bonhoeffer",
+        "Pascal",
+        "Montaigne",
+        "Simone Weil",
+        "Erasmus",
+        "Wyclif and the Lollards",
+        "Kierkegaard",
+        "Milton"
     ],
     "Writers from Paris": [
         "George Sand",
@@ -962,17 +885,6 @@
         "Simone Weil",
         "Sartre",
         "Proust"
-    ],
-    "Novels first published in serial form": [
-        "Crime and Punishment",
-        "The Time Machine",
-        "Middlemarch",
-        "Eugene Onegin",
-        "Tess of the d'Urbervilles",
-        "James Joyce's Ulysses",
-        "Madame Bovary",
-        "Heart of Darkness",
-        "Uncle Tom's Cabin"
     ],
     "Philosophers of economics": [
         "Rousseau on Education",
@@ -996,16 +908,105 @@
         "Sartre",
         "Yeats and Mysticism"
     ],
-    "Philosophical schools and traditions": [
-        "Phenomenology",
-        "Scepticism",
+    "French atheists": [
+        "Monet in England",
+        "Condorcet",
+        "Simone de Beauvoir",
+        "The Curies",
+        "Lévi-Strauss",
+        "Camus",
+        "Sartre",
+        "Proust"
+    ],
+    "University of Paris alumni": [
+        "Marsilius of Padua",
+        "Condorcet",
+        "Tocqueville: Democracy in America",
+        "Simone de Beauvoir",
+        "The Curies",
+        "Lévi-Strauss",
+        "Erasmus",
+        "St Thomas Aquinas"
+    ],
+    "Aristotelian philosophers": [
+        "Philippa Foot",
+        "Bertrand Russell",
+        "Al-Kindi",
+        "Maimonides",
+        "St Thomas Aquinas",
+        "Avicenna",
+        "Popper",
+        "Averroes"
+    ],
+    "Philosophers of love": [
+        "Philippa Foot",
+        "Plato's Gorgias",
+        "Bertrand Russell",
+        "Schopenhauer",
+        "Thoreau and the American Idyll",
+        "Kierkegaard",
+        "Socrates",
+        "The Buddha"
+    ],
+    "Honorary members of the Saint Petersburg Academy of Sciences": [
+        "Condorcet",
+        "William and Caroline Herschel",
+        "Carl Friedrich Gauss",
+        "Louis Pasteur",
+        "Michael Faraday",
+        "Benjamin Franklin",
+        "Humboldt",
+        "Tolstoy"
+    ],
+    "English Renaissance plays": [
+        "Twelfth Night, or What You Will",
+        "Romeo and Juliet",
+        "Macbeth",
+        "A Midsummer Night's Dream",
+        "Hamlet",
+        "The Tempest",
+        "Elizabethan Revenge",
+        "Lear"
+    ],
+    "Hall of Fame for Great Americans inductees": [
+        "Edgar Allan Poe",
+        "Walt Whitman",
+        "President Ulysses S Grant",
+        "Thomas Paine's Common Sense",
+        "Benjamin Franklin",
+        "Thomas Edison",
+        "Thoreau and the American Idyll",
+        "Washington and the American Revolution"
+    ],
+    "French Roman Catholics": [
+        "Marguerite de Navarre",
+        "Louis XIV: The Sun King",
+        "Marie Antoinette",
+        "Montesquieu",
+        "Tocqueville: Democracy in America",
+        "Germaine de Staël",
+        "Louis Pasteur",
+        "Napoleon and Wellington"
+    ],
+    "Members of the Royal Netherlands Academy of Arts and Sciences": [
+        "Albert Einstein",
+        "Paul Erdős",
+        "Pierre-Simon Laplace",
+        "Carl Friedrich Gauss",
+        "Louis Pasteur",
+        "Michael Faraday",
+        "Lévi-Strauss",
+        "Darwin: On the Origins of Charles Darwin"
+    ],
+    "Philosophy of science": [
+        "Albert Einstein",
+        "The Scientific method",
         "Logical Positivism",
         "Pragmatism",
-        "The Scottish Enlightenment",
-        "Existentialism",
-        "Humanism",
-        "The Enlightenment in Britain",
-        "Progress"
+        "Empiricism",
+        "Science and Religion",
+        "Laws of Nature",
+        "Genetic Determinism"
     ],
     "Plays adapted into operas": [
         "Oedipus Rex",
@@ -1017,38 +1018,8 @@
         "The Tempest",
         "Lear"
     ],
-    "Last stands": [
-        "The Shimabara Rebellion",
-        "The Siege of Tenochtitlan",
-        "The Battle of Stamford Bridge",
-        "Custer's Last Stand",
-        "The Battle of Bannockburn",
-        "Carthage's Destruction",
-        "Constantinople Siege and Fall",
-        "Thermopylae"
-    ],
-    "Pantheists": [
-        "Walt Whitman",
-        "Hegel's Philosophy of History",
-        "Thomas Hardy's Poetry",
-        "Thoreau and the American Idyll",
-        "Spinoza",
-        "Goethe",
-        "Jung",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Members of the Royal Swedish Academy of Sciences": [
-        "Linnaeus",
-        "William and Caroline Herschel",
-        "Pierre-Simon Laplace",
-        "Carl Friedrich Gauss",
-        "Michael Faraday",
-        "Thomas Edison",
-        "Darwin: On the Origins of Charles Darwin",
-        "Humboldt"
-    ],
     "Social theories": [
-        "Rawls's Theory of Justice",
+        "Rawls' Theory of Justice",
         "Social Darwinism",
         "The Social Contract",
         "Anarchism",
@@ -1057,25 +1028,15 @@
         "Multiculturalism",
         "Feminism"
     ],
-    "19th-century essayists": [
-        "Hegel's Philosophy of History",
-        "Peter Kropotkin",
-        "Kant's Copernican Revolution",
-        "Schopenhauer",
-        "Kierkegaard",
-        "Goethe",
-        "Tolstoy",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "19th-century German philosophers": [
-        "Hegel's Philosophy of History",
-        "Kant's Copernican Revolution",
-        "Nietzsche's Genealogy of Morality",
-        "Weber's The Protestant Ethic",
-        "Schopenhauer",
-        "Goethe",
-        "Marx",
-        "Goethe and the Science of the Enlightenment"
+    "17th-century English male writers": [
+        "John Donne",
+        "Robert Boyle",
+        "George Fox and the Quakers",
+        "Hobbes",
+        "Milton",
+        "Shakespeare's Life",
+        "Shakespeare's Work",
+        "Shakespeare and Literary Criticism"
     ],
     "German Lutherans": [
         "Hegel's Philosophy of History",
@@ -1087,35 +1048,45 @@
         "Bismarck",
         "Humboldt"
     ],
-    "18th-century philosophers": [
-        "Olympe de Gouges",
-        "Kant's Copernican Revolution",
-        "Emilie du Châtelet",
-        "Rousseau on Education",
-        "Germaine de Staël",
-        "Thomas Paine's Common Sense",
-        "Moses Mendelssohn",
-        "Edmund Burke"
-    ],
-    "Philosophers of technology": [
+    "German male essayists": [
+        "Hegel's Philosophy of History",
         "Walter Benjamin",
-        "Hannah Arendt",
-        "Bertrand Russell",
-        "Simone Weil",
-        "Benjamin Franklin",
-        "Aldous Huxley's Brave New World",
-        "Popper",
-        "Marx"
+        "Kant's Copernican Revolution",
+        "Nietzsche's Genealogy of Morality",
+        "Schopenhauer",
+        "Goethe",
+        "Wagner",
+        "Goethe and the Science of the Enlightenment"
     ],
-    "Victorian novels": [
-        "A Christmas Carol",
-        "The Tenant of Wildfell Hall",
-        "Middlemarch",
-        "Wuthering Heights",
-        "Tess of the d'Urbervilles",
-        "Jane Eyre",
-        "Silas Marner",
-        "Heart of Darkness"
+    "German political philosophers": [
+        "Hegel's Philosophy of History",
+        "Kant's Copernican Revolution",
+        "Hannah Arendt",
+        "Weber's The Protestant Ethic",
+        "Schopenhauer",
+        "Goethe",
+        "Marx",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "German philosophers of history": [
+        "Hegel's Philosophy of History",
+        "Walter Benjamin",
+        "Kant's Copernican Revolution",
+        "Nietzsche's Genealogy of Morality",
+        "Weber's The Protestant Ethic",
+        "Schopenhauer",
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "Former empires": [
+        "Tang Era Poetry",
+        "The Hittites",
+        "The Sassanid Empire",
+        "Babylon",
+        "Rome and European Civilization",
+        "The British Empire",
+        "Byzantium",
+        "The British Empire's Legacy"
     ],
     "Logicians": [
         "Plato's Gorgias",
@@ -1126,6 +1097,16 @@
         "Popper",
         "Averroes",
         "Mill"
+    ],
+    "Natural law ethicists": [
+        "Plato's Gorgias",
+        "Kant's Copernican Revolution",
+        "Tocqueville: Democracy in America",
+        "Cicero",
+        "Erasmus",
+        "Edmund Burke",
+        "St Thomas Aquinas",
+        "Hobbes"
     ],
     "Natural philosophers": [
         "Plato's Gorgias",
@@ -1147,6 +1128,16 @@
         "Wittgenstein",
         "Dickens"
     ],
+    "Philosophers of logic": [
+        "Kant's Copernican Revolution",
+        "Al-Kindi",
+        "David Hume",
+        "Schopenhauer",
+        "Avicenna",
+        "Popper",
+        "Averroes",
+        "Wittgenstein"
+    ],
     "Philosophers of sexuality": [
         "Kant's Copernican Revolution",
         "Nietzsche's Genealogy of Morality",
@@ -1156,6 +1147,16 @@
         "Goethe",
         "Sartre",
         "Goethe and the Science of the Enlightenment"
+    ],
+    "English people of Scottish descent": [
+        "Alan Turing",
+        "Voyages of James Cook",
+        "Rudyard Kipling",
+        "Alfred Russel Wallace",
+        "Bertrand Russell",
+        "Ada Lovelace",
+        "Mill",
+        "John Ruskin"
     ],
     "Concepts in aesthetics": [
         "Authenticity",
@@ -1197,25 +1198,25 @@
         "Johnson",
         "Dickens"
     ],
+    "Philosophical schools and traditions": [
+        "Phenomenology",
+        "Scepticism",
+        "Logical Positivism",
+        "Pragmatism",
+        "The Enlightenment in Scotland",
+        "Existentialism",
+        "The Enlightenment in Britain",
+        "Progress"
+    ],
     "Concepts in epistemology": [
         "Truth",
         "Cogito Ergo Sum",
         "Common Sense Philosophy",
         "Ockham's Razor",
+        "The Age of Doubt",
         "Time",
         "Consciousness",
-        "Progress",
-        "The Brain and Consciousness"
-    ],
-    "Philosophers of mathematics": [
-        "Bertrand Russell",
-        "Al-Kindi",
-        "David Hume",
-        "Avicenna",
-        "Popper",
-        "Jorge Luis Borges",
-        "Hobbes",
-        "Wittgenstein"
+        "Progress"
     ],
     "Concepts in ethics": [
         "Free Will(500th programme)",
@@ -1227,15 +1228,50 @@
         "Evil",
         "Good and Evil"
     ],
-    "Main topic articles": [
-        "Nature",
-        "Mathematics and Platonism",
-        "History and Understanding the Past",
-        "Time",
-        "Education",
-        "Maths and Storytelling",
-        "Mathematics",
-        "Language and the Mind"
+    "Astronomical objects known since antiquity": [
+        "Mercury",
+        "Jupiter",
+        "Venus",
+        "Saturn",
+        "The Sun",
+        "The Moon",
+        "Mars"
+    ],
+    "Modernist theatre": [
+        "Bertolt Brecht",
+        "Auden",
+        "Lorca",
+        "Henrik Ibsen",
+        "Chekhov",
+        "Yeats and Irish Politics",
+        "Yeats and Mysticism"
+    ],
+    "Members of the French Academy of Sciences": [
+        "Condorcet",
+        "Linnaeus",
+        "Pierre-Simon Laplace",
+        "Louis Pasteur",
+        "Michael Faraday",
+        "Humboldt",
+        "Lamarck and Natural Selection"
+    ],
+    "British plays adapted into films": [
+        "Twelfth Night, or What You Will",
+        "Romeo and Juliet",
+        "Macbeth",
+        "A Midsummer Night's Dream",
+        "Hamlet",
+        "The Tempest",
+        "Lear"
+    ],
+    "American male non-fiction writers": [
+        "Edgar Allan Poe",
+        "Albert Einstein",
+        "Auden",
+        "Thomas Paine's Common Sense",
+        "Benjamin Franklin",
+        "Thoreau and the American Idyll",
+        "Washington and the American Revolution"
     ],
     "Catholic philosophers": [
         "Elizabeth Anscombe",
@@ -1255,33 +1291,6 @@
         "Jane Eyre",
         "Lear"
     ],
-    "French Roman Catholics": [
-        "Louis XIV: The Sun King",
-        "Marie Antoinette",
-        "Montesquieu",
-        "Tocqueville: Democracy in America",
-        "Germaine de Staël",
-        "Louis Pasteur",
-        "Napoleon and Wellington"
-    ],
-    "Hall of Fame for Great Americans inductees": [
-        "Walt Whitman",
-        "President Ulysses S Grant",
-        "Thomas Paine's Common Sense",
-        "Benjamin Franklin",
-        "Thomas Edison",
-        "Thoreau and the American Idyll",
-        "Washington and the American Revolution"
-    ],
-    "Members of the Royal Netherlands Academy of Arts and Sciences": [
-        "Paul Erdős",
-        "Pierre-Simon Laplace",
-        "Carl Friedrich Gauss",
-        "Louis Pasteur",
-        "Michael Faraday",
-        "Lévi-Strauss",
-        "Darwin: On the Origins of Charles Darwin"
-    ],
     "Literacy and society theorists": [
         "John Donne",
         "Lévi-Strauss",
@@ -1290,24 +1299,6 @@
         "Milton",
         "Dickens",
         "Goethe and the Science of the Enlightenment"
-    ],
-    "Literary theorists": [
-        "John Donne",
-        "Auden",
-        "Joyce's A Portrait of the Artist as a Young Man",
-        "Jorge Luis Borges",
-        "Goethe",
-        "Milton",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Writers from London": [
-        "John Donne",
-        "Polidori's The Vampyre",
-        "Fanny Burney",
-        "Chaucer",
-        "Johnson",
-        "Milton",
-        "Dickens"
     ],
     "Works of unknown authorship": [
         "The Nibelungenlied",
@@ -1320,21 +1311,30 @@
     ],
     "Novels adapted into radio programs": [
         "Nineteen Eighty-Four",
-        "Great Gatsby",
+        "The Great Gatsby",
         "Frankenstein",
         "Moby Dick",
         "Animal Farm",
         "Tristram Shandy",
         "Robinson Crusoe"
     ],
-    "18th-century essayists": [
+    "German philosophers of art": [
         "Hegel's Philosophy of History",
+        "Walter Benjamin",
         "Kant's Copernican Revolution",
-        "David Hume",
-        "Mary Wollstonecraft",
-        "Pope",
+        "Nietzsche's Genealogy of Morality",
+        "Schopenhauer",
         "Goethe",
         "Goethe and the Science of the Enlightenment"
+    ],
+    "French political philosophers": [
+        "Olympe de Gouges",
+        "Rousseau on Education",
+        "Montesquieu",
+        "Tocqueville: Democracy in America",
+        "Simone de Beauvoir",
+        "Simone Weil",
+        "Sartre"
     ],
     "19th-century atheists": [
         "Peter Kropotkin",
@@ -1345,59 +1345,23 @@
         "Proust",
         "Lenin"
     ],
-    "19th-century philosophers": [
-        "Peter Kropotkin",
-        "Bergson and Time",
-        "Germaine de Staël",
-        "Rosa Luxemburg",
-        "Nietzsche's Genealogy of Morality",
-        "Thomas Paine's Common Sense",
-        "Schopenhauer"
-    ],
-    "20th-century essayists": [
-        "Peter Kropotkin",
+    "German philosophers of culture": [
         "Walter Benjamin",
-        "Fernando Pessoa",
-        "Samuel Beckett",
-        "Lévi-Strauss",
-        "Jorge Luis Borges",
-        "Tolstoy"
-    ],
-    "English Renaissance plays": [
-        "Romeo and Juliet",
-        "Macbeth",
-        "A Midsummer Night's Dream",
-        "Hamlet",
-        "The Tempest",
-        "Elizabethan Revenge",
-        "Lear"
-    ],
-    "Victorian novelists": [
-        "Thomas Hardy's Poetry",
-        "William Morris",
-        "Elizabeth Gaskell's novel North and South",
-        "Harriet Martineau",
-        "Rudyard Kipling",
-        "Oscar Wilde",
-        "Dickens"
-    ],
-    "Philosophers of love": [
-        "Plato's Gorgias",
-        "Bertrand Russell",
+        "Kant's Copernican Revolution",
+        "Nietzsche's Genealogy of Morality",
+        "Weber's The Protestant Ethic",
         "Schopenhauer",
-        "Thoreau and the American Idyll",
-        "Kierkegaard",
-        "Socrates",
-        "The Buddha"
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
     ],
-    "Honorary members of the Saint Petersburg Academy of Sciences": [
-        "William and Caroline Herschel",
-        "Carl Friedrich Gauss",
-        "Louis Pasteur",
-        "Michael Faraday",
-        "Benjamin Franklin",
-        "Humboldt",
-        "Tolstoy"
+    "Political philosophers": [
+        "Marcus Aurelius",
+        "Hannah Arendt",
+        "Edmund Burke",
+        "Popper",
+        "Averroes",
+        "Tolstoy",
+        "Lenin"
     ],
     "Christian radicals": [
         "John Wesley and Methodism",
@@ -1426,6 +1390,24 @@
         "Evolutionary Psychology",
         "Evolution"
     ],
+    "Liberal theorists": [
+        "Rousseau on Education",
+        "Thomas Paine's Common Sense",
+        "Moses Mendelssohn",
+        "Mary Wollstonecraft",
+        "Spinoza",
+        "Jorge Luis Borges",
+        "Machiavelli and the Italian City States"
+    ],
+    "Philosophers of art": [
+        "Rousseau on Education",
+        "Al-Kindi",
+        "David Hume",
+        "Edmund Burke",
+        "Kierkegaard",
+        "Jorge Luis Borges",
+        "Wittgenstein"
+    ],
     "20th-century French philosophers": [
         "Bergson and Time",
         "Simone de Beauvoir",
@@ -1435,6 +1417,15 @@
         "Sartre",
         "Proust"
     ],
+    "Philosophers of language": [
+        "Bergson and Time",
+        "Roger Bacon",
+        "Lévi-Strauss",
+        "Averroes",
+        "Hobbes",
+        "Abelard and Heloise",
+        "Wittgenstein"
+    ],
     "People of the Elizabethan era": [
         "William Cecil",
         "Mary, Queen of Scots",
@@ -1443,6 +1434,15 @@
         "Shakespeare's Life",
         "Shakespeare's Work",
         "Shakespeare and Literary Criticism"
+    ],
+    "Emotions": [
+        "Hope",
+        "The Philosophy of Solitude",
+        "Guilt",
+        "Victorian Pessimism",
+        "Hysteria",
+        "Happiness",
+        "The Age of Doubt"
     ],
     "Empiricists": [
         "Roger Bacon",
@@ -1471,23 +1471,14 @@
         "Avicenna",
         "Averroes"
     ],
-    "Physical cosmology": [
-        "Dark matter",
-        "The Age of the Universe",
-        "The Multiverse",
-        "Dark Energy",
-        "The Universe's Shape",
-        "Grand unified theory",
-        "The Universe's Origins"
-    ],
-    "Ontology": [
-        "Truth",
-        "The Ontological Argument",
-        "Materialism",
-        "Time",
-        "Consciousness",
-        "Progress",
-        "The Brain and Consciousness"
+    "Critics of atheism": [
+        "Al-Ghazali",
+        "Pascal",
+        "Al-Biruni",
+        "Ibn Khaldun",
+        "St Thomas Aquinas",
+        "Avicenna",
+        "Averroes"
     ],
     "Virtue": [
         "Truth",
@@ -1498,24 +1489,6 @@
         "The Enlightenment in Britain",
         "Progress"
     ],
-    "17th-century English male writers": [
-        "Robert Boyle",
-        "George Fox and the Quakers",
-        "Hobbes",
-        "Milton",
-        "Shakespeare's Life",
-        "Shakespeare's Work",
-        "Shakespeare and Literary Criticism"
-    ],
-    "Aristotelian philosophers": [
-        "Bertrand Russell",
-        "Al-Kindi",
-        "Maimonides",
-        "St Thomas Aquinas",
-        "Avicenna",
-        "Popper",
-        "Averroes"
-    ],
     "Formal sciences": [
         "Game Theory",
         "Artificial Intelligence",
@@ -1524,15 +1497,6 @@
         "Maths and Storytelling",
         "Mathematics",
         "Artificial Intelligence"
-    ],
-    "Philosophy of science": [
-        "The Scientific method",
-        "Logical Positivism",
-        "Pragmatism",
-        "Empiricism",
-        "Science and Religion",
-        "Laws of Nature",
-        "Genetic Determinism"
     ],
     "Literary genres": [
         "Roman Satire",
@@ -1543,21 +1507,85 @@
         "The Romantics",
         "Tragedy"
     ],
-    "Astronomical objects known since antiquity": [
-        "Jupiter",
-        "Venus",
-        "Saturn",
-        "The Sun",
-        "The Moon",
-        "Mars"
+    "Analytic philosophers": [
+        "Philippa Foot",
+        "Elizabeth Anscombe",
+        "Iris Murdoch",
+        "Bertrand Russell",
+        "William James's The Varieties of Religious Experience",
+        "Wittgenstein"
     ],
-    "Members of the French Academy of Sciences": [
-        "Linnaeus",
+    "Virtue ethicists": [
+        "Philippa Foot",
+        "Elizabeth Anscombe",
+        "Iris Murdoch",
+        "David Hume",
+        "Edmund Burke",
+        "St Thomas Aquinas"
+    ],
+    "Alumni of St John's College, Cambridge": [
+        "Sir Thomas Wyatt",
+        "Paul Dirac",
+        "William Cecil",
+        "Titus Oates and his 'Popish Plot'",
+        "Wilberforce",
+        "Hobbes"
+    ],
+    "16th-century English poets": [
+        "Sir Thomas Wyatt",
+        "John Donne",
+        "Marlowe",
+        "Shakespeare's Life",
+        "Shakespeare's Work",
+        "Shakespeare and Literary Criticism"
+    ],
+    "Members of the Académie Française": [
+        "Condorcet",
         "Pierre-Simon Laplace",
+        "Montesquieu",
+        "Tocqueville: Democracy in America",
         "Louis Pasteur",
-        "Michael Faraday",
-        "Humboldt",
-        "Lamarck and Natural Selection"
+        "Lévi-Strauss"
+    ],
+    "Theoretical historians": [
+        "Condorcet",
+        "Hegel's Philosophy of History",
+        "Kant's Copernican Revolution",
+        "Sun Tzu and The Art of War",
+        "Clausewitz and On War",
+        "Ibn Khaldun"
+    ],
+    "Christian ethicists": [
+        "Karl Barth",
+        "Elizabeth Anscombe",
+        "Dietrich Bonhoeffer",
+        "St Thomas Aquinas",
+        "Kierkegaard",
+        "Abelard and Heloise"
+    ],
+    "19th-century pseudonymous writers": [
+        "Edgar Allan Poe",
+        "Walt Whitman",
+        "George Sand",
+        "Kierkegaard",
+        "Dickens",
+        "Lenin"
+    ],
+    "Epic poets": [
+        "Edgar Allan Poe",
+        "Ovid",
+        "William Morris",
+        "Goethe",
+        "Milton",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "Jewish agnostics": [
+        "Albert Einstein",
+        "Paul Erdős",
+        "Rosalind Franklin",
+        "Hannah Arendt",
+        "Popper",
+        "Wittgenstein"
     ],
     "English women poets": [
         "Stevie Smith",
@@ -1567,6 +1595,14 @@
         "The Death of Elizabeth I",
         "Ada Lovelace"
     ],
+    "Social history of the United Kingdom": [
+        "Chartism",
+        "The Royal Society and British Science: Episode 4",
+        "The Royal Society and British Science: Episode 3",
+        "The Royal Society and British Science: Episode 2",
+        "The Royal Society and British Science: Episode 1",
+        "The Royal Society"
+    ],
     "17th-century English poets": [
         "John Donne",
         "Aphra Behn",
@@ -1574,6 +1610,14 @@
         "Shakespeare's Life",
         "Shakespeare's Work",
         "Shakespeare and Literary Criticism"
+    ],
+    "Literary theorists": [
+        "John Donne",
+        "Joyce's A Portrait of the Artist as a Young Man",
+        "Jorge Luis Borges",
+        "Goethe",
+        "Milton",
+        "Goethe and the Science of the Enlightenment"
     ],
     "Lutheran saints": [
         "John Donne",
@@ -1591,14 +1635,6 @@
         "Mary Magdalene",
         "Kierkegaard"
     ],
-    "Love stories": [
-        "Persuasion",
-        "Romeo and Juliet",
-        "Great Gatsby",
-        "Wuthering Heights",
-        "Tristan and Iseult",
-        "Jane Eyre"
-    ],
     "Wars involving France": [
         "The Irish Rebellion of 1798",
         "Napoleon's Retreat from Moscow",
@@ -1606,6 +1642,14 @@
         "The Taiping Rebellion",
         "The Boxer Rebellion",
         "Third Crusade"
+    ],
+    "Royal Society": [
+        "The Challenger Expedition 1872–1876",
+        "The Royal Society and British Science: Episode 4",
+        "The Royal Society and British Science: Episode 3",
+        "The Royal Society and British Science: Episode 2",
+        "The Royal Society and British Science: Episode 1",
+        "The Royal Society"
     ],
     "Art movements": [
         "Bauhaus",
@@ -1623,13 +1667,13 @@
         "Camus",
         "Proust"
     ],
-    "French political philosophers": [
-        "Olympe de Gouges",
-        "Rousseau on Education",
-        "Montesquieu",
-        "Tocqueville: Democracy in America",
-        "Simone de Beauvoir",
-        "Simone Weil"
+    "19th-century German essayists": [
+        "Hegel's Philosophy of History",
+        "Kant's Copernican Revolution",
+        "Schopenhauer",
+        "Goethe",
+        "Wagner",
+        "Goethe and the Science of the Enlightenment"
     ],
     "French women philosophers": [
         "Olympe de Gouges",
@@ -1639,6 +1683,14 @@
         "Simone de Beauvoir",
         "Simone Weil"
     ],
+    "20th-century essayists": [
+        "Peter Kropotkin",
+        "Fernando Pessoa",
+        "Samuel Beckett",
+        "Lévi-Strauss",
+        "Jorge Luis Borges",
+        "Tolstoy"
+    ],
     "Anti-consumerists": [
         "Peter Kropotkin",
         "Nietzsche's Genealogy of Morality",
@@ -1646,14 +1698,6 @@
         "Thoreau and the American Idyll",
         "Marx",
         "John Ruskin"
-    ],
-    "British plays adapted into films": [
-        "Romeo and Juliet",
-        "Macbeth",
-        "A Midsummer Night's Dream",
-        "Hamlet",
-        "The Tempest",
-        "Lear"
     ],
     "19th-century English poets": [
         "Thomas Hardy's Poetry",
@@ -1663,13 +1707,13 @@
         "Rudyard Kipling",
         "Dickens"
     ],
-    "English short story writers": [
+    "Victorian novelists": [
         "Thomas Hardy's Poetry",
         "William Morris",
-        "Elizabeth Gaskell's novel North and South",
+        "Harriet Martineau",
         "Rudyard Kipling",
-        "Aldous Huxley's Brave New World",
-        "Swift's A Modest Proposal"
+        "Oscar Wilde",
+        "Dickens"
     ],
     "Victorian poets": [
         "Thomas Hardy's Poetry",
@@ -1694,6 +1738,14 @@
         "Schopenhauer",
         "Goethe",
         "Goethe and the Science of the Enlightenment"
+    ],
+    "Golden Age Latin writers": [
+        "Ovid",
+        "Catullus",
+        "Horace",
+        "Cicero",
+        "Julius Caesar",
+        "Vitruvius and De Architectura"
     ],
     "Poems adapted into films": [
         "The Rime of the Ancient Mariner",
@@ -1735,14 +1787,6 @@
         "Alfred Russel Wallace",
         "Darwin: On the Origins of Charles Darwin"
     ],
-    "Modernist theatre": [
-        "Auden",
-        "Federico Garcia Lorca",
-        "Henrik Ibsen",
-        "Chekhov",
-        "Yeats and Irish Politics",
-        "Yeats and Mysticism"
-    ],
     "Simple living advocates": [
         "Rousseau on Education",
         "Horace",
@@ -1750,14 +1794,6 @@
         "Benjamin Franklin",
         "Schopenhauer",
         "Thoreau and the American Idyll"
-    ],
-    "Emotions": [
-        "Hope",
-        "The Philosophy of Solitude",
-        "Guilt",
-        "Victorian Pessimism",
-        "Hysteria",
-        "Happiness"
     ],
     "People whose existence is disputed": [
         "Sun Tzu and The Art of War",
@@ -1767,14 +1803,6 @@
         "Merlin",
         "Robin Hood"
     ],
-    "19th-century English women writers": [
-        "Elizabeth Gaskell's novel North and South",
-        "Harriet Martineau",
-        "Fanny Burney",
-        "Annie Besant",
-        "Christina Rossetti",
-        "Ada Lovelace"
-    ],
     "1st-century Romans": [
         "Seneca the Younger",
         "Josephus",
@@ -1783,21 +1811,21 @@
         "Pliny's Natural History",
         "The Augustan Age"
     ],
-    "Male essayists": [
-        "Seneca the Younger",
+    "Philosophers of technology": [
+        "Hannah Arendt",
+        "Bertrand Russell",
+        "Benjamin Franklin",
         "Aldous Huxley's Brave New World",
-        "Jorge Luis Borges",
-        "Johnson",
-        "John Ruskin",
-        "Milton"
+        "Popper",
+        "Marx"
     ],
-    "French atheists": [
-        "Simone de Beauvoir",
-        "The Curies",
-        "Lévi-Strauss",
-        "Camus",
-        "Sartre",
-        "Proust"
+    "Critics of religions": [
+        "Nietzsche's Genealogy of Morality",
+        "Schopenhauer",
+        "Socrates",
+        "Popper",
+        "Marx",
+        "Lenin"
     ],
     "Social philosophy": [
         "Utilitarianism",
@@ -1807,13 +1835,13 @@
         "The Philosophy of Love",
         "Capitalism"
     ],
-    "Concepts in the philosophy of mind": [
-        "Cogito Ergo Sum",
-        "Perception and the Senses",
-        "The Soul",
+    "Ontology": [
+        "Truth",
+        "The Ontological Argument",
+        "Materialism",
         "Time",
         "Consciousness",
-        "The Brain and Consciousness"
+        "Progress"
     ],
     "Concepts in metaphysics": [
         "Free Will(500th programme)",
@@ -1823,56 +1851,190 @@
         "Time",
         "Progress"
     ],
-    "Philosophy of life": [
-        "Free Will(500th programme)",
-        "Guilt",
+    "Physical cosmology": [
+        "The Age of the Universe",
+        "The Multiverse",
+        "Dark Energy",
+        "The Universe's Shape",
+        "Grand Unified Theory",
+        "The Universe's Origins"
+    ],
+    "1660 establishments in England": [
+        "The Royal Society and British Science: Episode 4",
+        "The Royal Society and British Science: Episode 3",
+        "The Royal Society and British Science: Episode 2",
+        "The Royal Society and British Science: Episode 1",
+        "The Royal Society",
+        "The Restoration"
+    ],
+    "Modernism": [
+        "Joyce's A Portrait of the Artist as a Young Man",
+        "Modernist Utopias",
+        "Surrealism",
         "Existentialism",
-        "Humanism",
-        "Nihilism",
-        "Progress"
+        "The Avant Garde's Decline and Fall in the 20th Century",
+        "Modern Culture"
     ],
-    "Mental processes": [
-        "Memory",
-        "Imagination",
-        "Imagination and Consciousness",
-        "Consciousness",
-        "Memory and Culture",
-        "The Brain and Consciousness"
+    "Legion of Honour refusals": [
+        "Monet in England",
+        "George Sand",
+        "The Curies",
+        "Camus",
+        "Sartre"
     ],
-    "Analytic philosophers": [
-        "Elizabeth Anscombe",
-        "Iris Murdoch",
-        "Bertrand Russell",
-        "William James's The Varieties of Religious Experience",
-        "Wittgenstein"
+    "English novels": [
+        "Fielding's Tom Jones",
+        "Nineteen Eighty-Four",
+        "Middlemarch",
+        "North and South",
+        "Animal Farm"
     ],
-    "Christian ethicists": [
-        "Elizabeth Anscombe",
-        "Dietrich Bonhoeffer",
+    "Scholastic philosophers": [
+        "Marsilius of Padua",
+        "Alcuin",
+        "Roger Bacon",
         "St Thomas Aquinas",
-        "Kierkegaard",
         "Abelard and Heloise"
     ],
-    "Virtue ethicists": [
-        "Elizabeth Anscombe",
-        "Iris Murdoch",
-        "David Hume",
-        "Edmund Burke",
-        "St Thomas Aquinas"
+    "English atheists": [
+        "Philippa Foot",
+        "Stevie Smith",
+        "Alan Turing",
+        "William Morris",
+        "Harriet Martineau"
+    ],
+    "Marxist theorists": [
+        "Bertolt Brecht",
+        "Rosa Luxemburg",
+        "Simone Weil",
+        "Marx",
+        "Lenin"
+    ],
+    "Plays set in ancient Greece": [
+        "Lysistrata",
+        "Oedipus Rex",
+        "The Bacchae",
+        "A Midsummer Night's Dream",
+        "The Oresteia"
+    ],
+    "People associated with electricity": [
+        "Nikola Tesla",
+        "Michael Faraday",
+        "Benjamin Franklin",
+        "Thomas Edison",
+        "Maxwell"
+    ],
+    "French philosophers of education": [
+        "Condorcet",
+        "Simone de Beauvoir",
+        "Lévi-Strauss",
+        "Montaigne",
+        "Sartre"
+    ],
+    "French philosophers of history": [
+        "Condorcet",
+        "Montesquieu",
+        "Tocqueville: Democracy in America",
+        "Lévi-Strauss",
+        "Sartre"
+    ],
+    "French philosophers of science": [
+        "Condorcet",
+        "Lévi-Strauss",
+        "Montaigne",
+        "Simone Weil",
+        "Sartre"
+    ],
+    "Rationalists": [
+        "Condorcet",
+        "Plato's Gorgias",
+        "Kant's Copernican Revolution",
+        "Spinoza",
+        "Popper"
+    ],
+    "Julio-Claudian dynasty": [
+        "Tiberius",
+        "Nero",
+        "Agrippina the Younger",
+        "The Augustan Age",
+        "The Aeneid"
+    ],
+    "1st-century BC Romans": [
+        "Tiberius",
+        "Catullus",
+        "Horace",
+        "Spartacus",
+        "Vitruvius and De Architectura"
+    ],
+    "Ancient Roman adoptees": [
+        "Tiberius",
+        "Marcus Aurelius",
+        "Nero",
+        "Pliny the Younger",
+        "The Augustan Age"
+    ],
+    "19th-century American poets": [
+        "Edgar Allan Poe",
+        "Walt Whitman",
+        "Edith Wharton",
+        "Emily Dickinson",
+        "Thoreau and the American Idyll"
+    ],
+    "American people of English descent": [
+        "Edgar Allan Poe",
+        "Walt Whitman",
+        "Benjamin Franklin",
+        "Thomas Edison",
+        "Washington and the American Revolution"
+    ],
+    "Romantic poets": [
+        "Edgar Allan Poe",
+        "Robert Burns",
+        "John Clare",
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "Writers of Gothic fiction": [
+        "Edgar Allan Poe",
+        "Polidori's The Vampyre",
+        "Mary Wollstonecraft",
+        "Oscar Wilde",
+        "Dickens"
+    ],
+    "Women religious writers": [
+        "Julian of Norwich",
+        "Olympe de Gouges",
+        "Hannah Arendt",
+        "Margery Kempe and English Mysticism",
+        "Hildegard of Bingen"
+    ],
+    "Women mystics": [
+        "Julian of Norwich",
+        "Margery Kempe and English Mysticism",
+        "Hildegard of Bingen",
+        "Simone Weil",
+        "Annie Besant"
+    ],
+    "Anti-nationalists": [
+        "Albert Einstein",
+        "Nietzsche's Genealogy of Morality",
+        "Bertrand Russell",
+        "Marx",
+        "Lenin"
+    ],
+    "Jewish socialists": [
+        "Albert Einstein",
+        "Walter Benjamin",
+        "Rosa Luxemburg",
+        "Kafka's The Trial",
+        "Marx"
     ],
     "Modernist novels": [
         "Death in Venice",
-        "Great Gatsby",
+        "The Great Gatsby",
         "Mrs Dalloway",
         "James Joyce's Ulysses",
         "Heart of Darkness"
-    ],
-    "19th-century pseudonymous writers": [
-        "Walt Whitman",
-        "George Sand",
-        "Kierkegaard",
-        "Dickens",
-        "Lenin"
     ],
     "Members of the Prussian Academy of Sciences": [
         "Linnaeus",
@@ -1880,20 +2042,6 @@
         "Montesquieu",
         "Humboldt",
         "Catherine the Great"
-    ],
-    "Jewish agnostics": [
-        "Paul Erdős",
-        "Rosalind Franklin",
-        "Hannah Arendt",
-        "Popper",
-        "Wittgenstein"
-    ],
-    "English women novelists": [
-        "Stevie Smith",
-        "Aphra Behn",
-        "Elizabeth Gaskell's novel North and South",
-        "Fanny Burney",
-        "Mary Wollstonecraft"
     ],
     "20th-century English poets": [
         "Stevie Smith",
@@ -1915,13 +2063,6 @@
         "Radiation",
         "The Vacuum of Space",
         "Time"
-    ],
-    "16th-century English poets": [
-        "John Donne",
-        "Marlowe",
-        "Shakespeare's Life",
-        "Shakespeare's Work",
-        "Shakespeare and Literary Criticism"
     ],
     "Anglican poets": [
         "John Donne",
@@ -1951,6 +2092,27 @@
         "Chaucer",
         "Milton"
     ],
+    "Writers from London": [
+        "John Donne",
+        "Fanny Burney",
+        "Chaucer",
+        "Johnson",
+        "Milton"
+    ],
+    "Love stories": [
+        "Persuasion",
+        "Romeo and Juliet",
+        "Wuthering Heights",
+        "Tristan and Iseult",
+        "Jane Eyre"
+    ],
+    "20th-century English male writers": [
+        "Wilfred Owen",
+        "Thomas Hardy's Poetry",
+        "Auden",
+        "Rudyard Kipling",
+        "Siegfried Sassoon"
+    ],
     "18th-century German male writers": [
         "Hegel's Philosophy of History",
         "Kant's Copernican Revolution",
@@ -1958,28 +2120,14 @@
         "Goethe",
         "Goethe and the Science of the Enlightenment"
     ],
-    "19th-century German writers": [
+    "German philosophers of language": [
         "Hegel's Philosophy of History",
-        "Kant's Copernican Revolution",
-        "Weber's The Protestant Ethic",
-        "Clausewitz and On War",
-        "Schopenhauer"
+        "Walter Benjamin",
+        "Schopenhauer",
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
     ],
-    "German political philosophers": [
-        "Hegel's Philosophy of History",
-        "Kant's Copernican Revolution",
-        "Hannah Arendt",
-        "Weber's The Protestant Ethic",
-        "Marx"
-    ],
-    "Theoretical historians": [
-        "Hegel's Philosophy of History",
-        "Kant's Copernican Revolution",
-        "Sun Tzu and The Art of War",
-        "Clausewitz and On War",
-        "Ibn Khaldun"
-    ],
-    "17th-century Latin-language writers": [
+    "17th-century writers in Latin": [
         "Jan Amos Komenský",
         "Johannes Kepler",
         "Spinoza",
@@ -1993,12 +2141,26 @@
         "Seneca the Younger",
         "Socrates"
     ],
+    "19th-century English non-fiction writers": [
+        "Polidori's The Vampyre",
+        "Rudyard Kipling",
+        "Wilberforce",
+        "Mill",
+        "Dickens"
+    ],
     "19th-century male writers": [
         "Polidori's The Vampyre",
         "Frederick Douglass",
         "Thomas Paine's Common Sense",
         "Bolivar",
         "Kierkegaard"
+    ],
+    "19th-century British short story writers": [
+        "Polidori's The Vampyre",
+        "Thomas Hardy's Poetry",
+        "William Morris",
+        "Rudyard Kipling",
+        "Dickens"
     ],
     "Plays adapted into television shows": [
         "Romeo and Juliet",
@@ -2014,6 +2176,13 @@
         "Hannah Arendt",
         "Weber's The Protestant Ethic"
     ],
+    "Humboldt University of Berlin alumni": [
+        "Walter Benjamin",
+        "Dietrich Bonhoeffer",
+        "Weber's The Protestant Ethic",
+        "Bismarck",
+        "Marx"
+    ],
     "20th-century French novelists": [
         "Colette",
         "Simone de Beauvoir",
@@ -2021,12 +2190,12 @@
         "Sartre",
         "Proust"
     ],
-    "19th-century British short story writers": [
+    "English short story writers": [
         "Thomas Hardy's Poetry",
         "William Morris",
-        "Elizabeth Gaskell's novel North and South",
         "Rudyard Kipling",
-        "Dickens"
+        "Aldous Huxley's Brave New World",
+        "Swift's A Modest Proposal"
     ],
     "Members of the Order of Merit": [
         "Thomas Hardy's Poetry",
@@ -2034,13 +2203,6 @@
         "Dorothy Hodgkin",
         "Alfred Russel Wallace",
         "Bertrand Russell"
-    ],
-    "Former empires": [
-        "The Hittites",
-        "The Sassanid Empire",
-        "Babylon",
-        "The British Empire",
-        "Byzantium"
     ],
     "Ancient Greek philosophers of mind": [
         "Plato's Gorgias",
@@ -2056,6 +2218,20 @@
         "Camus",
         "Sartre"
     ],
+    "18th-century English male writers": [
+        "Edward Gibbon",
+        "Thomas Paine's Common Sense",
+        "Edmund Burke",
+        "Pope",
+        "Johnson"
+    ],
+    "British critics of religions": [
+        "Edward Gibbon",
+        "Bertrand Russell",
+        "David Hume",
+        "Hobbes",
+        "Dickens"
+    ],
     "Irony theorists": [
         "Edward Gibbon",
         "Nietzsche's Genealogy of Morality",
@@ -2070,9 +2246,16 @@
         "Hobbes",
         "Milton"
     ],
-    "19th-century German non-fiction writers": [
+    "German philosophers of education": [
         "Kant's Copernican Revolution",
         "Nietzsche's Genealogy of Morality",
+        "Schopenhauer",
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "German philosophers of science": [
+        "Kant's Copernican Revolution",
+        "Weber's The Protestant Ethic",
         "Schopenhauer",
         "Goethe",
         "Goethe and the Science of the Enlightenment"
@@ -2084,40 +2267,26 @@
         "William James's The Varieties of Religious Experience",
         "Machiavelli and the Italian City States"
     ],
-    "Epic poets": [
-        "Ovid",
-        "William Morris",
-        "Goethe",
-        "Milton",
-        "Goethe and the Science of the Enlightenment"
+    "Historical eras": [
+        "The Interregnum",
+        "The Iron Age",
+        "The Enlightenment in Britain",
+        "The Renaissance",
+        "Modern Culture"
     ],
-    "Golden Age Latin writers": [
-        "Ovid",
-        "Catullus",
-        "Horace",
-        "Cicero",
-        "Julius Caesar"
-    ],
-    "Members of the Académie Française": [
-        "Pierre-Simon Laplace",
-        "Montesquieu",
-        "Tocqueville: Democracy in America",
-        "Louis Pasteur",
-        "Lévi-Strauss"
-    ],
-    "Philosophy of religion": [
-        "Deism",
-        "Free Will(500th programme)",
-        "Miracles",
-        "Humanism",
-        "Science and Religion"
-    ],
-    "American male non-fiction writers": [
-        "Auden",
+    "19th-century English writers": [
+        "David Ricardo",
         "Thomas Paine's Common Sense",
-        "Benjamin Franklin",
-        "Thoreau and the American Idyll",
-        "Washington and the American Revolution"
+        "Darwin: On the Origins of Charles Darwin",
+        "Ada Lovelace",
+        "Mill"
+    ],
+    "English Nobel laureates": [
+        "Paul Dirac",
+        "Dorothy Hodgkin",
+        "Rudyard Kipling",
+        "Bertrand Russell",
+        "Rutherford"
     ],
     "Alumni of Trinity College Dublin": [
         "Samuel Beckett",
@@ -2126,26 +2295,12 @@
         "Swift's A Modest Proposal",
         "Oscar Wilde"
     ],
-    "Women who experienced pregnancy loss": [
-        "Marie Antoinette",
-        "Mary, Queen of Scots",
-        "Eleanor of Aquitaine",
-        "Frida Kahlo",
-        "Catherine the Great"
-    ],
     "Political realists": [
         "Sun Tzu and The Art of War",
         "Thucydides",
         "Clausewitz and On War",
         "Hobbes",
         "Machiavelli and the Italian City States"
-    ],
-    "Deaths from cancer in England": [
-        "Rosalind Franklin",
-        "Ada Lovelace",
-        "Siegfried Sassoon",
-        "Wittgenstein",
-        "Maxwell"
     ],
     "Trope theorists": [
         "Cicero",
@@ -2154,18 +2309,25 @@
         "The Venerable Bede",
         "Dickens"
     ],
-    "Recipients of the Pour le Mérite (civil class)": [
-        "Carl Friedrich Gauss",
-        "Michael Faraday",
-        "Darwin: On the Origins of Charles Darwin",
-        "Popper",
-        "Humboldt"
-    ],
     "University of Göttingen alumni": [
         "Carl Friedrich Gauss",
         "Weber's The Protestant Ethic",
         "Schopenhauer",
         "Bismarck",
+        "Humboldt"
+    ],
+    "Members of the Bavarian Academy of Sciences": [
+        "Carl Friedrich Gauss",
+        "Weber's The Protestant Ethic",
+        "Humboldt",
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "Recipients of the Pour le Mérite (civil class)": [
+        "Carl Friedrich Gauss",
+        "Michael Faraday",
+        "Darwin: On the Origins of Charles Darwin",
+        "Popper",
         "Humboldt"
     ],
     "Conversationalists": [
@@ -2182,12 +2344,19 @@
         "Shakespeare's Work",
         "Shakespeare and Literary Criticism"
     ],
-    "19th-century British writers": [
+    "Male essayists": [
+        "Seneca the Younger",
+        "Aldous Huxley's Brave New World",
+        "Johnson",
+        "John Ruskin",
+        "Milton"
+    ],
+    "19th-century English women writers": [
         "Harriet Martineau",
-        "Alfred Russel Wallace",
+        "Fanny Burney",
+        "Annie Besant",
         "Christina Rossetti",
-        "Ada Lovelace",
-        "Mill"
+        "Ada Lovelace"
     ],
     "Former Roman Catholics": [
         "Garibaldi and the Risorgimento",
@@ -2196,19 +2365,19 @@
         "Proust",
         "Hitler in History"
     ],
-    "University of Paris alumni": [
-        "Simone de Beauvoir",
-        "The Curies",
-        "Lévi-Strauss",
-        "Erasmus",
-        "St Thomas Aquinas"
+    "Classical liberalism": [
+        "Thomas Paine's Common Sense",
+        "Utilitarianism",
+        "The Wealth of Nations",
+        "The Physiocrats",
+        "Edmund Burke"
     ],
-    "Metaphysical properties": [
-        "Truth",
-        "Beauty",
-        "Consciousness",
-        "The Individual",
-        "The Brain and Consciousness"
+    "Imperialism": [
+        "The Berlin Conference",
+        "The Ming Voyages",
+        "Cultural Imperialism",
+        "The British Empire",
+        "The British Empire's Legacy"
     ],
     "Metaphysics writers": [
         "Lévi-Strauss",
@@ -2238,12 +2407,26 @@
         "Alchemy",
         "Science and Religion"
     ],
-    "Scientific revolution": [
+    "Scientific Revolution": [
         "The Scientific method",
         "Women and Enlightenment Science",
         "The Encyclopédie",
-        "The Scottish Enlightenment",
+        "The Enlightenment in Scotland",
         "The Enlightenment in Britain"
+    ],
+    "Concepts in the philosophy of mind": [
+        "Cogito Ergo Sum",
+        "Perception and the Senses",
+        "The Soul",
+        "Time",
+        "Consciousness"
+    ],
+    "Philosophy of life": [
+        "Free Will(500th programme)",
+        "Guilt",
+        "Existentialism",
+        "Nihilism",
+        "Progress"
     ],
     "English travel writers": [
         "Mary Wollstonecraft",
@@ -2259,26 +2442,146 @@
         "Yeats and Mysticism",
         "Oscar Wilde"
     ],
-    "Concepts in the philosophy of science": [
-        "The Music of the Spheres",
-        "Ockham's Razor",
-        "Time",
-        "Consciousness",
-        "The Brain and Consciousness"
-    ],
-    "Neuropsychological assessment": [
-        "Perception and the Senses",
-        "Memory",
-        "Consciousness",
-        "Memory and Culture",
-        "The Brain and Consciousness"
+    "Anthropology": [
+        "Human Evolution",
+        "Archaeology and Imperialism",
+        "Masculinity in Literature",
+        "Progress",
+        "Work in the 20th Century"
     ],
     "Western culture": [
         "The Schism",
-        "Democracy",
         "The Enlightenment in Britain",
         "The Renaissance",
-        "Capitalism"
+        "Capitalism",
+        "Multiculturalism"
+    ],
+    "Mental processes": [
+        "Memory",
+        "Imagination",
+        "Imagination and Consciousness",
+        "Consciousness",
+        "Memory and Culture"
+    ],
+    "Spirituality": [
+        "Karma",
+        "Gnosticism",
+        "Neoplatonism",
+        "Shinto"
+    ],
+    "Picaresque novels": [
+        "Fielding's Tom Jones",
+        "Journey to the West",
+        "Tristram Shandy",
+        "Voltaire's Candide"
+    ],
+    "People excommunicated by the Catholic Church": [
+        "Marsilius of Padua",
+        "Wyclif and the Lollards",
+        "The Death of Elizabeth I",
+        "Napoleon and Wellington"
+    ],
+    "20th-century English philosophers": [
+        "Philippa Foot",
+        "Alan Turing",
+        "Bertrand Russell",
+        "Aldous Huxley's Brave New World"
+    ],
+    "Fellows of the British Academy": [
+        "Philippa Foot",
+        "Elizabeth Anscombe",
+        "Popper",
+        "The Needham Question"
+    ],
+    "German Marxist writers": [
+        "Bertolt Brecht",
+        "Walter Benjamin",
+        "Rosa Luxemburg",
+        "Marx"
+    ],
+    "Naturalized citizens of the United States": [
+        "Nikola Tesla",
+        "Albert Einstein",
+        "Fritz Lang",
+        "Auden"
+    ],
+    "Ancient Roman philhellenes": [
+        "Julian the Apostate",
+        "Marcus Aurelius",
+        "Nero",
+        "Horace"
+    ],
+    "Renaissance": [
+        "The Sack of Rome 1527",
+        "The 12th Century Renaissance",
+        "Renaissance Magic",
+        "The Renaissance"
+    ],
+    "Scholars of feminist philosophy": [
+        "Condorcet",
+        "Simone de Beauvoir",
+        "Mary Wollstonecraft",
+        "Mill"
+    ],
+    "French feminists": [
+        "Condorcet",
+        "Germaine de Staël",
+        "Simone de Beauvoir",
+        "Simone Weil"
+    ],
+    "French male non-fiction writers": [
+        "Condorcet",
+        "Tocqueville: Democracy in America",
+        "Lévi-Strauss",
+        "Proust"
+    ],
+    "Julii Caesares": [
+        "Tiberius",
+        "Agrippina the Younger",
+        "Julius Caesar",
+        "The Augustan Age"
+    ],
+    "Roman pharaohs": [
+        "Tiberius",
+        "Marcus Aurelius",
+        "Nero",
+        "The Augustan Age"
+    ],
+    "Academic staff of the University of Göttingen": [
+        "Karl Barth",
+        "Paul Dirac",
+        "Emmy Noether",
+        "Carl Friedrich Gauss"
+    ],
+    "19th-century American male writers": [
+        "Edgar Allan Poe",
+        "Walt Whitman",
+        "President Ulysses S Grant",
+        "Frederick Douglass"
+    ],
+    "Wars involving the United States": [
+        "The Barbary Corsairs",
+        "The Mexican-American War",
+        "The War of 1812",
+        "The Boxer Rebellion"
+    ],
+    "English religious writers": [
+        "Julian of Norwich",
+        "Margery Kempe and English Mysticism",
+        "George Fox and the Quakers",
+        "Wilberforce"
+    ],
+    "Works published under a pseudonym": [
+        "The Federalist Papers",
+        "The Tenant of Wildfell Hall",
+        "Wuthering Heights",
+        "Jane Eyre"
+    ],
+    "European democratic socialists": [
+        "Albert Einstein",
+        "Rosa Luxemburg",
+        "Bertrand Russell",
+        "Mill"
     ],
     "20th-century British philosophers": [
         "Elizabeth Anscombe",
@@ -2292,21 +2595,15 @@
         "Dorothy Hodgkin",
         "Rosalind Franklin"
     ],
-    "Plays set in ancient Greece": [
-        "Oedipus Rex",
-        "The Bacchae",
-        "A Midsummer Night's Dream",
-        "The Oresteia"
-    ],
-    "19th-century American poets": [
-        "Walt Whitman",
-        "Edith Wharton",
-        "Emily Dickinson",
-        "Thoreau and the American Idyll"
+    "British philosophers of mind": [
+        "Elizabeth Anscombe",
+        "Bertrand Russell",
+        "Aldous Huxley's Brave New World",
+        "Mill"
     ],
     "Hindu texts": [
         "The Ramayana",
-        "Arthashastra",
+        "The Arthashastra",
         "The Upanishads",
         "The Bhagavad Gita"
     ],
@@ -2316,11 +2613,11 @@
         "George Sand",
         "Anna Akhmatova"
     ],
-    "English atheists": [
+    "English women novelists": [
         "Stevie Smith",
-        "Alan Turing",
-        "William Morris",
-        "Harriet Martineau"
+        "Aphra Behn",
+        "Fanny Burney",
+        "Mary Wollstonecraft"
     ],
     "20th-century English novelists": [
         "Stevie Smith",
@@ -2339,12 +2636,6 @@
         "Plasma",
         "States of Matter",
         "Higgs Boson"
-    ],
-    "16th-century male writers": [
-        "John Donne",
-        "Matteo Ricci and the Ming dynasty",
-        "Montaigne",
-        "Machiavelli and the Italian City States"
     ],
     "English people of Welsh descent": [
         "John Donne",
@@ -2368,13 +2659,7 @@
         "The Morant Bay Rebellion",
         "The Haitian Revolution",
         "The Taiping Rebellion",
-        "The Indian Rebellion"
-    ],
-    "20th-century English male writers": [
-        "Wilfred Owen",
-        "Auden",
-        "Rudyard Kipling",
-        "Siegfried Sassoon"
+        "The Indian Mutiny"
     ],
     "Elementary particles": [
         "The Electron",
@@ -2387,12 +2672,6 @@
         "Piers Plowman",
         "Moby Dick",
         "Animal Farm"
-    ],
-    "18th-century German philosophers": [
-        "Hegel's Philosophy of History",
-        "Kant's Copernican Revolution",
-        "Goethe",
-        "Goethe and the Science of the Enlightenment"
     ],
     "Heidelberg University alumni": [
         "Hegel's Philosophy of History",
@@ -2408,27 +2687,9 @@
     ],
     "Executed writers": [
         "Olympe de Gouges",
-        "Federico Garcia Lorca",
+        "Lorca",
         "Cicero",
         "Seneca the Younger"
-    ],
-    "French philosophers": [
-        "Olympe de Gouges",
-        "Tocqueville: Democracy in America",
-        "Pascal",
-        "Sartre"
-    ],
-    "Women religious writers": [
-        "Olympe de Gouges",
-        "Hannah Arendt",
-        "Margery Kempe and English Mysticism",
-        "Hildegard of Bingen"
-    ],
-    "19th-century English non-fiction writers": [
-        "Polidori's The Vampyre",
-        "Rudyard Kipling",
-        "Mill",
-        "Dickens"
     ],
     "Alumni of the University of Edinburgh": [
         "Polidori's The Vampyre",
@@ -2436,29 +2697,17 @@
         "Darwin: On the Origins of Charles Darwin",
         "Maxwell"
     ],
-    "Writers of Gothic fiction": [
-        "Polidori's The Vampyre",
-        "Mary Wollstonecraft",
-        "Oscar Wilde",
-        "Dickens"
-    ],
     "Historians of the French Revolution": [
         "Peter Kropotkin",
         "Tocqueville: Democracy in America",
         "Edmund Burke",
         "Mary Wollstonecraft"
     ],
-    "20th-century translators": [
-        "Walter Benjamin",
-        "Lawrence of Arabia",
-        "Anna Akhmatova",
-        "Jorge Luis Borges"
-    ],
-    "Humboldt University of Berlin alumni": [
-        "Walter Benjamin",
-        "Weber's The Protestant Ethic",
-        "Bismarck",
-        "Marx"
+    "Shakespearean tragedies": [
+        "Romeo and Juliet",
+        "Macbeth",
+        "Hamlet",
+        "Lear"
     ],
     "French women novelists": [
         "Colette",
@@ -2466,17 +2715,17 @@
         "Germaine de Staël",
         "Simone de Beauvoir"
     ],
+    "French LGBT novelists": [
+        "Colette",
+        "George Sand",
+        "Simone de Beauvoir",
+        "Proust"
+    ],
     "Burials at Père Lachaise Cemetery": [
         "Colette",
         "Abelard and Heloise",
         "Proust",
         "Oscar Wilde"
-    ],
-    "19th-century English novelists": [
-        "Thomas Hardy's Poetry",
-        "Elizabeth Gaskell's novel North and South",
-        "Fanny Burney",
-        "Dickens"
     ],
     "Fellows of the Royal Society of Literature": [
         "Thomas Hardy's Poetry",
@@ -2496,11 +2745,11 @@
         "Xenophon",
         "Socrates"
     ],
-    "Rationalists": [
+    "Classical theism": [
         "Plato's Gorgias",
-        "Kant's Copernican Revolution",
-        "Spinoza",
-        "Popper"
+        "Neoplatonism",
+        "St Thomas Aquinas",
+        "Socrates"
     ],
     "18th-century classical composers": [
         "William and Caroline Herschel",
@@ -2514,35 +2763,17 @@
         "Nietzsche's Genealogy of Morality",
         "Wagner"
     ],
-    "German male classical composers": [
-        "William and Caroline Herschel",
-        "Ludwig van Beethoven",
-        "Frederick the Great",
-        "Wagner"
-    ],
     "British ethicists": [
         "Iris Murdoch",
         "Bertrand Russell",
         "Popper",
         "Mill"
     ],
-    "Adultery in novels": [
+    "Novels about adultery": [
         "The Tenant of Wildfell Hall",
-        "Great Gatsby",
+        "The Great Gatsby",
         "James Joyce's Ulysses",
         "Madame Bovary"
-    ],
-    "18th-century English male writers": [
-        "Edward Gibbon",
-        "Thomas Paine's Common Sense",
-        "Pope",
-        "Johnson"
-    ],
-    "Alumni of Magdalen College, Oxford": [
-        "Edward Gibbon",
-        "Lawrence of Arabia",
-        "Hobbes",
-        "Oscar Wilde"
     ],
     "19th-century British philanthropists": [
         "Booth's Life and Labour Survey",
@@ -2556,35 +2787,11 @@
         "Wilberforce",
         "Dickens"
     ],
-    "Lecturers": [
+    "19th-century German non-fiction writers": [
         "Kant's Copernican Revolution",
-        "Thoreau and the American Idyll",
-        "Jorge Luis Borges",
-        "Dickens"
-    ],
-    "Historical eras": [
-        "The Interregnum",
-        "The Dawn of the Iron Age",
-        "The Enlightenment in Britain",
-        "The Renaissance"
-    ],
-    "Fluid dynamicists": [
-        "Pierre-Simon Laplace",
-        "Robert Boyle",
-        "Pascal",
-        "Archimedes"
-    ],
-    "19th-century English writers": [
-        "David Ricardo",
-        "Thomas Paine's Common Sense",
-        "Darwin: On the Origins of Charles Darwin",
-        "Mill"
-    ],
-    "English Unitarians": [
-        "David Ricardo",
-        "Elizabeth Gaskell's novel North and South",
-        "Harriet Martineau",
-        "Mary Wollstonecraft"
+        "Nietzsche's Genealogy of Morality",
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
     ],
     "Utilitarians": [
         "David Ricardo",
@@ -2604,28 +2811,22 @@
         "Childe Harold's Pilgrimage",
         "The Epic"
     ],
-    "Ancient Roman adoptees": [
-        "Marcus Aurelius",
-        "Nero",
-        "Pliny the Younger",
-        "The Augustan Age"
-    ],
-    "English evangelicals": [
-        "John Wesley and Methodism",
-        "George Fox and the Quakers",
-        "Wyclif and the Lollards",
-        "Wilberforce"
-    ],
     "English abolitionists": [
         "John Wesley and Methodism",
         "Harriet Martineau",
         "Darwin: On the Origins of Charles Darwin",
         "Wilberforce"
     ],
+    "17th-century English philosophers": [
+        "Mary Astell",
+        "Robert Boyle",
+        "Hobbes",
+        "Milton"
+    ],
     "18th-century English writers": [
         "Mary Astell",
         "Thomas Paine's Common Sense",
-        "Fanny Burney",
+        "Edmund Burke",
         "Johnson"
     ],
     "Feminism and history": [
@@ -2640,11 +2841,11 @@
         "Thomas Paine's Common Sense",
         "Michael Faraday"
     ],
-    "Alumni of St John's College, Cambridge": [
+    "British Nobel laureates": [
         "Paul Dirac",
-        "William Cecil",
-        "Titus Oates and his Popish Plot",
-        "Wilberforce"
+        "Dorothy Hodgkin",
+        "Rudyard Kipling",
+        "Rutherford"
     ],
     "French socialists": [
         "George Sand",
@@ -2652,29 +2853,11 @@
         "Camus",
         "Sartre"
     ],
-    "Legion of Honour refusals": [
-        "George Sand",
-        "The Curies",
-        "Camus",
-        "Sartre"
-    ],
-    "Medieval Latin poets": [
+    "Medieval Latin-language poets": [
         "Alcuin",
         "Hildegard of Bingen",
         "St Thomas Aquinas",
         "Abelard and Heloise"
-    ],
-    "Scholastic philosophers": [
-        "Alcuin",
-        "Roger Bacon",
-        "St Thomas Aquinas",
-        "Abelard and Heloise"
-    ],
-    "Bisexual male writers": [
-        "Catullus",
-        "Siegfried Sassoon",
-        "Wittgenstein",
-        "Oscar Wilde"
     ],
     "Members of the American Academy of Arts and Letters": [
         "Auden",
@@ -2682,23 +2865,17 @@
         "Hannah Arendt",
         "William James's The Varieties of Religious Experience"
     ],
-    "Romantic poets": [
-        "Robert Burns",
-        "John Clare",
-        "Goethe",
-        "Goethe and the Science of the Enlightenment"
-    ],
-    "Liberal theorists": [
-        "Rousseau on Education",
-        "Thomas Paine's Common Sense",
-        "Jorge Luis Borges",
-        "Machiavelli and the Italian City States"
-    ],
     "LGBT Roman Catholics": [
-        "Federico Garcia Lorca",
+        "Lorca",
         "Siegfried Sassoon",
         "Proust",
         "Oscar Wilde"
+    ],
+    "Anglican writers": [
+        "Sir Thomas Browne",
+        "Swift's A Modest Proposal",
+        "Wilberforce",
+        "Dickens"
     ],
     "Frame stories": [
         "Frankenstein",
@@ -2711,6 +2888,12 @@
         "Louis Pasteur",
         "Simone Weil",
         "Sartre"
+    ],
+    "19th-century French philosophers": [
+        "Bergson and Time",
+        "Tocqueville: Democracy in America",
+        "Germaine de Staël",
+        "Proust"
     ],
     "Phenomenologists": [
         "Bergson and Time",
@@ -2730,29 +2913,23 @@
         "The Dissolution of the Monasteries",
         "The Glorious Revolution"
     ],
-    "Julio-Claudian dynasty": [
-        "Nero",
-        "Agrippina the Younger",
-        "The Augustan Age",
-        "The Aeneid"
-    ],
     "Evolution": [
         "The Evolution of Teeth",
         "The Cambrian Period",
         "Chance and Design",
         "Evolution"
     ],
-    "Invasions of England": [
-        "The Danelaw",
-        "The Spanish Armada",
-        "The Jacobite Rebellion",
-        "The Glorious Revolution"
-    ],
     "English Catholic poets": [
         "Gerard Manley Hopkins",
         "Siegfried Sassoon",
         "Pope",
         "Chaucer"
+    ],
+    "Philosophers of pessimism": [
+        "Samuel Beckett",
+        "Schopenhauer",
+        "Camus",
+        "Jorge Luis Borges"
     ],
     "Trojan War literature": [
         "The Iliad",
@@ -2766,23 +2943,35 @@
         "Swift's A Modest Proposal",
         "John Ruskin"
     ],
+    "English libertarians": [
+        "William Morris",
+        "Thomas Paine's Common Sense",
+        "Edmund Burke",
+        "Mill"
+    ],
     "English socialists": [
         "William Morris",
         "Alfred Russel Wallace",
         "Bertrand Russell",
         "Annie Besant"
     ],
-    "French male non-fiction writers": [
-        "Tocqueville: Democracy in America",
-        "Lévi-Strauss",
+    "Libertarian socialists": [
+        "William Morris",
+        "Camus",
         "Sartre",
-        "Proust"
+        "Oscar Wilde"
     ],
-    "Latin prose texts": [
-        "Augustine's Confessions",
-        "Justinian's Legal Code",
-        "Vitruvius and De Architectura",
-        "The Consolations of Philosophy"
+    "Historical transcontinental empires": [
+        "The Almoravid Empire",
+        "The British Empire",
+        "Byzantium",
+        "The British Empire's Legacy"
+    ],
+    "Novels set in England": [
+        "Middlemarch",
+        "Animal Farm",
+        "Emma",
+        "Voltaire's Candide"
     ],
     "Classical humanists": [
         "Cicero",
@@ -2820,23 +3009,11 @@
         "Mary Wollstonecraft",
         "John Ruskin"
     ],
-    "English translators": [
-        "Roger Bacon",
-        "Harriet Martineau",
-        "Caxton and the Printing Press",
-        "Chaucer"
-    ],
-    "Marxist theorists": [
+    "19th-century German writers": [
         "Rosa Luxemburg",
-        "Simone Weil",
-        "Marx",
-        "Lenin"
-    ],
-    "Victorian women writers": [
-        "Elizabeth Gaskell's novel North and South",
-        "Harriet Martineau",
-        "Annie Besant",
-        "Christina Rossetti"
+        "Weber's The Protestant Ethic",
+        "Clausewitz and On War",
+        "Schopenhauer"
     ],
     "Silver Age Latin writers": [
         "Seneca the Younger",
@@ -2849,12 +3026,6 @@
         "Thomas Paine's Common Sense",
         "Benjamin Franklin",
         "Thoreau and the American Idyll"
-    ],
-    "Anti-nationalists": [
-        "Nietzsche's Genealogy of Morality",
-        "Bertrand Russell",
-        "Marx",
-        "Lenin"
     ],
     "Critical theorists": [
         "Nietzsche's Genealogy of Morality",
@@ -2880,12 +3051,6 @@
         "Consequences of the Industrial Revolution",
         "The Industrial Revolution"
     ],
-    "Women mystics": [
-        "Margery Kempe and English Mysticism",
-        "Hildegard of Bingen",
-        "Simone Weil",
-        "Annie Besant"
-    ],
     "Female characters in literature": [
         "Tess of the d'Urbervilles",
         "Jane Eyre",
@@ -2898,17 +3063,17 @@
         "Robert Boyle",
         "Hobbes"
     ],
+    "Critics of Judaism": [
+        "Thomas Paine's Common Sense",
+        "Schopenhauer",
+        "Spinoza",
+        "Marx"
+    ],
     "English republicans": [
         "Thomas Paine's Common Sense",
         "Mary Wollstonecraft",
         "Mill",
         "Milton"
-    ],
-    "People associated with electricity": [
-        "Michael Faraday",
-        "Benjamin Franklin",
-        "Thomas Edison",
-        "Maxwell"
     ],
     "Pseudoscience": [
         "Perpetual motion",
@@ -2920,19 +3085,19 @@
         "Dark matter",
         "Theories of Everything",
         "Quantum Gravity",
-        "Grand unified theory"
-    ],
-    "Theoretical physics": [
-        "Dark matter",
-        "Relativity",
-        "Symmetry",
-        "Theories of Everything"
+        "Grand Unified Theory"
     ],
     "Unsolved problems in astronomy": [
         "Dark matter",
         "Dark Energy",
         "Extra Terrestrials",
         "The Universe's Shape"
+    ],
+    "Metaphysical properties": [
+        "Truth",
+        "Beauty",
+        "Consciousness",
+        "The Individual"
     ],
     "Fabulists": [
         "Kafka's The Trial",
@@ -2952,12 +3117,6 @@
         "Darwin: On the Origins of Charles Darwin",
         "Humboldt"
     ],
-    "Members of the Bavarian Academy of Sciences": [
-        "Weber's The Protestant Ethic",
-        "Humboldt",
-        "Goethe",
-        "Goethe and the Science of the Enlightenment"
-    ],
     "Geology theories": [
         "Catastrophism",
         "Plate Tectonics",
@@ -2970,34 +3129,22 @@
         "Empiricism",
         "The Examined Life"
     ],
-    "Critics of atheism": [
-        "Pascal",
-        "Edmund Burke",
-        "St Thomas Aquinas",
-        "Avicenna"
-    ],
-    "Spirituality": [
-        "Gnosticism",
-        "Neoplatonism",
-        "Shinto",
-        "Prayer"
+    "Victorian writers": [
+        "Alfred Russel Wallace",
+        "Annie Besant",
+        "Yeats and Irish Politics",
+        "Yeats and Mysticism"
     ],
     "Wars involving the United Kingdom": [
         "The War of 1812",
         "The Taiping Rebellion",
-        "The Indian Rebellion",
+        "The Indian Mutiny",
         "The Boxer Rebellion"
     ],
-    "20th-century British essayists": [
-        "Bertrand Russell",
-        "Aldous Huxley's Brave New World",
-        "Popper",
-        "Wittgenstein"
-    ],
-    "Free speech activists": [
+    "English political philosophers": [
         "Bertrand Russell",
         "Mill",
-        "Washington and the American Revolution",
+        "Hobbes",
         "Milton"
     ],
     "Freethought writers": [
@@ -3005,6 +3152,12 @@
         "David Hume",
         "Goethe",
         "Goethe and the Science of the Enlightenment"
+    ],
+    "British political philosophers": [
+        "Bertrand Russell",
+        "Edmund Burke",
+        "Popper",
+        "Mill"
     ],
     "Neuroscience": [
         "The Nervous System",
@@ -3018,17 +3171,23 @@
         "Rhetoric",
         "The Examined Life"
     ],
-    "Modernism": [
-        "Joyce's A Portrait of the Artist as a Young Man",
-        "Modernist Utopias",
-        "Existentialism",
-        "The Avant Garde's Decline and Fall in the 20th Century"
-    ],
     "Neoclassical writers": [
         "Swift's A Modest Proposal",
         "Pope",
         "The Scriblerus Club",
         "Milton"
+    ],
+    "Concepts in the philosophy of science": [
+        "The Music of the Spheres",
+        "Ockham's Razor",
+        "Time",
+        "Consciousness"
+    ],
+    "Sociological terminology": [
+        "The Social Contract",
+        "Taste",
+        "Modern Culture",
+        "Work in the 20th Century"
     ],
     "Aesthetics": [
         "Symmetry",
@@ -3048,21 +3207,267 @@
         "Happiness",
         "The Philosophy of Love"
     ],
-    "Anthropology": [
-        "Human Evolution",
-        "Archaeology and Imperialism",
-        "Masculinity in Literature",
-        "Progress"
+    "Neuropsychological assessment": [
+        "Perception and the Senses",
+        "Memory",
+        "Consciousness",
+        "Memory and Culture"
+    ],
+    "Good and evil": [
+        "Heroism",
+        "The Devil",
+        "Evil",
+        "Good and Evil"
+    ],
+    "18th-century British novels": [
+        "Fielding's Tom Jones",
+        "Tristram Shandy",
+        "Robinson Crusoe"
+    ],
+    "Alumni of Somerville College, Oxford": [
+        "Philippa Foot",
+        "Iris Murdoch",
+        "Dorothy Hodgkin"
+    ],
+    "English women philosophers": [
+        "Philippa Foot",
+        "Harriet Martineau",
+        "Mary Wollstonecraft"
+    ],
+    "Fellows of Somerville College, Oxford": [
+        "Philippa Foot",
+        "Elizabeth Anscombe",
+        "Dorothy Hodgkin"
+    ],
+    "Wittgensteinian philosophers": [
+        "Philippa Foot",
+        "Elizabeth Anscombe",
+        "Wittgenstein"
+    ],
+    "Prisoners in the Tower of London": [
+        "Sir Thomas Wyatt",
+        "Margaret of Anjou",
+        "The Death of Elizabeth I"
+    ],
+    "Protestants in the German Resistance": [
+        "Bertolt Brecht",
+        "Karl Barth",
+        "Dietrich Bonhoeffer"
+    ],
+    "German opera librettists": [
+        "Bertolt Brecht",
+        "Frederick the Great",
+        "Wagner"
+    ],
+    "Exilliteratur writers": [
+        "Bertolt Brecht",
+        "Walter Benjamin",
+        "Hannah Arendt"
+    ],
+    "Greek plays adapted into films": [
+        "Lysistrata",
+        "Oedipus Rex",
+        "The Bacchae"
+    ],
+    "Plays set in Athens": [
+        "Lysistrata",
+        "A Midsummer Night's Dream",
+        "The Oresteia"
+    ],
+    "American humanists": [
+        "Nikola Tesla",
+        "Albert Einstein",
+        "Walt Whitman"
+    ],
+    "Deaths from coronary thrombosis": [
+        "Nikola Tesla",
+        "Frederick Douglass",
+        "Darwin: On the Origins of Charles Darwin"
+    ],
+    "Members of the Serbian Academy of Sciences and Arts": [
+        "Nikola Tesla",
+        "Louis Pasteur",
+        "Tolstoy"
+    ],
+    "Mental calculators": [
+        "Nikola Tesla",
+        "Paul Erdős",
+        "Carl Friedrich Gauss"
+    ],
+    "Critics of Christianity": [
+        "Julian the Apostate",
+        "Pliny the Younger",
+        "Averroes"
+    ],
+    "Persecution of Christians": [
+        "Julian the Apostate",
+        "The Boxer Rebellion",
+        "The French Revolution's Reign of Terror"
+    ],
+    "Ancient occultists": [
+        "Julian the Apostate",
+        "Ptolemy and Ancient Astronomy",
+        "Pythagoras"
+    ],
+    "Principles": [
+        "Heisenberg's Uncertainty Principle",
+        "The Unintended Consequences of Mathematics",
+        "Laws of Nature"
+    ],
+    "Scientific laws": [
+        "Heisenberg's Uncertainty Principle",
+        "The Laws of Motion",
+        "Laws of Nature"
+    ],
+    "Sieges involving Spain": [
+        "The Sack of Rome 1527",
+        "The Siege of Tenochtitlan",
+        "The Siege of Vienna"
+    ],
+    "Novels adapted into video games": [
+        "Alice's Adventures in Wonderland",
+        "Frankenstein",
+        "Romance of the Three Kingdoms"
+    ],
+    "Novels set in one day": [
+        "Alice's Adventures in Wonderland",
+        "Mrs Dalloway",
+        "James Joyce's Ulysses"
+    ],
+    "18th-century French mathematicians": [
+        "Condorcet",
+        "Pierre-Simon Laplace",
+        "Emilie du Châtelet"
+    ],
+    "18th-century French writers": [
+        "Condorcet",
+        "Emilie du Châtelet",
+        "Lamarck and Natural Selection"
+    ],
+    "18th-century French male writers": [
+        "Condorcet",
+        "Montesquieu",
+        "Lamarck and Natural Selection"
+    ],
+    "Burials at the Panthéon, Paris": [
+        "Condorcet",
+        "Rousseau on Education",
+        "The Curies"
+    ],
+    "Shakespearean comedies": [
+        "Twelfth Night, or What You Will",
+        "A Midsummer Night's Dream",
+        "The Tempest"
+    ],
+    "1st-century Roman emperors": [
+        "Tiberius",
+        "Nero",
+        "The Augustan Age"
+    ],
+    "People in the canonical gospels": [
+        "Tiberius",
+        "The Augustan Age",
+        "The Devil"
+    ],
+    "Filioque": [
+        "Karl Barth",
+        "The Nicene Creed",
+        "The Schism"
+    ],
+    "People associated with the University of Basel": [
+        "Karl Barth",
+        "Nietzsche's Genealogy of Morality",
+        "Jung"
+    ],
+    "Surrealist writers": [
+        "Edgar Allan Poe",
+        "Joyce's A Portrait of the Artist as a Young Man",
+        "Jorge Luis Borges"
+    ],
+    "Economics books": [
+        "The Theory of the Leisure Class",
+        "The Fable of the Bees",
+        "The Wealth of Nations"
+    ],
+    "United States Marine Corps in the 18th and 19th centuries": [
+        "The Barbary Corsairs",
+        "The Mexican-American War",
+        "The Boxer Rebellion"
+    ],
+    "Works by Aristotle": [
+        "Aristotle's Nicomachean Ethics",
+        "Aristotle's Poetics",
+        "Aristotle's Politics"
+    ],
+    "French novels adapted into films": [
+        "Germinal",
+        "Voltaire's Candide",
+        "Madame Bovary"
+    ],
+    "Writers from Norwich": [
+        "Julian of Norwich",
+        "Sir Thomas Browne",
+        "Harriet Martineau"
+    ],
+    "15th-century English writers": [
+        "Julian of Norwich",
+        "Margery Kempe and English Mysticism",
+        "Caxton and the Printing Press"
+    ],
+    "Medieval English theologians": [
+        "Julian of Norwich",
+        "Alcuin",
+        "The Venerable Bede"
+    ],
+    "Works published anonymously": [
+        "The Federalist Papers",
+        "Journey to the West",
+        "Frankenstein"
+    ],
+    "20th-century American male writers": [
+        "Albert Einstein",
+        "Fritz Lang",
+        "Auden"
+    ],
+    "German agnostics": [
+        "Albert Einstein",
+        "Kant's Copernican Revolution",
+        "Hannah Arendt"
+    ],
+    "German Ashkenazi Jews": [
+        "Albert Einstein",
+        "Rosa Luxemburg",
+        "Hannah Arendt"
+    ],
+    "Jewish emigrants from Nazi Germany to the United States": [
+        "Albert Einstein",
+        "Emmy Noether",
+        "Hannah Arendt"
+    ],
+    "Nobel laureates in Physics": [
+        "Albert Einstein",
+        "Paul Dirac",
+        "The Curies"
+    ],
+    "Recipients of Franklin Medal": [
+        "Albert Einstein",
+        "Thomas Edison",
+        "Rutherford"
+    ],
+    "Stateless people": [
+        "Albert Einstein",
+        "Nietzsche's Genealogy of Morality",
+        "Marx"
     ],
     "Cambridge University Moral Sciences Club": [
         "Elizabeth Anscombe",
         "Popper",
         "Wittgenstein"
     ],
-    "Fellows of the British Academy": [
+    "British philosophers of language": [
         "Elizabeth Anscombe",
-        "Popper",
-        "The Needham Question"
+        "Bertrand Russell",
+        "Mill"
     ],
     "Presidents of the Aristotelian Society": [
         "Elizabeth Anscombe",
@@ -3089,11 +3494,6 @@
         "The Bacchae",
         "The Oresteia"
     ],
-    "1st-century BC Latin books": [
-        "Virgil's Georgics",
-        "Vitruvius and De Architectura",
-        "The Aeneid"
-    ],
     "American male journalists": [
         "Walt Whitman",
         "Frederick Douglass",
@@ -3109,6 +3509,11 @@
         "Wilfred Owen",
         "Siegfried Sassoon"
     ],
+    "House of Wessex": [
+        "Cnut",
+        "Athelstan",
+        "Alfred and the Battle of Edington"
+    ],
     "6th-century BC Greek philosophers": [
         "Solon the Lawgiver",
         "Heraclitus",
@@ -3118,11 +3523,6 @@
         "Paul Erdős",
         "Kafka's The Trial",
         "Lévi-Strauss"
-    ],
-    "Probability theorists": [
-        "Paul Erdős",
-        "Pierre-Simon Laplace",
-        "Pascal"
     ],
     "Foreign Members of the Royal Society": [
         "Paul Erdős",
@@ -3134,12 +3534,7 @@
         "Paul Dirac",
         "Emmy Noether"
     ],
-    "Social history of the United Kingdom": [
-        "Chartism",
-        "The History of the Royal Society",
-        "The Royal Society"
-    ],
-    "16th-century Latin-language writers": [
+    "16th-century writers in Latin": [
         "Tycho Brahe",
         "Johannes Kepler",
         "Erasmus"
@@ -3170,7 +3565,7 @@
         "Pauli's exclusion principle"
     ],
     "Political theories": [
-        "Rawls's Theory of Justice",
+        "Rawls' Theory of Justice",
         "Chinese Legalism",
         "Social Darwinism"
     ],
@@ -3194,11 +3589,6 @@
         "The Concordat of Worms",
         "The Diet of Worms"
     ],
-    "Royal Society": [
-        "The Challenger Expedition 1872–1876",
-        "The History of the Royal Society",
-        "The Royal Society"
-    ],
     "British Army personnel of World War I": [
         "Wilfred Owen",
         "Lawrence of Arabia",
@@ -3212,6 +3602,11 @@
     "English LGBT poets": [
         "Wilfred Owen",
         "Auden",
+        "Siegfried Sassoon"
+    ],
+    "20th-century English LGBT people": [
+        "Wilfred Owen",
+        "Alan Turing",
         "Siegfried Sassoon"
     ],
     "English writers with disabilities": [
@@ -3229,11 +3624,6 @@
         "The Time Machine",
         "Animal Farm"
     ],
-    "English novels": [
-        "Nineteen Eighty-Four",
-        "Middlemarch",
-        "Animal Farm"
-    ],
     "Novels set in London": [
         "Nineteen Eighty-Four",
         "A Christmas Carol",
@@ -3249,9 +3639,9 @@
         "Kant's Copernican Revolution",
         "Moses Mendelssohn"
     ],
-    "German male essayists": [
+    "Academic staff of the Humboldt University of Berlin": [
         "Hegel's Philosophy of History",
-        "Walter Benjamin",
+        "Weber's The Protestant Ethic",
         "Schopenhauer"
     ],
     "German idealists": [
@@ -3259,35 +3649,55 @@
         "Kant's Copernican Revolution",
         "Schopenhauer"
     ],
-    "Philosophy academics": [
-        "Hegel's Philosophy of History",
-        "Peter Kropotkin",
-        "Lévi-Strauss"
+    "8th century in China": [
+        "Tang Era Poetry",
+        "The Battle of Talas",
+        "The An Lushan Rebellion"
     ],
     "18th-century French women writers": [
         "Olympe de Gouges",
         "Emilie du Châtelet",
         "Germaine de Staël"
     ],
-    "19th-century diarists": [
-        "Polidori's The Vampyre",
-        "Thoreau and the American Idyll",
-        "Kierkegaard"
+    "French deists": [
+        "Olympe de Gouges",
+        "Pierre-Simon Laplace",
+        "Napoleon and Wellington"
     ],
-    "Social concepts": [
-        "Charisma",
-        "Freedom",
-        "Progress"
+    "18th-century French philosophers": [
+        "Olympe de Gouges",
+        "Emilie du Châtelet",
+        "Montesquieu"
+    ],
+    "Women in the French Revolution": [
+        "Olympe de Gouges",
+        "Marie Antoinette",
+        "Germaine de Staël"
     ],
     "Religious terminology": [
         "Charisma",
         "Miracles",
         "Redemption"
     ],
+    "Social concepts": [
+        "Charisma",
+        "Freedom",
+        "Progress"
+    ],
     "Sanskrit texts": [
-        "Arthashastra",
+        "The Arthashastra",
         "The Upanishads",
         "The Bhagavad Gita"
+    ],
+    "19th-century essayists": [
+        "Peter Kropotkin",
+        "Kierkegaard",
+        "Tolstoy"
+    ],
+    "19th-century non-fiction writers from the Russian Empire": [
+        "Peter Kropotkin",
+        "Chekhov",
+        "Tolstoy"
     ],
     "Anarchist writers": [
         "Peter Kropotkin",
@@ -3299,30 +3709,10 @@
         "Chekhov",
         "Lenin"
     ],
-    "Shakespearean tragedies": [
-        "Romeo and Juliet",
-        "Macbeth",
-        "Hamlet"
-    ],
     "Plays adapted into radio programs": [
         "Romeo and Juliet",
         "Hamlet",
         "The Tempest"
-    ],
-    "20th-century German non-fiction writers": [
-        "Walter Benjamin",
-        "Hannah Arendt",
-        "Hitler in History"
-    ],
-    "German Marxist writers": [
-        "Walter Benjamin",
-        "Rosa Luxemburg",
-        "Marx"
-    ],
-    "Jewish socialists": [
-        "Walter Benjamin",
-        "Rosa Luxemburg",
-        "Kafka's The Trial"
     ],
     "20th-century French women writers": [
         "Colette",
@@ -3334,20 +3724,10 @@
         "Simone de Beauvoir",
         "Oscar Wilde"
     ],
-    "French bisexual writers": [
-        "Colette",
-        "George Sand",
-        "Simone de Beauvoir"
-    ],
-    "French LGBT novelists": [
-        "Colette",
-        "Simone de Beauvoir",
-        "Proust"
-    ],
-    "Philosophical pessimists": [
+    "19th-century English novelists": [
         "Thomas Hardy's Poetry",
-        "Samuel Beckett",
-        "Jorge Luis Borges"
+        "Fanny Burney",
+        "Dickens"
     ],
     "Ancient Syria": [
         "The Hittites",
@@ -3363,6 +3743,11 @@
         "The Hittites",
         "The Phoenicians",
         "The Arab Conquests"
+    ],
+    "Chapman & Hall books": [
+        "A Christmas Carol",
+        "North and South",
+        "Decline and Fall"
     ],
     "Ancient Athenian philosophers": [
         "Plato's Gorgias",
@@ -3415,14 +3800,9 @@
         "Siegfried Sassoon"
     ],
     "Former countries in Europe": [
-        "Polish–Lithuanian Commonwealth",
+        "The Polish-Lithuanian Commonwealth",
         "The Roman Republic",
         "Byzantium"
-    ],
-    "Works published under a pseudonym": [
-        "The Tenant of Wildfell Hall",
-        "Wuthering Heights",
-        "Jane Eyre"
     ],
     "Epistolary novels": [
         "The Tenant of Wildfell Hall",
@@ -3449,30 +3829,35 @@
         "Mary Astell",
         "Pope"
     ],
+    "Alumni of Magdalen College, Oxford": [
+        "Edward Gibbon",
+        "Lawrence of Arabia",
+        "Oscar Wilde"
+    ],
     "British social reformers": [
         "Booth's Life and Labour Survey",
         "Octavia Hill",
         "Dickens"
+    ],
+    "German epistemologists": [
+        "Kant's Copernican Revolution",
+        "Nietzsche's Genealogy of Morality",
+        "Schopenhauer"
     ],
     "German nationalists": [
         "Kant's Copernican Revolution",
         "Weber's The Protestant Ethic",
         "Bismarck"
     ],
-    "German philosophers": [
-        "Kant's Copernican Revolution",
-        "Goethe",
-        "Goethe and the Science of the Enlightenment"
-    ],
     "Humor researchers": [
         "Kant's Copernican Revolution",
         "Benjamin Franklin",
         "Joyce's A Portrait of the Artist as a Young Man"
     ],
-    "Picaresque novels": [
-        "Journey to the West",
-        "Tristram Shandy",
-        "Voltaire's Candide"
+    "Lecturers": [
+        "Kant's Copernican Revolution",
+        "Jorge Luis Borges",
+        "Dickens"
     ],
     "Pigs in literature": [
         "Journey to the West",
@@ -3494,11 +3879,6 @@
         "Emilie du Châtelet",
         "Pascal"
     ],
-    "Theoretical physicists": [
-        "Pierre-Simon Laplace",
-        "Paul Dirac",
-        "Maxwell"
-    ],
     "Wars involving Japan": [
         "The Russo-Japanese War",
         "The Sino-Japanese War",
@@ -3513,6 +3893,11 @@
         "David Ricardo",
         "Harriet Martineau",
         "John Ruskin"
+    ],
+    "English Unitarians": [
+        "David Ricardo",
+        "Harriet Martineau",
+        "Mary Wollstonecraft"
     ],
     "Extinction events": [
         "The Late Devonian Extinction",
@@ -3534,16 +3919,6 @@
         "Cicero",
         "Pliny's Natural History"
     ],
-    "Roman philhellenes": [
-        "Marcus Aurelius",
-        "Nero",
-        "Horace"
-    ],
-    "Roman pharaohs": [
-        "Marcus Aurelius",
-        "Nero",
-        "The Augustan Age"
-    ],
     "Contributors to the Encyclopédie (1751–1772)": [
         "Emilie du Châtelet",
         "Rousseau on Education",
@@ -3554,8 +3929,13 @@
         "St Hilda",
         "The Venerable Bede"
     ],
+    "Miracle workers": [
+        "Saint Cuthbert",
+        "St Paul",
+        "The Buddha"
+    ],
     "Metafictional novels": [
-        "Great Gatsby",
+        "The Great Gatsby",
         "Tristram Shandy",
         "Don Quixote"
     ],
@@ -3569,20 +3949,25 @@
         "Auden",
         "John Ruskin"
     ],
-    "English diarists": [
+    "English evangelicals": [
+        "John Wesley and Methodism",
+        "George Fox and the Quakers",
+        "Wyclif and the Lollards"
+    ],
+    "English pamphleteers": [
         "John Wesley and Methodism",
         "Fanny Burney",
-        "Siegfried Sassoon"
-    ],
-    "German–English translators": [
-        "John Wesley and Methodism",
-        "Edith Wharton",
-        "Mary Wollstonecraft"
+        "Swift's A Modest Proposal"
     ],
     "Founders of English schools and colleges": [
         "John Wesley and Methodism",
         "Mary Wollstonecraft",
         "The Death of Elizabeth I"
+    ],
+    "German–English translators": [
+        "John Wesley and Methodism",
+        "Edith Wharton",
+        "Mary Wollstonecraft"
     ],
     "Artist authors": [
         "Albrecht Dürer",
@@ -3593,6 +3978,11 @@
         "Mary Astell",
         "David Hume",
         "Mary Wollstonecraft"
+    ],
+    "English educational theorists": [
+        "Mary Astell",
+        "Mary Wollstonecraft",
+        "Milton"
     ],
     "English women activists": [
         "Mary Astell",
@@ -3612,22 +4002,17 @@
     "Nobility from Vienna": [
         "Maria Theresa",
         "Marie Antoinette",
-        "Rudolf II"
-    ],
-    "18th-century letter writers": [
-        "Maria Theresa",
-        "Germaine de Staël",
-        "Benjamin Franklin"
+        "Rudolph II"
     ],
     "20th-century English mathematicians": [
         "Alan Turing",
         "Paul Dirac",
         "Bertrand Russell"
     ],
-    "20th-century English philosophers": [
+    "Castrated people": [
         "Alan Turing",
-        "Bertrand Russell",
-        "Aldous Huxley's Brave New World"
+        "The Eunuch",
+        "Abelard and Heloise"
     ],
     "English logicians": [
         "Alan Turing",
@@ -3639,11 +4024,6 @@
         "Annie Besant",
         "Edmund Burke"
     ],
-    "Castrated people": [
-        "Alan Turing",
-        "The Eunuch",
-        "Abelard and Heloise"
-    ],
     "5th-century BC Athenians": [
         "Pericles",
         "Thucydides",
@@ -3654,35 +4034,20 @@
         "Thucydides",
         "Xenophon"
     ],
-    "Academic staff of the University of Göttingen": [
+    "English emigrants to the United States": [
         "Paul Dirac",
-        "Emmy Noether",
-        "Carl Friedrich Gauss"
+        "Auden",
+        "Aldous Huxley's Brave New World"
     ],
     "History of indigenous peoples of the Americas": [
         "Valladolid Debate",
         "The Inca",
         "The War of 1812"
     ],
-    "19th-century letter writers": [
-        "George Sand",
-        "Germaine de Staël",
-        "Dickens"
-    ],
     "Christian hagiographers": [
         "Alcuin",
         "Gerald of Wales",
         "The Venerable Bede"
-    ],
-    "1st-century BC Romans": [
-        "Catullus",
-        "Horace",
-        "Spartacus"
-    ],
-    "Bisexual poets": [
-        "Catullus",
-        "Siegfried Sassoon",
-        "Oscar Wilde"
     ],
     "English literary critics": [
         "Auden",
@@ -3693,6 +4058,11 @@
         "Auden",
         "Yeats and Irish Politics",
         "Yeats and Mysticism"
+    ],
+    "20th-century translators": [
+        "Lawrence of Arabia",
+        "Anna Akhmatova",
+        "Jorge Luis Borges"
     ],
     "Knights of the Legion of Honour": [
         "Lawrence of Arabia",
@@ -3714,7 +4084,7 @@
         "Al-Ghazali",
         "Ibn Khaldun"
     ],
-    "Hypochondriacs": [
+    "People with hypochondriasis": [
         "Rousseau on Education",
         "Pascal",
         "Proust"
@@ -3724,15 +4094,10 @@
         "The Curies",
         "Rutherford"
     ],
-    "17th-century Christian mystics": [
-        "Sir Thomas Browne",
-        "Pascal",
-        "George Fox and the Quakers"
-    ],
-    "American people of English descent": [
+    "Activists for African-American civil rights": [
         "President Ulysses S Grant",
-        "Benjamin Franklin",
-        "Thomas Edison"
+        "Frederick Douglass",
+        "Benjamin Franklin"
     ],
     "American slave owners": [
         "President Ulysses S Grant",
@@ -3764,6 +4129,11 @@
         "Lévi-Strauss",
         "Proust"
     ],
+    "French epistemologists": [
+        "Bergson and Time",
+        "Lévi-Strauss",
+        "Sartre"
+    ],
     "Religion and politics": [
         "The Gordon Riots",
         "The Divine Right of Kings",
@@ -3773,6 +4143,11 @@
         "Nero",
         "Wyclif and the Lollards",
         "Akhenaten"
+    ],
+    "Invasions of England": [
+        "The Danelaw",
+        "The Spanish Armada",
+        "The Glorious Revolution"
     ],
     "Scholars of Trinity College Dublin": [
         "Samuel Beckett",
@@ -3794,6 +4169,11 @@
         "Joyce's A Portrait of the Artist as a Young Man",
         "Oscar Wilde"
     ],
+    "French Resistance members": [
+        "Samuel Beckett",
+        "Simone Weil",
+        "Sartre"
+    ],
     "Burials at Montparnasse Cemetery": [
         "Samuel Beckett",
         "Simone de Beauvoir",
@@ -3809,7 +4189,7 @@
         "The Magna Carta",
         "The Lindisfarne Gospels"
     ],
-    "French queens consort": [
+    "Queens consort of France": [
         "Marie Antoinette",
         "Mary, Queen of Scots",
         "Eleanor of Aquitaine"
@@ -3834,16 +4214,6 @@
         "The Riddle of the Sands",
         "The Odyssey"
     ],
-    "Botanical illustrators": [
-        "William Morris",
-        "Hokusai",
-        "Alfred Russel Wallace"
-    ],
-    "Libertarian socialists": [
-        "William Morris",
-        "Camus",
-        "Sartre"
-    ],
     "Mythopoeic writers": [
         "William Morris",
         "Rudyard Kipling",
@@ -3854,47 +4224,27 @@
         "The California Gold Rush",
         "The War of 1812"
     ],
-    "Wars involving the United States": [
-        "The Mexican-American War",
-        "The War of 1812",
-        "The Boxer Rebellion"
-    ],
-    "Perception": [
-        "Echolocation",
-        "Perception and the Senses",
-        "Time"
-    ],
-    "Historical transcontinental empires": [
-        "The Almoravid Empire",
-        "The British Empire",
-        "Byzantium"
-    ],
     "Former empires in Africa": [
         "The Almoravid Empire",
         "The Empire of Mali",
         "The Rise and Fall of the Zulu Nation"
-    ],
-    "Novels set in England": [
-        "Middlemarch",
-        "Emma",
-        "Voltaire's Candide"
     ],
     "19th-century British inventors": [
         "George and Robert Stephenson",
         "Brunel",
         "Ada Lovelace"
     ],
-    "French sociologists": [
-        "Tocqueville: Democracy in America",
-        "Lévi-Strauss",
-        "Sartre"
+    "Prose texts in Latin": [
+        "Augustine's Confessions",
+        "Justinian's Legal Code",
+        "The Consolations of Philosophy"
     ],
     "Military theorists": [
         "Sun Tzu and The Art of War",
         "Clausewitz and On War",
         "Machiavelli and the Italian City States"
     ],
-    "Latin letter writers": [
+    "Letter writers in Latin": [
         "Cicero",
         "Seneca the Younger",
         "Pliny the Younger"
@@ -3919,11 +4269,6 @@
         "Michael Faraday",
         "Maxwell"
     ],
-    "French feminists": [
-        "Germaine de Staël",
-        "Simone de Beauvoir",
-        "Simone Weil"
-    ],
     "City founders": [
         "Constantine the Great",
         "Alexander the Great",
@@ -3944,12 +4289,17 @@
         "Aristotle's Politics",
         "The Oresteia"
     ],
+    "Limbo": [
+        "Purgatory",
+        "Dante's Inferno",
+        "Abelard and Heloise"
+    ],
     "Grand Cross of the Legion of Honour": [
         "Louis Pasteur",
         "Lévi-Strauss",
         "Bismarck"
     ],
-    "13th-century Latin writers": [
+    "13th-century writers in Latin": [
         "Roger Bacon",
         "Gerald of Wales",
         "St Thomas Aquinas"
@@ -3958,11 +4308,6 @@
         "Roger Bacon",
         "Maimonides",
         "St Thomas Aquinas"
-    ],
-    "European democratic socialists": [
-        "Rosa Luxemburg",
-        "Bertrand Russell",
-        "Mill"
     ],
     "German revolutionaries": [
         "Rosa Luxemburg",
@@ -3999,10 +4344,10 @@
         "Heraclitus",
         "Jorge Luis Borges"
     ],
-    "19th-century British philosophers": [
+    "19th-century English philosophers": [
         "Harriet Martineau",
-        "Mill",
-        "John Ruskin"
+        "Bertrand Russell",
+        "Mill"
     ],
     "British women essayists": [
         "Harriet Martineau",
@@ -4014,14 +4359,14 @@
         "Annie Besant",
         "Mill"
     ],
-    "Renaissance": [
-        "The 12th Century Renaissance",
-        "Renaissance Magic",
-        "The Renaissance"
+    "Victorian women writers": [
+        "Harriet Martineau",
+        "Annie Besant",
+        "Christina Rossetti"
     ],
     "History of science by discipline": [
         "The Invention of Photography",
-        "History of logic",
+        "Logic",
         "Renaissance Maths"
     ],
     "Sovereignty": [
@@ -4044,19 +4389,9 @@
         "The Permian-Triassic Boundary",
         "The KT Boundary"
     ],
-    "Julii Caesares": [
-        "Agrippina the Younger",
-        "Julius Caesar",
-        "The Augustan Age"
-    ],
-    "Organisations based in London with royal patronage": [
-        "Bedlam",
-        "The History of the Royal Society",
-        "The Royal Society"
-    ],
     "2nd-millennium BC establishments": [
         "The Maya Civilization",
-        "The Dawn of the Iron Age",
+        "The Iron Age",
         "Babylon"
     ],
     "Chartered companies": [
@@ -4064,14 +4399,9 @@
         "The South Sea Bubble",
         "The East India Company"
     ],
-    "18th-century English people": [
+    "19th-century American philosophers": [
         "Thomas Paine's Common Sense",
-        "Voyages of James Cook",
-        "Wilberforce"
-    ],
-    "American abolitionists": [
-        "Thomas Paine's Common Sense",
-        "Benjamin Franklin",
+        "William James's The Varieties of Religious Experience",
         "Thoreau and the American Idyll"
     ],
     "American deists": [
@@ -4079,10 +4409,15 @@
         "Benjamin Franklin",
         "Thomas Edison"
     ],
-    "Critics of Judaism": [
+    "American philosophers of culture": [
         "Thomas Paine's Common Sense",
-        "Schopenhauer",
-        "Spinoza"
+        "Benjamin Franklin",
+        "Thoreau and the American Idyll"
+    ],
+    "American philosophers of religion": [
+        "Thomas Paine's Common Sense",
+        "Benjamin Franklin",
+        "William James's The Varieties of Religious Experience"
     ],
     "Arthurian characters": [
         "Tristan and Iseult",
@@ -4099,16 +4434,6 @@
         "Christina Rossetti",
         "Marx"
     ],
-    "Unsolved problems in computer science": [
-        "P v NP",
-        "Artificial Intelligence",
-        "Artificial Intelligence"
-    ],
-    "Feminist philosophers": [
-        "Simone de Beauvoir",
-        "Mary Wollstonecraft",
-        "Mill"
-    ],
     "French communists": [
         "Simone de Beauvoir",
         "Simone Weil",
@@ -4119,6 +4444,16 @@
         "Bertrand Russell",
         "Jorge Luis Borges"
     ],
+    "French philosophers of art": [
+        "Simone de Beauvoir",
+        "Sartre",
+        "Proust"
+    ],
+    "Socialist feminists": [
+        "Simone de Beauvoir",
+        "Marx",
+        "Lenin"
+    ],
     "German Freemasons": [
         "Frederick the Great",
         "Goethe",
@@ -4128,11 +4463,6 @@
         "Extremophiles",
         "The Origins of Life",
         "Extra Terrestrials"
-    ],
-    "Classical liberalism": [
-        "Utilitarianism",
-        "Wealth of Nations",
-        "The Physiocrats"
     ],
     "Knights Bachelor": [
         "Rabindranath Tagore",
@@ -4159,27 +4489,22 @@
         "Al-Biruni",
         "Ibn Khaldun"
     ],
-    "Phenomenology": [
-        "Phenomenology",
-        "Consciousness",
-        "The Brain and Consciousness"
+    "Ancient history of Afghanistan": [
+        "Ashoka the Great",
+        "The Silk Road",
+        "The Sassanid Empire"
     ],
     "20th-century deaths from tuberculosis": [
         "Kafka's The Trial",
         "Chekhov",
         "Simone Weil"
     ],
-    "Weird fiction writers": [
-        "Kafka's The Trial",
-        "Rudyard Kipling",
-        "Jorge Luis Borges"
-    ],
     "Lycée Henri-IV alumni": [
         "Brunel",
         "Simone Weil",
         "Sartre"
     ],
-    "12th-century Latin writers": [
+    "12th-century writers in Latin": [
         "Hildegard of Bingen",
         "Gerald of Wales",
         "Abelard and Heloise"
@@ -4194,20 +4519,15 @@
         "Bishop Berkeley",
         "Swift's A Modest Proposal"
     ],
-    "17th-century English philosophers": [
-        "Robert Boyle",
-        "Hobbes",
-        "Milton"
-    ],
-    "Roman-era geographers": [
+    "Ancient Roman geographers": [
         "Strabo's Geographica",
         "Ptolemy and Ancient Astronomy",
         "Pliny's Natural History"
     ],
-    "Continental philosophers": [
+    "University of Strasbourg alumni": [
         "Weber's The Protestant Ethic",
-        "Simone Weil",
-        "Sartre"
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
     ],
     "Anglican philosophers": [
         "Bishop Berkeley",
@@ -4229,20 +4549,10 @@
         "Malthusianism",
         "Progress"
     ],
-    "History of Earth science": [
-        "Catastrophism",
-        "Early Geology",
-        "Ageing the Earth"
-    ],
     "Complex systems theory": [
         "Complexity",
         "The Unintended Consequences of Mathematics",
         "Chaos Theory"
-    ],
-    "Imperialism": [
-        "The Berlin Conference",
-        "Cultural Imperialism",
-        "The British Empire"
     ],
     "History of the Church of England": [
         "The Book of Common Prayer",
@@ -4253,6 +4563,11 @@
         "The Book of Common Prayer",
         "Wyclif and the Lollards",
         "Foxe's Book of Martyrs"
+    ],
+    "Court physicians": [
+        "Galen",
+        "Maimonides",
+        "Avicenna"
     ],
     "French Roman Catholic writers": [
         "Pascal",
@@ -4269,11 +4584,6 @@
         "Goethe",
         "Goethe and the Science of the Enlightenment"
     ],
-    "Gnosticism": [
-        "Gnosticism",
-        "The Fall",
-        "Catharism"
-    ],
     "Western esotericism": [
         "Gnosticism",
         "Neoplatonism",
@@ -4289,15 +4599,15 @@
         "Bertrand Russell",
         "Tolstoy"
     ],
-    "Victorian writers": [
-        "Alfred Russel Wallace",
-        "Yeats and Irish Politics",
-        "Yeats and Mysticism"
-    ],
     "Materialism": [
         "Epicureanism",
         "Materialism",
         "Materialism and the Consumer"
+    ],
+    "19th-century English essayists": [
+        "Bertrand Russell",
+        "Mill",
+        "Dickens"
     ],
     "Alumni of Trinity College, Cambridge": [
         "Bertrand Russell",
@@ -4314,11 +4624,6 @@
         "Mill",
         "Machiavelli and the Italian City States"
     ],
-    "English political philosophers": [
-        "Bertrand Russell",
-        "Mill",
-        "Hobbes"
-    ],
     "English political writers": [
         "Bertrand Russell",
         "Swift's A Modest Proposal",
@@ -4329,15 +4634,15 @@
         "Rutherford",
         "Wittgenstein"
     ],
+    "British free speech activists": [
+        "Bertrand Russell",
+        "Mill",
+        "Milton"
+    ],
     "Linguistic turn": [
         "Bertrand Russell",
         "Logical Positivism",
         "Wittgenstein"
-    ],
-    "Nonviolence advocates": [
-        "Bertrand Russell",
-        "Simone Weil",
-        "Tolstoy"
     ],
     "Epistemological theories": [
         "Scepticism",
@@ -4354,6 +4659,11 @@
         "Al-Biruni",
         "Avicenna"
     ],
+    "New Age predecessors": [
+        "Annie Besant",
+        "Aldous Huxley's Brave New World",
+        "Jung"
+    ],
     "German untitled nobility": [
         "Clausewitz and On War",
         "Goethe",
@@ -4363,6 +4673,11 @@
         "Game Theory",
         "Artificial Intelligence",
         "Artificial Intelligence"
+    ],
+    "Civil wars in China": [
+        "The An Lushan Rebellion",
+        "The Taiping Rebellion",
+        "China's Warring States period"
     ],
     "Counter-Reformation": [
         "Erasmus",
@@ -4379,15 +4694,30 @@
         "Consequences of the Industrial Revolution",
         "The Industrial Revolution"
     ],
+    "Democratization": [
+        "1848: Year of Revolution",
+        "The Magna Carta",
+        "The French Revolution's Legacy"
+    ],
     "5th-century BC Greek philosophers": [
         "Heraclitus",
         "Pythagoras",
         "Socrates"
     ],
+    "18th-century British essayists": [
+        "David Hume",
+        "Mary Wollstonecraft",
+        "Pope"
+    ],
     "Criticism of rationalism": [
         "David Hume",
         "Sturm und Drang",
         "Existentialism"
+    ],
+    "Philosophy of religion": [
+        "Free Will(500th programme)",
+        "Miracles",
+        "Science and Religion"
     ],
     "Big Bang": [
         "The Age of the Universe",
@@ -4399,15 +4729,20 @@
         "Epistolary Literature",
         "Rhetoric"
     ],
+    "Revolution-based civil wars": [
+        "The Mexican Revolution",
+        "The Spanish Civil War",
+        "The French Revolution's Legacy"
+    ],
     "Founding monarchs": [
         "Athelstan",
         "The Augustan Age",
         "Genghis Khan"
     ],
-    "British political philosophers": [
+    "Critics of deism": [
+        "Al-Biruni",
         "Edmund Burke",
-        "Popper",
-        "Mill"
+        "Averroes"
     ],
     "Humanities": [
         "Roman Satire",
@@ -4419,35 +4754,35 @@
         "Elizabethan Revenge",
         "Tragedy"
     ],
+    "Animal anatomy": [
+        "The Infant Brain",
+        "Metamorphosis",
+        "The Brain and Consciousness"
+    ],
+    "Organs (anatomy)": [
+        "The Infant Brain",
+        "The Heart",
+        "The Brain and Consciousness"
+    ],
     "Cultural studies": [
         "The Frankfurt School",
         "Cultural Imperialism",
         "Cultural rights in the 20th Century"
-    ],
-    "1660 establishments in England": [
-        "The History of the Royal Society",
-        "The Royal Society",
-        "The Restoration"
-    ],
-    "Philosophers of pessimism": [
-        "Schopenhauer",
-        "Camus",
-        "Jorge Luis Borges"
     ],
     "Epistemology of science": [
         "Logical Positivism",
         "Ockham's Razor",
         "Progress"
     ],
+    "20th-century British essayists": [
+        "Aldous Huxley's Brave New World",
+        "Popper",
+        "Wittgenstein"
+    ],
     "20th-century mystics": [
         "Aldous Huxley's Brave New World",
         "Jorge Luis Borges",
         "Proust"
-    ],
-    "Looting": [
-        "The Boxer Rebellion",
-        "Carthage's Destruction",
-        "Constantinople Siege and Fall"
     ],
     "German librarians": [
         "The Brothers Grimm",
@@ -4489,20 +4824,20 @@
         "Carbon",
         "Chemical elements"
     ],
-    "Deaths from stomach cancer": [
+    "Bisexual male writers": [
         "Siegfried Sassoon",
-        "Maxwell",
-        "Napoleon and Wellington"
+        "Wittgenstein",
+        "Oscar Wilde"
     ],
     "Applied and interdisciplinary physics": [
         "Optics",
         "Meteorology",
         "Oceanography"
     ],
-    "British agnostics": [
-        "Popper",
-        "Mill",
-        "Wittgenstein"
+    "Blind writers": [
+        "Jorge Luis Borges",
+        "Sartre",
+        "Milton"
     ],
     "German travel writers": [
         "Humboldt",
@@ -4524,6 +4859,11 @@
         "Wagner",
         "Goethe and the Science of the Enlightenment"
     ],
+    "19th-century German historians": [
+        "Goethe",
+        "Marx",
+        "Goethe and the Science of the Enlightenment"
+    ],
     "Leaders who took power by coup": [
         "Catherine the Great",
         "Napoleon and Wellington",
@@ -4534,11 +4874,6 @@
         "Chaos Theory",
         "Artificial Intelligence"
     ],
-    "Emerging technologies": [
-        "Artificial Intelligence",
-        "Artificial Intelligence",
-        "Genetic Engineering"
-    ],
     "Sources of knowledge": [
         "Perception and the Senses",
         "Memory",
@@ -4548,11 +4883,6 @@
         "The Mind/Body Problem",
         "Imagination",
         "Imagination and Consciousness"
-    ],
-    "Good and evil": [
-        "Heroism",
-        "Evil",
-        "Good and Evil"
     ],
     "Christendom": [
         "The Schism",
@@ -4582,19 +4912,12 @@
         "Swift's A Modest Proposal",
         "Dickens"
     ],
-    "English feminists, English feminist writers": [
+    "English feminist writers, English feminists": [
         "Mary Astell",
         "Aphra Behn",
         "Annie Besant",
         "Mary Wollstonecraft",
         "Mill"
-    ],
-    "English Nobel laureates, British Nobel laureates": [
-        "Paul Dirac",
-        "Dorothy Hodgkin",
-        "Rudyard Kipling",
-        "Bertrand Russell",
-        "Rutherford"
     ],
     "Irish male dramatists and playwrights, Irish expatriates in France": [
         "Samuel Beckett",
@@ -4603,13 +4926,44 @@
         "Yeats and Mysticism",
         "Oscar Wilde"
     ],
+    "Organisations based in London with royal patronage, Scientific organizations established in 1660, National academies of sciences, Learned societies of the United Kingdom, Professional associations based in the United Kingdom, Organizations associated with the COVID-19 pandemic, Members of the International Council for Science, Non-profit organisations based in London, Members of the International Science Council": [
+        "The Royal Society and British Science: Episode 4",
+        "The Royal Society and British Science: Episode 3",
+        "The Royal Society and British Science: Episode 2",
+        "The Royal Society and British Science: Episode 1",
+        "The Royal Society"
+    ],
+    "French sociologists, French philosophers of culture": [
+        "Condorcet",
+        "Tocqueville: Democracy in America",
+        "Lévi-Strauss",
+        "Sartre"
+    ],
+    "American male poets, American male essayists": [
+        "Edgar Allan Poe",
+        "Walt Whitman",
+        "Auden",
+        "Thoreau and the American Idyll"
+    ],
+    "18th-century essayists, 18th-century German philosophers": [
+        "Hegel's Philosophy of History",
+        "Kant's Copernican Revolution",
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "German philosophers of mind, German philosophers of religion": [
+        "Hegel's Philosophy of History",
+        "Kant's Copernican Revolution",
+        "Nietzsche's Genealogy of Morality",
+        "Schopenhauer"
+    ],
     "English Roman Catholic saints, History of Catholicism in England": [
         "Saint Cuthbert",
         "Thomas Becket",
         "St Hilda",
         "The Venerable Bede"
     ],
-    "20th-century Irish dramatists and playwrights, 20th-century Irish poets, 20th-century Irish male writers": [
+    "20th-century Irish poets, 20th-century Irish male writers, 20th-century Irish dramatists and playwrights": [
         "Samuel Beckett",
         "Joyce's A Portrait of the Artist as a Young Man",
         "Yeats and Irish Politics",
@@ -4627,38 +4981,53 @@
         "Shakespeare's Work",
         "Shakespeare and Literary Criticism"
     ],
-    "American male essayists, American male poets": [
+    "Terrestrial planets, Planets of the Solar System": [
+        "Mercury",
+        "Venus",
+        "Mars"
+    ],
+    "German male poets, German male dramatists and playwrights": [
+        "Bertolt Brecht",
+        "Goethe",
+        "Goethe and the Science of the Enlightenment"
+    ],
+    "Former monopolies, Trade monopolies": [
+        "The Hanseatic League",
+        "The Dutch East India Company",
+        "The East India Company"
+    ],
+    "19th-century American novelists, Novelists from New York (state)": [
+        "Edgar Allan Poe",
         "Walt Whitman",
-        "Auden",
-        "Thoreau and the American Idyll"
+        "Edith Wharton"
     ],
-    "Monarchs of England before 1066, House of Wessex": [
-        "Cnut",
-        "Athelstan",
-        "Alfred and the Battle of Edington"
-    ],
-    "18th-century educators, 19th-century historians, 18th-century historians": [
+    "18th-century German educators, 18th-century historians, 19th-century German educators, 19th-century historians": [
         "Hegel's Philosophy of History",
         "Goethe",
         "Goethe and the Science of the Enlightenment"
     ],
-    "19th-century French women writers, 19th-century French novelists": [
+    "19th-century French novelists, 19th-century French women writers": [
         "Colette",
         "George Sand",
         "Germaine de Staël"
+    ],
+    "French bisexual women, French bisexual writers": [
+        "Colette",
+        "George Sand",
+        "Simone de Beauvoir"
     ],
     "Ancient Greek epistemologists, Ancient Greek ethicists": [
         "Plato's Gorgias",
         "Heraclitus",
         "Socrates"
     ],
-    "Members of the Parliament of Great Britain for English constituencies, British MPs 1780–1784": [
+    "British MPs 1780–1784, Members of the Parliament of Great Britain for English constituencies": [
         "Edward Gibbon",
         "Edmund Burke",
         "Wilberforce"
     ],
-    "American novels adapted into television shows, American novels adapted into plays, American novels adapted into films": [
-        "Great Gatsby",
+    "American novels adapted into films, American novels adapted into plays, American novels adapted into television shows": [
+        "The Great Gatsby",
         "Moby Dick",
         "Uncle Tom's Cabin"
     ],
@@ -4667,7 +5036,7 @@
         "Hatshepsut",
         "Akhenaten"
     ],
-    "William III of England, Mary II of England": [
+    "Mary II, William III of England": [
         "The Treaty of Limerick",
         "The Glencoe Massacre",
         "The Glorious Revolution"
@@ -4677,12 +5046,12 @@
         "Yeats and Irish Politics",
         "Yeats and Mysticism"
     ],
-    "1st-century BC Roman augurs, 1st-century BC Roman consuls": [
+    "1st-century BC Roman consuls, 1st-century BC Roman augurs": [
         "Cicero",
         "Julius Caesar",
         "The Augustan Age"
     ],
-    "Founding Fathers of the United States, 18th-century American writers, People of the American Enlightenment": [
+    "People of the American Enlightenment, Founding Fathers of the United States, 18th-century American writers": [
         "Thomas Paine's Common Sense",
         "Benjamin Franklin",
         "Washington and the American Revolution"
@@ -4692,42 +5061,32 @@
         "Thomas Edison",
         "Rutherford"
     ],
-    "Bosons, Force carriers": [
+    "Force carriers, Bosons": [
         "The Photon",
         "The Graviton",
         "Higgs Boson"
     ],
-    "Ancient history of Pakistan, Ancient history of Afghanistan": [
-        "Ashoka the Great",
-        "The Silk Road",
-        "The Sassanid Empire"
-    ],
-    "18th-century Irish writers, 18th-century Irish male writers, 18th-century Anglo-Irish people": [
+    "18th-century Anglo-Irish people, 18th-century Irish writers, 18th-century Irish male writers": [
         "Bishop Berkeley",
         "Edmund Burke",
         "Swift's A Modest Proposal"
     ],
-    "French anti-fascists, French anti-capitalists": [
+    "French anti-capitalists, French anti-fascists, French anarchists": [
         "Simone Weil",
         "Camus",
         "Sartre"
     ],
-    "Johann Wolfgang von Goethe, Sturm und Drang": [
+    "Sturm und Drang, Johann Wolfgang von Goethe": [
         "Sturm und Drang",
         "Goethe",
         "Goethe and the Science of the Enlightenment"
     ],
-    "Symbolist dramatists and playwrights, 19th-century Irish poets, 19th-century Irish dramatists and playwrights": [
+    "19th-century Irish poets, Symbolist dramatists and playwrights, 19th-century Irish dramatists and playwrights": [
         "Yeats and Irish Politics",
         "Yeats and Mysticism",
         "Oscar Wilde"
     ],
-    "Metaphysics of mind, Consciousness": [
-        "The Mind/Body Problem",
-        "Consciousness",
-        "The Brain and Consciousness"
-    ],
-    "People from Stratford-upon-Avon, Shakespeare family, 16th-century English male actors, William Shakespeare, English male stage actors, Burials in Warwickshire, People educated at King Edward VI School, Stratford-upon-Avon, King's Men (playing company), 17th-century English male actors": [
+    "English male stage actors, King's Men (playing company), Male actors from Stratford-upon-Avon, 16th-century English male actors, 17th-century English male actors, People educated at King Edward VI School, Stratford-upon-Avon, Writers from Warwickshire, William Shakespeare, Shakespeare family, Burials in Warwickshire": [
         "Shakespeare's Life",
         "Shakespeare's Work",
         "Shakespeare and Literary Criticism"

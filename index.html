@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
-    <meta name="description" content="" />
+    <meta name="description" content="An index of In Our Time episodes and their associated Wikipedia pages." />
     <meta property="og:url" content="h" />
     <meta property="og:title" content="in our time" />
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="An index of In Our Time episodes and their associated Wikipedia pages." />
     <meta name="theme-color" content="#000">
     <title>in our time</title>
     <link rel="stylesheet" type="text/css" href="./client/css/common.02.css" />
-    <link rel="stylesheet" type="text/css" href="./client/css/index.02.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/index.03.css" />
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
     <script src="client/util.js"></script>
 
@@ -114,10 +114,12 @@
 
             document.getElementById('episodes').innerHTML = '';
 
-            document.getElementById('first-page').disabled = state.start === 0;
-            document.getElementById('prev-page').disabled = state.start === 0;
-            document.getElementById('next-page').disabled = state.end >= filtered.length - 1;
-            document.getElementById('last-page').disabled = state.end >= filtered.length - 1;
+            document.querySelectorAll('.first-page, .prev-page').forEach(el => {
+                el.disabled = state.start === 0
+            })
+            document.querySelectorAll('.last-page, .next-page').forEach(el => {
+                el.disabled = state.end >= filtered.length - 1
+            })
 
             window.location.hash = state.start > 0 ? `page=${Math.floor(state.start / PAGE_SIZE)}` : ''
 
@@ -272,10 +274,10 @@
                                 </option>
                             </select>
                         <div class="mb-1">
-                            <button id="first-page" disabled="true" onclick="changePage('first')">&#8676;</button>
-                            <button id="prev-page" disabled="true" onclick="changePage(-1)">&#8592;</button>
-                            <button id="next-page" disabled="true" onclick="changePage(1)">&#8594;</button>
-                            <button id="last-page" disabled="true" onclick="changePage('last')">&#8677;</button>
+                            <button class="first-page" disabled="true" onclick="changePage('first')">&#8676;</button>
+                            <button class="prev-page" disabled="true" onclick="changePage(-1)">&#8592;</button>
+                            <button class="next-page" disabled="true" onclick="changePage(1)">&#8594;</button>
+                            <button class="last-page" disabled="true" onclick="changePage('last')">&#8677;</button>
                         </div>
                         <div class="mb-1 flex-row space-between">
                             <span id="start-to-end">
@@ -292,6 +294,12 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
             </div>
             <div id="episodes">
+            </div>
+            <div class="mb-1 buttons--bottom">
+                <button class="first-page" disabled="true" onclick="changePage('first')">&#8676;</button>
+                <button class="prev-page" disabled="true" onclick="changePage(-1)">&#8592;</button>
+                <button class="next-page" disabled="true" onclick="changePage(1)">&#8594;</button>
+                <button class="last-page" disabled="true" onclick="changePage('last')">&#8677;</button>
             </div>
         </div>
     </main>

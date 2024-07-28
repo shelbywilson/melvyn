@@ -37,6 +37,12 @@ input[type="text"], select {
     padding: 3px;
     width: 200px;
 }
+.buttons--bottom {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+}
 
 @media screen and (max-width: 776px) {
     .episode-about, .ranking {

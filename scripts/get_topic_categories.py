@@ -36,9 +36,9 @@ def get_topic_categories():
         if (episode['wiki_link'] != ""):
             # if episode['topic'] not in categories_by_episode:
             #     print('new episode', episodes['topic'])
-            html_page = urllib.request.urlopen(episode['wiki_link'])
-            soup = BeautifulSoup(html_page, "html.parser")
             try:
+                html_page = urllib.request.urlopen(episode['wiki_link'])
+                soup = BeautifulSoup(html_page, "html.parser")
                 categories = soup.find('div', {'id': "mw-normal-catlinks"}).find_all('li')
                 for category in categories:
                     if (category.get_text() not in dictionary):
