@@ -42,6 +42,7 @@ input[type="text"], select {
     display: flex;
     justify-content: center;
     gap: 0.25rem;
+    display: none;
 }
 
 @media screen and (max-width: 776px) {
