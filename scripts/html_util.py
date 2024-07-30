@@ -16,6 +16,10 @@ f = open('./../data/episode_thumbnails.json')
 episode_thumbnails = json.load(f)
 f.close()
 
+f = open('./../data/categories_by_episode.json')
+categories_by_episode = json.load(f)
+f.close()
+
 def div(inner, _class = ""):
     return wrapper('div', inner, _class)
 
@@ -69,6 +73,10 @@ def get_episode_row(key, this_guest = False):
             guest_list += '<span>' + a(expert['name'], './../guest/' + get_url(expert['name']) + '.html', 'no-wrap', False) + '</span>, '
     guest_list = guest_list[:len(guest_list) - 2]
 
+    categories = ''
+    for cat in categories_by_episode[key]:
+        categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
+
     content = (
         p(get_description(key)) 
         + p(episode['date']) 
@@ -82,7 +90,9 @@ def get_episode_row(key, this_guest = False):
         div('<h3>' + episode['topic'] + '</h3>', 'episode-title') 
         + div(div(content, "content-col")
         + div(wiki_link, "wiki-col") 
-        + div(ranking_placeholder , "meta-col"), "episode-content") 
+        + div(ranking_placeholder , "meta-col"), "episode-content"
+        ) 
+        + div(categories, 'categories')
         , 'episode'
     )
 

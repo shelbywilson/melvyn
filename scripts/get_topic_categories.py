@@ -3,8 +3,8 @@ import urllib.request
 import json
 import re
 import wikipedia
-from create_topic_category_page import create_topic_category_page 
-from create_guest_pages import create_guest_pages 
+# from create_topic_category_page import create_topic_category_page 
+# from create_guest_pages import create_guest_pages 
 
 def get_topic_categories():
     print('\n### start get_topic_categories')
@@ -73,7 +73,7 @@ def get_topic_categories():
         return len(dictionary[key])
     non_unique_categories = {}
     for key in sorted(dictionary.keys(), key=sort_by_frequency, reverse=True):
-        if len(dictionary[key]) > 2 and (not re.search('[0-9]+ deaths', key)) and (not re.search('[0-9]+ births', key)):
+        if len(dictionary[key]) >= 2 and (not re.search('[0-9]+ deaths', key)) and (not re.search('[0-9]+ births', key)):
             non_unique_categories[key] = dictionary[key]
 
             # get wikipedia summaries

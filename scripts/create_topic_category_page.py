@@ -28,7 +28,9 @@ def create_topic_category_page():
 
     for key in sorted(topics_by_category.keys(), key=sort_by_len, reverse=True):
         category_html = '<header>' 
-        category_html += p(a('&larr; episodes', './../', '', False), 'header-back-link')
+        # category_html += a('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />', '/', 'home-link', False)
+        category_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+        category_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
         category_html += '<h1>' + key + '</h1>'
     
         try:
@@ -50,6 +52,8 @@ def create_topic_category_page():
         for cat in sorted(related_categories, key=sort_by_len, reverse=True):
             related_html += a(cat, './../category/' + get_url(cat) + '.html', '', False)
 
+        if (len(related_categories) > 0):
+            category_html += '<p style="margin-bottom: -1rem">Episodes in this category also belong to the following categories:</p>'
         category_html += div(related_html, 'categories')
         category_html += '</header>' 
 

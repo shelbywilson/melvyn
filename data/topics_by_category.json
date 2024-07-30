@@ -139,7 +139,6 @@
         "The Great Gatsby",
         "Moby Dick",
         "Wuthering Heights",
-        "Eugene Onegin",
         "Tess of the d'Urbervilles",
         "Tristram Shandy",
         "Voltaire's Candide",
@@ -1142,7 +1141,6 @@
         "The Battle of Bannockburn",
         "Carthage's Destruction",
         "Constantinople Siege and Fall",
-        "Agincourt",
         "Thermopylae"
     ],
     "Spanish Army": [
@@ -1386,11 +1384,21 @@
     "14th-century BC Egyptian women": [
         "Nefertiti"
     ],
+    "Atenism": [
+        "Nefertiti",
+        "Tutankhamun",
+        "Akhenaten"
+    ],
     "Wives of Akhenaten": [
         "Nefertiti"
     ],
     "Ay": [
         "Nefertiti"
+    ],
+    "Female pharaohs": [
+        "Nefertiti",
+        "Hatshepsut",
+        "Cleopatra"
     ],
     "Queens consort of the Eighteenth Dynasty of Egypt": [
         "Nefertiti",
@@ -1668,6 +1676,9 @@
         "Thomas Paine's Common Sense",
         "Moses Mendelssohn",
         "Edmund Burke"
+    ],
+    "18th-century feminists": [
+        "Condorcet"
     ],
     "Twelfth Night": [
         "Twelfth Night, or What You Will"
@@ -1986,7 +1997,8 @@
     ],
     "19th-century American essayists": [
         "Edgar Allan Poe",
-        "Walt Whitman"
+        "Walt Whitman",
+        "Thoreau and the American Idyll"
     ],
     "19th-century American male writers": [
         "Edgar Allan Poe",
@@ -1995,7 +2007,8 @@
         "Frederick Douglass"
     ],
     "19th-century American non-fiction writers": [
-        "Edgar Allan Poe"
+        "Edgar Allan Poe",
+        "Thoreau and the American Idyll"
     ],
     "19th-century American novelists": [
         "Edgar Allan Poe",
@@ -10724,10 +10737,6 @@
         "Tutankhamun",
         "Hatshepsut"
     ],
-    "Atenism": [
-        "Tutankhamun",
-        "Akhenaten"
-    ],
     "Curses": [
         "Tutankhamun"
     ],
@@ -10757,6 +10766,9 @@
         "Tutankhamun"
     ],
     "Egyptian people with disabilities": [
+        "Tutankhamun"
+    ],
+    "Unsolved deaths": [
         "Tutankhamun"
     ],
     "1907 births": [
@@ -12610,7 +12622,7 @@
     "20th-century German mathematicians": [
         "Emmy Noether"
     ],
-    "20th-century German scientists": [
+    "20th-century German women scientists": [
         "Emmy Noether"
     ],
     "20th-century German physicists": [
@@ -15560,6 +15572,9 @@
         "Merlin"
     ],
     "Literary characters introduced in 1833": [
+        "Eugene Onegin"
+    ],
+    "Russian novels adapted into operas": [
         "Eugene Onegin"
     ],
     "People's Party (United States)": [
@@ -20342,10 +20357,6 @@
     "Deaths from cancer in Egypt": [
         "Hatshepsut"
     ],
-    "Female pharaohs": [
-        "Hatshepsut",
-        "Cleopatra"
-    ],
     "Great Royal Wives": [
         "Hatshepsut"
     ],
@@ -22970,10 +22981,10 @@
     "1928 debut novels": [
         "Decline and Fall"
     ],
-    "Glaciology": [
+    "Geological history of the Great Lakes": [
         "Ice ages"
     ],
-    "Geological history of the Great Lakes": [
+    "Glaciology": [
         "Ice ages"
     ],
     "History of science": [
@@ -26847,6 +26858,10 @@
     "Irish medievalists": [
         "Edmund Burke"
     ],
+    "Irish people of English descent": [
+        "Edmund Burke",
+        "Oscar Wilde"
+    ],
     "Irish political philosophers": [
         "Edmund Burke"
     ],
@@ -28758,18 +28773,10 @@
     "Henry David Thoreau": [
         "Thoreau and the American Idyll"
     ],
-    "1817 births": [
-        "Thoreau and the American Idyll"
-    ],
-    "1862 deaths": [
-        "Thoreau and the American Idyll"
-    ],
-    "19th-century deaths from tuberculosis": [
-        "Thoreau and the American Idyll",
-        "Bolivar",
-        "Kierkegaard"
-    ],
     "19th-century American diarists": [
+        "Thoreau and the American Idyll"
+    ],
+    "19th-century American naturalists": [
         "Thoreau and the American Idyll"
     ],
     "American abolitionists": [
@@ -28779,12 +28786,6 @@
         "Thoreau and the American Idyll"
     ],
     "American environmentalists": [
-        "Thoreau and the American Idyll"
-    ],
-    "American essayists": [
-        "Thoreau and the American Idyll"
-    ],
-    "American naturalists": [
         "Thoreau and the American Idyll"
     ],
     "American nature writers": [
@@ -28802,9 +28803,6 @@
     "American opinion journalists": [
         "Thoreau and the American Idyll"
     ],
-    "American people of French descent": [
-        "Thoreau and the American Idyll"
-    ],
     "American surveyors": [
         "Thoreau and the American Idyll"
     ],
@@ -28814,17 +28812,13 @@
     "American travel writers": [
         "Thoreau and the American Idyll"
     ],
-    "Anarchism": [
-        "Thoreau and the American Idyll",
-        "Anarchism"
+    "Proto-anarchists": [
+        "Thoreau and the American Idyll"
     ],
     "Civil disobedience": [
         "Thoreau and the American Idyll"
     ],
     "Ecological succession": [
-        "Thoreau and the American Idyll"
-    ],
-    "Environmental writers": [
         "Thoreau and the American Idyll"
     ],
     "Harvard College alumni": [
@@ -28836,16 +28830,33 @@
     "Hikers": [
         "Thoreau and the American Idyll"
     ],
-    "Tuberculosis deaths in Massachusetts": [
+    "Poets from Massachusetts": [
+        "Thoreau and the American Idyll"
+    ],
+    "Writers from Massachusetts": [
         "Thoreau and the American Idyll"
     ],
     "People from Concord, Massachusetts": [
         "Thoreau and the American Idyll"
     ],
-    "Poets from Massachusetts": [
+    "American people of French descent": [
         "Thoreau and the American Idyll"
     ],
     "Burials at Sleepy Hollow Cemetery (Concord, Massachusetts)": [
+        "Thoreau and the American Idyll"
+    ],
+    "Tuberculosis deaths in Massachusetts": [
+        "Thoreau and the American Idyll"
+    ],
+    "19th-century deaths from tuberculosis": [
+        "Thoreau and the American Idyll",
+        "Bolivar",
+        "Kierkegaard"
+    ],
+    "1817 births": [
+        "Thoreau and the American Idyll"
+    ],
+    "1862 deaths": [
         "Thoreau and the American Idyll"
     ],
     "1859 non-fiction books": [
@@ -30666,6 +30677,9 @@
     "Gilles de Rais": [
         "The Siege of Orléans"
     ],
+    "Battles involving Albania": [
+        "The Siege of Orléans"
+    ],
     "Binary stars": [
         "Gravitational Waves"
     ],
@@ -30830,7 +30844,7 @@
     "19th-century Prussian military personnel": [
         "Bismarck"
     ],
-    "19th-century memoirists": [
+    "19th-century German memoirists": [
         "Bismarck"
     ],
     "Ambassadors of Prussia": [
@@ -31502,6 +31516,9 @@
     ],
     "Science and technology in India": [
         "Indian Mathematics"
+    ],
+    "Anarchism": [
+        "Anarchism"
     ],
     "Anti-capitalism": [
         "Anarchism"
@@ -33354,9 +33371,6 @@
         "The Cambrian Period",
         "Extra Terrestrials"
     ],
-    "Mind–body problem": [
-        "The Mind/Body Problem"
-    ],
     "Cognition": [
         "The Mind/Body Problem",
         "Imagination",
@@ -33380,6 +33394,9 @@
     "Metaphysics of mind": [
         "The Mind/Body Problem",
         "Consciousness"
+    ],
+    "Mind–body problem": [
+        "The Mind/Body Problem"
     ],
     "René Descartes": [
         "The Mind/Body Problem"
@@ -35900,9 +35917,6 @@
         "Oscar Wilde"
     ],
     "Irish journalists": [
-        "Oscar Wilde"
-    ],
-    "Irish people of English descent": [
         "Oscar Wilde"
     ],
     "Irish LGBT dramatists and playwrights": [

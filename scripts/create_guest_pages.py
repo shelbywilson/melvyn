@@ -69,8 +69,13 @@ def create_guest_pages():
 
         # add related categories
         related_html = ''
+
         for category in sorted(set_of_cat, key=sort_by_frequency_category, reverse=True):
             related_html += '<a href="./../category/' + get_url(category) + '.html">' + category + '</a>'
+
+        if (len(set_of_cat) > 0):
+            guest_html += '<p style="margin-bottom: -1rem">Covers topics in categories such as:</p>'
+
         guest_html += div(related_html, 'categories')
 
         # end header
