@@ -71,6 +71,22 @@ header img {
 #info__categories {
     font-size: 0.75rem;
     columns: 3;
+    margin: 0;
+}
+
+#info__categories a {
+    display: block;
+    margin-top: 0.125rem;
+}
+
+#info__close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background: rgba(0,0,0,0);
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
 }
 
 #log {
@@ -89,19 +105,19 @@ header img {
     user-select: none;
     font-size: 0.75rem;
     margin: 0;
+    display: flex;
+    gap: 0.25rem;
+}
+
+#log p a {
+    color: inherit;
+}
+
+#log p a:hover {
+    text-decoration: none;
 }
 
 #log p:last-child,
 #log p:hover {
     color: #4cb1ff;
-}
-
-#info__close {
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-    background: rgba(0,0,0,0);
-    border: none;
-    cursor: pointer;
-    font-size: 2rem;
 }

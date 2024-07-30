@@ -190,7 +190,7 @@
                                 ${experts}
                             </div>
                         </div>
-                        ${getCategoriesHTML(ep.topic)}
+                        <p class="categories">${getCategoriesHTML(ep.topic, categoriesByEpisode, config)}</p>
                         ${getRankingHTML(score)}
                     `;
 
@@ -199,17 +199,6 @@
 
                 document.getElementById('count').innerText = `${filtered.length} ${filtered.length === 1 ? 'episode' : 'episodes'}`
                 document.getElementById('start-to-end').innerText = `${1 + state.start} to ${1 + state.end}`
-            }
-
-            function getCategoriesHTML(topic) {
-                let html = '';
-                if ((categoriesByEpisode[topic]|| []).length > 0) {
-                    categoriesByEpisode[topic].forEach(cat => {
-                        html += '<a href="./category/' + cat.replace(/\s/g, '_').substring(0, config.MAX_LENGTH_URL) + '.html">' + cat + '</a>'
-                    })
-                    return `<div class="categories">${html}</div>`
-                }
-                return ''
             }
 
             function changePage(direction) {

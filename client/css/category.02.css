@@ -18,10 +18,23 @@
  .episode div:last-child p {
     margin: 0.75rem 0;
  } */
- .category-summary {
-    max-width: 700px;
- }
- /* ol {
+.category-summary {
+   max-width: 700px;
+}
+
+header {
+   position: relative;
+}
+
+.header__home-links {
+   position: absolute;
+   right: 1rem;
+   top: 0;
+   gap: 2rem;
+   display: flex;
+   margin: 0;
+}
+/* ol {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -33,8 +46,8 @@
     margin-right: 0;
     flex: 50% 0 0;
  } */
- @media screen and (max-width: 776px) {
-    /* ol {
+@media screen and (max-width: 776px) {
+   /* ol {
         flex-direction: column;
     }
     li {

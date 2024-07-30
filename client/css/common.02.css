@@ -17,6 +17,10 @@ html, body {
 header {
     margin-bottom: 2rem;
 }
+header .home-link img {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
 main {
     max-width: 1100px;
     padding: var(--padding);
@@ -42,7 +46,7 @@ img {
 p {
     margin: 1.5rem 0;
 }
-.header-back-link {
+.header__back-link {
     margin: 0 0 0.5rem 0;
 }
 .text-right {

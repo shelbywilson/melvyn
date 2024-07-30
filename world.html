@@ -61,6 +61,7 @@
         let scores = {};
         let thumbnails = {};
         let categories = {};
+        let guests = {};
 
         let topic = '';
         let textures = []
@@ -83,7 +84,7 @@
                 './data/episodes_min.json?v=1',
                 './data/episode_thumbnails.json?v=1',
                 './data/categories_by_episode.json?v=1',
-                // './config/config.json?v=1',
+                './config/config.json?v=1',
                 './data/topics_by_category_non_unique.json'
             ].map((url, i) => {
                 // if (i === 0) {
@@ -97,7 +98,7 @@
                 });
             })).then((values) => {
                 // [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode, config] = values;
-                [bbcDescriptions, episodes, thumbnails, categoriesByEpisode, categories] = values;
+                [bbcDescriptions, episodes, thumbnails, categoriesByEpisode, config, categories] = values;
                 state.end = Math.min(episodes.length - 1, ((page + 1) * PAGE_SIZE) - 1)
 
                 display();
@@ -109,6 +110,8 @@
 
         function display() {
             init();
+
+            console.log(guests)
         }
 
         function handleDragElement(elmnt) {
@@ -253,8 +256,9 @@
                     }
 
                     setTimeout(() => {
+                        document.querySelector('#loading').style.opacity = 0;
                         document.querySelector('#canvas').style.opacity = 1;
-                    }, 1200)
+                    }, 800)
                 }
 
                 clock = new THREE.Clock();
@@ -422,8 +426,8 @@
                     document.querySelector('#info h4').innerHTML = `${episode.date}`
                     document.querySelector('#info h3').innerHTML = `${episode.topic}`
                     document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`]
-                    document.querySelector('#info__links').innerHTML = (episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">Wikipedia</a>` : '') + `<a href="${episode.episode_link}" target="_blank">Listen</a>`
-                    document.querySelector('#info__categories').innerHTML = categoriesByEpisode[`${episode.topic}`].sort().map(d => `<div>${d}</div>`).join('')
+                    document.querySelector('#info__links').innerHTML = (episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">wikipedia &plusb;</a>` : '') + `<a href="${episode.episode_link}" target="_blank">listen &prurel;</a>`
+                    document.querySelector('#info__categories').innerHTML = getCategoriesHTML(episode.topic, categoriesByEpisode, config)
                     if (thumbnails[episode.topic]) {
                         document.querySelector('#info img').src = thumbnails[episode.topic]
                         document.querySelector('#info img').style.display = 'block';
@@ -435,7 +439,7 @@
 
                     if (topic !== episode.topic && updateLog) {
                         const prevLog = document.querySelector('#log').innerHTML;
-                        document.querySelector('#log').innerHTML = prevLog + `<p class="log__entry" data-date="${episode.date}" data-topic="${episode.topic}">${episode.topic}</p>`
+                        document.querySelector('#log').innerHTML = prevLog + `<p class="log__entry" data-date="${episode.date}" data-topic="${episode.topic}">${episode.topic}${(episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">&plusb;</a>` : '') + `<a href="${episode.episode_link}" target="_blank">&prurel;</a>`}</p>`
 
                         topic = episode.topic;
                     }
@@ -506,6 +510,9 @@
     <div class="container">
         <div id="log">
 
+        </div>
+        <div id="loading">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
         </div>
         <canvas id="canvas"></canvas>
     </div>

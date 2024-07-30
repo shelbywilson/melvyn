@@ -69,3 +69,14 @@ async function getScores() {
         .catch((err) => console.error(err));
         
 }
+
+function getCategoriesHTML(topic, categoriesByEpisode, config) {
+    let html = '';
+    if ((categoriesByEpisode[topic]|| []).length > 0) {
+        categoriesByEpisode[topic].forEach(cat => {
+            html += '<a href="./category/' + cat.replace(/\s/g, '_').substring(0, config.MAX_LENGTH_URL) + '.html">' + cat + '</a>'
+        })
+        return html;
+    }
+    return ''
+}
