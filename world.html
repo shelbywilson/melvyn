@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="description" content="An index of In Our Time episodes and their associated Wikipedia pages." />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="in our time" />
+    <meta property="og:description" content="An index of In Our Time episodes and their associated Wikipedia pages." />
+    <meta name="theme-color" content="#000">
+    <title>in our time</title>
+    <link rel="stylesheet" type="text/css" href="./client/css/common.02.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/index.03.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/world.css" />
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
+    <script src="client/util.js"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three/examples/jsm/"
+          }
+        }
+      </script>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls'
+        import * as BufferGeometryUtils from 'three/addons/utils/BufferGeometryUtils.js';
+
+        const container = document.querySelector('.container');
+        const canvasEl = document.querySelector('#canvas');
+
+        let renderer, clock, scenes = [];
+
+        let objects = [{
+            geometry: new THREE.IcosahedronGeometry(.1, 10),
+            segmentSize: 0.008,
+        }];
+
+        objects[0].geometry.scale(2, 1, 2)
+
+        let page = parseInt(window.location.hash.split('page=').pop()) || 0
+        const PAGE_SIZE = 50;
+        let state = {
+            start: page * PAGE_SIZE,
+            end: (page + 1) * PAGE_SIZE,
+            scoredOnly: false,
+            sortBy: 'date',
+        }
+        let config = {};
+        let episodes = [];
+        let bbcDescriptions = {};
+        let guestFrequency = {};
+        let categoriesByEpisode = {};
+        let scores = {};
+        let thumbnails = {};
+        let categories = {};
+
+        let topic = '';
+        let textures = []
+
+        window.onload = () => {
+            const reader = new FileReader();
+
+            window.onhashchange = display;
+
+            handleDragElement(document.getElementById("info"));
+
+            document.querySelector('#info__close').addEventListener('click', () => {
+                document.querySelector('#info').style.opacity = 0;
+            })
+
+            Promise.all([
+                // 'scores',
+                './data/bbc_descriptions_short.json?v=1',
+                // './data/guest_frequency_min.json?v=1',
+                './data/episodes_min.json?v=1',
+                './data/episode_thumbnails.json?v=1',
+                './data/categories_by_episode.json?v=1',
+                // './config/config.json?v=1',
+                './data/topics_by_category_non_unique.json'
+            ].map((url, i) => {
+                // if (i === 0) {
+                //     return getScores()
+                // }
+
+                return fetch(url).then((response) => {
+                    return response.json();
+                }).then((data) => {
+                    return data;
+                });
+            })).then((values) => {
+                // [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode, config] = values;
+                [bbcDescriptions, episodes, thumbnails, categoriesByEpisode, categories] = values;
+                state.end = Math.min(episodes.length - 1, ((page + 1) * PAGE_SIZE) - 1)
+
+                display();
+
+            }).catch(
+                console.error.bind(console)
+            );
+        }
+
+        function display() {
+            init();
+        }
+
+        function handleDragElement(elmnt) {
+            var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+
+            if (document.getElementById(elmnt.id + "header")) {
+                // if present, the header is where you move the DIV from:
+                document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+            } else {
+                // otherwise, move the DIV from anywhere inside the DIV:
+                elmnt.onmousedown = dragMouseDown;
+            }
+
+            function dragMouseDown(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // get the mouse cursor position at startup:
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                document.onmouseup = closeDragElement;
+                // call a function whenever the cursor moves:
+                document.onmousemove = elementDrag;
+            }
+
+            function elementDrag(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // calculate the new cursor position:
+                pos1 = pos3 - e.clientX;
+                pos2 = pos4 - e.clientY;
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                // set the element's new position:
+                elmnt.style.bottom = '';
+                elmnt.style.right = '';
+                elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+            }
+
+            function closeDragElement() {
+                // stop moving when mouse button is released:
+                document.onmouseup = null;
+                document.onmousemove = null;
+            }
+        }
+
+        function shuffleArray(array) {
+            // Create a copy of the array to avoid modifying the original
+            const shuffledArray = array.slice();
+            const length = shuffledArray.length;
+
+            for (let i = length - 1; i > 0; i--) {
+                // Generate a random index from 0 to i
+                const j = Math.floor(Math.random() * (i + 1));
+
+                // Swap elements at index i and j
+                [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+            }
+
+            return shuffledArray;
+        }
+
+        function loadImageWithWhiteBackground(imageUrl, callback) {
+            // Create an Image object
+            const img = new Image();
+            img.crossOrigin = 'anonymous'; // Handle CORS if needed
+
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+
+                canvas.width = img.width + 10;
+                canvas.height = img.height + 10;
+
+                context.fillStyle = 'rgb(255,255,255)';
+                context.fillRect(0, 0, canvas.width, canvas.height);
+
+                context.drawImage(img, 5, 5);
+
+                const texture = new THREE.CanvasTexture(canvas);
+
+                callback(texture);
+            };
+
+            img.onerror = () => {
+                console.error('Error loading image:', imageUrl);
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+
+                canvas.width = 200;
+                canvas.height = 200;
+
+                context.fillStyle = `hsl(${120 + (Math.random() * 160)}deg, 50%, 50%)`;
+                context.fillRect(0, 0, canvas.width, canvas.height);
+
+                const texture = new THREE.CanvasTexture(canvas);
+
+                callback(texture);
+            };
+
+            img.src = imageUrl;
+        }
+
+        function getDebugTexture(i) {
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+
+            // Set canvas dimensions to the image's dimensions
+            canvas.width = 200;
+            canvas.height = 200
+
+            // Fill the canvas with a white background
+            context.fillStyle = 'rgb(255,255,255)';
+            context.fillRect(0, 0, canvas.width, canvas.height);
+
+            context.font = "50px Arial";
+            context.fillStyle = '#000'
+            context.fillText(i, 10, 80);
+
+            return new THREE.CanvasTexture(canvas);
+        }
+
+        function init() {
+            initScene();
+            window.addEventListener('resize', updateSceneSize);
+
+            function initScene() {
+                renderer = new THREE.WebGLRenderer({
+                    alpha: true,
+                    antialias: true,
+                    canvas: canvasEl
+                });
+                renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+                function checkIfAllLoaded() {
+                    if (textures.length >= episodes.length) {
+                        for (let i = 0; i < objects.length; i++) {
+                            scenes.push(createScene(i));
+                        }
+                        updateSceneSize();
+                        render();
+                    }
+
+                    setTimeout(() => {
+                        document.querySelector('#canvas').style.opacity = 1;
+                    }, 1200)
+                }
+
+                clock = new THREE.Clock();
+                episodes.forEach(episode => {
+                    const image = thumbnails[episode.topic];
+                    loadImageWithWhiteBackground(
+                        image,
+                        (t) => {
+                            textures.push({
+                                episode: episode,
+                                texture: t
+                            })
+
+                            checkIfAllLoaded()
+                        }
+                    )
+                })
+            }
+
+            function createGlobe(idx) {
+                const dummy = new THREE.Object3D();
+                const numTextures = textures.length;
+
+                const object = objects[idx];
+                let geometryOriginal = object.isObject ? object.geometry.children[0].geometry : object.geometry;
+                geometryOriginal.deleteAttribute('normal');
+                geometryOriginal.deleteAttribute('uv');
+                geometryOriginal = BufferGeometryUtils.mergeVertices(geometryOriginal);
+                geometryOriginal.computeVertexNormals();
+
+                const meshArray = [];
+                const positions = geometryOriginal.attributes.position.array;
+                const normals = geometryOriginal.attributes.normal.array;
+                let j = 0;
+
+                // textures.sort((a,b) => {
+                //     return b.episode.topic.localeCompare(a.episode.topic.localeCompare)
+                // })
+
+                while (textures.length < positions.length / 3) {
+                    textures.push({});
+                }
+
+                textures = shuffleArray(textures)
+
+                for (let i = 0; i < positions.length; i += 3) {
+                    let texture;
+                    let aspectRatio = 1;
+                    let material = new THREE.MeshBasicMaterial({ side: THREE.DoubleSide });
+
+                    if (textures[j]?.texture) {
+                        texture = textures[j].texture;
+                        aspectRatio = texture.image.width / texture.image.height;
+
+                        material.map = texture;
+                        // material.map = getDebugTexture(j)
+                        const segmentWidth = texture.image.width > texture.image.height ? objects[idx].segmentSize * Math.min(3, texture.image.width / texture.image.height) : objects[idx].segmentSize * Math.max(1/2, texture.image.width / texture.image.height);
+                        const segmentHeight = segmentWidth / aspectRatio;
+
+                        const segmentGeometry = new THREE.PlaneGeometry(segmentWidth, segmentHeight);
+                        const segmentMesh = new THREE.Mesh(segmentGeometry, material);
+                        segmentMesh.userData = { ...textures[j].episode };
+
+                        dummy.position.set(positions[i], positions[i + 1], positions[i + 2]);
+                        dummy.lookAt(
+                            positions[i] + normals[i],
+                            positions[i + 1] + normals[i + 1],
+                            positions[i + 2] + normals[i + 2]
+                        );
+                        dummy.updateMatrix();
+                        segmentMesh.applyMatrix4(dummy.matrix);
+
+                        meshArray.push(segmentMesh);
+                    }
+
+                    j += 1;
+                }
+
+                const obj = new THREE.Group();
+                meshArray.forEach(mesh => obj.add(mesh));
+
+                const innerGeometry = objects[0].geometry;
+                innerGeometry.scale(0.96, 0.96, 0.96);
+
+                const inner = new THREE.Mesh(innerGeometry, new THREE.MeshBasicMaterial({ color: '#031708', transparent: true, opacity: 0.7 }))
+
+                obj.add(inner)
+
+                return obj;
+            }
+
+            function createScene(geometryIdx) {
+                const scene = new THREE.Scene();
+
+                const element = document.querySelector('#canvas');
+                scene.userData.element = element;
+
+                // Set up the camera to look head-on
+                const camera = new THREE.PerspectiveCamera(5, scene.userData.element.clientWidth / scene.userData.element.clientHeight, 0.01, 100);
+                camera.position.set(0, 0, 5); // Position the camera along the Z-axis, facing the origin
+                camera.lookAt(0, 0, 0); // Ensure the camera is looking at the origin
+
+                scene.userData.camera = camera;
+
+                const controls = new OrbitControls(scene.userData.camera, scene.userData.element);
+                controls.distance = 30;
+                controls.autoRotate = true;
+                controls.autoRotateSpeed = 0.3;
+                controls.enableZoom = true;
+                controls.enableDamping = true;
+                controls.enableRotate = true;
+                scene.userData.controls = controls;
+
+                const globe = createGlobe(geometryIdx);
+                scene.add(globe);
+
+                // const circleIndicator = createCircleIndicator();
+                // scene.add(circleIndicator);
+
+                const raycaster = new THREE.Raycaster();
+                const mouse = new THREE.Vector2();
+
+                function handleMouseMove(event) {
+                    event.preventDefault();
+
+                    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+                    mouse.y = -((event.clientY / window.innerHeight) * 2 - 1);
+
+                    if (event.target.id === 'info' || event.target.closest(`#info`)) {
+                        scene.userData.controls.autoRotate = true;
+                    } else if (event.target.classList.contains('log__entry')) {
+                        setInfoBox(episodes.find(d => d.date === event.target.getAttribute('data-date')), false)
+
+                        scene.userData.controls.autoRotate = true;
+                    } else {
+                        camera.updateMatrixWorld();
+
+                        raycaster.setFromCamera(mouse, camera);
+
+                        const intersects = raycaster.intersectObjects(globe.children);
+
+                        // if (intersects.length > 0) {
+                        //     circleIndicator.position.copy(intersects[0].point);
+                        // }
+
+                        if (intersects.length > 0) {
+                            const episode = intersects[0].object.userData;
+
+                            if (episode.topic) {
+                                setInfoBox(episode, true)
+
+                            } else {
+                                scene.userData.controls.autoRotate = true;
+                            }
+                        } else {
+                            scene.userData.controls.autoRotate = true;
+                        }
+                    }
+                }
+
+                window.addEventListener('mousemove', handleMouseMove, false);
+
+                function setInfoBox(episode, updateLog) {
+                    document.querySelector('#info').style.opacity = 1;
+                    document.querySelector('#info h4').innerHTML = `${episode.date}`
+                    document.querySelector('#info h3').innerHTML = `${episode.topic}`
+                    document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`]
+                    document.querySelector('#info__links').innerHTML = (episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">Wikipedia</a>` : '') + `<a href="${episode.episode_link}" target="_blank">Listen</a>`
+                    document.querySelector('#info__categories').innerHTML = categoriesByEpisode[`${episode.topic}`].sort().map(d => `<div>${d}</div>`).join('')
+                    if (thumbnails[episode.topic]) {
+                        document.querySelector('#info img').src = thumbnails[episode.topic]
+                        document.querySelector('#info img').style.display = 'block';
+                    } else {
+                        document.querySelector('#info img').style.display = 'none';
+                    }
+
+                    scene.userData.controls.autoRotate = false;
+
+                    if (topic !== episode.topic && updateLog) {
+                        const prevLog = document.querySelector('#log').innerHTML;
+                        document.querySelector('#log').innerHTML = prevLog + `<p class="log__entry" data-date="${episode.date}" data-topic="${episode.topic}">${episode.topic}</p>`
+
+                        topic = episode.topic;
+                    }
+                }
+
+                return scene;
+            }
+
+            function createCircleIndicator() {
+                const radius = 0.01; // Radius of the circle
+                const geometry = new THREE.CircleGeometry(radius, 32);
+                const material = new THREE.MeshBasicMaterial({ color: '0xff0000', side: THREE.DoubleSide });
+                const circle = new THREE.Mesh(geometry, material);
+
+                // Make sure the circle is always facing the camera
+                // circle.rotation.x = Math.PI / 2;
+
+                return circle;
+            }
+
+            function render() {
+
+                renderer.setScissorTest(true);
+                renderer.setClearColor(0xffffff, 0);
+                const delta = .04 * clock.getDelta();
+
+                scenes.forEach((scene, idx) => {
+                    // const rect = scene.userData.element.getBoundingClientRect();
+                    // const width = rect.right - rect.left;
+                    // const height = rect.bottom - rect.top;
+                    // const left = rect.left;
+                    // const bottom = 0;
+
+                    renderer.setViewport(0, 0, window.innerWidth, window.innerHeight);
+                    renderer.setScissor(0, 0, window.innerWidth, window.innerHeight);
+
+                    scene.userData.controls.update();
+
+                    const scale = window.innerWidth < 768 ? 1 : 1.75;
+                    scene.children[0].scale.x = scale;
+                    scene.children[0].scale.y = scale;
+                    scene.children[0].scale.z = scale;
+
+                    renderer.render(scene, scene.userData.camera);
+                });
+
+                requestAnimationFrame(render);
+            }
+
+            function updateSceneSize() {
+                scenes.forEach(scene => {
+                    scene.userData.camera.aspect = scene.userData.element.clientWidth / (scene.userData.element.clientHeight);
+                    scene.userData.camera.updateProjectionMatrix();
+                });
+                renderer.setSize(container.clientWidth, container.clientHeight);
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
+                alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
+        </a>
+    </header>
+    <div class="container">
+        <div id="log">
+
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div id="info">
+        <div>
+            <img />
+        </div>
+        <div>
+            <h3></h3>
+            <h4></h4>
+            <p id="info__description"></p>
+            <p id="info__links"></p>
+            <p id="info__categories"></p>
+        </div>
+        <button type="button" id="info__close">
+            &times;
+        </button>
+    </div>
+</body>
+
+</html>
