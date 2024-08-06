@@ -1,5 +1,5 @@
 import json
-from html_util import get_html_page, get_url, div, p, a, get_episode_row
+from html_util import get_html_page, get_url, div, li, p, a, get_episode_row
 import os
 import glob
 
@@ -21,7 +21,15 @@ def create_topic_category_page():
     category_summaries = json.load(f)
     f.close()
 
-    index_html = ''
+    f = open('./../data/episodes_dictionary.json')
+    episodes_dictionary = json.load(f)
+    f.close()
+
+    index_html = '<header>'
+    index_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+    index_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
+    index_html += '<h1>All categories</h1>'
+    index_html += '</header>'
 
     def sort_by_len(key):
         return len(topics_by_category[key])
@@ -29,7 +37,7 @@ def create_topic_category_page():
     for key in sorted(topics_by_category.keys(), key=sort_by_len, reverse=True):
         category_html = '<header>' 
         # category_html += a('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />', '/', 'home-link', False)
-        category_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+        category_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
         category_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
         category_html += '<h1>' + key + '</h1>'
     
@@ -41,9 +49,16 @@ def create_topic_category_page():
         category_html += p(str(len(topics_by_category[key])) + ' episodes')
 
         episode_list = ''
+        index_page_detail = ''
         related_categories = set()
         for topic in sorted(topics_by_category[key]):
             episode_list += get_episode_row(topic)
+            links = ''
+            if (episodes_dictionary[topic]["wiki_link"]):
+                links += a("wikipedia", episodes_dictionary[topic]["wiki_link"], False)
+            if (episodes_dictionary[topic]["episode_link"]): 
+                links += a("listen", episodes_dictionary[topic]["episode_link"], False)
+            index_page_detail += li(topic + links)
             for cat in categories_by_episode[topic]:
                 if cat != key:
                     related_categories.add(cat)
@@ -59,7 +74,8 @@ def create_topic_category_page():
 
         category_html += '<ol id="episodes">' + episode_list + '</ol>'
 
-        index_html += '<details><summary>' + key + ' (' + str(len(topics_by_category[key])) + ')</summary>' + p(episode_list) + '</details>'
+        index_html += '<details><summary>' + key + ' (' + str(len(topics_by_category[key])) + ')</summary>' 
+        index_html += '<h2>' + (a(key, './../category/' + get_url(key) + '.html', '', False)) + '</h2><ol>' + index_page_detail + '</ol></details>'
 
         w = open('./../category/' + get_url(key) + '.html', 'w')
         w.write(get_html_page(category_html, key, ['guest', 'category'], ['util', 'add-episode-scores']))
@@ -68,7 +84,7 @@ def create_topic_category_page():
     print('\t', len(topics_by_category.keys()), 'category pages written')
 
     w = open('./../category/index.html', 'w')
-    w.write(get_html_page(index_html, 'episode categories'))
+    w.write(get_html_page(index_html, 'episode categories', ['category']))
     w.close()
 
     print('### end create_topic_category_page')

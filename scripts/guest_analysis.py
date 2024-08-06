@@ -1,3 +1,4 @@
+from itertools import combinations
 from bs4 import BeautifulSoup
 import urllib.request
 import json
@@ -12,6 +13,7 @@ def guest_analysis():
     frequency_min = {}
     ranked_frequency = []
     topics_by_guest = {}
+    guest_combinations = {}
 
     for episode in data:
         for guest in episode['experts']:
@@ -30,6 +32,26 @@ def guest_analysis():
                 topics_by_guest[guest['name']] = [entry]
             else:
                 topics_by_guest[guest['name']].append(entry)
+
+        names = [entry['name'] for entry in episode['experts']]
+
+        # Generating all combinations of two names
+        combinations_of_two = list(combinations(names, 2))
+        for combo in combinations_of_two:
+            key = combo[0] + '_' + combo[1]
+
+            if (combo not in guest_combinations):
+                guest_combinations[key] = {
+                    "guests": combo,
+                    "count": 1
+                }
+            else:
+                guest_combinations[key]["count"] += 1
+                print('repeat guest combo!', combo)
+
+    keys_to_delete = [combo for combo in guest_combinations if guest_combinations[combo]["count"] == 1]
+    for key in keys_to_delete:
+        del guest_combinations[key]
 
     for guest in frequency.keys():
         frequency_min[guest] = frequency[guest]['count']
@@ -55,4 +77,11 @@ def guest_analysis():
     json.dump(topics_by_guest, w, indent=4, ensure_ascii=False)
     w.close()
 
+    w = open('./../data/guest_combinations.json', 'w')
+    json.dump(guest_combinations, w, indent=4, ensure_ascii=False)
+    w.close()
+
     print('\n### end guest_analysis')
+
+if __name__ == "__main__":
+    guest_analysis()

@@ -26,14 +26,18 @@ header {
    position: relative;
 }
 
-.header__home-links {
-   position: absolute;
-   right: 1rem;
-   top: 0;
-   gap: 2rem;
-   display: flex;
-   margin: 0;
+details ol {
+   margin: 0 2rem 1rem 3rem;
+   list-style: disc;
 }
+details h2 {
+   margin: 0.5rem 3rem 1rem 3rem;
+}
+
+details li a {
+   margin: 0 0.5rem;
+}
+
 /* ol {
     display: flex;
     flex-direction: row;

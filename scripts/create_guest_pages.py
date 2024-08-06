@@ -1,5 +1,5 @@
 import json
-from html_util import get_url, get_html_page, div, get_episode_row
+from html_util import p, a, get_url, get_html_page, div, get_episode_row
 
 def create_guest_pages():
     print('\n### start create_guest_pages')
@@ -22,6 +22,10 @@ def create_guest_pages():
     topics_by_category_non_unique = json.load(f)
     f.close()
 
+    f = open('./../data/guest_combinations.json')
+    guest_combinations = json.load(f)
+    f.close()
+
     def sort_by_frequency_category(key):
         return len(topics_by_category_non_unique[key])
 
@@ -32,8 +36,8 @@ def create_guest_pages():
 
         # start header
         guest_html = '<header>'
-        guest_html += '<p class="header-back-link" ><a href="./../">&larr; episodes</a></p>'
-        # guest_html += '<p class="header-back-link" ><a href="./../guest/index.html">&larr; guests</a></p>'
+        guest_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+        guest_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
 
         # add name
         guest_html += '<h1>' + guest + '</h1>'
@@ -67,6 +71,24 @@ def create_guest_pages():
             count_label = ' episode'
         guest_html += '<p class="mb-0">' + str(frequency[guest]['count']) + count_label + '</p>'
 
+        # add frequent co-hosts, if applicable
+        coHosts = []
+        for combo in guest_combinations:
+            guestNames = combo.split('_')
+            for name in guestNames:
+                if (guest == name):
+                    coHosts.extend(guestNames)
+        coHosts = [name for name in coHosts if name != guest]
+    
+        if (len(coHosts) > 0):
+            z = 0
+            # print('\t\t', guest, 'appeared multiple times with', coHosts)
+            guest_html += '<p class="mb-0">Appeared in multiple episodes with: '
+            for otherGuest in coHosts:
+                guest_html += a(otherGuest + (',&nbsp;' if z < len(coHosts) - 1 else ''), "/guest/" + get_url(otherGuest) + ".html",  "", False)
+                z += 1
+            guest_html += '</p>'
+
         # add related categories
         related_html = ''
 
@@ -94,14 +116,18 @@ def create_guest_pages():
     print('\t', len(topics_by_guest.keys()), 'guest pages written')
 
     # begin all guests page
-    index_html = '<header><p class="header-back-link"><a href="./../">&larr; episodes</a></p><h1>All guests</h1></header>'
+    index_html = '<header><p class="header-back-link"><a target="" href="javascript:history.back()" >&larr; back</a></p>'
+    index_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+    index_html += '<h1>All guests</h1></header>'
     index_html += '<ul>'
     for guest in sorted(sorted(frequency.keys()), key=sort_by_count, reverse=True):
         index_html += '<li>'
         index_html += '<div class="flex-row space-between">'
-        index_html += '<div><a href="./../guest/' + guest.replace(' ', '_') + '.html">' + guest + '</a><div><em>' + frequency[guest]['title'][0] + '</em></div></div><div class="text-right"><div class="no-wrap">' + frequency[guest]['last'] + '</div>' 
+        index_html += '<div><a href="./../guest/' + guest.replace(' ', '_') + '.html">' + guest + '</a><div><em>' + frequency[guest]['title'][0] + '</em></div></div><div class="text-right"><div class="no-wrap">' + frequency[guest]['last'] 
         if frequency[guest]['last'] != frequency[guest]['first']:
-            index_html += '<div class="no-wrap">' + frequency[guest]['first'] + '</div>'
+            index_html += ' &ndash;</div><div class="no-wrap">' + frequency[guest]['first'] + '</div>'
+        else:
+            index_html += '</div>' 
         index_html += '</div>'
         index_html += '</div>'
         index_html += '<details>'
@@ -116,7 +142,7 @@ def create_guest_pages():
     index_html += '</ul>'
 
     w = open('./../guest/index.html', 'w')
-    w.write(get_html_page(index_html, 'all guests', ['guests'], ['util.js']))
+    w.write(get_html_page(index_html, 'all guests', ['guests', 'guest'], ['util.js']))
     w.close()
 
     print('### end create_guest_pages')

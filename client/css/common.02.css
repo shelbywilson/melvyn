@@ -27,18 +27,21 @@ main {
     margin: 0 auto;
 }
 h1 {
-    margin: 0 0 0.5rem 0;
+    margin: 1rem 0 0.5rem 0;
     font-size: 3rem;
     font-weight: 400;
+    line-height: 100%;
 }
 h2 {
     margin: var(--padding) 0;
     font-weight: 400;
+    line-height: 100%;
 }
 h3 {
     margin: 0;
     font-size: 2rem;
     font-weight: 400;
+    line-height: 100%;
 }
 img {
     max-width: 100%;
@@ -48,6 +51,14 @@ p {
 }
 .header__back-link {
     margin: 0 0 0.5rem 0;
+}
+.header__home-links {
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    gap: 2rem;
+    display: flex;
+    margin: 0;
 }
 .text-right {
     text-align: right;

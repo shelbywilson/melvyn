@@ -6,8 +6,8 @@ function tsvToScoresDictionary(str, delimiter = "	") {
     const arr = rows.map(function (row) {
         const values = row.split(delimiter);
         const el = headers.reduce(function (object, header, index) {
-        object[header] = values[index].trim();
-        return object;
+            object[header] = values[index].trim();
+            return object;
         }, {});
         return el;
     });
@@ -32,7 +32,7 @@ function getProgressBarHTML(score) {
     `
 }
 
-function getRankingHTML(score = {Score: 0}) {
+function getRankingHTML(score = { Score: 0 }) {
     return `<div class="ranking">
         <div class="flex-row">
             <div>
@@ -42,13 +42,13 @@ function getRankingHTML(score = {Score: 0}) {
                 ${score.Score ? `${score.Score}/5` : '<em>no score yet</em>'}
             </div>
         </div>
-        ${score.Comments ? 
+        ${score.Comments ?
             `<div>
                 <p>
                     ${score.Comments}
                 </p>
             </div>
-            ` : 
+            ` :
             ''
         }
     </div>
@@ -67,16 +67,38 @@ async function getScores() {
             return tsvToScoresDictionary(tsv)
         })
         .catch((err) => console.error(err));
-        
+
 }
 
 function getCategoriesHTML(topic, categoriesByEpisode, config) {
     let html = '';
-    if ((categoriesByEpisode[topic]|| []).length > 0) {
+    if ((categoriesByEpisode[topic] || []).length > 0) {
         categoriesByEpisode[topic].forEach(cat => {
             html += '<a href="./category/' + cat.replace(/\s/g, '_').substring(0, config.MAX_LENGTH_URL) + '.html">' + cat + '</a>'
         })
         return html;
     }
     return ''
+}
+
+function isSearchMatch(episode, categoriesByEpisode, bbcDescriptions, scores, checkInit, searchTerm = "") {
+    const normalizedSearch = searchTerm.toLowerCase().trim()
+
+    if (normalizedSearch.length === 0) {
+        return true;
+    }
+
+    if (checkInit) {
+        if (!episode.init || !episode.topic) {
+            return false;
+        }
+    }
+
+    return episode.topic.toLowerCase().indexOf(normalizedSearch) > -1 ||
+        (categoriesByEpisode[episode.topic] || []).find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
+        (bbcDescriptions[episode.date + '_' + episode.topic] || '').toLowerCase().indexOf(normalizedSearch) > -1 ||
+        episode.experts.find(expert => expert.name.toLowerCase().indexOf(normalizedSearch) > -1) ||
+        (scores[episode.topic] || {
+            Comments: ''
+        }).Comments.toLowerCase().indexOf(normalizedSearch) > -1
 }

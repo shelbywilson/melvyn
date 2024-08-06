@@ -23,7 +23,8 @@
         {
           "imports": {
             "three": "https://unpkg.com/three/build/three.module.js",
-            "three/addons/": "https://unpkg.com/three/examples/jsm/"
+            "three/addons/": "https://unpkg.com/three/examples/jsm/",
+            "util": "./client/util.js"
           }
         }
       </script>
@@ -38,12 +39,10 @@
 
         let renderer, clock, scenes = [];
 
-        let objects = [{
-            geometry: new THREE.IcosahedronGeometry(.1, 10),
-            segmentSize: 0.008,
-        }];
+        // size of each face
+        const segmentSize = 0.008;
 
-        objects[0].geometry.scale(2, 1, 2)
+        const globeGeometry = () => new THREE.IcosahedronGeometry(.1, 10).scale(2, 1, 2);
 
         let page = parseInt(window.location.hash.split('page=').pop()) || 0
         const PAGE_SIZE = 50;
@@ -75,6 +74,10 @@
 
             document.querySelector('#info__close').addEventListener('click', () => {
                 document.querySelector('#info').style.opacity = 0;
+            })
+
+            document.querySelector('#search-input').addEventListener('input', (e) => {
+                handleSearch()
             })
 
             Promise.all([
@@ -234,11 +237,33 @@
             return new THREE.CanvasTexture(canvas);
         }
 
+        function handleSearch() {
+            const search = document.getElementById('search-input').value
+
+            scenes[0].traverse((child) => {
+                if (child.isMesh && child.userData.isEpisode) {
+                    child.material.opacity = isSearchMatch(child.userData, categoriesByEpisode, bbcDescriptions, scores, true, search) ? 1 : 0.2
+                }
+            });
+        }
+
         function init() {
+
             initScene();
             window.addEventListener('resize', updateSceneSize);
 
             function initScene() {
+                let geometryOriginal = globeGeometry();
+                geometryOriginal.deleteAttribute('normal');
+                geometryOriginal.deleteAttribute('uv');
+                geometryOriginal = BufferGeometryUtils.mergeVertices(geometryOriginal);
+                geometryOriginal.computeVertexNormals();
+                const positions = geometryOriginal.attributes.position.array;
+
+                while (textures.length < positions.length/3) {
+                    textures.push({});
+                }
+
                 renderer = new THREE.WebGLRenderer({
                     alpha: true,
                     antialias: true,
@@ -246,93 +271,84 @@
                 });
                 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
-                function checkIfAllLoaded() {
-                    if (textures.length >= episodes.length) {
-                        for (let i = 0; i < objects.length; i++) {
-                            scenes.push(createScene(i));
-                        }
-                        updateSceneSize();
-                        render();
-                    }
-
-                    setTimeout(() => {
-                        document.querySelector('#loading').style.opacity = 0;
-                        document.querySelector('#canvas').style.opacity = 1;
-                    }, 800)
-                }
-
                 clock = new THREE.Clock();
-                episodes.forEach(episode => {
+                episodes.forEach((episode, i) => {
+                    setTimeout(() => {
                     const image = thumbnails[episode.topic];
                     loadImageWithWhiteBackground(
                         image,
                         (t) => {
-                            textures.push({
-                                episode: episode,
-                                texture: t
-                            })
+                            // textures.push({
+                            //     episode: episode,
+                            //     texture: t
+                            // })
 
-                            checkIfAllLoaded()
+                            let found = false;
+                            while (!found) {
+                                const index = Math.floor(Math.random() * textures.length - 1)
+                                if (!textures[index]?.texture) {
+                                    textures[index] = {
+                                        episode: episode,
+                                        texture: t
+                                    }
+
+                                    found = true;
+                                }
+                            }
+
+                            // checkIfAllLoaded()
                         }
                     )
+                    }, 6 * i)
                 })
+
+                // function checkIfAllLoaded() {
+                //     if (textures.length >= episodes.length) {
+                scenes.push(createScene());
+                // setTimeout(() => {
+                updateSceneSize();
+                render();
+                // }, 10)
+
             }
 
             function createGlobe(idx) {
                 const dummy = new THREE.Object3D();
-                const numTextures = textures.length;
 
-                const object = objects[idx];
-                let geometryOriginal = object.isObject ? object.geometry.children[0].geometry : object.geometry;
+                const meshArray = [];
+                let geometryOriginal = globeGeometry();
                 geometryOriginal.deleteAttribute('normal');
                 geometryOriginal.deleteAttribute('uv');
                 geometryOriginal = BufferGeometryUtils.mergeVertices(geometryOriginal);
                 geometryOriginal.computeVertexNormals();
-
-                const meshArray = [];
                 const positions = geometryOriginal.attributes.position.array;
                 const normals = geometryOriginal.attributes.normal.array;
                 let j = 0;
-
-                // textures.sort((a,b) => {
-                //     return b.episode.topic.localeCompare(a.episode.topic.localeCompare)
-                // })
-
-                while (textures.length < positions.length / 3) {
-                    textures.push({});
-                }
-
-                textures = shuffleArray(textures)
 
                 for (let i = 0; i < positions.length; i += 3) {
                     let texture;
                     let aspectRatio = 1;
                     let material = new THREE.MeshBasicMaterial({ side: THREE.DoubleSide });
+                    const thesePositions = [positions[i], positions[i + 1], positions[i + 2]];
+                    const theseNormals = [normals[i], normals[i + 1], normals[i + 2]];
 
-                    if (textures[j]?.texture) {
-                        texture = textures[j].texture;
-                        aspectRatio = texture.image.width / texture.image.height;
+                    dummy.position.set(positions[i], positions[i + 1], positions[i + 2]);
+                    dummy.lookAt(
+                        positions[i] + normals[i],
+                        positions[i + 1] + normals[i + 1],
+                        positions[i + 2] + normals[i + 2]
+                    );
+                    dummy.updateMatrix();
 
-                        material.map = texture;
-                        // material.map = getDebugTexture(j)
-                        const segmentWidth = texture.image.width > texture.image.height ? objects[idx].segmentSize * Math.min(3, texture.image.width / texture.image.height) : objects[idx].segmentSize * Math.max(1/2, texture.image.width / texture.image.height);
-                        const segmentHeight = segmentWidth / aspectRatio;
+                    // add placeholder geometry
+                    const segmentGeometry = new THREE.PlaneGeometry(segmentSize, segmentSize);
+                    const segmentMesh = new THREE.Mesh(segmentGeometry, material);
+                    segmentMesh.userData = { init: false, positions: thesePositions, normals: theseNormals, j: j };
 
-                        const segmentGeometry = new THREE.PlaneGeometry(segmentWidth, segmentHeight);
-                        const segmentMesh = new THREE.Mesh(segmentGeometry, material);
-                        segmentMesh.userData = { ...textures[j].episode };
+                    segmentMesh.applyMatrix4(dummy.matrix);
+                    meshArray.push(segmentMesh);
 
-                        dummy.position.set(positions[i], positions[i + 1], positions[i + 2]);
-                        dummy.lookAt(
-                            positions[i] + normals[i],
-                            positions[i + 1] + normals[i + 1],
-                            positions[i + 2] + normals[i + 2]
-                        );
-                        dummy.updateMatrix();
-                        segmentMesh.applyMatrix4(dummy.matrix);
-
-                        meshArray.push(segmentMesh);
-                    }
+                    segmentMesh.visible = false
 
                     j += 1;
                 }
@@ -340,7 +356,7 @@
                 const obj = new THREE.Group();
                 meshArray.forEach(mesh => obj.add(mesh));
 
-                const innerGeometry = objects[0].geometry;
+                const innerGeometry = globeGeometry();
                 innerGeometry.scale(0.96, 0.96, 0.96);
 
                 const inner = new THREE.Mesh(innerGeometry, new THREE.MeshBasicMaterial({ color: '#031708', transparent: true, opacity: 0.7 }))
@@ -350,7 +366,7 @@
                 return obj;
             }
 
-            function createScene(geometryIdx) {
+            function createScene() {
                 const scene = new THREE.Scene();
 
                 const element = document.querySelector('#canvas');
@@ -367,12 +383,13 @@
                 controls.distance = 30;
                 controls.autoRotate = true;
                 controls.autoRotateSpeed = 0.3;
+                controls.maxDistance = 25;
                 controls.enableZoom = true;
                 controls.enableDamping = true;
                 controls.enableRotate = true;
                 scene.userData.controls = controls;
 
-                const globe = createGlobe(geometryIdx);
+                const globe = createGlobe();
                 scene.add(globe);
 
                 // const circleIndicator = createCircleIndicator();
@@ -398,11 +415,7 @@
 
                         raycaster.setFromCamera(mouse, camera);
 
-                        const intersects = raycaster.intersectObjects(globe.children);
-
-                        // if (intersects.length > 0) {
-                        //     circleIndicator.position.copy(intersects[0].point);
-                        // }
+                        const intersects = raycaster.intersectObjects(globe.children).filter(child => child.object.visible && child.object.material.opacity > 0.2);
 
                         if (intersects.length > 0) {
                             const episode = intersects[0].object.userData;
@@ -425,7 +438,7 @@
                     document.querySelector('#info').style.opacity = 1;
                     document.querySelector('#info h4').innerHTML = `${episode.date}`
                     document.querySelector('#info h3').innerHTML = `${episode.topic}`
-                    document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`]
+                    document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`] + '<br/>' + `Featuring: ${episode.experts.map(d => d.name).join(', ')}`
                     document.querySelector('#info__links').innerHTML = (episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">wikipedia &plusb;</a>` : '') + `<a href="${episode.episode_link}" target="_blank">listen &prurel;</a>`
                     document.querySelector('#info__categories').innerHTML = getCategoriesHTML(episode.topic, categoriesByEpisode, config)
                     if (thumbnails[episode.topic]) {
@@ -460,19 +473,53 @@
                 return circle;
             }
 
+            function drawTextures(textures) {
+                const search = document.getElementById('search-input').value || ''
+                scenes[0].traverse((child) => {
+                    if (child.isMesh && !child.userData.init) {
+                        const { positions, normals, j } = child.userData;
+                        //  console.log(textures[j])
+                        if (textures[j]?.texture) {
+                            const texture = textures[j].texture;
+                            const aspectRatio = texture.image.width / texture.image.height;
+
+                            const material = new THREE.MeshBasicMaterial({
+                                map: texture,
+                                side: THREE.DoubleSide,
+                                transparent: true,
+                                opacity: isSearchMatch(child.userData, categoriesByEpisode, bbcDescriptions, scores, false, search) ? 1 : 0.2,
+                            });
+
+                            const segmentWidth = texture.image.width > texture.image.height
+                                ? segmentSize * Math.min(3, texture.image.width / texture.image.height)
+                                : segmentSize * Math.max(0.5, texture.image.width / texture.image.height);
+                            const segmentHeight = segmentWidth / aspectRatio;
+
+                            if (child.geometry) {
+                                child.geometry.dispose(); // Dispose of the old geometry if necessary
+                                child.geometry = new THREE.PlaneGeometry(segmentWidth, segmentHeight);
+                            } else {
+                                child.geometry = new THREE.PlaneGeometry(segmentWidth, segmentHeight);
+                            }
+
+                            child.visible = true;
+
+                            child.material = material;
+
+                            child.userData = { ...child.userData, ...textures[j].episode, init: true, isEpisode: true }
+                        }
+                    }
+                });
+            }
+
             function render() {
+                drawTextures(textures)
 
                 renderer.setScissorTest(true);
                 renderer.setClearColor(0xffffff, 0);
-                const delta = .04 * clock.getDelta();
+                // const delta = .04 * clock.getDelta();
 
                 scenes.forEach((scene, idx) => {
-                    // const rect = scene.userData.element.getBoundingClientRect();
-                    // const width = rect.right - rect.left;
-                    // const height = rect.bottom - rect.top;
-                    // const left = rect.left;
-                    // const bottom = 0;
-
                     renderer.setViewport(0, 0, window.innerWidth, window.innerHeight);
                     renderer.setScissor(0, 0, window.innerWidth, window.innerHeight);
 
@@ -502,6 +549,13 @@
 
 <body>
     <header>
+        <p class="header__home-links">
+            <input id="search-input" type="text" name="search episodes" placeholder="search episodes" />
+            <a target="" href="/">home</a>
+            <a target="" href="/guest/">all guests</a>
+            <a target="_blank" href="https://github.com/shelbywilson/melvyn">about</a>
+        </p>
+
         <a href="/">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
                 alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
@@ -511,22 +565,19 @@
         <div id="log">
 
         </div>
-        <div id="loading">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
-        </div>
         <canvas id="canvas"></canvas>
     </div>
 
     <div id="info">
-        <div>
-            <img />
-        </div>
         <div>
             <h3></h3>
             <h4></h4>
             <p id="info__description"></p>
             <p id="info__links"></p>
             <p id="info__categories"></p>
+        </div>
+        <div class="info__img-container">
+            <img />
         </div>
         <button type="button" id="info__close">
             &times;

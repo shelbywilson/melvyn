@@ -1,3 +1,6 @@
+header {
+    position: relative;
+}
 header p {
     max-width: 700px;
 }

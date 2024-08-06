@@ -84,21 +84,8 @@
                 let score = scores[ep.topic] || {}
 
                 return !!score.Score
-            }).filter(ep => {
-                if (!state.search) {
-                    return true;
-                }
-
-                const normalizedSearch = state.search.toLowerCase()
-
-                return ep.topic.toLowerCase().indexOf(normalizedSearch) > -1 ||
-                    (categoriesByEpisode[ep.topic] || []).find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
-                    (bbcDescriptions[ep.date + '_' + ep.topic] || '').toLowerCase().indexOf(normalizedSearch) > -1 ||
-                    ep.experts.find(expert => expert.name.toLowerCase().indexOf(normalizedSearch) > -1) ||
-                    (scores[ep.topic] || {
-                        Comments: ''
-                    }).Comments.toLowerCase().indexOf(normalizedSearch) > -1
-            }).sort((a, b) => {
+            }).filter(ep => isSearchMatch(ep, categoriesByEpisode, bbcDescriptions, scores, false, state.search))
+            .sort((a, b) => {
                 switch (state.sortBy) {
                     case 'name':
                         return a.topic.localeCompare(b.topic)
@@ -241,6 +228,7 @@
                     </h1>
                     <div class="flex-row" style="gap: 2rem">
                         <a href="/world.html">world</a>
+                        <a href="/guest/">all guests</a>
                         <a href='https://github.com/shelbywilson/melvyn' target="_blank">about</a>
                     </div>
                 </div>

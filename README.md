@@ -27,3 +27,6 @@ A Google sheet supplies ranking and comments.
 
 ## local server
 `python3 -m http.server 5142`
+
+## TODO 
+-[]  get top level categories
