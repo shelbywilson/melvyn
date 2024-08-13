@@ -47,7 +47,12 @@ def create_topic_category_page():
     
     # create top level category pages
     for key in top_level_categories:
-        tl_cat_html = get_header_html(key)
+        links_to_other_top_levels = ''
+        for other in top_level_categories:
+            if (other != key):
+                links_to_other_top_levels += a(other, './../category/' + get_url(other) + '.html',  '', False)
+        
+        tl_cat_html = get_header_html(key, p("This is a top level category. The other top level categories are:" + div(links_to_other_top_levels, 'categories')))
 
         tl_cat_html += p(str(len(top_level_categories[key])) + ' episodes')
         episode_list = ''
@@ -56,7 +61,7 @@ def create_topic_category_page():
             try: 
                 episode_list += get_episode_row(episode)
             except:
-                print("difference in title,", episode)
+                print("difference in bbc/wikipedia title, bbc title to be normalized:", episode)
 
         tl_cat_html +=  '<ol id="episodes">' + episode_list + '</ol>'
 

@@ -6,6 +6,22 @@ import wikipedia
 # from create_topic_category_page import create_topic_category_page 
 # from create_guest_pages import create_guest_pages 
 
+def split_century_phrase(phrase):
+    # Define the regular expression pattern for matching "n-century something"
+    pattern = r'^(\d{1,2}[-\s]century)\s(.+)$'
+
+    # Use re.match to check if the phrase matches the pattern
+    match = re.match(pattern, phrase)
+    
+    if match:
+        # Extract and return the two parts
+        century_part = match.group(1)
+        something_part = match.group(2)
+        return (century_part, something_part)
+    else:
+        # Return None if the pattern doesn't match
+        return None
+
 def get_topic_categories():
     print('\n### start get_topic_categories')
     f = open('./../data/episodes.json')
@@ -30,25 +46,38 @@ def get_topic_categories():
 
     dictionary = {}
     categories_by_episode = {}
+    i = 0
 
     for episode in episodes:
-        categories_by_episode[episode['topic']] = []
-        if (episode['wiki_link'] != ""):
-            # if episode['topic'] not in categories_by_episode:
-            #     print('new episode', episodes['topic'])
-            try:
-                html_page = urllib.request.urlopen(episode['wiki_link'])
-                soup = BeautifulSoup(html_page, "html.parser")
-                categories = soup.find('div', {'id': "mw-normal-catlinks"}).find_all('li')
-                for category in categories:
-                    cat_name = category.get_text() 
-                    if (cat_name not in dictionary):
-                        dictionary[cat_name] = []
-                    dictionary[cat_name].append(episode['topic'])
+        if (i < 10):
+            categories_by_episode[episode['topic']] = []
+            if (episode['wiki_link'] != ""):
+                # if episode['topic'] not in categories_by_episode:
+                #     print('new episode', episodes['topic'])
+                try:
+                    html_page = urllib.request.urlopen(episode['wiki_link'])
+                    soup = BeautifulSoup(html_page, "html.parser")
+                    categories = soup.find('div', {'id': "mw-normal-catlinks"}).find_all('li')
+                    for category in categories:
+                        cat_name = category.get_text() 
+                        century_phrase = split_century_phrase(cat_name)
+                        
+                        if (century_phrase):
+                            if (century_phrase[0] not in dictionary):
+                                dictionary[century_phrase[0]] = []
+                            if (century_phrase[1] not in dictionary):
+                                dictionary[century_phrase[1]] = []
+                            dictionary[century_phrase[0]].append(episode['topic'])
+                            dictionary[century_phrase[1]].append(episode['topic'])
+                        else:
+                            if (cat_name not in dictionary):
+                                dictionary[cat_name] = []
+                            dictionary[cat_name].append(episode['topic'])
 
-                print('\tcategories for', episode['topic'])
-            except:
-                print('\tno categories', episode['topic'])
+                    print('\tcategories for', episode['topic'])
+                except:
+                    print('\tno categories', episode['topic'])
+        i += 1
         # else:
             # print('\t--', 'no wiki link', episode['topic'])
     print('\t', len(dictionary.keys()), 'categories')

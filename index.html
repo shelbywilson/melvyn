@@ -64,7 +64,7 @@
                 });
             })).then((values) => {
                 [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode, config, topLevelCategoriesByEpisode] = values;
-                document.getElementById('loading').style.display = 'none';
+                document.getElementById('loading').style.opacity = 0;
                 document.querySelector('.buttons--bottom').style.display = 'flex';
 
                 document.getElementById('search').addEventListener('input', filter)

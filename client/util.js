@@ -99,13 +99,17 @@ function isSearchMatch(episode, categoriesByEpisode, topLevelCategoriesByEpisode
             return false;
         }
     }
+    try {
 
-    return episode.topic.toLowerCase().indexOf(normalizedSearch) > -1 ||
-        (categoriesByEpisode[episode.topic] || []).find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
-        (topLevelCategoriesByEpisode[episode.topic] || []).find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
-        (bbcDescriptions[episode.date + '_' + episode.topic] || '').toLowerCase().indexOf(normalizedSearch) > -1 ||
-        episode.experts.find(expert => expert.name.toLowerCase().indexOf(normalizedSearch) > -1) ||
-        (scores[episode.topic] || {
-            Comments: ''
-        }).Comments.toLowerCase().indexOf(normalizedSearch) > -1
+        return episode.topic.toLowerCase().indexOf(normalizedSearch) > -1 ||
+            (categoriesByEpisode[episode.topic] || []).find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
+            (topLevelCategoriesByEpisode[episode.topic] || []).find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
+            (bbcDescriptions[episode.date + '_' + episode.topic] || '').toLowerCase().indexOf(normalizedSearch) > -1 ||
+            episode.experts.find(expert => expert.name.toLowerCase().indexOf(normalizedSearch) > -1) ||
+            (scores[episode.topic] || {
+                Comments: ''
+            }).Comments.toLowerCase().indexOf(normalizedSearch) > -1
+    } catch {
+        return false
+    }
 }
