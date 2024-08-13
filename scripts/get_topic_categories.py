@@ -41,9 +41,10 @@ def get_topic_categories():
                 soup = BeautifulSoup(html_page, "html.parser")
                 categories = soup.find('div', {'id': "mw-normal-catlinks"}).find_all('li')
                 for category in categories:
-                    if (category.get_text() not in dictionary):
-                        dictionary[category.get_text()] = []
-                    dictionary[category.get_text()].append(episode['topic'])
+                    cat_name = category.get_text() 
+                    if (cat_name not in dictionary):
+                        dictionary[cat_name] = []
+                    dictionary[cat_name].append(episode['topic'])
 
                 print('\tcategories for', episode['topic'])
             except:

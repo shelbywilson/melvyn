@@ -70,18 +70,24 @@ async function getScores() {
 
 }
 
-function getCategoriesHTML(topic, categoriesByEpisode, config) {
+function getCategoriesHTML(topic, categoriesByEpisode, topLevelCategoriesByEpisode, config) {
     let html = '';
+
+    if ((topLevelCategoriesByEpisode[topic] || []).length > 0) {
+        topLevelCategoriesByEpisode[topic].forEach(cat => {
+            html += '<a href="./category/' + cat.replace(/\s/g, '_').substring(0, config.MAX_LENGTH_URL) + '.html">' + cat + '</a>'
+        })
+    }
+
     if ((categoriesByEpisode[topic] || []).length > 0) {
         categoriesByEpisode[topic].forEach(cat => {
             html += '<a href="./category/' + cat.replace(/\s/g, '_').substring(0, config.MAX_LENGTH_URL) + '.html">' + cat + '</a>'
         })
-        return html;
     }
-    return ''
+    return html
 }
 
-function isSearchMatch(episode, categoriesByEpisode, bbcDescriptions, scores, checkInit, searchTerm = "") {
+function isSearchMatch(episode, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, checkInit, searchTerm = "") {
     const normalizedSearch = searchTerm.toLowerCase().trim()
 
     if (normalizedSearch.length === 0) {
@@ -96,6 +102,7 @@ function isSearchMatch(episode, categoriesByEpisode, bbcDescriptions, scores, ch
 
     return episode.topic.toLowerCase().indexOf(normalizedSearch) > -1 ||
         (categoriesByEpisode[episode.topic] || []).find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
+        (topLevelCategoriesByEpisode[episode.topic] || []).find(cat => cat.toLowerCase().indexOf(normalizedSearch) > -1) ||
         (bbcDescriptions[episode.date + '_' + episode.topic] || '').toLowerCase().indexOf(normalizedSearch) > -1 ||
         episode.experts.find(expert => expert.name.toLowerCase().indexOf(normalizedSearch) > -1) ||
         (scores[episode.topic] || {

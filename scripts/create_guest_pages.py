@@ -18,6 +18,10 @@ def create_guest_pages():
     categories_by_episode = json.load(f)
     f.close()
 
+    f = open('./../data/top_level_categories_by_episode.json')
+    top_level_categories_by_episode = json.load(f)
+    f.close();
+
     f = open('./../data/topics_by_category_non_unique.json')
     topics_by_category_non_unique = json.load(f)
     f.close()
@@ -27,7 +31,11 @@ def create_guest_pages():
     f.close()
 
     def sort_by_frequency_category(key):
-        return len(topics_by_category_non_unique[key])
+        try: 
+            return len(topics_by_category_non_unique[key])
+        except:
+            # is top level category
+            return 1000
 
     for guest in frequency.keys():
         el = frequency[guest].copy()
@@ -36,7 +44,7 @@ def create_guest_pages():
 
         # start header
         guest_html = '<header>'
-        guest_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+        guest_html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
         guest_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
 
         # add name
@@ -62,6 +70,14 @@ def create_guest_pages():
                         set_of_cat.append(category)
             except:
                 pass
+        
+            try:
+                for category in top_level_categories_by_episode[episode['topic']]:
+                    # categories_by_episode_html += '<a href="./../category/' + category.replace(' ', '_') + '.html">' + category + '</a>'
+                    if category not in set_of_cat:
+                        set_of_cat.append(category)
+            except:
+                pass
                 
         # add episode count
         count = frequency[guest]['count']
@@ -72,20 +88,20 @@ def create_guest_pages():
         guest_html += '<p class="mb-0">' + str(frequency[guest]['count']) + count_label + '</p>'
 
         # add frequent co-hosts, if applicable
-        coHosts = []
+        cohosts = []
         for combo in guest_combinations:
             guestNames = combo.split('_')
             for name in guestNames:
                 if (guest == name):
-                    coHosts.extend(guestNames)
-        coHosts = [name for name in coHosts if name != guest]
+                    cohosts.extend(guestNames)
+        cohosts = [name for name in cohosts if name != guest]
     
-        if (len(coHosts) > 0):
+        if (len(cohosts) > 0):
             z = 0
-            # print('\t\t', guest, 'appeared multiple times with', coHosts)
-            guest_html += '<p class="mb-0">Appeared in multiple episodes with: '
-            for otherGuest in coHosts:
-                guest_html += a(otherGuest + (',&nbsp;' if z < len(coHosts) - 1 else ''), "/guest/" + get_url(otherGuest) + ".html",  "", False)
+            # print('\t\t', guest, 'appeared multiple times with', cohosts)
+            guest_html += '<p class="mb-0">Appears in multiple episodes with: '
+            for cohost in cohosts:
+                guest_html += a(cohost + (',&nbsp;' if z < len(cohosts) - 1 else ''), "/guest/" + get_url(cohost) + ".html",  "", False)
                 z += 1
             guest_html += '</p>'
 
@@ -117,7 +133,7 @@ def create_guest_pages():
 
     # begin all guests page
     index_html = '<header><p class="header-back-link"><a target="" href="javascript:history.back()" >&larr; back</a></p>'
-    index_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+    index_html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
     index_html += '<h1>All guests</h1></header>'
     index_html += '<ul>'
     for guest in sorted(sorted(frequency.keys()), key=sort_by_count, reverse=True):

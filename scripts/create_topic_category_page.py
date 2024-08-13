@@ -17,6 +17,14 @@ def create_topic_category_page():
     categories_by_episode = json.load(f)
     f.close()
 
+    f = open('./../data/top_level_categories_by_episode.json')
+    top_level_categories_by_episode = json.load(f)
+    f.close()
+
+    f = open('./../data/top_level_categories.json')
+    top_level_categories = json.load(f)
+    f.close()
+
     f = open('./../data/category_summaries.json')
     category_summaries = json.load(f)
     f.close()
@@ -25,52 +33,79 @@ def create_topic_category_page():
     episodes_dictionary = json.load(f)
     f.close()
 
-    index_html = '<header>'
-    index_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
-    index_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
-    index_html += '<h1>All categories</h1>'
-    index_html += '</header>'
+    index_html = get_header_html('All categories')
 
     def sort_by_len(key):
-        return len(topics_by_category[key])
+        try:
+            return len(topics_by_category[key])
+        except:
+            # sort top level categories to beginning
+            return 10000
+    
+    # create top level category pages
+    for key in top_level_categories:
+        tl_cat_html = get_header_html(key)
 
+        tl_cat_html += p(str(len(top_level_categories[key])) + ' episodes')
+        episode_list = ''
+
+        for episode in top_level_categories[key]:
+            try: 
+                episode_list += get_episode_row(episode)
+            except:
+                print("difference in title,", episode)
+
+        tl_cat_html +=  '<ol id="episodes">' + episode_list + '</ol>'
+
+        w = open('./../category/' + get_url(key) + '.html', 'w')
+        w.write(get_html_page(tl_cat_html, key, ['guest', 'category'], ['util', 'add-episode-scores']))
+        w.close()
+
+    # create other category pages
     for key in sorted(topics_by_category.keys(), key=sort_by_len, reverse=True):
-        category_html = '<header>' 
-        # category_html += a('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />', '/', 'home-link', False)
-        category_html += p(a('home', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
-        category_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
-        category_html += '<h1>' + key + '</h1>'
+        category_inner = ''
     
         try:
-            category_html += div(p(category_summaries[key]), "category-summary")
+            category_inner += div(p(category_summaries[key]), "category-summary")
         except:
             pass
 
-        category_html += p(str(len(topics_by_category[key])) + ' episodes')
+        category_inner += p(str(len(topics_by_category[key])) + ' episodes')
 
         episode_list = ''
         index_page_detail = ''
         related_categories = set()
-        for topic in sorted(topics_by_category[key]):
-            episode_list += get_episode_row(topic)
+        related_html = ''
+
+        for episode in sorted(topics_by_category[key]):
+            episode_list += get_episode_row(episode)
             links = ''
-            if (episodes_dictionary[topic]["wiki_link"]):
-                links += a("wikipedia", episodes_dictionary[topic]["wiki_link"], False)
-            if (episodes_dictionary[topic]["episode_link"]): 
-                links += a("listen", episodes_dictionary[topic]["episode_link"], False)
-            index_page_detail += li(topic + links)
-            for cat in categories_by_episode[topic]:
+            if (episodes_dictionary[episode]["wiki_link"]):
+                links += a("wikipedia", episodes_dictionary[episode]["wiki_link"], False)
+            if (episodes_dictionary[episode]["episode_link"]): 
+                links += a("listen", episodes_dictionary[episode]["episode_link"], False)
+            index_page_detail += li(episode + links)
+
+            # add categories of each episode to set
+            for cat in categories_by_episode[episode]:
                 if cat != key:
                     related_categories.add(cat)
 
-        related_html = ''
+            #  add top level categories as well
+            try:
+                for cat in top_level_categories_by_episode[episode]:
+                    related_categories.add(cat)
+            except: 
+                print("can't find", episode)
+       
         for cat in sorted(related_categories, key=sort_by_len, reverse=True):
             related_html += a(cat, './../category/' + get_url(cat) + '.html', '', False)
 
         if (len(related_categories) > 0):
-            category_html += '<p style="margin-bottom: -1rem">Episodes in this category also belong to the following categories:</p>'
-        category_html += div(related_html, 'categories')
-        category_html += '</header>' 
+            category_inner += '<p style="margin-bottom: -1rem">Episodes in this category also belong to the following categories:</p>'
+        category_inner += div(related_html, 'categories')
+
+        category_html = get_header_html(key, category_inner)
 
         category_html += '<ol id="episodes">' + episode_list + '</ol>'
 
@@ -88,6 +123,15 @@ def create_topic_category_page():
     w.close()
 
     print('### end create_topic_category_page')
+
+def get_header_html(title, inner = ''):
+    html = '<header>'
+    html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+    html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
+    html += '<h1>' + title + '</h1>'
+    html += inner
+    html += '</header>'
+    return html
 
 if __name__=="__main__":
     create_topic_category_page()

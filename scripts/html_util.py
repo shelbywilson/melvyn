@@ -20,6 +20,10 @@ f = open('./../data/categories_by_episode.json')
 categories_by_episode = json.load(f)
 f.close()
 
+f = open('./../data/top_level_categories_by_episode.json')
+top_level_categories_by_episode = json.load(f)
+f.close()
+
 def div(inner, _class = ""):
     return wrapper('div', inner, _class)
 
@@ -74,6 +78,12 @@ def get_episode_row(key, this_guest = False):
     guest_list = guest_list[:len(guest_list) - 2]
 
     categories = ''
+    try:
+        for cat in top_level_categories_by_episode[key]:
+            categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
+    except:
+        pass
+
     for cat in categories_by_episode[key]:
         categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
 
@@ -95,6 +105,10 @@ def get_episode_row(key, this_guest = False):
         + div(categories, 'categories')
         , 'episode'
     )
+
+def get_related_category_links():
+    for category in sorted(set_of_cat, key=sort_by_frequency_category, reverse=True):
+        related_html += '<a href="./../category/' + get_url(category) + '.html">' + category + '</a>'
 
 def get_html_page(content, title = "", css = [], js = []):
     meta = ''

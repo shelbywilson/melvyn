@@ -57,6 +57,7 @@
         let bbcDescriptions = {};
         let guestFrequency = {};
         let categoriesByEpisode = {};
+        let topLevelCategoriesByEpisode = {};
         let scores = {};
         let thumbnails = {};
         let categories = {};
@@ -88,7 +89,8 @@
                 './data/episode_thumbnails.json?v=1',
                 './data/categories_by_episode.json?v=1',
                 './config/config.json?v=1',
-                './data/topics_by_category_non_unique.json'
+                './data/topics_by_category_non_unique.json',
+                './data/top_level_categories_by_episode.json',
             ].map((url, i) => {
                 // if (i === 0) {
                 //     return getScores()
@@ -101,7 +103,7 @@
                 });
             })).then((values) => {
                 // [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode, config] = values;
-                [bbcDescriptions, episodes, thumbnails, categoriesByEpisode, config, categories] = values;
+                [bbcDescriptions, episodes, thumbnails, categoriesByEpisode, config, categories, topLevelCategoriesByEpisode] = values;
                 state.end = Math.min(episodes.length - 1, ((page + 1) * PAGE_SIZE) - 1)
 
                 display();
@@ -113,8 +115,6 @@
 
         function display() {
             init();
-
-            console.log(guests)
         }
 
         function handleDragElement(elmnt) {
@@ -177,7 +177,7 @@
             return shuffledArray;
         }
 
-        function loadImageWithWhiteBackground(imageUrl, callback) {
+        function loadImageWithWhiteBackground(episode, imageUrl, callback) {
             // Create an Image object
             const img = new Image();
             img.crossOrigin = 'anonymous'; // Handle CORS if needed
@@ -200,7 +200,7 @@
             };
 
             img.onerror = () => {
-                console.error('Error loading image:', imageUrl);
+                console.error('Error loading image:', episode, imageUrl);
                 const canvas = document.createElement('canvas');
                 const context = canvas.getContext('2d');
 
@@ -242,7 +242,7 @@
 
             scenes[0].traverse((child) => {
                 if (child.isMesh && child.userData.isEpisode) {
-                    child.material.opacity = isSearchMatch(child.userData, categoriesByEpisode, bbcDescriptions, scores, true, search) ? 1 : 0.2
+                    child.material.opacity = isSearchMatch(child.userData, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, true, search) ? 1 : 0.2
                 }
             });
         }
@@ -276,6 +276,7 @@
                     setTimeout(() => {
                     const image = thumbnails[episode.topic];
                     loadImageWithWhiteBackground(
+                        episode.topic,
                         image,
                         (t) => {
                             // textures.push({
@@ -440,7 +441,7 @@
                     document.querySelector('#info h3').innerHTML = `${episode.topic}`
                     document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`] + '<br/>' + `Featuring: ${episode.experts.map(d => d.name).join(', ')}`
                     document.querySelector('#info__links').innerHTML = (episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">wikipedia &plusb;</a>` : '') + `<a href="${episode.episode_link}" target="_blank">listen &prurel;</a>`
-                    document.querySelector('#info__categories').innerHTML = getCategoriesHTML(episode.topic, categoriesByEpisode, config)
+                    document.querySelector('#info__categories').innerHTML = getCategoriesHTML(episode.topic, {}, topLevelCategoriesByEpisode, config)
                     if (thumbnails[episode.topic]) {
                         document.querySelector('#info img').src = thumbnails[episode.topic]
                         document.querySelector('#info img').style.display = 'block';
@@ -487,7 +488,7 @@
                                 map: texture,
                                 side: THREE.DoubleSide,
                                 transparent: true,
-                                opacity: isSearchMatch(child.userData, categoriesByEpisode, bbcDescriptions, scores, false, search) ? 1 : 0.2,
+                                opacity: isSearchMatch(child.userData, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, false, search) ? 1 : 0.2,
                             });
 
                             const segmentWidth = texture.image.width > texture.image.height
@@ -551,7 +552,7 @@
     <header>
         <p class="header__home-links">
             <input id="search-input" type="text" name="search episodes" placeholder="search episodes" />
-            <a target="" href="/">home</a>
+            <a target="" href="/">list</a>
             <a target="" href="/guest/">all guests</a>
             <a target="_blank" href="https://github.com/shelbywilson/melvyn">about</a>
         </p>
