@@ -5,16 +5,17 @@ import json
 # some titles on the BBC site differ from the Wikipedia articles 
 #  [key: BBC title]: [value: Wikipedia title]
 normalized_titles = {
-    "Al-Biruni": "al-Biruni",
-    "The Safavid Dynasty": "Safavid Dynasty",
+    "al-Biruni": "Al-Biruni",
+    "Safavid Dynasty": "The Safavid dynasty",
+    "The Safavid Dynasty": "The Safavid dynasty",
     "The Seventh Seal": "The Seventh Seal\n(1000th program)",
     "Beethoven": "Ludwig van Beethoven",
-    "Germaine de Stael - Animal Farm": "Animal Farm",
-    "Rabindranath Tagore": "Tagore",
+    "In Our Time - Animal Farm": "Animal Farm",
+    "Tagore": "Rabindranath Tagore",
     "Truth, Lies and Fiction": "Truth, Lies and fiction",
-    "Cultural rights in the 20th Century": "Cultural Rights in the 20th Century",
+    "Cultural Rights in the 20th Century": "Cultural rights in the 20th Century",
     "The Plague of Justinian": "Plague of Justinian",
-    "Zong Massacre": "The Zong Massacre",
+    "The Zong Massacre": "Zong Massacre",
     "The Valladolid Debate": "Valladolid Debate",
     "The Siege of Paris 1870-71": "The Siege of Paris (1870-71)",
     "Owain Glyndwr": "Owain Glyndŵr",
@@ -27,6 +28,7 @@ normalized_titles = {
     "William James's 'The Varieties of Religious Experience'": "William James's The Varieties of Religious Experience",
     "Godel's Incompleteness Theorems": "Gödel's Incompleteness Theorems",
     "The Challenger Expedition 1872-1876 is now first on BBC Sounds": "The Challenger Expedition 1872–1876",
+    "The Challenger Expedition 1872-1876": "The Challenger Expedition 1872–1876",
     "Feathered Dinosaurs": "Feathered dinosaurs",
     "Bird Migration": "Bird migration",
     "Pauli's Exclusion Principle": "Pauli's exclusion principle",
@@ -55,7 +57,9 @@ normalized_titles = {
     "Psychoanalysis and Democracy": "Psychoanalysis and democracy",
     "Chemical Elements": "Chemical elements",
     "Climate Change": "Climate change",
-    "Neuroscience in the 20th century": "Neuroscience in the 20th Century"
+    "Neuroscience in the 20th century": "Neuroscience in the 20th Century",
+    "Germaine de Stael": "Germaine de Staël",
+    "Comenius": "Jan Amos Komenský",
 }
 
 def get_top_level_categories():
@@ -82,6 +86,8 @@ def get_top_level_categories():
 
         for ep in episodes:
             title = ep.get_text()
+            if (title.startswith("In Our Time") or title.startswith("Introducing")):
+                continue
             if (title in normalized_titles):
                 title = normalized_titles[title]
             if (title not in top_level_categories[type]):

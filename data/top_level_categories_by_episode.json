@@ -41,7 +41,7 @@
     "Germinal": [
         "Culture"
     ],
-    "The Seventh Seal": [
+    "The Seventh Seal\n(1000th program)": [
         "Culture"
     ],
     "Death in Venice": [
@@ -89,9 +89,6 @@
     "Nineteen Eighty-Four": [
         "Culture"
     ],
-    "In Our Time": [
-        "Culture"
-    ],
     "John Bull": [
         "Culture"
     ],
@@ -111,9 +108,6 @@
         "Culture"
     ],
     "Antigone": [
-        "Culture"
-    ],
-    "In Our Time is now first on BBC Sounds": [
         "Culture"
     ],
     "Romeo and Juliet": [
@@ -260,13 +254,13 @@
     "Hamlet": [
         "Culture"
     ],
-    "Beethoven": [
+    "Ludwig van Beethoven": [
         "Culture"
     ],
     "Moby Dick": [
         "Culture"
     ],
-    "Germaine de Stael": [
+    "Germaine de Staël": [
         "Culture"
     ],
     "Picasso's Guernica": [
@@ -311,9 +305,6 @@
     "The 12th Century Renaissance": [
         "Culture"
     ],
-    "In Our Time - Animal Farm": [
-        "Culture"
-    ],
     "Songs of Innocence and of Experience": [
         "Culture"
     ],
@@ -344,7 +335,7 @@
     "Jane Eyre": [
         "Culture"
     ],
-    "Tagore": [
+    "Rabindranath Tagore": [
         "Culture"
     ],
     "Fanny Burney": [
@@ -452,7 +443,7 @@
     "The Kama Sutra": [
         "Culture"
     ],
-    "The Safavid Dynasty": [
+    "The Safavid dynasty": [
         "Culture"
     ],
     "Robinson Crusoe": [
@@ -485,7 +476,7 @@
     "Sturm und Drang": [
         "Culture"
     ],
-    "al-Biruni": [
+    "Al-Biruni": [
         "Culture"
     ],
     "Giorgio Vasari's Lives of the Artists": [
@@ -815,7 +806,7 @@
     "Maths and Storytelling": [
         "Culture"
     ],
-    "Truth, Lies and Fiction": [
+    "Truth, Lies and fiction": [
         "Culture"
     ],
     "Capitalism": [
@@ -854,7 +845,7 @@
     "The American Century": [
         "Culture"
     ],
-    "Cultural Rights in the 20th Century": [
+    "Cultural rights in the 20th Century": [
         "Culture"
     ],
     "Work in the 20th Century": [
@@ -862,9 +853,6 @@
     ],
     "The City in the 20th Century": [
         "Culture"
-    ],
-    "Introducing History's Secret Heroes - Series 2": [
-        "History"
     ],
     "The Orkneyinga Saga": [
         "History"
@@ -950,7 +938,7 @@
     "Angkor Wat": [
         "History"
     ],
-    "Comenius": [
+    "Jan Amos Komenský": [
         "History"
     ],
     "The Davidian Revolution": [
@@ -1010,13 +998,13 @@
     "Marcus Aurelius": [
         "History"
     ],
-    "The Plague of Justinian": [
+    "Plague of Justinian": [
         "History"
     ],
     "The Cultural Revolution": [
         "History"
     ],
-    "The Zong Massacre": [
+    "Zong Massacre": [
         "History"
     ],
     "Maria Theresa": [
@@ -1031,7 +1019,7 @@
     "The Covenanters": [
         "History"
     ],
-    "The Valladolid Debate": [
+    "Valladolid Debate": [
         "History"
     ],
     "Battle of the Teutoburg Forest": [
@@ -1040,7 +1028,7 @@
     "Alcuin": [
         "History"
     ],
-    "The Siege of Paris 1870-71": [
+    "The Siege of Paris (1870-71)": [
         "History"
     ],
     "Tutankhamun": [
@@ -1091,7 +1079,7 @@
     "William Cecil": [
         "History"
     ],
-    "Owain Glyndwr": [
+    "Owain Glyndŵr": [
         "History"
     ],
     "The Poor Laws": [
@@ -1262,7 +1250,7 @@
     "The Lancashire Cotton Famine": [
         "History"
     ],
-    "Matteo Ricci and the Ming Dynasty": [
+    "Matteo Ricci and the Ming dynasty": [
         "History"
     ],
     "The California Gold Rush": [
@@ -1358,7 +1346,7 @@
     "Alfred Russel Wallace": [
         "History"
     ],
-    "Ice Ages": [
+    "Ice ages": [
         "History"
     ],
     "The War of 1812": [
@@ -1475,7 +1463,7 @@
     "Authenticity": [
         "Philosophy"
     ],
-    "Aristotle's Biology": [
+    "Aristotle's biology": [
         "Philosophy"
     ],
     "Hope": [
@@ -1499,7 +1487,7 @@
     "Nietzsche's Genealogy of Morality": [
         "Philosophy"
     ],
-    "Zeno's Paradoxes": [
+    "Zeno's paradoxes": [
         "Philosophy"
     ],
     "Sovereignty": [
@@ -1529,7 +1517,7 @@
     "Bishop Berkeley": [
         "Philosophy"
     ],
-    "Ordinary Language Philosophy": [
+    "Ordinary language philosophy": [
         "Philosophy"
     ],
     "Epicureanism": [
@@ -1568,7 +1556,7 @@
     "Cogito Ergo Sum": [
         "Philosophy"
     ],
-    "Free Will": [
+    "Free Will(500th programme)": [
         "Philosophy"
     ],
     "Maimonides": [
@@ -1583,7 +1571,7 @@
     "Edmund Burke": [
         "Philosophy"
     ],
-    "William James's 'The Varieties of Religious Experience'": [
+    "William James's The Varieties of Religious Experience": [
         "Philosophy"
     ],
     "William Hazlitt": [
@@ -1622,7 +1610,7 @@
     "Aristotle's Politics": [
         "Philosophy"
     ],
-    "Godel's Incompleteness Theorems": [
+    "Gödel's Incompleteness Theorems": [
         "Philosophy"
     ],
     "The Translation Movement": [
@@ -2045,7 +2033,7 @@
     "Superconductivity": [
         "Science"
     ],
-    "The Challenger Expedition 1872-1876": [
+    "The Challenger Expedition 1872–1876": [
         "Science"
     ],
     "The Fish-Tetrapod Transition": [
@@ -2141,10 +2129,10 @@
     "Carl Friedrich Gauss": [
         "Science"
     ],
-    "Feathered Dinosaurs": [
+    "Feathered dinosaurs": [
         "Science"
     ],
-    "Bird Migration": [
+    "Bird migration": [
         "Science"
     ],
     "Enzymes": [
@@ -2153,13 +2141,13 @@
     "Louis Pasteur": [
         "Science"
     ],
-    "Pauli's Exclusion Principle": [
+    "Pauli's exclusion principle": [
         "Science"
     ],
     "The Paleocene-Eocene Thermal Maximum": [
         "Science"
     ],
-    "The Kuiper Belt": [
+    "The Kuiper belt": [
         "Science"
     ],
     "Maths in the Early Islamic World": [
@@ -2195,13 +2183,13 @@
     "Michael Faraday": [
         "Science"
     ],
-    "Circadian Rhythms": [
+    "Circadian rhythms": [
         "Science"
     ],
     "P v NP": [
         "Science"
     ],
-    "Perpetual Motion": [
+    "Perpetual motion": [
         "Science"
     ],
     "Extremophiles": [
@@ -2210,16 +2198,16 @@
     "The Science of Glass": [
         "Science"
     ],
-    "The Earth's Core": [
+    "The Earth's core": [
         "Science"
     ],
-    "Dark Matter": [
+    "Dark matter": [
         "Science"
     ],
     "The Photon": [
         "Science"
     ],
-    "Behavioural Ecology": [
+    "Behavioural ecology": [
         "Science"
     ],
     "Nuclear Fusion": [
@@ -2264,7 +2252,7 @@
     "Relativity": [
         "Science"
     ],
-    "Cosmic Rays": [
+    "Cosmic rays": [
         "Science"
     ],
     "Water": [
@@ -2273,7 +2261,7 @@
     "Absolute Zero": [
         "Science"
     ],
-    "Pitt-Rivers": [
+    "Pitt Rivers": [
         "Science"
     ],
     "Comets": [
@@ -2300,7 +2288,7 @@
     "Conductors and Semiconductors": [
         "Science"
     ],
-    "The Scientific Method": [
+    "The Scientific method": [
         "Science"
     ],
     "Macromolecules": [
@@ -2330,7 +2318,7 @@
     "Women and Enlightenment Science": [
         "Science"
     ],
-    "Imaginary Numbers": [
+    "Imaginary numbers": [
         "Science"
     ],
     "Pliny's Natural History": [
@@ -2351,19 +2339,19 @@
     "The Infant Brain": [
         "Science"
     ],
-    "Mathematics' Unintended Consequences": [
+    "The Unintended Consequences of Mathematics": [
         "Science"
     ],
-    "The Royal Society and British Science: Episode 4—In Our Time: The Royal Society and British Science": [
+    "The Royal Society and British Science: Episode 4": [
         "Science"
     ],
-    "The Royal Society and British Science: Episode 3—In Our Time: The Royal Society and British Science": [
+    "The Royal Society and British Science: Episode 3": [
         "Science"
     ],
-    "The Royal Society and British Science: Episode 2—In Our Time: The Royal Society and British Science": [
+    "The Royal Society and British Science: Episode 2": [
         "Science"
     ],
-    "The Royal Society and British Science: Episode 1—In Our Time: The Royal Society and British Science": [
+    "The Royal Society and British Science: Episode 1": [
         "Science"
     ],
     "Radiation": [
@@ -2384,22 +2372,22 @@
     "The Library of Alexandria": [
         "Science"
     ],
-    "The Measurement Problem in Physics": [
+    "The Measurement problem in Physics": [
         "Science"
     ],
     "The Observatory at Jaipur": [
         "Science"
     ],
-    "Darwin: Life After Origins—Darwin: In Our Time": [
+    "Darwin: Life After Origins": [
         "Science"
     ],
-    "Darwin: On the Origin of Species—Darwin: In Our Time": [
+    "Darwin: On the Origin of Species": [
         "Science"
     ],
-    "Darwin: The Voyage of the Beagle—Darwin: In Our Time": [
+    "Darwin: The Voyage of the Beagle": [
         "Science"
     ],
-    "Darwin: On the Origins of Charles Darwin—Darwin: In Our Time": [
+    "Darwin: On the Origins of Charles Darwin": [
         "Science"
     ],
     "The Physics of Time": [
@@ -2483,7 +2471,7 @@
     "The Speed of Light": [
         "Science"
     ],
-    "The Poincaré Conjecture": [
+    "The Poincaré conjecture": [
         "Science"
     ],
     "The Needham Question": [
@@ -2510,7 +2498,7 @@
     "The Royal Society": [
         "Science"
     ],
-    "Negative Numbers": [
+    "Negative numbers": [
         "Science"
     ],
     "Human Evolution": [
@@ -2639,7 +2627,7 @@
     "The Scientist": [
         "Science"
     ],
-    "Psychoanalysis and Democracy": [
+    "Psychoanalysis and democracy": [
         "Science"
     ],
     "Drugs": [
@@ -2693,7 +2681,7 @@
     "Imagination and Consciousness": [
         "Science"
     ],
-    "Chemical Elements": [
+    "Chemical elements": [
         "Science"
     ],
     "Human Origins": [
@@ -2711,7 +2699,7 @@
     "Information Technology": [
         "Science"
     ],
-    "Climate Change": [
+    "Climate change": [
         "Science"
     ],
     "Time": [
@@ -2753,7 +2741,7 @@
     "Genetic Engineering": [
         "Science"
     ],
-    "Neuroscience in the 20th century": [
+    "Neuroscience in the 20th Century": [
         "Science"
     ],
     "The Brain and Consciousness": [

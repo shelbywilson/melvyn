@@ -36,6 +36,9 @@ def create_topic_category_page():
     index_html = get_header_html('All categories')
 
     def sort_by_len(key):
+        if (key in top_level_categories):
+            # sort top level categories to beginning
+            return 10000
         try:
             return len(topics_by_category[key])
         except:
@@ -63,6 +66,8 @@ def create_topic_category_page():
 
     # create other category pages
     for key in sorted(topics_by_category.keys(), key=sort_by_len, reverse=True):
+        if (key in top_level_categories):
+            continue
         category_inner = ''
     
         try:
@@ -96,7 +101,8 @@ def create_topic_category_page():
                 for cat in top_level_categories_by_episode[episode]:
                     related_categories.add(cat)
             except: 
-                print("can't find", episode)
+                # print("can't find", episode)
+                pass
        
         for cat in sorted(related_categories, key=sort_by_len, reverse=True):
             related_html += a(cat, './../category/' + get_url(cat) + '.html', '', False)
