@@ -20,6 +20,7 @@ body {
 
 header {
     margin-bottom: 2rem;
+    position: relative;
 }
 
 header .home-link img {
