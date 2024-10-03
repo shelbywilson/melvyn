@@ -115,5 +115,5 @@ def get_html_page(content, title = "", css = [], js = []):
     for link in css:
         meta += '<link rel="stylesheet" type="text/css" href="./../client/css/' + link + '.' + config["FILE_VERSION"] + '.css" />'
     for link in js:
-        meta += '<script src="./../client/' + link + '.js"></script>'
+        meta += '<script src="./../client/' + link + '.' + config["FILE_VERSION"] + '.js"></script>'
     return '<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type"content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="./../client/css/common' + '.' + config["FILE_VERSION"] + '.css" />' + meta + '<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="index,follow" /><meta name="googlebot" content="index,follow" /><meta property="og:title" content="' + title +'" /><meta property="og:description" content="" /><meta name="theme-color" content="#000"><title>' + title + '</title><link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" /></head><body><main>' + content + '</main></body></html>'

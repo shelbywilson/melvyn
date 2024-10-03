@@ -1,6 +1,13 @@
 from bs4 import BeautifulSoup
 import urllib.request
 import json
+from datetime import datetime
+    
+def parse_date(date_str):
+    try:
+        return datetime.strptime(date_str, '%d %b %Y')
+    except:
+        return datetime.strptime(date_str, '%d %B %Y')
 
 # some titles on the BBC site differ from the Wikipedia articles 
 #  [key: BBC title]: [value: Wikipedia title]
@@ -64,8 +71,8 @@ normalized_titles = {
 
 def get_top_level_categories():
     print('\n### start get_top_level_categories')
-    f = open('./../data/episodes.json')
-    episodes = json.load(f)
+    f = open('./../data/episodes_dictionary.json')
+    episodes_dictionary = json.load(f)
     f.close()
 
     bbc = {
@@ -76,8 +83,159 @@ def get_top_level_categories():
         "Science": "https://www.bbc.co.uk/programmes/p01gyd7j/episodes/downloads"
     }
 
-    top_level_categories = {}
+    top_level_categories = {
+        "Culture": [
+            "Lyrical Ballads",
+            "Boudica",
+            "Delacroix's Liberty Leading the People",
+            "Vitruvius and De Architectura",
+            "The Etruscan Civilisation",
+            "The Great Wall of China",
+            "The Rise and Fall of the Zulu Nation",
+            "Romulus and Remus",
+            "The Silk Road",
+            "Japan's Sakoku Period",
+            "The Death of Elizabeth I",
+            "Sparta",
+            "Akhenaten",
+            "The Augustan Age",
+            "The Magna Carta",
+            "The Building of St Petersburg",
+            "The Statue of Liberty",
+            "Tacitus and the Decadence of Rome",
+            "Bismarck",
+            "The Roman Republic",
+            "Washington and the American Revolution",
+            "Babylon",
+            "Byzantium",
+            "Tea",
+            "The Alphabet",
+            "Roman Britain",
+            "The Enclosures of the 18th Century",
+            "Heritage",
+            "The Trojan War",
+            "The American West",
+            "Bohemia",
+            "The Norman Yoke",
+            "The Aztecs",
+            "The Celts",
+            "Rome and European Civilization",
+            "The British Empire",
+            "The Enlightenment in Britain",
+            "The Tudor State",
+            "Africa",
+            "Money",
+            "The Aristocracy"
+        ],
+        "History": [
+            "Plague of Justinian",
+            "History as Science",
+            "The Wars of the Roses",
+            "History and Understanding the Past",
+            "New Wars",
+            "Hitler in History",
+            "The French Revolution's Legacy",
+            "The Enlightenment in Britain",
+            "The Restoration",
+            "The Roman Empire's Collapse in the 5th century",
+            "The Glorious Revolution",
+            "Napoleon and Wellington",
+            "The British Empire",
+            "The Haymarket Affair",
+            "Benjamin Disraeli",
+            "Voyages of James Cook",
+            "Marco Polo",
+            "The Battle of Bosworth Field",
+            "The Siege of Tenochtitlan",
+            "The Spanish Armada",
+            "Athelstan",
+            "The City - a history, part 2",
+            "The City - a history, part 1",
+            "The Indian Mutiny",
+            "The Glencoe Massacre",
+            "The Dreyfus Affair",
+            "The Trial of Charles I",
+            "The Boxer Rebellion",
+            "Carthage's Destruction",
+            "History of History",
+            "The Fire of London",
+            "The Great Reform Act",
+            "Bolivar",
+            "The Black Death",
+            "The Enclosures of the 18th Century",
+            "The Charge of the Light Brigade",
+            "The Sassanid Empire",
+            "The Siege of Orléans",
+            "The Opium Wars",
+            "Genghis Khan",
+            "Constantinople Siege and Fall",
+            "The Peasants' Revolt",
+            "The Great Exhibition of 1851",
+            "The Abbasid Caliphs",
+            "The Peterloo Massacre",
+            "The Field of the Cloth of Gold",
+            "The French Revolution's Reign of Terror",
+            "Alfred and the Battle of Edington",
+            "Tsar Alexander II's assassination",
+            "The Roman Republic",
+            "Agincourt",
+            "Washington and the American Revolution",
+            "Babylon",
+            "Byzantium",
+            "China's Warring States period",
+            "The Mughal Empire",
+            "Thermopylae",
+            "The Alphabet",
+            "The East India Company",
+            "The Jacobite Rebellion",
+            "Atrocity in the 20th Century",
+            "Roman Britain",
+            "The British Empire's Legacy",
+            "History's relevance in the 20th century",
+            "The Spanish Civil War",
+            "Catherine the Great"
+        ],
+        "Philosophy": [
+            "Clausewitz and On War",
+            "War in the 20th Century",
+            "Ptolemy and Ancient Astronomy",
+            "Archaeology and Imperialism",
+            "Suffragism",
+            "Architecture and Power",
+            "Slavery and Empire",
+            "Chinese Legalism",
+            "The Nation State",
+            "Lenin",
+            "Politics in the 20th Century",
+            "History's relevance in the 20th century",
+            "Republicanism",
+            "Education"
+        ],
+        "Religion": [
+            "The Divine Right of Kings",
+            "Wilberforce"
+        ],
+        "Science": [
+            "Wormholes",
+            "Ptolemy and Ancient Astronomy",
+            "Childhood",
+            "The Moon",
+            "History as Science"
+        ]
+    }
     top_level_categories_by_episode = {}
+    
+    r = open('./../data/top_level_categories_by_episode.json', 'r')
+    cat_by_ep = json.load(r)
+    r.close()
+    
+    # any missing episodes?
+    # tend to be earlier ones
+    for ep in episodes_dictionary.keys():
+        if ep in cat_by_ep:
+            pass
+        else:
+            print(ep, episodes_dictionary[ep]['date'])
 
     def add_to_dictionary(type, page):
         html_page = urllib.request.urlopen(bbc[type] + "?page=" + str(page))
@@ -94,8 +252,6 @@ def get_top_level_categories():
                 top_level_categories[type].append(title)
 
     for type in bbc:
-        top_level_categories[type] = []
-
         page = 1
         while (page < 15):
             try:
@@ -103,6 +259,15 @@ def get_top_level_categories():
                 page += 1
             except:
                 continue
+            
+    def get_date(topic):
+        try:
+            return parse_date(episodes_dictionary[topic]['date'])
+        except:
+            return datetime.min
+        
+    for key in top_level_categories:
+        top_level_categories[key] = sorted(top_level_categories[key], key=get_date, reverse=True)        
 
     for cat in top_level_categories:
         for ep in top_level_categories[cat]:

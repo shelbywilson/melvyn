@@ -1,5 +1,5 @@
 import json
-from html_util import get_html_page, get_url, div, li, p, a, get_episode_row
+from html_util import get_html_page, get_url, div, li, p, a, get_episode_row, get_wiki_img
 import os
 import glob
 
@@ -81,6 +81,12 @@ def create_topic_category_page():
             pass
 
         category_inner += p(str(len(topics_by_category[key])) + ' episodes')
+        
+        category_inner += '<div class="header__all-imgs">'
+        for topic in sorted(topics_by_category[key]):
+            episode = episodes_dictionary[topic]
+            category_inner += a(get_wiki_img(episode['topic']), episode['wiki_link'])
+        category_inner += '</div>'
 
         episode_list = ''
         index_page_detail = ''
@@ -137,7 +143,7 @@ def create_topic_category_page():
 
 def get_header_html(title, inner = ''):
     html = '<header>'
-    html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+    html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
     html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
     html += '<h1>' + title + '</h1>'
     html += inner

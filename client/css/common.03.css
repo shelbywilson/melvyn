@@ -264,6 +264,17 @@ header .categories {
     background: #dfdfff;
 }
 
+.header__all-imgs {
+    margin-top: 1.5rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+.header__all-imgs img {
+    display: block;
+    max-height: 6rem;
+}
+
 @media screen and (max-width: 776px) {
     .m-column {
         flex-direction: column;

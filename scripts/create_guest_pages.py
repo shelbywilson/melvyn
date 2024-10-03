@@ -1,5 +1,5 @@
 import json
-from html_util import p, a, get_url, get_html_page, div, get_episode_row
+from html_util import p, a, get_url, get_html_page, div, get_episode_row, get_wiki_img
 
 def create_guest_pages():
     print('\n### start create_guest_pages')
@@ -44,7 +44,7 @@ def create_guest_pages():
 
         # start header
         guest_html = '<header>'
-        guest_html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('all guests', "/guest/", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+        guest_html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
         guest_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
 
         # add name
@@ -86,6 +86,11 @@ def create_guest_pages():
         else:
             count_label = ' episode'
         guest_html += '<p class="mb-0">' + str(frequency[guest]['count']) + count_label + '</p>'
+            
+        guest_html += '<div class="header__all-imgs">'
+        for episode in topics_by_guest[guest]:
+            guest_html += a(get_wiki_img(episode['topic']), episode['wiki_link'])
+        guest_html += '</div>'
 
         # add frequent co-hosts, if applicable
         cohosts = []
@@ -97,6 +102,7 @@ def create_guest_pages():
         cohosts = [name for name in cohosts if name != guest]
     
         if (len(cohosts) > 0):
+            print(guest)
             z = 0
             # print('\t\t', guest, 'appeared multiple times with', cohosts)
             guest_html += '<p class="mb-0">Appears in multiple episodes with: '
@@ -142,7 +148,7 @@ def create_guest_pages():
     for guest in sorted(sorted(frequency.keys()), key=sort_by_count, reverse=True):
         index_html += '<li>'
         index_html += '<div class="flex-row space-between">'
-        index_html += '<div><a href="./../guest/' + guest.replace(' ', '_') + '.html">' + guest + '</a><div><em>' + frequency[guest]['title'][0] + '</em></div></div><div class="text-right"><div class="no-wrap">' + frequency[guest]['last'] 
+        index_html += '<div><a href="./../guest/' + guest.replace(' ', '_') + '.html">' + guest + '</a><div><em>' + frequency[guest]['title'][0] + '</em></div></div><div class="text-right">Has appeared: <div class="no-wrap">' + frequency[guest]['last'] 
         if frequency[guest]['last'] != frequency[guest]['first']:
             index_html += ' &ndash;</div><div class="no-wrap">' + frequency[guest]['first'] + '</div>'
         else:
@@ -161,7 +167,7 @@ def create_guest_pages():
     index_html += '</ul>'
 
     w = open('./../guest/index.html', 'w')
-    w.write(get_html_page(index_html, 'all guests', ['guests', 'guest'], ['util.js']))
+    w.write(get_html_page(index_html, 'all guests', ['guests', 'guest'], ['util.03.js']))
     w.close()
 
     print('### end create_guest_pages')

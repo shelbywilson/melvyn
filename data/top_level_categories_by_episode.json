@@ -1,13 +1,4 @@
 {
-    "The Haymarket Affair": [
-        "History"
-    ],
-    "Wormholes": [
-        "Science"
-    ],
-    "Benjamin Disraeli": [
-        "History"
-    ],
     "Monet in England": [
         "Culture"
     ],
@@ -413,10 +404,16 @@
     "The Amazons": [
         "Culture"
     ],
+    "Japan's Sakoku Period": [
+        "Culture"
+    ],
     "Chekhov": [
         "Culture"
     ],
     "Decline and Fall": [
+        "Culture"
+    ],
+    "Romulus and Remus": [
         "Culture"
     ],
     "Le Morte d'Arthur": [
@@ -443,10 +440,19 @@
     "James Joyce's Ulysses": [
         "Culture"
     ],
+    "The Trojan War": [
+        "Culture"
+    ],
     "Voltaire's Candide": [
         "Culture"
     ],
     "Moses Mendelssohn": [
+        "Culture"
+    ],
+    "Vitruvius and De Architectura": [
+        "Culture"
+    ],
+    "Lyrical Ballads": [
         "Culture"
     ],
     "Benjamin Franklin": [
@@ -462,6 +468,12 @@
         "Culture"
     ],
     "Christina Rossetti": [
+        "Culture"
+    ],
+    "Delacroix's Liberty Leading the People": [
+        "Culture"
+    ],
+    "The Etruscan Civilisation": [
         "Culture"
     ],
     "Tennyson's In Memoriam": [
@@ -494,10 +506,19 @@
     "Giorgio Vasari's Lives of the Artists": [
         "Culture"
     ],
+    "The Great Wall of China": [
+        "Culture"
+    ],
     "Roman Satire": [
         "Culture"
     ],
+    "The Rise and Fall of the Zulu Nation": [
+        "Culture"
+    ],
     "Munch and The Scream": [
+        "Culture"
+    ],
+    "Boudica": [
         "Culture"
     ],
     "Silas Marner": [
@@ -506,13 +527,34 @@
     "The Samurai": [
         "Culture"
     ],
+    "The Silk Road": [
+        "Culture"
+    ],
     "Joyce's A Portrait of the Artist as a Young Man": [
+        "Culture"
+    ],
+    "Sparta": [
+        "Culture"
+    ],
+    "The Death of Elizabeth I": [
+        "Culture"
+    ],
+    "Akhenaten": [
         "Culture"
     ],
     "Elizabethan Revenge": [
         "Culture"
     ],
+    "The Augustan Age": [
+        "Culture"
+    ],
     "The Whale - A History": [
+        "Culture"
+    ],
+    "The Magna Carta": [
+        "Culture"
+    ],
+    "The Building of St Petersburg": [
         "Culture"
     ],
     "Aldous Huxley's Brave New World": [
@@ -536,6 +578,9 @@
     "Dante's Inferno": [
         "Culture"
     ],
+    "Tacitus and the Decadence of Rome": [
+        "Culture"
+    ],
     "The Metaphysical Poets": [
         "Culture"
     ],
@@ -548,13 +593,22 @@
     "The Library at Nineveh": [
         "Culture"
     ],
+    "The Enclosures of the 18th Century": [
+        "Culture"
+    ],
     "Yeats and Irish Politics": [
+        "Culture"
+    ],
+    "The Norman Yoke": [
         "Culture"
     ],
     "The Greek Myths": [
         "Culture"
     ],
     "Lear": [
+        "Culture"
+    ],
+    "The Statue of Liberty": [
         "Culture"
     ],
     "Rudolph II": [
@@ -587,10 +641,16 @@
     "Greek and Roman Love Poetry": [
         "Culture"
     ],
+    "Bismarck": [
+        "Culture"
+    ],
     "Epistolary Literature": [
         "Culture"
     ],
     "Heart of Darkness": [
+        "Culture"
+    ],
+    "Jorge Luis Borges": [
         "Culture"
     ],
     "Hell": [
@@ -615,9 +675,6 @@
         "Culture"
     ],
     "Fairies": [
-        "Culture"
-    ],
-    "Jorge Luis Borges": [
         "Culture"
     ],
     "Goethe": [
@@ -668,6 +725,9 @@
     "Modernist Utopias": [
         "Culture"
     ],
+    "The Roman Republic": [
+        "Culture"
+    ],
     "Faust": [
         "Culture"
     ],
@@ -680,6 +740,15 @@
     "The Odyssey": [
         "Culture"
     ],
+    "Washington and the American Revolution": [
+        "Culture"
+    ],
+    "Babylon": [
+        "Culture"
+    ],
+    "Tea": [
+        "Culture"
+    ],
     "The Later Romantics": [
         "Culture"
     ],
@@ -687,6 +756,9 @@
         "Culture"
     ],
     "The Sublime": [
+        "Culture"
+    ],
+    "The Alphabet": [
         "Culture"
     ],
     "Sensation": [
@@ -698,6 +770,12 @@
     "Bohemianism": [
         "Culture"
     ],
+    "The Aristocracy": [
+        "Culture"
+    ],
+    "Roman Britain": [
+        "Culture"
+    ],
     "Youth": [
         "Culture"
     ],
@@ -707,10 +785,16 @@
     "Originality": [
         "Culture"
     ],
+    "The Aztecs": [
+        "Culture"
+    ],
     "The Epic": [
         "Culture"
     ],
     "Victorian Realism": [
+        "Culture"
+    ],
+    "Heritage": [
         "Culture"
     ],
     "Cultural Imperialism": [
@@ -719,10 +803,16 @@
     "Wagner": [
         "Culture"
     ],
+    "The American West": [
+        "Culture"
+    ],
     "The Grand Tour": [
         "Culture"
     ],
     "Tolstoy": [
+        "Culture"
+    ],
+    "Bohemia": [
         "Culture"
     ],
     "The Artist": [
@@ -734,6 +824,9 @@
     "Milton": [
         "Culture"
     ],
+    "The Celts": [
+        "Culture"
+    ],
     "Yeats and Mysticism": [
         "Culture"
     ],
@@ -743,10 +836,19 @@
     "Food": [
         "Culture"
     ],
+    "Rome and European Civilization": [
+        "Culture"
+    ],
     "Oscar Wilde": [
         "Culture"
     ],
     "Surrealism": [
+        "Culture"
+    ],
+    "The British Empire": [
+        "Culture"
+    ],
+    "Byzantium": [
         "Culture"
     ],
     "Dickens": [
@@ -764,10 +866,19 @@
     "Shakespeare's Life": [
         "Culture"
     ],
+    "Money": [
+        "Culture"
+    ],
+    "The Enlightenment in Britain": [
+        "Culture"
+    ],
     "Gothic": [
         "Culture"
     ],
     "Psychoanalysis and Literature": [
+        "Culture"
+    ],
+    "The Tudor State": [
         "Culture"
     ],
     "The Romantics": [
@@ -821,6 +932,9 @@
     "Truth, Lies and fiction": [
         "Culture"
     ],
+    "Africa": [
+        "Culture"
+    ],
     "Capitalism": [
         "Culture"
     ],
@@ -865,6 +979,12 @@
     ],
     "The City in the 20th Century": [
         "Culture"
+    ],
+    "The Haymarket Affair": [
+        "History"
+    ],
+    "Benjamin Disraeli": [
+        "History"
     ],
     "The Orkneyinga Saga": [
         "History"
@@ -1008,9 +1128,6 @@
         "History"
     ],
     "Marcus Aurelius": [
-        "History"
-    ],
-    "Plague of Justinian": [
         "History"
     ],
     "The Cultural Revolution": [
@@ -1238,6 +1355,9 @@
     "Thomas Paine's Common Sense": [
         "History"
     ],
+    "Voyages of James Cook": [
+        "History"
+    ],
     "The Salem Witch Trials": [
         "History"
     ],
@@ -1376,10 +1496,19 @@
     "Hadrian's Wall": [
         "History"
     ],
+    "Marco Polo": [
+        "History"
+    ],
+    "The Battle of Bosworth Field": [
+        "History"
+    ],
     "The An Lushan Rebellion": [
         "History"
     ],
     "1848: Year of Revolution": [
+        "History"
+    ],
+    "The Siege of Tenochtitlan": [
         "History"
     ],
     "The Ming Voyages": [
@@ -1422,6 +1551,159 @@
         "History"
     ],
     "The Volga Vikings": [
+        "History"
+    ],
+    "The Spanish Armada": [
+        "History"
+    ],
+    "Athelstan": [
+        "History"
+    ],
+    "The City - a history, part 2": [
+        "History"
+    ],
+    "The City - a history, part 1": [
+        "History"
+    ],
+    "The Indian Mutiny": [
+        "History"
+    ],
+    "The Glencoe Massacre": [
+        "History"
+    ],
+    "The Dreyfus Affair": [
+        "History"
+    ],
+    "The Trial of Charles I": [
+        "History"
+    ],
+    "The Boxer Rebellion": [
+        "History"
+    ],
+    "Carthage's Destruction": [
+        "History"
+    ],
+    "History of History": [
+        "History"
+    ],
+    "The Fire of London": [
+        "History"
+    ],
+    "The Great Reform Act": [
+        "History"
+    ],
+    "Bolivar": [
+        "History"
+    ],
+    "The Black Death": [
+        "History"
+    ],
+    "The Charge of the Light Brigade": [
+        "History"
+    ],
+    "The Sassanid Empire": [
+        "History"
+    ],
+    "The Siege of Orléans": [
+        "History"
+    ],
+    "The Opium Wars": [
+        "History"
+    ],
+    "Genghis Khan": [
+        "History"
+    ],
+    "Constantinople Siege and Fall": [
+        "History"
+    ],
+    "The Peasants' Revolt": [
+        "History"
+    ],
+    "The Great Exhibition of 1851": [
+        "History"
+    ],
+    "Catherine the Great": [
+        "History"
+    ],
+    "The Abbasid Caliphs": [
+        "History"
+    ],
+    "The Peterloo Massacre": [
+        "History"
+    ],
+    "The Field of the Cloth of Gold": [
+        "History"
+    ],
+    "The French Revolution's Reign of Terror": [
+        "History"
+    ],
+    "Alfred and the Battle of Edington": [
+        "History"
+    ],
+    "Tsar Alexander II's assassination": [
+        "History"
+    ],
+    "Agincourt": [
+        "History"
+    ],
+    "China's Warring States period": [
+        "History"
+    ],
+    "The Mughal Empire": [
+        "History"
+    ],
+    "Thermopylae": [
+        "History"
+    ],
+    "The East India Company": [
+        "History"
+    ],
+    "The Jacobite Rebellion": [
+        "History"
+    ],
+    "The Spanish Civil War": [
+        "History"
+    ],
+    "Napoleon and Wellington": [
+        "History"
+    ],
+    "The French Revolution's Legacy": [
+        "History"
+    ],
+    "The Glorious Revolution": [
+        "History"
+    ],
+    "The Roman Empire's Collapse in the 5th century": [
+        "History"
+    ],
+    "The Restoration": [
+        "History"
+    ],
+    "Hitler in History": [
+        "History"
+    ],
+    "The Wars of the Roses": [
+        "History"
+    ],
+    "New Wars": [
+        "History"
+    ],
+    "History and Understanding the Past": [
+        "History"
+    ],
+    "Atrocity in the 20th Century": [
+        "History"
+    ],
+    "History as Science": [
+        "History"
+    ],
+    "The British Empire's Legacy": [
+        "History"
+    ],
+    "History's relevance in the 20th century": [
+        "History"
+    ],
+    "Plague of Justinian": [
         "History"
     ],
     "Philippa Foot": [
@@ -1505,6 +1787,9 @@
     "Sovereignty": [
         "Philosophy"
     ],
+    "Chinese Legalism": [
+        "Philosophy"
+    ],
     "Simone de Beauvoir": [
         "Philosophy"
     ],
@@ -1550,10 +1835,16 @@
     "Al-Kindi": [
         "Philosophy"
     ],
+    "Clausewitz and On War": [
+        "Philosophy"
+    ],
     "Neoplatonism": [
         "Philosophy"
     ],
     "Heraclitus": [
+        "Philosophy"
+    ],
+    "Ptolemy and Ancient Astronomy": [
         "Philosophy"
     ],
     "The Continental-Analytic Split": [
@@ -1608,6 +1899,9 @@
         "Philosophy"
     ],
     "Logical Positivism": [
+        "Philosophy"
+    ],
+    "Suffragism": [
         "Philosophy"
     ],
     "Baconian Science": [
@@ -1694,6 +1988,9 @@
     "Beauty": [
         "Philosophy"
     ],
+    "Archaeology and Imperialism": [
+        "Philosophy"
+    ],
     "Stoicism": [
         "Philosophy"
     ],
@@ -1733,6 +2030,12 @@
     "The Enlightenment in Scotland": [
         "Philosophy"
     ],
+    "Architecture and Power": [
+        "Philosophy"
+    ],
+    "Slavery and Empire": [
+        "Philosophy"
+    ],
     "Freedom": [
         "Philosophy"
     ],
@@ -1769,6 +2072,12 @@
     "Laws of Nature": [
         "Philosophy"
     ],
+    "Lenin": [
+        "Philosophy"
+    ],
+    "Republicanism": [
+        "Philosophy"
+    ],
     "Economic Rights": [
         "Philosophy"
     ],
@@ -1778,7 +2087,13 @@
     "Progress": [
         "Philosophy"
     ],
+    "Education": [
+        "Philosophy"
+    ],
     "The Individual": [
+        "Philosophy"
+    ],
+    "The Nation State": [
         "Philosophy"
     ],
     "Utopia": [
@@ -1788,6 +2103,12 @@
         "Philosophy"
     ],
     "Good and Evil": [
+        "Philosophy"
+    ],
+    "Politics in the 20th Century": [
+        "Philosophy"
+    ],
+    "War in the 20th Century": [
         "Philosophy"
     ],
     "Karma": [
@@ -1919,10 +2240,16 @@
     "The Nicene Creed": [
         "Religion"
     ],
+    "The Divine Right of Kings": [
+        "Religion"
+    ],
     "The Pilgrim Fathers": [
         "Religion"
     ],
     "St Hilda": [
+        "Religion"
+    ],
+    "Wilberforce": [
         "Religion"
     ],
     "The Jesuits": [
@@ -2008,6 +2335,9 @@
     ],
     "Space in Religion and Science": [
         "Religion"
+    ],
+    "Wormholes": [
+        "Science"
     ],
     "Bacteriophages": [
         "Science"
@@ -2306,6 +2636,9 @@
     "Macromolecules": [
         "Science"
     ],
+    "The Moon": [
+        "Science"
+    ],
     "The Hippocratic Oath": [
         "Science"
     ],
@@ -2352,18 +2685,6 @@
         "Science"
     ],
     "The Unintended Consequences of Mathematics": [
-        "Science"
-    ],
-    "The Royal Society and British Science: Episode 4—The Royal Society and British Science": [
-        "Science"
-    ],
-    "The Royal Society and British Science: Episode 3—The Royal Society and British Science": [
-        "Science"
-    ],
-    "The Royal Society and British Science: Episode 2—The Royal Society and British Science": [
-        "Science"
-    ],
-    "The Royal Society and British Science: Episode 1—The Royal Society and British Science": [
         "Science"
     ],
     "Radiation": [
@@ -2720,6 +3041,9 @@
     "Medical Ethics": [
         "Science"
     ],
+    "Childhood": [
+        "Science"
+    ],
     "Genetic Determinism": [
         "Science"
     ],
@@ -2763,6 +3087,18 @@
         "Science"
     ],
     "Science's Revelations": [
+        "Science"
+    ],
+    "The Royal Society and British Science: Episode 4—The Royal Society and British Science": [
+        "Science"
+    ],
+    "The Royal Society and British Science: Episode 3—The Royal Society and British Science": [
+        "Science"
+    ],
+    "The Royal Society and British Science: Episode 2—The Royal Society and British Science": [
+        "Science"
+    ],
+    "The Royal Society and British Science: Episode 1—The Royal Society and British Science": [
         "Science"
     ]
 }

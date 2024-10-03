@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="./client/css/world.03.css" />
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
-    <script src="client/util.js"></script>
+    <script src="client/util.03.js"></script>
     <!-- 
             "three/addons/": "https://unpkg.com/three/examples/jsm/",
      -->
@@ -27,7 +27,7 @@
           "imports": {
             "three": "./client/three/three.module.min.js",
             "three/addons/": "https://unpkg.com/three/examples/jsm/",
-            "util": "./client/util.js"
+            "util": "./client/util.03.js"
           }
         }
       </script>
@@ -240,6 +240,15 @@
                     child.material.opacity = isSearchMatch(child.userData, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, true, search) ? 1 : 0.05
                 }
             });
+        }
+
+        function getGuestLinks(episode) {
+            let links = '';
+            episode.experts.forEach((expert, i) => (
+                links += `<a target="_blank" href="${getExpertURL(expert)}" >${expert.name}</a>${i < episode.experts.length - 1 ? ', ' : ''}`
+            ))
+
+            return links;
         }
 
         function init() {
@@ -467,7 +476,7 @@
                     info.style.opacity = 1;
                     document.querySelector('#info h4').innerHTML = `${episode.date}`
                     document.querySelector('#info h3').innerHTML = `${episode.topic}`
-                    document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`] + '<br/>' + `Featuring: ${episode.experts.map(d => d.name).join(', ')}`
+                    document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`] + '<br/>' + `Featuring: ${getGuestLinks(episode)}`
                     document.querySelector('#info__links').innerHTML = (episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">wikipedia &plusb;</a>` : '') + `<a href="${episode.episode_link}" target="_blank">listen &prurel;</a>`
                     document.querySelector('#info__categories').innerHTML = getCategoriesHTML(episode.topic, {}, topLevelCategoriesByEpisode, config)
                     if (thumbnails[episode.topic]) {
@@ -586,7 +595,7 @@
         <p class="header__home-links">
             <input id="search-input" type="text" name="search episodes" placeholder="search episodes" />
             <a target="" href="/">list</a>
-            <a target="" href="/guest/">all guests</a>
+            <!-- <a target="" href="/guest/">all guests</a> -->
             <a target="_blank" href="https://github.com/shelbywilson/melvyn">about</a>
         </p>
 

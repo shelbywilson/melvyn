@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="./client/css/index.03.css" />
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
-    <script src="client/util.js"></script>
+    <script src="client/util.03.js"></script>
 
     <script>
         let page = parseInt(window.location.hash.split('page=').pop()) || 0
@@ -124,7 +124,7 @@
                 ep.experts.forEach(expert =>
                     experts += `<div class="expert">
                             <div class="flex-row">
-                                <a href="./guest/${expert.name.replace(/\s/g, '_').substring(0, 100)}.html">
+                                <a href="${getExpertURL(expert)}">
                                     ${expert.name} 
                                     (${guestFrequency[expert.name]} ${guestFrequency[expert.name] === 1 ? 'episode' : 'episodes'})
                                 </a>
@@ -241,7 +241,7 @@
                     </div>
                     <div class="flex-row" style="gap: 2rem">
                         <a href="/world.html">world</a>
-                        <a href="/guest/">all guests</a>
+                        <!-- <a href="/guest/">all guests</a> -->
                         <a href='https://github.com/shelbywilson/melvyn' target="_blank">about</a>
                     </div>
                 </div>

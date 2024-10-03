@@ -70,6 +70,10 @@ async function getScores() {
 
 }
 
+function getExpertURL(expert) {
+   return `./guest/${expert.name.replace(/\s/g, '_').substring(0, 100)}.html`
+}
+
 function getCategoriesHTML(topic, categoriesByEpisode, topLevelCategoriesByEpisode, config) {
     let html = '';
 
