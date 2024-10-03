@@ -16,6 +16,14 @@ f = open('./../data/episode_thumbnails.json')
 episode_thumbnails = json.load(f)
 f.close()
 
+f = open('./../data/categories_by_episode.json')
+categories_by_episode = json.load(f)
+f.close()
+
+f = open('./../data/top_level_categories_by_episode.json')
+top_level_categories_by_episode = json.load(f)
+f.close()
+
 def div(inner, _class = ""):
     return wrapper('div', inner, _class)
 
@@ -69,6 +77,16 @@ def get_episode_row(key, this_guest = False):
             guest_list += '<span>' + a(expert['name'], './../guest/' + get_url(expert['name']) + '.html', 'no-wrap', False) + '</span>, '
     guest_list = guest_list[:len(guest_list) - 2]
 
+    categories = ''
+    try:
+        for cat in top_level_categories_by_episode[key]:
+            categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
+    except:
+        pass
+
+    for cat in categories_by_episode[key]:
+        categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
+
     content = (
         p(get_description(key)) 
         + p(episode['date']) 
@@ -82,14 +100,20 @@ def get_episode_row(key, this_guest = False):
         div('<h3>' + episode['topic'] + '</h3>', 'episode-title') 
         + div(div(content, "content-col")
         + div(wiki_link, "wiki-col") 
-        + div(ranking_placeholder , "meta-col"), "episode-content") 
+        + div(ranking_placeholder , "meta-col"), "episode-content"
+        ) 
+        + div(categories, 'categories')
         , 'episode'
     )
+
+def get_related_category_links():
+    for category in sorted(set_of_cat, key=sort_by_frequency_category, reverse=True):
+        related_html += '<a href="./../category/' + get_url(category) + '.html">' + category + '</a>'
 
 def get_html_page(content, title = "", css = [], js = []):
     meta = ''
     for link in css:
         meta += '<link rel="stylesheet" type="text/css" href="./../client/css/' + link + '.' + config["FILE_VERSION"] + '.css" />'
     for link in js:
-        meta += '<script src="./../client/' + link + '.js"></script>'
+        meta += '<script src="./../client/' + link + '.' + config["FILE_VERSION"] + '.js"></script>'
     return '<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type"content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="./../client/css/common' + '.' + config["FILE_VERSION"] + '.css" />' + meta + '<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="index,follow" /><meta name="googlebot" content="index,follow" /><meta property="og:title" content="' + title +'" /><meta property="og:description" content="" /><meta name="theme-color" content="#000"><title>' + title + '</title><link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" /></head><body><main>' + content + '</main></body></html>'

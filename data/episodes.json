@@ -1,5 +1,154 @@
 [
     {
+        "date": "3 October 2024",
+        "id": 1040,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0023gm2",
+        "topic": "The Haymarket Affair",
+        "wiki_link": "https://en.wikipedia.org/wiki/Haymarket_affair",
+        "experts": [
+            {
+                "name": "Ruth Kinna",
+                "title": "Professor of Political Theory at Loughborough University",
+                "links": [
+                    {
+                        "text": "Ruth Kinna",
+                        "wiki": "https://en.wikipedia.org/wiki/Ruth_Kinna"
+                    },
+                    {
+                        "text": "Loughborough University",
+                        "wiki": "https://en.wikipedia.org/wiki/Loughborough_University"
+                    }
+                ]
+            },
+            {
+                "name": "Christopher Phelps",
+                "title": "associate Professor of American Studies at the University of Nottingham",
+                "links": [
+                    {
+                        "text": "Christopher Phelps",
+                        "wiki": "https://en.wikipedia.org/wiki/Christopher_Phelps"
+                    },
+                    {
+                        "text": "University of Nottingham",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Nottingham"
+                    }
+                ]
+            },
+            {
+                "name": "Gary Gerstle",
+                "title": "Paul Mellon Professor of American History Emeritus at the University of Cambridge.",
+                "links": [
+                    {
+                        "text": "Gary Gerstle",
+                        "wiki": "https://en.wikipedia.org/wiki/Gary_Gerstle"
+                    },
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "26 September 2024",
+        "id": 1039,
+        "episode_link": "https://www.bbc.co.uk/programmes/m00237yt",
+        "topic": "Wormholes",
+        "wiki_link": "https://en.wikipedia.org/wiki/Wormhole",
+        "experts": [
+            {
+                "name": "Toby Wiseman",
+                "title": "Professor of Theoretical Physics at Imperial College London",
+                "links": [
+                    {
+                        "text": "Imperial College London",
+                        "wiki": "https://en.wikipedia.org/wiki/Imperial_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "Katy Clough",
+                "title": "Senior Lecturer in Mathematics at Queen Mary, University of London",
+                "links": [
+                    {
+                        "text": "Katy Clough",
+                        "wiki": "https://en.wikipedia.org/wiki/Katy_Clough"
+                    },
+                    {
+                        "text": "Queen Mary, University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Queen_Mary_University_of_London"
+                    }
+                ]
+            },
+            {
+                "name": "Andrew Pontzen",
+                "title": "Professor of Cosmology at Durham University.",
+                "links": [
+                    {
+                        "text": "Andrew Pontzen",
+                        "wiki": "https://en.wikipedia.org/wiki/Andrew_Pontzen"
+                    },
+                    {
+                        "text": "Durham University",
+                        "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "19 September 2024",
+        "id": 1038,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0022z8v",
+        "topic": "Benjamin Disraeli",
+        "wiki_link": "https://en.wikipedia.org/wiki/Benjamin_Disraeli",
+        "experts": [
+            {
+                "name": "Lawrence Goldman",
+                "title": "Emeritus Fellow in History at St Peter's College, University of Oxford",
+                "links": [
+                    {
+                        "text": "Lawrence Goldman",
+                        "wiki": "https://en.wikipedia.org/wiki/Lawrence_Goldman"
+                    },
+                    {
+                        "text": "St Peter's College",
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Emily Jones",
+                "title": "Lecturer in Modern British History at the University of Manchester",
+                "links": [
+                    {
+                        "text": "University of Manchester",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
+                    }
+                ]
+            },
+            {
+                "name": "Daisy Hay",
+                "title": "Professor of English Literature and Life Writing at the University of Exeter.",
+                "links": [
+                    {
+                        "text": "Daisy Hay",
+                        "wiki": "https://en.wikipedia.org/wiki/Daisy_Hay"
+                    },
+                    {
+                        "text": "University of Exeter",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "04 July 2024",
         "id": 1037,
         "episode_link": "https://www.bbc.co.uk/programmes/m0020pf0",
@@ -6729,7 +6878,7 @@
         "date": "21 January 2021",
         "id": 891,
         "episode_link": "https://www.bbc.co.uk/programmes/m000rc43",
-        "topic": "Plague of Justinian",
+        "topic": "The Plague of Justinian",
         "wiki_link": "https://en.wikipedia.org/wiki/Plague_of_Justinian",
         "experts": [
             {
@@ -13087,6 +13236,10 @@
                 "name": "Lloyd Llewellyn-Jones",
                 "title": "Professor in Ancient History at Cardiff University",
                 "links": [
+                    {
+                        "text": "Lloyd Llewellyn-Jones",
+                        "wiki": "https://en.wikipedia.org/wiki/Lloyd_Llewellyn-Jones"
+                    },
                     {
                         "text": "Cardiff University",
                         "wiki": "https://en.wikipedia.org/wiki/Cardiff_University"
@@ -24784,6 +24937,10 @@
                 "name": "Seamus Perry",
                 "title": "Fellow and Tutor in English at Balliol College, University of Oxford,",
                 "links": [
+                    {
+                        "text": "Seamus Perry",
+                        "wiki": "https://en.wikipedia.org/wiki/Seamus_Perry"
+                    },
                     {
                         "text": "Balliol College, University of Oxford",
                         "wiki": "https://en.wikipedia.org/wiki/Balliol_College,_University_of_Oxford"
@@ -37432,7 +37589,7 @@
         "wiki_link": "https://en.wikipedia.org/wiki/History_of_mathematics#Renaissance",
         "experts": [
             {
-                "name": "Robert D. Kaplan",
+                "name": "Robert Lee Kaplan",
                 "title": "co-founder of the Maths Circle at Harvard University",
                 "links": [
                     {
@@ -39136,13 +39293,9 @@
         "wiki_link": "https://en.wikipedia.org/wiki/Pi",
         "experts": [
             {
-                "name": "Robert D. Kaplan",
+                "name": "Robert Lee Kaplan",
                 "title": "co-founder of the Maths Circle at Harvard University",
                 "links": [
-                    {
-                        "text": "Robert D. Kaplan",
-                        "wiki": "https://en.wikipedia.org/wiki/Robert_D._Kaplan"
-                    },
                     {
                         "text": "Harvard University",
                         "wiki": "https://en.wikipedia.org/wiki/Harvard_University"

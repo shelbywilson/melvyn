@@ -27,6 +27,10 @@
     display: flex;
     justify-content: center;
     padding: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 3rem;
+    transition: opacity 500ms;
 }
 #loading img {
     width: 100px;

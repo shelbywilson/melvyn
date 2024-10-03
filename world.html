@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="description" content="An index of In Our Time episodes and their associated Wikipedia pages." />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="in our time" />
+    <meta property="og:description" content="An index of In Our Time episodes and their associated Wikipedia pages." />
+    <meta name="theme-color" content="#000">
+    <title>in our time</title>
+    <link rel="stylesheet" type="text/css" href="./client/css/common.03.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/index.03.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/world.03.css" />
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
+    <script src="client/util.03.js"></script>
+    <!-- 
+            "three/addons/": "https://unpkg.com/three/examples/jsm/",
+     -->
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "./client/three/three.module.min.js",
+            "three/addons/": "https://unpkg.com/three/examples/jsm/",
+            "util": "./client/util.03.js"
+          }
+        }
+      </script>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls'
+        import * as BufferGeometryUtils from 'three/addons/utils/BufferGeometryUtils.js';
+
+        const container = document.querySelector('.container');
+        const canvasEl = document.querySelector('#canvas');
+
+        let renderer, clock, scenes = [];
+
+        // size of each face
+        const segmentSize = 0.008;
+
+        const globeGeometry = () => new THREE.IcosahedronGeometry(.1, 10).scale(2, 1, 2);
+
+        let page = parseInt(window.location.hash.split('page=').pop()) || 0
+        const PAGE_SIZE = 50;
+        let state = {
+            start: page * PAGE_SIZE,
+            end: (page + 1) * PAGE_SIZE,
+            scoredOnly: false,
+            sortBy: 'date',
+        }
+        let config = {};
+        let episodes = [];
+        let bbcDescriptions = {};
+        let guestFrequency = {};
+        let categoriesByEpisode = {};
+        let topLevelCategoriesByEpisode = {};
+        let scores = {};
+        let thumbnails = {};
+        let categories = {};
+        let guests = {};
+
+        let topic = '';
+        let textures = []
+
+        // track to un-highlight
+        let highlighted = []
+
+        window.onload = () => {
+            const reader = new FileReader();
+
+            window.onhashchange = display;
+
+            handleDragElement(document.getElementById("info"));
+
+            document.querySelector('#search-input').addEventListener('input', (e) => {
+                handleSearch()
+            })
+
+            Promise.all([
+                // 'scores',
+                './data/bbc_descriptions_short.json?v=1',
+                // './data/guest_frequency_min.json?v=1',
+                './data/episodes_min.json?v=1',
+                './data/episode_thumbnails.json?v=1',
+                './data/categories_by_episode.json?v=1',
+                './config/config.json?v=1',
+                './data/topics_by_category_non_unique.json',
+                './data/top_level_categories_by_episode.json',
+            ].map((url, i) => {
+                // if (i === 0) {
+                //     return getScores()
+                // }
+
+                return fetch(url).then((response) => {
+                    return response.json();
+                }).then((data) => {
+                    return data;
+                });
+            })).then((values) => {
+                // [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode, config] = values;
+                [bbcDescriptions, episodes, thumbnails, categoriesByEpisode, config, categories, topLevelCategoriesByEpisode] = values;
+                state.end = Math.min(episodes.length - 1, ((page + 1) * PAGE_SIZE) - 1)
+
+                display();
+
+            }).catch(
+                console.error.bind(console)
+            );
+        }
+
+        function display() {
+            init();
+        }
+
+        function handleDragElement(elmnt) {
+            var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+
+            if (document.getElementById(elmnt.id + "header")) {
+                document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+            } else {
+                elmnt.onmousedown = dragMouseDown;
+            }
+
+            function dragMouseDown(e) {
+                e = e || window.event;
+                e.preventDefault();
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                document.onmouseup = closeDragElement;
+                document.onmousemove = elementDrag;
+            }
+
+            function elementDrag(e) {
+                e = e || window.event;
+                e.preventDefault();
+                pos1 = pos3 - e.clientX;
+                pos2 = pos4 - e.clientY;
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                elmnt.style.bottom = '';
+                elmnt.style.right = '';
+                elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+            }
+
+            function closeDragElement() {
+                document.onmouseup = null;
+                document.onmousemove = null;
+            }
+        }
+
+        // function shuffleArray(array) {
+        //     // Create a copy of the array to avoid modifying the original
+        //     const shuffledArray = array.slice();
+        //     const length = shuffledArray.length;
+
+        //     for (let i = length - 1; i > 0; i--) {
+        //         // Generate a random index from 0 to i
+        //         const j = Math.floor(Math.random() * (i + 1));
+
+        //         // Swap elements at index i and j
+        //         [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+        //     }
+
+        //     return shuffledArray;
+        // }
+
+        function loadImageWithWhiteBackground(episode, imageUrl, callback) {
+            // Create an Image object
+            const img = new Image();
+            img.crossOrigin = 'anonymous'; // Handle CORS if needed
+
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+
+                canvas.width = img.width + 10;
+                canvas.height = img.height + 10;
+
+                context.fillStyle = 'rgb(255,255,255)';
+                context.fillRect(0, 0, canvas.width, canvas.height);
+
+                context.drawImage(img, 5, 5);
+
+                const texture = new THREE.CanvasTexture(canvas);
+
+                callback(texture);
+            };
+
+            img.onerror = () => {
+                console.error('Error loading image:', episode, imageUrl);
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+
+                canvas.width = 200;
+                canvas.height = 200;
+
+                context.fillStyle = `hsl(${120 + (Math.random() * 160)}deg, 50%, 50%)`;
+                context.fillRect(0, 0, canvas.width, canvas.height);
+
+                const texture = new THREE.CanvasTexture(canvas);
+
+                callback(texture);
+            };
+
+            img.src = imageUrl;
+        }
+
+        function getDebugTexture(i) {
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+
+            // Set canvas dimensions to the image's dimensions
+            canvas.width = 200;
+            canvas.height = 200
+
+            // Fill the canvas with a white background
+            context.fillStyle = 'rgb(255,255,255)';
+            context.fillRect(0, 0, canvas.width, canvas.height);
+
+            context.font = "50px Arial";
+            context.fillStyle = '#000'
+            context.fillText(i, 10, 80);
+
+            return new THREE.CanvasTexture(canvas);
+        }
+
+        function handleSearch() {
+            const search = document.getElementById('search-input').value
+
+            scenes[0].traverse((child) => {
+                if (child.isMesh && child.userData.isEpisode) {
+                    child.material.opacity = isSearchMatch(child.userData, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, true, search) ? 1 : 0.05
+                }
+            });
+        }
+
+        function getGuestLinks(episode) {
+            let links = '';
+            episode.experts.forEach((expert, i) => (
+                links += `<a target="_blank" href="${getExpertURL(expert)}" >${expert.name}</a>${i < episode.experts.length - 1 ? ', ' : ''}`
+            ))
+
+            return links;
+        }
+
+        function init() {
+
+            initScene();
+            window.addEventListener('resize', updateSceneSize);
+
+            function initScene() {
+                let geometryOriginal = globeGeometry();
+                geometryOriginal.deleteAttribute('normal');
+                geometryOriginal.deleteAttribute('uv');
+                geometryOriginal = BufferGeometryUtils.mergeVertices(geometryOriginal);
+                geometryOriginal.computeVertexNormals();
+                const positions = geometryOriginal.attributes.position.array;
+
+                while (textures.length < positions.length / 3) {
+                    textures.push({});
+                }
+
+                renderer = new THREE.WebGLRenderer({
+                    alpha: true,
+                    antialias: true,
+                    canvas: canvasEl
+                });
+                renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+                clock = new THREE.Clock();
+                episodes.forEach((episode, i) => {
+                    setTimeout(() => {
+                        const image = thumbnails[episode.topic];
+                        loadImageWithWhiteBackground(
+                            episode.topic,
+                            image,
+                            (t) => {
+                                // textures.push({
+                                //     episode: episode,
+                                //     texture: t
+                                // })
+
+                                let found = false;
+                                while (!found) {
+                                    const index = Math.floor(Math.random() * textures.length - 1)
+                                    if (!textures[index]?.texture) {
+                                        textures[index] = {
+                                            episode: episode,
+                                            texture: t
+                                        }
+
+                                        found = true;
+                                    }
+                                }
+                            }
+                        )
+                    }, 6 * i)
+                })
+
+                scenes.push(createScene());
+                updateSceneSize();
+                render();
+
+            }
+
+            function createGlobe(idx) {
+                const dummy = new THREE.Object3D();
+
+                const meshArray = [];
+                let geometryOriginal = globeGeometry();
+                geometryOriginal.deleteAttribute('normal');
+                geometryOriginal.deleteAttribute('uv');
+                geometryOriginal = BufferGeometryUtils.mergeVertices(geometryOriginal);
+                geometryOriginal.computeVertexNormals();
+                const positions = geometryOriginal.attributes.position.array;
+                const normals = geometryOriginal.attributes.normal.array;
+                let j = 0;
+
+                for (let i = 0; i < positions.length; i += 3) {
+                    let texture;
+                    let aspectRatio = 1;
+                    let material = new THREE.MeshBasicMaterial({ side: THREE.DoubleSide });
+                    const thesePositions = [positions[i], positions[i + 1], positions[i + 2]];
+                    const theseNormals = [normals[i], normals[i + 1], normals[i + 2]];
+
+                    dummy.position.set(positions[i], positions[i + 1], positions[i + 2]);
+                    dummy.lookAt(
+                        positions[i] + normals[i],
+                        positions[i + 1] + normals[i + 1],
+                        positions[i + 2] + normals[i + 2]
+                    );
+                    dummy.updateMatrix();
+
+                    // add placeholder geometry
+                    const segmentGeometry = new THREE.PlaneGeometry(segmentSize, segmentSize);
+                    const segmentMesh = new THREE.Mesh(segmentGeometry, material);
+                    segmentMesh.userData = { init: false, positions: thesePositions, normals: theseNormals, j: j };
+
+                    segmentMesh.applyMatrix4(dummy.matrix);
+                    meshArray.push(segmentMesh);
+
+                    segmentMesh.visible = false
+
+                    j += 1;
+                }
+
+                const obj = new THREE.Group();
+                meshArray.forEach(mesh => obj.add(mesh));
+
+                const innerGeometry = globeGeometry();
+                innerGeometry.scale(0.96, 0.96, 0.96);
+
+                const inner = new THREE.Mesh(innerGeometry, new THREE.MeshBasicMaterial({ color: '#031708', transparent: true, opacity: 0.7 }))
+
+                obj.add(inner)
+
+                return obj;
+            }
+
+            function createScene() {
+                const scene = new THREE.Scene();
+
+                const element = document.querySelector('#canvas');
+                scene.userData.element = element;
+
+                // Set up the camera to look head-on
+                const camera = new THREE.PerspectiveCamera(5, scene.userData.element.clientWidth / scene.userData.element.clientHeight, 0.01, 100);
+                camera.position.set(0, 0, 5); // Position the camera along the Z-axis, facing the origin
+                camera.lookAt(0, 0, 0); // Ensure the camera is looking at the origin
+
+                scene.userData.camera = camera;
+
+                const controls = new OrbitControls(scene.userData.camera, scene.userData.element);
+                controls.distance = 30;
+                controls.autoRotate = true;
+                controls.autoRotateSpeed = 0.3;
+                controls.maxDistance = 25;
+                controls.enableZoom = true;
+                controls.enableDamping = true;
+                controls.enableRotate = true;
+                scene.userData.controls = controls;
+
+                const globe = createGlobe();
+                scene.add(globe);
+
+                // const circleIndicator = createCircleIndicator();
+                // scene.add(circleIndicator);
+
+                const raycaster = new THREE.Raycaster();
+                const mouse = new THREE.Vector2();
+
+                function handleMouseMove(event, isClick) {
+                    // if (!isClick) {
+                    //     event.preventDefault();
+                    // }
+
+                    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+                    mouse.y = -((event.clientY / window.innerHeight) * 2 - 1);
+
+                    if (isClick) {
+                        console.log(true)
+                        if (event.target.id === 'info' || event.target.closest(`#info`)) {
+                            scene.userData.controls.autoRotate = true;
+                        } else if (event.target.classList.contains('log__entry')) {
+                            setInfoBox(episodes.find(d => d.date === event.target.getAttribute('data-date')), false)
+
+                            scene.userData.controls.autoRotate = true;
+                        } else {
+                            camera.updateMatrixWorld();
+
+                            raycaster.setFromCamera(mouse, camera);
+
+                            const intersects = raycaster.intersectObjects(globe.children).filter(child => child.object.visible && child.object.material.opacity > 0.2);
+
+                            if (intersects.length > 0) {
+                                const episode = intersects[0].object.userData;
+
+                                if (episode.topic) {
+                                    setInfoBox(episode, true)
+                                    highlightEpisodeInGlobe(intersects[0].object);
+
+                                } else {
+                                    scene.userData.controls.autoRotate = true;
+                                }
+                            } else {
+                                scene.userData.controls.autoRotate = true;
+                            }
+                        }
+                    } else {
+                        camera.updateMatrixWorld();
+
+                        raycaster.setFromCamera(mouse, camera);
+
+                        const intersects = raycaster.intersectObjects(globe.children).filter(child => child.object.visible && child.object.material.opacity > 0.2);
+
+                        if (intersects.length > 0) {
+                            const episode = intersects[0].object.userData;
+
+                            if (Object.keys(episode).length > 0) {
+                                highlightEpisodeInGlobe(intersects[0].object);
+                            } else {
+                                highlighted.forEach(el => {
+                                    el.material.color.set(0xffffff)
+                                })
+
+                                highlighted = []
+                            }
+                            // scene.userData.controls.autoRotate = Object.keys(episode).length === 0;
+                        } else {
+
+                            scene.userData.controls.autoRotate = true;
+                        }
+                    }
+                }
+
+                function highlightEpisodeInGlobe(object) {
+                    object.material.color.set(0x4cb1ff)
+
+                    highlighted.push(object)
+                }
+
+                window.addEventListener('mousemove', e => handleMouseMove(e, false));
+                window.addEventListener('click', e => handleMouseMove(e, true));
+
+                function setInfoBox(episode, updateLog) {
+                    const info = document.querySelector('#info');
+                    info.style.pointerEvents = 'all';
+                    info.style.opacity = 1;
+                    document.querySelector('#info h4').innerHTML = `${episode.date}`
+                    document.querySelector('#info h3').innerHTML = `${episode.topic}`
+                    document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`] + '<br/>' + `Featuring: ${getGuestLinks(episode)}`
+                    document.querySelector('#info__links').innerHTML = (episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">wikipedia &plusb;</a>` : '') + `<a href="${episode.episode_link}" target="_blank">listen &prurel;</a>`
+                    document.querySelector('#info__categories').innerHTML = getCategoriesHTML(episode.topic, {}, topLevelCategoriesByEpisode, config) + getCategoriesHTML(episode.topic, {}, categoriesByEpisode, config)
+                    if (thumbnails[episode.topic]) {
+                        document.querySelector('#info img').src = thumbnails[episode.topic]
+                        document.querySelector('#info img').style.display = 'block';
+                    } else {
+                        document.querySelector('#info img').style.display = 'none';
+                    }
+
+                    scene.userData.controls.autoRotate = false;
+
+                    if (topic !== episode.topic && updateLog) {
+                        const prevLog = document.querySelector('#log').innerHTML;
+                        document.querySelector('#log').innerHTML = prevLog + `<p class="log__entry" data-date="${episode.date}" data-topic="${episode.topic}">${episode.topic}${(episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">&plusb;</a>` : '') + `<a href="${episode.episode_link}" target="_blank">&prurel;</a>`}</p>`
+
+                        topic = episode.topic;
+                    }
+                }
+
+                document.querySelector('#info__close').addEventListener('click', () => {
+                    const info = document.querySelector('#info');
+                    info.style.opacity = 0;
+                    info.style.pointerEvents = 'none';
+                })
+                return scene;
+            }
+
+            function createCircleIndicator() {
+                const radius = 0.01; // Radius of the circle
+                const geometry = new THREE.CircleGeometry(radius, 32);
+                const material = new THREE.MeshBasicMaterial({ color: '0xff0000', side: THREE.DoubleSide });
+                const circle = new THREE.Mesh(geometry, material);
+
+                // Make sure the circle is always facing the camera
+                // circle.rotation.x = Math.PI / 2;
+
+                return circle;
+            }
+
+            function drawTextures(textures) {
+                const search = document.getElementById('search-input').value || ''
+                scenes[0].traverse((child) => {
+                    if (child.isMesh && !child.userData.init) {
+                        const { positions, normals, j } = child.userData;
+                        //  console.log(textures[j])
+                        if (textures[j]?.texture) {
+                            const texture = textures[j].texture;
+                            const aspectRatio = texture.image.width / texture.image.height;
+
+                            const material = new THREE.MeshBasicMaterial({
+                                map: texture,
+                                side: THREE.DoubleSide,
+                                transparent: true,
+                                opacity: isSearchMatch(child.userData, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, false, search) ? 1 : 0.05,
+                            });
+
+                            const segmentWidth = texture.image.width > texture.image.height
+                                ? segmentSize * Math.min(3, texture.image.width / texture.image.height)
+                                : segmentSize * Math.max(0.5, texture.image.width / texture.image.height);
+                            const segmentHeight = segmentWidth / aspectRatio;
+
+                            if (child.geometry) {
+                                child.geometry.dispose(); // Dispose of the old geometry if necessary
+                                child.geometry = new THREE.PlaneGeometry(segmentWidth, segmentHeight);
+                            } else {
+                                child.geometry = new THREE.PlaneGeometry(segmentWidth, segmentHeight);
+                            }
+
+                            child.visible = true;
+
+                            child.material = material;
+
+                            child.userData = { ...child.userData, ...textures[j].episode, init: true, isEpisode: true }
+                        }
+                    }
+                });
+            }
+
+            function render() {
+                drawTextures(textures)
+
+                renderer.setScissorTest(true);
+                renderer.setClearColor(0xffffff, 0);
+                // const delta = .04 * clock.getDelta();
+
+                scenes.forEach((scene, idx) => {
+                    renderer.setViewport(0, 0, window.innerWidth, window.innerHeight);
+                    renderer.setScissor(0, 0, window.innerWidth, window.innerHeight);
+
+                    scene.userData.controls.update();
+
+                    const scale = window.innerWidth < 768 ? 1 : 1.75;
+                    scene.children[0].scale.x = scale;
+                    scene.children[0].scale.y = scale;
+                    scene.children[0].scale.z = scale;
+
+                    renderer.render(scene, scene.userData.camera);
+                });
+
+                requestAnimationFrame(render);
+            }
+
+            function updateSceneSize() {
+                scenes.forEach(scene => {
+                    scene.userData.camera.aspect = scene.userData.element.clientWidth / (scene.userData.element.clientHeight);
+                    scene.userData.camera.updateProjectionMatrix();
+                });
+                renderer.setSize(container.clientWidth, container.clientHeight);
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <p class="header__home-links">
+            <input id="search-input" type="text" name="search episodes" placeholder="search episodes" />
+            <a target="" href="/">list</a>
+            <!-- <a target="" href="/guest/">all guests</a> -->
+            <a target="_blank" href="https://github.com/shelbywilson/melvyn">about</a>
+        </p>
+
+        <a href="/" class="header__home-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
+                alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
+        </a>
+    </header>
+    <div class="container">
+        <div id="log">
+
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div id="info">
+        <div class="info__inner">
+            <div>
+                <h3></h3>
+                <h4></h4>
+                <p id="info__description"></p>
+                <p id="info__links"></p>
+            </div>
+            <div class="info__img-container">
+                <img />
+            </div>
+        </div>
+        <p id="info__categories"></p>
+        <button type="button" id="info__close">
+            &times;
+        </button>
+    </div>
+</body>
+
+</html>
