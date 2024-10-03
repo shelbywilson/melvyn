@@ -478,7 +478,7 @@
                     document.querySelector('#info h3').innerHTML = `${episode.topic}`
                     document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`] + '<br/>' + `Featuring: ${getGuestLinks(episode)}`
                     document.querySelector('#info__links').innerHTML = (episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">wikipedia &plusb;</a>` : '') + `<a href="${episode.episode_link}" target="_blank">listen &prurel;</a>`
-                    document.querySelector('#info__categories').innerHTML = getCategoriesHTML(episode.topic, {}, topLevelCategoriesByEpisode, config)
+                    document.querySelector('#info__categories').innerHTML = getCategoriesHTML(episode.topic, {}, topLevelCategoriesByEpisode, config) + getCategoriesHTML(episode.topic, {}, categoriesByEpisode, config)
                     if (thumbnails[episode.topic]) {
                         document.querySelector('#info img').src = thumbnails[episode.topic]
                         document.querySelector('#info img').style.display = 'block';
@@ -612,16 +612,18 @@
     </div>
 
     <div id="info">
-        <div>
-            <h3></h3>
-            <h4></h4>
-            <p id="info__description"></p>
-            <p id="info__links"></p>
-            <p id="info__categories"></p>
+        <div class="info__inner">
+            <div>
+                <h3></h3>
+                <h4></h4>
+                <p id="info__description"></p>
+                <p id="info__links"></p>
+            </div>
+            <div class="info__img-container">
+                <img />
+            </div>
         </div>
-        <div class="info__img-container">
-            <img />
-        </div>
+        <p id="info__categories"></p>
         <button type="button" id="info__close">
             &times;
         </button>

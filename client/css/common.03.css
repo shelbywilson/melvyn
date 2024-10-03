@@ -298,5 +298,6 @@ header .categories {
 
     .categories a {
         max-width: 100%;
+        font-size: 0.875rem;
     }
 }
