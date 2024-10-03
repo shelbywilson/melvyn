@@ -30,6 +30,7 @@
     position: absolute;
     width: 100%;
     top: 3rem;
+    left: 0;
     transition: opacity 500ms;
 }
 #loading img {
@@ -62,11 +63,18 @@ input[type="text"], select {
     }
     .filters {
         width: 100%;
+        margin-top: 10rem;
     }
     .filters .flex-column {
         width: 100%;
     }
     input[type="text"], select {
         width: 100%;
+    }
+    #loading {
+        top: 4rem;
+    }
+    #loading img {
+        width: 6rem;
     }
 }
