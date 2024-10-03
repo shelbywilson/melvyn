@@ -32,6 +32,7 @@ main {
     max-width: 1100px;
     padding: var(--padding);
     margin: 0 auto;
+    position: relative;
 }
 
 h1 {
@@ -73,6 +74,15 @@ p {
     gap: 2rem;
     display: flex;
     margin: 0;
+}
+
+.header__home-icon {
+    z-index: 100;
+    position: relative;
+}
+.header__home-icon img {
+    display: inline-block;
+    height: 3rem;
 }
 
 .text-right {

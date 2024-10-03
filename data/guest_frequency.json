@@ -1,4 +1,168 @@
 {
+    "Ruth Kinna": {
+        "count": 3,
+        "first": "7 December 2006",
+        "last": "3 October 2024",
+        "links": [
+            {
+                "text": "Ruth Kinna",
+                "wiki": "https://en.wikipedia.org/wiki/Ruth_Kinna"
+            },
+            {
+                "text": "Loughborough University",
+                "wiki": "https://en.wikipedia.org/wiki/Loughborough_University"
+            }
+        ],
+        "title": [
+            "Professor of Political Theory at Loughborough University",
+            "Senior Lecturer in Politics at Loughborough University"
+        ]
+    },
+    "Christopher Phelps": {
+        "count": 2,
+        "first": "15 June 2017",
+        "last": "3 October 2024",
+        "links": [
+            {
+                "text": "Christopher Phelps",
+                "wiki": "https://en.wikipedia.org/wiki/Christopher_Phelps"
+            },
+            {
+                "text": "University of Nottingham",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Nottingham"
+            }
+        ],
+        "title": [
+            "associate Professor of American Studies at the University of Nottingham",
+            "Associate Professor of American Studies at the University of Nottingham"
+        ]
+    },
+    "Gary Gerstle": {
+        "count": 1,
+        "first": "3 October 2024",
+        "last": "3 October 2024",
+        "links": [
+            {
+                "text": "Gary Gerstle",
+                "wiki": "https://en.wikipedia.org/wiki/Gary_Gerstle"
+            },
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Paul Mellon Professor of American History Emeritus at the University of Cambridge."
+        ]
+    },
+    "Toby Wiseman": {
+        "count": 1,
+        "first": "26 September 2024",
+        "last": "26 September 2024",
+        "links": [
+            {
+                "text": "Imperial College London",
+                "wiki": "https://en.wikipedia.org/wiki/Imperial_College_London"
+            }
+        ],
+        "title": [
+            "Professor of Theoretical Physics at Imperial College London"
+        ]
+    },
+    "Katy Clough": {
+        "count": 1,
+        "first": "26 September 2024",
+        "last": "26 September 2024",
+        "links": [
+            {
+                "text": "Katy Clough",
+                "wiki": "https://en.wikipedia.org/wiki/Katy_Clough"
+            },
+            {
+                "text": "Queen Mary, University of London",
+                "wiki": "https://en.wikipedia.org/wiki/Queen_Mary_University_of_London"
+            }
+        ],
+        "title": [
+            "Senior Lecturer in Mathematics at Queen Mary, University of London"
+        ]
+    },
+    "Andrew Pontzen": {
+        "count": 1,
+        "first": "26 September 2024",
+        "last": "26 September 2024",
+        "links": [
+            {
+                "text": "Andrew Pontzen",
+                "wiki": "https://en.wikipedia.org/wiki/Andrew_Pontzen"
+            },
+            {
+                "text": "Durham University",
+                "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+            }
+        ],
+        "title": [
+            "Professor of Cosmology at Durham University."
+        ]
+    },
+    "Lawrence Goldman": {
+        "count": 10,
+        "first": "30 December 2010",
+        "last": "19 September 2024",
+        "links": [
+            {
+                "text": "Lawrence Goldman",
+                "wiki": "https://en.wikipedia.org/wiki/Lawrence_Goldman"
+            },
+            {
+                "text": "St Peter's College",
+                "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+            },
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Emeritus Fellow in History at St Peter's College, University of Oxford",
+            "Professor of History at the Institute of Historical Research, University of London",
+            "Director of the Institute of Historical Research at the University of London",
+            "Fellow in Modern History at St Peter's College, Oxford",
+            "Fellow and Tutor in History at St Peter's College, University of Oxford"
+        ]
+    },
+    "Emily Jones": {
+        "count": 1,
+        "first": "19 September 2024",
+        "last": "19 September 2024",
+        "links": [
+            {
+                "text": "University of Manchester",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
+            }
+        ],
+        "title": [
+            "Lecturer in Modern British History at the University of Manchester"
+        ]
+    },
+    "Daisy Hay": {
+        "count": 1,
+        "first": "19 September 2024",
+        "last": "19 September 2024",
+        "links": [
+            {
+                "text": "Daisy Hay",
+                "wiki": "https://en.wikipedia.org/wiki/Daisy_Hay"
+            },
+            {
+                "text": "University of Exeter",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+            }
+        ],
+        "title": [
+            "Professor of English Literature and Life Writing at the University of Exeter."
+        ]
+    },
     "Martha Clokie": {
         "count": 1,
         "first": "04 July 2024",
@@ -3869,32 +4033,6 @@
             "The William Robertson Professor of History at the University of Edinburgh"
         ]
     },
-    "Lawrence Goldman": {
-        "count": 9,
-        "first": "30 December 2010",
-        "last": "3 November 2022",
-        "links": [
-            {
-                "text": "Lawrence Goldman",
-                "wiki": "https://en.wikipedia.org/wiki/Lawrence_Goldman"
-            },
-            {
-                "text": "St Peter's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
-            },
-            {
-                "text": "University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
-            }
-        ],
-        "title": [
-            "Emeritus Fellow in History at St Peter's College, University of Oxford",
-            "Professor of History at the Institute of Historical Research, University of London",
-            "Director of the Institute of Historical Research at the University of London",
-            "Fellow in Modern History at St Peter's College, Oxford",
-            "Fellow and Tutor in History at St Peter's College, University of Oxford"
-        ]
-    },
     "Jane Potter": {
         "count": 1,
         "first": "27 October 2022",
@@ -4868,25 +5006,6 @@
         ],
         "title": [
             "Associate Professor of South Asia Studies at the University of Pennsylvania"
-        ]
-    },
-    "Ruth Kinna": {
-        "count": 2,
-        "first": "7 December 2006",
-        "last": "24 February 2022",
-        "links": [
-            {
-                "text": "Ruth Kinna",
-                "wiki": "https://en.wikipedia.org/wiki/Ruth_Kinna"
-            },
-            {
-                "text": "Loughborough University",
-                "wiki": "https://en.wikipedia.org/wiki/Loughborough_University"
-            }
-        ],
-        "title": [
-            "Professor of Political Theory at Loughborough University",
-            "Senior Lecturer in Politics at Loughborough University"
         ]
     },
     "Lee Dugatkin": {
@@ -10845,24 +10964,6 @@
         ],
         "title": [
             "Lecturer in US History at the University of Oxford"
-        ]
-    },
-    "Christopher Phelps": {
-        "count": 1,
-        "first": "15 June 2017",
-        "last": "15 June 2017",
-        "links": [
-            {
-                "text": "Christopher Phelps",
-                "wiki": "https://en.wikipedia.org/wiki/Christopher_Phelps"
-            },
-            {
-                "text": "University of Nottingham",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Nottingham"
-            }
-        ],
-        "title": [
-            "Associate Professor of American Studies at the University of Nottingham"
         ]
     },
     "Helen Swift": {
@@ -17991,6 +18092,10 @@
         "last": "30 June 2011",
         "links": [
             {
+                "text": "Seamus Perry",
+                "wiki": "https://en.wikipedia.org/wiki/Seamus_Perry"
+            },
+            {
                 "text": "Balliol College, University of Oxford",
                 "wiki": "https://en.wikipedia.org/wiki/Balliol_College,_University_of_Oxford"
             }
@@ -23241,7 +23346,7 @@
             "Kenneth Allott Professor of English Literature, University of Liverpool"
         ]
     },
-    "Robert D. Kaplan": {
+    "Robert Lee Kaplan": {
         "count": 2,
         "first": "2 September 2004",
         "last": "2 June 2005",

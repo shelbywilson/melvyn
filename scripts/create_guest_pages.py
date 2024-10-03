@@ -132,7 +132,10 @@ def create_guest_pages():
     print('\t', len(topics_by_guest.keys()), 'guest pages written')
 
     # begin all guests page
-    index_html = '<header><p class="header-back-link"><a target="" href="javascript:history.back()" >&larr; back</a></p>'
+    index_html = '''<header>
+        <p class="header-back-link">
+        <a target="" href="javascript:history.back()" >&larr; back</a>
+    </p>'''
     index_html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
     index_html += '<h1>All guests</h1></header>'
     index_html += '<ul>'

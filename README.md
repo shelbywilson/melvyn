@@ -1,6 +1,10 @@
 # Explore episodes of In Our Time
 
-[https://shelby.cool/melvyn/](https://shelby.cool/melvyn/)
+[https://shelby.cool/melvyn](https://shelby.cool/melvyn/)
+
+This is an index of episodes of In Our Time, a BBC radio show. Episodes are linked to their associated Wikipedia articles when available. Episodes are categorized by five top-level categories ([science](https://shelby.cool/melvyn/category/Science.html), [philosophy](https://shelby.cool/melvyn/category/Philosophy.html), [history](https://shelby.cool/melvyn/category/History.html), [culture](https://shelby.cool/melvyn/category/Culture.html), and [religion](https://shelby.cool/melvyn/category/Religion.html)), and many subcategories (tagged in their associated Wikipedia articles). 
+
+Browse by title, category, description, and guests in a searchable [list](https://shelby.cool/melvyn/index.html) or [3D visualization](https://shelby.cool/melvyn/world.html). 
 
 ## scripts
 Using python scripts, episodes are scraped from [Wikipedia's List of In Our Time Programmes](https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes) and their descriptions are scraped from [BBC](https://www.bbc.co.uk/sounds/brand/b006qykl) and html pages are generated from this data. 
@@ -11,10 +15,10 @@ If there is an associated Wikipedia article, that is followed and its categories
 
 e.g. Aesthetics and Theoretical Physics
 
-In the cases where categories share an identical set of episodes, they are collapsed into a single category (e.g. ["Ancient Greek metaphilosophers, Ancient Greek metaphysicians, Ancient Greek ethicists"](https://shelby.cool/melvyn/category/Ancient_Greek_metaphilosophers,_Ancient_Greek_metaphysicians,_Ancient_Greek_ethicists.html) is a single category since all three are associated to the episodes: "Plato's Gorgias", "Heraclitus", "Pythagoras", and "Socrates").
+In the cases where categories share an identical set of episodes, they are collapsed into a single category (e.g. ["Ancient Greek metaphilosophers, Ancient Greek metaphysicians, Ancient Greek ethicists"](https://shelby.cool/melvyn/category/Ancient_Greek_ethicists,_Ancient_Greek_epistemologists.html) is a single category since both categories are associated to the episodes: "Heraclitus", "Plato's Gorgias", and "Socrates").
 
 Each guest has their own page as well:
-<img width="1171" alt="Emma Smith" src="https://user-images.githubusercontent.com/5523024/193951523-740f7194-ea5c-46b1-acfe-cf19cf39b110.png">(https://shelby.cool/melvyn/guest/Emma_Smith.html)
+<img width="1171" alt="Emma Smith" src="https://user-images.githubusercontent.com/5523024/193951523-740f7194-ea5c-46b1-acfe-cf19cf39b110.png">(https://shelby.cool/melvyn/guest/Emma_Smith.html), and a link to that guest's own Wikipedia page (when available).
 
 A Google sheet supplies ranking and comments.
 
@@ -26,7 +30,9 @@ A Google sheet supplies ranking and comments.
 `python update_all.py`
 
 ## local server
-`python3 -m http.server 5142`
+`python3 -m http.server 5142` (or any port)
 
 ## TODO 
--[]  get top level categories
+- [ ] add bookmarking
+- [ ] arrange world in a meaningful way rather than randomly (PCA? UMAP?)
+- [ ] allow anyone to score or comment on episodes (local storage? link own google sheet?)

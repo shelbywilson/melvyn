@@ -1,4 +1,169 @@
 {
+    "Ruth Kinna": [
+        {
+            "topic": "The Haymarket Affair",
+            "wiki_link": "https://en.wikipedia.org/wiki/Haymarket_affair",
+            "title": "Professor of Political Theory at Loughborough University",
+            "date": "3 October 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0023gm2"
+        },
+        {
+            "topic": "Peter Kropotkin",
+            "wiki_link": "https://en.wikipedia.org/wiki/Peter_Kropotkin",
+            "title": "Professor of Political Theory at Loughborough University",
+            "date": "24 February 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0014pfr"
+        },
+        {
+            "topic": "Anarchism",
+            "wiki_link": "https://en.wikipedia.org/wiki/Anarchism",
+            "title": "Senior Lecturer in Politics at Loughborough University",
+            "date": "7 December 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p0038x9t"
+        }
+    ],
+    "Christopher Phelps": [
+        {
+            "topic": "The Haymarket Affair",
+            "wiki_link": "https://en.wikipedia.org/wiki/Haymarket_affair",
+            "title": "associate Professor of American Studies at the University of Nottingham",
+            "date": "3 October 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0023gm2"
+        },
+        {
+            "topic": "The American Populists",
+            "wiki_link": "https://en.wikipedia.org/wiki/People%27s_Party_(United_States)",
+            "title": "Associate Professor of American Studies at the University of Nottingham",
+            "date": "15 June 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b08tbf4g"
+        }
+    ],
+    "Gary Gerstle": [
+        {
+            "topic": "The Haymarket Affair",
+            "wiki_link": "https://en.wikipedia.org/wiki/Haymarket_affair",
+            "title": "Paul Mellon Professor of American History Emeritus at the University of Cambridge.",
+            "date": "3 October 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0023gm2"
+        }
+    ],
+    "Toby Wiseman": [
+        {
+            "topic": "Wormholes",
+            "wiki_link": "https://en.wikipedia.org/wiki/Wormhole",
+            "title": "Professor of Theoretical Physics at Imperial College London",
+            "date": "26 September 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m00237yt"
+        }
+    ],
+    "Katy Clough": [
+        {
+            "topic": "Wormholes",
+            "wiki_link": "https://en.wikipedia.org/wiki/Wormhole",
+            "title": "Senior Lecturer in Mathematics at Queen Mary, University of London",
+            "date": "26 September 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m00237yt"
+        }
+    ],
+    "Andrew Pontzen": [
+        {
+            "topic": "Wormholes",
+            "wiki_link": "https://en.wikipedia.org/wiki/Wormhole",
+            "title": "Professor of Cosmology at Durham University.",
+            "date": "26 September 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m00237yt"
+        }
+    ],
+    "Lawrence Goldman": [
+        {
+            "topic": "Benjamin Disraeli",
+            "wiki_link": "https://en.wikipedia.org/wiki/Benjamin_Disraeli",
+            "title": "Emeritus Fellow in History at St Peter's College, University of Oxford",
+            "date": "19 September 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0022z8v"
+        },
+        {
+            "topic": "The Morant Bay Rebellion",
+            "wiki_link": "https://en.wikipedia.org/wiki/Morant_Bay_rebellion",
+            "title": "Emeritus Fellow in History at St Peter's College, University of Oxford",
+            "date": "3 November 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001dnlr"
+        },
+        {
+            "topic": "Booth's Life and Labour Survey",
+            "wiki_link": "https://en.wikipedia.org/wiki/Charles_Booth_(social_reformer)",
+            "title": "Emeritus Fellow in History at St Peter's College, University of Oxford",
+            "date": "10 June 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000wsxf"
+        },
+        {
+            "topic": "The American Populists",
+            "wiki_link": "https://en.wikipedia.org/wiki/People%27s_Party_(United_States)",
+            "title": "Professor of History at the Institute of Historical Research, University of London",
+            "date": "15 June 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b08tbf4g"
+        },
+        {
+            "topic": "1816, the Year Without a Summer",
+            "wiki_link": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+            "title": "Director of the Institute of Historical Research at the University of London",
+            "date": "21 April 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b077j4yv"
+        },
+        {
+            "topic": "The Corn Laws",
+            "wiki_link": "https://en.wikipedia.org/wiki/Corn_Laws",
+            "title": "Fellow in Modern History at St Peter's College, Oxford",
+            "date": "24 October 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b03dvbyk"
+        },
+        {
+            "topic": "The War of 1812",
+            "wiki_link": "https://en.wikipedia.org/wiki/War_of_1812",
+            "title": "Fellow in Modern History at St Peter's College, Oxford",
+            "date": "31 January 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01q95s0"
+        },
+        {
+            "topic": "Annie Besant",
+            "wiki_link": "https://en.wikipedia.org/wiki/Annie_Besant",
+            "title": "Fellow in Modern History at St Peter's College, Oxford",
+            "date": "21 June 2012",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01jxtd7"
+        },
+        {
+            "topic": "Octavia Hill",
+            "wiki_link": "https://en.wikipedia.org/wiki/Octavia_Hill",
+            "title": "Fellow in Modern History at St Peter's College, Oxford",
+            "date": "7 April 2011",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0100jpz"
+        },
+        {
+            "topic": "Consequences of the Industrial Revolution",
+            "wiki_link": "https://en.wikipedia.org/wiki/Industrial_Revolution",
+            "title": "Fellow and Tutor in History at St Peter's College, University of Oxford",
+            "date": "30 December 2010",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00wr9r7"
+        }
+    ],
+    "Emily Jones": [
+        {
+            "topic": "Benjamin Disraeli",
+            "wiki_link": "https://en.wikipedia.org/wiki/Benjamin_Disraeli",
+            "title": "Lecturer in Modern British History at the University of Manchester",
+            "date": "19 September 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0022z8v"
+        }
+    ],
+    "Daisy Hay": [
+        {
+            "topic": "Benjamin Disraeli",
+            "wiki_link": "https://en.wikipedia.org/wiki/Benjamin_Disraeli",
+            "title": "Professor of English Literature and Life Writing at the University of Exeter.",
+            "date": "19 September 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0022z8v"
+        }
+    ],
     "Martha Clokie": [
         {
             "topic": "Bacteriophages",
@@ -4603,71 +4768,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m001dnlr"
         }
     ],
-    "Lawrence Goldman": [
-        {
-            "topic": "The Morant Bay Rebellion",
-            "wiki_link": "https://en.wikipedia.org/wiki/Morant_Bay_rebellion",
-            "title": "Emeritus Fellow in History at St Peter's College, University of Oxford",
-            "date": "3 November 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m001dnlr"
-        },
-        {
-            "topic": "Booth's Life and Labour Survey",
-            "wiki_link": "https://en.wikipedia.org/wiki/Charles_Booth_(social_reformer)",
-            "title": "Emeritus Fellow in History at St Peter's College, University of Oxford",
-            "date": "10 June 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000wsxf"
-        },
-        {
-            "topic": "The American Populists",
-            "wiki_link": "https://en.wikipedia.org/wiki/People%27s_Party_(United_States)",
-            "title": "Professor of History at the Institute of Historical Research, University of London",
-            "date": "15 June 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b08tbf4g"
-        },
-        {
-            "topic": "1816, the Year Without a Summer",
-            "wiki_link": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
-            "title": "Director of the Institute of Historical Research at the University of London",
-            "date": "21 April 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b077j4yv"
-        },
-        {
-            "topic": "The Corn Laws",
-            "wiki_link": "https://en.wikipedia.org/wiki/Corn_Laws",
-            "title": "Fellow in Modern History at St Peter's College, Oxford",
-            "date": "24 October 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b03dvbyk"
-        },
-        {
-            "topic": "The War of 1812",
-            "wiki_link": "https://en.wikipedia.org/wiki/War_of_1812",
-            "title": "Fellow in Modern History at St Peter's College, Oxford",
-            "date": "31 January 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01q95s0"
-        },
-        {
-            "topic": "Annie Besant",
-            "wiki_link": "https://en.wikipedia.org/wiki/Annie_Besant",
-            "title": "Fellow in Modern History at St Peter's College, Oxford",
-            "date": "21 June 2012",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01jxtd7"
-        },
-        {
-            "topic": "Octavia Hill",
-            "wiki_link": "https://en.wikipedia.org/wiki/Octavia_Hill",
-            "title": "Fellow in Modern History at St Peter's College, Oxford",
-            "date": "7 April 2011",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0100jpz"
-        },
-        {
-            "topic": "Consequences of the Industrial Revolution",
-            "wiki_link": "https://en.wikipedia.org/wiki/Industrial_Revolution",
-            "title": "Fellow and Tutor in History at St Peter's College, University of Oxford",
-            "date": "30 December 2010",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00wr9r7"
-        }
-    ],
     "Jane Potter": [
         {
             "topic": "Wilfred Owen",
@@ -5540,22 +5640,6 @@
             "title": "Associate Professor of South Asia Studies at the University of Pennsylvania",
             "date": "3 March 2022",
             "episode_link": "https://www.bbc.co.uk/programmes/m0014xt4"
-        }
-    ],
-    "Ruth Kinna": [
-        {
-            "topic": "Peter Kropotkin",
-            "wiki_link": "https://en.wikipedia.org/wiki/Peter_Kropotkin",
-            "title": "Professor of Political Theory at Loughborough University",
-            "date": "24 February 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0014pfr"
-        },
-        {
-            "topic": "Anarchism",
-            "wiki_link": "https://en.wikipedia.org/wiki/Anarchism",
-            "title": "Senior Lecturer in Politics at Loughborough University",
-            "date": "7 December 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p0038x9t"
         }
     ],
     "Lee Dugatkin": [
@@ -7836,7 +7920,7 @@
     ],
     "John Haldon": [
         {
-            "topic": "Plague of Justinian",
+            "topic": "The Plague of Justinian",
             "wiki_link": "https://en.wikipedia.org/wiki/Plague_of_Justinian",
             "title": "Professor of Byzantine History and Hellenic Studies Emeritus at Princeton University",
             "date": "21 January 2021",
@@ -7845,7 +7929,7 @@
     ],
     "Rebecca Flemming": [
         {
-            "topic": "Plague of Justinian",
+            "topic": "The Plague of Justinian",
             "wiki_link": "https://en.wikipedia.org/wiki/Plague_of_Justinian",
             "title": "Senior Lecturer in Classics at the University of Cambridge",
             "date": "21 January 2021",
@@ -7854,7 +7938,7 @@
     ],
     "Greg Woolf": [
         {
-            "topic": "Plague of Justinian",
+            "topic": "The Plague of Justinian",
             "wiki_link": "https://en.wikipedia.org/wiki/Plague_of_Justinian",
             "title": "Director of the Institute of Classical Studies, University of London",
             "date": "21 January 2021",
@@ -11332,15 +11416,6 @@
             "topic": "The American Populists",
             "wiki_link": "https://en.wikipedia.org/wiki/People%27s_Party_(United_States)",
             "title": "Lecturer in US History at the University of Oxford",
-            "date": "15 June 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b08tbf4g"
-        }
-    ],
-    "Christopher Phelps": [
-        {
-            "topic": "The American Populists",
-            "wiki_link": "https://en.wikipedia.org/wiki/People%27s_Party_(United_States)",
-            "title": "Associate Professor of American Studies at the University of Nottingham",
             "date": "15 June 2017",
             "episode_link": "https://www.bbc.co.uk/programmes/b08tbf4g"
         }
@@ -21120,7 +21195,7 @@
             "episode_link": "https://www.bbc.co.uk/programmes/p003k9cm"
         }
     ],
-    "Robert D. Kaplan": [
+    "Robert Lee Kaplan": [
         {
             "topic": "Renaissance Maths",
             "wiki_link": "https://en.wikipedia.org/wiki/History_of_mathematics#Renaissance",

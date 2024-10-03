@@ -13,16 +13,19 @@
     <meta property="og:description" content="An index of In Our Time episodes and their associated Wikipedia pages." />
     <meta name="theme-color" content="#000">
     <title>in our time</title>
-    <link rel="stylesheet" type="text/css" href="./client/css/common.02.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/common.03.css" />
     <link rel="stylesheet" type="text/css" href="./client/css/index.03.css" />
-    <link rel="stylesheet" type="text/css" href="./client/css/world.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/world.03.css" />
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
     <script src="client/util.js"></script>
+    <!-- 
+            "three/addons/": "https://unpkg.com/three/examples/jsm/",
+     -->
     <script type="importmap">
         {
           "imports": {
-            "three": "https://unpkg.com/three/build/three.module.js",
+            "three": "./client/three/three.module.min.js",
             "three/addons/": "https://unpkg.com/three/examples/jsm/",
             "util": "./client/util.js"
           }
@@ -66,16 +69,15 @@
         let topic = '';
         let textures = []
 
+        // track to un-highlight
+        let highlighted = []
+
         window.onload = () => {
             const reader = new FileReader();
 
             window.onhashchange = display;
 
             handleDragElement(document.getElementById("info"));
-
-            document.querySelector('#info__close').addEventListener('click', () => {
-                document.querySelector('#info').style.opacity = 0;
-            })
 
             document.querySelector('#search-input').addEventListener('input', (e) => {
                 handleSearch()
@@ -121,33 +123,27 @@
             var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
 
             if (document.getElementById(elmnt.id + "header")) {
-                // if present, the header is where you move the DIV from:
                 document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
             } else {
-                // otherwise, move the DIV from anywhere inside the DIV:
                 elmnt.onmousedown = dragMouseDown;
             }
 
             function dragMouseDown(e) {
                 e = e || window.event;
                 e.preventDefault();
-                // get the mouse cursor position at startup:
                 pos3 = e.clientX;
                 pos4 = e.clientY;
                 document.onmouseup = closeDragElement;
-                // call a function whenever the cursor moves:
                 document.onmousemove = elementDrag;
             }
 
             function elementDrag(e) {
                 e = e || window.event;
                 e.preventDefault();
-                // calculate the new cursor position:
                 pos1 = pos3 - e.clientX;
                 pos2 = pos4 - e.clientY;
                 pos3 = e.clientX;
                 pos4 = e.clientY;
-                // set the element's new position:
                 elmnt.style.bottom = '';
                 elmnt.style.right = '';
                 elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
@@ -155,27 +151,26 @@
             }
 
             function closeDragElement() {
-                // stop moving when mouse button is released:
                 document.onmouseup = null;
                 document.onmousemove = null;
             }
         }
 
-        function shuffleArray(array) {
-            // Create a copy of the array to avoid modifying the original
-            const shuffledArray = array.slice();
-            const length = shuffledArray.length;
+        // function shuffleArray(array) {
+        //     // Create a copy of the array to avoid modifying the original
+        //     const shuffledArray = array.slice();
+        //     const length = shuffledArray.length;
 
-            for (let i = length - 1; i > 0; i--) {
-                // Generate a random index from 0 to i
-                const j = Math.floor(Math.random() * (i + 1));
+        //     for (let i = length - 1; i > 0; i--) {
+        //         // Generate a random index from 0 to i
+        //         const j = Math.floor(Math.random() * (i + 1));
 
-                // Swap elements at index i and j
-                [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
-            }
+        //         // Swap elements at index i and j
+        //         [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+        //     }
 
-            return shuffledArray;
-        }
+        //     return shuffledArray;
+        // }
 
         function loadImageWithWhiteBackground(episode, imageUrl, callback) {
             // Create an Image object
@@ -260,7 +255,7 @@
                 geometryOriginal.computeVertexNormals();
                 const positions = geometryOriginal.attributes.position.array;
 
-                while (textures.length < positions.length/3) {
+                while (textures.length < positions.length / 3) {
                     textures.push({});
                 }
 
@@ -274,30 +269,30 @@
                 clock = new THREE.Clock();
                 episodes.forEach((episode, i) => {
                     setTimeout(() => {
-                    const image = thumbnails[episode.topic];
-                    loadImageWithWhiteBackground(
-                        episode.topic,
-                        image,
-                        (t) => {
-                            // textures.push({
-                            //     episode: episode,
-                            //     texture: t
-                            // })
+                        const image = thumbnails[episode.topic];
+                        loadImageWithWhiteBackground(
+                            episode.topic,
+                            image,
+                            (t) => {
+                                // textures.push({
+                                //     episode: episode,
+                                //     texture: t
+                                // })
 
-                            let found = false;
-                            while (!found) {
-                                const index = Math.floor(Math.random() * textures.length - 1)
-                                if (!textures[index]?.texture) {
-                                    textures[index] = {
-                                        episode: episode,
-                                        texture: t
+                                let found = false;
+                                while (!found) {
+                                    const index = Math.floor(Math.random() * textures.length - 1)
+                                    if (!textures[index]?.texture) {
+                                        textures[index] = {
+                                            episode: episode,
+                                            texture: t
+                                        }
+
+                                        found = true;
                                     }
-
-                                    found = true;
                                 }
                             }
-                        }
-                    )
+                        )
                     }, 6 * i)
                 })
 
@@ -393,18 +388,43 @@
                 const raycaster = new THREE.Raycaster();
                 const mouse = new THREE.Vector2();
 
-                function handleMouseMove(event) {
-                    event.preventDefault();
+                function handleMouseMove(event, isClick) {
+                    // if (!isClick) {
+                    //     event.preventDefault();
+                    // }
 
                     mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
                     mouse.y = -((event.clientY / window.innerHeight) * 2 - 1);
 
-                    if (event.target.id === 'info' || event.target.closest(`#info`)) {
-                        scene.userData.controls.autoRotate = true;
-                    } else if (event.target.classList.contains('log__entry')) {
-                        setInfoBox(episodes.find(d => d.date === event.target.getAttribute('data-date')), false)
+                    if (isClick) {
+                        console.log(true)
+                        if (event.target.id === 'info' || event.target.closest(`#info`)) {
+                            scene.userData.controls.autoRotate = true;
+                        } else if (event.target.classList.contains('log__entry')) {
+                            setInfoBox(episodes.find(d => d.date === event.target.getAttribute('data-date')), false)
 
-                        scene.userData.controls.autoRotate = true;
+                            scene.userData.controls.autoRotate = true;
+                        } else {
+                            camera.updateMatrixWorld();
+
+                            raycaster.setFromCamera(mouse, camera);
+
+                            const intersects = raycaster.intersectObjects(globe.children).filter(child => child.object.visible && child.object.material.opacity > 0.2);
+
+                            if (intersects.length > 0) {
+                                const episode = intersects[0].object.userData;
+
+                                if (episode.topic) {
+                                    setInfoBox(episode, true)
+                                    highlightEpisodeInGlobe(intersects[0].object);
+
+                                } else {
+                                    scene.userData.controls.autoRotate = true;
+                                }
+                            } else {
+                                scene.userData.controls.autoRotate = true;
+                            }
+                        }
                     } else {
                         camera.updateMatrixWorld();
 
@@ -415,22 +435,36 @@
                         if (intersects.length > 0) {
                             const episode = intersects[0].object.userData;
 
-                            if (episode.topic) {
-                                setInfoBox(episode, true)
-
+                            if (Object.keys(episode).length > 0) {
+                                highlightEpisodeInGlobe(intersects[0].object);
                             } else {
-                                scene.userData.controls.autoRotate = true;
+                                highlighted.forEach(el => {
+                                    el.material.color.set(0xffffff)
+                                })
+
+                                highlighted = []
                             }
+                            // scene.userData.controls.autoRotate = Object.keys(episode).length === 0;
                         } else {
+
                             scene.userData.controls.autoRotate = true;
                         }
                     }
                 }
 
-                window.addEventListener('mousemove', handleMouseMove, false);
+                function highlightEpisodeInGlobe(object) {
+                    object.material.color.set(0x4cb1ff)
+
+                    highlighted.push(object)
+                }
+
+                window.addEventListener('mousemove', e => handleMouseMove(e, false));
+                window.addEventListener('click', e => handleMouseMove(e, true));
 
                 function setInfoBox(episode, updateLog) {
-                    document.querySelector('#info').style.opacity = 1;
+                    const info = document.querySelector('#info');
+                    info.style.pointerEvents = 'all';
+                    info.style.opacity = 1;
                     document.querySelector('#info h4').innerHTML = `${episode.date}`
                     document.querySelector('#info h3').innerHTML = `${episode.topic}`
                     document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`] + '<br/>' + `Featuring: ${episode.experts.map(d => d.name).join(', ')}`
@@ -453,6 +487,11 @@
                     }
                 }
 
+                document.querySelector('#info__close').addEventListener('click', () => {
+                    const info = document.querySelector('#info');
+                    info.style.opacity = 0;
+                    info.style.pointerEvents = 'none';
+                })
                 return scene;
             }
 
@@ -551,7 +590,7 @@
             <a target="_blank" href="https://github.com/shelbywilson/melvyn">about</a>
         </p>
 
-        <a href="/">
+        <a href="/" class="header__home-icon">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
                 alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
         </a>
