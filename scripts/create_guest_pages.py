@@ -142,7 +142,7 @@ def create_guest_pages():
         <p class="header-back-link">
         <a target="" href="javascript:history.back()" >&larr; back</a>
     </p>'''
-    index_html += p(a('list', "/", '', False) + a('world', "./world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+    index_html += p(a('list', "/", '', False) + a('world', "./../world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
     index_html += '<h1>All guests</h1></header>'
     index_html += '<ul>'
     for guest in sorted(sorted(frequency.keys()), key=sort_by_count, reverse=True):
