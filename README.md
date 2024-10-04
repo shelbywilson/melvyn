@@ -33,6 +33,7 @@ A Google sheet supplies ranking and comments.
 `python3 -m http.server 5142` (or any port)
 
 ## TODO 
+- [ ] network diagram of guests
 - [ ] add bookmarking
 - [ ] arrange world in a meaningful way rather than randomly (PCA? UMAP?)
 - [ ] allow anyone to score or comment on episodes (local storage? link own google sheet?)
