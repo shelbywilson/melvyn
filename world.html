@@ -245,7 +245,7 @@
         function getGuestLinks(episode) {
             let links = '';
             episode.experts.forEach((expert, i) => (
-                links += `<a target="_blank" href="${getExpertURL(expert)}" >${expert.name}</a>${i < episode.experts.length - 1 ? ', ' : ''}`
+                links += `<a href="${getExpertURL(expert)}" >${expert.name}</a>${i < episode.experts.length - 1 ? ', ' : ''}`
             ))
 
             return links;
