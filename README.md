@@ -6,6 +6,8 @@ This is an index of episodes of In Our Time, a BBC radio show. Episodes are link
 
 Browse by title, category, description, and guests in a searchable [list](https://shelby.cool/melvyn/index.html) or [3D visualization](https://shelby.cool/melvyn/world.html). 
 
+[<img width="1470" alt="in our time world" src="https://github.com/user-attachments/assets/dcdb27f6-85ee-41cd-b54b-3d7fbad323e1">](https://shelby.cool/melvyn/world.html)
+
 ## scripts
 Using python scripts, episodes are scraped from [Wikipedia's List of In Our Time Programmes](https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes) and their descriptions are scraped from [BBC](https://www.bbc.co.uk/sounds/brand/b006qykl) and html pages are generated from this data. 
 
