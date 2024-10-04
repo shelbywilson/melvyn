@@ -111,6 +111,7 @@ header img {
     border: none;
     cursor: pointer;
     font-size: 2rem;
+    color: #000;
 }
 
 #log {
@@ -155,11 +156,31 @@ header a,
     #info {
         max-height: 90vh;
     }
+
     #info img {
         max-width: 6rem;
+        max-height: 5rem;
     }
 
     #info p {
         font-size: 0.875rem;
+    }
+
+    #info h3 {
+        max-width: calc(100% - 9rem);
+    }
+
+    #info__categories {
+        columns: 1;
+    }
+
+    .info__inner {
+        display: block;
+    }
+
+    .info__img-container {
+        position: absolute;
+        top: 2rem;
+        right: 3rem;
     }
 }

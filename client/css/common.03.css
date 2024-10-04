@@ -63,6 +63,15 @@ p {
     margin: 1.5rem 0;
 }
 
+input[type="text"] {
+    border-radius: 0;
+    border: 1px solid;
+}
+
+input {
+    background: #ffffff;
+}
+
 .header__back-link {
     margin: 0 0 0.5rem 0;
 }
