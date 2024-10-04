@@ -1,6 +1,4 @@
 from itertools import combinations
-from bs4 import BeautifulSoup
-import urllib.request
 import json
 
 def guest_analysis():
@@ -17,30 +15,42 @@ def guest_analysis():
 
     for episode in data:
         for guest in episode['experts']:
-            if (guest['name'] not in frequency):
-                # print(guest['name'])
-                frequency[guest['name']] = { 'count': 1, 'first': episode['date'], 'last': episode['date'], 'links': guest['links'], 'title': [guest['title']] }
-            else: 
-                frequency[guest['name']]['count'] += 1
-                frequency[guest['name']]['first'] = episode['date']
-                if (guest['title'] not in frequency[guest['name']]['title']):
-                    frequency[guest['name']]['title'].append(guest['title'])
-                    # print('different title', guest['name'], guest['title'], frequency[guest['name']]['title'])
-
-            entry = {'topic': episode['topic'], 'wiki_link': episode['wiki_link'], 'title': guest['title'], 'date': episode['date'], 'episode_link': episode['episode_link'] }
-            if (guest['name'] not in topics_by_guest):
-                topics_by_guest[guest['name']] = [entry]
+            guest_name = guest['name']
+            guest_title = guest['title']
+            
+            if guest_name not in frequency:
+                frequency[guest_name] = {
+                    'count': 1,
+                    'first': episode['date'],
+                    'last': episode['date'],
+                    'links': guest['links'],
+                    'title': [guest_title]
+                }
             else:
-                topics_by_guest[guest['name']].append(entry)
+                frequency[guest_name]['count'] += 1
+                frequency[guest_name]['last'] = episode['date']
+                if guest_title not in frequency[guest_name]['title']:
+                    frequency[guest_name]['title'].append(guest_title)
 
-        names = [entry['name'] for entry in episode['experts']]
+            entry = {
+                'topic': episode['topic'],
+                'wiki_link': episode['wiki_link'],
+                'title': guest_title,
+                'date': episode['date'],
+                'episode_link': episode['episode_link']
+            }
+            if guest_name not in topics_by_guest:
+                topics_by_guest[guest_name] = [entry]
+            else:
+                topics_by_guest[guest_name].append(entry)
 
-        # Generating all combinations of two names
+        names = [guest['name'] for guest in episode['experts']]
         combinations_of_two = list(combinations(names, 2))
-        for combo in combinations_of_two:
-            key = combo[0] + '_' + combo[1]
 
-            if (combo not in guest_combinations):
+        for combo in combinations_of_two:
+            key = '_'.join(combo)  # use join for better key management
+
+            if key not in guest_combinations:
                 guest_combinations[key] = {
                     "guests": combo,
                     "count": 1
@@ -48,38 +58,28 @@ def guest_analysis():
             else:
                 guest_combinations[key]["count"] += 1
                 print('repeat guest combo!', combo)
+            
+    # remove combinations that occurred only once
+    guest_combinations = {k: v for k, v in guest_combinations.items() if v["count"] > 1}
 
-    keys_to_delete = [combo for combo in guest_combinations if guest_combinations[combo]["count"] == 1]
-    for key in keys_to_delete:
-        del guest_combinations[key]
+    frequency_min = {guest: freq['count'] for guest, freq in frequency.items()}
 
-    for guest in frequency.keys():
-        frequency_min[guest] = frequency[guest]['count']
+    ranked_frequency = sorted(frequency.values(), key=lambda x: x['count'], reverse=True)
+    
+    with open('./../data/guest_frequency.json', 'w', encoding='utf-8') as w:
+        json.dump(frequency, w, indent=4, ensure_ascii=False)
 
-    def get_count(element):
-        return element['count']
+    with open('./../data/guest_frequency_min.json', 'w', encoding='utf-8') as w:
+        json.dump(frequency_min, w, ensure_ascii=False)
 
-    ranked_frequency.sort(reverse=True, key=get_count)
+    with open('./../data/ranked_guest_frequency.json', 'w', encoding='utf-8') as w:
+        json.dump(ranked_frequency, w, indent=4, ensure_ascii=False)
 
-    w = open('./../data/guest_frequency.json', 'w')
-    json.dump(frequency, w, indent=4, ensure_ascii=False)
-    w.close()
+    with open('./../data/topics_by_guest.json', 'w', encoding='utf-8') as w:
+        json.dump(topics_by_guest, w, indent=4, ensure_ascii=False)
 
-    w = open('./../data/guest_frequency_min.json', 'w')
-    json.dump(frequency_min, w, ensure_ascii=False)
-    w.close()
-
-    w = open('./../data/ranked_guest_frequency.json', 'w')
-    json.dump(ranked_frequency, w, indent=4, ensure_ascii=False)
-    w.close()
-
-    w = open('./../data/topics_by_guest.json', 'w')
-    json.dump(topics_by_guest, w, indent=4, ensure_ascii=False)
-    w.close()
-
-    w = open('./../data/guest_combinations.json', 'w')
-    json.dump(guest_combinations, w, indent=4, ensure_ascii=False)
-    w.close()
+    with open('./../data/guest_combinations.json', 'w', encoding='utf-8') as w:
+        json.dump(guest_combinations, w, indent=4, ensure_ascii=False)
 
     print('\n### end guest_analysis')
 
