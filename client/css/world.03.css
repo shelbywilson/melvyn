@@ -155,6 +155,7 @@ header a,
 @media screen and (max-width: 776px) {
     #info {
         max-height: 90vh;
+        overflow: auto;
     }
 
     #info img {
