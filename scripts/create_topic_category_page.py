@@ -143,7 +143,13 @@ def create_topic_category_page():
 
 def get_header_html(title, inner = ''):
     html = '<header>'
-    html += p(a('list', "/", '', False) + a('world', "./../world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+    html += '''
+        <a href="./../" class="header__home-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
+                alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
+        </a>
+    '''
+    html += p(a('list', "./../", '', False) + a('world', "./../world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
     html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
     html += '<h1>' + title + '</h1>'
     html += inner

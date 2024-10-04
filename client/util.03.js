@@ -66,7 +66,10 @@ async function getScores() {
         .then((tsv) => {
             return tsvToScoresDictionary(tsv)
         })
-        .catch((err) => console.error(err));
+        .catch((err) => {
+            console.error(err);
+            return {}
+        })
 
 }
 

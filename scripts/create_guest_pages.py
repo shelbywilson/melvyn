@@ -44,7 +44,13 @@ def create_guest_pages():
 
         # start header
         guest_html = '<header>'
-        guest_html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+        guest_html += '''
+        <a href="./../" class="header__home-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
+                alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
+        </a>
+        '''
+        guest_html += p(a('list', "./../", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
         guest_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
 
         # add name
@@ -142,7 +148,13 @@ def create_guest_pages():
         <p class="header-back-link">
         <a target="" href="javascript:history.back()" >&larr; back</a>
     </p>'''
-    index_html += p(a('list', "/", '', False) + a('world', "./../world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+    index_html += '''
+        <a href="./../" class="header__home-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
+                alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
+        </a>
+    '''
+    index_html += p(a('list', "./../", '', False) + a('world', "./../world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
     index_html += '<h1>All guests</h1></header>'
     index_html += '<ul>'
     for guest in sorted(sorted(frequency.keys()), key=sort_by_count, reverse=True):
