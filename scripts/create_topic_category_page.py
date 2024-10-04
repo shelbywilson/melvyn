@@ -36,14 +36,14 @@ def create_topic_category_page():
     index_html = get_header_html('All categories')
 
     def sort_by_len(key):
-        if (key in top_level_categories):
-            # sort top level categories to beginning
-            return 10000
+        if key in top_level_categories:
+            # Sort top-level categories to the beginning
+            return (-10000, key)  # Use 0 for top-level categories to ensure they come first
         try:
-            return len(topics_by_category[key])
-        except:
-            # sort top level categories to beginning
-            return 10000
+            return (-len(topics_by_category[key]), key)  # Negative length for descending sort, key for alphabetical
+        except KeyError:
+            # If the key is not found, we still want to prioritize top-level categories
+            return (1, key)  # Use 1 for non-top-level categories
     
     # create top level category pages
     for key in top_level_categories:
@@ -70,7 +70,7 @@ def create_topic_category_page():
         w.close()
 
     # create other category pages
-    for key in sorted(topics_by_category.keys(), key=sort_by_len, reverse=True):
+    for key in sorted(topics_by_category, key=sort_by_len):
         if (key in top_level_categories):
             continue
         category_inner = ''
@@ -82,11 +82,11 @@ def create_topic_category_page():
 
         category_inner += p(str(len(topics_by_category[key])) + ' episodes')
         
-        category_inner += '<div class="header__all-imgs">'
+        category_inner += '<div class="header__all-imgs">\n'
         for topic in sorted(topics_by_category[key]):
             episode = episodes_dictionary[topic]
             category_inner += a(get_wiki_img(episode['topic']), episode['wiki_link'])
-        category_inner += '</div>'
+        category_inner += '\n</div>'
 
         episode_list = ''
         index_page_detail = ''
@@ -115,18 +115,18 @@ def create_topic_category_page():
                 # print("can't find", episode)
                 pass
        
-        for cat in sorted(related_categories, key=sort_by_len, reverse=True):
+        for cat in sorted(related_categories, key=sort_by_len):
             related_html += a(cat, './../category/' + get_url(cat) + '.html', '', False)
 
         if (len(related_categories) > 0):
-            category_inner += '<p style="margin-bottom: -1rem">Episodes in this category also belong to the following categories:</p>'
+            category_inner += '<p style="margin-bottom: -1rem">Episodes in this category also belong to the following categories:</p>\n'
         category_inner += div(related_html, 'categories')
 
         category_html = get_header_html(key, category_inner)
 
-        category_html += '<ol id="episodes">' + episode_list + '</ol>'
+        category_html += '<ol id="episodes">\n' + episode_list + '\n</ol>'
 
-        index_html += '<details><summary>' + key + ' (' + str(len(topics_by_category[key])) + ')</summary>' 
+        index_html += '<details>\n<summary>\n' + key + ' (' + str(len(topics_by_category[key])) + ')\n</summary>' 
         index_html += '<h2>' + (a(key, './../category/' + get_url(key) + '.html', '', False)) + '</h2><ol>' + index_page_detail + '</ol></details>'
 
         w = open('./../category/' + get_url(key) + '.html', 'w')
@@ -151,9 +151,9 @@ def get_header_html(title, inner = ''):
     '''
     html += p(a('list', "./../", '', False) + a('world', "./../world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
     html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
-    html += '<h1>' + title + '</h1>'
+    html += '<h1>' + title + '</h1>\n'
     html += inner
-    html += '</header>'
+    html += '\n</header>'
     return html
 
 if __name__=="__main__":

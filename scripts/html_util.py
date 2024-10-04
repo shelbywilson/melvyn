@@ -37,9 +37,9 @@ def a(inner, href, _class = "", blank = True):
     _blank = ''
     if (blank):
         _blank = '_blank'
-    return wrapper('a', inner, _class, [{'name': 'target', 'value': _blank}, {'name': 'href', 'value': href}])
+    return wrapper('a', inner, _class, [{'name': 'target', 'value': _blank}, {'name': 'href', 'value': href}], False)
 
-def wrapper(tag, inner, _class = "", attr = []):
+def wrapper(tag, inner, _class = "", attr = [], newline = True):
     c = ''
     a = ''
     if _class:
@@ -47,7 +47,7 @@ def wrapper(tag, inner, _class = "", attr = []):
     for at in attr:
         a += ' ' + at['name'] + '="' + at['value'] + '" '
         
-    return '<' + tag + c + a + '>' + inner + '</' + tag + '>'
+    return '<' + tag + c + a + '>' + inner + '</' + tag + '>' + ('\n' if newline else '')
 
 def get_url(key):
     url = key.replace(' ', '_')
@@ -57,7 +57,7 @@ def get_wiki_img(key):
     wiki_img = ''
     try:
         if episode_thumbnails[key] != "":
-            wiki_img = '<div><img src="' + episode_thumbnails[key] + '" /></div>'
+            wiki_img = '<div><img src="' + episode_thumbnails[key] + '" /></div>\n'
     except:
         pass
     return wiki_img
@@ -93,11 +93,11 @@ def get_episode_row(key, this_guest = False):
         + p(a('listen &#8599;', 'https://www.bbc.co.uk/sounds/play/' + episode['episode_link'].split('/').pop())) 
         + p(guest_list)
     )
-    wiki_link = '<a href="' + episode['wiki_link'] + '" target="_blank">' + get_wiki_img(key) + '<div>wikipedia article &#8599;</div></a>'
-    ranking_placeholder = '<div data-topic="' + episode['topic'] + '" class="episode-ranking"><div class="ranking"><div class="flex-row"><div class="progress-bar"><div class="score-60"></div></div><div class="ranking-label">&nbsp;</div></div></div></div>'
+    wiki_link = '<a href="' + episode['wiki_link'] + '" target="_blank">' + get_wiki_img(key) + '<div>wikipedia article &#8599;</div></a>\n'
+    ranking_placeholder = '<div data-topic="' + episode['topic'] + '" class="episode-ranking"><div class="ranking"><div class="flex-row"><div class="progress-bar"><div class="score-60"></div>\n</div>\n<div class="ranking-label">&nbsp;</div>\n</div>\n</div>\n</div>\n'
 
     return li(
-        div('<h3>' + episode['topic'] + '</h3>', 'episode-title') 
+        div('<h3>' + episode['topic'] + '</h3>\n', 'episode-title') 
         + div(div(content, "content-col")
         + div(wiki_link, "wiki-col") 
         + div(ranking_placeholder , "meta-col"), "episode-content"
@@ -113,7 +113,11 @@ def get_related_category_links():
 def get_html_page(content, title = "", css = [], js = []):
     meta = ''
     for link in css:
-        meta += '<link rel="stylesheet" type="text/css" href="./../client/css/' + link + '.' + config["FILE_VERSION"] + '.css" />'
+        meta += '<link rel="stylesheet" type="text/css" href="./../client/css/' + link + '.' + config["FILE_VERSION"] + '.css" />\n'
     for link in js:
-        meta += '<script src="./../client/' + link + '.' + config["FILE_VERSION"] + '.js"></script>'
-    return '<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type"content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="./../client/css/common' + '.' + config["FILE_VERSION"] + '.css" />' + meta + '<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="index,follow" /><meta name="googlebot" content="index,follow" /><meta property="og:title" content="' + title +'" /><meta property="og:description" content="" /><meta name="theme-color" content="#000"><title>' + title + '</title><link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" /></head><body><main>' + content + '</main></body></html>'
+        meta += '<script src="./../client/' + link + '.' + config["FILE_VERSION"] + '.js"></script>\n'
+    return '''<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta http-equiv="Content-Type"content="text/html; charset=UTF-8" />
+            ''' + '<link rel="stylesheet" type="text/css" href="./../client/css/common' + '.' + config["FILE_VERSION"] + '.css" />' + meta + '<meta http-equiv="X-UA-Compatible" content="IE=edge" />\n<meta name="viewport" content="width=device-width, initial-scale=1" />\n<meta name="robots" content="index,follow" />\n<meta name="googlebot" content="index,follow" />\n<meta property="og:title" content="' + title +'" />\n<meta property="og:description" content="" />\n<meta name="theme-color" content="#000">\n<title>' + title + '</title>\n<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />\n</head>\n<body>\n<main>\n' + content + '</main>\n</body>\n</html>'

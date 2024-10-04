@@ -132,10 +132,10 @@ def create_guest_pages():
         guest_html += '</header>'
 
         # add episodes
-        guest_html += '<ol id="episodes">'
+        guest_html += '<ol id="episodes">\n'
         for episode in topics_by_guest[guest]:
             guest_html += get_episode_row(episode['topic'], guest)
-        guest_html += '</ol>'
+        guest_html += '\n</ol>'
         
         w = open('./../guest/' + get_url(guest) + '.html', 'w')
         w.write(get_html_page(guest_html, guest, ['guest'], ['util', 'add-episode-scores']))
@@ -155,28 +155,28 @@ def create_guest_pages():
         </a>
     '''
     index_html += p(a('list', "./../", '', False) + a('world', "./../world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
-    index_html += '<h1>All guests</h1></header>'
-    index_html += '<ul>'
+    index_html += '<h1>All guests</h1></header>\n'
+    index_html += '<ul>\n'
     for guest in sorted(sorted(frequency.keys()), key=sort_by_count, reverse=True):
-        index_html += '<li>'
+        index_html += '<li>\n'
         index_html += '<div class="flex-row space-between">'
         index_html += '<div><a href="./../guest/' + guest.replace(' ', '_') + '.html">' + guest + '</a><div><em>' + frequency[guest]['title'][0] + '</em></div></div><div class="text-right">Has appeared: <div class="no-wrap">' + frequency[guest]['last'] 
         if frequency[guest]['last'] != frequency[guest]['first']:
             index_html += ' &ndash;</div><div class="no-wrap">' + frequency[guest]['first'] + '</div>'
         else:
-            index_html += '</div>' 
-        index_html += '</div>'
-        index_html += '</div>'
-        index_html += '<details>'
-        index_html += '<summary>' + str(frequency[guest]['count']) + ' episodes </summary>'
-        index_html += '<ul>'
+            index_html += '</div>\n' 
+        index_html += '</div>\n'
+        index_html += '</div>\n'
+        index_html += '<details>\n'
+        index_html += '<summary>' + str(frequency[guest]['count']) + ' episodes </summary>\n'
+        index_html += '<ul>\n'
         for topic in topics_by_guest[guest]:
-            index_html += '<li>' + topic['topic'] + '</li>'
-        index_html += '</ul>'
-        index_html += '</details>'
-        index_html += '</li>'
+            index_html += '<li>' + topic['topic'] + '</li>\n'
+        index_html += '</ul>\n'
+        index_html += '</details>\n'
+        index_html += '</li>\n'
 
-    index_html += '</ul>'
+    index_html += '</ul>\n'
 
     w = open('./../guest/index.html', 'w')
     w.write(get_html_page(index_html, 'all guests', ['guests', 'guest'], ['util.03.js']))
