@@ -143,7 +143,7 @@ def create_topic_category_page():
 
 def get_header_html(title, inner = ''):
     html = '<header>'
-    html += p(a('list', "/", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+    html += p(a('list', "/", '', False) + a('world', "./world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
     html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
     html += '<h1>' + title + '</h1>'
     html += inner
