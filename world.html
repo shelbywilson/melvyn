@@ -404,7 +404,7 @@
                     // }
 
                     mouse.x = (event.clientX / canvasEl.offsetWidth) * 2 - 1;
-                    mouse.y = -((event.clientY / canvasEl.offsetHeight) * 2 - 1);
+                    mouse.y = -(((event.clientY - canvasEl.offsetTop) / canvasEl.offsetHeight) * 2 - 1);
 
                     if (isClick) {
                         if (event.target.id === 'info' || event.target.closest(`#info`)) {
