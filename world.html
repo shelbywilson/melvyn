@@ -80,9 +80,9 @@
 
             handleDragElement(document.getElementById("info"));
 
-            document.querySelector('#search-input').addEventListener('input', (e) => {
-                handleSearch()
-            })
+            // document.querySelector('#search-input').addEventListener('input', (e) => {
+            //     handleSearch()
+            // })
 
             Promise.all([
                 // 'scores',
@@ -520,7 +520,8 @@
             }
 
             function drawTextures(textures) {
-                const search = document.getElementById('search-input').value || ''
+                // const search = document.getElementById('search-input').value || ''
+                const search = '';
                 scenes[0].traverse((child) => {
                     if (child.isMesh && !child.userData.init) {
                         const { positions, normals, j } = child.userData;
