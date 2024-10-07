@@ -179,7 +179,8 @@ header a,
     .info__img-container {
         position: absolute;
         top: 2rem;
-        right: 3rem;
+        right: 4rem;
+        padding: 0;
     }
     .container {
         height: 95vh;
