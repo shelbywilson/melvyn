@@ -67,7 +67,7 @@ header img {
     width: 100%;
     max-width: 56rem;
     height: min-content;
-    z-index: 10;
+    z-index: 100;
 }
 
 .info__inner {
