@@ -403,11 +403,10 @@
                     //     event.preventDefault();
                     // }
 
-                    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-                    mouse.y = -((event.clientY / window.innerHeight) * 2 - 1);
+                    mouse.x = (event.clientX / canvasEl.offsetWidth) * 2 - 1;
+                    mouse.y = -((event.clientY / canvasEl.offsetHeight) * 2 - 1);
 
                     if (isClick) {
-                        console.log(true)
                         if (event.target.id === 'info' || event.target.closest(`#info`)) {
                             scene.userData.controls.autoRotate = true;
                         } else if (event.target.classList.contains('log__entry')) {
@@ -470,6 +469,7 @@
 
                 window.addEventListener('mousemove', e => handleMouseMove(e, false));
                 window.addEventListener('click', e => handleMouseMove(e, true));
+                window.addEventListener('touchmove', e => handleMouseMove(e, true));
 
                 function setInfoBox(episode, updateLog) {
                     const info = document.querySelector('#info');
