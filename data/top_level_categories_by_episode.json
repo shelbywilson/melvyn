@@ -1,4 +1,13 @@
 {
+    "The Vienna Secession": [
+        "Culture"
+    ],
+    "Molière": [
+        "Culture"
+    ],
+    "Thomas Middleton": [
+        "Culture"
+    ],
     "Oliver Goldsmith": [
         "Culture"
     ],
@@ -701,20 +710,26 @@
     "Africa": [
         "Culture"
     ],
-    "The Vienna Secession": [
-        "Culture"
-    ],
-    "Molière": [
-        "Culture"
-    ],
-    "Thomas Middleton": [
-        "Culture"
-    ],
     "Ludwig van Beethoven": [
         "Culture"
     ],
     "Rabindranath Tagore": [
         "Culture"
+    ],
+    "Paul von Hindenburg": [
+        "History"
+    ],
+    "The Korean Empire": [
+        "History"
+    ],
+    "The Battle of Clontarf": [
+        "History"
+    ],
+    "The Gracchi": [
+        "History"
+    ],
+    "Cyrus the Great": [
+        "History"
     ],
     "Catherine of Aragon": [
         "History"
@@ -1454,23 +1469,11 @@
     "Plague of Justinian": [
         "History"
     ],
-    "Paul von Hindenburg": [
-        "History"
-    ],
-    "The Korean Empire": [
-        "History"
-    ],
-    "The Battle of Clontarf": [
-        "History"
-    ],
-    "The Gracchi": [
-        "History"
-    ],
-    "Cyrus the Great": [
-        "History"
-    ],
     "Jan Amos Komenský": [
         "History"
+    ],
+    "Maurice Merleau-Ponty": [
+        "Philosophy"
     ],
     "Socrates in Prison": [
         "Philosophy"
@@ -1910,8 +1913,11 @@
     "War in the 20th Century": [
         "Philosophy"
     ],
-    "Maurice Merleau-Ponty": [
-        "Philosophy"
+    "Typology": [
+        "Religion"
+    ],
+    "Kali": [
+        "Religion"
     ],
     "Pope Joan": [
         "Religion"
@@ -2159,11 +2165,14 @@
     "Space in Religion and Science": [
         "Religion"
     ],
-    "Typology": [
-        "Religion"
+    "The Evolution of Lungs": [
+        "Science"
     ],
-    "Kali": [
-        "Religion"
+    "Lise Meitner": [
+        "Science"
+    ],
+    "Pollination": [
+        "Science"
     ],
     "Slime Moulds": [
         "Science"
@@ -2925,15 +2934,6 @@
         "Science"
     ],
     "Science's Revelations": [
-        "Science"
-    ],
-    "The Evolution of Lungs": [
-        "Science"
-    ],
-    "Lise Meitner": [
-        "Science"
-    ],
-    "Pollination": [
         "Science"
     ],
     "The Challenger Expedition 1872–1876": [

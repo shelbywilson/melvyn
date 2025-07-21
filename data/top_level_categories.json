@@ -1,5 +1,8 @@
 {
     "Culture": [
+        "The Vienna Secession",
+        "Molière",
+        "Thomas Middleton",
         "Oliver Goldsmith",
         "Sir John Soane",
         "Vase-mania",
@@ -234,13 +237,15 @@
         "The Enlightenment in Britain",
         "The Tudor State",
         "Africa",
-        "The Vienna Secession",
-        "Molière",
-        "Thomas Middleton",
         "Ludwig van Beethoven",
         "Rabindranath Tagore"
     ],
     "History": [
+        "Paul von Hindenburg",
+        "The Korean Empire",
+        "The Battle of Clontarf",
+        "The Gracchi",
+        "Cyrus the Great",
         "Catherine of Aragon",
         "The Battle of Valmy",
         "Plutarch's Parallel Lives",
@@ -519,15 +524,11 @@
         "The British Empire's Legacy",
         "History's relevance in the 20th century",
         "Plague of Justinian",
-        "Paul von Hindenburg",
-        "The Korean Empire",
-        "The Battle of Clontarf",
-        "The Gracchi",
-        "Cyrus the Great",
         "Jan Amos Komenský",
         "Rabindranath Tagore"
     ],
     "Philosophy": [
+        "Maurice Merleau-Ponty",
         "Socrates in Prison",
         "Hayek's The Road to Serfdom",
         "Philippa Foot",
@@ -697,10 +698,11 @@
         "History's relevance in the 20th century",
         "Politics in the 20th Century",
         "War in the 20th Century",
-        "Maurice Merleau-Ponty",
         "Jan Amos Komenský"
     ],
     "Religion": [
+        "Typology",
+        "Kali",
         "Pope Joan",
         "Karma",
         "Julian the Apostate",
@@ -830,11 +832,12 @@
         "Fundamentalism",
         "Good and Evil",
         "Space in Religion and Science",
-        "Typology",
-        "Kali",
         "Jan Amos Komenský"
     ],
     "Science": [
+        "The Evolution of Lungs",
+        "Lise Meitner",
+        "Pollination",
         "Slime Moulds",
         "The Habitability of Planets",
         "The Antikythera Mechanism",
@@ -1121,9 +1124,6 @@
         "The Brain and Consciousness",
         "Science in the 20th century",
         "Science's Revelations",
-        "The Evolution of Lungs",
-        "Lise Meitner",
-        "Pollination",
         "The Challenger Expedition 1872–1876",
         "Game Theory",
         "The Royal Society and British Science: Episode 4—The Royal Society and British Science",

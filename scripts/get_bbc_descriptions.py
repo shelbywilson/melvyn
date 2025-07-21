@@ -53,3 +53,6 @@ def get_bbc_descriptions():
     w = open('./../data/bbc_descriptions_short.json', 'w')
     json.dump(short_descriptions, w, indent=4, ensure_ascii=False)
     w.close()
+
+if __name__=="__main__":
+    get_bbc_descriptions()

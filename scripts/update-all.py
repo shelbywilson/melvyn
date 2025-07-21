@@ -19,11 +19,11 @@ get_bbc_descriptions()
 print('\n# guest analysis')
 guest_analysis()
 
-print('\n# top level categories')
-get_top_level_categories()
-
 print('\n# get topic categories \n# create guest pages \n# create topic pages')
 get_topic_categories()
+
+print('\n# top level categories')
+get_top_level_categories()
 
 create_topic_category_page()
 create_guest_pages()

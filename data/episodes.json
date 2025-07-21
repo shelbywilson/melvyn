@@ -1,5 +1,857 @@
 [
     {
+        "date": "03 July 2025",
+        "id": 1078,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002f9f4",
+        "topic": "Civility: talking with those who disagree with you",
+        "wiki_link": "https://en.wikipedia.org/wiki/Civility",
+        "experts": [
+            {
+                "name": "Teresa Bejan",
+                "title": "Professor of Political Theory at Oriel College, University of Oxford",
+                "links": [
+                    {
+                        "text": "Teresa Bejan",
+                        "wiki": "https://en.wikipedia.org/wiki/Teresa_Bejan"
+                    },
+                    {
+                        "text": "Oriel College, University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/Oriel_College,_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Phil Withington",
+                "title": "Professor of History at the University of Sheffield",
+                "links": [
+                    {
+                        "text": "University of Sheffield",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+                    }
+                ]
+            },
+            {
+                "name": "John Gallagher",
+                "title": "Associate Professor of Early Modern History at the University of Leeds.",
+                "links": [
+                    {
+                        "text": "University of Leeds",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Leeds"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "26 June 2025",
+        "id": 1077,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002dzy4",
+        "topic": "Dragons",
+        "wiki_link": "https://en.wikipedia.org/wiki/Dragon",
+        "experts": [
+            {
+                "name": "Kelsey Granger",
+                "title": "Post Doctoral Researcher in Chinese History at the University of Edinburgh",
+                "links": [
+                    {
+                        "text": "University of Edinburgh",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+                    }
+                ]
+            },
+            {
+                "name": "Daniel Ogden",
+                "title": "Professor of Ancient History at the University of Exeter",
+                "links": [
+                    {
+                        "text": "University of Exeter",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+                    }
+                ]
+            },
+            {
+                "name": "Juliette Wood",
+                "title": "Associate Lecturer in the School of Welsh at the University of Wales.",
+                "links": [
+                    {
+                        "text": "Juliette Wood",
+                        "wiki": "https://en.wikipedia.org/wiki/Juliette_Wood"
+                    },
+                    {
+                        "text": "University of Wales",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Wales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "19 June 2025",
+        "id": 1076,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002dpm8",
+        "topic": "Barbour's 'Brus'",
+        "wiki_link": "https://en.wikipedia.org/wiki/The_Brus",
+        "experts": [
+            {
+                "name": "Rhiannon Purdie",
+                "title": "Professor of English and Older Scots at the University of St Andrews",
+                "links": [
+                    {
+                        "text": "University of St Andrews",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
+                    }
+                ]
+            },
+            {
+                "name": "Steve Boardman",
+                "title": "Professor of Medieval Scottish History at the University of Edinburgh",
+                "links": [
+                    {
+                        "text": "Steve Boardman",
+                        "wiki": "https://en.wikipedia.org/wiki/Steve_Boardman_(historian)"
+                    },
+                    {
+                        "text": "University of Edinburgh",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+                    }
+                ]
+            },
+            {
+                "name": "Michael Brown",
+                "title": "Professor of Scottish History at the University of St Andrews.",
+                "links": [
+                    {
+                        "text": "Michael Brown",
+                        "wiki": "https://en.wikipedia.org/wiki/Michael_Brown_(historian)"
+                    },
+                    {
+                        "text": "University of St Andrews",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "12 June 2025",
+        "id": 1075,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002d8t2",
+        "topic": "The Evolution of Lungs",
+        "wiki_link": "https://en.wikipedia.org/wiki/Lung",
+        "experts": [
+            {
+                "name": "Steve Brusatte",
+                "title": "Professor of Palaeontology and Evolution at the University of Edinburgh",
+                "links": [
+                    {
+                        "text": "Steve Brusatte",
+                        "wiki": "https://en.wikipedia.org/wiki/Stephen_L._Brusatte"
+                    },
+                    {
+                        "text": "University of Edinburgh",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+                    }
+                ]
+            },
+            {
+                "name": "Emily Rayfield",
+                "title": "Professor of Palaeobiology at the University of Bristol",
+                "links": [
+                    {
+                        "text": "Emily Rayfield",
+                        "wiki": "https://en.wikipedia.org/wiki/Emily_Rayfield"
+                    },
+                    {
+                        "text": "University of Bristol",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+                    }
+                ]
+            },
+            {
+                "name": "Jonathan Codd",
+                "title": "Professor of Integrative Zoology at the University of Manchester.",
+                "links": [
+                    {
+                        "text": "University of Manchester",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "05 June 2025",
+        "id": 1074,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002d1b5",
+        "topic": "The Vienna Secession",
+        "wiki_link": "https://en.wikipedia.org/wiki/Vienna_Secession",
+        "experts": [
+            {
+                "name": "Mark Berry",
+                "title": "Professor of Music and Intellectual History at Royal Holloway, University of London",
+                "links": [
+                    {
+                        "text": "Royal Holloway, University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
+                    }
+                ]
+            },
+            {
+                "name": "Leslie Topp",
+                "title": "Professor Emerita in History of Architecture at Birkbeck, University of London",
+                "links": [
+                    {
+                        "text": "Birkbeck, University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
+                    }
+                ]
+            },
+            {
+                "name": "Diane Silverthorne",
+                "title": "art historian and 'Vienna 1900' scholar.",
+                "links": []
+            }
+        ]
+    },
+    {
+        "date": "29 May 2025",
+        "id": 1073,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002cqq3",
+        "topic": "Hypnosis",
+        "wiki_link": "https://en.wikipedia.org/wiki/Hypnosis",
+        "experts": [
+            {
+                "name": "Catherine Wynne",
+                "title": "Reader in Victorian and Early Twentieth-Century Literature and Visual Cultures at the University of Hull",
+                "links": [
+                    {
+                        "text": "University of Hull",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Hull"
+                    }
+                ]
+            },
+            {
+                "name": "Devin Terhune",
+                "title": "Reader in Experimental Psychology at King's College London",
+                "links": [
+                    {
+                        "text": "Devin Terhune",
+                        "wiki": "https://en.wikipedia.org/wiki/Devin_Terhune"
+                    },
+                    {
+                        "text": "King's College London",
+                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "Quinton Deeley",
+                "title": "Consultant Neuropsychiatrist at the South London and Maudsley NHS Foundation Trust, and Senior Lecturer at the Institute of Psychiatry, Psychology and Neuroscience at King's College London, where he leads the Cultural and Social Neuroscience Research Group.",
+                "links": [
+                    {
+                        "text": "South London and Maudsley NHS Foundation Trust",
+                        "wiki": "https://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+                    },
+                    {
+                        "text": "King's College London",
+                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "22 May 2025",
+        "id": 1072,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002cfjz",
+        "topic": "Paul von Hindenburg",
+        "wiki_link": "https://en.wikipedia.org/wiki/Paul_von_Hindenburg",
+        "experts": [
+            {
+                "name": "Anna von der Goltz",
+                "title": "Professor of History at Georgetown University, Washington DC",
+                "links": [
+                    {
+                        "text": "Georgetown University",
+                        "wiki": "https://en.wikipedia.org/wiki/Georgetown_University"
+                    }
+                ]
+            },
+            {
+                "name": "Christopher Clark",
+                "title": "Regius Professor of History at the University of Cambridge",
+                "links": [
+                    {
+                        "text": "Christopher Clark",
+                        "wiki": "https://en.wikipedia.org/wiki/Christopher_Clark"
+                    },
+                    {
+                        "text": "Regius Professor of History",
+                        "wiki": "https://en.wikipedia.org/wiki/Regius_Professor_of_History_(Cambridge)"
+                    },
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Colin Storer",
+                "title": "Associate Professor in Modern European History at the University of Warwick.",
+                "links": [
+                    {
+                        "text": "University of Warwick",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Warwick"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 May 2025",
+        "id": 1071,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002c3bm",
+        "topic": "Copyright",
+        "wiki_link": "https://en.wikipedia.org/wiki/Copyright",
+        "experts": [
+            {
+                "name": "Lionel Bently",
+                "title": "Herchel Smith Professor of Intellectual Property Law at the University of Cambridge",
+                "links": [
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Will Slauter",
+                "title": "Professor of History at Sorbonne University, Paris",
+                "links": [
+                    {
+                        "text": "Sorbonne University",
+                        "wiki": "https://en.wikipedia.org/wiki/Sorbonne_University"
+                    }
+                ]
+            },
+            {
+                "name": "Katie McGettigan",
+                "title": "Senior Lecturer in American Literature at Royal Holloway, University of London.",
+                "links": [
+                    {
+                        "text": "Royal Holloway, University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "08 May 2025",
+        "id": 1070,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002bt7s",
+        "topic": "Lise Meitner",
+        "wiki_link": "https://en.wikipedia.org/wiki/Lise_Meitner",
+        "experts": [
+            {
+                "name": "Jess Wade",
+                "title": "Royal Society University Research Fellow and Lecturer in Functional Materials at Imperial College, London",
+                "links": [
+                    {
+                        "text": "Jess Wade",
+                        "wiki": "https://en.wikipedia.org/wiki/Jess_Wade"
+                    },
+                    {
+                        "text": "Royal Society University Research Fellow",
+                        "wiki": "https://en.wikipedia.org/wiki/Royal_Society_University_Research_Fellowship"
+                    },
+                    {
+                        "text": "Imperial College, London",
+                        "wiki": "https://en.wikipedia.org/wiki/Imperial_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "Frank Close",
+                "title": "Professor Emeritus of Theoretical Physics and Fellow Emeritus at Exeter College, University of Oxford",
+                "links": [
+                    {
+                        "text": "Frank Close",
+                        "wiki": "https://en.wikipedia.org/wiki/Frank_Close"
+                    },
+                    {
+                        "text": "Exeter College, University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/Exeter_College,_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Steven Bramwell",
+                "title": "Director of the London Centre for Nanotechnology and Professor of Physics at University College London.",
+                "links": [
+                    {
+                        "text": "Steven Bramwell",
+                        "wiki": "https://en.wikipedia.org/wiki/Steven_T._Bramwell"
+                    },
+                    {
+                        "text": "London Centre for Nanotechnology",
+                        "wiki": "https://en.wikipedia.org/wiki/London_Centre_for_Nanotechnology"
+                    },
+                    {
+                        "text": "University College London",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "01 May 2025",
+        "id": 1069,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002bj6d",
+        "topic": "The Korean Empire",
+        "wiki_link": "https://en.wikipedia.org/wiki/Korean_Empire",
+        "experts": [
+            {
+                "name": "Nuri Kim",
+                "title": "Associate Professor in Korean Studies at the faculty of Asian and Middle Eastern Studies at the University of Cambridge and Fellow of Wolfson College",
+                "links": [
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    },
+                    {
+                        "text": "Wolfson College",
+                        "wiki": "https://en.wikipedia.org/wiki/Wolfson_College,_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Holly Stephens",
+                "title": "Lecturer in Japanese and Korean Studies at the University of Edinburgh",
+                "links": [
+                    {
+                        "text": "University of Edinburgh",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+                    }
+                ]
+            },
+            {
+                "name": "Derek Kramer",
+                "title": "Lecturer in Korean Studies at the University of Sheffield.",
+                "links": [
+                    {
+                        "text": "University of Sheffield",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "24 April 2025",
+        "id": 1068,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002b701",
+        "topic": "Molière",
+        "wiki_link": "https://en.wikipedia.org/wiki/Moli%C3%A8re",
+        "experts": [
+            {
+                "name": "Noel Peacock",
+                "title": "Emeritus Marshall Professor in French Language and Literature at the University of Glasgow",
+                "links": [
+                    {
+                        "text": "University of Glasgow",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Glasgow"
+                    }
+                ]
+            },
+            {
+                "name": "Jan Clarke",
+                "title": "Professor of French at Durham University",
+                "links": [
+                    {
+                        "text": "Durham University",
+                        "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+                    }
+                ]
+            },
+            {
+                "name": "Joe Harris",
+                "title": "Professor of Early Modern French and Comparative Literature at Royal Holloway, University of London.",
+                "links": [
+                    {
+                        "text": "Royal Holloway, University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "17 April 2025",
+        "id": 1067,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0029zmc",
+        "topic": "Typology",
+        "wiki_link": "https://en.wikipedia.org/wiki/Typology_(theology)",
+        "experts": [
+            {
+                "name": "Miri Rubin",
+                "title": "Professor of Medieval and Early Modern History at Queen Mary, University of London",
+                "links": [
+                    {
+                        "text": "Miri Rubin",
+                        "wiki": "https://en.wikipedia.org/wiki/Miri_Rubin"
+                    },
+                    {
+                        "text": "Queen Mary, University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Queen_Mary_University_of_London"
+                    }
+                ]
+            },
+            {
+                "name": "Harry Spillane",
+                "title": "Munby Fellow in Bibliography at Cambridge and Research Fellow at Darwin College",
+                "links": [
+                    {
+                        "text": "Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    },
+                    {
+                        "text": "Darwin College",
+                        "wiki": "https://en.wikipedia.org/wiki/Darwin_College,_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Sophie Lunn-Rockliffe",
+                "title": "Associate Professor in Patristics at Cambridge.",
+                "links": [
+                    {
+                        "text": "Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "10 April 2025",
+        "id": 1066,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0029qh3",
+        "topic": "The Battle of Clontarf",
+        "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Clontarf",
+        "experts": [
+            {
+                "name": "Seán Duffy",
+                "title": "Professor of Medieval Irish and Insular History at Trinity College Dublin",
+                "links": [
+                    {
+                        "text": "Trinity College Dublin",
+                        "wiki": "https://en.wikipedia.org/wiki/Trinity_College_Dublin"
+                    }
+                ]
+            },
+            {
+                "name": "Máire Ní Mhaonaigh",
+                "title": "Professor of Celtic and Medieval Studies at the University of Cambridge and a Fellow of St John's College, Cambridge",
+                "links": [
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    },
+                    {
+                        "text": "St John's College, Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Alex Woolf",
+                "title": "Professor of Medieval Studies at the University of St Andrews.",
+                "links": [
+                    {
+                        "text": "Alex Woolf",
+                        "wiki": "https://en.wikipedia.org/wiki/Alex_Woolf"
+                    },
+                    {
+                        "text": "University of St Andrews",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "03 April 2025",
+        "id": 1065,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0029jjb",
+        "topic": "The Gracchi",
+        "wiki_link": "https://en.wikipedia.org/wiki/Gracchi_brothers",
+        "experts": [
+            {
+                "name": "Catherine Steel",
+                "title": "Professor of Classics at the University of Glasgow",
+                "links": [
+                    {
+                        "text": "Catherine Steel",
+                        "wiki": "https://en.wikipedia.org/wiki/Catherine_Steel"
+                    },
+                    {
+                        "text": "University of Glasgow",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Glasgow"
+                    }
+                ]
+            },
+            {
+                "name": "Federico Santangelo",
+                "title": "Professor of Ancient History at Newcastle University",
+                "links": [
+                    {
+                        "text": "Newcastle University",
+                        "wiki": "https://en.wikipedia.org/wiki/Newcastle_University"
+                    }
+                ]
+            },
+            {
+                "name": "Kathryn Tempest",
+                "title": "Lecturer in Roman History at the University of Leicester.",
+                "links": [
+                    {
+                        "text": "University of Leicester",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "27 March 2025",
+        "id": 1064,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002974s",
+        "topic": "Maurice Merleau-Ponty",
+        "wiki_link": "https://en.wikipedia.org/wiki/Maurice_Merleau-Ponty",
+        "experts": [
+            {
+                "name": "Komarine Romdenh-Romluc",
+                "title": "Senior Lecturer in Philosophy at the University of Sheffield",
+                "links": [
+                    {
+                        "text": "University of Sheffield",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+                    }
+                ]
+            },
+            {
+                "name": "Thomas Baldwin",
+                "title": "Emeritus Professor of Philosophy at the University of York",
+                "links": [
+                    {
+                        "text": "Thomas Baldwin",
+                        "wiki": "https://en.wikipedia.org/wiki/Thomas_Baldwin_(philosopher)"
+                    },
+                    {
+                        "text": "University of York",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_York"
+                    }
+                ]
+            },
+            {
+                "name": "Timothy Mooney",
+                "title": "Associate Professor of Philosophy at University College, Dublin.",
+                "links": [
+                    {
+                        "text": "University College, Dublin",
+                        "wiki": "https://en.wikipedia.org/wiki/University_College_Dublin"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "20 March 2025",
+        "id": 1063,
+        "episode_link": "https://www.bbc.co.uk/programmes/m002908z",
+        "topic": "Thomas Middleton",
+        "wiki_link": "https://en.wikipedia.org/wiki/Thomas_Middleton",
+        "experts": [
+            {
+                "name": "Emma Smith",
+                "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
+                "links": [
+                    {
+                        "text": "Emma Smith",
+                        "wiki": "https://en.wikipedia.org/wiki/Emma_Smith_(scholar)"
+                    },
+                    {
+                        "text": "Hertford College, University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/Hertford_College,_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Lucy Munro",
+                "title": "Professor of Shakespeare and Early Modern Literature at King's College London",
+                "links": [
+                    {
+                        "text": "King's College London",
+                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "Michelle O’Callaghan",
+                "title": "Professor of Early Modern Literature at the University of Reading.",
+                "links": [
+                    {
+                        "text": "University of Reading",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Reading"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "13 March 2025",
+        "id": 1062,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0028tzc",
+        "topic": "Cyrus the Great",
+        "wiki_link": "https://en.wikipedia.org/wiki/Cyrus_the_Great",
+        "experts": [
+            {
+                "name": "Mateen Arghandehpour",
+                "title": "a researcher for the Invisible East Project at Oxford University",
+                "links": [
+                    {
+                        "text": "Oxford University",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Lindsay Allen",
+                "title": "Senior Lecturer in Ancient Greek and Near Eastern History at King's College London",
+                "links": [
+                    {
+                        "text": "King's College London",
+                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                    }
+                ]
+            },
+            {
+                "name": "Lynette Mitchell",
+                "title": "Professor Emerita in Classics and Ancient History at Exeter University.",
+                "links": [
+                    {
+                        "text": "Lynette Mitchell",
+                        "wiki": "https://en.wikipedia.org/wiki/Lynette_Mitchell"
+                    },
+                    {
+                        "text": "Exeter University",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "06 March 2025",
+        "id": 1061,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0028jtx",
+        "topic": "Pollination",
+        "wiki_link": "https://en.wikipedia.org/wiki/Pollination",
+        "experts": [
+            {
+                "name": "Beverley Glover",
+                "title": "Director of the Cambridge University Botanic Garden",
+                "links": [
+                    {
+                        "text": "Beverley Glover",
+                        "wiki": "https://en.wikipedia.org/wiki/Beverley_Glover"
+                    },
+                    {
+                        "text": "Cambridge University Botanic Garden",
+                        "wiki": "https://en.wikipedia.org/wiki/Cambridge_University_Botanic_Garden"
+                    }
+                ]
+            },
+            {
+                "name": "Jane Memmott",
+                "title": "Professor of Ecology at the University of Bristol",
+                "links": [
+                    {
+                        "text": "Jane Memmott",
+                        "wiki": "https://en.wikipedia.org/wiki/Jane_Memmott"
+                    },
+                    {
+                        "text": "University of Bristol",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+                    }
+                ]
+            },
+            {
+                "name": "Lars Chittka",
+                "title": "Professor of Sensory and Behavioural Ecology at Queen Mary, University of London.",
+                "links": [
+                    {
+                        "text": "Lars Chittka",
+                        "wiki": "https://en.wikipedia.org/wiki/Lars_Chittka"
+                    },
+                    {
+                        "text": "Queen Mary, University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Queen_Mary_University_of_London"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "27 February 2025",
+        "id": 1060,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0028bng",
+        "topic": "Kali",
+        "wiki_link": "https://en.wikipedia.org/wiki/Kali",
+        "experts": [
+            {
+                "name": "Bihani Sarkar",
+                "title": "Senior Lecturer in Comparative Non-Western Thought at Lancaster University",
+                "links": [
+                    {
+                        "text": "Lancaster University",
+                        "wiki": "https://en.wikipedia.org/wiki/Lancaster_University"
+                    }
+                ]
+            },
+            {
+                "name": "Julius Lipner",
+                "title": "Professor Emeritus of Hinduism and the Comparative Study of Religion at the University of Cambridge",
+                "links": [
+                    {
+                        "text": "Julius Lipner",
+                        "wiki": "https://en.wikipedia.org/wiki/Julius_J._Lipner"
+                    },
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Jessica Frazier",
+                "title": "Lecturer in the Study of Religion at the University of Oxford and fellow at the Oxford Centre for Hindu Studies.",
+                "links": [
+                    {
+                        "text": "Jessica Frazier",
+                        "wiki": "https://en.wikipedia.org/wiki/Jessica_Frazier"
+                    },
+                    {
+                        "text": "University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "20 February 2025",
         "id": 1059,
         "episode_link": "https://www.bbc.co.uk/programmes/m00282pq",
@@ -98,11 +950,11 @@
         "experts": [
             {
                 "name": "Frances Sands",
-                "title": "the Curator of Drawings and Books at Sir John Soane’s Museum",
+                "title": "the Curator of Drawings and Books at Sir John Soane's Museum",
                 "links": [
                     {
-                        "text": "Sir John Soane’s Museum",
-                        "wiki": "https://en.wikipedia.org/wiki/Sir_John_Soane%E2%80%99s_Museum"
+                        "text": "Sir John Soane's Museum",
+                        "wiki": "https://en.wikipedia.org/wiki/Sir_John_Soane%27s_Museum"
                     }
                 ]
             },
@@ -4611,7 +5463,7 @@
                 "links": [
                     {
                         "text": "Michael Coates",
-                        "wiki": "https://en.wikipedia.org/wiki/Michael_Coates"
+                        "wiki": "https://en.wikipedia.org/w/index.php?title=Michael_Coates_(biologist)&action=edit&redlink=1"
                     },
                     {
                         "text": "University of Chicago",
@@ -5404,6 +6256,10 @@
                 "title": "Associate Professor of Research in Literature at the University of Hertfordshire",
                 "links": [
                     {
+                        "text": "Samantha George",
+                        "wiki": "https://en.wikipedia.org/wiki/Samantha_George"
+                    },
+                    {
                         "text": "University of Hertfordshire",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Hertfordshire"
                     }
@@ -5746,6 +6602,10 @@
                 "title": "Professor of Political Aesthetics at Birkbeck, University of London",
                 "links": [
                     {
+                        "text": "Esther Leslie",
+                        "wiki": "https://en.wikipedia.org/wiki/Esther_Leslie"
+                    },
+                    {
                         "text": "Birkbeck, University of London",
                         "wiki": "https://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
                     }
@@ -5878,6 +6738,10 @@
                 "name": "Catherine Schenk",
                 "title": "Professor of Economic and Social History at the University of Oxford",
                 "links": [
+                    {
+                        "text": "Catherine Schenk",
+                        "wiki": "https://en.wikipedia.org/wiki/Catherine_Schenk"
+                    },
                     {
                         "text": "University of Oxford",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
@@ -6788,6 +7652,10 @@
                 "title": "Adjunct Professor at the University of California",
                 "links": [
                     {
+                        "text": "Sarah Wise",
+                        "wiki": "https://en.wikipedia.org/wiki/Sarah_Wise"
+                    },
+                    {
                         "text": "University of California",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_California"
                     }
@@ -7327,6 +8195,10 @@
                 "title": "Professor of Modern History at the University of St Andrews and Co-Director of the St Andrews Institute of Intellectual History",
                 "links": [
                     {
+                        "text": "Richard Whatmore",
+                        "wiki": "https://en.wikipedia.org/wiki/Richard_Whatmore"
+                    },
+                    {
                         "text": "University of St Andrews",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
                     }
@@ -7747,6 +8619,10 @@
                 "name": "Rebecca Flemming",
                 "title": "Senior Lecturer in Classics at the University of Cambridge",
                 "links": [
+                    {
+                        "text": "Rebecca Flemming",
+                        "wiki": "https://en.wikipedia.org/wiki/Rebecca_Flemming"
+                    },
                     {
                         "text": "University of Cambridge",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
@@ -8442,6 +9318,10 @@
                 "title": "Senior Lecturer in Early Pre-History at Newcastle University",
                 "links": [
                     {
+                        "text": "Chantal Conneller",
+                        "wiki": "https://en.wikipedia.org/wiki/Chantal_Conneller"
+                    },
+                    {
                         "text": "Newcastle University",
                         "wiki": "https://en.wikipedia.org/wiki/Newcastle_University"
                     }
@@ -8666,6 +9546,10 @@
                 "name": "Caroline Dodds Pennock",
                 "title": "Senior Lecturer in International History at the University of Sheffield",
                 "links": [
+                    {
+                        "text": "Caroline Dodds Pennock",
+                        "wiki": "https://en.wikipedia.org/wiki/Caroline_Dodds_Pennock"
+                    },
                     {
                         "text": "University of Sheffield",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
@@ -9163,7 +10047,12 @@
             {
                 "name": "Neil Faulkner",
                 "title": "Director of Military History Live and Editor of the magazine Military History Matters",
-                "links": []
+                "links": [
+                    {
+                        "text": "Neil Faulkner",
+                        "wiki": "https://en.wikipedia.org/wiki/Neil_Faulkner_(archaeologist)"
+                    }
+                ]
             }
         ]
     },
@@ -9192,6 +10081,10 @@
                 "name": "Anne Gerritsen",
                 "title": "Professor in History at the University of Warwick",
                 "links": [
+                    {
+                        "text": "Anne Gerritsen",
+                        "wiki": "https://en.wikipedia.org/wiki/Anne_Gerritsen"
+                    },
                     {
                         "text": "University of Warwick",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Warwick"
@@ -9418,6 +10311,10 @@
                 "title": "Professor of Modern Scottish Literature and Bishop Wardlaw Professor of Poetry at the University of St Andrews",
                 "links": [
                     {
+                        "text": "Robert Crawford",
+                        "wiki": "https://en.wikipedia.org/wiki/Robert_Crawford_(Scottish_poet)"
+                    },
+                    {
                         "text": "University of St Andrews",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
                     }
@@ -9511,6 +10408,10 @@
                 "name": "Richard Whatmore",
                 "title": "Professor of Modern History at the University of St Andrews and Co-Director of the St Andrews Institute of Intellectual History",
                 "links": [
+                    {
+                        "text": "Richard Whatmore",
+                        "wiki": "https://en.wikipedia.org/wiki/Richard_Whatmore"
+                    },
                     {
                         "text": "University of St Andrews",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
@@ -11350,12 +12251,12 @@
         "wiki_link": "https://en.wikipedia.org/wiki/Shakespearean_history",
         "experts": [
             {
-                "name": "Emma J. Smith",
+                "name": "Emma Smith",
                 "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
                 "links": [
                     {
-                        "text": "Emma J. Smith",
-                        "wiki": "https://en.wikipedia.org/wiki/Emma_J._Smith"
+                        "text": "Emma Smith",
+                        "wiki": "https://en.wikipedia.org/wiki/Emma_Smith_(scholar)"
                     },
                     {
                         "text": "Hertford College",
@@ -20686,7 +21587,7 @@
                 "links": [
                     {
                         "text": "Evelyn Welch",
-                        "wiki": "https://en.wikipedia.org/wiki/Florence_Welch"
+                        "wiki": "https://en.wikipedia.org/wiki/Evelyn_Welch"
                     },
                     {
                         "text": "Renaissance",
@@ -21688,6 +22589,10 @@
                 "name": "Justin Meggitt",
                 "title": "University Senior Lecturer in the Study of Religion and the Origins of Christianity at the University of Cambridge",
                 "links": [
+                    {
+                        "text": "Justin Meggitt",
+                        "wiki": "https://en.wikipedia.org/wiki/Justin_Meggitt"
+                    },
                     {
                         "text": "Study of Religion",
                         "wiki": "https://en.wikipedia.org/wiki/Religious_studies"
@@ -38522,12 +39427,12 @@
                 ]
             },
             {
-                "name": "Emma J. Smith",
+                "name": "Emma Smith",
                 "title": "Lecturer in English, Oxford University",
                 "links": [
                     {
-                        "text": "Emma J. Smith",
-                        "wiki": "https://en.wikipedia.org/wiki/Emma_J._Smith"
+                        "text": "Emma Smith",
+                        "wiki": "https://en.wikipedia.org/wiki/Emma_Smith_(scholar)"
                     },
                     {
                         "text": "Oxford University",
@@ -48705,7 +49610,7 @@
                     },
                     {
                         "text": "Genome: The autobiography of a species in 23 chapters",
-                        "wiki": "https://en.wikipedia.org/wiki/Genome_(book)"
+                        "wiki": "https://en.wikipedia.org/wiki/Genome_(Ridley_book)"
                     }
                 ]
             }
