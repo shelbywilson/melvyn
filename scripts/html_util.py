@@ -66,45 +66,49 @@ def get_description(key):
     return descriptions[episodes_dictionary[key]['date'] + '_' + key]
 
 def get_episode_row(key, this_guest = False):
-    episode = episodes_dictionary[key]
+    try: 
+        episode = episodes_dictionary[key]
 
-    if this_guest:
-        guest_list = 'Also featuring: '
-    else: 
-        guest_list = 'Featuring: '
-    for expert in episode['experts']:
-        if expert['name'] != this_guest:
-            guest_list += '<span>' + a(expert['name'], './../guest/' + get_url(expert['name']) + '.html', 'no-wrap', False) + '</span>, '
-    guest_list = guest_list[:len(guest_list) - 2]
+        if this_guest:
+            guest_list = 'Also featuring: '
+        else: 
+            guest_list = 'Featuring: '
+        for expert in episode['experts']:
+            if expert['name'] != this_guest:
+                guest_list += '<span>' + a(expert['name'], './../guest/' + get_url(expert['name']) + '.html', 'no-wrap', False) + '</span>, '
+        guest_list = guest_list[:len(guest_list) - 2]
 
-    categories = ''
-    try:
-        for cat in top_level_categories_by_episode[key]:
+        categories = ''
+        try:
+            for cat in top_level_categories_by_episode[key]:
+                categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
+        except:
+            pass
+
+        for cat in categories_by_episode[key]:
             categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
+
+        content = (
+            p(get_description(key)) 
+            + p(episode['date']) 
+            + p(a('listen &#8599;', 'https://www.bbc.co.uk/sounds/play/' + episode['episode_link'].split('/').pop())) 
+            + p(guest_list)
+        )
+        wiki_link = '<a href="' + episode['wiki_link'] + '" target="_blank">' + get_wiki_img(key) + '<div>wikipedia article &#8599;</div></a>\n'
+        ranking_placeholder = '<div data-topic="' + episode['topic'] + '" class="episode-ranking"><div class="ranking"><div class="flex-row"><div class="progress-bar"><div class="score-60"></div>\n</div>\n<div class="ranking-label">&nbsp;</div>\n</div>\n</div>\n</div>\n'
+
+        return li(
+            div('<h3>' + episode['topic'] + '</h3>\n', 'episode-title') 
+            + div(div(content, "content-col")
+            + div(wiki_link, "wiki-col") 
+            + div(ranking_placeholder , "meta-col"), "episode-content"
+            ) 
+            + div(categories, 'categories')
+            , 'episode'
+        )
     except:
-        pass
-
-    for cat in categories_by_episode[key]:
-        categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
-
-    content = (
-        p(get_description(key)) 
-        + p(episode['date']) 
-        + p(a('listen &#8599;', 'https://www.bbc.co.uk/sounds/play/' + episode['episode_link'].split('/').pop())) 
-        + p(guest_list)
-    )
-    wiki_link = '<a href="' + episode['wiki_link'] + '" target="_blank">' + get_wiki_img(key) + '<div>wikipedia article &#8599;</div></a>\n'
-    ranking_placeholder = '<div data-topic="' + episode['topic'] + '" class="episode-ranking"><div class="ranking"><div class="flex-row"><div class="progress-bar"><div class="score-60"></div>\n</div>\n<div class="ranking-label">&nbsp;</div>\n</div>\n</div>\n</div>\n'
-
-    return li(
-        div('<h3>' + episode['topic'] + '</h3>\n', 'episode-title') 
-        + div(div(content, "content-col")
-        + div(wiki_link, "wiki-col") 
-        + div(ranking_placeholder , "meta-col"), "episode-content"
-        ) 
-        + div(categories, 'categories')
-        , 'episode'
-    )
+        print('\tno episode found -', key)
+        return ''
 
 def get_related_category_links():
     for category in sorted(set_of_cat, key=sort_by_frequency_category, reverse=True):

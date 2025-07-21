@@ -84,8 +84,11 @@ def create_topic_category_page():
         
         category_inner += '<div class="header__all-imgs">\n'
         for topic in sorted(topics_by_category[key]):
-            episode = episodes_dictionary[topic]
-            category_inner += a(get_wiki_img(episode['topic']), episode['wiki_link'])
+            try:
+                episode = episodes_dictionary[topic]
+                category_inner += a(get_wiki_img(episode['topic']), episode['wiki_link'])
+            except:
+                print('\tno episode found -', topic)
         category_inner += '\n</div>'
 
         episode_list = ''
@@ -96,11 +99,14 @@ def create_topic_category_page():
         for episode in sorted(topics_by_category[key]):
             episode_list += get_episode_row(episode)
             links = ''
-            if (episodes_dictionary[episode]["wiki_link"]):
-                links += a("wikipedia", episodes_dictionary[episode]["wiki_link"], False)
-            if (episodes_dictionary[episode]["episode_link"]): 
-                links += a("listen", episodes_dictionary[episode]["episode_link"], False)
-            index_page_detail += li(episode + links)
+            try:
+                if (episodes_dictionary[episode]["wiki_link"]):
+                    links += a("wikipedia", episodes_dictionary[episode]["wiki_link"], False)
+                if (episodes_dictionary[episode]["episode_link"]): 
+                    links += a("listen", episodes_dictionary[episode]["episode_link"], False)
+                index_page_detail += li(episode + links)
+            except:
+                print('\tno episode found -', episode)
 
             # add categories of each episode to set
             for cat in categories_by_episode[episode]:

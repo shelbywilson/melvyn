@@ -22,8 +22,6 @@ normalized_titles = {
     "Truth, Lies and Fiction": "Truth, Lies and fiction",
     "Cultural Rights in the 20th Century": "Cultural rights in the 20th Century",
     "The Plague of Justinian": "Plague of Justinian",
-    "The Zong Massacre": "Zong Massacre",
-    "The Valladolid Debate": "Valladolid Debate",
     "The Siege of Paris 1870-71": "The Siege of Paris (1870-71)",
     "Owain Glyndwr": "Owain Glyndŵr",
     "Matteo Ricci and the Ming Dynasty": "Matteo Ricci and the Ming dynasty",
@@ -66,7 +64,7 @@ normalized_titles = {
     "Climate Change": "Climate change",
     "Neuroscience in the 20th century": "Neuroscience in the 20th Century",
     "Germaine de Stael": "Germaine de Staël",
-    "Comenius": "Jan Amos Komenský",
+    "Comenius": "Jan Amos Komenský"
 }
 
 def get_top_level_categories():

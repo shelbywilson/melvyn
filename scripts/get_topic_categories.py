@@ -28,13 +28,13 @@ def get_topic_categories():
     episodes = json.load(f)
     f.close()
 
-    # f = open('./../data/topics_by_category.json')
-    # dictionary = json.load(f)
-    # f.close()
+    f = open('./../data/topics_by_category.json')
+    dictionary = json.load(f)
+    f.close()
 
-    # f = open('./../data/categories_by_episode.json')
-    # categories_by_episode = json.load(f)
-    # f.close()
+    f = open('./../data/categories_by_episode.json')
+    categories_by_episode = json.load(f)
+    f.close()
 
     try:
         f = open('./../data/category_summaries.json')
@@ -44,44 +44,48 @@ def get_topic_categories():
         category_summaries = {}
 
 
-    dictionary = {}
-    categories_by_episode = {}
+    # dictionary = {}
+    # categories_by_episode = {}
     i = 0
 
     for episode in episodes:
         # if (i < 10):
-        categories_by_episode[episode['topic']] = []
-        if (episode['wiki_link'] != ""):
-            # if episode['topic'] not in categories_by_episode:
-            #     print('new episode', episodes['topic'])
-            try:
-                html_page = urllib.request.urlopen(episode['wiki_link'])
-                soup = BeautifulSoup(html_page, "html.parser")
-                categories = soup.find('div', {'id': "mw-normal-catlinks"}).find_all('li')
-                for category in categories:
-                    cat_name = category.get_text() 
-                    century_phrase = split_century_phrase(cat_name)
-                    
-                    if (century_phrase):
-                        if (century_phrase[0] not in dictionary):
-                            dictionary[century_phrase[0]] = []
-                        if (century_phrase[1] not in dictionary):
-                            dictionary[century_phrase[1]] = []
-                        dictionary[century_phrase[0]].append(episode['topic'])
-                        dictionary[century_phrase[1]].append(episode['topic'])
-                    else:
-                        if (cat_name not in dictionary):
-                            dictionary[cat_name] = []
-                        dictionary[cat_name].append(episode['topic'])
+        if (episode['topic'] not in categories_by_episode):
+            categories_by_episode[episode['topic']] = []
+            if (episode['wiki_link'] != ""):
+                # if episode['topic'] not in categories_by_episode:
+                #     print('new episode', episodes['topic'])
+                try:
+                    html_page = urllib.request.urlopen(episode['wiki_link'])
+                    soup = BeautifulSoup(html_page, "html.parser")
+                    categories = soup.find('div', {'id': "mw-normal-catlinks"}).find_all('li')
+                    for category in categories:
+                        cat_name = category.get_text() 
+                        century_phrase = split_century_phrase(cat_name)
+                        
+                        if (century_phrase):
+                            if (century_phrase[0] not in dictionary):
+                                dictionary[century_phrase[0]] = []
+                            if (century_phrase[1] not in dictionary):
+                                dictionary[century_phrase[1]] = []
+                            dictionary[century_phrase[0]].append(episode['topic'])
+                            dictionary[century_phrase[1]].append(episode['topic'])
+                        else:
+                            if (cat_name not in dictionary):
+                                dictionary[cat_name] = []
+                            dictionary[cat_name].append(episode['topic'])
 
-                print('\tcategories for', episode['topic'])
-            except:
-                print('\tno categories', episode['topic'])
+                    print('\tcategories for', episode['topic'])
+                except:
+                    print('\tno categories', episode['topic'])
         i += 1
         # else:
             # print('\t--', 'no wiki link', episode['topic'])
     print('\t', len(dictionary.keys()), 'categories')
 
+    for topic in dictionary:
+        dictionary[topic] = list(set(dictionary[topic]))
+        
     w = open('./../data/topics_by_category.json', 'w')
     json.dump(dictionary, w, indent=4, ensure_ascii=False)
     w.close()
@@ -171,6 +175,9 @@ def get_topic_categories():
     w = open('./../data/topics_by_category_non_unique.json', 'w')
     json.dump(non_unique_categories, w, indent=4, ensure_ascii=False)
     w.close()
+      
+    for ep in categories_by_episode:
+        categories_by_episode[ep] = list(set(categories_by_episode[ep]))
 
     w = open('./../data/categories_by_episode.json', 'w')
     json.dump(categories_by_episode, w, indent=4, ensure_ascii=False)

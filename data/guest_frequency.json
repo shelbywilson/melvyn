@@ -1,4 +1,963 @@
 {
+    "David O’Shaughnessy": {
+        "count": 1,
+        "first": "20 February 2025",
+        "last": "20 February 2025",
+        "links": [
+            {
+                "text": "University of Galway",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Galway"
+            }
+        ],
+        "title": [
+            "Professor of Eighteenth-Century Studies at the University of Galway"
+        ]
+    },
+    "Judith Hawley": {
+        "count": 15,
+        "first": "20 February 2025",
+        "last": "10 June 2004",
+        "links": [
+            {
+                "text": "Royal Holloway, University of London",
+                "wiki": "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
+            }
+        ],
+        "title": [
+            "Professor of Eighteenth-Century Literature at Royal Holloway, University of London",
+            "Professor of 18th Century Literature at Royal Holloway, University of London",
+            "Professor of 18th century literature at Royal Holloway, University of London",
+            "Senior Lecturer in English at Royal Holloway, University of London",
+            "Senior Lecturer in English, Royal Holloway, University of London"
+        ]
+    },
+    "Michael Griffin": {
+        "count": 1,
+        "first": "20 February 2025",
+        "last": "20 February 2025",
+        "links": [
+            {
+                "text": "University of Limerick",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Limerick"
+            }
+        ],
+        "title": [
+            "Professor of English at the University of Limerick."
+        ]
+    },
+    "Lucy Wooding": {
+        "count": 2,
+        "first": "13 February 2025",
+        "last": "5 November 2009",
+        "links": [
+            {
+                "text": "Lucy Wooding",
+                "wiki": "https://en.wikipedia.org/wiki/Lucy_Wooding"
+            },
+            {
+                "text": "Lincoln College, University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/Lincoln_College,_Oxford"
+            },
+            {
+                "text": "Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Langford Fellow and Tutor in History at Lincoln College, University of Oxford and Professor of Early Modern History at Oxford",
+            "Lecturer in Early Modern History at King's College, London"
+        ]
+    },
+    "Maria Hayward": {
+        "count": 2,
+        "first": "13 February 2025",
+        "last": "15 October 2015",
+        "links": [
+            {
+                "text": "Maria Hayward",
+                "wiki": "https://en.wikipedia.org/wiki/Maria_Hayward"
+            },
+            {
+                "text": "University of Southampton",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Southampton"
+            }
+        ],
+        "title": [
+            "Professor of Early Modern History at the University of Southampton"
+        ]
+    },
+    "Gonzalo Velasco Berenguer": {
+        "count": 1,
+        "first": "13 February 2025",
+        "last": "13 February 2025",
+        "links": [
+            {
+                "text": "University of Bristol",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+            }
+        ],
+        "title": [
+            "Lecturer in Global Medieval and Early Modern History at the University of Bristol."
+        ]
+    },
+    "Frances Sands": {
+        "count": 1,
+        "first": "06 February 2025",
+        "last": "06 February 2025",
+        "links": [
+            {
+                "text": "Sir John Soane’s Museum",
+                "wiki": "https://en.wikipedia.org/wiki/Sir_John_Soane%E2%80%99s_Museum"
+            }
+        ],
+        "title": [
+            "the Curator of Drawings and Books at Sir John Soane’s Museum"
+        ]
+    },
+    "Frank Salmon": {
+        "count": 1,
+        "first": "06 February 2025",
+        "last": "06 February 2025",
+        "links": [
+            {
+                "text": "Frank Salmon",
+                "wiki": "https://en.wikipedia.org/wiki/Frank_Salmon"
+            },
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Associate Professor of the History of Art at the University of Cambridge and Director of the Ax:son Johnson Centre for the Study of Classical Architecture"
+        ]
+    },
+    "Gillian Darley": {
+        "count": 3,
+        "first": "06 February 2025",
+        "last": "31 October 2002",
+        "links": [],
+        "title": [
+            "historian and author of Soane's biography.",
+            "Historian and biographer of Octavia Hill",
+            "Architectural historian and biographer of John Soane"
+        ]
+    },
+    "Katherine Lewis": {
+        "count": 6,
+        "first": "30 January 2025",
+        "last": "2 June 2016",
+        "links": [
+            {
+                "text": "University of Lincoln",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Lincoln"
+            },
+            {
+                "text": "University of York",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_York"
+            }
+        ],
+        "title": [
+            "Honorary Professor of Medieval History at the University of Lincoln and Research Associate at the University of York",
+            "Professor of Medieval History at the University of Huddersfield",
+            "Senior Lecturer in History at the University of Huddersfield",
+            "Senior Lecturer in Medieval History at the University of Huddersfield"
+        ]
+    },
+    "Laura Kalas": {
+        "count": 2,
+        "first": "30 January 2025",
+        "last": "19 October 2023",
+        "links": [
+            {
+                "text": "Swansea University",
+                "wiki": "https://en.wikipedia.org/wiki/Swansea_University"
+            }
+        ],
+        "title": [
+            "Senior Lecturer in Medieval English Literature at Swansea University"
+        ]
+    },
+    "Anthony Bale": {
+        "count": 3,
+        "first": "30 January 2025",
+        "last": "2 June 2016",
+        "links": [
+            {
+                "text": "Anthony Bale",
+                "wiki": "https://en.wikipedia.org/wiki/Anthony_Bale"
+            },
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            },
+            {
+                "text": "Girton College",
+                "wiki": "https://en.wikipedia.org/wiki/Girton_College,_Cambridge"
+            }
+        ],
+        "title": [
+            "Professor of Medieval & Renaissance English at the University of Cambridge and Fellow of Girton College.",
+            "Professor of Medieval Studies and Dean of the School of Arts at Birkbeck, University of London",
+            "Professor of Medieval Studies at Birkbeck, University of London"
+        ]
+    },
+    "Angie Hobbs": {
+        "count": 26,
+        "first": "23 January 2025",
+        "last": "29 March 2001",
+        "links": [
+            {
+                "text": "Angie Hobbs",
+                "wiki": "https://en.wikipedia.org/wiki/Angie_Hobbs"
+            },
+            {
+                "text": "University of Sheffield",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+            }
+        ],
+        "title": [
+            "Professor of the Public Understanding of Philosophy at the University of Sheffield",
+            "Professor of the Public Understanding of Philosophy, University of Sheffield",
+            "associate professor of Philosophy and Senior Fellow in the Public Understanding of Philosophy at the University of Warwick",
+            "associate professor in Philosophy at the University of Warwick",
+            "associate professor of Philosophy at the University of Warwick",
+            "associate professor of Philosophy at Warwick University",
+            "Lecturer in Philosophy at the University of Warwick",
+            "Lecturer in Philosophy, University of Warwick",
+            "Lecturer in Philosophy at the University of Warwick and author of Plato and the Hero: Courage, Manliness and the Impersonal Good",
+            "lecturer in philosophy at Warwick University"
+        ]
+    },
+    "Fiona Leigh": {
+        "count": 2,
+        "first": "23 January 2025",
+        "last": "25 November 2021",
+        "links": [
+            {
+                "text": "University College London",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Associate Professor in the Department of Philosophy at University College London"
+        ]
+    },
+    "James Warren": {
+        "count": 5,
+        "first": "23 January 2025",
+        "last": "8 December 2011",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            },
+            {
+                "text": "Corpus Christi College, Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/Corpus_Christi_College,_Cambridge"
+            }
+        ],
+        "title": [
+            "Professor of Ancient Philosophy at the University of Cambridge and Fellow of Corpus Christi College, Cambridge.",
+            "Fellow of Corpus Christi College and a Reader in Ancient Philosophy at the University of Cambridge",
+            "Reader in Ancient Philosophy at the University of Cambridge",
+            "Senior Lecturer in Classics and a Fellow of Corpus Christi College, Cambridge"
+        ]
+    },
+    "Michael Rowe": {
+        "count": 3,
+        "first": "16 January 2025",
+        "last": "19 September 2019",
+        "links": [
+            {
+                "text": "King's College London",
+                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+            }
+        ],
+        "title": [
+            "Reader in European History at King's College London",
+            "Reader in European History, King's College London"
+        ]
+    },
+    "Heidi Mehrkens": {
+        "count": 1,
+        "first": "16 January 2025",
+        "last": "16 January 2025",
+        "links": [
+            {
+                "text": "University of Aberdeen",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Aberdeen"
+            }
+        ],
+        "title": [
+            "Lecturer in Modern European History at the University of Aberdeen"
+        ]
+    },
+    "Colin Jones": {
+        "count": 1,
+        "first": "16 January 2025",
+        "last": "16 January 2025",
+        "links": [
+            {
+                "text": "Colin Jones",
+                "wiki": "https://en.wikipedia.org/wiki/Colin_Jones_(historian)"
+            },
+            {
+                "text": "Queen Mary, University of London",
+                "wiki": "https://en.wikipedia.org/wiki/Queen_Mary_University_of_London"
+            }
+        ],
+        "title": [
+            "Professor Emeritus of History at Queen Mary, University of London."
+        ]
+    },
+    "Jonathan Chubb": {
+        "count": 1,
+        "first": "02 January 2025",
+        "last": "02 January 2025",
+        "links": [
+            {
+                "text": "University College, London",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Professor of Quantitative Cell Biology at University College, London"
+        ]
+    },
+    "Elinor Thompson": {
+        "count": 1,
+        "first": "02 January 2025",
+        "last": "02 January 2025",
+        "links": [
+            {
+                "text": "University of Greenwich",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Greenwich"
+            }
+        ],
+        "title": [
+            "Reader in microbiology and plant science at the University of Greenwich"
+        ]
+    },
+    "Merlin Sheldrake": {
+        "count": 1,
+        "first": "02 January 2025",
+        "last": "02 January 2025",
+        "links": [
+            {
+                "text": "Merlin Sheldrake",
+                "wiki": "https://en.wikipedia.org/wiki/Merlin_Sheldrake"
+            }
+        ],
+        "title": [
+            "Biologist and writer."
+        ]
+    },
+    "Jenny Uglow": {
+        "count": 4,
+        "first": "26 December 2024",
+        "last": "5 June 2003",
+        "links": [
+            {
+                "text": "Jenny Uglow",
+                "wiki": "https://en.wikipedia.org/wiki/Jenny_Uglow"
+            }
+        ],
+        "title": [
+            "writer and biographer",
+            "Biographer of Elizabeth Gaskell",
+            "Honorary Visiting Professor at the University of Warwick",
+            "Honorary Visiting Professor at the University of Warwick and author of The Lunar Men: The Friends who Made the Future"
+        ]
+    },
+    "Rosemary Sweet": {
+        "count": 4,
+        "first": "26 December 2024",
+        "last": "19 April 2001",
+        "links": [
+            {
+                "text": "University of Leicester",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
+            }
+        ],
+        "title": [
+            "Professor of urban history at the University of Leicester",
+            "Director of the Centre for Urban History at the University of Leicester",
+            "Lecturer in History at the University of Leicester",
+            "Lecturer in Economic and Social History at the University of Leicester"
+        ]
+    },
+    "Caroline McCaffrey-Howarth": {
+        "count": 1,
+        "first": "26 December 2024",
+        "last": "26 December 2024",
+        "links": [
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "Lecturer in the history of art at the University of Edinburgh."
+        ]
+    },
+    "Judith Mossman": {
+        "count": 1,
+        "first": "19 December 2024",
+        "last": "19 December 2024",
+        "links": [
+            {
+                "text": "Judith Mossman",
+                "wiki": "https://en.wikipedia.org/wiki/Judith_Mossman_(classicist)"
+            },
+            {
+                "text": "Coventry University",
+                "wiki": "https://en.wikipedia.org/wiki/Coventry_University"
+            }
+        ],
+        "title": [
+            "Professor Emerita of Classics at Coventry University"
+        ]
+    },
+    "Andrew Erskine": {
+        "count": 1,
+        "first": "19 December 2024",
+        "last": "19 December 2024",
+        "links": [
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "Professor of Ancient History at the University of Edinburgh"
+        ]
+    },
+    "Paul Cartledge": {
+        "count": 22,
+        "first": "19 December 2024",
+        "last": "6 May 2004",
+        "links": [
+            {
+                "text": "Paul Cartledge",
+                "wiki": "https://en.wikipedia.org/wiki/Paul_Cartledge"
+            },
+            {
+                "text": "Clare College, University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/Clare_College,_Cambridge"
+            }
+        ],
+        "title": [
+            "AG Leventis Senior Research Fellow of Clare College, University of Cambridge.",
+            "AG Leventis Senior Research Fellow of Clare College, University of Cambridge",
+            "A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "Emeritus AG Leventis Professor of Greek Culture, University of Cambridge and Senior Research Fellow of Clare College",
+            "A.G. Leventis Senior Research Fellow and Emeritus Professor of Greek Culture at Clare College, Cambridge",
+            "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, Cambridge",
+            "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, Cambridge",
+            "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "A. G. Leventis Professor of Greek Culture at the University of Cambridge",
+            "A.G. Leventis Professor of Greek Culture at Cambridge University",
+            "A. G. Leventis Professor of Greek Culture at Cambridge University",
+            "A G Leventis Professor of Greek Culture and a Fellow of Clare College, Cambridge",
+            "AG Leventis Professor of Greek Culture and Fellow of Clare College, Cambridge",
+            "AG Leventis Professor of Greek Culture at the University of Cambridge",
+            "Professor of Greek History at the University of Cambridge"
+        ]
+    },
+    "Jayne Birkby": {
+        "count": 1,
+        "first": "12 December 2024",
+        "last": "12 December 2024",
+        "links": [
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            },
+            {
+                "text": "Brasenose College",
+                "wiki": "https://en.wikipedia.org/wiki/Brasenose_College,_Oxford"
+            }
+        ],
+        "title": [
+            "Associate Professor of Exoplanetary Sciences at the University of Oxford and Tutorial Fellow in Physics at Brasenose College"
+        ]
+    },
+    "Saidul Islam": {
+        "count": 1,
+        "first": "12 December 2024",
+        "last": "12 December 2024",
+        "links": [
+            {
+                "text": "Kings College, London",
+                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+            }
+        ],
+        "title": [
+            "Assistant Professor of Chemistry at Kings College, London"
+        ]
+    },
+    "Oliver Shorttle": {
+        "count": 1,
+        "first": "12 December 2024",
+        "last": "12 December 2024",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            },
+            {
+                "text": "Clare College",
+                "wiki": "https://en.wikipedia.org/wiki/Clare_College,_Cambridge"
+            }
+        ],
+        "title": [
+            "Professor of Natural Philosophy at the University of Cambridge and Fellow of Clare College."
+        ]
+    },
+    "Christine van Ruymbeke": {
+        "count": 1,
+        "first": "05 December 2024",
+        "last": "05 December 2024",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Professor of Persian Literature and Culture at the University of Cambridge"
+        ]
+    },
+    "Narguess Farzad": {
+        "count": 2,
+        "first": "05 December 2024",
+        "last": "13 December 2012",
+        "links": [
+            {
+                "text": "SOAS, University of London",
+                "wiki": "https://en.wikipedia.org/wiki/SOAS_University_of_London"
+            }
+        ],
+        "title": [
+            "Senior Lecturer in Persian Studies at SOAS, University of London",
+            "Senior Fellow in Persian at SOAS, University of London"
+        ]
+    },
+    "Dominic Parviz Brookshaw": {
+        "count": 1,
+        "first": "05 December 2024",
+        "last": "05 December 2024",
+        "links": [
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Professor of Persian Literature and Iranian Culture at the University of Oxford."
+        ]
+    },
+    "Andreas Gestrich": {
+        "count": 1,
+        "first": "28 November 2024",
+        "last": "28 November 2024",
+        "links": [
+            {
+                "text": "Andreas Gestrich",
+                "wiki": "https://en.wikipedia.org/wiki/Andreas_Gestrich"
+            },
+            {
+                "text": "Trier University",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Trier"
+            },
+            {
+                "text": "German Historical Institute in London",
+                "wiki": "https://en.wikipedia.org/wiki/German_Historical_Institute_London"
+            }
+        ],
+        "title": [
+            "Professor Emeritus at Trier University and Former Director of the German Historical Institute in London"
+        ]
+    },
+    "Elaine Chalus": {
+        "count": 1,
+        "first": "28 November 2024",
+        "last": "28 November 2024",
+        "links": [
+            {
+                "text": "University of Liverpool",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Liverpool"
+            }
+        ],
+        "title": [
+            "Professor of British History at the University of Liverpool"
+        ]
+    },
+    "Mark Knights": {
+        "count": 4,
+        "first": "28 November 2024",
+        "last": "12 May 2016",
+        "links": [
+            {
+                "text": "University of Warwick",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Warwick"
+            }
+        ],
+        "title": [
+            "Professor of History at the University of Warwick.",
+            "Professor of History at the University of Warwick"
+        ]
+    },
+    "Guido Bonsaver": {
+        "count": 1,
+        "first": "21 November 2024",
+        "last": "21 November 2024",
+        "links": [
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Professor of Italian Cultural History at the University of Oxford"
+        ]
+    },
+    "Jennifer Burns": {
+        "count": 1,
+        "first": "21 November 2024",
+        "last": "21 November 2024",
+        "links": [
+            {
+                "text": "University of Warwick",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Warwick"
+            }
+        ],
+        "title": [
+            "Professor of Italian Studies at the University of Warwick"
+        ]
+    },
+    "Beatrice Sica": {
+        "count": 1,
+        "first": "21 November 2024",
+        "last": "21 November 2024",
+        "links": [
+            {
+                "text": "UCL",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Associate Professor in Italian Studies at UCL."
+        ]
+    },
+    "Mike Edmunds": {
+        "count": 1,
+        "first": "14 November 2024",
+        "last": "14 November 2024",
+        "links": [
+            {
+                "text": "Mike Edmunds",
+                "wiki": "https://en.wikipedia.org/wiki/Mike_Edmunds"
+            },
+            {
+                "text": "Cardiff University",
+                "wiki": "https://en.wikipedia.org/wiki/Cardiff_University"
+            }
+        ],
+        "title": [
+            "Emeritus Professor of Astrophysics at Cardiff University"
+        ]
+    },
+    "Jo Marchant": {
+        "count": 1,
+        "first": "14 November 2024",
+        "last": "14 November 2024",
+        "links": [
+            {
+                "text": "Jo Marchant",
+                "wiki": "https://en.wikipedia.org/wiki/Jo_Marchant"
+            },
+            {
+                "text": "Decoding the Heavens",
+                "wiki": "https://en.wikipedia.org/wiki/Decoding_the_Heavens"
+            }
+        ],
+        "title": [
+            "Science journalist and author of Decoding the Heavens on the Antikythera Mechanism"
+        ]
+    },
+    "Liba Taub": {
+        "count": 4,
+        "first": "14 November 2024",
+        "last": "6 March 2003",
+        "links": [
+            {
+                "text": "Liba Taub",
+                "wiki": "https://en.wikipedia.org/wiki/Liba_Taub"
+            },
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            },
+            {
+                "text": "Deutsches Museum",
+                "wiki": "https://en.wikipedia.org/wiki/Deutsches_Museum"
+            }
+        ],
+        "title": [
+            "Professor Emerita in the Department of History and Philosophy of Science at the University of Cambridge and Visiting Scholar at the Deutsches Museum, Munich.",
+            "Professor of History and Philosophy of Science at Cambridge University",
+            "Reader in the History and Philosophy of Science, Cambridge University",
+            "Director of the Whipple Museum of the History of Science at Cambridge University"
+        ]
+    },
+    "Helen Wilcox": {
+        "count": 1,
+        "first": "07 November 2024",
+        "last": "07 November 2024",
+        "links": [
+            {
+                "text": "Helen Wilcox",
+                "wiki": "https://en.wikipedia.org/wiki/Helen_Wilcox"
+            },
+            {
+                "text": "Bangor University",
+                "wiki": "https://en.wikipedia.org/wiki/Bangor_University"
+            }
+        ],
+        "title": [
+            "Professor Emerita of English Literature at Bangor University"
+        ]
+    },
+    "Victoria Moul": {
+        "count": 1,
+        "first": "07 November 2024",
+        "last": "07 November 2024",
+        "links": [
+            {
+                "text": "UCL",
+                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
+            }
+        ],
+        "title": [
+            "Formerly Professor of Early Modern Latin and English at UCL"
+        ]
+    },
+    "Simon Jackson": {
+        "count": 1,
+        "first": "07 November 2024",
+        "last": "07 November 2024",
+        "links": [
+            {
+                "text": "Peterhouse, University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/Peterhouse,_Cambridge"
+            }
+        ],
+        "title": [
+            "Director of Music and Director of Studies in English at Peterhouse, University of Cambridge."
+        ]
+    },
+    "Maartje van Gelder": {
+        "count": 1,
+        "first": "31 October 2024",
+        "last": "31 October 2024",
+        "links": [
+            {
+                "text": "University of Amsterdam",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Amsterdam"
+            }
+        ],
+        "title": [
+            "Professor in Early Modern History at the University of Amsterdam"
+        ]
+    },
+    "Stephen Bowd": {
+        "count": 2,
+        "first": "31 October 2024",
+        "last": "22 February 2024",
+        "links": [
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "Professor of Early Modern History at the University of Edinburgh"
+        ]
+    },
+    "Georg Christ": {
+        "count": 2,
+        "first": "31 October 2024",
+        "last": "1 February 2024",
+        "links": [
+            {
+                "text": "University of Manchester",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
+            }
+        ],
+        "title": [
+            "Reader in Senior Lecturer in Medieval and Early Modern History at the University of Manchester.",
+            "Senior Lecturer in Medieval and Early Modern History at the University of Manchester"
+        ]
+    },
+    "Bridget Bennett": {
+        "count": 4,
+        "first": "24 October 2024",
+        "last": "7 December 2017",
+        "links": [
+            {
+                "text": "University of Leeds",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Leeds"
+            }
+        ],
+        "title": [
+            "Professor of American Literature and Culture at the University of Leeds"
+        ]
+    },
+    "Erin Forbes": {
+        "count": 2,
+        "first": "24 October 2024",
+        "last": "30 November 2023",
+        "links": [
+            {
+                "text": "University of Bristol",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+            }
+        ],
+        "title": [
+            "Senior Lecturer in African American and U.S. Literature at the University of Bristol",
+            "Senior Lecturer in 19th-century African American and US Literature at the University of Bristol"
+        ]
+    },
+    "Tom Wright": {
+        "count": 2,
+        "first": "24 October 2024",
+        "last": "30 November 2023",
+        "links": [
+            {
+                "text": "University of Sussex",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Sussex"
+            }
+        ],
+        "title": [
+            "Reader in Rhetoric and Head of the Department of English Literature at the University of Sussex.",
+            "Reader in Rhetoric at the University of Sussex"
+        ]
+    },
+    "Bruce Caldwell": {
+        "count": 1,
+        "first": "17 October 2024",
+        "last": "17 October 2024",
+        "links": [
+            {
+                "text": "Bruce Caldwell",
+                "wiki": "https://en.wikipedia.org/wiki/Bruce_Caldwell_(economist)"
+            },
+            {
+                "text": "Duke University",
+                "wiki": "https://en.wikipedia.org/wiki/Duke_University"
+            }
+        ],
+        "title": [
+            "Research Professor of Economics at Duke University and Director of the Center for the History of Political Economy"
+        ]
+    },
+    "Melissa Lane": {
+        "count": 11,
+        "first": "17 October 2024",
+        "last": "18 October 2001",
+        "links": [
+            {
+                "text": "Melissa Lane",
+                "wiki": "https://en.wikipedia.org/wiki/Melissa_Lane"
+            },
+            {
+                "text": "Princeton University",
+                "wiki": "https://en.wikipedia.org/wiki/Princeton_University"
+            },
+            {
+                "text": "Gresham College",
+                "wiki": "https://en.wikipedia.org/wiki/Gresham_College"
+            }
+        ],
+        "title": [
+            "The Class of 1943 Professor of Politics at Princeton University and the 50th Professor of Rhetoric at Gresham College in London",
+            "Class of 1943 Professor of Politics at Princeton University",
+            "Professor of Politics at Princeton University. Carlyle Lecturer at the University of Oxford",
+            "The Class of 1943 Professor of Politics at Princeton University",
+            "Professor of Politics at Princeton University",
+            "Senior University Lecturer in History at the University of Cambridge",
+            "Senior University Lecturer in History at Cambridge University",
+            "University Lecturer in the History of Political Thought"
+        ]
+    },
+    "Ben Jackson": {
+        "count": 1,
+        "first": "17 October 2024",
+        "last": "17 October 2024",
+        "links": [
+            {
+                "text": "University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
+            }
+        ],
+        "title": [
+            "Professor of Modern History and fellow of University College at the University of Oxford."
+        ]
+    },
+    "Paul O'Prey": {
+        "count": 1,
+        "first": "10 October 2024",
+        "last": "10 October 2024",
+        "links": [
+            {
+                "text": "Paul O'Prey",
+                "wiki": "https://en.wikipedia.org/wiki/Paul_O%27Prey"
+            },
+            {
+                "text": "University of Roehampton",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Roehampton"
+            }
+        ],
+        "title": [
+            "Emeritus Professor of Modern Literature at the University of Roehampton, London"
+        ]
+    },
+    "Fran Brearton": {
+        "count": 6,
+        "first": "10 October 2024",
+        "last": "7 June 2007",
+        "links": [
+            {
+                "text": "Queen's University, Belfast",
+                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+            }
+        ],
+        "title": [
+            "Professor of Modern Poetry at Queen's University, Belfast",
+            "Professor of Modern Poetry at Queen's University Belfast",
+            "Reader in English at Queen's University Belfast",
+            "Reader in English at Queen's University Belfast and Assistant Director of the Seamus Heaney Centre for Poetry for Poetry",
+            "Reader in English and Assistant Director of the Seamus Heaney Centre for Poetry at the University of Belfast"
+        ]
+    },
+    "Bob Davis": {
+        "count": 1,
+        "first": "10 October 2024",
+        "last": "10 October 2024",
+        "links": [
+            {
+                "text": "University of Glasgow",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Glasgow"
+            }
+        ],
+        "title": [
+            "Professor of Religious and Cultural Education at the University of Glasgow."
+        ]
+    },
     "Ruth Kinna": {
         "count": 3,
         "first": "3 October 2024",
@@ -201,12 +1160,12 @@
         "last": "04 July 2024",
         "links": [
             {
-                "text": "National Institute of Health and Medical Research’s CERMES3 Unit",
+                "text": "National Institute of Health and Medical Research's CERMES3 Unit",
                 "wiki": "https://en.wikipedia.org/wiki/Inserm"
             }
         ],
         "title": [
-            "Historian and Chargé de Recherche at the French National Institute of Health and Medical Research’s CERMES3 Unit in Paris."
+            "Historian and Chargé de Recherche at the French National Institute of Health and Medical Research's CERMES3 Unit in Paris."
         ]
     },
     "Karen Serres": {
@@ -239,7 +1198,7 @@
         ],
         "title": [
             "Professor of Nineteenth-Century Art at the University of Edinburgh and Senior Curator of French Art at the National Galleries of Scotland",
-            "Professor of Nineteenth Century Art at the University of Edinburgh and Senior Curator at National Galleries Scotland"
+            "Professor of Nineteenth Century Art at the University of Edinburgh and Senior Curator at National Galleries of Scotland"
         ]
     },
     "Jackie Wullschläger": {
@@ -247,6 +1206,10 @@
         "first": "27 June 2024",
         "last": "27 June 2024",
         "links": [
+            {
+                "text": "Jackie Wullschläger",
+                "wiki": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen"
+            },
             {
                 "text": "Financial Times",
                 "wiki": "https://en.wikipedia.org/wiki/Financial_Times"
@@ -302,7 +1265,7 @@
             "research fellow at the Oxford Centre for Hindu Studies and Lecturer in Religious Studies at Regent's College, London"
         ]
     },
-    "Karen O’Brien-Kop": {
+    "Karen O'Brien-Kop": {
         "count": 1,
         "first": "20 June 2024",
         "last": "20 June 2024",
@@ -314,24 +1277,6 @@
         ],
         "title": [
             "Lecturer in Asian Religions at King's College London"
-        ]
-    },
-    "Judith Hawley": {
-        "count": 14,
-        "first": "13 June 2024",
-        "last": "10 June 2004",
-        "links": [
-            {
-                "text": "Royal Holloway, University of London",
-                "wiki": "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
-            }
-        ],
-        "title": [
-            "Professor of 18th Century Literature at Royal Holloway, University of London",
-            "Professor of 18th century literature at Royal Holloway, University of London",
-            "Professor of Eighteenth-Century Literature at Royal Holloway, University of London",
-            "Senior Lecturer in English at Royal Holloway, University of London",
-            "Senior Lecturer in English, Royal Holloway, University of London"
         ]
     },
     "Henry Power": {
@@ -447,12 +1392,12 @@
                 "wiki": "https://en.wikipedia.org/wiki/George_Garnett"
             },
             {
-                "text": "St Hugh’s College, University of Oxford",
+                "text": "St Hugh's College, University of Oxford",
                 "wiki": "https://en.wikipedia.org/wiki/St_Hugh%27s_College,_Oxford"
             }
         ],
         "title": [
-            "Professor of Medieval History and Fellow and Tutor at St Hugh’s College, University of Oxford"
+            "Professor of Medieval History and Fellow and Tutor at St Hugh's College, University of Oxford"
         ]
     },
     "Serena Ferente": {
@@ -753,21 +1698,6 @@
             "Professor of Twentieth Century German Literature, Emeritus Fellow of St Hugh's College, University of Oxford"
         ]
     },
-    "Michael Rowe": {
-        "count": 2,
-        "first": "18 April 2024",
-        "last": "19 September 2019",
-        "links": [
-            {
-                "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
-            }
-        ],
-        "title": [
-            "Reader in European History at King's College London",
-            "Reader in European History, King's College London"
-        ]
-    },
     "Katherine Astbury": {
         "count": 4,
         "first": "18 April 2024",
@@ -795,39 +1725,6 @@
         ],
         "title": [
             "Leverhulme Early Career Research Fellow at the University of Portsmouth"
-        ]
-    },
-    "Paul Cartledge": {
-        "count": 21,
-        "first": "11 April 2024",
-        "last": "6 May 2004",
-        "links": [
-            {
-                "text": "Paul Cartledge",
-                "wiki": "https://en.wikipedia.org/wiki/Paul_Cartledge"
-            },
-            {
-                "text": "Clare College, University of Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/Clare_College,_Cambridge"
-            }
-        ],
-        "title": [
-            "AG Leventis Senior Research Fellow of Clare College, University of Cambridge",
-            "A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "Emeritus AG Leventis Professor of Greek Culture, University of Cambridge and Senior Research Fellow of Clare College",
-            "A.G. Leventis Senior Research Fellow and Emeritus Professor of Greek Culture at Clare College, Cambridge",
-            "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, Cambridge",
-            "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, Cambridge",
-            "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "A. G. Leventis Professor of Greek Culture at the University of Cambridge",
-            "A.G. Leventis Professor of Greek Culture at Cambridge University",
-            "A. G. Leventis Professor of Greek Culture at Cambridge University",
-            "A G Leventis Professor of Greek Culture and a Fellow of Clare College, Cambridge",
-            "AG Leventis Professor of Greek Culture and Fellow of Clare College, Cambridge",
-            "AG Leventis Professor of Greek Culture at the University of Cambridge",
-            "Professor of Greek History at the University of Cambridge"
         ]
     },
     "Sarah Miles": {
@@ -1163,20 +2060,6 @@
             "theoretical physicist and author of Lucifer's Legacy: The Meaning of Asymmetry"
         ]
     },
-    "Stephen Bowd": {
-        "count": 1,
-        "first": "22 February 2024",
-        "last": "22 February 2024",
-        "links": [
-            {
-                "text": "University of Edinburgh",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
-            }
-        ],
-        "title": [
-            "Professor of Early Modern History at the University of Edinburgh"
-        ]
-    },
     "Jessica Goethals": {
         "count": 1,
         "first": "22 February 2024",
@@ -1315,20 +2198,6 @@
         ],
         "title": [
             "Associate Professor of Medieval History at the University of Amsterdam"
-        ]
-    },
-    "Georg Christ": {
-        "count": 1,
-        "first": "1 February 2024",
-        "last": "1 February 2024",
-        "links": [
-            {
-                "text": "University of Manchester",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
-            }
-        ],
-        "title": [
-            "Senior Lecturer in Medieval and Early Modern History at the University of Manchester"
         ]
     },
     "Sheilagh Ogilvie": {
@@ -1634,6 +2503,10 @@
         "last": "25 April 2019",
         "links": [
             {
+                "text": "Shushma Malik",
+                "wiki": "https://en.wikipedia.org/wiki/Shushma_Malik"
+            },
+            {
                 "text": "Newnham College",
                 "wiki": "https://en.wikipedia.org/wiki/Newnham_College,_Cambridge"
             },
@@ -1718,48 +2591,6 @@
         "title": [
             "Marischal Professor of Divinity at the University of Aberdeen",
             "Marischal Chair of Divinity at the University of Aberdeen"
-        ]
-    },
-    "Bridget Bennett": {
-        "count": 3,
-        "first": "30 November 2023",
-        "last": "7 December 2017",
-        "links": [
-            {
-                "text": "University of Leeds",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Leeds"
-            }
-        ],
-        "title": [
-            "Professor of American Literature and Culture at the University of Leeds"
-        ]
-    },
-    "Erin Forbes": {
-        "count": 1,
-        "first": "30 November 2023",
-        "last": "30 November 2023",
-        "links": [
-            {
-                "text": "University of Bristol",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
-            }
-        ],
-        "title": [
-            "Senior Lecturer in 19th-century African American and US Literature at the University of Bristol"
-        ]
-    },
-    "Tom Wright": {
-        "count": 1,
-        "first": "30 November 2023",
-        "last": "30 November 2023",
-        "links": [
-            {
-                "text": "University of Sussex",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Sussex"
-            }
-        ],
-        "title": [
-            "Reader in Rhetoric at the University of Sussex"
         ]
     },
     "Sara Barker": {
@@ -1893,33 +2724,6 @@
             "Associate Professor in the History of the Ottoman Empire and the Modern Middle East at the University of Greenwich"
         ]
     },
-    "Angie Hobbs": {
-        "count": 25,
-        "first": "02 November 2023",
-        "last": "29 March 2001",
-        "links": [
-            {
-                "text": "Angie Hobbs",
-                "wiki": "https://en.wikipedia.org/wiki/Angie_Hobbs"
-            },
-            {
-                "text": "University of Sheffield",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
-            }
-        ],
-        "title": [
-            "Professor of the Public Understanding of Philosophy at the University of Sheffield",
-            "Professor of the Public Understanding of Philosophy, University of Sheffield",
-            "associate professor of Philosophy and Senior Fellow in the Public Understanding of Philosophy at the University of Warwick",
-            "associate professor in Philosophy at the University of Warwick",
-            "associate professor of Philosophy at the University of Warwick",
-            "associate professor of Philosophy at Warwick University",
-            "Lecturer in Philosophy at the University of Warwick",
-            "Lecturer in Philosophy, University of Warwick",
-            "Lecturer in Philosophy at the University of Warwick and author of Plato and the Hero: Courage, Manliness and the Impersonal Good",
-            "lecturer in philosophy at Warwick University"
-        ]
-    },
     "Roger Crisp": {
         "count": 2,
         "first": "02 November 2023",
@@ -2012,22 +2816,6 @@
             "Lecturer in French Literature and Director of Studies at Churchill College & Selwyn College, University of Cambridge"
         ]
     },
-    "Katherine Lewis": {
-        "count": 5,
-        "first": "19 October 2023",
-        "last": "2 June 2016",
-        "links": [
-            {
-                "text": "University of Huddersfield",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Huddersfield"
-            }
-        ],
-        "title": [
-            "Professor of Medieval History at the University of Huddersfield",
-            "Senior Lecturer in History at the University of Huddersfield",
-            "Senior Lecturer in Medieval History at the University of Huddersfield"
-        ]
-    },
     "Philip Sheldrake": {
         "count": 1,
         "first": "19 October 2023",
@@ -2052,20 +2840,6 @@
         ],
         "title": [
             "Professor of Christian Spirituality at the Oblate School of Theology, Texas and Senior Research Associate of the Von Hügel Institute, University of Cambridge"
-        ]
-    },
-    "Laura Kalas": {
-        "count": 1,
-        "first": "19 October 2023",
-        "last": "19 October 2023",
-        "links": [
-            {
-                "text": "Swansea University",
-                "wiki": "https://en.wikipedia.org/wiki/Swansea_University"
-            }
-        ],
-        "title": [
-            "Senior Lecturer in Medieval English Literature at Swansea University"
         ]
     },
     "Frank Cogliano": {
@@ -3057,30 +3831,6 @@
             "Professor of English at the University of Birmingham"
         ]
     },
-    "Melissa Lane": {
-        "count": 10,
-        "first": "23 March 2023",
-        "last": "18 October 2001",
-        "links": [
-            {
-                "text": "Melissa Lane",
-                "wiki": "https://en.wikipedia.org/wiki/Melissa_Lane"
-            },
-            {
-                "text": "Princeton University",
-                "wiki": "https://en.wikipedia.org/wiki/Princeton_University"
-            }
-        ],
-        "title": [
-            "Class of 1943 Professor of Politics at Princeton University",
-            "Professor of Politics at Princeton University. Carlyle Lecturer at the University of Oxford",
-            "The Class of 1943 Professor of Politics at Princeton University",
-            "Professor of Politics at Princeton University",
-            "Senior University Lecturer in History at the University of Cambridge",
-            "Senior University Lecturer in History at Cambridge University",
-            "University Lecturer in the History of Political Thought"
-        ]
-    },
     "Hans van Wees": {
         "count": 1,
         "first": "23 March 2023",
@@ -4047,23 +4797,6 @@
             "Reader in The School of Arts at Oxford Brookes University"
         ]
     },
-    "Fran Brearton": {
-        "count": 5,
-        "first": "27 October 2022",
-        "last": "7 June 2007",
-        "links": [
-            {
-                "text": "Queen's University Belfast",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
-            }
-        ],
-        "title": [
-            "Professor of Modern Poetry at Queen's University Belfast",
-            "Reader in English at Queen's University Belfast",
-            "Reader in English at Queen's University Belfast and Assistant Director of the Seamus Heaney Centre for Poetry for Poetry",
-            "Reader in English and Assistant Director of the Seamus Heaney Centre for Poetry at the University of Belfast"
-        ]
-    },
     "Guy Cuthbertson": {
         "count": 1,
         "first": "27 October 2022",
@@ -4323,20 +5056,6 @@
         ],
         "title": [
             "Professor of British History and Society at Humboldt University of Berlin"
-        ]
-    },
-    "Mark Knights": {
-        "count": 3,
-        "first": "30 June 2022",
-        "last": "12 May 2016",
-        "links": [
-            {
-                "text": "University of Warwick",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Warwick"
-            }
-        ],
-        "title": [
-            "Professor of History at the University of Warwick"
         ]
     },
     "Piphal Heng": {
@@ -5494,20 +6213,6 @@
             "Director of Studies in Philosophy at Christ's College, Cambridge"
         ]
     },
-    "Fiona Leigh": {
-        "count": 1,
-        "first": "25 November 2021",
-        "last": "25 November 2021",
-        "links": [
-            {
-                "text": "University College London",
-                "wiki": "https://en.wikipedia.org/wiki/University_College_London"
-            }
-        ],
-        "title": [
-            "Associate Professor in the Department of Philosophy at University College London"
-        ]
-    },
     "Neil Sammells": {
         "count": 2,
         "first": "18 November 2021",
@@ -5988,6 +6693,10 @@
         "last": "15 February 2001",
         "links": [
             {
+                "text": "Clare Jackson",
+                "wiki": "https://en.wikipedia.org/wiki/Clare_Jackson"
+            },
+            {
                 "text": "Trinity Hall",
                 "wiki": "https://en.wikipedia.org/wiki/Trinity_Hall,_Cambridge"
             },
@@ -6432,13 +7141,13 @@
             "Professor of Vertebrate Palaeontology in the Department of Earth Sciences, University of Bristol"
         ]
     },
-    "Sir Jonathan Bate": {
-        "count": 1,
+    "Jonathan Bate": {
+        "count": 16,
         "first": "4 March 2021",
-        "last": "4 March 2021",
+        "last": "12 October 2000",
         "links": [
             {
-                "text": "Sir Jonathan Bate",
+                "text": "Jonathan Bate",
                 "wiki": "https://en.wikipedia.org/wiki/Jonathan_Bate"
             },
             {
@@ -6447,7 +7156,15 @@
             }
         ],
         "title": [
-            "Professor of Environmental Humanities at Arizona State University"
+            "Professor of Environmental Humanities at Arizona State University",
+            "Provost of Worcester College, University of Oxford",
+            "Provost of Worcester College, Oxford",
+            "Professor of English Literature at the Worcester College, Oxford University",
+            "Professor of English Literature at the University of Warwick",
+            "Professor of Shakespeare and Renaissance Literature at the University of Warwick",
+            "Professor of English Literature, University of Warwick",
+            "King Alfred Professor of English at the University of Liverpool",
+            "Professor of English, University of Liverpool"
         ]
     },
     "Tom Mole": {
@@ -6549,25 +7266,6 @@
         ],
         "title": [
             "Professor of Art History at the University of St Andrews"
-        ]
-    },
-    "Anthony Bale": {
-        "count": 2,
-        "first": "18 February 2021",
-        "last": "2 June 2016",
-        "links": [
-            {
-                "text": "Anthony Bale",
-                "wiki": "https://en.wikipedia.org/wiki/Anthony_Bale"
-            },
-            {
-                "text": "Birkbeck, University of London",
-                "wiki": "https://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
-            }
-        ],
-        "title": [
-            "Professor of Medieval Studies and Dean of the School of Arts at Birkbeck, University of London",
-            "Professor of Medieval Studies at Birkbeck, University of London"
         ]
     },
     "Penelope Wilson": {
@@ -8393,6 +9091,10 @@
         "last": "13 June 2019",
         "links": [
             {
+                "text": "Helen Cowie",
+                "wiki": "https://en.wikipedia.org/wiki/Helen_Cowie_(historian)"
+            },
+            {
                 "text": "University of York",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_York"
             }
@@ -8713,6 +9415,10 @@
         "last": "4 April 2019",
         "links": [
             {
+                "text": "Cormac O'Grada",
+                "wiki": "https://en.wikipedia.org/wiki/Cormac_O%27Grada"
+            },
+            {
                 "text": "University College Dublin",
                 "wiki": "https://en.wikipedia.org/wiki/University_College_Dublin"
             }
@@ -8988,6 +9694,10 @@
         "last": "21 February 2019",
         "links": [
             {
+                "text": "Francis Ratnieks",
+                "wiki": "https://en.wikipedia.org/wiki/Francis_Ratnieks"
+            },
+            {
                 "text": "University of Sussex",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Sussex"
             }
@@ -9048,6 +9758,10 @@
         "last": "7 February 2019",
         "links": [
             {
+                "text": "Myrto Hatzimichali",
+                "wiki": "https://en.wikipedia.org/wiki/Myrto_Hatzimichali"
+            },
+            {
                 "text": "University of Cambridge",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
             }
@@ -9075,6 +9789,10 @@
         "first": "31 January 2019",
         "last": "10 January 2013",
         "links": [
+            {
+                "text": "Helen Fulton",
+                "wiki": "https://en.wikipedia.org/wiki/Helen_Fulton"
+            },
             {
                 "text": "University of Bristol",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
@@ -9432,35 +10150,6 @@
             "Associate Professor at the Department of Chemical and Environmental Engineering at the University of Nottingham"
         ]
     },
-    "Jonathan Bate": {
-        "count": 15,
-        "first": "18 October 2018",
-        "last": "12 October 2000",
-        "links": [
-            {
-                "text": "Jonathan Bate",
-                "wiki": "https://en.wikipedia.org/wiki/Jonathan_Bate"
-            },
-            {
-                "text": "Worcester College",
-                "wiki": "https://en.wikipedia.org/wiki/Worcester_College"
-            },
-            {
-                "text": "University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
-            }
-        ],
-        "title": [
-            "Provost of Worcester College, University of Oxford",
-            "Provost of Worcester College, Oxford",
-            "Professor of English Literature at the Worcester College, Oxford University",
-            "Professor of English Literature at the University of Warwick",
-            "Professor of Shakespeare and Renaissance Literature at the University of Warwick",
-            "Professor of English Literature, University of Warwick",
-            "King Alfred Professor of English at the University of Liverpool",
-            "Professor of English, University of Liverpool"
-        ]
-    },
     "Patrick Gray": {
         "count": 1,
         "first": "18 October 2018",
@@ -9721,6 +10410,10 @@
         "last": "23 March 2017",
         "links": [
             {
+                "text": "Lloyd Llewellyn-Jones",
+                "wiki": "https://en.wikipedia.org/wiki/Lloyd_Llewellyn-Jones"
+            },
+            {
                 "text": "Cardiff University",
                 "wiki": "https://en.wikipedia.org/wiki/Cardiff_University"
             }
@@ -9820,6 +10513,10 @@
         "first": "25 May 2018",
         "last": "25 May 2018",
         "links": [
+            {
+                "text": "Joanna Laynesmith",
+                "wiki": "https://en.wikipedia.org/wiki/Joanna_Laynesmith"
+            },
             {
                 "text": "University of Reading",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Reading"
@@ -10329,6 +11026,10 @@
         "first": "25 January 2018",
         "last": "25 January 2018",
         "links": [
+            {
+                "text": "Valentina Arena",
+                "wiki": "https://en.wikipedia.org/wiki/Valentina_Arena"
+            },
             {
                 "text": "University College London",
                 "wiki": "https://en.wikipedia.org/wiki/University_College_London"
@@ -10904,22 +11605,6 @@
             "Professor of Ancient Philosophy Emerita at King's College London"
         ]
     },
-    "James Warren": {
-        "count": 4,
-        "first": "29 June 2017",
-        "last": "8 December 2011",
-        "links": [
-            {
-                "text": "University of Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
-            }
-        ],
-        "title": [
-            "Fellow of Corpus Christi College and a Reader in Ancient Philosophy at the University of Cambridge",
-            "Reader in Ancient Philosophy at the University of Cambridge",
-            "Senior Lecturer in Classics and a Fellow of Corpus Christi College, Cambridge"
-        ]
-    },
     "Andrew Kahn": {
         "count": 1,
         "first": "22 June 2017",
@@ -11411,22 +12096,6 @@
         ],
         "title": [
             "Professor of English Literature at the University of Oxford"
-        ]
-    },
-    "Jenny Uglow": {
-        "count": 3,
-        "first": "9 March 2017",
-        "last": "5 June 2003",
-        "links": [
-            {
-                "text": "Jenny Uglow",
-                "wiki": "https://en.wikipedia.org/wiki/Jenny_Uglow"
-            }
-        ],
-        "title": [
-            "Biographer of Elizabeth Gaskell",
-            "Honorary Visiting Professor at the University of Warwick",
-            "Honorary Visiting Professor at the University of Warwick and author of The Lunar Men: The Friends who Made the Future"
         ]
     },
     "Stephen Lowry": {
@@ -12475,6 +13144,10 @@
         "last": "25 March 2004",
         "links": [
             {
+                "text": "Val Gibson",
+                "wiki": "https://en.wikipedia.org/wiki/Val_Gibson"
+            },
+            {
                 "text": "University of Cambridge",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
             },
@@ -12997,7 +13670,7 @@
         "links": [
             {
                 "text": "Geoffrey Cantor",
-                "wiki": "https://en.wikipedia.org/wiki/Geoffrey_Cantor"
+                "wiki": "https://en.wikipedia.org/wiki/Geoffrey_Cantor_(academic)"
             },
             {
                 "text": "University of Leeds",
@@ -13063,6 +13736,10 @@
         "first": "17 December 2015",
         "last": "17 December 2015",
         "links": [
+            {
+                "text": "Debra Skene",
+                "wiki": "https://en.wikipedia.org/wiki/Debra_Skene"
+            },
             {
                 "text": "University of Surrey",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Surrey"
@@ -13256,6 +13933,10 @@
         "last": "22 October 2015",
         "links": [
             {
+                "text": "Margaret Atack",
+                "wiki": "https://en.wikipedia.org/wiki/Margaret_Atack"
+            },
+            {
                 "text": "University of Leeds",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Leeds"
             }
@@ -13276,24 +13957,6 @@
         ],
         "title": [
             "Professor of Modern French Literature and Thought at the University of Manchester"
-        ]
-    },
-    "Maria Hayward": {
-        "count": 1,
-        "first": "15 October 2015",
-        "last": "15 October 2015",
-        "links": [
-            {
-                "text": "Maria Hayward",
-                "wiki": "https://en.wikipedia.org/wiki/Maria_Hayward"
-            },
-            {
-                "text": "University of Southampton",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Southampton"
-            }
-        ],
-        "title": [
-            "Professor of Early Modern History at the University of Southampton"
         ]
     },
     "Rachel Mairs": {
@@ -13486,6 +14149,10 @@
         "last": "28 May 2015",
         "links": [
             {
+                "text": "Paul McMillan",
+                "wiki": "https://en.wikipedia.org/wiki/Paul_McMillan"
+            },
+            {
                 "text": "University College London",
                 "wiki": "https://en.wikipedia.org/wiki/University_College_London"
             }
@@ -13540,6 +14207,10 @@
         "first": "21 May 2015",
         "last": "24 November 2011",
         "links": [
+            {
+                "text": "Philip Alexander",
+                "wiki": "https://en.wikipedia.org/wiki/Philip_S._Alexander"
+            },
             {
                 "text": "University of Manchester",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Manchester"
@@ -13642,6 +14313,10 @@
         "first": "30 April 2015",
         "last": "30 April 2015",
         "links": [
+            {
+                "text": "Simon Redfern",
+                "wiki": "https://en.wikipedia.org/wiki/Simon_Redfern"
+            },
             {
                 "text": "University of Cambridge",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
@@ -13759,6 +14434,10 @@
         "first": "19 March 2015",
         "last": "25 June 2009",
         "links": [
+            {
+                "text": "Robert Gleave",
+                "wiki": "https://en.wikipedia.org/wiki/Robert_Gleave"
+            },
             {
                 "text": "University of Exeter",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
@@ -14155,6 +14834,10 @@
         "last": "27 November 2014",
         "links": [
             {
+                "text": "Elizabeth Boa",
+                "wiki": "https://en.wikipedia.org/wiki/Elizabeth_Boa"
+            },
+            {
                 "text": "University of Nottingham",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Nottingham"
             }
@@ -14168,6 +14851,10 @@
         "first": "27 November 2014",
         "last": "26 February 2009",
         "links": [
+            {
+                "text": "Steve Connor",
+                "wiki": "https://en.wikipedia.org/wiki/Steven_Connor"
+            },
             {
                 "text": "Peterhouse, Cambridge",
                 "wiki": "https://en.wikipedia.org/wiki/Peterhouse,_Cambridge"
@@ -14628,11 +15315,15 @@
             "Professor of English Studies at the University of Stirling"
         ]
     },
-    "John F Allen": {
+    "John F. Allen": {
         "count": 1,
         "first": "15 May 2014",
         "last": "15 May 2014",
         "links": [
+            {
+                "text": "John F. Allen",
+                "wiki": "https://en.wikipedia.org/wiki/John_F._Allen_(biochemist)"
+            },
             {
                 "text": "Queen Mary, University of London",
                 "wiki": "https://en.wikipedia.org/wiki/Queen_Mary,_University_of_London"
@@ -15064,6 +15755,10 @@
         "last": "6 February 2014",
         "links": [
             {
+                "text": "Josephine Quinn",
+                "wiki": "https://en.wikipedia.org/wiki/Josephine_Quinn"
+            },
+            {
                 "text": "Worcester College, Oxford",
                 "wiki": "https://en.wikipedia.org/wiki/Worcester_College,_Oxford"
             }
@@ -15122,6 +15817,10 @@
         "first": "30 January 2014",
         "last": "30 January 2014",
         "links": [
+            {
+                "text": "Jan Zalasiewicz",
+                "wiki": "https://en.wikipedia.org/wiki/Jan_Zalasiewicz"
+            },
             {
                 "text": "University of Leicester",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
@@ -15337,6 +16036,10 @@
         "first": "12 December 2013",
         "last": "12 December 2013",
         "links": [
+            {
+                "text": "Roy Gibson",
+                "wiki": "https://en.wikipedia.org/wiki/Roy_Gibson_(classicist)"
+            },
             {
                 "text": "Latin",
                 "wiki": "https://en.wikipedia.org/wiki/Latin"
@@ -16242,6 +16945,10 @@
         "last": "28 March 2013",
         "links": [
             {
+                "text": "Patricia Hunt",
+                "wiki": "https://en.wikipedia.org/wiki/Patricia_Hunt_(chemist)"
+            },
+            {
                 "text": "Imperial College London",
                 "wiki": "https://en.wikipedia.org/wiki/Imperial_College_London"
             }
@@ -16269,6 +16976,10 @@
         "first": "21 March 2013",
         "last": "21 March 2013",
         "links": [
+            {
+                "text": "Ted Benton",
+                "wiki": "https://en.wikipedia.org/wiki/Ted_Benton"
+            },
             {
                 "text": "University of Essex",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Essex"
@@ -16522,6 +17233,10 @@
         "last": "24 January 2013",
         "links": [
             {
+                "text": "Peter Wiseman",
+                "wiki": "https://en.wikipedia.org/wiki/Peter_Wiseman"
+            },
+            {
                 "text": "Emeritus",
                 "wiki": "https://en.wikipedia.orghttps://en.wiktionary.org/wiki/Emeritus"
             },
@@ -16670,20 +17385,6 @@
         ],
         "title": [
             "Head of the School of History at the University of Leicester"
-        ]
-    },
-    "Narguess Farzad": {
-        "count": 1,
-        "first": "13 December 2012",
-        "last": "13 December 2012",
-        "links": [
-            {
-                "text": "SOAS, University of London",
-                "wiki": "https://en.wikipedia.org/wiki/SOAS,_University_of_London"
-            }
-        ],
-        "title": [
-            "Senior Fellow in Persian at SOAS, University of London"
         ]
     },
     "A. C. Grayling": {
@@ -16979,6 +17680,10 @@
         "first": "27 September 2012",
         "last": "20 March 2008",
         "links": [
+            {
+                "text": "Clare Carlisle",
+                "wiki": "https://en.wikipedia.org/wiki/Clare_Carlisle"
+            },
             {
                 "text": "Philosophy of religion",
                 "wiki": "https://en.wikipedia.org/wiki/Philosophy_of_religion"
@@ -17894,26 +18599,6 @@
             "Senior Lecturer in the New Testament at the University of Edinburgh"
         ]
     },
-    "Liba Taub": {
-        "count": 3,
-        "first": "17 November 2011",
-        "last": "6 March 2003",
-        "links": [
-            {
-                "text": "Liba Taub",
-                "wiki": "https://en.wikipedia.org/wiki/Liba_Taub"
-            },
-            {
-                "text": "Cambridge University",
-                "wiki": "https://en.wikipedia.org/wiki/Cambridge_University"
-            }
-        ],
-        "title": [
-            "Professor of History and Philosophy of Science at Cambridge University",
-            "Reader in the History and Philosophy of Science, Cambridge University",
-            "Director of the Whipple Museum of the History of Science at Cambridge University"
-        ]
-    },
     "Charles Burnett": {
         "count": 1,
         "first": "17 November 2011",
@@ -17932,11 +18617,15 @@
             "Professor of the History of Islamic Influences on Europe at the Warburg Institute, University of London"
         ]
     },
-    "Hans Johann-Glock": {
+    "Hans-Johann Glock": {
         "count": 1,
         "first": "10 November 2011",
         "last": "10 November 2011",
         "links": [
+            {
+                "text": "Hans-Johann Glock",
+                "wiki": "https://en.wikipedia.org/wiki/Hans-Johann_Glock"
+            },
             {
                 "text": "University of Zurich",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Zurich"
@@ -17983,6 +18672,10 @@
         "first": "6 October 2011",
         "last": "6 October 2011",
         "links": [
+            {
+                "text": "James Harris",
+                "wiki": "https://en.wikipedia.org/wiki/James_Anthony_Harris"
+            },
             {
                 "text": "University of St Andrews",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_St_Andrews"
@@ -18309,16 +19002,6 @@
         "title": [
             "Professor of Particle Physics at Imperial College, London, and the Rutherford Appleton Laboratory",
             "Professor of Experimental Physics at Imperial College London and the Rutherford Appleton Laboratory"
-        ]
-    },
-    "Gillian Darley": {
-        "count": 2,
-        "first": "7 April 2011",
-        "last": "31 October 2002",
-        "links": [],
-        "title": [
-            "Historian and biographer of Octavia Hill",
-            "Architectural historian and biographer of John Soane"
         ]
     },
     "Julius J. Lipner": {
@@ -18801,6 +19484,10 @@
         "first": "14 October 2010",
         "last": "14 October 2010",
         "links": [
+            {
+                "text": "Susanne Kord",
+                "wiki": "https://en.wikipedia.org/wiki/Susanne_Kord"
+            },
             {
                 "text": "University College",
                 "wiki": "https://en.wikipedia.org/wiki/University_College,_London"
@@ -19686,20 +20373,6 @@
             "Lecturer in Reformation History at the University of Oxford"
         ]
     },
-    "Lucy Wooding": {
-        "count": 1,
-        "first": "5 November 2009",
-        "last": "5 November 2009",
-        "links": [
-            {
-                "text": "King's College, London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_London"
-            }
-        ],
-        "title": [
-            "Lecturer in Early Modern History at King's College, London"
-        ]
-    },
     "Christopher Janaway": {
         "count": 1,
         "first": "29 October 2009",
@@ -20221,6 +20894,10 @@
         "last": "19 February 2009",
         "links": [
             {
+                "text": "Chris Minkowski",
+                "wiki": "https://en.wikipedia.org/wiki/Chris_Minkowski"
+            },
+            {
                 "text": "University of Oxford",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
             }
@@ -20234,6 +20911,10 @@
         "first": "12 February 2009",
         "last": "12 February 2009",
         "links": [
+            {
+                "text": "Jo Quinn",
+                "wiki": "https://en.wikipedia.org/wiki/Josephine_Crawley_Quinn"
+            },
             {
                 "text": "University of Oxford",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
@@ -20327,6 +21008,10 @@
         "first": "8 January 2009",
         "last": "5 January 2009",
         "links": [
+            {
+                "text": "Jim Moore",
+                "wiki": "https://en.wikipedia.org/wiki/James_Moore_(biographer)"
+            },
             {
                 "text": "Open University",
                 "wiki": "https://en.wikipedia.org/wiki/Open_University"
@@ -20626,6 +21311,10 @@
         "last": "29 May 2003",
         "links": [
             {
+                "text": "Martin Conway",
+                "wiki": "https://en.wikipedia.org/wiki/Martin_A._Conway"
+            },
+            {
                 "text": "University of Leeds",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Leeds"
             }
@@ -20865,7 +21554,7 @@
         ]
     },
     "Richard J. Evans": {
-        "count": 4,
+        "count": 5,
         "first": "12 June 2008",
         "last": "11 March 1999",
         "links": [
@@ -21013,22 +21702,6 @@
         ],
         "title": [
             "Professor at the University of the Arts, London, Central St Martin's College of Art and Design"
-        ]
-    },
-    "Rosemary Sweet": {
-        "count": 3,
-        "first": "1 May 2008",
-        "last": "19 April 2001",
-        "links": [
-            {
-                "text": "University of Leicester",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
-            }
-        ],
-        "title": [
-            "Director of the Centre for Urban History at the University of Leicester",
-            "Lecturer in History at the University of Leicester",
-            "Lecturer in Economic and Social History at the University of Leicester"
         ]
     },
     "Mark Overton": {
@@ -21899,24 +22572,6 @@
             "Research Associate at the Centre for the History of Science, Technology & Medicine at the University of Manchester"
         ]
     },
-    "Richard J Evans": {
-        "count": 1,
-        "first": "22 March 2007",
-        "last": "22 March 2007",
-        "links": [
-            {
-                "text": "Richard J Evans",
-                "wiki": "https://en.wikipedia.org/wiki/Richard_J_Evans"
-            },
-            {
-                "text": "University of Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
-            }
-        ],
-        "title": [
-            "Professor of Modern History at the University of Cambridge"
-        ]
-    },
     "Katharine Lerman": {
         "count": 1,
         "first": "22 March 2007",
@@ -22063,6 +22718,10 @@
         "first": "1 February 2007",
         "last": "1 February 2007",
         "links": [
+            {
+                "text": "George Lane",
+                "wiki": "https://en.wikipedia.org/wiki/George_E._Lane_(historian)"
+            },
             {
                 "text": "School of Oriental and African Studies",
                 "wiki": "https://en.wikipedia.org/wiki/SOAS,_University_of_London"
@@ -22307,7 +22966,7 @@
         "links": [
             {
                 "text": "Peter Marshall",
-                "wiki": "https://en.wikipedia.org/wiki/Peter_Marshall_(author)"
+                "wiki": "https://en.wikipedia.org/wiki/Peter_Marshall_(author,_born_1946)"
             }
         ],
         "title": [
@@ -22756,6 +23415,10 @@
         "last": "20 April 2006",
         "links": [
             {
+                "text": "Nadja Durbach",
+                "wiki": "https://en.wikipedia.org/wiki/Nadja_Durbach"
+            },
+            {
                 "text": "University of Utah",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Utah"
             }
@@ -22769,6 +23432,10 @@
         "first": "20 April 2006",
         "last": "12 December 2002",
         "links": [
+            {
+                "text": "Chris Dye",
+                "wiki": "https://en.wikipedia.org/wiki/Christopher_Dye"
+            },
             {
                 "text": "World Health Organisation",
                 "wiki": "https://en.wikipedia.org/wiki/World_Health_Organization"
@@ -22806,6 +23473,10 @@
         "first": "13 April 2006",
         "last": "13 April 2006",
         "links": [
+            {
+                "text": "Sheridan Gilley",
+                "wiki": "https://en.wikipedia.org/wiki/Sheridan_Gilley"
+            },
             {
                 "text": "University of Durham",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Durham"
@@ -24178,6 +24849,10 @@
         "last": "29 January 2004",
         "links": [
             {
+                "text": "Fred Piper",
+                "wiki": "https://en.wikipedia.org/wiki/Fred_Piper"
+            },
+            {
                 "text": "Royal Holloway, University of London",
                 "wiki": "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
             }
@@ -24327,6 +25002,10 @@
         "last": "30 October 2003",
         "links": [
             {
+                "text": "Thomas Hahn",
+                "wiki": "https://en.wikipedia.org/wiki/Thomas_Hahn"
+            },
+            {
                 "text": "University of Rochester",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Rochester"
             }
@@ -24423,6 +25102,10 @@
         "last": "2 October 2003",
         "links": [
             {
+                "text": "Peter Harman",
+                "wiki": "https://en.wikipedia.org/wiki/Peter_M._Harman"
+            },
+            {
                 "text": "Lancaster University",
                 "wiki": "https://en.wikipedia.org/wiki/Lancaster_University"
             }
@@ -24474,6 +25157,10 @@
         "first": "3 July 2003",
         "last": "3 July 2003",
         "links": [
+            {
+                "text": "Steve Self",
+                "wiki": "https://en.wikipedia.org/wiki/Stephen_Self"
+            },
             {
                 "text": "Open University",
                 "wiki": "https://en.wikipedia.org/wiki/Open_University"
@@ -24634,6 +25321,10 @@
         "first": "29 May 2003",
         "last": "29 May 2003",
         "links": [
+            {
+                "text": "Mike Kopelman",
+                "wiki": "https://en.wikipedia.org/wiki/Michael_Kopelman"
+            },
             {
                 "text": "King's College London",
                 "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
@@ -25275,7 +25966,12 @@
         "count": 1,
         "first": "20 June 2002",
         "last": "20 June 2002",
-        "links": [],
+        "links": [
+            {
+                "text": "Michael Tanner",
+                "wiki": "https://en.wikipedia.org/wiki/Michael_Tanner"
+            }
+        ],
         "title": [
             "philosopher and author of Wagner and Nietzsche"
         ]
@@ -25838,6 +26534,10 @@
         "last": "6 December 2001",
         "links": [
             {
+                "text": "Regenia Gagnier",
+                "wiki": "https://en.wikipedia.org/wiki/Regenia_Gagnier"
+            },
+            {
                 "text": "University of Exeter",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Exeter"
             }
@@ -25888,11 +26588,15 @@
             "biological oceanographer and author of Deep Ocean"
         ]
     },
-    "Dawn Adiss": {
+    "Dawn Adès": {
         "count": 1,
         "first": "15 November 2001",
         "last": "15 November 2001",
         "links": [
+            {
+                "text": "Dawn Adès",
+                "wiki": "https://en.wikipedia.org/wiki/Dawn_Ad%C3%A8s"
+            },
             {
                 "text": "University of Essex",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Essex"
@@ -26520,6 +27224,10 @@
         "first": "16 November 2000",
         "last": "16 November 2000",
         "links": [
+            {
+                "text": "Rob Hopkins",
+                "wiki": "https://en.wikipedia.org/wiki/Robert_Hopkins_(philosopher)"
+            },
             {
                 "text": "University of Birmingham",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Birmingham"
@@ -27171,7 +27879,7 @@
         "links": [
             {
                 "text": "Lola Young",
-                "wiki": "https://en.wikipedia.org/wiki/Lola_Young"
+                "wiki": "https://en.wikipedia.org/wiki/Lola_Young,_Baroness_Young_of_Hornsey"
             }
         ],
         "title": [
