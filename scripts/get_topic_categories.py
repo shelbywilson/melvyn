@@ -3,6 +3,7 @@ import urllib.request
 import json
 import re
 import wikipedia
+from collections import defaultdict
 # from create_topic_category_page import create_topic_category_page 
 # from create_guest_pages import create_guest_pages 
 
@@ -125,47 +126,35 @@ def get_topic_categories():
                     print('\n\t', len(category_summaries.keys()), key, '\n\t\t', category_summaries[key])
 
     # combine topics with same sets of episodes
-    combine = []
-    i = 0
-    for key1 in non_unique_categories.keys():
-        j = 0
-        new_set = {key1}
-        for key2 in non_unique_categories.keys():
-            if (key1 != key2) and j > i:
-                if set(non_unique_categories[key1]) == set(non_unique_categories[key2]):
-                    # print('equal', key1, key2)  
-                    new_set.add(key2)
-            j += 1
-        if len(new_set) > 1:
-            is_not_super_set = True
-            for super_set in combine:
-                if (super_set.issuperset(new_set)):
-                    is_not_super_set = False
-                    break
-            if is_not_super_set:
-                combine.append(new_set)
-        i += 1
-    for equal_set in combine:
-        i = 0
-        new_key = ''
-        for topic in equal_set:
-            new_key += topic + ', '
-            if (i == 0):
-                episodes = non_unique_categories[topic]
-            # remove redundant category
-            non_unique_categories.pop(topic)
-        
-        new_key = new_key[:len(new_key) - 2]
-        print('\tcombined category', new_key)
-        non_unique_categories[new_key] = episodes
+    # Step 1: Group keys by their set of values (as a frozenset)
+    grouped_keys = defaultdict(list)
+    for key, value_list in non_unique_categories.items():
+        normalized_set = frozenset(value_list)
+        grouped_keys[normalized_set].append(key)
 
-    for key in non_unique_categories:
-        for episode in non_unique_categories[key]:
+    # Step 2: Merge equivalent keys
+    for value_set, keys in grouped_keys.items():
+        if len(keys) > 1:
+            # Combine multiple equivalent keys into one
+            new_key = ', '.join(sorted(keys))  # Optional: sort for consistency
+            episodes = list(value_set)  # You can also just use non_unique_categories[keys[0]]
+
+            # Remove old keys
+            for key in keys:
+                non_unique_categories.pop(key)
+
+            # Add the new combined key
+            non_unique_categories[new_key] = episodes
+
+    # Step 3: Rebuild categories_by_episode
+    categories_by_episode = {}
+    for key, episode_list in non_unique_categories.items():
+        for episode in episode_list:
             if episode not in categories_by_episode:
                 categories_by_episode[episode] = []
             categories_by_episode[episode].append(key)
 
-    print('\t', len(combine), 'combined categories')
+    # print('\t', len(combine), 'combined categories')
     print('\t', len(non_unique_categories.keys()), 'non-unique categories')
 
     w = open('./../data/category_summaries.json', 'w')
