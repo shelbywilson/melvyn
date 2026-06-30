@@ -4,7 +4,11 @@ import json
 
 def get_episodes():
     print('\n### start get_episodes')
-    html_page = urllib.request.urlopen('https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes')
+    req = urllib.request.Request(
+        'https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes',
+        headers={'User-Agent': 'Mozilla/5.0'}
+    )
+    html_page = urllib.request.urlopen(req)
     soup = BeautifulSoup(html_page, "html.parser")
     rows = soup.findAll('tr')
     episodes = []
