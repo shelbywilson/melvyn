@@ -35,6 +35,8 @@ def get_thumbnails():
                                 except:
                                     # print('\tnot found')
                                     thumb = ''
+                    if thumb.startswith('//'):
+                        thumb = 'https:' + thumb
                     dictionary[episode['topic']] = thumb
                 except:
                     print('skip', episode['topic'])

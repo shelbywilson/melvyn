@@ -31,9 +31,13 @@ def get_episodes():
                 topic = col.get_text().strip()
                 if (col.find('a')):
                     partial = col.find('a').get('href')
-                    if (partial.startswith('/')):
-                        wiki_link = 'https://en.wikipedia.org' + col.find('a').get('href')
-                else: 
+                    if (partial.startswith('//')):
+                        wiki_link = 'https:' + partial
+                    elif (partial.startswith('/')):
+                        wiki_link = 'https://en.wikipedia.org' + partial
+                    else:
+                        wiki_link = partial
+                else:
                     wiki_link = ''
                     print('\t--- no wiki link', topic)
             if (i == 2):
@@ -45,7 +49,14 @@ def get_episodes():
                     except:
                         title = ''
                     for a in li.find_all('a'):
-                        links.append({ 'text': a.get_text(), 'wiki': 'https://en.wikipedia.org' + a.get('href') })
+                        href = a.get('href')
+                        if href.startswith('//'):
+                            wiki = 'https:' + href
+                        elif href.startswith('/'):
+                            wiki = 'https://en.wikipedia.org' + href
+                        else:
+                            wiki = href
+                        links.append({ 'text': a.get_text(), 'wiki': wiki })
                     experts.append({ 'name': name, 'title': title, 'links': links })
                     experts_min.append({ 'name': name, 'title': title })
             i += 1
