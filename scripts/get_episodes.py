@@ -8,7 +8,7 @@ def get_episodes():
         'https://en.wikipedia.org/wiki/List_of_In_Our_Time_programmes',
         headers={'User-Agent': 'Mozilla/5.0'}
     )
-    html_page = urllib.request.urlopen(req)
+    html_page = urllib.request.urlopen(req, timeout=10)
     soup = BeautifulSoup(html_page, "html.parser")
     rows = soup.findAll('tr')
     episodes = []

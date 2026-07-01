@@ -1,28 +1,21 @@
 import json
 
-f = open('./../config/config.json')
-config = json.load(f)
-f.close()
+def _load(path, default):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default
 
-f = open('./../data/episodes_dictionary.json')
-episodes_dictionary = json.load(f)
-f.close()
-
-f = open('./../data/bbc_descriptions_short.json')
-descriptions = json.load(f)
-f.close()
-
-f = open('./../data/episode_thumbnails.json')
-episode_thumbnails = json.load(f)
-f.close()
-
-f = open('./../data/categories_by_episode.json')
-categories_by_episode = json.load(f)
-f.close()
-
-f = open('./../data/top_level_categories_by_episode.json')
-top_level_categories_by_episode = json.load(f)
-f.close()
+config                        = _load('./../config/config.json', {'MAX_LENGTH_URL': 100, 'FILE_VERSION': '03'})
+episodes_dictionary           = _load('./../data/episodes_dictionary.json', {})
+descriptions                  = _load('./../data/bbc_descriptions_short.json', {})
+episode_thumbnails            = {
+    **_load('./../data/episode_thumbnails.json', {}),
+    **_load('./../data/episode_thumbnails_manual.json', {}),
+}
+categories_by_episode         = _load('./../data/categories_by_episode.json', {})
+top_level_categories_by_episode = _load('./../data/top_level_categories_by_episode.json', {})
 
 def div(inner, _class = ""):
     return wrapper('div', inner, _class)
@@ -56,8 +49,17 @@ def get_url(key):
 def get_wiki_img(key):
     wiki_img = ''
     try:
-        if episode_thumbnails[key] != "":
-            wiki_img = '<div><img src="' + episode_thumbnails[key] + '" /></div>\n'
+        thumb = episode_thumbnails[key]
+        if isinstance(thumb, dict):
+            url = thumb.get('url', '')
+            w = thumb.get('width')
+            h = thumb.get('height')
+        else:
+            url = thumb
+            w = h = None
+        if url:
+            dims = f' width="{w}" height="{h}"' if w and h else ''
+            wiki_img = f'<div><img src="{url}"{dims} /></div>\n'
     except:
         pass
     return wiki_img
@@ -79,13 +81,10 @@ def get_episode_row(key, this_guest = False):
         guest_list = guest_list[:len(guest_list) - 2]
 
         categories = ''
-        try:
-            for cat in top_level_categories_by_episode[key]:
-                categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
-        except:
-            pass
+        for cat in top_level_categories_by_episode.get(key, []):
+            categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
 
-        for cat in categories_by_episode[key]:
+        for cat in categories_by_episode.get(key, []):
             categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
 
         content = (
@@ -120,8 +119,9 @@ def get_html_page(content, title = "", css = [], js = []):
         meta += '<link rel="stylesheet" type="text/css" href="./../client/css/' + link + '.' + config["FILE_VERSION"] + '.css" />\n'
     for link in js:
         meta += '<script src="./../client/' + link + '.' + config["FILE_VERSION"] + '.js"></script>\n'
+    attribution = '<footer class="attribution"><p><a href="https://commons.wikimedia.org/wiki/File:Official_portrait_of_Lord_Bragg_crop_2.jpg" target="_blank">Portrait of Lord Bragg</a> by <a href="https://www.parliament.uk/" target="_blank">UK Parliament</a> / Chris McAndrew, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a></p></footer>\n'
     return '''<!DOCTYPE html>
     <html lang="en">
         <head>
             <meta http-equiv="Content-Type"content="text/html; charset=UTF-8" />
-            ''' + '<link rel="stylesheet" type="text/css" href="./../client/css/common' + '.' + config["FILE_VERSION"] + '.css" />' + meta + '<meta http-equiv="X-UA-Compatible" content="IE=edge" />\n<meta name="viewport" content="width=device-width, initial-scale=1" />\n<meta name="robots" content="index,follow" />\n<meta name="googlebot" content="index,follow" />\n<meta property="og:title" content="' + title +'" />\n<meta property="og:description" content="" />\n<meta name="theme-color" content="#000">\n<title>' + title + '</title>\n<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />\n</head>\n<body>\n<main>\n' + content + '</main>\n</body>\n</html>'
+            ''' + '<link rel="stylesheet" type="text/css" href="./../client/css/common' + '.' + config["FILE_VERSION"] + '.css" />' + meta + '<meta http-equiv="X-UA-Compatible" content="IE=edge" />\n<meta name="viewport" content="width=device-width, initial-scale=1" />\n<meta name="robots" content="index,follow,noai,noimageai" />\n<meta name="googlebot" content="index,follow" />\n<meta property="og:title" content="' + title +'" />\n<meta property="og:description" content="" />\n<meta name="theme-color" content="#000">\n<title>' + title + '</title>\n<link rel="icon" href="./../client/lord-bragg.jpg" />\n</head>\n<body>\n<main>\n' + content + attribution + '</main>\n</body>\n</html>'

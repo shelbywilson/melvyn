@@ -46,11 +46,11 @@ def create_guest_pages():
         guest_html = '<header>'
         guest_html += '''
         <a href="./../" class="header__home-icon">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
+            <img src="./../client/lord-bragg.jpg"
                 alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
         </a>
         '''
-        guest_html += p(a('list', "./../", '', False) + a('world', "/world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
+        guest_html += p(a('list', "./../", '', False) + a('world', "./../world.html", '', False) + a('about', 'https://github.com/shelbywilson/melvyn', '', True), 'header__home-links')
         guest_html += p(a('&larr; back', "javascript:history.back()", '', False), 'header__back-link')
 
         # add name
@@ -104,8 +104,9 @@ def create_guest_pages():
             guestNames = combo.split('_')
             for name in guestNames:
                 if (guest == name):
-                    cohosts.extend(guestNames)
-        cohosts = [name for name in cohosts if name != guest]
+                    for cohost in guestNames:
+                        if cohost != guest and cohost not in cohosts:
+                            cohosts.append(cohost)
     
         if (len(cohosts) > 0):
             print(guest)
@@ -150,7 +151,7 @@ def create_guest_pages():
     </p>'''
     index_html += '''
         <a href="./../" class="header__home-icon">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
+            <img src="./../client/lord-bragg.jpg"
                 alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
         </a>
     '''

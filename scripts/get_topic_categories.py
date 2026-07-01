@@ -23,7 +23,7 @@ def split_century_phrase(phrase):
         # Return None if the pattern doesn't match
         return None
 
-def get_topic_categories():
+def get_topic_categories(force=False):
     print('\n### start get_topic_categories')
     f = open('./../data/episodes.json')
     episodes = json.load(f)
@@ -51,13 +51,15 @@ def get_topic_categories():
 
     for episode in episodes:
         # if (i < 10):
-        if (episode['topic'] not in categories_by_episode):
+        has_wiki = episode['wiki_link'] != ""
+        not_yet_fetched = episode['topic'] not in categories_by_episode
+        fetched_empty = categories_by_episode.get(episode['topic']) == [] and has_wiki
+        if (force or not_yet_fetched or fetched_empty):
             categories_by_episode[episode['topic']] = []
-            if (episode['wiki_link'] != ""):
-                # if episode['topic'] not in categories_by_episode:
-                #     print('new episode', episodes['topic'])
+            if (has_wiki):
                 try:
-                    html_page = urllib.request.urlopen(episode['wiki_link'])
+                    req = urllib.request.Request(episode['wiki_link'], headers={'User-Agent': 'Mozilla/5.0'})
+                    html_page = urllib.request.urlopen(req, timeout=10)
                     soup = BeautifulSoup(html_page, "html.parser")
                     categories = soup.find('div', {'id': "mw-normal-catlinks"}).find_all('li')
                     for category in categories:

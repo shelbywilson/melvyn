@@ -1,29 +1,38 @@
+import argparse
 from get_episodes import get_episodes
 from get_bbc_descriptions import get_bbc_descriptions
 from get_thumbnails import get_thumbnails
 from guest_analysis import guest_analysis
 from get_topic_categories import get_topic_categories
 from get_top_level_categories import get_top_level_categories
-from create_topic_category_page import create_topic_category_page 
-from create_guest_pages import create_guest_pages 
+from create_topic_category_page import create_topic_category_page
+from create_guest_pages import create_guest_pages
+from create_index_page import create_index_page
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--force', action='store_true', help='Refetch all data, ignoring cached results')
+args = parser.parse_args()
 
 print('# get episodes')
 get_episodes()
 
 print('\n# get thumbnails')
-get_thumbnails()
+get_thumbnails(force=args.force)
 
 print('\n# get bbc descriptions')
-get_bbc_descriptions()
+get_bbc_descriptions(force=args.force)
 
 print('\n# guest analysis')
 guest_analysis()
 
 print('\n# get topic categories \n# create guest pages \n# create topic pages')
-get_topic_categories()
+get_topic_categories(force=args.force)
 
 print('\n# top level categories')
 get_top_level_categories()
 
 create_topic_category_page()
 create_guest_pages()
+
+print('\n# create index page')
+create_index_page()

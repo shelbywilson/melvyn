@@ -3,7 +3,7 @@ import urllib.request
 import json
 # from util import parse_page
 
-def get_bbc_descriptions():
+def get_bbc_descriptions(force=False):
     print('\n### start get_bbc_descriptions')
     f = open('./../data/episodes.json')
     data = json.load(f)
@@ -17,10 +17,14 @@ def get_bbc_descriptions():
 
     for episode in data:
         key = episode['date'] + '_' + episode['topic']
-        if (not key in descriptions.keys()):
+        if (force or not key in descriptions.keys()):
             if (not 'episodes' in episode['episode_link']):
                 new_count += 1
-                html_page = urllib.request.urlopen('https://www.bbc.co.uk/programmes/' + episode['episode_link'].split('/').pop())
+                req = urllib.request.Request(
+                    'https://www.bbc.co.uk/programmes/' + episode['episode_link'].split('/').pop(),
+                    headers={'User-Agent': 'Mozilla/5.0'}
+                )
+                html_page = urllib.request.urlopen(req, timeout=10)
                 soup = BeautifulSoup(html_page, "html.parser")
                 short_desc = ''
                 long_desc = ''

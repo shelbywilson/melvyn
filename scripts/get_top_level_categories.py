@@ -227,16 +227,20 @@ def get_top_level_categories():
     cat_by_ep = json.load(r)
     r.close()
     
-    # any missing episodes?
-    # tend to be earlier ones
-    for ep in episodes_dictionary.keys():
-        if ep in cat_by_ep:
-            pass
-        else:
-            print(ep, episodes_dictionary[ep]['date'])
+    missing = [ep for ep in episodes_dictionary.keys() if ep not in cat_by_ep]
+    if missing:
+        print(f'\t{len(missing)} episodes not yet in top_level_categories_by_episode:')
+        for ep in missing:
+            print(f'\t\t{ep} ({episodes_dictionary[ep]["date"]})')
+    else:
+        print('\tall episodes already have top-level categories')
 
     def add_to_dictionary(type, page):
-        html_page = urllib.request.urlopen(bbc[type] + "?page=" + str(page))
+        req = urllib.request.Request(
+            bbc[type] + "?page=" + str(page),
+            headers={'User-Agent': 'Mozilla/5.0'}
+        )
+        html_page = urllib.request.urlopen(req, timeout=10)
         soup = BeautifulSoup(html_page, "html.parser")
         episodes = soup.find_all('a', {'class': "br-blocklink__link"})
 
@@ -249,23 +253,35 @@ def get_top_level_categories():
             if (title not in top_level_categories[type]):
                 top_level_categories[type].append(title)
 
+        return len(episodes)
+
     for type in bbc:
         page = 1
-        while (page < 15):
+        before = len(top_level_categories[type])
+        print(f'\t{type}: fetching BBC pages...')
+        while True:
             try:
-                add_to_dictionary(type, page)
+                size_before = len(top_level_categories[type])
+                count = add_to_dictionary(type, page)
+                added_this_page = len(top_level_categories[type]) - size_before
+                print(f'\t\tpage {page}: {count} links, {added_this_page} new episodes')
+                if count == 0 or added_this_page == 0:
+                    break
                 page += 1
-            except:
-                continue
-            
+            except Exception as e:
+                print(f'\t\tpage {page}: stopped ({e})')
+                break
+        added = len(top_level_categories[type]) - before
+        print(f'\t{type}: {len(top_level_categories[type])} total ({added} new)')
+
     def get_date(topic):
         try:
             return parse_date(episodes_dictionary[topic]['date'])
         except:
             return datetime.min
-        
+
     for key in top_level_categories:
-        top_level_categories[key] = sorted(top_level_categories[key], key=get_date, reverse=True)        
+        top_level_categories[key] = sorted(top_level_categories[key], key=get_date, reverse=True)
 
     for cat in top_level_categories:
         for ep in top_level_categories[cat]:

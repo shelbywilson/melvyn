@@ -151,7 +151,7 @@ def get_header_html(title, inner = ''):
     html = '<header>'
     html += '''
         <a href="./../" class="header__home-icon">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
+            <img src="./../client/lord-bragg.jpg"
                 alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
         </a>
     '''
