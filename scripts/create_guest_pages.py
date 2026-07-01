@@ -180,7 +180,7 @@ def create_guest_pages():
     index_html += '</ul>\n'
 
     w = open('./../guest/index.html', 'w')
-    w.write(get_html_page(index_html, 'all guests', ['guests', 'guest'], ['util.03.js']))
+    w.write(get_html_page(index_html, 'all guests', ['guests', 'guest'], ['util.04.js']))
     w.close()
 
     print('### end create_guest_pages')

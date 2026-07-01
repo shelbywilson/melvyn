@@ -57,6 +57,7 @@ h3 {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 p {
@@ -275,13 +276,21 @@ header .categories {
 
 .header__all-imgs {
     margin-top: 1.5rem;
-    height: 6rem;
+    min-height: 6rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 .header__all-imgs img {
     display: block;
     max-height: 6rem;
+    width: auto;
+    max-width: initial;
+}
+
+.attribution p {
+    margin-top: 5rem;
+    font-size: 0.875rem;
 }
 
 @media screen and (max-width: 776px) {

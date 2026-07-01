@@ -1,10 +1,368 @@
 {
+    "Suzanne Williams": [
+        {
+            "topic": "Seashells",
+            "wiki_link": "https://en.wikipedia.org/wiki/Seashell",
+            "title": "Merit Researcher at the Natural History Museum",
+            "date": "2 July 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002ybkj"
+        }
+    ],
+    "Liz Harper": [
+        {
+            "topic": "Seashells",
+            "wiki_link": "https://en.wikipedia.org/wiki/Seashell",
+            "title": "Professor of Evolutionary Malacology in the Department of Earth Sciences and Fellow at Gonville and Caius College, University of Cambridge",
+            "date": "2 July 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002ybkj"
+        }
+    ],
+    "Helen Scales": [
+        {
+            "topic": "Seashells",
+            "wiki_link": "https://en.wikipedia.org/wiki/Seashell",
+            "title": "Marine biologist and Author.",
+            "date": "2 July 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002ybkj"
+        }
+    ],
+    "Rosalind Polly Blakesley": [
+        {
+            "topic": "Vigée Le Brun",
+            "wiki_link": "https://en.wikipedia.org/wiki/%C3%89lisabeth_Vig%C3%A9e_Le_Brun",
+            "title": "Master of Pembroke College and Professor of Russian and European Art at the University of Cambridge",
+            "date": "25 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002y1gt"
+        }
+    ],
+    "Robert Wenley": [
+        {
+            "topic": "Vigée Le Brun",
+            "wiki_link": "https://en.wikipedia.org/wiki/%C3%89lisabeth_Vig%C3%A9e_Le_Brun",
+            "title": "Deputy Director of Collections and Research at the Barber Institute of Fine Arts, University of Birmingham",
+            "date": "25 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002y1gt"
+        }
+    ],
+    "Francesca Whitlum-Cooper": [
+        {
+            "topic": "Vigée Le Brun",
+            "wiki_link": "https://en.wikipedia.org/wiki/%C3%89lisabeth_Vig%C3%A9e_Le_Brun",
+            "title": "Curator of Later Italian, Spanish and French Paintings at The National Gallery, London.",
+            "date": "25 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002y1gt"
+        }
+    ],
+    "Leah Lazar": [
+        {
+            "topic": "The Delian League",
+            "wiki_link": "https://en.wikipedia.org/wiki/Delian_League",
+            "title": "Lecturer in Hellenistic Culture at the University of Manchester",
+            "date": "18 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002xp5l"
+        }
+    ],
+    "Polly Low": [
+        {
+            "topic": "The Delian League",
+            "wiki_link": "https://en.wikipedia.org/wiki/Delian_League",
+            "title": "Professor in the Department of Classics and Ancient History at the University of Durham",
+            "date": "18 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002xp5l"
+        }
+    ],
+    "Paul Cartledge": [
+        {
+            "topic": "The Delian League",
+            "wiki_link": "https://en.wikipedia.org/wiki/Delian_League",
+            "title": "AG Leventis Senior Research Fellow of Clare College, University of Cambridge.",
+            "date": "18 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002xp5l"
+        },
+        {
+            "topic": "Plutarch's Parallel Lives",
+            "wiki_link": "https://en.wikipedia.org/wiki/Parallel_Lives",
+            "title": "AG Leventis Senior Research Fellow of Clare College, University of Cambridge.",
+            "date": "19 December 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m00260s5"
+        },
+        {
+            "topic": "Lysistrata",
+            "wiki_link": "https://en.wikipedia.org/wiki/Lysistrata",
+            "title": "AG Leventis Senior Research Fellow of Clare College, University of Cambridge",
+            "date": "11 April 2024",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001y2z4"
+        },
+        {
+            "topic": "Demosthenes' Philippics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Philippic",
+            "title": "A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "date": "17 November 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001f4ws"
+        },
+        {
+            "topic": "Herodotus",
+            "wiki_link": "https://en.wikipedia.org/wiki/Herodotus",
+            "title": "A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "date": "23 September 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000zv33"
+        },
+        {
+            "topic": "Pericles",
+            "wiki_link": "https://en.wikipedia.org/wiki/Pericles",
+            "title": "AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "date": "17 September 2020",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000mk25"
+        },
+        {
+            "topic": "The Mytilenaean Debate",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mytilenean_Debate",
+            "title": "Emeritus AG Leventis Professor of Greek Culture, University of Cambridge and Senior Research Fellow of Clare College",
+            "date": "20 June 2019",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000614s"
+        },
+        {
+            "topic": "The Iliad",
+            "wiki_link": "https://en.wikipedia.org/wiki/The_Iliad",
+            "title": "A.G. Leventis Senior Research Fellow and Emeritus Professor of Greek Culture at Clare College, Cambridge",
+            "date": "13 September 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0bh5x1y"
+        },
+        {
+            "topic": "Thebes",
+            "wiki_link": "https://en.wikipedia.org/wiki/Thebes,_Greece",
+            "title": "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "date": "23 November 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b09fj9mt"
+        },
+        {
+            "topic": "The Battle of Salamis",
+            "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Salamis",
+            "title": "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, Cambridge",
+            "date": "23 March 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b08j99jl"
+        },
+        {
+            "topic": "The Muses",
+            "wiki_link": "https://en.wikipedia.org/wiki/Muse",
+            "title": "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, Cambridge",
+            "date": "19 May 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b07bft7v"
+        },
+        {
+            "topic": "Alexander the Great",
+            "wiki_link": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+            "title": "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
+            "date": "1 October 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b06d9bkx"
+        },
+        {
+            "topic": "Thucydides",
+            "wiki_link": "https://en.wikipedia.org/wiki/Thucydides",
+            "title": "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, Cambridge",
+            "date": "29 January 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b050bcf1"
+        },
+        {
+            "topic": "Strabo's Geographica",
+            "wiki_link": "https://en.wikipedia.org/wiki/Strabo",
+            "title": "A. G. Leventis Professor of Greek Culture at the University of Cambridge",
+            "date": "10 April 2014",
+            "episode_link": "https://www.bbc.co.uk/programmes/b03zr11t"
+        },
+        {
+            "topic": "The Amazons",
+            "wiki_link": "https://en.wikipedia.org/wiki/Amazons",
+            "title": "A.G. Leventis Professor of Greek Culture at Cambridge University",
+            "date": "11 April 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01rr7r7"
+        },
+        {
+            "topic": "Xenophon",
+            "wiki_link": "https://en.wikipedia.org/wiki/Xenophon",
+            "title": "A. G. Leventis Professor of Greek Culture at Cambridge University",
+            "date": "26 May 2011",
+            "episode_link": "https://www.bbc.co.uk/programmes/b011cffd"
+        },
+        {
+            "topic": "The Delphic Oracle",
+            "wiki_link": "https://en.wikipedia.org/wiki/Delphic_Oracle",
+            "title": "A. G. Leventis Professor of Greek Culture at Cambridge University",
+            "date": "30 September 2010",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00txj8d"
+        },
+        {
+            "topic": "Sparta",
+            "wiki_link": "https://en.wikipedia.org/wiki/Sparta",
+            "title": "A G Leventis Professor of Greek Culture and a Fellow of Clare College, Cambridge",
+            "date": "19 November 2009",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00nvz72"
+        },
+        {
+            "topic": "History of History",
+            "wiki_link": "https://en.wikipedia.org/wiki/Historiography",
+            "title": "AG Leventis Professor of Greek Culture and Fellow of Clare College, Cambridge",
+            "date": "22 January 2009",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00gryrx"
+        },
+        {
+            "topic": "Aristotle's Politics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Politics_(Aristotle)",
+            "title": "AG Leventis Professor of Greek Culture at the University of Cambridge",
+            "date": "6 November 2008",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00f8530"
+        },
+        {
+            "topic": "Comedy in Ancient Greek Theatre",
+            "wiki_link": "https://en.wikipedia.org/wiki/Ancient_Greek_comedy",
+            "title": "Professor of Greek History at the University of Cambridge",
+            "date": "13 July 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003c1d3"
+        },
+        {
+            "topic": "The Oath",
+            "wiki_link": "https://en.wikipedia.org/wiki/Oath",
+            "title": "Professor of Greek History at the University of Cambridge",
+            "date": "5 January 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003wtk7"
+        },
+        {
+            "topic": "Heroism",
+            "wiki_link": "https://en.wikipedia.org/wiki/Heroism",
+            "title": "Professor of Greek History at the University of Cambridge",
+            "date": "6 May 2004",
+            "episode_link": "https://www.bbc.co.uk/programmes/p004y282"
+        }
+    ],
+    "Ana Cláudia Suriani da Silva": [
+        {
+            "topic": "Machado de Assis",
+            "wiki_link": "https://en.wikipedia.org/wiki/Machado_de_Assis",
+            "title": "Associate Professor in Brazilian Studies at University College London",
+            "date": "11 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002xgz1"
+        }
+    ],
+    "Claire Williams": [
+        {
+            "topic": "Machado de Assis",
+            "wiki_link": "https://en.wikipedia.org/wiki/Machado_de_Assis",
+            "title": "Professor of Brazilian Literature and Culture at the Faculty of Modern Languages at the University of Oxford, fellow of St. Peter's College",
+            "date": "11 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002xgz1"
+        }
+    ],
+    "Viviane Carvalho da Annunciação": [
+        {
+            "topic": "Machado de Assis",
+            "wiki_link": "https://en.wikipedia.org/wiki/Machado_de_Assis",
+            "title": "Affiliated Lecturer at the Faculty of Modern and Medieval Languages and Linguistics at the University of Cambridge.",
+            "date": "11 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002xgz1"
+        }
+    ],
+    "Jenny McElwain": [
+        {
+            "topic": "The Evolution of Trees",
+            "wiki_link": "https://en.wikipedia.org/wiki/Tree",
+            "title": "1711 chair of botany at Trinity College Dublin and director of Trinity Botanic Gardens",
+            "date": "4 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002x5jl"
+        }
+    ],
+    "Christopher Berry": [
+        {
+            "topic": "The Evolution of Trees",
+            "wiki_link": "https://en.wikipedia.org/wiki/Tree",
+            "title": "senior lecturer in earth and environmental sciences at Cardiff University",
+            "date": "4 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002x5jl"
+        }
+    ],
+    "Bill Baker": [
+        {
+            "topic": "The Evolution of Trees",
+            "wiki_link": "https://en.wikipedia.org/wiki/Tree",
+            "title": "senior researcher at the Royal Botanic Gardens, Kew.",
+            "date": "4 June 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002x5jl"
+        }
+    ],
+    "Rhun Emlyn": [
+        {
+            "topic": "The Welsh Marches",
+            "wiki_link": "https://en.wikipedia.org/wiki/Welsh_Marches",
+            "title": "Lecturer in the Department of History and Welsh History at Aberystwyth University",
+            "date": "28 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002wt1v"
+        }
+    ],
+    "Helen Fulton": [
+        {
+            "topic": "The Welsh Marches",
+            "wiki_link": "https://en.wikipedia.org/wiki/Welsh_Marches",
+            "title": "Professor of Medieval Literature at the University of Bristol",
+            "date": "28 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002wt1v"
+        },
+        {
+            "topic": "Owain Glyndŵr",
+            "wiki_link": "https://en.wikipedia.org/wiki/Owain_Glynd%C5%B5r",
+            "title": "Professor of Medieval Literature at the University of Bristol",
+            "date": "31 January 2019",
+            "episode_link": "https://www.bbc.co.uk/programmes/m00027xk"
+        },
+        {
+            "topic": "The Mabinogion",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mabinogion",
+            "title": "Professor of Medieval Literature at the University of Bristol",
+            "date": "10 May 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0b1p5k7"
+        },
+        {
+            "topic": "Le Morte d'Arthur",
+            "wiki_link": "https://en.wikipedia.org/wiki/Le_Morte_d%27Arthur",
+            "title": "Professor of Medieval Literature and Head of Department of English and Related Literature at the University of York",
+            "date": "10 January 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01pp989"
+        }
+    ],
+    "Huw Pryce": [
+        {
+            "topic": "The Welsh Marches",
+            "wiki_link": "https://en.wikipedia.org/wiki/Welsh_Marches",
+            "title": "Emeritus Professor of Welsh History at Bangor University.",
+            "date": "28 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002wt1v"
+        },
+        {
+            "topic": "Owain Glyndŵr",
+            "wiki_link": "https://en.wikipedia.org/wiki/Owain_Glynd%C5%B5r",
+            "title": "Professor of Welsh History at Bangor University",
+            "date": "31 January 2019",
+            "episode_link": "https://www.bbc.co.uk/programmes/m00027xk"
+        },
+        {
+            "topic": "Gerald of Wales",
+            "wiki_link": "https://en.wikipedia.org/wiki/Gerald_of_Wales",
+            "title": "Professor of Welsh History at Bangor University",
+            "date": "4 October 2012",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01n1rbn"
+        }
+    ],
     "Teresa Bejan": [
+        {
+            "topic": "The Levellers",
+            "wiki_link": "https://en.wikipedia.org/wiki/Levellers",
+            "title": "Professor of Political Theory and Fellow of Oriel College, University of Oxford",
+            "date": "21 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002wkhq"
+        },
         {
             "topic": "Civility: talking with those who disagree with you",
             "wiki_link": "https://en.wikipedia.org/wiki/Civility",
             "title": "Professor of Political Theory at Oriel College, University of Oxford",
-            "date": "03 July 2025",
+            "date": "3 July 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002f9f4"
         },
         {
@@ -15,12 +373,1038 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m000nzpf"
         }
     ],
+    "Ted Vallance": [
+        {
+            "topic": "The Levellers",
+            "wiki_link": "https://en.wikipedia.org/wiki/Levellers",
+            "title": "Professor of History and Dean of Research and Doctoral Study at the University of Roehampton",
+            "date": "21 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002wkhq"
+        }
+    ],
+    "Clare Jackson": [
+        {
+            "topic": "The Levellers",
+            "wiki_link": "https://en.wikipedia.org/wiki/Levellers",
+            "title": "Honorary Professor of Early Modern History and Walter Grant Scott Fellow in History at Trinity Hall, University of Cambridge.",
+            "date": "21 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002wkhq"
+        },
+        {
+            "topic": "The Interregnum",
+            "wiki_link": "https://en.wikipedia.org/wiki/Interregnum_(1649%E2%80%931660)",
+            "title": "Senior Tutor at Trinity Hall, University of Cambridge",
+            "date": "27 May 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000wcxn"
+        },
+        {
+            "topic": "The Treaty of Limerick",
+            "wiki_link": "https://en.wikipedia.org/wiki/Treaty_of_Limerick",
+            "title": "Member of the History Faculty at the University of Cambridge and Senior Tutor of Trinity Hall",
+            "date": "7 November 2019",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0009ywn"
+        },
+        {
+            "topic": "Titus Oates and his 'Popish Plot'",
+            "wiki_link": "https://en.wikipedia.org/wiki/Titus_Oates",
+            "title": "Senior Tutor and Director of Studies in History at Trinity Hall, University of Cambridge",
+            "date": "12 May 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b079rbcj"
+        },
+        {
+            "topic": "The Death of Elizabeth I",
+            "wiki_link": "https://en.wikipedia.org/wiki/Elizabeth_I_of_England",
+            "title": "Lecturer and Director of Studies in History at Trinity Hall, University of Cambridge",
+            "date": "15 October 2009",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00n5nqr"
+        },
+        {
+            "topic": "The Divine Right of Kings",
+            "wiki_link": "https://en.wikipedia.org/wiki/Divine_Right_of_Kings",
+            "title": "Lecturer and Director of Studies in History at Trinity Hall, Cambridge",
+            "date": "11 October 2007",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0080xph"
+        },
+        {
+            "topic": "The Restoration",
+            "wiki_link": "https://en.wikipedia.org/wiki/English_Restoration",
+            "title": "lecturer and Director of Studies in History, Trinity Hall, Cambridge",
+            "date": "15 February 2001",
+            "episode_link": "https://www.bbc.co.uk/programmes/p00547bx"
+        }
+    ],
+    "David Mattingly": [
+        {
+            "topic": "The Garamantes",
+            "wiki_link": "https://en.wikipedia.org/wiki/Garamantes",
+            "title": "Emeritus Professor of Roman Archaeology at the University of Leicester",
+            "date": "14 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002w616"
+        }
+    ],
+    "Farès Moussa": [
+        {
+            "topic": "The Garamantes",
+            "wiki_link": "https://en.wikipedia.org/wiki/Garamantes",
+            "title": "Visiting Fellow at the University of Southampton and Cultural Heritage Consultant",
+            "date": "14 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002w616"
+        }
+    ],
+    "Josephine Quinn": [
+        {
+            "topic": "The Garamantes",
+            "wiki_link": "https://en.wikipedia.org/wiki/Garamantes",
+            "title": "Professor of Ancient History and Fellow of St John’s College, University of Cambridge.",
+            "date": "14 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002w616"
+        },
+        {
+            "topic": "The Phoenicians",
+            "wiki_link": "https://en.wikipedia.org/wiki/Phoenicia",
+            "title": "Martin Frederiksen Fellow and Tutor in Ancient History, Worcester College, Oxford",
+            "date": "6 February 2014",
+            "episode_link": "https://www.bbc.co.uk/programmes/b03szw8l"
+        }
+    ],
+    "Helen Chambers": [
+        {
+            "topic": "Joseph Roth",
+            "wiki_link": "https://en.wikipedia.org/wiki/Joseph_Roth",
+            "title": "Emeritus Professor of German at the University of St Andrews",
+            "date": "7 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002vyjt"
+        }
+    ],
+    "Deborah Holmes": [
+        {
+            "topic": "Joseph Roth",
+            "wiki_link": "https://en.wikipedia.org/wiki/Joseph_Roth",
+            "title": "Associate Professor of Modern German Literature at the University of Salzburg",
+            "date": "7 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002vyjt"
+        }
+    ],
+    "Jon Hughes": [
+        {
+            "topic": "Joseph Roth",
+            "wiki_link": "https://en.wikipedia.org/wiki/Joseph_Roth",
+            "title": "Reader in German and Cultural Studies at Royal Holloway, University of London.",
+            "date": "7 May 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002vyjt"
+        }
+    ],
+    "Jacob Ward": [
+        {
+            "topic": "Cybernetics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Cybernetics",
+            "title": "Assistant Professor of History and the Science, Technology and Society Studies Research Program at the Faculty of Arts and Social Sciences at Maastricht University",
+            "date": "30 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002vmk4"
+        }
+    ],
+    "Jon Agar": [
+        {
+            "topic": "Cybernetics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Cybernetics",
+            "title": "Professor of Science and Technology Studies at University College London",
+            "date": "30 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002vmk4"
+        },
+        {
+            "topic": "Artificial Intelligence",
+            "wiki_link": "https://en.wikipedia.org/wiki/Artificial_Intelligence",
+            "title": "Lecturer in the History and Philosophy of Science, University of Cambridge",
+            "date": "8 December 2005",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003k9fc"
+        }
+    ],
+    "Orit Halpern": [
+        {
+            "topic": "Cybernetics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Cybernetics",
+            "title": "Lighthouse Professor and Chair of Digital Cultures at Technische Universität Dresden.",
+            "date": "30 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002vmk4"
+        }
+    ],
+    "Purba Hossain": [
+        {
+            "topic": "Indian Indentured Labour",
+            "wiki_link": "https://en.wikipedia.org/wiki/Indian_indenture_system",
+            "title": "Lecturer in Modern History at the University of York",
+            "date": "23 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002vc9m"
+        }
+    ],
+    "Neha Hui": [
+        {
+            "topic": "Indian Indentured Labour",
+            "wiki_link": "https://en.wikipedia.org/wiki/Indian_indenture_system",
+            "title": "Associate Professor in Economics at the University of Reading",
+            "date": "23 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002vc9m"
+        }
+    ],
+    "Clem Seecharan": [
+        {
+            "topic": "Indian Indentured Labour",
+            "wiki_link": "https://en.wikipedia.org/wiki/Indian_indenture_system",
+            "title": "Emeritus Professor of History at London Metropolitan University.",
+            "date": "23 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002vc9m"
+        }
+    ],
+    "Marcus du Sautoy": [
+        {
+            "topic": "M.C. Escher",
+            "wiki_link": "https://en.wikipedia.org/wiki/M._C._Escher",
+            "title": "Simonyi Professor for the Public Understanding of Science, Professor of Mathematics and Fellow of New College, University of Oxford",
+            "date": "16 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002v19c"
+        },
+        {
+            "topic": "Pierre-Simon Laplace",
+            "wiki_link": "https://en.wikipedia.org/wiki/Pierre-Simon_Laplace",
+            "title": "Simonyi Professor for the Public Understanding of Science and Professor of Mathematics at the University of Oxford",
+            "date": "8 April 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000twgj"
+        },
+        {
+            "topic": "Carl Friedrich Gauss",
+            "wiki_link": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss",
+            "title": "Professor of Mathematics and Simonyi Professor for the Public Understanding of Science at the University of Oxford",
+            "date": "30 November 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b09gbnfj"
+        },
+        {
+            "topic": "Zeno's paradoxes",
+            "wiki_link": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes",
+            "title": "Professor of Mathematics and Simonyi Professor for the Public Understanding of Science at the University of Oxford",
+            "date": "22 September 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b07vs3v1"
+        },
+        {
+            "topic": "Euclid's Elements",
+            "wiki_link": "https://en.wikipedia.org/wiki/Euclid%27s_Elements",
+            "title": "Professor of Mathematics and Simonyi Professor for the Public Understanding of Science at the University of Oxford",
+            "date": "28 April 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b07881kn"
+        },
+        {
+            "topic": "Fermat's Last Theorem",
+            "wiki_link": "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem",
+            "title": "Professor of Mathematics & Simonyi Professor for the Public Understanding of Science at the University of Oxford",
+            "date": "25 October 2012",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01ngn3j"
+        },
+        {
+            "topic": "Random and Pseudorandom",
+            "wiki_link": "https://en.wikipedia.org/wiki/Random",
+            "title": "Professor of Mathematics at the University of Oxford",
+            "date": "13 January 2011",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00x9xjb"
+        },
+        {
+            "topic": "Imaginary numbers",
+            "wiki_link": "https://en.wikipedia.org/wiki/Complex_numbers",
+            "title": "Professor of Mathematics at Oxford University",
+            "date": "23 September 2010",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00tt6b2"
+        },
+        {
+            "topic": "The Unintended Consequences of Mathematics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Law_of_Unintended_Consequences",
+            "title": "Charles Simonyi Professor for the Public Understanding of Science and Professor of Mathematics at the University of Oxford",
+            "date": "11 February 2010",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00qj2nq"
+        },
+        {
+            "topic": "Gödel's Incompleteness Theorems",
+            "wiki_link": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_Incompleteness_Theorems",
+            "title": "Professor of Mathematics at Wadham College, University of Oxford",
+            "date": "9 October 2008",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00dshx3"
+        },
+        {
+            "topic": "Probability",
+            "wiki_link": "https://en.wikipedia.org/wiki/Probability",
+            "title": "Professor of Mathematics at the University of Oxford",
+            "date": "29 May 2008",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00bqf61"
+        },
+        {
+            "topic": "The Fibonacci Sequence",
+            "wiki_link": "https://en.wikipedia.org/wiki/Fibonacci_Sequence",
+            "title": "Professor of Mathematics at the University of Oxford",
+            "date": "29 November 2007",
+            "episode_link": "https://www.bbc.co.uk/programmes/b008ct2j"
+        },
+        {
+            "topic": "Symmetry",
+            "wiki_link": "https://en.wikipedia.org/wiki/Symmetry",
+            "title": "Professor of Mathematics at the University of Oxford",
+            "date": "19 April 2007",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00776v8"
+        },
+        {
+            "topic": "The Poincaré conjecture",
+            "wiki_link": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
+            "title": "Professor of Mathematics at the University of Oxford",
+            "date": "2 November 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p0038x8l"
+        },
+        {
+            "topic": "Mathematics and Music",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mathematics_and_Music",
+            "title": "Professor of Mathematics at the University of Oxford",
+            "date": "25 May 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003c1b9"
+        },
+        {
+            "topic": "Prime Numbers",
+            "wiki_link": "https://en.wikipedia.org/wiki/Prime_Numbers",
+            "title": "Professor of Mathematics and Fellow of Wadham College at the University of Oxford",
+            "date": "12 January 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003hyf5"
+        }
+    ],
+    "Sarah Hart": [
+        {
+            "topic": "M.C. Escher",
+            "wiki_link": "https://en.wikipedia.org/wiki/M._C._Escher",
+            "title": "Professor Emerita of Mathematics and Fellow of Birkbeck College, University of London, and Fellow of Gresham College",
+            "date": "16 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002v19c"
+        }
+    ],
+    "Judith Kadee": [
+        {
+            "topic": "M.C. Escher",
+            "wiki_link": "https://en.wikipedia.org/wiki/M._C._Escher",
+            "title": "Exhibitions project manager and public programme curator at Hague Historical Museum.",
+            "date": "16 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002v19c"
+        }
+    ],
+    "Donald Burrows": [
+        {
+            "topic": "Handel's Messiah",
+            "wiki_link": "https://en.wikipedia.org/wiki/Messiah_(Handel)",
+            "title": "Emeritus Professor of Music at the Open University",
+            "date": "9 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002tptk"
+        }
+    ],
+    "Ruth Smith": [
+        {
+            "topic": "Handel's Messiah",
+            "wiki_link": "https://en.wikipedia.org/wiki/Messiah_(Handel)",
+            "title": "Trustee and Council Member of the Handel Institute",
+            "date": "9 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002tptk"
+        }
+    ],
+    "Larry Zazzo": [
+        {
+            "topic": "Handel's Messiah",
+            "wiki_link": "https://en.wikipedia.org/wiki/Messiah_(Handel)",
+            "title": "Countertenor and Senior Lecturer in Music at Newcastle University.",
+            "date": "9 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002tptk"
+        }
+    ],
+    "Frank Cogliano": [
+        {
+            "topic": "The Spanish-American War 1898",
+            "wiki_link": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+            "title": "Professor of American History at the University of Edinburgh",
+            "date": "2 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002tbzg"
+        },
+        {
+            "topic": "The Federalist Papers",
+            "wiki_link": "https://en.wikipedia.org/wiki/The_Federalist_Papers",
+            "title": "Professor of American History at the University of Edinburgh and Interim Saunders Director of the International Centre for Jefferson Studies at Monticello",
+            "date": "12 October 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001r7sv"
+        },
+        {
+            "topic": "The Franco-American Alliance 1778",
+            "wiki_link": "https://en.wikipedia.org/wiki/Franco-American_alliance",
+            "title": "Professor of American History at the University of Edinburgh",
+            "date": "22 April 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000v99n"
+        },
+        {
+            "topic": "The Mexican-American War",
+            "wiki_link": "https://en.wikipedia.org/wiki/The_Mexican-American_War",
+            "title": "Professor of American History at the University of Edinburgh",
+            "date": "28 June 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0b7d18j"
+        },
+        {
+            "topic": "The California Gold Rush",
+            "wiki_link": "https://en.wikipedia.org/wiki/California_Gold_Rush",
+            "title": "Professor of American History at the University of Edinburgh",
+            "date": "2 April 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b05nxgdd"
+        },
+        {
+            "topic": "The War of 1812",
+            "wiki_link": "https://en.wikipedia.org/wiki/War_of_1812",
+            "title": "Professor of American History at the University of Edinburgh",
+            "date": "31 January 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01q95s0"
+        }
+    ],
+    "Mary Vincent": [
+        {
+            "topic": "The Spanish-American War 1898",
+            "wiki_link": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+            "title": "Professor of Modern European History at the University of Sheffield",
+            "date": "2 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002tbzg"
+        },
+        {
+            "topic": "Picasso's Guernica",
+            "wiki_link": "https://en.wikipedia.org/wiki/Picasso%27s_Guernica",
+            "title": "Professor of Modern European History at the University of Sheffield",
+            "date": "2 November 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b09bxkdm"
+        },
+        {
+            "topic": "Animal Farm",
+            "wiki_link": "https://en.wikipedia.org/wiki/Animal_Farm",
+            "title": "Professor of Modern European History at the University of Sheffield",
+            "date": "29 September 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b07wgkz4"
+        },
+        {
+            "topic": "The Spanish Civil War",
+            "wiki_link": "https://en.wikipedia.org/wiki/The_Spanish_Civil_War",
+            "title": "Senior Lecturer in the Department of History at Sheffield University",
+            "date": "3 April 2003",
+            "episode_link": "https://www.bbc.co.uk/programmes/p00548wn"
+        }
+    ],
+    "Stephen Wilkinson": [
+        {
+            "topic": "The Spanish-American War 1898",
+            "wiki_link": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+            "title": "Senior Lecturer in Politics and International Relations at the University of Buckingham.",
+            "date": "2 April 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002tbzg"
+        }
+    ],
+    "Kate Hendry": [
+        {
+            "topic": "Silicon",
+            "wiki_link": "https://en.wikipedia.org/wiki/Silicon",
+            "title": "Oceanographer at the British Antarctic Survey and Bye-Fellow of Queen’s College, University of Cambridge",
+            "date": "26 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002t2v2"
+        }
+    ],
+    "Andrea Sella": [
+        {
+            "topic": "Silicon",
+            "wiki_link": "https://en.wikipedia.org/wiki/Silicon",
+            "title": "Professor of Chemistry at University College London",
+            "date": "26 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002t2v2"
+        },
+        {
+            "topic": "Chromatography",
+            "wiki_link": "https://en.wikipedia.org/wiki/Chromatography",
+            "title": "Professor of Chemistry at University College London",
+            "date": "4 February 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b06z4w7p"
+        },
+        {
+            "topic": "States of Matter",
+            "wiki_link": "https://en.wikipedia.org/wiki/States_of_Matter",
+            "title": "Professor of Materials and Inorganic Chemistry at University College London",
+            "date": "3 April 2014",
+            "episode_link": "https://www.bbc.co.uk/programmes/b03zdbr4"
+        },
+        {
+            "topic": "Water",
+            "wiki_link": "https://en.wikipedia.org/wiki/Water",
+            "title": "Professor of Chemistry at University College London",
+            "date": "28 March 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01rgm9g"
+        }
+    ],
+    "Monica Grady": [
+        {
+            "topic": "Silicon",
+            "wiki_link": "https://en.wikipedia.org/wiki/Silicon",
+            "title": "Professor Emerita in Planetary and Space Sciences at the Open University.",
+            "date": "26 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002t2v2"
+        },
+        {
+            "topic": "William and Caroline Herschel",
+            "wiki_link": "https://en.wikipedia.org/wiki/William_Herschel",
+            "title": "Professor of Planetary and Space Sciences at the Open University",
+            "date": "11 November 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0011c4p"
+        },
+        {
+            "topic": "The Kuiper belt",
+            "wiki_link": "https://en.wikipedia.org/wiki/Kuiper_belt",
+            "title": "Professor of Planetary and Space Sciences at the Open University",
+            "date": "2 March 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b08g7ttx"
+        },
+        {
+            "topic": "Extremophiles",
+            "wiki_link": "https://en.wikipedia.org/wiki/Extremophiles",
+            "title": "Professor of Planetary and Space Sciences at the Open University",
+            "date": "25 June 2015",
+            "episode_link": "https://www.bbc.co.uk/programmes/b05zl3v2"
+        },
+        {
+            "topic": "Comets",
+            "wiki_link": "https://en.wikipedia.org/wiki/Comet",
+            "title": "Professor of Planetary and Space Sciences at the Open University",
+            "date": "17 January 2013",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01pw38n"
+        },
+        {
+            "topic": "The Physics of Time",
+            "wiki_link": "https://en.wikipedia.org/wiki/Time_in_physics",
+            "title": "Professor of Planetary and Space Sciences at the Open University",
+            "date": "18 December 2008",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00g0nmw"
+        },
+        {
+            "topic": "Mars",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mars",
+            "title": "Professor of Planetary and Space Sciences at the Open University and an expert on Martian meteorites",
+            "date": "11 January 2007",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00772rr"
+        },
+        {
+            "topic": "Carbon",
+            "wiki_link": "https://en.wikipedia.org/wiki/Carbon",
+            "title": "Professor of Planetary and Space Sciences at the Open University",
+            "date": "15 June 2006",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003c1cj"
+        },
+        {
+            "topic": "Asteroids",
+            "wiki_link": "https://en.wikipedia.org/wiki/Asteroids",
+            "title": "Professor of Planetary and Space Sciences, Open University",
+            "date": "3 November 2005",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003k9kh"
+        },
+        {
+            "topic": "The Second Law of Thermodynamics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Second_Law_of_Thermodynamics",
+            "title": "Head of Petrology and Meteoritics at the Natural History Museum",
+            "date": "16 December 2004",
+            "episode_link": "https://www.bbc.co.uk/programmes/p004y2bm"
+        }
+    ],
+    "Dawn Ades": [
+        {
+            "topic": "Dadaism",
+            "wiki_link": "https://en.wikipedia.org/wiki/Dada",
+            "title": "Emeritus Professor of Art History and Theory at the University of Essex",
+            "date": "19 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002sr43"
+        }
+    ],
+    "Ruth Hemus": [
+        {
+            "topic": "Dadaism",
+            "wiki_link": "https://en.wikipedia.org/wiki/Dada",
+            "title": "Professor of French and Visual Culture at Royal Holloway, University of London",
+            "date": "19 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002sr43"
+        }
+    ],
+    "Stephen Forcer": [
+        {
+            "topic": "Dadaism",
+            "wiki_link": "https://en.wikipedia.org/wiki/Dada",
+            "title": "Professor of French at the University of Glasgow.",
+            "date": "19 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002sr43"
+        }
+    ],
+    "Christa Schleper": [
+        {
+            "topic": "Archaea",
+            "wiki_link": "https://en.wikipedia.org/wiki/Archaea",
+            "title": "Professor of Genetics and Microbiology at the University of Vienna",
+            "date": "12 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002sg10"
+        }
+    ],
+    "Thorsten Allers": [
+        {
+            "topic": "Archaea",
+            "wiki_link": "https://en.wikipedia.org/wiki/Archaea",
+            "title": "Professor of Archaeal Genetics at the University of Nottingham",
+            "date": "12 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002sg10"
+        }
+    ],
+    "Buzz Baum": [
+        {
+            "topic": "Archaea",
+            "wiki_link": "https://en.wikipedia.org/wiki/Archaea",
+            "title": "Group leader at the MRC Laboratory of Molecular Biology in Cambridge.",
+            "date": "12 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002sg10"
+        }
+    ],
+    "Joanna Laynesmith": [
+        {
+            "topic": "Margaret Beaufort",
+            "wiki_link": "https://en.wikipedia.org/wiki/Lady_Margaret_Beaufort",
+            "title": "Visiting Research Fellow at the University of Reading",
+            "date": "5 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002s3dq"
+        },
+        {
+            "topic": "Margaret of Anjou",
+            "wiki_link": "https://en.wikipedia.org/wiki/Margaret_of_Anjou",
+            "title": "Visiting Research Fellow at the University of Reading",
+            "date": "24 May 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0b39v6r"
+        }
+    ],
+    "Katherine Lewis": [
+        {
+            "topic": "Margaret Beaufort",
+            "wiki_link": "https://en.wikipedia.org/wiki/Lady_Margaret_Beaufort",
+            "title": "Honorary Professor of Medieval History at the University of Lincoln and Research Associate at the University of York",
+            "date": "5 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002s3dq"
+        },
+        {
+            "topic": "Pope Joan",
+            "wiki_link": "https://en.wikipedia.org/wiki/Pope_Joan",
+            "title": "Honorary Professor of Medieval History at the University of Lincoln and Research Associate at the University of York",
+            "date": "30 January 2025",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0027d6t"
+        },
+        {
+            "topic": "Julian of Norwich",
+            "wiki_link": "https://en.wikipedia.org/wiki/Julian_of_Norwich",
+            "title": "Professor of Medieval History at the University of Huddersfield",
+            "date": "19 October 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001rgs4"
+        },
+        {
+            "topic": "Melisende, Queen of Jerusalem",
+            "wiki_link": "https://en.wikipedia.org/wiki/Melisende,_Queen_of_Jerusalem",
+            "title": "Senior Lecturer in History at the University of Huddersfield",
+            "date": "21 November 2019",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000bg2y"
+        },
+        {
+            "topic": "Is Shakespeare History? The Plantagenets",
+            "wiki_link": "https://en.wikipedia.org/wiki/Shakespearean_history",
+            "title": "Senior Lecturer in Medieval History at the University of Huddersfield",
+            "date": "11 October 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0000nd9"
+        },
+        {
+            "topic": "Margaret of Anjou",
+            "wiki_link": "https://en.wikipedia.org/wiki/Margaret_of_Anjou",
+            "title": "Senior Lecturer in Medieval History at the University of Huddersfield",
+            "date": "24 May 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/b0b39v6r"
+        },
+        {
+            "topic": "Margery Kempe and English Mysticism",
+            "wiki_link": "https://en.wikipedia.org/wiki/Margery_Kempe",
+            "title": "Senior Lecturer in History at the University of Huddersfield",
+            "date": "2 June 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b07cyfkg"
+        }
+    ],
+    "David Grummitt": [
+        {
+            "topic": "Margaret Beaufort",
+            "wiki_link": "https://en.wikipedia.org/wiki/Lady_Margaret_Beaufort",
+            "title": "Staff Tutor in History at the Open University.",
+            "date": "5 March 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002s3dq"
+        },
+        {
+            "topic": "The Battle of Bosworth Field",
+            "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Bosworth_Field",
+            "title": "Lecturer in British History at the University of Kent",
+            "date": "26 April 2012",
+            "episode_link": "https://www.bbc.co.uk/programmes/b01ghc43"
+        }
+    ],
+    "Rebecca Earle": [
+        {
+            "topic": "The Columbian Exchange",
+            "wiki_link": "https://en.wikipedia.org/wiki/Columbian_exchange",
+            "title": "Professor of History at the University of Warwick",
+            "date": "26 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002rrvz"
+        }
+    ],
+    "John Lindo": [
+        {
+            "topic": "The Columbian Exchange",
+            "wiki_link": "https://en.wikipedia.org/wiki/Columbian_exchange",
+            "title": "Associate Professor of Anthropology at Emory University",
+            "date": "26 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002rrvz"
+        }
+    ],
+    "Mark Maslin": [
+        {
+            "topic": "The Columbian Exchange",
+            "wiki_link": "https://en.wikipedia.org/wiki/Columbian_exchange",
+            "title": "Professor of Earth System Science at University College London.",
+            "date": "26 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002rrvz"
+        },
+        {
+            "topic": "Homo erectus",
+            "wiki_link": "https://en.wikipedia.org/wiki/Homo_erectus",
+            "title": "Professor of Earth System Science at University College London",
+            "date": "14 April 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m00168lg"
+        },
+        {
+            "topic": "The Paleocene-Eocene Thermal Maximum",
+            "wiki_link": "https://en.wikipedia.org/wiki/Paleocene%E2%80%93Eocene_Thermal_Maximum",
+            "title": "Professor of Palaeoclimatology at University College London",
+            "date": "16 March 2017",
+            "episode_link": "https://www.bbc.co.uk/programmes/b08hpmmf"
+        }
+    ],
+    "Fiona Stafford": [
+        {
+            "topic": "John Keats",
+            "wiki_link": "https://en.wikipedia.org/wiki/John_Keats",
+            "title": "Professor of English Language and Literature and Tutorial Fellow at Somerville College, University of Oxford",
+            "date": "19 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002rgh3"
+        },
+        {
+            "topic": "Persuasion",
+            "wiki_link": "https://en.wikipedia.org/wiki/Persuasion_(novel)",
+            "title": "Professor of English Language and Literature at the University of Oxford",
+            "date": "22 December 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001g9cv"
+        },
+        {
+            "topic": "Robert Burns",
+            "wiki_link": "https://en.wikipedia.org/wiki/Robert_Burns",
+            "title": "Professor of English at the University of Oxford",
+            "date": "24 October 2019",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0009kkn"
+        }
+    ],
+    "Nicholas Roe": [
+        {
+            "topic": "John Keats",
+            "wiki_link": "https://en.wikipedia.org/wiki/John_Keats",
+            "title": "Wardlaw Professor of English Literature at the University of St Andrews",
+            "date": "19 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002rgh3"
+        },
+        {
+            "topic": "The Romantics",
+            "wiki_link": "https://en.wikipedia.org/wiki/Romantics",
+            "title": "Professor of English, University of St Andrews",
+            "date": "12 October 2000",
+            "episode_link": "https://www.bbc.co.uk/programmes/p00546ws"
+        }
+    ],
+    "Meiko O’Halloran": [
+        {
+            "topic": "John Keats",
+            "wiki_link": "https://en.wikipedia.org/wiki/John_Keats",
+            "title": "Senior Lecturer in Romantic Literature at the University of Newcastle.",
+            "date": "19 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002rgh3"
+        }
+    ],
+    "Martin Worthington": [
+        {
+            "topic": "The Code of Hammurabi",
+            "wiki_link": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+            "title": "Professor in Middle Eastern Studies at Trinity College Dublin",
+            "date": "12 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002r4v1"
+        },
+        {
+            "topic": "Epic of Gilgamesh",
+            "wiki_link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
+            "title": "Lecturer in Assyriology at the University of Cambridge",
+            "date": "3 November 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b080wbrq"
+        }
+    ],
+    "Frances Reynolds": [
+        {
+            "topic": "The Code of Hammurabi",
+            "wiki_link": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+            "title": "Shillito Fellow and Associate Professor of Assyriology at the University of Oxford and Senior Research Fellow at The Queen’s College",
+            "date": "12 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002r4v1"
+        },
+        {
+            "topic": "Epic of Gilgamesh",
+            "wiki_link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
+            "title": "Shillito Fellow in Assyriology at the Oriental Institute, University of Oxford and Fellow of St Benet's Hall",
+            "date": "3 November 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b080wbrq"
+        }
+    ],
+    "Selena Wisnom": [
+        {
+            "topic": "The Code of Hammurabi",
+            "wiki_link": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+            "title": "Lecturer in the Heritage of the Middle East at the University of Leicester.",
+            "date": "12 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002r4v1"
+        }
+    ],
+    "Emma Smith": [
+        {
+            "topic": "Henry IV Part 1",
+            "wiki_link": "https://en.wikipedia.org/wiki/Henry_IV,_Part_1",
+            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
+            "date": "5 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002qth3"
+        },
+        {
+            "topic": "Thomas Middleton",
+            "wiki_link": "https://en.wikipedia.org/wiki/Thomas_Middleton",
+            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
+            "date": "20 March 2025",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002908z"
+        },
+        {
+            "topic": "Twelfth Night, or What You Will",
+            "wiki_link": "https://en.wikipedia.org/wiki/Twelfth_Night",
+            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
+            "date": "28 December 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001tqnd"
+        },
+        {
+            "topic": "Romeo and Juliet",
+            "wiki_link": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
+            "date": "17 February 2022",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0014gml"
+        },
+        {
+            "topic": "Shakespeare's Sonnets",
+            "wiki_link": "https://en.wikipedia.org/wiki/Shakespeare%27s_Sonnets",
+            "title": "Professor of Shakespeare Studies at Hertford College, Oxford",
+            "date": "24 June 2021",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000x6tr"
+        },
+        {
+            "topic": "Macbeth",
+            "wiki_link": "https://en.wikipedia.org/wiki/Macbeth",
+            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
+            "date": "1 October 2020",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000mytn"
+        },
+        {
+            "topic": "Is Shakespeare History? The Plantagenets",
+            "wiki_link": "https://en.wikipedia.org/wiki/Shakespearean_history",
+            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
+            "date": "11 October 2018",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0000nd9"
+        },
+        {
+            "topic": "Marlowe",
+            "wiki_link": "https://en.wikipedia.org/wiki/Christopher_Marlowe",
+            "title": "Lecturer in English, Oxford University",
+            "date": "7 July 2005",
+            "episode_link": "https://www.bbc.co.uk/programmes/p003k9d6"
+        }
+    ],
+    "Lucy Munro": [
+        {
+            "topic": "Henry IV Part 1",
+            "wiki_link": "https://en.wikipedia.org/wiki/Henry_IV,_Part_1",
+            "title": "Professor of Shakespeare and Early Modern Literature at King's College London",
+            "date": "5 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002qth3"
+        },
+        {
+            "topic": "Thomas Middleton",
+            "wiki_link": "https://en.wikipedia.org/wiki/Thomas_Middleton",
+            "title": "Professor of Shakespeare and Early Modern Literature at King's College London",
+            "date": "20 March 2025",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002908z"
+        }
+    ],
+    "Laurence Publicover": [
+        {
+            "topic": "Henry IV Part 1",
+            "wiki_link": "https://en.wikipedia.org/wiki/Henry_IV,_Part_1",
+            "title": "Associate Professor in the Department of English at the University of Bristol.",
+            "date": "5 February 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002qth3"
+        }
+    ],
+    "Kathleen Coleman": [
+        {
+            "topic": "The Roman Arena",
+            "wiki_link": "https://en.wikipedia.org/wiki/Roman_amphitheatre",
+            "title": "James Loeb Professor of the Classics at Harvard University",
+            "date": "29 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002qj85"
+        }
+    ],
+    "John Pearce": [
+        {
+            "topic": "The Roman Arena",
+            "wiki_link": "https://en.wikipedia.org/wiki/Roman_amphitheatre",
+            "title": "Reader in Archaeology at King’s College London",
+            "date": "29 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002qj85"
+        }
+    ],
+    "Matthew Nicholls": [
+        {
+            "topic": "The Roman Arena",
+            "wiki_link": "https://en.wikipedia.org/wiki/Roman_amphitheatre",
+            "title": "Fellow and Senior Tutor at St John's College, Oxford.",
+            "date": "29 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002qj85"
+        },
+        {
+            "topic": "Tiberius",
+            "wiki_link": "https://en.wikipedia.org/wiki/Tiberius",
+            "title": "Senior Tutor at St. John's College, University of Oxford",
+            "date": "14 December 2023",
+            "episode_link": "https://www.bbc.co.uk/programmes/m001t9j8"
+        },
+        {
+            "topic": "Battle of the Teutoburg Forest",
+            "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+            "title": "Fellow and Senior Tutor St John's College, Oxford",
+            "date": "13 February 2020",
+            "episode_link": "https://www.bbc.co.uk/programmes/m000f69q"
+        },
+        {
+            "topic": "Nero",
+            "wiki_link": "https://en.wikipedia.org/wiki/Nero",
+            "title": "Fellow and Senior Tutor at St John's College, Oxford",
+            "date": "25 April 2019",
+            "episode_link": "https://www.bbc.co.uk/programmes/m0004cp7"
+        },
+        {
+            "topic": "Agrippina the Younger",
+            "wiki_link": "https://en.wikipedia.org/wiki/Agrippina_the_Younger",
+            "title": "associate professor of Classics at the University of Reading",
+            "date": "31 March 2016",
+            "episode_link": "https://www.bbc.co.uk/programmes/b074yzwk"
+        },
+        {
+            "topic": "The Library of Alexandria",
+            "wiki_link": "https://en.wikipedia.org/wiki/Library_of_Alexandria",
+            "title": "Lecturer in Classics at the University of Reading",
+            "date": "12 March 2009",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00j0q53"
+        }
+    ],
+    "Heather Stewart": [
+        {
+            "topic": "The Mariana Trench",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mariana_Trench",
+            "title": "Director of Kelpie Geoscience and Associate Professor at the University of Western Australia",
+            "date": "22 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002q38k"
+        }
+    ],
+    "Jon Copley": [
+        {
+            "topic": "The Mariana Trench",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mariana_Trench",
+            "title": "Professor of Ocean Exploration and Science Communication at the University of Southampton",
+            "date": "22 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002q38k"
+        }
+    ],
+    "Alan Jamieson": [
+        {
+            "topic": "The Mariana Trench",
+            "wiki_link": "https://en.wikipedia.org/wiki/Mariana_Trench",
+            "title": "Director of the Deep Sea Research Centre at the University of Western Australia.",
+            "date": "22 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002q38k"
+        }
+    ],
+    "Helen McCabe": [
+        {
+            "topic": "On Liberty",
+            "wiki_link": "https://en.wikipedia.org/wiki/On_Liberty",
+            "title": "Professor of Political Theory at the University of Nottingham",
+            "date": "15 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002pqnc"
+        }
+    ],
+    "Mark Philp": [
+        {
+            "topic": "On Liberty",
+            "wiki_link": "https://en.wikipedia.org/wiki/On_Liberty",
+            "title": "Emeritus Professor of History and Politics at the University of Warwick",
+            "date": "15 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002pqnc"
+        },
+        {
+            "topic": "Malthusianism",
+            "wiki_link": "https://en.wikipedia.org/wiki/Malthusianism",
+            "title": "Lecturer in Politics at the University of Oxford",
+            "date": "23 June 2011",
+            "episode_link": "https://www.bbc.co.uk/programmes/b011zzh6"
+        }
+    ],
+    "Piers Norris Turner": [
+        {
+            "topic": "On Liberty",
+            "wiki_link": "https://en.wikipedia.org/wiki/On_Liberty",
+            "title": "Associate Professor of Philosophy at the Ohio State University.",
+            "date": "15 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/m002pqnc"
+        }
+    ],
+    "Misha Glenny": [
+        {
+            "topic": "Welcoming Misha Glenny to the In Our Time studio",
+            "wiki_link": "https://en.wikipedia.org/wiki/Misha_Glenny",
+            "title": "new presenter of the series",
+            "date": "8 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/p0mskkbw"
+        }
+    ],
+    "Simon Tillotson": [
+        {
+            "topic": "Welcoming Misha Glenny to the In Our Time studio",
+            "wiki_link": "https://en.wikipedia.org/wiki/Misha_Glenny",
+            "title": "series producer",
+            "date": "8 January 2026",
+            "episode_link": "https://www.bbc.co.uk/programmes/p0mskkbw"
+        }
+    ],
     "Phil Withington": [
         {
             "topic": "Civility: talking with those who disagree with you",
             "wiki_link": "https://en.wikipedia.org/wiki/Civility",
             "title": "Professor of History at the University of Sheffield",
-            "date": "03 July 2025",
+            "date": "3 July 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002f9f4"
         }
     ],
@@ -29,7 +1413,7 @@
             "topic": "Civility: talking with those who disagree with you",
             "wiki_link": "https://en.wikipedia.org/wiki/Civility",
             "title": "Associate Professor of Early Modern History at the University of Leeds.",
-            "date": "03 July 2025",
+            "date": "3 July 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002f9f4"
         }
     ],
@@ -224,7 +1608,7 @@
             "topic": "The Vienna Secession",
             "wiki_link": "https://en.wikipedia.org/wiki/Vienna_Secession",
             "title": "Professor of Music and Intellectual History at Royal Holloway, University of London",
-            "date": "05 June 2025",
+            "date": "5 June 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002d1b5"
         }
     ],
@@ -233,7 +1617,7 @@
             "topic": "The Vienna Secession",
             "wiki_link": "https://en.wikipedia.org/wiki/Vienna_Secession",
             "title": "Professor Emerita in History of Architecture at Birkbeck, University of London",
-            "date": "05 June 2025",
+            "date": "5 June 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002d1b5"
         }
     ],
@@ -242,7 +1626,7 @@
             "topic": "The Vienna Secession",
             "wiki_link": "https://en.wikipedia.org/wiki/Vienna_Secession",
             "title": "art historian and 'Vienna 1900' scholar.",
-            "date": "05 June 2025",
+            "date": "5 June 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002d1b5"
         }
     ],
@@ -353,7 +1737,7 @@
             "topic": "Lise Meitner",
             "wiki_link": "https://en.wikipedia.org/wiki/Lise_Meitner",
             "title": "Royal Society University Research Fellow and Lecturer in Functional Materials at Imperial College, London",
-            "date": "08 May 2025",
+            "date": "8 May 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002bt7s"
         }
     ],
@@ -362,7 +1746,7 @@
             "topic": "Lise Meitner",
             "wiki_link": "https://en.wikipedia.org/wiki/Lise_Meitner",
             "title": "Professor Emeritus of Theoretical Physics and Fellow Emeritus at Exeter College, University of Oxford",
-            "date": "08 May 2025",
+            "date": "8 May 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002bt7s"
         },
         {
@@ -476,7 +1860,7 @@
             "topic": "Lise Meitner",
             "wiki_link": "https://en.wikipedia.org/wiki/Lise_Meitner",
             "title": "Director of the London Centre for Nanotechnology and Professor of Physics at University College London.",
-            "date": "08 May 2025",
+            "date": "8 May 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002bt7s"
         },
         {
@@ -499,7 +1883,7 @@
             "topic": "The Korean Empire",
             "wiki_link": "https://en.wikipedia.org/wiki/Korean_Empire",
             "title": "Associate Professor in Korean Studies at the faculty of Asian and Middle Eastern Studies at the University of Cambridge and Fellow of Wolfson College",
-            "date": "01 May 2025",
+            "date": "1 May 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002bj6d"
         }
     ],
@@ -508,7 +1892,7 @@
             "topic": "The Korean Empire",
             "wiki_link": "https://en.wikipedia.org/wiki/Korean_Empire",
             "title": "Lecturer in Japanese and Korean Studies at the University of Edinburgh",
-            "date": "01 May 2025",
+            "date": "1 May 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002bj6d"
         }
     ],
@@ -517,7 +1901,7 @@
             "topic": "The Korean Empire",
             "wiki_link": "https://en.wikipedia.org/wiki/Korean_Empire",
             "title": "Lecturer in Korean Studies at the University of Sheffield.",
-            "date": "01 May 2025",
+            "date": "1 May 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002bj6d"
         }
     ],
@@ -689,7 +2073,7 @@
             "topic": "The Orkneyinga Saga",
             "wiki_link": "https://en.wikipedia.org/wiki/Orkneyinga_saga",
             "title": "Senior Lecturer in History at the University of St Andrews",
-            "date": "06 June 2024",
+            "date": "6 June 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001zvvp"
         },
         {
@@ -712,7 +2096,7 @@
             "topic": "The Gracchi",
             "wiki_link": "https://en.wikipedia.org/wiki/Gracchi_brothers",
             "title": "Professor of Classics at the University of Glasgow",
-            "date": "03 April 2025",
+            "date": "3 April 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m0029jjb"
         },
         {
@@ -756,7 +2140,7 @@
             "topic": "The Gracchi",
             "wiki_link": "https://en.wikipedia.org/wiki/Gracchi_brothers",
             "title": "Professor of Ancient History at Newcastle University",
-            "date": "03 April 2025",
+            "date": "3 April 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m0029jjb"
         }
     ],
@@ -765,7 +2149,7 @@
             "topic": "The Gracchi",
             "wiki_link": "https://en.wikipedia.org/wiki/Gracchi_brothers",
             "title": "Lecturer in Roman History at the University of Leicester.",
-            "date": "03 April 2025",
+            "date": "3 April 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m0029jjb"
         },
         {
@@ -801,66 +2185,6 @@
             "title": "Associate Professor of Philosophy at University College, Dublin.",
             "date": "27 March 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002974s"
-        }
-    ],
-    "Emma Smith": [
-        {
-            "topic": "Thomas Middleton",
-            "wiki_link": "https://en.wikipedia.org/wiki/Thomas_Middleton",
-            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
-            "date": "20 March 2025",
-            "episode_link": "https://www.bbc.co.uk/programmes/m002908z"
-        },
-        {
-            "topic": "Twelfth Night, or What You Will",
-            "wiki_link": "https://en.wikipedia.org/wiki/Twelfth_Night",
-            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
-            "date": "28 December 2023",
-            "episode_link": "https://www.bbc.co.uk/programmes/m001tqnd"
-        },
-        {
-            "topic": "Romeo and Juliet",
-            "wiki_link": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
-            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
-            "date": "17 February 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0014gml"
-        },
-        {
-            "topic": "Shakespeare's Sonnets",
-            "wiki_link": "https://en.wikipedia.org/wiki/Shakespeare%27s_Sonnets",
-            "title": "Professor of Shakespeare Studies at Hertford College, Oxford",
-            "date": "24 June 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000x6tr"
-        },
-        {
-            "topic": "Macbeth",
-            "wiki_link": "https://en.wikipedia.org/wiki/Macbeth",
-            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
-            "date": "1 October 2020",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000mytn"
-        },
-        {
-            "topic": "Is Shakespeare History? The Plantagenets",
-            "wiki_link": "https://en.wikipedia.org/wiki/Shakespearean_history",
-            "title": "Professor of Shakespeare Studies at Hertford College, University of Oxford",
-            "date": "11 October 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0000nd9"
-        },
-        {
-            "topic": "Marlowe",
-            "wiki_link": "https://en.wikipedia.org/wiki/Christopher_Marlowe",
-            "title": "Lecturer in English, Oxford University",
-            "date": "7 July 2005",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003k9d6"
-        }
-    ],
-    "Lucy Munro": [
-        {
-            "topic": "Thomas Middleton",
-            "wiki_link": "https://en.wikipedia.org/wiki/Thomas_Middleton",
-            "title": "Professor of Shakespeare and Early Modern Literature at King's College London",
-            "date": "20 March 2025",
-            "episode_link": "https://www.bbc.co.uk/programmes/m002908z"
         }
     ],
     "Michelle O’Callaghan": [
@@ -918,7 +2242,7 @@
             "topic": "Pollination",
             "wiki_link": "https://en.wikipedia.org/wiki/Pollination",
             "title": "Director of the Cambridge University Botanic Garden",
-            "date": "06 March 2025",
+            "date": "6 March 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m0028jtx"
         }
     ],
@@ -927,7 +2251,7 @@
             "topic": "Pollination",
             "wiki_link": "https://en.wikipedia.org/wiki/Pollination",
             "title": "Professor of Ecology at the University of Bristol",
-            "date": "06 March 2025",
+            "date": "6 March 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m0028jtx"
         }
     ],
@@ -936,7 +2260,7 @@
             "topic": "Pollination",
             "wiki_link": "https://en.wikipedia.org/wiki/Pollination",
             "title": "Professor of Sensory and Behavioural Ecology at Queen Mary, University of London.",
-            "date": "06 March 2025",
+            "date": "6 March 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m0028jtx"
         }
     ],
@@ -1208,7 +2532,7 @@
             "topic": "Sir John Soane",
             "wiki_link": "https://en.wikipedia.org/wiki/John_Soane",
             "title": "the Curator of Drawings and Books at Sir John Soane's Museum",
-            "date": "06 February 2025",
+            "date": "6 February 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m0027jwv"
         }
     ],
@@ -1217,7 +2541,7 @@
             "topic": "Sir John Soane",
             "wiki_link": "https://en.wikipedia.org/wiki/John_Soane",
             "title": "Associate Professor of the History of Art at the University of Cambridge and Director of the Ax:son Johnson Centre for the Study of Classical Architecture",
-            "date": "06 February 2025",
+            "date": "6 February 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m0027jwv"
         }
     ],
@@ -1226,7 +2550,7 @@
             "topic": "Sir John Soane",
             "wiki_link": "https://en.wikipedia.org/wiki/John_Soane",
             "title": "historian and author of Soane's biography.",
-            "date": "06 February 2025",
+            "date": "6 February 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m0027jwv"
         },
         {
@@ -1242,50 +2566,6 @@
             "title": "Architectural historian and biographer of John Soane",
             "date": "31 October 2002",
             "episode_link": "https://www.bbc.co.uk/programmes/p00548k0"
-        }
-    ],
-    "Katherine Lewis": [
-        {
-            "topic": "Pope Joan",
-            "wiki_link": "https://en.wikipedia.org/wiki/Pope_Joan",
-            "title": "Honorary Professor of Medieval History at the University of Lincoln and Research Associate at the University of York",
-            "date": "30 January 2025",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0027d6t"
-        },
-        {
-            "topic": "Julian of Norwich",
-            "wiki_link": "https://en.wikipedia.org/wiki/Julian_of_Norwich",
-            "title": "Professor of Medieval History at the University of Huddersfield",
-            "date": "19 October 2023",
-            "episode_link": "https://www.bbc.co.uk/programmes/m001rgs4"
-        },
-        {
-            "topic": "Melisende, Queen of Jerusalem",
-            "wiki_link": "https://en.wikipedia.org/wiki/Melisende,_Queen_of_Jerusalem",
-            "title": "Senior Lecturer in History at the University of Huddersfield",
-            "date": "21 November 2019",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000bg2y"
-        },
-        {
-            "topic": "Is Shakespeare History? The Plantagenets",
-            "wiki_link": "https://en.wikipedia.org/wiki/Shakespearean_history",
-            "title": "Senior Lecturer in Medieval History at the University of Huddersfield",
-            "date": "11 October 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0000nd9"
-        },
-        {
-            "topic": "Margaret of Anjou",
-            "wiki_link": "https://en.wikipedia.org/wiki/Margaret_of_Anjou",
-            "title": "Senior Lecturer in Medieval History at the University of Huddersfield",
-            "date": "25 May 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0b39v6r"
-        },
-        {
-            "topic": "Margery Kempe and English Mysticism",
-            "wiki_link": "https://en.wikipedia.org/wiki/Margery_Kempe",
-            "title": "Senior Lecturer in History at the University of Huddersfield",
-            "date": "2 June 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b07cyfkg"
         }
     ],
     "Laura Kalas": [
@@ -1339,7 +2619,7 @@
             "topic": "Aristotle's Nicomachean Ethics",
             "wiki_link": "https://en.wikipedia.org/wiki/Nicomachean_Ethics",
             "title": "Professor of the Public Understanding of Philosophy at the University of Sheffield",
-            "date": "02 November 2023",
+            "date": "2 November 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001rylh"
         },
         {
@@ -1381,7 +2661,7 @@
             "topic": "Plato's Symposium",
             "wiki_link": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
             "title": "Professor of the Public Understanding of Philosophy at the University of Sheffield",
-            "date": "3 January 2014",
+            "date": "2 January 2014",
             "episode_link": "https://www.bbc.co.uk/programmes/b03mhyzk"
         },
         {
@@ -1610,7 +2890,7 @@
             "topic": "Slime Moulds",
             "wiki_link": "https://en.wikipedia.org/wiki/Slime_mold",
             "title": "Professor of Quantitative Cell Biology at University College, London",
-            "date": "02 January 2025",
+            "date": "2 January 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002691y"
         }
     ],
@@ -1619,7 +2899,7 @@
             "topic": "Slime Moulds",
             "wiki_link": "https://en.wikipedia.org/wiki/Slime_mold",
             "title": "Reader in microbiology and plant science at the University of Greenwich",
-            "date": "02 January 2025",
+            "date": "2 January 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002691y"
         }
     ],
@@ -1628,7 +2908,7 @@
             "topic": "Slime Moulds",
             "wiki_link": "https://en.wikipedia.org/wiki/Slime_mold",
             "title": "Biologist and writer.",
-            "date": "02 January 2025",
+            "date": "2 January 2025",
             "episode_link": "https://www.bbc.co.uk/programmes/m002691y"
         }
     ],
@@ -1719,162 +2999,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m00260s5"
         }
     ],
-    "Paul Cartledge": [
-        {
-            "topic": "Plutarch's Parallel Lives",
-            "wiki_link": "https://en.wikipedia.org/wiki/Parallel_Lives",
-            "title": "AG Leventis Senior Research Fellow of Clare College, University of Cambridge.",
-            "date": "19 December 2024",
-            "episode_link": "https://www.bbc.co.uk/programmes/m00260s5"
-        },
-        {
-            "topic": "Lysistrata",
-            "wiki_link": "https://en.wikipedia.org/wiki/Lysistrata",
-            "title": "AG Leventis Senior Research Fellow of Clare College, University of Cambridge",
-            "date": "11 April 2024",
-            "episode_link": "https://www.bbc.co.uk/programmes/m001y2z4"
-        },
-        {
-            "topic": "Demosthenes' Philippics",
-            "wiki_link": "https://en.wikipedia.org/wiki/Philippic",
-            "title": "A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "date": "17 November 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m001f4ws"
-        },
-        {
-            "topic": "Herodotus",
-            "wiki_link": "https://en.wikipedia.org/wiki/Herodotus",
-            "title": "A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "date": "23 September 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000zv33"
-        },
-        {
-            "topic": "Pericles",
-            "wiki_link": "https://en.wikipedia.org/wiki/Pericles",
-            "title": "AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "date": "17 September 2020",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000mk25"
-        },
-        {
-            "topic": "The Mytilenaean Debate",
-            "wiki_link": "https://en.wikipedia.org/wiki/Mytilenean_Debate",
-            "title": "Emeritus AG Leventis Professor of Greek Culture, University of Cambridge and Senior Research Fellow of Clare College",
-            "date": "20 June 2019",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000614s"
-        },
-        {
-            "topic": "The Iliad",
-            "wiki_link": "https://en.wikipedia.org/wiki/The_Iliad",
-            "title": "A.G. Leventis Senior Research Fellow and Emeritus Professor of Greek Culture at Clare College, Cambridge",
-            "date": "13 September 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0bh5x1y"
-        },
-        {
-            "topic": "Thebes",
-            "wiki_link": "https://en.wikipedia.org/wiki/Thebes,_Greece",
-            "title": "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "date": "23 November 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b09fj9mt"
-        },
-        {
-            "topic": "The Battle of Salamis",
-            "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Salamis",
-            "title": "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, Cambridge",
-            "date": "23 March 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b08j99jl"
-        },
-        {
-            "topic": "The Muses",
-            "wiki_link": "https://en.wikipedia.org/wiki/Muse",
-            "title": "Emeritus Professor of Greek Culture and A. G. Leventis Senior Research Fellow at Clare College, Cambridge",
-            "date": "19 May 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b07bft7v"
-        },
-        {
-            "topic": "Alexander the Great",
-            "wiki_link": "https://en.wikipedia.org/wiki/Alexander_the_Great",
-            "title": "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, University of Cambridge",
-            "date": "1 October 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b06d9bkx"
-        },
-        {
-            "topic": "Thucydides",
-            "wiki_link": "https://en.wikipedia.org/wiki/Thucydides",
-            "title": "Emeritus Professor of Greek Culture and AG Leventis Senior Research Fellow at Clare College, Cambridge",
-            "date": "29 January 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b050bcf1"
-        },
-        {
-            "topic": "Strabo's Geographica",
-            "wiki_link": "https://en.wikipedia.org/wiki/Strabo",
-            "title": "A. G. Leventis Professor of Greek Culture at the University of Cambridge",
-            "date": "10 April 2014",
-            "episode_link": "https://www.bbc.co.uk/programmes/b03zr11t"
-        },
-        {
-            "topic": "The Amazons",
-            "wiki_link": "https://en.wikipedia.org/wiki/Amazons",
-            "title": "A.G. Leventis Professor of Greek Culture at Cambridge University",
-            "date": "11 April 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01rr7r7"
-        },
-        {
-            "topic": "Xenophon",
-            "wiki_link": "https://en.wikipedia.org/wiki/Xenophon",
-            "title": "A. G. Leventis Professor of Greek Culture at Cambridge University",
-            "date": "26 May 2011",
-            "episode_link": "https://www.bbc.co.uk/programmes/b011cffd"
-        },
-        {
-            "topic": "The Delphic Oracle",
-            "wiki_link": "https://en.wikipedia.org/wiki/Delphic_Oracle",
-            "title": "A. G. Leventis Professor of Greek Culture at Cambridge University",
-            "date": "30 September 2010",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00txj8d"
-        },
-        {
-            "topic": "Sparta",
-            "wiki_link": "https://en.wikipedia.org/wiki/Sparta",
-            "title": "A G Leventis Professor of Greek Culture and a Fellow of Clare College, Cambridge",
-            "date": "19 November 2009",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00nvz72"
-        },
-        {
-            "topic": "History of History",
-            "wiki_link": "https://en.wikipedia.org/wiki/Historiography",
-            "title": "AG Leventis Professor of Greek Culture and Fellow of Clare College, Cambridge",
-            "date": "22 January 2009",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00gryrx"
-        },
-        {
-            "topic": "Aristotle's Politics",
-            "wiki_link": "https://en.wikipedia.org/wiki/Politics_(Aristotle)",
-            "title": "AG Leventis Professor of Greek Culture at the University of Cambridge",
-            "date": "6 November 2008",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00f8530"
-        },
-        {
-            "topic": "Comedy in Ancient Greek Theatre",
-            "wiki_link": "https://en.wikipedia.org/wiki/Ancient_Greek_comedy",
-            "title": "Professor of Greek History at the University of Cambridge",
-            "date": "13 July 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003c1d3"
-        },
-        {
-            "topic": "The Oath",
-            "wiki_link": "https://en.wikipedia.org/wiki/Oath",
-            "title": "Professor of Greek History at the University of Cambridge",
-            "date": "5 January 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003wtk7"
-        },
-        {
-            "topic": "Heroism",
-            "wiki_link": "https://en.wikipedia.org/wiki/Heroism",
-            "title": "Professor of Greek History at the University of Cambridge",
-            "date": "6 May 2004",
-            "episode_link": "https://www.bbc.co.uk/programmes/p004y282"
-        }
-    ],
     "Jayne Birkby": [
         {
             "topic": "The Habitability of Planets",
@@ -1888,7 +3012,7 @@
         {
             "topic": "The Habitability of Planets",
             "wiki_link": "https://en.wikipedia.org/wiki/Planetary_habitability",
-            "title": "Assistant Professor of Chemistry at Kings College, London",
+            "title": "Assistant Professor of Chemistry at King's College London",
             "date": "12 December 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0025vvd"
         }
@@ -1907,7 +3031,7 @@
             "topic": "Nizami Ganjavi",
             "wiki_link": "https://en.wikipedia.org/wiki/Nizami_Ganjavi",
             "title": "Professor of Persian Literature and Culture at the University of Cambridge",
-            "date": "05 December 2024",
+            "date": "5 December 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0025l1q"
         }
     ],
@@ -1916,7 +3040,7 @@
             "topic": "Nizami Ganjavi",
             "wiki_link": "https://en.wikipedia.org/wiki/Nizami_Ganjavi",
             "title": "Senior Lecturer in Persian Studies at SOAS, University of London",
-            "date": "05 December 2024",
+            "date": "5 December 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0025l1q"
         },
         {
@@ -1932,7 +3056,7 @@
             "topic": "Nizami Ganjavi",
             "wiki_link": "https://en.wikipedia.org/wiki/Nizami_Ganjavi",
             "title": "Professor of Persian Literature and Iranian Culture at the University of Oxford.",
-            "date": "05 December 2024",
+            "date": "5 December 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0025l1q"
         }
     ],
@@ -2064,7 +3188,7 @@
             "topic": "George Herbert",
             "wiki_link": "https://en.wikipedia.org/wiki/George_Herbert",
             "title": "Professor Emerita of English Literature at Bangor University",
-            "date": "07 November 2024",
+            "date": "7 November 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0024lyy"
         }
     ],
@@ -2073,7 +3197,7 @@
             "topic": "George Herbert",
             "wiki_link": "https://en.wikipedia.org/wiki/George_Herbert",
             "title": "Formerly Professor of Early Modern Latin and English at UCL",
-            "date": "07 November 2024",
+            "date": "7 November 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0024lyy"
         }
     ],
@@ -2082,7 +3206,7 @@
             "topic": "George Herbert",
             "wiki_link": "https://en.wikipedia.org/wiki/George_Herbert",
             "title": "Director of Music and Director of Studies in English at Peterhouse, University of Cambridge.",
-            "date": "07 November 2024",
+            "date": "7 November 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0024lyy"
         }
     ],
@@ -2314,7 +3438,7 @@
             "topic": "Four Quartets",
             "wiki_link": "https://en.wikipedia.org/wiki/Four_Quartets",
             "title": "Professor of Modern Poetry at Queen's University Belfast",
-            "date": "21 December 2016",
+            "date": "22 December 2016",
             "episode_link": "https://www.bbc.co.uk/programmes/b0858w43"
         },
         {
@@ -2518,7 +3642,7 @@
             "topic": "Bacteriophages",
             "wiki_link": "https://en.wikipedia.org/wiki/Bacteriophage",
             "title": "Director for the Centre for Phage Research and Professor of Microbiology at the University of Leicester",
-            "date": "04 July 2024",
+            "date": "4 July 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0020pf0"
         }
     ],
@@ -2527,7 +3651,7 @@
             "topic": "Bacteriophages",
             "wiki_link": "https://en.wikipedia.org/wiki/Bacteriophage",
             "title": "Professor of Environmental Microbiology at the University of Brighton",
-            "date": "04 July 2024",
+            "date": "4 July 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0020pf0"
         }
     ],
@@ -2536,7 +3660,7 @@
             "topic": "Bacteriophages",
             "wiki_link": "https://en.wikipedia.org/wiki/Bacteriophage",
             "title": "Historian and Chargé de Recherche at the French National Institute of Health and Medical Research's CERMES3 Unit in Paris.",
-            "date": "04 July 2024",
+            "date": "4 July 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m0020pf0"
         }
     ],
@@ -2622,7 +3746,7 @@
             "topic": "The Orkneyinga Saga",
             "wiki_link": "https://en.wikipedia.org/wiki/Orkneyinga_saga",
             "title": "Professor of Viking Studies at the University of Nottingham",
-            "date": "06 June 2024",
+            "date": "6 June 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001zvvp"
         },
         {
@@ -2638,7 +3762,7 @@
             "topic": "The Orkneyinga Saga",
             "wiki_link": "https://en.wikipedia.org/wiki/Orkneyinga_saga",
             "title": "Archaeologist and Research Associate at Oxford and Newcastle Universities",
-            "date": "06 June 2024",
+            "date": "6 June 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001zvvp"
         }
     ],
@@ -2847,7 +3971,7 @@
             "topic": "Sir Thomas Wyatt",
             "wiki_link": "https://en.wikipedia.org/wiki/Thomas_Wyatt_(poet)",
             "title": "50th Anniversary Professor of English at the University of York",
-            "date": "09 May 2024",
+            "date": "9 May 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001yxk8"
         }
     ],
@@ -2856,7 +3980,7 @@
             "topic": "Sir Thomas Wyatt",
             "wiki_link": "https://en.wikipedia.org/wiki/Thomas_Wyatt_(poet)",
             "title": "Retired Fellow at Lincoln College, University of Oxford",
-            "date": "09 May 2024",
+            "date": "9 May 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001yxk8"
         }
     ],
@@ -2865,7 +3989,7 @@
             "topic": "Sir Thomas Wyatt",
             "wiki_link": "https://en.wikipedia.org/wiki/Thomas_Wyatt_(poet)",
             "title": "Professor of English Literature at the University of Oxford",
-            "date": "09 May 2024",
+            "date": "9 May 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001yxk8"
         },
         {
@@ -2944,7 +4068,7 @@
             "topic": "Mercury",
             "wiki_link": "https://en.wikipedia.org/wiki/Mercury_(planet)",
             "title": "Professor of Planetary Plasma Physics and Director of the Institute for Space at the University of Leicester",
-            "date": "02 May 2024",
+            "date": "2 May 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001yqp3"
         }
     ],
@@ -2953,7 +4077,7 @@
             "topic": "Mercury",
             "wiki_link": "https://en.wikipedia.org/wiki/Mercury_(planet)",
             "title": "Professor of Planetary Geosciences at the Open University",
-            "date": "02 May 2024",
+            "date": "2 May 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001yqp3"
         }
     ],
@@ -2962,7 +4086,7 @@
             "topic": "Mercury",
             "wiki_link": "https://en.wikipedia.org/wiki/Mercury_(planet)",
             "title": "Emeritus Fellow of Emmanuel College, University of Cambridge, and Emeritus Member of the Institute of Astronomy, Cambridge",
-            "date": "02 May 2024",
+            "date": "2 May 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001yqp3"
         },
         {
@@ -3188,7 +4312,7 @@
             "topic": "Nikola Tesla",
             "wiki_link": "https://en.wikipedia.org/wiki/Nikola_Tesla",
             "title": "Emeritus Fellow of Darwin College, University of Cambridge",
-            "date": "04 April 2024",
+            "date": "4 April 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001xvhb"
         },
         {
@@ -3365,7 +4489,7 @@
             "topic": "Nikola Tesla",
             "wiki_link": "https://en.wikipedia.org/wiki/Nikola_Tesla",
             "title": "Historian and author of Empires of Light: Edison, Tesla, Westinghouse and the Race to Electrify the World",
-            "date": "04 April 2024",
+            "date": "4 April 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001xvhb"
         }
     ],
@@ -3374,7 +4498,7 @@
             "topic": "Nikola Tesla",
             "wiki_link": "https://en.wikipedia.org/wiki/Nikola_Tesla",
             "title": "Professor of History at Aberystwyth University",
-            "date": "04 April 2024",
+            "date": "4 April 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001xvhb"
         },
         {
@@ -3437,7 +4561,7 @@
         {
             "topic": "Early Christian Martyrdom",
             "wiki_link": "https://en.wikipedia.org/wiki/Christian_martyr",
-            "title": "Senior Lecturer in Classics, History and Liberal Arts at  King's College London",
+            "title": "Senior Lecturer in Classics, History and Liberal Arts at King's College London",
             "date": "28 April 2022",
             "episode_link": "https://www.bbc.co.uk/programmes/m0016ptt"
         }
@@ -3506,7 +4630,7 @@
             "topic": "The Mokrani Revolt",
             "wiki_link": "https://en.wikipedia.org/wiki/Mokrani_Revolt",
             "title": "Associate Professor of the History of Modern France and the Francophone World, Fellow of University College, University of Oxford",
-            "date": "07 March 2024",
+            "date": "7 March 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001wymz"
         }
     ],
@@ -3515,7 +4639,7 @@
             "topic": "The Mokrani Revolt",
             "wiki_link": "https://en.wikipedia.org/wiki/Mokrani_Revolt",
             "title": "Senior Lecturer in Global Economic and Social History at the University of Glasgow",
-            "date": "07 March 2024",
+            "date": "7 March 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001wymz"
         }
     ],
@@ -3524,7 +4648,7 @@
             "topic": "The Mokrani Revolt",
             "wiki_link": "https://en.wikipedia.org/wiki/Mokrani_Revolt",
             "title": "Senior Lecturer in French and Francophone History at the University of Leeds",
-            "date": "07 March 2024",
+            "date": "7 March 2024",
             "episode_link": "https://www.bbc.co.uk/programmes/m001wymz"
         }
     ],
@@ -3879,43 +5003,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m001thzh"
         }
     ],
-    "Matthew Nicholls": [
-        {
-            "topic": "Tiberius",
-            "wiki_link": "https://en.wikipedia.org/wiki/Tiberius",
-            "title": "Senior Tutor at St. John's College, University of Oxford",
-            "date": "14 December 2023",
-            "episode_link": "https://www.bbc.co.uk/programmes/m001t9j8"
-        },
-        {
-            "topic": "Battle of the Teutoburg Forest",
-            "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
-            "title": "Fellow and Senior Tutor St John's College, Oxford",
-            "date": "13 February 2020",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000f69q"
-        },
-        {
-            "topic": "Nero",
-            "wiki_link": "https://en.wikipedia.org/wiki/Nero",
-            "title": "Fellow and Senior Tutor at St John's College, Oxford",
-            "date": "25 April 2019",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0004cp7"
-        },
-        {
-            "topic": "Agrippina the Younger",
-            "wiki_link": "https://en.wikipedia.org/wiki/Agrippina_the_Younger",
-            "title": "associate professor of Classics at the University of Reading",
-            "date": "31 March 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b074yzwk"
-        },
-        {
-            "topic": "The Library of Alexandria",
-            "wiki_link": "https://en.wikipedia.org/wiki/Library_of_Alexandria",
-            "title": "Lecturer in Classics at the University of Reading",
-            "date": "12 March 2009",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00j0q53"
-        }
-    ],
     "Shushma Malik": [
         {
             "topic": "Tiberius",
@@ -3937,7 +5024,7 @@
             "topic": "Karl Barth",
             "wiki_link": "https://en.wikipedia.org/wiki/Karl_Barth",
             "title": "Dean and Runcie Fellow at Trinity Hall, University of Cambridge",
-            "date": "07 December 2023",
+            "date": "7 December 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001t2zf"
         },
         {
@@ -3967,7 +5054,7 @@
             "topic": "Karl Barth",
             "wiki_link": "https://en.wikipedia.org/wiki/Karl_Barth",
             "title": "Professor for Systematic Theology at the University of Zurich",
-            "date": "07 December 2023",
+            "date": "7 December 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001t2zf"
         }
     ],
@@ -3976,7 +5063,7 @@
             "topic": "Karl Barth",
             "wiki_link": "https://en.wikipedia.org/wiki/Karl_Barth",
             "title": "Marischal Professor of Divinity at the University of Aberdeen",
-            "date": "07 December 2023",
+            "date": "7 December 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001t2zf"
         },
         {
@@ -4053,7 +5140,7 @@
             "topic": "The Barbary Corsairs",
             "wiki_link": "https://en.wikipedia.org/wiki/Barbary_pirates",
             "title": "Research Associate at SOAS, University of London",
-            "date": "09 November 2023",
+            "date": "9 November 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001s5ds"
         }
     ],
@@ -4062,7 +5149,7 @@
             "topic": "The Barbary Corsairs",
             "wiki_link": "https://en.wikipedia.org/wiki/Barbary_pirates",
             "title": "Former Associate Professor of History at St Mary's University, Twickenham",
-            "date": "09 November 2023",
+            "date": "9 November 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001s5ds"
         },
         {
@@ -4078,7 +5165,7 @@
             "topic": "The Barbary Corsairs",
             "wiki_link": "https://en.wikipedia.org/wiki/Barbary_pirates",
             "title": "Associate Professor in the History of the Ottoman Empire and the Modern Middle East at the University of Greenwich",
-            "date": "09 November 2023",
+            "date": "9 November 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001s5ds"
         }
     ],
@@ -4087,7 +5174,7 @@
             "topic": "Aristotle's Nicomachean Ethics",
             "wiki_link": "https://en.wikipedia.org/wiki/Nicomachean_Ethics",
             "title": "Director of the Oxford Uehiro Centre for Practical Ethics, Professor of Moral Philosophy and Tutor in Philosophy at St Anne's College, University of Oxford",
-            "date": "02 November 2023",
+            "date": "2 November 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001rylh"
         },
         {
@@ -4103,7 +5190,7 @@
             "topic": "Aristotle's Nicomachean Ethics",
             "wiki_link": "https://en.wikipedia.org/wiki/Nicomachean_Ethics",
             "title": "Senior Lecturer in Philosophy at Birkbeck, University of London",
-            "date": "02 November 2023",
+            "date": "2 November 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001rylh"
         },
         {
@@ -4148,43 +5235,6 @@
             "title": "Professor of Christian Spirituality at the Oblate School of Theology, Texas and Senior Research Associate of the Von Hügel Institute, University of Cambridge",
             "date": "19 October 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001rgs4"
-        }
-    ],
-    "Frank Cogliano": [
-        {
-            "topic": "The Federalist Papers",
-            "wiki_link": "https://en.wikipedia.org/wiki/The_Federalist_Papers",
-            "title": "Professor of American History at the University of Edinburgh and Interim Saunders Director of the International Centre for Jefferson Studies at Monticello",
-            "date": "12 October 2023",
-            "episode_link": "https://www.bbc.co.uk/programmes/m001r7sv"
-        },
-        {
-            "topic": "The Franco-American Alliance 1778",
-            "wiki_link": "https://en.wikipedia.org/wiki/Franco-American_alliance",
-            "title": "Professor of American History at the University of Edinburgh",
-            "date": "22 April 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000v99n"
-        },
-        {
-            "topic": "The Mexican-American War",
-            "wiki_link": "https://en.wikipedia.org/wiki/The_Mexican-American_War",
-            "title": "Professor of American History at the University of Edinburgh",
-            "date": "28 June 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0b7d18j"
-        },
-        {
-            "topic": "The California Gold Rush",
-            "wiki_link": "https://en.wikipedia.org/wiki/California_Gold_Rush",
-            "title": "Professor of American History at the University of Edinburgh",
-            "date": "2 April 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b05nxgdd"
-        },
-        {
-            "topic": "The War of 1812",
-            "wiki_link": "https://en.wikipedia.org/wiki/War_of_1812",
-            "title": "Professor of American History at the University of Edinburgh",
-            "date": "31 January 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01q95s0"
         }
     ],
     "Kathleen Burk": [
@@ -4285,7 +5335,7 @@
             "topic": "Frederick Douglass",
             "wiki_link": "https://en.wikipedia.org/wiki/Frederick_Douglass",
             "title": "Reader in North American History at the University of Cambridge",
-            "date": "9 February 2018",
+            "date": "8 February 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09qb0kc"
         },
         {
@@ -4301,7 +5351,7 @@
             "topic": "Plankton",
             "wiki_link": "https://en.wikipedia.org/wiki/Plankton",
             "title": "Professor of Marine Sciences at the University of East Anglia",
-            "date": "05 October 2023",
+            "date": "5 October 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001r1t5"
         }
     ],
@@ -4310,7 +5360,7 @@
             "topic": "Plankton",
             "wiki_link": "https://en.wikipedia.org/wiki/Plankton",
             "title": "Associate Professor of Marine Conservation at the University of Plymouth",
-            "date": "05 October 2023",
+            "date": "5 October 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001r1t5"
         }
     ],
@@ -4319,7 +5369,7 @@
             "topic": "Plankton",
             "wiki_link": "https://en.wikipedia.org/wiki/Plankton",
             "title": "Lecturer in Marine Biology at Swansea University",
-            "date": "05 October 2023",
+            "date": "5 October 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001r1t5"
         }
     ],
@@ -4458,7 +5508,7 @@
         {
             "topic": "Elizabeth Anscombe",
             "wiki_link": "https://en.wikipedia.org/wiki/G._E._M._Anscombe",
-            "title": "Lecturer in Philosophy at  St Hilda's College, University of Oxford",
+            "title": "Lecturer in Philosophy at St Hilda's College, University of Oxford",
             "date": "22 June 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001n1yy"
         }
@@ -4495,7 +5545,7 @@
             "topic": "Oedipus Rex",
             "wiki_link": "https://en.wikipedia.org/wiki/Oedipus_Rex",
             "title": "Reader in Classical Literature at Royal Holloway, University of London",
-            "date": "08 June 2023",
+            "date": "8 June 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001mlm4"
         },
         {
@@ -4539,7 +5589,7 @@
             "topic": "Oedipus Rex",
             "wiki_link": "https://en.wikipedia.org/wiki/Oedipus_Rex",
             "title": "Professor of Classical Reception and Fellow of St Hilda's College at the University of Oxford",
-            "date": "08 June 2023",
+            "date": "8 June 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001mlm4"
         }
     ],
@@ -4548,7 +5598,7 @@
             "topic": "Oedipus Rex",
             "wiki_link": "https://en.wikipedia.org/wiki/Oedipus_Rex",
             "title": "Professor of Classics at Durham University",
-            "date": "08 June 2023",
+            "date": "8 June 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001mlm4"
         },
         {
@@ -4683,7 +5733,7 @@
             "topic": "Mitochondria",
             "wiki_link": "https://en.wikipedia.org/wiki/Mitochondrion",
             "title": "Professor of Mitochondrial Redox Biology at the University of Cambridge",
-            "date": "01 June 2023",
+            "date": "1 June 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001md34"
         },
         {
@@ -4699,7 +5749,7 @@
             "topic": "Mitochondria",
             "wiki_link": "https://en.wikipedia.org/wiki/Mitochondrion",
             "title": "NERC Independent Research Fellow at University College London",
-            "date": "01 June 2023",
+            "date": "1 June 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001md34"
         }
     ],
@@ -4708,7 +5758,7 @@
             "topic": "Mitochondria",
             "wiki_link": "https://en.wikipedia.org/wiki/Mitochondrion",
             "title": "Professor of Evolutionary Biochemistry at University College London",
-            "date": "01 June 2023",
+            "date": "1 June 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001md34"
         },
         {
@@ -4962,7 +6012,7 @@
             "topic": "Four Quartets",
             "wiki_link": "https://en.wikipedia.org/wiki/Four_Quartets",
             "title": "Professor of English and American Literature at University College London",
-            "date": "21 December 2016",
+            "date": "22 December 2016",
             "episode_link": "https://www.bbc.co.uk/programmes/b0858w43"
         }
     ],
@@ -5120,7 +6170,7 @@
         },
         {
             "topic": "Lamarck and Natural Selection",
-            "wiki_link": "https://en.wikipedia.org/wiki/Lamarck",
+            "wiki_link": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lamarck",
             "title": "Professor of Genetics in the Galton Laboratory at University College London and author of Almost Like a Whale: The Origin of Species Updated",
             "date": "26 December 2003",
             "episode_link": "https://www.bbc.co.uk/programmes/p005495d"
@@ -5157,7 +6207,7 @@
         },
         {
             "topic": "The Siege of Orléans",
-            "wiki_link": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans",
+            "wiki_link": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
             "title": "Professor of Medieval History at the University of Southampton",
             "date": "24 May 2007",
             "episode_link": "https://www.bbc.co.uk/programmes/b007l3yq"
@@ -5252,13 +6302,20 @@
             "episode_link": "https://www.bbc.co.uk/programmes/p005487n"
         }
     ],
-    "Michele Barrett": [
+    "Michèle Barrett": [
         {
             "topic": "A Room of One's Own",
             "wiki_link": "https://en.wikipedia.org/wiki/A_Room_of_One%27s_Own",
             "title": "Emeritus Professor of Modern Literary and Cultural Theory at Queen Mary University of London",
             "date": "30 March 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001kh32"
+        },
+        {
+            "topic": "Aldous Huxley's Brave New World",
+            "wiki_link": "https://en.wikipedia.org/wiki/Aldous_Huxley",
+            "title": "Professor of Modern Literary and Cultural Theory at Queen Mary, University of London",
+            "date": "9 April 2009",
+            "episode_link": "https://www.bbc.co.uk/programmes/b00jn8bc"
         }
     ],
     "Alexandra Harris": [
@@ -5422,7 +6479,7 @@
             "topic": "Megaliths",
             "wiki_link": "https://en.wikipedia.org/wiki/Megaliths",
             "title": "Professor of Neolithic Archaeology at the University of Central Lancashire",
-            "date": "2 Mar 2023",
+            "date": "2 March 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001jkzg"
         }
     ],
@@ -5431,7 +6488,7 @@
             "topic": "Megaliths",
             "wiki_link": "https://en.wikipedia.org/wiki/Megaliths",
             "title": "Professor of Archaeology at the University of Manchester",
-            "date": "2 Mar 2023",
+            "date": "2 March 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001jkzg"
         }
     ],
@@ -5440,7 +6497,7 @@
             "topic": "Megaliths",
             "wiki_link": "https://en.wikipedia.org/wiki/Megaliths",
             "title": "Lecturer in Archaeology at the University of Exeter",
-            "date": "2 Mar 2023",
+            "date": "2 March 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001jkzg"
         }
     ],
@@ -5449,7 +6506,7 @@
             "topic": "Paul Erdős",
             "wiki_link": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
             "title": "Professor of Pure Mathematics at the University of St Andrews",
-            "date": "23 Feb 2023",
+            "date": "23 February 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001jc68"
         },
         {
@@ -5535,7 +6592,7 @@
             "topic": "Paul Erdős",
             "wiki_link": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
             "title": "Professor of Mathematics at the Collège de France in Paris and Fellow of Trinity College, Cambridge",
-            "date": "23 Feb 2023",
+            "date": "23 February 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001jc68"
         },
         {
@@ -5565,7 +6622,7 @@
             "topic": "Paul Erdős",
             "wiki_link": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
             "title": "Associate Professor in Mathematics at the University of Birmingham",
-            "date": "23 Feb 2023",
+            "date": "23 February 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001jc68"
         }
     ],
@@ -5574,7 +6631,7 @@
             "topic": "Stevie Smith",
             "wiki_link": "https://en.wikipedia.org/wiki/Stevie_Smith",
             "title": "Associate Professor in the School of Literature, Drama and Creative Writing at the University of East Anglia",
-            "date": "16 Feb 2023",
+            "date": "16 February 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001j45h"
         },
         {
@@ -5590,7 +6647,7 @@
             "topic": "Stevie Smith",
             "wiki_link": "https://en.wikipedia.org/wiki/Stevie_Smith",
             "title": "Lecturer in Twentieth Century Literature at the University of Bristol",
-            "date": "16 Feb 2023",
+            "date": "16 February 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001j45h"
         }
     ],
@@ -5599,7 +6656,7 @@
             "topic": "Stevie Smith",
             "wiki_link": "https://en.wikipedia.org/wiki/Stevie_Smith",
             "title": "Professor of Modern and Contemporary Literature at the University of Southampton",
-            "date": "16 Feb 2023",
+            "date": "16 February 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001j45h"
         }
     ],
@@ -5608,7 +6665,7 @@
             "topic": "Chartism",
             "wiki_link": "https://en.wikipedia.org/wiki/Chartism",
             "title": "Visiting Fellow in History at Newcastle University and Chair of the Society for the Study of Labour History",
-            "date": "9 Feb 2023",
+            "date": "9 February 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001hx7n"
         }
     ],
@@ -5617,7 +6674,7 @@
             "topic": "Chartism",
             "wiki_link": "https://en.wikipedia.org/wiki/Chartism",
             "title": "Professor of Modern British History at the University of East Anglia and President of the Royal Historical Society",
-            "date": "9 Feb 2023",
+            "date": "9 February 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001hx7n"
         },
         {
@@ -5661,7 +6718,7 @@
             "topic": "Chartism",
             "wiki_link": "https://en.wikipedia.org/wiki/Chartism",
             "title": "Reader in Modern British History at Queen Mary University of London",
-            "date": "9 Feb 2023",
+            "date": "9 February 2023",
             "episode_link": "https://www.bbc.co.uk/programmes/m001hx7n"
         }
     ],
@@ -5827,7 +6884,7 @@
             "topic": "Middlemarch",
             "wiki_link": "https://en.wikipedia.org/wiki/Middlemarch",
             "title": "Emeritus Quain Professor of English Language and Literature at University College London",
-            "date": "18 April 2018",
+            "date": "19 April 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09z1dd7"
         },
         {
@@ -6010,22 +7067,6 @@
             "title": "Reader in English and American Literature at the University of Warwick",
             "date": "5 December 2002",
             "episode_link": "https://www.bbc.co.uk/programmes/p00548ln"
-        }
-    ],
-    "Fiona Stafford": [
-        {
-            "topic": "Persuasion",
-            "wiki_link": "https://en.wikipedia.org/wiki/Persuasion_(novel)",
-            "title": "Professor of English Language and Literature at the University of Oxford",
-            "date": "22 December 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m001g9cv"
-        },
-        {
-            "topic": "Robert Burns",
-            "wiki_link": "https://en.wikipedia.org/wiki/Robert_Burns",
-            "title": "Professor of English at the University of Oxford",
-            "date": "24 October 2019",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0009kkn"
         }
     ],
     "Paddy Bullard": [
@@ -6377,7 +7418,7 @@
             "topic": "Middlemarch",
             "wiki_link": "https://en.wikipedia.org/wiki/Middlemarch",
             "title": "Professor of Nineteenth-Century Literature at the University of York",
-            "date": "18 April 2018",
+            "date": "19 April 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09z1dd7"
         },
         {
@@ -6830,28 +7871,12 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m00168lg"
         }
     ],
-    "Mark Maslin": [
-        {
-            "topic": "Homo erectus",
-            "wiki_link": "https://en.wikipedia.org/wiki/Homo_erectus",
-            "title": "Professor of Earth System Science at University College London",
-            "date": "14 April 2022",
-            "episode_link": "https://www.bbc.co.uk/programmes/m00168lg"
-        },
-        {
-            "topic": "The Paleocene-Eocene Thermal Maximum",
-            "wiki_link": "https://en.wikipedia.org/wiki/Paleocene%E2%80%93Eocene_Thermal_Maximum",
-            "title": "Professor of Palaeoclimatology at University College London",
-            "date": "16 March 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b08hpmmf"
-        }
-    ],
     "Nick Groom": [
         {
             "topic": "Polidori's The Vampyre",
             "wiki_link": "https://en.wikipedia.org/wiki/John_William_Polidori",
             "title": "Professor of Literature in English at the University of Macau",
-            "date": "07 April 2022",
+            "date": "7 April 2022",
             "episode_link": "https://www.bbc.co.uk/programmes/m00162xz"
         },
         {
@@ -6867,7 +7892,7 @@
             "topic": "Polidori's The Vampyre",
             "wiki_link": "https://en.wikipedia.org/wiki/John_William_Polidori",
             "title": "Associate Professor of Research in Literature at the University of Hertfordshire",
-            "date": "07 April 2022",
+            "date": "7 April 2022",
             "episode_link": "https://www.bbc.co.uk/programmes/m00162xz"
         }
     ],
@@ -6876,7 +7901,7 @@
             "topic": "Polidori's The Vampyre",
             "wiki_link": "https://en.wikipedia.org/wiki/John_William_Polidori",
             "title": "Professor of Central European History at University College London",
-            "date": "07 April 2022",
+            "date": "7 April 2022",
             "episode_link": "https://www.bbc.co.uk/programmes/m00162xz"
         },
         {
@@ -7494,7 +8519,7 @@
             "topic": "Plato's Symposium",
             "wiki_link": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
             "title": "Director of Studies in Philosophy at Christ's College, Cambridge",
-            "date": "3 January 2014",
+            "date": "2 January 2014",
             "episode_link": "https://www.bbc.co.uk/programmes/b03mhyzk"
         }
     ],
@@ -7530,71 +8555,6 @@
             "title": "Senior Lecturer in English at Queen's University Belfast",
             "date": "18 November 2021",
             "episode_link": "https://www.bbc.co.uk/programmes/m0011lrn"
-        }
-    ],
-    "Monica Grady": [
-        {
-            "topic": "William and Caroline Herschel",
-            "wiki_link": "https://en.wikipedia.org/wiki/William_Herschel",
-            "title": "Professor of Planetary and Space Sciences at the Open University",
-            "date": "11 November 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0011c4p"
-        },
-        {
-            "topic": "The Kuiper belt",
-            "wiki_link": "https://en.wikipedia.org/wiki/Kuiper_belt",
-            "title": "Professor of Planetary and Space Sciences at the Open University",
-            "date": "2 March 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b08g7ttx"
-        },
-        {
-            "topic": "Extremophiles",
-            "wiki_link": "https://en.wikipedia.org/wiki/Extremophiles",
-            "title": "Professor of Planetary and Space Sciences at the Open University",
-            "date": "25 June 2015",
-            "episode_link": "https://www.bbc.co.uk/programmes/b05zl3v2"
-        },
-        {
-            "topic": "Comets",
-            "wiki_link": "https://en.wikipedia.org/wiki/Comet",
-            "title": "Professor of Planetary and Space Sciences at the Open University",
-            "date": "17 January 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01pw38n"
-        },
-        {
-            "topic": "The Physics of Time",
-            "wiki_link": "https://en.wikipedia.org/wiki/Time_in_physics",
-            "title": "Professor of Planetary and Space Sciences at the Open University",
-            "date": "18 December 2008",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00g0nmw"
-        },
-        {
-            "topic": "Mars",
-            "wiki_link": "https://en.wikipedia.org/wiki/Mars",
-            "title": "Professor of Planetary and Space Sciences at the Open University and an expert on Martian meteorites",
-            "date": "11 January 2007",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00772rr"
-        },
-        {
-            "topic": "Carbon",
-            "wiki_link": "https://en.wikipedia.org/wiki/Carbon",
-            "title": "Professor of Planetary and Space Sciences at the Open University",
-            "date": "15 June 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003c1cj"
-        },
-        {
-            "topic": "Asteroids",
-            "wiki_link": "https://en.wikipedia.org/wiki/Asteroids",
-            "title": "Professor of Planetary and Space Sciences, Open University",
-            "date": "3 November 2005",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003k9kh"
-        },
-        {
-            "topic": "The Second Law of Thermodynamics",
-            "wiki_link": "https://en.wikipedia.org/wiki/Second_Law_of_Thermodynamics",
-            "title": "Head of Petrology and Meteoritics at the Natural History Museum",
-            "date": "16 December 2004",
-            "episode_link": "https://www.bbc.co.uk/programmes/p004y2bm"
         }
     ],
     "Jim Bennett": [
@@ -7948,50 +8908,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/b0952zl3"
         }
     ],
-    "Clare Jackson": [
-        {
-            "topic": "The Interregnum",
-            "wiki_link": "https://en.wikipedia.org/wiki/Interregnum_(1649%E2%80%931660)",
-            "title": "Senior Tutor at Trinity Hall, University of Cambridge",
-            "date": "27 May 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000wcxn"
-        },
-        {
-            "topic": "The Treaty of Limerick",
-            "wiki_link": "https://en.wikipedia.org/wiki/Treaty_of_Limerick",
-            "title": "Member of the History Faculty at the University of Cambridge and Senior Tutor of Trinity Hall",
-            "date": "7 November 2019",
-            "episode_link": "https://www.bbc.co.uk/programmes/m0009ywn"
-        },
-        {
-            "topic": "Titus Oates and his 'Popish Plot'",
-            "wiki_link": "https://en.wikipedia.org/wiki/Titus_Oates",
-            "title": "Senior Tutor and Director of Studies in History at Trinity Hall, University of Cambridge",
-            "date": "12 May 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b079rbcj"
-        },
-        {
-            "topic": "The Death of Elizabeth I",
-            "wiki_link": "https://en.wikipedia.org/wiki/Elizabeth_I_of_England",
-            "title": "Lecturer and Director of Studies in History at Trinity Hall, University of Cambridge",
-            "date": "15 October 2009",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00n5nqr"
-        },
-        {
-            "topic": "The Divine Right of Kings",
-            "wiki_link": "https://en.wikipedia.org/wiki/Divine_Right_of_Kings",
-            "title": "Lecturer and Director of Studies in History at Trinity Hall, Cambridge",
-            "date": "11 October 2007",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0080xph"
-        },
-        {
-            "topic": "The Restoration",
-            "wiki_link": "https://en.wikipedia.org/wiki/English_Restoration",
-            "title": "lecturer and Director of Studies in History, Trinity Hall, Cambridge",
-            "date": "15 February 2001",
-            "episode_link": "https://www.bbc.co.uk/programmes/p00547bx"
-        }
-    ],
     "Micheál Ó Siochrú": [
         {
             "topic": "The Interregnum",
@@ -8190,7 +9106,7 @@
             "topic": "Catullus",
             "wiki_link": "https://en.wikipedia.org/wiki/Catullus",
             "title": "Professor of Latin at University College London",
-            "date": "11 January 2020",
+            "date": "9 January 2020",
             "episode_link": "https://www.bbc.co.uk/programmes/m000d1rg"
         },
         {
@@ -8248,7 +9164,7 @@
             "topic": "Catullus",
             "wiki_link": "https://en.wikipedia.org/wiki/Catullus",
             "title": "Brown Fellow and Tutor in Classics at Trinity College at the University of Oxford",
-            "date": "11 January 2020",
+            "date": "9 January 2020",
             "episode_link": "https://www.bbc.co.uk/programmes/m000d1rg"
         }
     ],
@@ -8456,113 +9372,6 @@
             "title": "Theologian and Director of the International Consultancy on Religion, Education and Culture",
             "date": "6 June 2002",
             "episode_link": "https://www.bbc.co.uk/programmes/p00548g4"
-        }
-    ],
-    "Marcus du Sautoy": [
-        {
-            "topic": "Pierre-Simon Laplace",
-            "wiki_link": "https://en.wikipedia.org/wiki/Pierre-Simon_Laplace",
-            "title": "Simonyi Professor for the Public Understanding of Science and Professor of Mathematics at the University of Oxford",
-            "date": "8 April 2021",
-            "episode_link": "https://www.bbc.co.uk/programmes/m000twgj"
-        },
-        {
-            "topic": "Carl Friedrich Gauss",
-            "wiki_link": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss",
-            "title": "Professor of Mathematics and Simonyi Professor for the Public Understanding of Science at the University of Oxford",
-            "date": "30 November 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b09gbnfj"
-        },
-        {
-            "topic": "Zeno's paradoxes",
-            "wiki_link": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes",
-            "title": "Professor of Mathematics and Simonyi Professor for the Public Understanding of Science at the University of Oxford",
-            "date": "22 September 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b07vs3v1"
-        },
-        {
-            "topic": "Euclid's Elements",
-            "wiki_link": "https://en.wikipedia.org/wiki/Euclid%27s_Elements",
-            "title": "Professor of Mathematics and Simonyi Professor for the Public Understanding of Science at the University of Oxford",
-            "date": "28 April 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b07881kn"
-        },
-        {
-            "topic": "Fermat's Last Theorem",
-            "wiki_link": "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem",
-            "title": "Professor of Mathematics & Simonyi Professor for the Public Understanding of Science at the University of Oxford",
-            "date": "25 October 2012",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01ngn3j"
-        },
-        {
-            "topic": "Random and Pseudorandom",
-            "wiki_link": "https://en.wikipedia.org/wiki/Random",
-            "title": "Professor of Mathematics at the University of Oxford",
-            "date": "13 January 2011",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00x9xjb"
-        },
-        {
-            "topic": "Imaginary numbers",
-            "wiki_link": "https://en.wikipedia.org/wiki/Complex_numbers",
-            "title": "Professor of Mathematics at Oxford University",
-            "date": "23 September 2010",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00tt6b2"
-        },
-        {
-            "topic": "The Unintended Consequences of Mathematics",
-            "wiki_link": "https://en.wikipedia.org/wiki/Law_of_Unintended_Consequences",
-            "title": "Charles Simonyi Professor for the Public Understanding of Science and Professor of Mathematics at the University of Oxford",
-            "date": "11 February 2010",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00qj2nq"
-        },
-        {
-            "topic": "Gödel's Incompleteness Theorems",
-            "wiki_link": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_Incompleteness_Theorems",
-            "title": "Professor of Mathematics at Wadham College, University of Oxford",
-            "date": "9 October 2008",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00dshx3"
-        },
-        {
-            "topic": "Probability",
-            "wiki_link": "https://en.wikipedia.org/wiki/Probability",
-            "title": "Professor of Mathematics at the University of Oxford",
-            "date": "29 May 2008",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00bqf61"
-        },
-        {
-            "topic": "The Fibonacci Sequence",
-            "wiki_link": "https://en.wikipedia.org/wiki/Fibonacci_Sequence",
-            "title": "Professor of Mathematics at the University of Oxford",
-            "date": "29 November 2007",
-            "episode_link": "https://www.bbc.co.uk/programmes/b008ct2j"
-        },
-        {
-            "topic": "Symmetry",
-            "wiki_link": "https://en.wikipedia.org/wiki/Symmetry",
-            "title": "Professor of Mathematics at the University of Oxford",
-            "date": "19 April 2007",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00776v8"
-        },
-        {
-            "topic": "The Poincaré conjecture",
-            "wiki_link": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
-            "title": "Professor of Mathematics at the University of Oxford",
-            "date": "2 November 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p0038x8l"
-        },
-        {
-            "topic": "Mathematics and Music",
-            "wiki_link": "https://en.wikipedia.org/wiki/Mathematics_and_Music",
-            "title": "Professor of Mathematics at the University of Oxford",
-            "date": "25 May 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003c1b9"
-        },
-        {
-            "topic": "Prime Numbers",
-            "wiki_link": "https://en.wikipedia.org/wiki/Prime_Numbers",
-            "title": "Professor of Mathematics and Fellow of Wadham College at the University of Oxford",
-            "date": "12 January 2006",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003hyf5"
         }
     ],
     "Naoko Shimazu": [
@@ -9389,7 +10198,7 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m000qmnj"
         }
     ],
-    "Sun Peidong": [
+    "Peidong Sun": [
         {
             "topic": "The Cultural Revolution",
             "wiki_link": "https://en.wikipedia.org/wiki/The_Cultural_Revolution",
@@ -9939,7 +10748,7 @@
     "Andrew Coates": [
         {
             "topic": "Solar Wind",
-            "wiki_link": "https://en.wikipedia.org/wiki/Solar_Wind",
+            "wiki_link": "https://en.wikipedia.org/wiki/Solar_wind",
             "title": "Professor of Physics and Deputy Director in charge of the Solar System at the Mullard Space Science Laboratory, University College London",
             "date": "23 January 2020",
             "episode_link": "https://www.bbc.co.uk/programmes/m000dg9n"
@@ -9962,7 +10771,7 @@
     "Helen Mason": [
         {
             "topic": "Solar Wind",
-            "wiki_link": "https://en.wikipedia.org/wiki/Solar_Wind",
+            "wiki_link": "https://en.wikipedia.org/wiki/Solar_wind",
             "title": "Reader in Solar Physics at the Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Fellow at St Edmund's College, Cambridge",
             "date": "23 January 2020",
             "episode_link": "https://www.bbc.co.uk/programmes/m000dg9n"
@@ -9971,7 +10780,7 @@
     "Tim Horbury": [
         {
             "topic": "Solar Wind",
-            "wiki_link": "https://en.wikipedia.org/wiki/Solar_Wind",
+            "wiki_link": "https://en.wikipedia.org/wiki/Solar_wind",
             "title": "Professor of Physics at Imperial College London",
             "date": "23 January 2020",
             "episode_link": "https://www.bbc.co.uk/programmes/m000dg9n"
@@ -10037,7 +10846,7 @@
             "topic": "Catullus",
             "wiki_link": "https://en.wikipedia.org/wiki/Catullus",
             "title": "Reader in Creative Writing at the University of Kent, poet and translator of Catullus",
-            "date": "11 January 2020",
+            "date": "9 January 2020",
             "episode_link": "https://www.bbc.co.uk/programmes/m000d1rg"
         }
     ],
@@ -11094,45 +11903,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/m0002cfd"
         }
     ],
-    "Huw Pryce": [
-        {
-            "topic": "Owain Glyndŵr",
-            "wiki_link": "https://en.wikipedia.org/wiki/Owain_Glynd%C5%B5r",
-            "title": "Professor of Welsh History at Bangor University",
-            "date": "31 January 2019",
-            "episode_link": "https://www.bbc.co.uk/programmes/m00027xk"
-        },
-        {
-            "topic": "Gerald of Wales",
-            "wiki_link": "https://en.wikipedia.org/wiki/Gerald_of_Wales",
-            "title": "Professor of Welsh History at Bangor University",
-            "date": "4 October 2012",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01n1rbn"
-        }
-    ],
-    "Helen Fulton": [
-        {
-            "topic": "Owain Glyndŵr",
-            "wiki_link": "https://en.wikipedia.org/wiki/Owain_Glynd%C5%B5r",
-            "title": "Professor of Medieval Literature at the University of Bristol",
-            "date": "31 January 2019",
-            "episode_link": "https://www.bbc.co.uk/programmes/m00027xk"
-        },
-        {
-            "topic": "The Mabinogion",
-            "wiki_link": "https://en.wikipedia.org/wiki/Mabinogion",
-            "title": "Professor of Medieval Literature at the University of Bristol",
-            "date": "10 May 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0b1p5k7"
-        },
-        {
-            "topic": "Le Morte d'Arthur",
-            "wiki_link": "https://en.wikipedia.org/wiki/Le_Morte_d%27Arthur",
-            "title": "Professor of Medieval Literature and Head of Department of English and Related Literature at the University of York",
-            "date": "10 January 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01pp989"
-        }
-    ],
     "Chris Given-Wilson": [
         {
             "topic": "Owain Glyndŵr",
@@ -11610,16 +12380,7 @@
             "topic": "Margaret of Anjou",
             "wiki_link": "https://en.wikipedia.org/wiki/Margaret_of_Anjou",
             "title": "Reader in Late Medieval History at the University of Winchester",
-            "date": "25 May 2018",
-            "episode_link": "https://www.bbc.co.uk/programmes/b0b39v6r"
-        }
-    ],
-    "Joanna Laynesmith": [
-        {
-            "topic": "Margaret of Anjou",
-            "wiki_link": "https://en.wikipedia.org/wiki/Margaret_of_Anjou",
-            "title": "Visiting Research Fellow at the University of Reading",
-            "date": "25 May 2018",
+            "date": "24 May 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b0b39v6r"
         }
     ],
@@ -11812,7 +12573,7 @@
             "topic": "Middlemarch",
             "wiki_link": "https://en.wikipedia.org/wiki/Middlemarch",
             "title": "Professor of Life Writing at the University of East Anglia",
-            "date": "18 April 2018",
+            "date": "19 April 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09z1dd7"
         }
     ],
@@ -11821,7 +12582,7 @@
             "topic": "George and Robert Stephenson",
             "wiki_link": "https://en.wikipedia.org/wiki/George_Stephenson",
             "title": "Railway historian and editor of the most recent biography of Robert Stephenson",
-            "date": "11 April 2018",
+            "date": "12 April 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09y6zfr"
         }
     ],
@@ -11830,7 +12591,7 @@
             "topic": "George and Robert Stephenson",
             "wiki_link": "https://en.wikipedia.org/wiki/George_Stephenson",
             "title": "Past President of the Newcomen Society for the History of Engineering and Technology",
-            "date": "11 April 2018",
+            "date": "12 April 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09y6zfr"
         },
         {
@@ -11846,7 +12607,7 @@
             "topic": "George and Robert Stephenson",
             "wiki_link": "https://en.wikipedia.org/wiki/George_Stephenson",
             "title": "Professor Emeritus of Railway Studies at the University of York",
-            "date": "11 April 2018",
+            "date": "12 April 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09y6zfr"
         }
     ],
@@ -12012,7 +12773,7 @@
             "topic": "Frederick Douglass",
             "wiki_link": "https://en.wikipedia.org/wiki/Frederick_Douglass",
             "title": "Professor of Black Studies in the English Department at the University of Edinburgh",
-            "date": "9 February 2018",
+            "date": "8 February 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09qb0kc"
         },
         {
@@ -12028,7 +12789,7 @@
             "topic": "Frederick Douglass",
             "wiki_link": "https://en.wikipedia.org/wiki/Frederick_Douglass",
             "title": "Assistant Professor in Transnational American Studies at the University of Nottingham",
-            "date": "9 February 2018",
+            "date": "8 February 2018",
             "episode_link": "https://www.bbc.co.uk/programmes/b09qb0kc"
         },
         {
@@ -12247,29 +13008,6 @@
             "title": "Reader in Archaeology at the University of Aberdeen",
             "date": "9 November 2017",
             "episode_link": "https://www.bbc.co.uk/programmes/b09cvx7b"
-        }
-    ],
-    "Mary Vincent": [
-        {
-            "topic": "Picasso's Guernica",
-            "wiki_link": "https://en.wikipedia.org/wiki/Picasso%27s_Guernica",
-            "title": "Professor of Modern European History at the University of Sheffield",
-            "date": "2 November 2017",
-            "episode_link": "https://www.bbc.co.uk/programmes/b09bxkdm"
-        },
-        {
-            "topic": "Animal Farm",
-            "wiki_link": "https://en.wikipedia.org/wiki/Animal_Farm",
-            "title": "Professor of Modern European History at the University of Sheffield",
-            "date": "29 September 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b07wgkz4"
-        },
-        {
-            "topic": "The Spanish Civil War",
-            "wiki_link": "https://en.wikipedia.org/wiki/The_Spanish_Civil_War",
-            "title": "Senior Lecturer in the Department of History at Sheffield University",
-            "date": "3 April 2003",
-            "episode_link": "https://www.bbc.co.uk/programmes/p00548wn"
         }
     ],
     "Gijs van Hensbergen": [
@@ -13160,7 +13898,7 @@
             "topic": "Four Quartets",
             "wiki_link": "https://en.wikipedia.org/wiki/Four_Quartets",
             "title": "Emeritus Professor of English and American Literature at the University of York",
-            "date": "21 December 2016",
+            "date": "22 December 2016",
             "episode_link": "https://www.bbc.co.uk/programmes/b0858w43"
         }
     ],
@@ -13323,24 +14061,6 @@
             "title": "Professor of Babylonian at the School of Oriental and African Studies",
             "date": "3 June 2004",
             "episode_link": "https://www.bbc.co.uk/programmes/p004y25j"
-        }
-    ],
-    "Frances Reynolds": [
-        {
-            "topic": "Epic of Gilgamesh",
-            "wiki_link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
-            "title": "Shillito Fellow in Assyriology at the Oriental Institute, University of Oxford and Fellow of St Benet's Hall",
-            "date": "3 November 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b080wbrq"
-        }
-    ],
-    "Martin Worthington": [
-        {
-            "topic": "Epic of Gilgamesh",
-            "wiki_link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
-            "title": "Lecturer in Assyriology at the University of Cambridge",
-            "date": "3 November 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b080wbrq"
         }
     ],
     "Aileen Fyfe": [
@@ -14101,29 +14821,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/b06ztx2w"
         }
     ],
-    "Andrea Sella": [
-        {
-            "topic": "Chromatography",
-            "wiki_link": "https://en.wikipedia.org/wiki/Chromatography",
-            "title": "Professor of Chemistry at University College London",
-            "date": "4 February 2016",
-            "episode_link": "https://www.bbc.co.uk/programmes/b06z4w7p"
-        },
-        {
-            "topic": "States of Matter",
-            "wiki_link": "https://en.wikipedia.org/wiki/States_of_Matter",
-            "title": "Professor of Materials and Inorganic Chemistry at University College London",
-            "date": "3 April 2014",
-            "episode_link": "https://www.bbc.co.uk/programmes/b03zdbr4"
-        },
-        {
-            "topic": "Water",
-            "wiki_link": "https://en.wikipedia.org/wiki/Water",
-            "title": "Professor of Chemistry at University College London",
-            "date": "28 March 2013",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01rgm9g"
-        }
-    ],
     "Apryll Stalcup": [
         {
             "topic": "Chromatography",
@@ -14190,7 +14887,7 @@
             "topic": "Michael Faraday",
             "wiki_link": "https://en.wikipedia.org/wiki/Michael_Faraday",
             "title": "Professor Emeritus of the History of Science at the University of Leeds",
-            "date": "25 December 2015",
+            "date": "24 December 2015",
             "episode_link": "https://www.bbc.co.uk/programmes/b06s9rz9"
         }
     ],
@@ -14199,7 +14896,7 @@
             "topic": "Michael Faraday",
             "wiki_link": "https://en.wikipedia.org/wiki/Michael_Faraday",
             "title": "Professor of Physics at the University of Oxford",
-            "date": "25 December 2015",
+            "date": "24 December 2015",
             "episode_link": "https://www.bbc.co.uk/programmes/b06s9rz9"
         }
     ],
@@ -14208,7 +14905,7 @@
             "topic": "Michael Faraday",
             "wiki_link": "https://en.wikipedia.org/wiki/Michael_Faraday",
             "title": "Professor of the History of Science at the Royal Institution",
-            "date": "25 December 2015",
+            "date": "24 December 2015",
             "episode_link": "https://www.bbc.co.uk/programmes/b06s9rz9"
         },
         {
@@ -14849,7 +15546,7 @@
         {
             "topic": "Al-Ghazali",
             "wiki_link": "https://en.wikipedia.org/wiki/Al-Ghazali",
-            "title": "Professor of Late Ancient and Arabic Philosophy at the Ludwig Maximilian University of Munich",
+            "title": "Professor of Late Ancient and Arabic Philosophy at LMU Munich",
             "date": "19 March 2015",
             "episode_link": "https://www.bbc.co.uk/programmes/b055j9rv"
         },
@@ -15809,15 +16506,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/b01n6s03"
         }
     ],
-    "Josephine Quinn": [
-        {
-            "topic": "The Phoenicians",
-            "wiki_link": "https://en.wikipedia.org/wiki/Phoenicia",
-            "title": "Martin Frederiksen Fellow and Tutor in Ancient History, Worcester College, Oxford",
-            "date": "6 February 2014",
-            "episode_link": "https://www.bbc.co.uk/programmes/b03szw8l"
-        }
-    ],
     "Cyprian Broodbank": [
         {
             "topic": "The Phoenicians",
@@ -15935,7 +16623,7 @@
             "topic": "Plato's Symposium",
             "wiki_link": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
             "title": "Regius Professor of Greek at the University of Cambridge",
-            "date": "3 January 2014",
+            "date": "2 January 2014",
             "episode_link": "https://www.bbc.co.uk/programmes/b03mhyzk"
         }
     ],
@@ -17085,7 +17773,7 @@
             "topic": "The Life of Stars",
             "wiki_link": "https://en.wikipedia.org/wiki/Supernovas",
             "title": "Senior Fellow at the Institute of Astronomy, Cambridge",
-            "date": "27 Mar 2003",
+            "date": "27 March 2003",
             "episode_link": "https://www.bbc.co.uk/programmes/p00548w8"
         }
     ],
@@ -17761,7 +18449,7 @@
             "episode_link": "https://www.bbc.co.uk/programmes/b01gvthf"
         }
     ],
-    "Stephen Gunn": [
+    "Steven Gunn": [
         {
             "topic": "The Battle of Bosworth Field",
             "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Bosworth_Field",
@@ -17782,15 +18470,6 @@
             "title": "Tudor historian and Fellow and Tutor in Modern History, Merton College, Oxford",
             "date": "18 May 2000",
             "episode_link": "https://www.bbc.co.uk/programmes/p00546sp"
-        }
-    ],
-    "David Grummitt": [
-        {
-            "topic": "The Battle of Bosworth Field",
-            "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Bosworth_Field",
-            "title": "Lecturer in British History at the University of Kent",
-            "date": "26 April 2012",
-            "episode_link": "https://www.bbc.co.uk/programmes/b01ghc43"
         }
     ],
     "Anne Sheppard": [
@@ -18192,15 +18871,6 @@
             "title": "Fellow and Tutor in English at Balliol College, University of Oxford,",
             "date": "30 June 2011",
             "episode_link": "https://www.bbc.co.uk/programmes/b0124pnq"
-        }
-    ],
-    "Mark Philp": [
-        {
-            "topic": "Malthusianism",
-            "wiki_link": "https://en.wikipedia.org/wiki/Malthusianism",
-            "title": "Lecturer in Politics at the University of Oxford",
-            "date": "23 June 2011",
-            "episode_link": "https://www.bbc.co.uk/programmes/b011zzh6"
         }
     ],
     "Anthony Kenny": [
@@ -18844,7 +19514,7 @@
         },
         {
             "topic": "Lamarck and Natural Selection",
-            "wiki_link": "https://en.wikipedia.org/wiki/Lamarck",
+            "wiki_link": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lamarck",
             "title": "Professor of Evolutionary Paleobiology at Cambridge University",
             "date": "26 December 2003",
             "episode_link": "https://www.bbc.co.uk/programmes/p005495d"
@@ -19663,15 +20333,6 @@
             "topic": "Aldous Huxley's Brave New World",
             "wiki_link": "https://en.wikipedia.org/wiki/Aldous_Huxley",
             "title": "Professor of History at Birkbeck, University of London",
-            "date": "9 April 2009",
-            "episode_link": "https://www.bbc.co.uk/programmes/b00jn8bc"
-        }
-    ],
-    "Michèle Barrett": [
-        {
-            "topic": "Aldous Huxley's Brave New World",
-            "wiki_link": "https://en.wikipedia.org/wiki/Aldous_Huxley",
-            "title": "Professor of Modern Literary and Cultural Theory at Queen Mary, University of London",
             "date": "9 April 2009",
             "episode_link": "https://www.bbc.co.uk/programmes/b00jn8bc"
         }
@@ -21036,7 +21697,7 @@
     "Malcolm Vale": [
         {
             "topic": "The Siege of Orléans",
-            "wiki_link": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans",
+            "wiki_link": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
             "title": "Fellow and Tutor in History at St John's College, Oxford",
             "date": "24 May 2007",
             "episode_link": "https://www.bbc.co.uk/programmes/b007l3yq"
@@ -21045,7 +21706,7 @@
     "Matthew Bennett": [
         {
             "topic": "The Siege of Orléans",
-            "wiki_link": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans",
+            "wiki_link": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
             "title": "Senior Lecturer at the Royal Military Academy, Sandhurst",
             "date": "24 May 2007",
             "episode_link": "https://www.bbc.co.uk/programmes/b007l3yq"
@@ -21828,7 +22489,7 @@
             "episode_link": "https://www.bbc.co.uk/programmes/p003hyd3"
         }
     ],
-    "Tony Lentin": [
+    "Antony Lentin": [
         {
             "topic": "Catherine the Great",
             "wiki_link": "https://en.wikipedia.org/wiki/Catherine_the_Great",
@@ -21965,15 +22626,6 @@
             "title": "Senior Lecturer in History at the University of Warwick",
             "date": "15 December 2005",
             "episode_link": "https://www.bbc.co.uk/programmes/p003k9l7"
-        }
-    ],
-    "Jon Agar": [
-        {
-            "topic": "Artificial Intelligence",
-            "wiki_link": "https://en.wikipedia.org/wiki/Artificial_Intelligence",
-            "title": "Lecturer in the History and Philosophy of Science, University of Cambridge",
-            "date": "8 December 2005",
-            "episode_link": "https://www.bbc.co.uk/programmes/p003k9fc"
         }
     ],
     "Alison Adam": [
@@ -22707,7 +23359,7 @@
     "Sandy Knapp": [
         {
             "topic": "Lamarck and Natural Selection",
-            "wiki_link": "https://en.wikipedia.org/wiki/Lamarck",
+            "wiki_link": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lamarck",
             "title": "Senior Botanist at the Natural History Museum",
             "date": "26 December 2003",
             "episode_link": "https://www.bbc.co.uk/programmes/p005495d"
@@ -23189,7 +23841,7 @@
             "topic": "The Life of Stars",
             "wiki_link": "https://en.wikipedia.org/wiki/Supernovas",
             "title": "Advanced Fellow in Theoretical Physics in the Department of Applied Mathematics & Theoretical Physics at the University of Cambridge",
-            "date": "27 Mar 2003",
+            "date": "27 March 2003",
             "episode_link": "https://www.bbc.co.uk/programmes/p00548w8"
         },
         {
@@ -23212,7 +23864,7 @@
             "topic": "The Life of Stars",
             "wiki_link": "https://en.wikipedia.org/wiki/Supernovas",
             "title": "Professor of Astronomy at Southampton University",
-            "date": "27 Mar 2003",
+            "date": "27 March 2003",
             "episode_link": "https://www.bbc.co.uk/programmes/p00548w8"
         }
     ],
@@ -23939,7 +24591,7 @@
         {
             "topic": "Confucius",
             "wiki_link": "https://en.wikipedia.org/wiki/Confucius",
-            "title": "Tutorial Fellow in Oriental Studies at Wadham College, Cambridge University",
+            "title": "Tutorial Fellow in Oriental Studies at Wadham College, Oxford University",
             "date": "1 November 2001",
             "episode_link": "https://www.bbc.co.uk/programmes/p00547k8"
         }
@@ -24385,15 +25037,6 @@
             "episode_link": "https://www.bbc.co.uk/programmes/p00546x5"
         }
     ],
-    "Nicholas Roe": [
-        {
-            "topic": "The Romantics",
-            "wiki_link": "https://en.wikipedia.org/wiki/Romantics",
-            "title": "Professor of English, University of St Andrews",
-            "date": "12 October 2000",
-            "episode_link": "https://www.bbc.co.uk/programmes/p00546ws"
-        }
-    ],
     "Ian Kershaw": [
         {
             "topic": "Hitler in History",
@@ -24785,7 +25428,7 @@
     "Amartya Sen": [
         {
             "topic": "Economic Rights",
-            "wiki_link": "https://en.wikipedia.org/w/index.php?title=Economic_Rights&action=edit&redlink=1",
+            "wiki_link": "",
             "title": "Master of Trinity College, Cambridge and winner of the 1998 Nobel Prize in Economic Science",
             "date": "27 January 2000",
             "episode_link": "https://www.bbc.co.uk/programmes/p00546m7"
@@ -24794,7 +25437,7 @@
     "Will Hutton": [
         {
             "topic": "Economic Rights",
-            "wiki_link": "https://en.wikipedia.org/w/index.php?title=Economic_Rights&action=edit&redlink=1",
+            "wiki_link": "",
             "title": "former Editor of The Observer, Director of The Industrial Society and author of The State We're In",
             "date": "27 January 2000",
             "episode_link": "https://www.bbc.co.uk/programmes/p00546m7"
@@ -25225,7 +25868,7 @@
         {
             "topic": "Animal Experiments and Rights",
             "wiki_link": "https://en.wikipedia.org/wiki/Animal_testing",
-            "title": "biologist, teacher at Lancaster and Warwick Universities, and previously worked for 7 years in animal behaviour at the Open University",
+            "title": "biologist, teacher at Lancaster and Warwick Universities, and previously worked for seven years in animal behaviour at the Open University",
             "date": "18 March 1999",
             "episode_link": "https://www.bbc.co.uk/programmes/p00545f8"
         }

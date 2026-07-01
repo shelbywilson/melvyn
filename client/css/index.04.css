@@ -43,11 +43,10 @@ input[type="text"], select {
     width: 200px;
 }
 .buttons--bottom {
-    margin: 4rem 0;
+    margin: 1rem 0;
     display: flex;
     justify-content: center;
-    gap: 0.25rem;
-    display: none;
+    gap: 1rem;
 }
 
 @media screen and (max-width: 776px) {

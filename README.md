@@ -24,12 +24,41 @@ Each guest has their own page as well:
 
 A Google sheet supplies ranking and comments.
 
-## to update
-#### from `/scripts`
-##### install dependencies
-`pip3 install -r requirements.txt`
-##### update content
-`python update_all.py`
+## updating
+
+From the `/scripts` directory.
+
+#### install dependencies
+```
+pip3 install -r requirements.txt
+```
+
+#### fetch new data + regenerate all pages
+```
+python update-all.py
+```
+Pass `--force` to re-fetch all remote data even if already cached.
+
+#### regenerate static pages only (no network requests)
+```
+python build-pages.py
+```
+Use this after editing templates, CSS, or `episode_thumbnails_manual.json`.
+
+#### regenerate thumbnails only
+```
+python get_thumbnails.py
+python get_thumbnails.py --force   # re-fetch all, ignoring cache
+```
+
+#### manual thumbnail overrides
+Edit `data/episode_thumbnails_manual.json` to override any automated thumbnail. Entries use the same format as `episode_thumbnails.json`:
+```json
+{
+    "Episode Topic": {"url": "https://...", "width": 300, "height": 200}
+}
+```
+`width` and `height` are optional. After editing, run `python build-pages.py` to regenerate pages.
 
 ## local server
 `python3 -m http.server 5142` (or any port)
@@ -37,5 +66,7 @@ A Google sheet supplies ranking and comments.
 ## TODO 
 - [ ] network diagram of guests
 - [ ] add bookmarking
+- [ ] timeline view
+- [ ] map view
 - [ ] arrange world in a meaningful way rather than randomly (PCA? UMAP?)
 - [ ] allow anyone to score or comment on episodes (local storage? link own google sheet?)

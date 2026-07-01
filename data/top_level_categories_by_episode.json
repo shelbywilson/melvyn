@@ -1,4 +1,22 @@
 {
+    "Handel's Messiah": [
+        "Culture"
+    ],
+    "Dadaism": [
+        "Culture"
+    ],
+    "John Keats": [
+        "Culture"
+    ],
+    "Henry IV Part 1": [
+        "Culture"
+    ],
+    "On Liberty": [
+        "Culture"
+    ],
+    "Barbour's 'Brus'": [
+        "Culture"
+    ],
     "The Vienna Secession": [
         "Culture"
     ],
@@ -715,6 +733,21 @@
     ],
     "Rabindranath Tagore": [
         "Culture"
+    ],
+    "The Spanish-American War 1898": [
+        "History"
+    ],
+    "Margaret Beaufort": [
+        "History"
+    ],
+    "The Columbian Exchange": [
+        "History"
+    ],
+    "The Code of Hammurabi": [
+        "History"
+    ],
+    "The Roman Arena": [
+        "History"
     ],
     "Paul von Hindenburg": [
         "History"
@@ -2164,6 +2197,9 @@
     ],
     "Space in Religion and Science": [
         "Religion"
+    ],
+    "The Mariana Trench": [
+        "Science"
     ],
     "The Evolution of Lungs": [
         "Science"

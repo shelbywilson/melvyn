@@ -14,12 +14,12 @@
     <meta property="og:image" content="https://shelby.cool/melvyn/client/world_preview.png" />
     <meta name="theme-color" content="#000">
     <title>in our time</title>
-    <link rel="stylesheet" type="text/css" href="./client/css/common.03.css" />
-    <link rel="stylesheet" type="text/css" href="./client/css/index.03.css" />
-    <link rel="stylesheet" type="text/css" href="./client/css/world.03.css?v=1.11.13" />
+    <link rel="stylesheet" type="text/css" href="./client/css/common.04.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/index.04.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/world.04.css?v=1.11.13" />
     <link rel="icon"
-        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg" />
-    <script src="client/util.03.js"></script>
+        href="./client/lord-bragg.jpg" />
+    <script src="client/util.04.js"></script>
     <!-- 
             "three/addons/": "https://unpkg.com/three/examples/jsm/",
      -->
@@ -28,7 +28,7 @@
           "imports": {
             "three": "./client/three/three.module.min.js",
             "three/addons/": "https://unpkg.com/three/examples/jsm/",
-            "util": "./client/util.03.js"
+            "util": "./client/util.04.js"
           }
         }
       </script>
@@ -90,6 +90,7 @@
                 // './data/guest_frequency_min.json?v=1.11',
                 './data/episodes_min.json?v=1.11',
                 './data/episode_thumbnails.json?v=1.11',
+                './data/episode_thumbnails_manual.json',
                 './data/categories_by_episode.json?v=1.11',
                 './config/config.json?v=1.11',
                 './data/topics_by_category_non_unique.json',
@@ -106,7 +107,14 @@
                 });
             })).then((values) => {
                 // [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode, config] = values;
-                [bbcDescriptions, episodes, thumbnails, categoriesByEpisode, config, categories, topLevelCategoriesByEpisode] = values;
+                let [bbcDesc, eps, thumbs, manualThumbs, cats, cfg, topicsByCat, topLvlCats] = values;
+                bbcDescriptions = bbcDesc;
+                episodes = eps;
+                thumbnails = {...thumbs, ...manualThumbs};
+                categoriesByEpisode = cats;
+                config = cfg;
+                categories = topicsByCat;
+                topLevelCategoriesByEpisode = topLvlCats;
                 state.end = Math.min(episodes.length - 1, ((page + 1) * PAGE_SIZE) - 1)
 
                 display();
@@ -279,7 +287,7 @@
                 clock = new THREE.Clock();
                 episodes.forEach((episode, i) => {
                     setTimeout(() => {
-                        const image = thumbnails[episode.topic];
+                        const image = thumbnails[episode.topic]?.url;
                         loadImageWithWhiteBackground(
                             episode.topic,
                             image,
@@ -481,8 +489,8 @@
                     document.querySelector('#info__description').innerHTML = bbcDescriptions[`${episode.date}_${episode.topic}`] + '<br/>' + `Featuring: ${getGuestLinks(episode)}`
                     document.querySelector('#info__links').innerHTML = (episode.wiki_link ? `<a href="${episode.wiki_link}" target="_blank">wikipedia &plusb;</a>` : '') + `<a href="${episode.episode_link}" target="_blank">listen &prurel;</a>`
                     document.querySelector('#info__categories').innerHTML = getCategoriesHTML(episode.topic, {}, topLevelCategoriesByEpisode, config) + getCategoriesHTML(episode.topic, {}, categoriesByEpisode, config)
-                    if (thumbnails[episode.topic]) {
-                        document.querySelector('#info img').src = thumbnails[episode.topic]
+                    if (thumbnails[episode.topic]?.url) {
+                        document.querySelector('#info img').src = thumbnails[episode.topic].url
                         document.querySelector('#info img').style.display = 'block';
                     } else {
                         document.querySelector('#info img').style.display = 'none';
@@ -602,7 +610,7 @@
         </p>
 
         <a href="./" class="header__home-icon">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Official_portrait_of_Lord_Bragg_crop_2.jpg/440px-Official_portrait_of_Lord_Bragg_crop_2.jpg"
+            <img src="./client/lord-bragg.jpg"
                 alt="Portrait of Lord Melvyn Bragg, host of In Our Time" />
         </a>
     </header>
@@ -630,6 +638,9 @@
             &times;
         </button>
     </div>
+    <footer class="attribution">
+        <p><a href="https://commons.wikimedia.org/wiki/File:Official_portrait_of_Lord_Bragg_crop_2.jpg" target="_blank">Portrait of Lord Bragg</a> by <a href="https://www.parliament.uk/" target="_blank">UK Parliament</a> / Chris McAndrew, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a></p>
+    </footer>
 </body>
 
 </html>
