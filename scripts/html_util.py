@@ -16,6 +16,7 @@ episode_thumbnails            = {
 }
 categories_by_episode         = _load('./../data/categories_by_episode.json', {})
 top_level_categories_by_episode = _load('./../data/top_level_categories_by_episode.json', {})
+custom_tags_by_episode        = _load('./../data/custom_tags_by_episode.json', {})
 
 def div(inner, _class = ""):
     return wrapper('div', inner, _class)
@@ -86,6 +87,9 @@ def get_episode_row(key, this_guest = False):
 
         for cat in categories_by_episode.get(key, []):
             categories += a(cat, './../category/' + get_url(cat) + '.html', '', False)
+
+        for tag in custom_tags_by_episode.get(key, []):
+            categories += a(tag[0].upper() + tag[1:], './../category/' + get_url(tag) + '.html', '', False)
 
         content = (
             p(get_description(key)) 

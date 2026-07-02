@@ -1,0 +1,134 @@
+{
+    "book": {
+        "category": ["novels", "poems", "plays", "essays", "prose"]
+    },
+    "painting": {
+        "category": ["painters", "paintings"]
+    },
+    "music": {
+        "category": ["composers", "musicians"]
+    },
+    "war": {
+        "category": ["battles", "warfare", "military personnel", "sieges"]
+    },
+    "nature": {
+        "topic": ["coral", "seashell", "oceanography", "ice age", "bird migration", "climate change", "evolution of", "amazon river", "amazon rainforest", "ecology", "the whale", "challenger expedition", "doggerland", "antarctica"]
+    },
+    "animals": {
+        "category": ["zoolog", "mammal", "ornitholog", "entomolog", "cetacean", "vertebrate"],
+        "topic": ["echolocation", "feathered dinosaur", "animal experiments"]
+    },
+    "astronomy": {
+        "category": ["astronomer", "astronomy", "astrophys", "cosmolog", "telescope", "exoplanet", "planetary science"],
+        "topic": ["galaxies", "exoplanet", "comet", "asteroid", "nebula", "supernova", "black hole", "dark matter", "dark energy", "cosmic ray", "gravitational wave"]
+    },
+    "medicine": {
+        "category": ["physicians", "surgeons", "medicine", "medical", "anatomy", "pharmacology", "disease", "epidemiology"]
+    },
+    "mathematics": {
+        "category": ["mathematicians", "mathematics", "mathematical", "geometry", "algebra", "calculus", "number theory", "arithmetic"],
+        "topic": ["math"]
+    },
+    "computation": {
+        "category": ["computation", "computer science", "computing", "artificial intelligence"],
+        "topic": ["turing machine", "artificial intelligence"]
+    },
+    "economics": {
+        "category": ["economists", "economics", "trade", "commerce", "monetary"]
+    },
+    "language": {
+        "category": ["linguistics", "language", "grammar", "philology"]
+    },
+    "material": {
+        "topic": ["gold", "silver", "glass", "silk", "iron", "steel", "coal", "rubber", "lead", "copper", "bronze", "salt", "cotton", "wool", "amber", "spice", "tin"]
+    },
+    "puzzle": {
+        "topic": ["paradox", "dilemma"]
+    },
+    "law": {
+        "category": ["jurist", "jurisprudence", "barrister", "common law", "roman law", "legal philosophy"],
+        "topic": ["law and", "legal code", "magna carta", "the trial", "habeas corpus", "constitution"]
+    },
+    "psychology": {
+        "category": ["psycholog", "psychiatr", "neurosci"]
+    },
+    "theology": {
+        "category": ["theologian", "theology"]
+    },
+    "poetry": {
+        "category": ["sonnets", "lyric poetry"],
+        "topic": ["poem", "poetry", "sonnet", "ballad", "ode", "elegy", "epic poem"]
+    },
+    "france": {
+        "category": ["french philosopher", "french historian", "french novelist", "french poet", "french sociolog", "french economist", "french mathemati", "french physicist", "french writer", "french dramatist", "french literary", "french political", "french revolution", "history of france", "wars involving france", "french linguist", "french biolog", "french chemist", "french composer", "french artist", "french painter", "french theologian", "french jurist"],
+        "topic": ["france", "french revolution", "paris commune", "charlemagne", "gaul"]
+    },
+    "germany": {
+        "category": ["german philosopher", "german historian", "german novelist", "german poet", "german composer", "german physicist", "german mathemati", "german chemist", "german biolog", "german economist", "german sociolog", "german writer", "german political", "german literary", "german theologian", "protestant reformation"],
+        "topic": ["prussia", "weimar republic", "thirty years war"]
+    },
+    "greece": {
+        "category": ["ancient greek", "greek philosopher", "greek historian", "greek poet", "greek dramatist", "greek mathemati", "greek astronomer", "greek physician", "hellenistic", "greek literature", "greek mythology"],
+        "topic": ["sparta", "athens", "troy", "ancient greece", "trojan war", "peloponnesian", "olympics"]
+    },
+    "rome": {
+        "category": ["ancient roman", "roman empire", "roman republic", "roman law", "roman poet", "roman philosopher", "roman historian", "roman consul", "roman senator", "roman emperor", "roman orator"],
+        "topic": ["roman empire", "roman republic", "julius caesar", "sack of rome", "roman civilization"]
+    },
+    "america": {
+        "category": ["american revolution", "american civil war", "colonial america", "founding fathers", "history of the united states", "american abolitionist", "american philosopher", "american poet", "american historian", "american novelist", "american political"],
+        "topic": ["american revolution", "american civil war", "democracy in america", "american west", "american populist", "american ideal", "american century"]
+    },
+    "india": {
+        "category": ["history of india", "mughal", "hinduism", "vedic", "indian independence"],
+        "topic": ["mughal", "india", "gandhi", "partition of india", "indian mutiny", "vedic"]
+    },
+    "china": {
+        "category": ["chinese history", "chinese philosophy", "chinese literature", "chinese emperor", "chinese novel", "ming dynasty", "tang dynasty", "qing dynasty", "han dynasty", "song dynasty", "zhou dynasty", "classical chinese"],
+        "topic": ["china", "chinese", "confucius", "ming dynasty", "warring states", "boxer rebellion", "taiping"]
+    },
+    "russia": {
+        "category": ["russian empire", "russian male", "russian female", "russian novelist", "russian poet", "russian dramatist", "russian philosopher", "russian composer", "russian anarchist", "russian atheist", "russian communist", "russian revolutionar", "history of russia"],
+        "topic": ["russia", "soviet", "bolshevik", "tsar", "russian revolution", "romanov", "tolstoy", "chekhov", "dostoevsky", "pushkin"]
+    },
+    "ireland": {
+        "category": ["irish dramatist", "irish playwright", "irish poet", "irish novelist", "irish writer", "irish historian", "irish philosopher", "irish anglicans", "irish rebel", "history of ireland", "irish modernist", "irish politics"],
+        "topic": ["ireland", "irish", "celtic"]
+    },
+    "islam": {
+        "category": ["islamic", "muslim", "abbasid", "umayyad", "caliphate", "quran", "sunni", "shia", "sufi", "hadith"],
+        "topic": ["islam", "caliphate", "quran", "muslim spain", "sunni", "shia", "sufi"]
+    },
+    "spain": {
+        "category": ["history of spain", "spanish inquisition", "spanish empire", "conquistador", "reconquista", "visigoth"],
+        "topic": ["spain", "spanish armada", "spanish inquisition", "spanish civil war", "conquistador", "iberia", "castile", "aragon", "muslim spain"]
+    },
+    "egypt": {
+        "category": ["ancient egypt", "egyptian pharaoh", "ptolemaic", "history of egypt"],
+        "topic": ["egypt", "pharaoh", "ancient egypt", "nile", "cleopatra"]
+    },
+    "persia": {
+        "category": ["achaemenid", "sassanid", "persian empire", "history of iran", "persian literature", "persian poet"],
+        "topic": ["persia", "persian empire", "sassanid", "achaemenid", "zoroastrian"]
+    },
+    "scotland": {
+        "category": ["scottish enlightenment", "history of scotland", "jacobite", "history of the scottish", "scottish philosopher", "scottish historian", "scottish poet", "scottish novelist", "scottish mathematician"],
+        "topic": ["scotland", "scottish", "highland clearance", "jacobite", "enlightenment in scotland"]
+    },
+    "wales": {
+        "category": ["history of wales", "welsh mythology", "welsh poet", "welsh literature", "welsh marches"],
+        "topic": ["wales", "welsh", "arthurian"]
+    },
+    "viking": {
+        "category": ["viking", "norse mythology", "old norse", "scandinavian"],
+        "topic": ["viking", "norse", "ragnarok"]
+    },
+    "byzantine": {
+        "category": ["byzantine", "eastern roman"],
+        "topic": ["byzantine", "byzantium", "eastern roman", "constantinople"]
+    },
+    "mesopotamia": {
+        "category": ["ancient mesopotamia", "babylonian", "assyrian", "sumerian", "akkadian"],
+        "topic": ["mesopotamia", "babylon", "assyria", "sumerian", "gilgamesh"]
+    }
+}

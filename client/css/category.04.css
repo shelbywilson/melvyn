@@ -22,6 +22,76 @@
    max-width: 700px;
 }
 
+.century-timeline {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    padding: 0.5rem 0 1rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.tl-dot {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.tl-dot-circle {
+    flex-shrink: 0;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 50%;
+    border: 1.5px solid darkslategray;
+    z-index: 1;
+    background: #fff;
+}
+
+.tl-dot--active .tl-dot-circle {
+    background: darkslategray;
+}
+
+.tl-dot--empty .tl-label,
+.tl-dot--empty .tl-count,
+.tl-dot--empty .tl-dot-circle {
+    border-color: #dadada;
+    color: #dadada;
+}
+
+.tl-line {
+    flex-shrink: 0;
+    align-self: flex-start;
+    width: 2.5rem;
+    height: 1.5px;
+    background: darkslategray;
+    opacity: 0.4;
+    /* offset to align with circle center: count(1rem) + gap(0.25rem) + half-circle(0.3rem) */
+    margin-top: calc(1rem + 0.25rem + 0.25rem);
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.tl-count {
+    min-height: 1rem;
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.6rem;
+    white-space: nowrap;
+    color: darkslategray;
+    line-height: 1;
+}
+
+.tl-label {
+    font-size: 0.6rem;
+    white-space: nowrap;
+    color: darkslategray;
+    line-height: 1;
+}
+
 header {
    position: relative;
 }

@@ -44,6 +44,13 @@ def get_topic_categories(force=False):
     except:
         category_summaries = {}
 
+    try:
+        f = open('./../data/category_summaries_manual.json')
+        category_summaries_manual = json.load(f)
+        f.close()
+    except:
+        category_summaries_manual = {}
+
 
     # dictionary = {}
     # categories_by_episode = {}
@@ -114,7 +121,7 @@ def get_topic_categories(force=False):
             non_unique_categories[key] = dictionary[key]
 
             # get wikipedia summaries
-            if key not in category_summaries:
+            if key not in category_summaries and key not in category_summaries_manual:
                 print('\t new category', key)
                 try:
                     summary = wikipedia.summary(key, sentences=2)

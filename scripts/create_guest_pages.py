@@ -114,7 +114,7 @@ def create_guest_pages():
             # print('\t\t', guest, 'appeared multiple times with', cohosts)
             guest_html += '<p class="mb-0">Appears in multiple episodes with: '
             for cohost in cohosts:
-                guest_html += a(cohost + (',&nbsp;' if z < len(cohosts) - 1 else ''), "/guest/" + get_url(cohost) + ".html",  "", False)
+                guest_html += a(cohost + (',&nbsp;' if z < len(cohosts) - 1 else ''), "./" + get_url(cohost) + ".html",  "", False)
                 z += 1
             guest_html += '</p>'
 

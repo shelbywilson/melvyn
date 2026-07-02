@@ -5,6 +5,7 @@ from get_thumbnails import get_thumbnails
 from guest_analysis import guest_analysis
 from get_topic_categories import get_topic_categories
 from get_top_level_categories import get_top_level_categories
+from get_custom_categories import get_custom_categories
 from create_topic_category_page import create_topic_category_page
 from create_guest_pages import create_guest_pages
 from create_index_page import create_index_page
@@ -30,6 +31,9 @@ get_topic_categories(force=args.force)
 
 print('\n# top level categories')
 get_top_level_categories()
+
+print('\n# custom categories')
+get_custom_categories()
 
 create_topic_category_page()
 create_guest_pages()

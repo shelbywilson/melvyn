@@ -23,9 +23,17 @@ header {
     position: relative;
 }
 
-header .home-link img {
+h1 .home-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 .home-link img {
     height: 3rem;
-    margin-bottom: 1rem;
+    width: auto;
 }
 
 main {
@@ -286,6 +294,11 @@ header .categories {
     max-height: 6rem;
     width: auto;
     max-width: initial;
+}
+
+.no-results {
+    padding: var(--padding);
+    color: gray;
 }
 
 .attribution p {

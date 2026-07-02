@@ -1,4 +1,5 @@
 import json
+import re
 from html_util import get_html_page, get_url, div, li, p, a, get_episode_row, get_wiki_img
 import os
 import glob
@@ -28,6 +29,13 @@ def create_topic_category_page():
     f = open('./../data/category_summaries.json')
     category_summaries = json.load(f)
     f.close()
+
+    try:
+        f = open('./../data/category_summaries_manual.json')
+        category_summaries = {**category_summaries, **json.load(f)}
+        f.close()
+    except FileNotFoundError:
+        pass
 
     f = open('./../data/episodes_dictionary.json')
     episodes_dictionary = json.load(f)
@@ -76,7 +84,8 @@ def create_topic_category_page():
         category_inner = ''
     
         try:
-            category_inner += div(p(category_summaries[key]), "category-summary")
+            if category_summaries[key]:
+                category_inner += div(p(category_summaries[key]), "category-summary")
         except:
             pass
 
@@ -145,6 +154,83 @@ def create_topic_category_page():
     w.write(get_html_page(index_html, 'episode categories', ['category']))
     w.close()
 
+    # create custom tag pages
+    try:
+        with open('./../data/custom_tags_by_episode.json') as f:
+            custom_tags_by_episode = json.load(f)
+    except FileNotFoundError:
+        custom_tags_by_episode = {}
+
+    topics_by_tag = {}
+    for topic, tags in custom_tags_by_episode.items():
+        for tag in tags:
+            topics_by_tag.setdefault(tag, []).append(topic)
+
+    # Build full ordered century list: BC centuries in data + all AD 1st–21st
+    century_re = re.compile(r'^(\d+)(?:st|nd|rd|th) century( BC)?$')
+    def century_sort_key(tag):
+        m = century_re.match(tag)
+        n, bc = int(m.group(1)), bool(m.group(2))
+        return -n if bc else n + 1000
+    bc_centuries = sorted([t for t in topics_by_tag if century_re.match(t) and 'BC' in t], key=century_sort_key)
+
+    def ordinal(n):
+        suffix = 'th' if 10 <= n % 100 <= 20 else {1:'st',2:'nd',3:'rd'}.get(n%10,'th')
+        return f'{n}{suffix}'
+    ad_centuries = [f'{ordinal(n)} century' for n in range(1, 22)]
+    all_centuries = bc_centuries + ad_centuries
+
+    def short_century_label(tag):
+        m = century_re.match(tag)
+        n, bc = m.group(1), bool(m.group(2))
+        return f'{n}BC' if bc else f'{n}AD'
+
+    def get_century_timeline(active_tag):
+        html = '<nav class="century-timeline">'
+        for i, tag in enumerate(all_centuries):
+            count = len(topics_by_tag.get(tag, []))
+            classes = 'tl-dot'
+            if tag == active_tag:
+                classes += ' tl-dot--active'
+            if count == 0:
+                classes += ' tl-dot--empty'
+            count_html = f'<span class="tl-count">{count}</span>'
+            circle_html = '<span class="tl-dot-circle"></span>'
+            lbl_html = f'<span class="tl-label">{short_century_label(tag)}</span>'
+            inner = count_html + circle_html + lbl_html
+            if tag == active_tag:
+                html += f'<span class="{classes}" title="{tag}">{inner}</span>'
+            else:
+                html += f'<a href="./../category/{get_url(tag)}.html" class="{classes}" title="{tag}">{inner}</a>'
+            if i < len(all_centuries) - 1:
+                html += '<span class="tl-line"></span>'
+        html += '</nav>'
+        return html
+
+    pages_written = 0
+    all_tags = set(topics_by_tag.keys()) | set(all_centuries)
+    for tag in sorted(all_tags):
+        topics = topics_by_tag.get(tag, [])
+        is_century = bool(century_re.match(tag))
+
+        episode_list = ''
+        for topic in sorted(topics):
+            episode_list += get_episode_row(topic)
+
+        tag_label = tag[0].upper() + tag[1:] if not is_century else tag
+        tag_html = get_header_html(tag_label)
+        if is_century:
+            tag_html += get_century_timeline(tag)
+        tag_html += p(str(len(topics)) + ' episodes')
+        if episode_list:
+            tag_html += '<ol id="episodes">\n' + episode_list + '\n</ol>'
+
+        w = open('./../category/' + get_url(tag) + '.html', 'w')
+        w.write(get_html_page(tag_html, tag_label, ['guest', 'category'], ['util', 'add-episode-scores']))
+        w.close()
+        pages_written += 1
+
+    print('\t', pages_written, 'custom tag pages written')
     print('### end create_topic_category_page')
 
 def get_header_html(title, inner = ''):

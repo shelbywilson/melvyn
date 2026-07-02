@@ -246,7 +246,7 @@
 
             scenes[0].traverse((child) => {
                 if (child.isMesh && child.userData.isEpisode) {
-                    child.material.opacity = isSearchMatch(child.userData, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, true, search) ? 1 : 0.05
+                    child.material.opacity = isSearchMatch(child.userData, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, true, search, customTagsByEpisode) ? 1 : 0.05
                 }
             });
         }
@@ -541,7 +541,7 @@
                                 map: texture,
                                 side: THREE.DoubleSide,
                                 transparent: true,
-                                opacity: isSearchMatch(child.userData, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, false, search) ? 1 : 0.05,
+                                opacity: isSearchMatch(child.userData, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, false, search, customTagsByEpisode) ? 1 : 0.05,
                             });
 
                             const segmentWidth = texture.image.width > texture.image.height

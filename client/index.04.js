@@ -10,7 +10,7 @@ const state = {
 };
 
 let episodes = [], bbcDescriptions = {}, guestFrequency = {}, categoriesByEpisode = {},
-    topLevelCategoriesByEpisode = {}, thumbnails = {}, config = {}, scores = {};
+    topLevelCategoriesByEpisode = {}, customTagsByEpisode = {}, thumbnails = {}, config = {}, scores = {};
 
 window.onload = () => {
     state.scoredOnly = document.getElementById('scored-only').checked;
@@ -25,15 +25,17 @@ window.onload = () => {
         fetch('./data/guest_frequency_min.json').then(r => r.json()),
         fetch('./data/categories_by_episode.json').then(r => r.json()),
         fetch('./data/top_level_categories_by_episode.json').then(r => r.json()),
+        fetch('./data/custom_tags_by_episode.json').then(r => r.json()),
         fetch('./data/episode_thumbnails.json').then(r => r.json()),
         fetch('./data/episode_thumbnails_manual.json').then(r => r.json()),
         fetch('./config/config.json').then(r => r.json()),
-    ]).then(([eps, desc, freq, cats, topCats, thumbs, manualThumbs, cfg]) => {
+    ]).then(([eps, desc, freq, cats, topCats, customTags, thumbs, manualThumbs, cfg]) => {
         episodes = eps;
         bbcDescriptions = desc;
         guestFrequency = freq;
         categoriesByEpisode = cats;
         topLevelCategoriesByEpisode = topCats;
+        customTagsByEpisode = customTags;
         thumbnails = {...thumbs, ...manualThumbs};
         config = cfg;
         state.end = Math.min(state.end, episodes.length - 1);
@@ -78,6 +80,9 @@ function renderEpisode(ep) {
         ...(categoriesByEpisode[topic] || []),
     ].map(cat => `<a href="./category/${getUrl(cat)}.html">${cat}</a>`).join('');
 
+    const customCatsHtml = (customTagsByEpisode[topic] || [])
+        .map(tag => `<a href="./category/${getUrl(tag)}.html">${tag.charAt(0).toUpperCase() + tag.slice(1)}</a>`).join('');
+
     return `<div class="episode flex-column">
         <div class="episode-title"><h3>${topic}</h3></div>
         <div class="episode-about">
@@ -85,7 +90,7 @@ function renderEpisode(ep) {
             <div class="wiki-col">${wikiCol}</div>
             <div class="meta-col">${expertsHtml}</div>
         </div>
-        <p class="categories">${catsHtml}</p>
+        <p class="categories">${catsHtml}${customCatsHtml}</p>
         <div class="episode-ranking" data-topic="${topic}"></div>
     </div>`;
 }
@@ -101,7 +106,7 @@ function display() {
     const filtered = episodes
         .filter(ep => {
             if (state.scoredOnly && !scores[ep.topic]?.Score) return false;
-            return isSearchMatch(ep, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, false, state.search);
+            return isSearchMatch(ep, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, false, state.search, customTagsByEpisode);
         })
         .sort((a, b) => {
             switch (state.sortBy) {
@@ -117,10 +122,9 @@ function display() {
         state.end = Math.min(state.end, n - 1);
     }
 
-    document.getElementById('episodes').innerHTML = filtered
-        .slice(state.start, state.end + 1)
-        .map(renderEpisode)
-        .join('');
+    document.getElementById('episodes').innerHTML = n === 0
+        ? '<p class="no-results">No episodes found.</p>'
+        : filtered.slice(state.start, state.end + 1).map(renderEpisode).join('');
 
     populateScores();
 
@@ -134,7 +138,7 @@ function display() {
 }
 
 function changePage(direction) {
-    const n = episodes.filter(ep => isSearchMatch(ep, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, false, state.search)).length;
+    const n = episodes.filter(ep => isSearchMatch(ep, categoriesByEpisode, topLevelCategoriesByEpisode, bbcDescriptions, scores, false, state.search, customTagsByEpisode)).length;
     if (direction === -1) state.start = Math.max(0, state.start - PAGE_SIZE);
     else if (direction === 1) state.start = Math.min(n - 1, state.start + PAGE_SIZE);
     else if (direction === 'first') state.start = 0;

@@ -23,6 +23,11 @@ def create_index_page():
         categories_by_episode = json.load(f)
     with open('./../data/top_level_categories_by_episode.json') as f:
         top_level_categories_by_episode = json.load(f)
+    try:
+        with open('./../data/custom_tags_by_episode.json') as f:
+            custom_tags_by_episode = json.load(f)
+    except FileNotFoundError:
+        custom_tags_by_episode = {}
     with open('./../config/config.json') as f:
         config = json.load(f)
 
@@ -84,6 +89,9 @@ def create_index_page():
         for cat in ep_cats:
             cats_html += f'<a href="./category/{get_url(cat)}.html">{cat}</a>'
 
+        for tag in custom_tags_by_episode.get(topic, []):
+            cats_html += f'<a href="./category/{get_url(tag)}.html">{tag[0].upper() + tag[1:]}</a>'
+
         return (
             f'<div class="episode flex-column">'
             f'<div class="episode-title"><h3>{topic}</h3></div>'
@@ -130,7 +138,7 @@ def create_index_page():
         <div>
             <header>
                 <div class="flex-row space-between">
-                    <h1>Hello,</h1>
+                    <h1><a href="./" class="home-link"><img src="./client/lord-bragg.jpg" alt="Melvyn Bragg">Hello,</a></h1>
                     <div class="flex-row" style="gap: 2rem">
                         <a href="./world.html">world</a>
                         <a href="https://github.com/shelbywilson/melvyn" target="_blank">about</a>
