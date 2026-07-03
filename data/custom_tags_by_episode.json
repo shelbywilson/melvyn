@@ -8,6 +8,13 @@
         "france",
         "painting"
     ],
+    "The Delian League": [
+        "5th century BC"
+    ],
+    "Machado de Assis": [
+        "19th century",
+        "20th century"
+    ],
     "The Evolution of Trees": [
         "nature"
     ],
@@ -21,22 +28,38 @@
     "M.C. Escher": [
         "mathematics"
     ],
+    "Handel's Messiah": [
+        "18th century"
+    ],
     "The Spanish-American War 1898": [
         "19th century",
         "america"
+    ],
+    "Dadaism": [
+        "20th century"
+    ],
+    "Archaea": [
+        "20th century"
     ],
     "Margaret Beaufort": [
         "15th century",
         "16th century"
     ],
+    "The Columbian Exchange": [
+        "15th century"
+    ],
     "John Keats": [
-        "19th century"
+        "19th century",
+        "21st century"
     ],
     "The Code of Hammurabi": [
         "mesopotamia"
     ],
     "Henry IV Part 1": [
         "book"
+    ],
+    "On Liberty": [
+        "19th century"
     ],
     "Barbour's 'Brus'": [
         "14th century",
@@ -53,6 +76,12 @@
         "20th century",
         "war"
     ],
+    "Lise Meitner": [
+        "20th century"
+    ],
+    "The Korean Empire": [
+        "5th century"
+    ],
     "Molière": [
         "17th century"
     ],
@@ -60,6 +89,7 @@
         "theology"
     ],
     "The Battle of Clontarf": [
+        "11th century",
         "viking",
         "war"
     ],
@@ -89,12 +119,22 @@
     "Socrates in Prison": [
         "greece"
     ],
+    "The Battle of Valmy": [
+        "18th century"
+    ],
     "The Habitability of Planets": [
         "astronomy"
     ],
     "Nizami Ganjavi": [
+        "12th century",
         "13th century",
         "language"
+    ],
+    "The Hanoverian Succession": [
+        "18th century"
+    ],
+    "Italo Calvino": [
+        "20th century"
     ],
     "The Antikythera Mechanism": [
         "astronomy",
@@ -105,17 +145,27 @@
         "17th century",
         "wales"
     ],
+    "The Venetian Empire": [
+        "17th century"
+    ],
     "Little Women": [
         "book"
     ],
     "Hayek's The Road to Serfdom": [
+        "20th century",
         "economics"
     ],
     "Robert Graves": [
         "20th century"
     ],
+    "The Haymarket Affair": [
+        "19th century"
+    ],
     "Benjamin Disraeli": [
         "19th century"
+    ],
+    "Bacteriophages": [
+        "20th century"
     ],
     "Monet in England": [
         "19th century",
@@ -127,8 +177,13 @@
         "18th century",
         "book"
     ],
+    "The Orkneyinga Saga": [
+        "13th century"
+    ],
     "Marsilius of Padua": [
-        "14th century"
+        "14th century",
+        "16th century",
+        "20th century"
     ],
     "Philippa Foot": [
         "20th century"
@@ -136,27 +191,42 @@
     "Sir Thomas Wyatt": [
         "16th century"
     ],
+    "Mercury": [
+        "20th century"
+    ],
     "Bertolt Brecht": [
         "germany"
+    ],
+    "Napoleon's Hundred Days": [
+        "19th century"
     ],
     "Lysistrata": [
         "book"
     ],
     "Nikola Tesla": [
+        "19th century",
         "20th century"
     ],
     "The Kalevala": [
+        "19th century",
         "book"
     ],
     "Julian the Apostate": [
         "4th century",
         "rome"
     ],
+    "The Waltz": [
+        "19th century"
+    ],
+    "The Mokrani Revolt": [
+        "19th century"
+    ],
     "The Sack of Rome 1527": [
         "rome",
         "war"
     ],
     "Alice's Adventures in Wonderland": [
+        "19th century",
         "book"
     ],
     "The Hanseatic League": [
@@ -164,6 +234,9 @@
         "15th century",
         "16th century",
         "economics"
+    ],
+    "Nefertiti": [
+        "20th century"
     ],
     "Condorcet": [
         "18th century",
@@ -189,10 +262,15 @@
         "19th century",
         "america"
     ],
+    "Marguerite de Navarre": [
+        "15th century",
+        "16th century"
+    ],
     "The Theory of the Leisure Class": [
         "economics"
     ],
     "The Barbary Corsairs": [
+        "17th century",
         "19th century"
     ],
     "Germinal": [
@@ -204,6 +282,12 @@
         "15th century",
         "theology"
     ],
+    "The Federalist Papers": [
+        "18th century"
+    ],
+    "The Seventh Seal\n(1000th program)": [
+        "20th century"
+    ],
     "Albert Einstein": [
         "20th century",
         "germany",
@@ -214,13 +298,26 @@
         "language"
     ],
     "Death in Venice": [
+        "20th century",
         "book"
     ],
     "Oedipus Rex": [
+        "5th century BC",
         "book"
+    ],
+    "Mitochondria": [
+        "19th century"
     ],
     "Virgil's Georgics": [
         "1st century BC"
+    ],
+    "The Shimabara Rebellion": [
+        "17th century",
+        "3rd century"
+    ],
+    "The Dead Sea Scrolls": [
+        "20th century",
+        "3rd century"
     ],
     "Walt Whitman": [
         "19th century",
@@ -230,11 +327,21 @@
         "18th century"
     ],
     "The Battle of Crécy": [
+        "14th century",
         "war"
+    ],
+    "Cnut": [
+        "11th century"
+    ],
+    "A Room of One's Own": [
+        "20th century"
     ],
     "Solon the Lawgiver": [
         "6th century BC",
         "greece"
+    ],
+    "Paul Erdős": [
+        "20th century"
     ],
     "Stevie Smith": [
         "20th century"
@@ -246,6 +353,7 @@
         "16th century"
     ],
     "Rawls' Theory of Justice": [
+        "20th century",
         "language"
     ],
     "John Donne": [
@@ -253,16 +361,31 @@
         "17th century",
         "theology"
     ],
+    "The Great Stink": [
+        "19th century"
+    ],
     "Persuasion": [
         "book"
+    ],
+    "Citizen Kane": [
+        "20th century"
     ],
     "The Irish Rebellion of 1798": [
         "18th century",
         "france",
         "ireland"
     ],
+    "The Nibelungenlied": [
+        "15th century"
+    ],
     "The Challenger Expedition 1872-1876": [
         "nature"
+    ],
+    "Demosthenes' Philippics": [
+        "4th century BC"
+    ],
+    "Bauhaus": [
+        "20th century"
     ],
     "The Morant Bay Rebellion": [
         "19th century"
@@ -275,11 +398,21 @@
         "france",
         "painting"
     ],
+    "The Electron": [
+        "19th century"
+    ],
     "Nineteen Eighty-Four": [
         "book"
     ],
+    "John Bull": [
+        "18th century"
+    ],
     "Angkor Wat": [
+        "12th century",
         "astronomy"
+    ],
+    "Dylan Thomas": [
+        "20th century"
     ],
     "The Death of Stars": [
         "astronomy"
@@ -308,7 +441,11 @@
         "animals"
     ],
     "Polidori's The Vampyre": [
+        "18th century",
         "19th century"
+    ],
+    "The Arthashastra": [
+        "16th century"
     ],
     "Peter Kropotkin": [
         "19th century",
@@ -324,12 +461,16 @@
         "germany",
         "language"
     ],
+    "The Temperance Movement": [
+        "19th century"
+    ],
     "Colette": [
         "19th century",
         "20th century",
         "france"
     ],
     "The Gold Standard": [
+        "19th century",
         "economics",
         "material"
     ],
@@ -350,6 +491,12 @@
         "19th century",
         "book"
     ],
+    "The May Fourth Movement": [
+        "20th century"
+    ],
+    "The Battle of Trafalgar": [
+        "19th century"
+    ],
     "Plato's Gorgias": [
         "greece",
         "medicine"
@@ -366,6 +513,8 @@
     ],
     "The Song of Roland": [
         "11th century",
+        "12th century",
+        "8th century",
         "book"
     ],
     "Corals": [
@@ -374,7 +523,12 @@
     "Iris Murdoch": [
         "20th century"
     ],
+    "The Polish-Lithuanian Commonwealth": [
+        "14th century",
+        "20th century"
+    ],
     "The Tenant of Wildfell Hall": [
+        "19th century",
         "book"
     ],
     "Herodotus": [
@@ -386,6 +540,8 @@
         "nature"
     ],
     "Shakespeare's Sonnets": [
+        "17th century",
+        "2nd century",
         "poetry"
     ],
     "Edward Gibbon": [
@@ -400,12 +556,23 @@
         "germany"
     ],
     "Journey to the West": [
+        "16th century",
         "book",
         "china"
+    ],
+    "Longitude": [
+        "18th century"
+    ],
+    "The Second Barons' War": [
+        "13th century"
     ],
     "Ovid": [
         "1st century BC",
         "rome"
+    ],
+    "Arianism": [
+        "4th century",
+        "5th century"
     ],
     "Pierre-Simon Laplace": [
         "18th century",
@@ -413,6 +580,7 @@
         "mathematics"
     ],
     "The Russo-Japanese War": [
+        "20th century",
         "russia"
     ],
     "David Ricardo": [
@@ -421,6 +589,9 @@
     ],
     "The Bacchae": [
         "book"
+    ],
+    "The Late Devonian Extinction": [
+        "4th century"
     ],
     "The Rime of the Ancient Mariner": [
         "book"
@@ -437,6 +608,7 @@
         "7th century"
     ],
     "The Great Gatsby": [
+        "20th century",
         "book"
     ],
     "Eclipses": [
@@ -453,6 +625,7 @@
         "20th century"
     ],
     "The Zong Massacre": [
+        "2nd century",
         "economics",
         "painting"
     ],
@@ -476,6 +649,9 @@
     ],
     "Macbeth": [
         "book"
+    ],
+    "Cave Art": [
+        "19th century"
     ],
     "Pericles": [
         "5th century BC"
@@ -501,6 +677,7 @@
         "theology"
     ],
     "The Siege of Paris (1870-71)": [
+        "19th century",
         "war"
     ],
     "Catullus": [
@@ -509,14 +686,24 @@
     ],
     "Tutankhamun": [
         "14th century BC",
+        "20th century",
         "egypt"
     ],
     "Auden": [
         "20th century"
     ],
+    "Coffee": [
+        "17th century",
+        "18th century",
+        "19th century"
+    ],
     "Lawrence of Arabia": [
+        "12th century",
         "20th century",
         "war"
+    ],
+    "Li Shizhen": [
+        "20th century"
     ],
     "Melisende, Queen of Jerusalem": [
         "12th century",
@@ -525,7 +712,11 @@
     "Crime and Punishment": [
         "book"
     ],
+    "The Treaty of Limerick": [
+        "17th century"
+    ],
     "Robert Burns": [
+        "18th century",
         "scotland"
     ],
     "The Time Machine": [
@@ -554,11 +745,15 @@
     "The Inca": [
         "16th century"
     ],
+    "Sir Thomas Browne": [
+        "17th century"
+    ],
     "President Ulysses S Grant": [
         "19th century"
     ],
     "Frankenstein": [
         "18th century",
+        "20th century",
         "book"
     ],
     "Bergson and Time": [
@@ -569,6 +764,7 @@
         "medicine"
     ],
     "The Gordon Riots": [
+        "18th century",
         "war"
     ],
     "Nero": [
@@ -592,10 +788,18 @@
     "William Cecil": [
         "16th century"
     ],
+    "Antarah ibn Shaddad": [
+        "6th century"
+    ],
     "Aristotle's biology": [
         "greece"
     ],
+    "Owain Glyndŵr": [
+        "14th century",
+        "15th century"
+    ],
     "Emmy Noether": [
+        "20th century",
         "germany"
     ],
     "Samuel Beckett": [
@@ -604,7 +808,11 @@
         "medicine"
     ],
     "Papal Infallibility": [
+        "19th century",
         "theology"
+    ],
+    "The Poor Laws": [
+        "19th century"
     ],
     "Sir Gawain and the Green Knight": [
         "14th century",
@@ -616,6 +824,9 @@
         "germany",
         "rome"
     ],
+    "The Long March": [
+        "20th century"
+    ],
     "Horace": [
         "1st century BC",
         "rome"
@@ -624,6 +835,7 @@
         "france"
     ],
     "The Fable of the Bees": [
+        "18th century",
         "economics"
     ],
     "Is Shakespeare History? The Romans": [
@@ -651,17 +863,23 @@
         "greece"
     ],
     "William Morris": [
-        "19th century"
+        "19th century",
+        "20th century"
     ],
     "The Mexican-American War": [
+        "19th century",
         "america"
     ],
     "Echolocation": [
         "animals"
     ],
     "Montesquieu": [
+        "17th century",
         "18th century",
         "france"
+    ],
+    "Persepolis": [
+        "2nd century"
     ],
     "Margaret of Anjou": [
         "15th century",
@@ -675,6 +893,7 @@
         "wales"
     ],
     "Middlemarch": [
+        "19th century",
         "book"
     ],
     "George and Robert Stephenson": [
@@ -711,10 +930,12 @@
         "rome"
     ],
     "Anna Akhmatova": [
+        "19th century",
         "20th century",
         "russia"
     ],
     "The Siege of Malta, 1565": [
+        "16th century",
         "war"
     ],
     "Hamlet": [
@@ -729,6 +950,7 @@
         "12th century"
     ],
     "Moby Dick": [
+        "19th century",
         "book"
     ],
     "Carl Friedrich Gauss": [
@@ -736,12 +958,16 @@
         "astronomy",
         "mathematics"
     ],
+    "Thebes": [
+        "5th century BC"
+    ],
     "Germaine de Staël": [
         "18th century",
         "19th century",
         "france"
     ],
     "Picasso's Guernica": [
+        "20th century",
         "painting"
     ],
     "Feathered dinosaurs": [
@@ -751,7 +977,8 @@
         "19th century"
     ],
     "Aphra Behn": [
-        "17th century"
+        "17th century",
+        "18th century"
     ],
     "Constantine the Great": [
         "4th century",
@@ -759,12 +986,15 @@
     ],
     "Wuthering Heights": [
         "18th century",
+        "19th century",
         "book"
     ],
     "Bird migration": [
         "nature"
     ],
     "Eugene Onegin": [
+        "18th century",
+        "19th century",
         "book"
     ],
     "The American Populists": [
@@ -785,6 +1015,9 @@
         "19th century",
         "america"
     ],
+    "The Battle of Lincoln 1217": [
+        "13th century"
+    ],
     "Roger Bacon": [
         "13th century",
         "language",
@@ -797,9 +1030,11 @@
         "russia"
     ],
     "Hokusai": [
+        "18th century",
         "19th century"
     ],
     "North and South": [
+        "19th century",
         "book"
     ],
     "Seneca the Younger": [
@@ -835,9 +1070,15 @@
     "Four Quartets": [
         "book"
     ],
+    "The Gin Craze": [
+        "18th century"
+    ],
     "Harriet Martineau": [
         "19th century",
         "economics"
+    ],
+    "Garibaldi and the Risorgimento": [
+        "19th century"
     ],
     "Baltic Crusades": [
         "12th century"
@@ -860,38 +1101,69 @@
     "The 12th Century Renaissance": [
         "12th century"
     ],
+    "Plasma": [
+        "19th century"
+    ],
     "Animal Farm": [
         "book"
     ],
     "Zeno's paradoxes": [
         "puzzle"
     ],
+    "Sovereignty": [
+        "16th century",
+        "17th century"
+    ],
     "The Bronze Age Collapse": [
+        "12th century",
         "12th century BC",
         "material"
+    ],
+    "Penicillin": [
+        "20th century"
     ],
     "Margery Kempe and English Mysticism": [
         "14th century",
         "15th century"
     ],
+    "The Gettysburg Address": [
+        "19th century"
+    ],
     "Tess of the d'Urbervilles": [
+        "19th century",
         "book"
     ],
     "1816, the Year Without a Summer": [
+        "19th century"
+    ],
+    "The Neutron": [
+        "20th century"
+    ],
+    "The Sikh Empire": [
+        "18th century",
         "19th century"
     ],
     "Agrippina the Younger": [
         "1st century"
     ],
     "Aurora Leigh": [
+        "19th century",
         "book"
     ],
+    "Bedlam": [
+        "17th century"
+    ],
+    "The Maya Civilization": [
+        "16th century"
+    ],
     "The Dutch East India Company": [
+        "17th century",
         "economics",
         "india"
     ],
     "Mary Magdalene": [
-        "1st century"
+        "1st century",
+        "20th century"
     ],
     "Robert Hooke": [
         "17th century"
@@ -902,8 +1174,12 @@
         "language",
         "poetry"
     ],
+    "Chromatography": [
+        "19th century"
+    ],
     "Eleanor of Aquitaine": [
         "12th century",
+        "13th century",
         "war"
     ],
     "Thomas Paine's Common Sense": [
@@ -912,6 +1188,7 @@
         "america"
     ],
     "Tristan and Iseult": [
+        "12th century",
         "wales"
     ],
     "Michael Faraday": [
@@ -923,8 +1200,17 @@
     "Voyages of James Cook": [
         "18th century"
     ],
+    "The Salem Witch Trials": [
+        "17th century"
+    ],
     "Emma": [
         "book"
+    ],
+    "The Battle of Lepanto": [
+        "16th century"
+    ],
+    "The Empire of Mali": [
+        "14th century"
     ],
     "Simone de Beauvoir": [
         "20th century",
@@ -936,6 +1222,12 @@
     ],
     "Alexander the Great": [
         "greece"
+    ],
+    "Perpetual motion": [
+        "19th century"
+    ],
+    "Frida Kahlo": [
+        "20th century"
     ],
     "Frederick the Great": [
         "18th century",
@@ -950,6 +1242,7 @@
         "material"
     ],
     "Josephus": [
+        "18th century",
         "1st century",
         "language",
         "rome",
@@ -970,6 +1263,7 @@
         "19th century"
     ],
     "Matteo Ricci and the Ming dynasty": [
+        "16th century",
         "china"
     ],
     "The California Gold Rush": [
@@ -980,6 +1274,7 @@
         "france"
     ],
     "Al-Ghazali": [
+        "11th century",
         "12th century",
         "economics",
         "islam",
@@ -996,18 +1291,29 @@
     "The Wealth of Nations": [
         "economics"
     ],
+    "Ashoka the Great": [
+        "3rd century BC"
+    ],
     "Thucydides": [
         "5th century BC",
         "greece"
     ],
+    "Phenomenology": [
+        "20th century"
+    ],
     "Bruegel's The Fight Between Carnival and Lent": [
+        "16th century",
         "painting"
     ],
     "Truth": [
         "mathematics"
     ],
     "Behavioural ecology": [
+        "20th century",
         "nature"
+    ],
+    "Zen": [
+        "6th century"
     ],
     "Kafka's The Trial": [
         "20th century",
@@ -1040,6 +1346,7 @@
         "rome"
     ],
     "Mrs Dalloway": [
+        "20th century",
         "book"
     ],
     "Hildegard of Bingen": [
@@ -1051,7 +1358,15 @@
         "17th century",
         "ireland"
     ],
+    "The Bluestockings": [
+        "18th century"
+    ],
+    "The Talmud": [
+        "2nd century"
+    ],
     "The Rubaiyat of Omar Khayyam": [
+        "11th century",
+        "19th century",
         "book"
     ],
     "The Tale of Sinuhe": [
@@ -1060,6 +1375,9 @@
     "Tristram Shandy": [
         "18th century",
         "book"
+    ],
+    "The Domesday Book": [
+        "11th century"
     ],
     "Strabo's Geographica": [
         "1st century BC",
@@ -1080,7 +1398,11 @@
         "mathematics",
         "theology"
     ],
+    "The Trinity": [
+        "4th century"
+    ],
     "Spartacus": [
+        "19th century",
         "1st century BC"
     ],
     "The Phoenicians": [
@@ -1088,6 +1410,12 @@
     ],
     "Sources of Early Chinese History": [
         "china"
+    ],
+    "The Battle of Tours": [
+        "8th century"
+    ],
+    "Plato's Symposium": [
+        "4th century BC"
     ],
     "Pliny the Younger": [
         "1st century",
@@ -1097,10 +1425,17 @@
     "Hindu Ideas of Creation": [
         "india"
     ],
+    "The Microscope": [
+        "17th century"
+    ],
+    "Pocahontas": [
+        "17th century"
+    ],
     "The Tempest": [
         "book"
     ],
     "Ordinary language philosophy": [
+        "20th century",
         "language"
     ],
     "The Berlin Conference": [
@@ -1117,6 +1452,10 @@
     "Exoplanets": [
         "astronomy"
     ],
+    "The Mamluks": [
+        "13th century",
+        "16th century"
+    ],
     "Pascal": [
         "17th century",
         "france",
@@ -1127,6 +1466,7 @@
         "china"
     ],
     "The Physiocrats": [
+        "18th century",
         "economics"
     ],
     "Lévi-Strauss": [
@@ -1138,8 +1478,15 @@
     "Cosmic rays": [
         "astronomy"
     ],
+    "Icelandic Sagas": [
+        "13th century",
+        "9th century"
+    ],
     "Montaigne": [
         "france"
+    ],
+    "The Putney Debates": [
+        "17th century"
     ],
     "Alfred Russel Wallace": [
         "19th century",
@@ -1161,14 +1508,29 @@
     "Ice ages": [
         "nature"
     ],
+    "Epicureanism": [
+        "4th century BC"
+    ],
+    "The War of 1812": [
+        "19th century"
+    ],
+    "Romulus and Remus": [
+        "1st century"
+    ],
     "Comets": [
+        "18th century",
         "astronomy"
     ],
+    "The Cult of Mithras": [
+        "4th century"
+    ],
     "The South Sea Bubble": [
+        "18th century",
         "economics"
     ],
     "Shahnameh of Ferdowsi": [
         "11th century",
+        "7th century",
         "book"
     ],
     "Bertrand Russell": [
@@ -1178,12 +1540,28 @@
         "language",
         "mathematics"
     ],
+    "Crystallography": [
+        "17th century",
+        "20th century"
+    ],
+    "The Borgias": [
+        "15th century"
+    ],
     "Simone Weil": [
         "20th century",
         "france"
     ],
     "The Upanishads": [
+        "6th century",
+        "7th century",
         "india"
+    ],
+    "The Anarchy": [
+        "12th century",
+        "19th century"
+    ],
+    "Fermat's Last Theorem": [
+        "19th century"
     ],
     "Caxton and the Printing Press": [
         "15th century"
@@ -1223,21 +1601,33 @@
         "mathematics"
     ],
     "Voltaire's Candide": [
+        "18th century",
         "book"
+    ],
+    "The Battle of Bosworth Field": [
+        "15th century"
+    ],
+    "Neoplatonism": [
+        "3rd century"
     ],
     "George Fox and the Quakers": [
         "17th century",
         "theology"
+    ],
+    "The Measurement of Time": [
+        "19th century"
     ],
     "Moses Mendelssohn": [
         "18th century",
         "germany"
     ],
     "Vitruvius and De Architectura": [
+        "15th century",
         "1st century BC",
         "rome"
     ],
     "Lyrical Ballads": [
+        "18th century",
         "poetry"
     ],
     "Benjamin Franklin": [
@@ -1250,10 +1640,20 @@
     "Erasmus": [
         "16th century"
     ],
+    "1848: Year of Revolution": [
+        "19th century"
+    ],
+    "The Written World: Episode 3": [
+        "4th century",
+        "8th century"
+    ],
     "Robinson Crusoe": [
         "18th century",
         "book",
         "economics"
+    ],
+    "The Concordat of Worms": [
+        "12th century"
     ],
     "Heraclitus": [
         "5th century BC",
@@ -1275,10 +1675,15 @@
         "rome"
     ],
     "The Siege of Tenochtitlan": [
+        "16th century",
         "war"
     ],
     "Delacroix's Liberty Leading the People": [
+        "19th century",
         "painting"
+    ],
+    "The Ming Voyages": [
+        "15th century"
     ],
     "David Hume": [
         "18th century",
@@ -1300,26 +1705,44 @@
     "Tennyson's In Memoriam": [
         "book"
     ],
+    "Malthusianism": [
+        "18th century"
+    ],
     "Wyclif and the Lollards": [
         "14th century"
     ],
     "The Battle of Stamford Bridge": [
+        "11th century",
         "viking",
         "war"
     ],
     "Xenophon": [
         "greece"
     ],
+    "Custer's Last Stand": [
+        "19th century"
+    ],
+    "The Anatomy of Melancholy": [
+        "17th century"
+    ],
     "Islamic Law and its Origins": [
+        "7th century",
         "law"
+    ],
+    "The Pelagian Controversy": [
+        "4th century"
     ],
     "Octavia Hill": [
         "19th century"
+    ],
+    "The Bhagavad Gita": [
+        "18th century"
     ],
     "The Iron Age": [
         "material"
     ],
     "The Age of the Universe": [
+        "18th century",
         "astronomy"
     ],
     "The Taiping Rebellion": [
@@ -1335,7 +1758,11 @@
         "psychology"
     ],
     "The Battle of Bannockburn": [
+        "14th century",
         "war"
+    ],
+    "Aristotle's Poetics": [
+        "4th century BC"
     ],
     "The Mexican Revolution": [
         "20th century"
@@ -1352,6 +1779,7 @@
         "19th century"
     ],
     "Daoism": [
+        "2nd century BC",
         "china"
     ],
     "Thomas Edison": [
@@ -1365,7 +1793,20 @@
     "The Volga Vikings": [
         "viking"
     ],
+    "Women and Enlightenment Science": [
+        "18th century"
+    ],
+    "The Unicorn": [
+        "5th century BC"
+    ],
+    "Logic": [
+        "4th century BC"
+    ],
+    "Sturm und Drang": [
+        "18th century"
+    ],
     "The Spanish Armada": [
+        "16th century",
         "spain"
     ],
     "Pliny's Natural History": [
@@ -1376,6 +1817,7 @@
         "nature"
     ],
     "Al-Biruni": [
+        "11th century",
         "astronomy",
         "islam",
         "psychology"
@@ -1386,6 +1828,9 @@
         "france",
         "ireland"
     ],
+    "The Cavendish Family in Science": [
+        "19th century"
+    ],
     "William James's The Varieties of Religious Experience": [
         "19th century",
         "20th century",
@@ -1393,7 +1838,11 @@
         "psychology"
     ],
     "The Great Wall of China": [
+        "17th century",
         "china"
+    ],
+    "The Rise and Fall of the Zulu Nation": [
+        "19th century"
     ],
     "Munch and The Scream": [
         "19th century",
@@ -1402,23 +1851,45 @@
     "The Infant Brain": [
         "medicine"
     ],
+    "Calvinism": [
+        "16th century"
+    ],
     "The Indian Mutiny": [
         "19th century",
         "india"
     ],
+    "The Unintended Consequences of Mathematics": [
+        "17th century"
+    ],
     "Ibn Khaldun": [
+        "14th century",
         "economics",
         "islam"
     ],
     "Silas Marner": [
+        "19th century",
         "book"
     ],
     "The Glencoe Massacre": [
+        "17th century",
         "scotland"
+    ],
+    "The Royal Society and British Science: Episode 4": [
+        "20th century"
+    ],
+    "The Royal Society and British Science: Episode 3": [
+        "19th century"
+    ],
+    "The Royal Society and British Science: Episode 2": [
+        "18th century"
     ],
     "Mary Wollstonecraft": [
         "18th century",
         "france"
+    ],
+    "The Samurai": [
+        "19th century",
+        "20th century"
     ],
     "Pythagoras": [
         "5th century BC",
@@ -1437,6 +1908,13 @@
     ],
     "Sparta": [
         "greece"
+    ],
+    "Radiation": [
+        "19th century",
+        "20th century"
+    ],
+    "The Siege of Munster": [
+        "16th century"
     ],
     "Schopenhauer": [
         "19th century",
@@ -1460,10 +1938,18 @@
         "medicine",
         "theology"
     ],
+    "Ediacara Biota": [
+        "19th century",
+        "20th century"
+    ],
+    "Logical Positivism": [
+        "20th century"
+    ],
     "Sunni and Shia Islam": [
         "islam"
     ],
     "Elizabethan Revenge": [
+        "16th century",
         "book"
     ],
     "The Augustan Age": [
@@ -1483,11 +1969,16 @@
         "nature"
     ],
     "The Siege of Vienna": [
+        "17th century",
         "rome",
         "war"
     ],
     "The Magna Carta": [
+        "13th century",
         "law"
+    ],
+    "Suffragism": [
+        "20th century"
     ],
     "Aldous Huxley's Brave New World": [
         "20th century"
@@ -1496,12 +1987,22 @@
         "greece"
     ],
     "The Boxer Rebellion": [
+        "19th century",
         "china",
         "france",
         "russia"
     ],
+    "The Library of Alexandria": [
+        "3rd century BC"
+    ],
+    "The Measurement problem in Physics": [
+        "20th century"
+    ],
     "The Waste Land and Modernity": [
         "book"
+    ],
+    "The Observatory at Jaipur": [
+        "18th century"
     ],
     "The Brothers Grimm": [
         "19th century"
@@ -1511,11 +2012,18 @@
         "18th century",
         "ireland"
     ],
+    "History of History": [
+        "6th century"
+    ],
     "Thoreau and the American Idyll": [
         "19th century",
         "america"
     ],
+    "Darwin: Life After Origins": [
+        "19th century"
+    ],
     "Darwin: On the Origin of Species": [
+        "19th century",
         "language"
     ],
     "Darwin: On the Origins of Charles Darwin": [
@@ -1529,13 +2037,19 @@
     "The Fire of London": [
         "17th century"
     ],
+    "The Great Reform Act": [
+        "19th century"
+    ],
     "The Baroque Movement": [
+        "17th century",
         "18th century"
     ],
     "Neuroscience": [
+        "19th century",
         "psychology"
     ],
     "Aristotle's Politics": [
+        "4th century",
         "greece"
     ],
     "Bolivar": [
@@ -1543,21 +2057,43 @@
         "war"
     ],
     "Dante's Inferno": [
+        "14th century",
         "book"
     ],
+    "Vitalism": [
+        "19th century"
+    ],
     "Gödel's Incompleteness Theorems": [
+        "20th century",
         "mathematics"
+    ],
+    "The Translation Movement": [
+        "9th century"
+    ],
+    "Miracles": [
+        "4th century"
     ],
     "Tacitus and the Decadence of Rome": [
         "1st century",
         "law",
         "rome"
     ],
+    "The Metaphysical Poets": [
+        "17th century"
+    ],
     "The Riddle of the Sands": [
         "book"
     ],
+    "The Library at Nineveh": [
+        "7th century BC"
+    ],
+    "The Brain": [
+        "17th century",
+        "5th century BC"
+    ],
     "The Enclosures of the 18th Century": [
-        "18th century"
+        "18th century",
+        "19th century"
     ],
     "Yeats and Irish Politics": [
         "19th century",
@@ -1580,20 +2116,44 @@
     "The Multiverse": [
         "astronomy"
     ],
+    "The Social Contract": [
+        "17th century"
+    ],
+    "Rudolph II": [
+        "16th century"
+    ],
+    "Plate Tectonics": [
+        "20th century"
+    ],
+    "The Fisher King": [
+        "12th century"
+    ],
     "Camus": [
         "20th century",
         "france"
     ],
     "The Nicene Creed": [
+        "16th century",
         "4th century"
     ],
     "The Four Humours": [
+        "11th century",
+        "17th century",
+        "19th century",
         "greece",
         "medicine"
     ],
     "The Sassanid Empire": [
+        "7th century",
         "mesopotamia",
         "persia"
+    ],
+    "The Fibonacci Sequence": [
+        "13th century",
+        "19th century"
+    ],
+    "Oxygen": [
+        "18th century"
     ],
     "Avicenna": [
         "islam",
@@ -1602,7 +2162,17 @@
         "psychology"
     ],
     "Guilt": [
+        "18th century",
         "psychology"
+    ],
+    "Taste": [
+        "18th century"
+    ],
+    "The Arabian Nights": [
+        "18th century"
+    ],
+    "The Divine Right of Kings": [
+        "17th century"
     ],
     "Socrates": [
         "5th century BC",
@@ -1615,9 +2185,16 @@
     "The Pilgrim Fathers": [
         "17th century"
     ],
+    "Common Sense Philosophy": [
+        "17th century",
+        "18th century"
+    ],
     "Siegfried Sassoon": [
         "20th century",
         "war"
+    ],
+    "Ockham's Razor": [
+        "13th century"
     ],
     "The Siege of Orléans": [
         "war"
@@ -1625,27 +2202,48 @@
     "Gravitational Waves": [
         "astronomy"
     ],
+    "Victorian Pessimism": [
+        "19th century"
+    ],
     "Spinoza": [
         "17th century",
+        "18th century",
         "medicine"
     ],
     "Greek and Roman Love Poetry": [
+        "6th century BC",
         "poetry"
+    ],
+    "Symmetry": [
+        "19th century"
+    ],
+    "The Opium Wars": [
+        "19th century"
     ],
     "St Hilda": [
         "7th century"
     ],
+    "Anaesthetics": [
+        "19th century"
+    ],
     "Bismarck": [
+        "19th century",
         "war"
     ],
     "Epistolary Literature": [
+        "17th century",
+        "18th century",
         "book"
+    ],
+    "Microbiology": [
+        "17th century"
     ],
     "Wilberforce": [
         "18th century",
         "19th century"
     ],
     "Heart of Darkness": [
+        "19th century",
         "book"
     ],
     "Popper": [
@@ -1654,8 +2252,19 @@
         "mathematics",
         "medicine"
     ],
+    "Genghis Khan": [
+        "12th century"
+    ],
     "Archimedes": [
         "greece"
+    ],
+    "The Jesuits": [
+        "16th century",
+        "17th century",
+        "18th century"
+    ],
+    "Mars": [
+        "19th century"
     ],
     "Jorge Luis Borges": [
         "20th century",
@@ -1663,22 +2272,39 @@
         "mathematics"
     ],
     "Constantinople Siege and Fall": [
+        "15th century",
         "byzantine",
         "war"
     ],
+    "Hell": [
+        "20th century"
+    ],
+    "Anarchism": [
+        "19th century",
+        "20th century"
+    ],
+    "The Speed of Light": [
+        "17th century"
+    ],
     "Altruism": [
+        "19th century",
         "psychology"
     ],
     "The Peasants' Revolt": [
+        "14th century",
         "war"
     ],
     "Pope": [
         "18th century"
     ],
+    "The Poincaré conjecture": [
+        "20th century"
+    ],
     "The Needham Question": [
         "20th century"
     ],
     "The Diet of Worms": [
+        "11th century",
         "16th century",
         "rome"
     ],
@@ -1690,7 +2316,8 @@
         "theology"
     ],
     "Humboldt": [
-        "18th century"
+        "18th century",
+        "19th century"
     ],
     "Galaxies": [
         "astronomy"
@@ -1700,10 +2327,15 @@
         "spain"
     ],
     "Uncle Tom's Cabin": [
+        "19th century",
         "book"
     ],
     "The Heart": [
+        "17th century",
         "medicine"
+    ],
+    "Mathematics and Music": [
+        "20th century"
     ],
     "Mill": [
         "19th century",
@@ -1712,13 +2344,30 @@
         "medicine",
         "psychology"
     ],
+    "Fairies": [
+        "16th century",
+        "19th century"
+    ],
+    "Astronomy and Empire": [
+        "18th century"
+    ],
+    "The Great Exhibition of 1851": [
+        "19th century"
+    ],
+    "The Oxford Movement": [
+        "19th century"
+    ],
     "Goethe": [
         "18th century",
         "19th century",
         "germany",
         "language"
     ],
+    "The Royal Society": [
+        "17th century"
+    ],
     "Don Quixote": [
+        "17th century",
         "book"
     ],
     "Negative numbers": [
@@ -1730,8 +2379,14 @@
     "Chaucer": [
         "14th century"
     ],
+    "Seventeenth Century Print Culture": [
+        "17th century"
+    ],
     "The Oresteia": [
         "book"
+    ],
+    "Heaven": [
+        "17th century"
     ],
     "The Peterloo Massacre": [
         "19th century"
@@ -1746,6 +2401,15 @@
         "medicine",
         "theology"
     ],
+    "The Graviton": [
+        "20th century"
+    ],
+    "Pragmatism": [
+        "20th century"
+    ],
+    "Greyfriars and Blackfriars": [
+        "13th century"
+    ],
     "Asteroids": [
         "astronomy"
     ],
@@ -1753,7 +2417,11 @@
         "18th century"
     ],
     "The Field of the Cloth of Gold": [
+        "16th century",
         "material"
+    ],
+    "Magnetism": [
+        "16th century"
     ],
     "Marx": [
         "19th century",
@@ -1763,6 +2431,12 @@
     ],
     "Marlowe": [
         "16th century"
+    ],
+    "Paganism in the Renaissance": [
+        "15th century"
+    ],
+    "The Scriblerus Club": [
+        "18th century"
     ],
     "Renaissance Maths": [
         "mathematics"
@@ -1780,6 +2454,12 @@
     "The Aeneid": [
         "1st century BC"
     ],
+    "Archaeology and Imperialism": [
+        "19th century"
+    ],
+    "Alfred and the Battle of Edington": [
+        "9th century"
+    ],
     "John Ruskin": [
         "19th century",
         "economics"
@@ -1787,14 +2467,22 @@
     "Dark Energy": [
         "astronomy"
     ],
+    "Modernist Utopias": [
+        "20th century"
+    ],
+    "Stoicism": [
+        "20th century"
+    ],
     "The Mind/Body Problem": [
         "psychology"
     ],
     "Tsar Alexander II's assassination": [
+        "19th century",
         "russia"
     ],
     "The Roman Republic": [
         "1st century BC",
+        "5th century",
         "rome"
     ],
     "Machiavelli and the Italian City States": [
@@ -1808,6 +2496,9 @@
         "8th century",
         "theology"
     ],
+    "Electrickery": [
+        "18th century"
+    ],
     "Rhetoric": [
         "language"
     ],
@@ -1817,6 +2508,7 @@
         "medicine"
     ],
     "Agincourt": [
+        "15th century",
         "war"
     ],
     "The Odyssey": [
@@ -1840,7 +2532,11 @@
         "mathematics"
     ],
     "Hysteria": [
+        "5th century BC",
         "psychology"
+    ],
+    "The Later Romantics": [
+        "19th century"
     ],
     "The Fall": [
         "theology"
@@ -1858,6 +2554,10 @@
         "19th century",
         "20th century"
     ],
+    "The Sublime": [
+        "17th century",
+        "18th century"
+    ],
     "Lamarck and Natural Selection": [
         "18th century",
         "19th century",
@@ -1870,6 +2570,16 @@
         "medicine",
         "war"
     ],
+    "St Bartholomew's Day Massacre": [
+        "16th century"
+    ],
+    "The Schism": [
+        "11th century"
+    ],
+    "Bohemianism": [
+        "19th century",
+        "20th century"
+    ],
     "Maxwell": [
         "19th century",
         "mathematics"
@@ -1877,6 +2587,12 @@
     "The East India Company": [
         "economics",
         "india"
+    ],
+    "The Aristocracy": [
+        "18th century"
+    ],
+    "The Lunar Society": [
+        "18th century"
     ],
     "Memory": [
         "psychology"
@@ -1886,7 +2602,11 @@
     ],
     "Roman Britain": [
         "1st century",
+        "4th century",
         "5th century"
+    ],
+    "Youth": [
+        "19th century"
     ],
     "Proust": [
         "19th century",
@@ -1899,14 +2619,34 @@
     "The Life of Stars": [
         "astronomy"
     ],
+    "Originality": [
+        "18th century"
+    ],
+    "Meteorology": [
+        "18th century"
+    ],
+    "The Aztecs": [
+        "16th century"
+    ],
+    "The Lindisfarne Gospels": [
+        "6th century",
+        "8th century"
+    ],
     "The Epic": [
         "book"
+    ],
+    "Man and Disease": [
+        "14th century",
+        "19th century"
     ],
     "The Enlightenment in Scotland": [
         "18th century",
         "scotland"
     ],
     "Muslim Spain": [
+        "10th century",
+        "11th century",
+        "7th century",
         "islam",
         "spain"
     ],
@@ -1917,19 +2657,33 @@
     "Human Nature": [
         "psychology"
     ],
+    "Heritage": [
+        "19th century"
+    ],
+    "Psychoanalysis and democracy": [
+        "20th century"
+    ],
     "Wagner": [
         "19th century",
         "germany",
         "music"
     ],
     "The American West": [
+        "19th century",
         "america"
+    ],
+    "The Grand Tour": [
+        "18th century"
     ],
     "Chaos Theory": [
         "computation"
     ],
     "The Examined Life": [
+        "4th century BC",
         "psychology"
+    ],
+    "The Physics of Reality": [
+        "20th century"
     ],
     "Tolstoy": [
         "19th century",
@@ -1938,8 +2692,14 @@
         "medicine",
         "russia"
     ],
+    "Bohemia": [
+        "15th century"
+    ],
     "Extra Terrestrials": [
         "astronomy"
+    ],
+    "The Artist": [
+        "1st century"
     ],
     "Milton": [
         "17th century",
@@ -1953,8 +2713,20 @@
         "20th century",
         "ireland"
     ],
+    "Catharism": [
+        "13th century"
+    ],
+    "Nuclear Physics": [
+        "20th century"
+    ],
+    "Sensibility": [
+        "18th century"
+    ],
     "Rome and European Civilization": [
         "5th century"
+    ],
+    "Genetics": [
+        "20th century"
     ],
     "Oscar Wilde": [
         "19th century",
@@ -1962,11 +2734,15 @@
         "medicine"
     ],
     "Third Crusade": [
+        "11th century",
         "france",
         "rome"
     ],
     "Oceanography": [
         "nature"
+    ],
+    "The British Empire": [
+        "19th century"
     ],
     "Confucius": [
         "5th century BC",
@@ -1989,6 +2765,9 @@
     "Literary Modernism": [
         "20th century"
     ],
+    "The Glorious Revolution": [
+        "17th century"
+    ],
     "Black Holes": [
         "astronomy"
     ],
@@ -2000,11 +2779,29 @@
         "16th century",
         "17th century"
     ],
+    "Quantum Gravity": [
+        "20th century"
+    ],
+    "Imperial Science": [
+        "19th century"
+    ],
+    "The Enlightenment in Britain": [
+        "18th century"
+    ],
     "Mathematics and Platonism": [
         "mathematics"
     ],
+    "Gothic": [
+        "18th century"
+    ],
     "Evolutionary Psychology": [
         "psychology"
+    ],
+    "The Tudor State": [
+        "16th century"
+    ],
+    "Laws of Nature": [
+        "6th century BC"
     ],
     "The Romantics": [
         "18th century",
@@ -2021,30 +2818,45 @@
         "14th century",
         "15th century",
         "16th century",
-        "17th century"
+        "17th century",
+        "19th century"
     ],
     "The American Ideal": [
         "america"
+    ],
+    "The Wars of the Roses": [
+        "15th century"
     ],
     "Shakespeare's Work": [
         "16th century",
         "17th century"
     ],
+    "Death": [
+        "16th century"
+    ],
     "Human Origins": [
         "animals"
+    ],
+    "History and Understanding the Past": [
+        "21st century"
     ],
     "Lenin": [
         "19th century",
         "20th century",
         "russia"
     ],
+    "The Age of Doubt": [
+        "19th century"
+    ],
     "Metamorphosis": [
         "medicine"
     ],
     "Grand Unified Theory": [
+        "20th century",
         "astronomy"
     ],
     "Reading": [
+        "18th century",
         "language",
         "psychology"
     ],
@@ -2054,13 +2866,21 @@
         "germany",
         "language"
     ],
+    "Masculinity in Literature": [
+        "20th century"
+    ],
     "Climate change": [
         "nature"
     ],
+    "Time": [
+        "19th century"
+    ],
     "Medical Ethics": [
+        "16th century",
         "medicine"
     ],
     "Childhood": [
+        "20th century",
         "psychology"
     ],
     "Consciousness": [
@@ -2069,32 +2889,65 @@
     "Atrocity in the 20th Century": [
         "20th century"
     ],
+    "The Individual": [
+        "20th century"
+    ],
+    "The Nation State": [
+        "20th century"
+    ],
     "Maths and Storytelling": [
         "mathematics"
     ],
     "Intelligence": [
         "psychology"
     ],
+    "Capitalism": [
+        "19th century"
+    ],
+    "The Great Disruption": [
+        "20th century"
+    ],
+    "The Monarchy": [
+        "20th century"
+    ],
     "Just War": [
+        "1st century",
         "theology"
     ],
     "Memory and Culture": [
         "psychology"
     ],
     "The Universe's Origins": [
+        "20th century",
         "astronomy"
     ],
-    "Mathematics": [
-        "mathematics"
-    ],
-    "Writing and Political Oppression": [
-        "language"
-    ],
-    "Architecture in the 20th Century": [
+    "Multiculturalism": [
         "20th century"
     ],
+    "Mathematics": [
+        "20th century",
+        "mathematics"
+    ],
+    "Fundamentalism": [
+        "20th century"
+    ],
+    "Writing and Political Oppression": [
+        "20th century",
+        "language"
+    ],
+    "Good and Evil": [
+        "20th century"
+    ],
+    "Architecture in the 20th Century": [
+        "20th century",
+        "21st century"
+    ],
     "Animal Experiments and Rights": [
+        "2nd century",
         "animals"
+    ],
+    "History as Science": [
+        "18th century"
     ],
     "Shakespeare and Literary Criticism": [
         "16th century",
@@ -2103,29 +2956,49 @@
     "The Avant Garde's Decline and Fall in the 20th Century": [
         "20th century"
     ],
+    "Space in Religion and Science": [
+        "20th century"
+    ],
     "Language and the Mind": [
+        "20th century",
         "language"
+    ],
+    "Psychoanalysis and its Legacy": [
+        "20th century"
+    ],
+    "Modern Culture": [
+        "20th century"
+    ],
+    "Feminism": [
+        "20th century"
+    ],
+    "The British Empire's Legacy": [
+        "19th century"
     ],
     "Neuroscience in the 20th Century": [
         "20th century",
         "psychology"
     ],
     "The American Century": [
+        "20th century",
         "america"
     ],
     "Cultural rights in the 20th Century": [
         "20th century"
     ],
     "History's relevance in the 20th century": [
+        "19th century",
         "20th century"
     ],
     "Work in the 20th Century": [
         "20th century"
     ],
     "The Brain and Consciousness": [
+        "20th century",
         "medicine"
     ],
     "The City in the 20th Century": [
+        "19th century",
         "20th century"
     ],
     "Science in the 20th century": [
