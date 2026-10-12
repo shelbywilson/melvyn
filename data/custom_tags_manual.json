@@ -1,4 +1,6 @@
 {
     "Hypnosis": ["medicine"],
-    "Alan Turing": ["computation"]
+    "Alan Turing": ["computation"],
+    "The Delian League": ["5th century BC", "greece"],
+    "Animal Experiments and Rights": {"exclude": ["2nd century"]}
 }

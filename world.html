@@ -14,12 +14,12 @@
     <meta property="og:image" content="https://shelby.cool/melvyn/client/world_preview.png" />
     <meta name="theme-color" content="#000">
     <title>in our time</title>
-    <link rel="stylesheet" type="text/css" href="./client/css/common.04.css" />
-    <link rel="stylesheet" type="text/css" href="./client/css/index.04.css" />
-    <link rel="stylesheet" type="text/css" href="./client/css/world.04.css?v=1.11.13" />
+    <link rel="stylesheet" type="text/css" href="./client/css/common.05.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/index.05.css" />
+    <link rel="stylesheet" type="text/css" href="./client/css/world.05.css?v=1.12.13" />
     <link rel="icon"
         href="./client/lord-bragg.jpg" />
-    <script src="client/util.04.js"></script>
+    <script src="client/util.05.js"></script>
     <!-- 
             "three/addons/": "https://unpkg.com/three/examples/jsm/",
      -->
@@ -28,7 +28,7 @@
           "imports": {
             "three": "./client/three/three.module.min.js",
             "three/addons/": "https://unpkg.com/three/examples/jsm/",
-            "util": "./client/util.04.js"
+            "util": "./client/util.05.js"
           }
         }
       </script>
@@ -62,6 +62,7 @@
         let guestFrequency = {};
         let categoriesByEpisode = {};
         let topLevelCategoriesByEpisode = {};
+        let customTagsByEpisode = {};
         let scores = {};
         let thumbnails = {};
         let categories = {};
@@ -86,15 +87,16 @@
 
             Promise.all([
                 // 'scores',
-                './data/bbc_descriptions_short.json?v=1.11',
-                // './data/guest_frequency_min.json?v=1.11',
-                './data/episodes_min.json?v=1.11',
-                './data/episode_thumbnails.json?v=1.11',
+                './data/bbc_descriptions_short.json?v=1.12',
+                // './data/guest_frequency_min.json?v=1.12',
+                './data/episodes_min.json?v=1.12',
+                './data/episode_thumbnails.json?v=1.12',
                 './data/episode_thumbnails_manual.json',
-                './data/categories_by_episode.json?v=1.11',
-                './config/config.json?v=1.11',
+                './data/categories_by_episode.json?v=1.12',
+                './config/config.json?v=1.12',
                 './data/topics_by_category_non_unique.json',
                 './data/top_level_categories_by_episode.json',
+                './data/custom_tags_by_episode.json',
             ].map((url, i) => {
                 // if (i === 0) {
                 //     return getScores()
@@ -107,7 +109,7 @@
                 });
             })).then((values) => {
                 // [scores, bbcDescriptions, guestFrequency, episodes, thumbnails, categoriesByEpisode, config] = values;
-                let [bbcDesc, eps, thumbs, manualThumbs, cats, cfg, topicsByCat, topLvlCats] = values;
+                let [bbcDesc, eps, thumbs, manualThumbs, cats, cfg, topicsByCat, topLvlCats, customTags] = values;
                 bbcDescriptions = bbcDesc;
                 episodes = eps;
                 thumbnails = {...thumbs, ...manualThumbs};
@@ -115,6 +117,7 @@
                 config = cfg;
                 categories = topicsByCat;
                 topLevelCategoriesByEpisode = topLvlCats;
+                customTagsByEpisode = customTags;
                 state.end = Math.min(episodes.length - 1, ((page + 1) * PAGE_SIZE) - 1)
 
                 display();
@@ -204,7 +207,7 @@
             };
 
             img.onerror = () => {
-                console.error('Error loading image:', episode, imageUrl);
+                if (imageUrl) console.error('Error loading image:', episode, imageUrl);
                 const canvas = document.createElement('canvas');
                 const context = canvas.getContext('2d');
 
@@ -219,7 +222,11 @@
                 callback(texture);
             };
 
-            img.src = imageUrl;
+            if (imageUrl) {
+                img.src = imageUrl;
+            } else {
+                img.onerror();
+            }
         }
 
         function getDebugTexture(i) {

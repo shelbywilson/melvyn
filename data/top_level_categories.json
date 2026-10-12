@@ -1,5 +1,8 @@
 {
     "Culture": [
+        "Vigée Le Brun",
+        "Joseph Roth",
+        "M.C. Escher",
         "Handel's Messiah",
         "Dadaism",
         "John Keats",
@@ -32,7 +35,6 @@
         "Marguerite de Navarre",
         "The Theory of the Leisure Class",
         "Germinal",
-        "The Seventh Seal\n(1000th program)",
         "Death in Venice",
         "Oedipus Rex",
         "Virgil's Georgics",
@@ -243,10 +245,15 @@
         "The Enlightenment in Britain",
         "The Tudor State",
         "Africa",
+        "The Seventh Seal\n(1000th program)",
         "Ludwig van Beethoven",
         "Rabindranath Tagore"
     ],
     "History": [
+        "The Delian League",
+        "The Welsh Marches",
+        "The Levellers",
+        "The Garamantes",
         "The Spanish-American War 1898",
         "Margaret Beaufort",
         "The Columbian Exchange",

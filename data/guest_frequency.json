@@ -1,4 +1,305 @@
 {
+    "Martin Worthington": {
+        "count": 3,
+        "first": "22 October 2026",
+        "last": "3 November 2016",
+        "links": [
+            {
+                "text": "Martin Worthington",
+                "wiki": "https://en.wikipedia.org/wiki/Martin_Worthington_(academic)"
+            },
+            {
+                "text": "University of Pisa",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Pisa"
+            }
+        ],
+        "title": [
+            "Leader of the European Research Council Project MesOr at the University of Pisa",
+            "Professor in Middle Eastern Studies at Trinity College Dublin",
+            "Lecturer in Assyriology at the University of Cambridge"
+        ]
+    },
+    "Christopher Metcalf": {
+        "count": 1,
+        "first": "22 October 2026",
+        "last": "22 October 2026",
+        "links": [
+            {
+                "text": "Queen’s College, University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
+            }
+        ],
+        "title": [
+            "Professor of Ancient Literature and Religion and Fellow in Classics at Queen’s College, University of Oxford"
+        ]
+    },
+    "Selena Wisnom": {
+        "count": 2,
+        "first": "22 October 2026",
+        "last": "12 February 2026",
+        "links": [
+            {
+                "text": "University of Leicester",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
+            }
+        ],
+        "title": [
+            "Lecturer in the Heritage of the Middle East at the University of Leicester."
+        ]
+    },
+    "Karen Salt": {
+        "count": 3,
+        "first": "15 October 2026",
+        "last": "23 October 2014",
+        "links": [
+            {
+                "text": "Manchester Metropolitan University",
+                "wiki": "https://en.wikipedia.org/wiki/Manchester_Metropolitan_University"
+            }
+        ],
+        "title": [
+            "Professor of   Culture, Place and Communities at Manchester Metropolitan University",
+            "Assistant Professor in Transnational American Studies at the University of Nottingham",
+            "Research Fellow at School of Divinity, History and philosophy, University of Aberdeen"
+        ]
+    },
+    "Susan-Mary Grant": {
+        "count": 4,
+        "first": "15 October 2026",
+        "last": "26 May 2016",
+        "links": [
+            {
+                "text": "Susan-Mary Grant",
+                "wiki": "https://en.wikipedia.org/wiki/Susan-Mary_Grant"
+            },
+            {
+                "text": "Newcastle University",
+                "wiki": "https://en.wikipedia.org/wiki/Newcastle_University"
+            }
+        ],
+        "title": [
+            "Professor Emerita of American History at Newcastle University",
+            "Professor of American History at Newcastle University"
+        ]
+    },
+    "Robert Cook": {
+        "count": 2,
+        "first": "15 October 2026",
+        "last": "30 May 2019",
+        "links": [
+            {
+                "text": "University of Sussex",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Sussex"
+            }
+        ],
+        "title": [
+            "Emeritus Professor of American History at the University of Sussex.",
+            "Professor of American History at the University of Sussex"
+        ]
+    },
+    "Emily Rayfield": {
+        "count": 3,
+        "first": "8 October 2026",
+        "last": "20 October 2022",
+        "links": [
+            {
+                "text": "Emily Rayfield",
+                "wiki": "https://en.wikipedia.org/wiki/Emily_Rayfield"
+            },
+            {
+                "text": "University of Bristol",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+            }
+        ],
+        "title": [
+            "Professor of Palaeobiology at the University of Bristol"
+        ]
+    },
+    "Emma Nicholls": {
+        "count": 1,
+        "first": "8 October 2026",
+        "last": "8 October 2026",
+        "links": [
+            {
+                "text": "Oxford University Museum of Natural History",
+                "wiki": "https://en.wikipedia.org/wiki/Oxford_University_Museum_of_Natural_History"
+            }
+        ],
+        "title": [
+            "Vertebrate Palaeontologist and Collections Manager at Oxford University Museum of Natural History"
+        ]
+    },
+    "Steve Brusatte": {
+        "count": 4,
+        "first": "8 October 2026",
+        "last": "26 October 2017",
+        "links": [
+            {
+                "text": "Steve Brusatte",
+                "wiki": "https://en.wikipedia.org/wiki/Stephen_L._Brusatte"
+            },
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "Professor of Palaeontology and Evolution at the University of Edinburgh.",
+            "Professor of Palaeontology and Evolution at the University of Edinburgh",
+            "Reader and Chancellor's Fellow in Vertebrate Palaeontology at the University of Edinburgh"
+        ]
+    },
+    "Ian Christie": {
+        "count": 2,
+        "first": "1 October 2026",
+        "last": "15 December 2022",
+        "links": [
+            {
+                "text": "Ian Christie",
+                "wiki": "https://en.wikipedia.org/wiki/Ian_Christie_(film_scholar)"
+            },
+            {
+                "text": "Birkbeck University of London",
+                "wiki": "https://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
+            }
+        ],
+        "title": [
+            "Emeritus Professor of Film and Media History at Birkbeck University of London",
+            "Professor of Film and Media History at Birkbeck, University of London"
+        ]
+    },
+    "Pamela Hutchinson": {
+        "count": 1,
+        "first": "1 October 2026",
+        "last": "1 October 2026",
+        "links": [],
+        "title": [
+            "Film historian and critic"
+        ]
+    },
+    "Sheldon Hall": {
+        "count": 1,
+        "first": "1 October 2026",
+        "last": "1 October 2026",
+        "links": [
+            {
+                "text": "Sheldon Hall",
+                "wiki": "https://en.wikipedia.org/wiki/Sheldon_Hall_(film_historian)"
+            },
+            {
+                "text": "Sheffield Hallam University",
+                "wiki": "https://en.wikipedia.org/wiki/Sheffield_Hallam_University"
+            }
+        ],
+        "title": [
+            "Emeritus Fellow at Sheffield Hallam University."
+        ]
+    },
+    "Harry Cliff": {
+        "count": 3,
+        "first": "24 September 2026",
+        "last": "29 September 2022",
+        "links": [
+            {
+                "text": "University of Cambridge",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+            }
+        ],
+        "title": [
+            "Particle Physicist at the University of Cambridge",
+            "Research Fellow in Particle Physics at the University of Cambridge"
+        ]
+    },
+    "Victoria Martin": {
+        "count": 2,
+        "first": "24 September 2026",
+        "last": "29 September 2022",
+        "links": [
+            {
+                "text": "Victoria Martin",
+                "wiki": "https://en.wikipedia.org/wiki/Victoria_Martin"
+            },
+            {
+                "text": "University of Edinburgh",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+            }
+        ],
+        "title": [
+            "Professor of Collider Physics at the University of Edinburgh"
+        ]
+    },
+    "Joseph Martin": {
+        "count": 1,
+        "first": "24 September 2026",
+        "last": "24 September 2026",
+        "links": [
+            {
+                "text": "Joseph Martin",
+                "wiki": "https://en.wikipedia.org/wiki/Joseph_D._Martin"
+            },
+            {
+                "text": "Durham University",
+                "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+            }
+        ],
+        "title": [
+            "Professor of the History of Science and Technology at Durham University."
+        ]
+    },
+    "Laura Ashe": {
+        "count": 12,
+        "first": "17 September 2026",
+        "last": "10 January 2013",
+        "links": [
+            {
+                "text": "Laura Ashe",
+                "wiki": "https://en.wikipedia.org/wiki/Laura_Ashe"
+            },
+            {
+                "text": "Worcester College, University of Oxford",
+                "wiki": "https://en.wikipedia.org/wiki/Worcester_College,_Oxford"
+            }
+        ],
+        "title": [
+            "Professor of English Literature at Worcester College, University of Oxford",
+            "Professor of English Literature at the University of Oxford",
+            "Professor of English Literature and Fellow in English at Worcester College, Oxford",
+            "Associate Professor of English at Worcester College, University of Oxford",
+            "associate professor of English and fellow of Worcester College at the University of Oxford",
+            "associate professor of English at Worcester College, Oxford",
+            "Associate Professor in English at the University of Oxford and Fellow of Worcester College",
+            "University Lecturer and Tutorial Fellow Worcester College, University of Oxford",
+            "CUF Lecturer and Tutorial Fellow at Worcester College at the University of Oxford"
+        ]
+    },
+    "Cathy Shrank": {
+        "count": 1,
+        "first": "17 September 2026",
+        "last": "17 September 2026",
+        "links": [
+            {
+                "text": "University of Sheffield",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+            }
+        ],
+        "title": [
+            "Professor of Tudor and Renaissance Literature at the University of Sheffield"
+        ]
+    },
+    "Joanne Paul": {
+        "count": 1,
+        "first": "17 September 2026",
+        "last": "17 September 2026",
+        "links": [
+            {
+                "text": "University of Sussex",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Sussex"
+            }
+        ],
+        "title": [
+            "Honorary Associate Professor in Intellectual History at the University of Sussex."
+        ]
+    },
     "Suzanne Williams": {
         "count": 1,
         "first": "2 July 2026",
@@ -182,7 +483,7 @@
             },
             {
                 "text": "St. Peter's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
             }
         ],
         "title": [
@@ -394,7 +695,7 @@
             },
             {
                 "text": "St John’s College, University of Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
             }
         ],
         "title": [
@@ -620,12 +921,7 @@
         "count": 1,
         "first": "9 April 2026",
         "last": "9 April 2026",
-        "links": [
-            {
-                "text": "Handel Institute",
-                "wiki": "https://en.wikipedia.org/w/index.php?title=Handel_Institute&action=edit&redlink=1"
-            }
-        ],
+        "links": [],
         "title": [
             "Trustee and Council Member of the Handel Institute"
         ]
@@ -699,7 +995,7 @@
             },
             {
                 "text": "Queen’s College, University of Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
             }
         ],
         "title": [
@@ -998,25 +1294,6 @@
             "Senior Lecturer in Romantic Literature at the University of Newcastle."
         ]
     },
-    "Martin Worthington": {
-        "count": 2,
-        "first": "12 February 2026",
-        "last": "3 November 2016",
-        "links": [
-            {
-                "text": "Martin Worthington",
-                "wiki": "https://en.wikipedia.org/wiki/Martin_Worthington_(academic)"
-            },
-            {
-                "text": "Trinity College Dublin",
-                "wiki": "https://en.wikipedia.org/wiki/Trinity_College_Dublin"
-            }
-        ],
-        "title": [
-            "Professor in Middle Eastern Studies at Trinity College Dublin",
-            "Lecturer in Assyriology at the University of Cambridge"
-        ]
-    },
     "Frances Reynolds": {
         "count": 2,
         "first": "12 February 2026",
@@ -1032,26 +1309,12 @@
             },
             {
                 "text": "The Queen’s College",
-                "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
             }
         ],
         "title": [
             "Shillito Fellow and Associate Professor of Assyriology at the University of Oxford and Senior Research Fellow at The Queen’s College",
             "Shillito Fellow in Assyriology at the Oriental Institute, University of Oxford and Fellow of St Benet's Hall"
-        ]
-    },
-    "Selena Wisnom": {
-        "count": 1,
-        "first": "12 February 2026",
-        "last": "12 February 2026",
-        "links": [
-            {
-                "text": "University of Leicester",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
-            }
-        ],
-        "title": [
-            "Lecturer in the Heritage of the Middle East at the University of Leicester."
         ]
     },
     "Emma Smith": {
@@ -1081,7 +1344,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -1127,7 +1390,7 @@
         "links": [
             {
                 "text": "King’s College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%E2%80%99s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King’s_College_London"
             }
         ],
         "title": [
@@ -1145,7 +1408,7 @@
             },
             {
                 "text": "St John's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
             }
         ],
         "title": [
@@ -1401,43 +1664,6 @@
             "Reader in History at the University of St Andrews"
         ]
     },
-    "Steve Brusatte": {
-        "count": 3,
-        "first": "12 June 2025",
-        "last": "26 October 2017",
-        "links": [
-            {
-                "text": "Steve Brusatte",
-                "wiki": "https://en.wikipedia.org/wiki/Stephen_L._Brusatte"
-            },
-            {
-                "text": "University of Edinburgh",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
-            }
-        ],
-        "title": [
-            "Professor of Palaeontology and Evolution at the University of Edinburgh",
-            "Reader and Chancellor's Fellow in Vertebrate Palaeontology at the University of Edinburgh"
-        ]
-    },
-    "Emily Rayfield": {
-        "count": 2,
-        "first": "12 June 2025",
-        "last": "20 October 2022",
-        "links": [
-            {
-                "text": "Emily Rayfield",
-                "wiki": "https://en.wikipedia.org/wiki/Emily_Rayfield"
-            },
-            {
-                "text": "University of Bristol",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
-            }
-        ],
-        "title": [
-            "Professor of Palaeobiology at the University of Bristol"
-        ]
-    },
     "Jonathan Codd": {
         "count": 1,
         "first": "12 June 2025",
@@ -1514,7 +1740,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -1532,7 +1758,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -1877,7 +2103,7 @@
             },
             {
                 "text": "St John's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
             }
         ],
         "title": [
@@ -2034,7 +2260,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -2239,7 +2465,7 @@
         ],
         "title": [
             "Langford Fellow and Tutor in History at Lincoln College, University of Oxford and Professor of Early Modern History at Oxford",
-            "Lecturer in Early Modern History at King's College, London"
+            "Lecturer in Early Modern History at King's College London"
         ]
     },
     "Maria Hayward": {
@@ -2281,7 +2507,7 @@
         "links": [
             {
                 "text": "Sir John Soane's Museum",
-                "wiki": "https://en.wikipedia.org/wiki/Sir_John_Soane%27s_Museum"
+                "wiki": "https://en.wikipedia.org/wiki/Sir_John_Soane's_Museum"
             }
         ],
         "title": [
@@ -2424,7 +2650,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -2592,6 +2818,10 @@
         "last": "12 December 2024",
         "links": [
             {
+                "text": "Jayne Birkby",
+                "wiki": "https://en.wikipedia.org/wiki/Jayne_Birkby"
+            },
+            {
                 "text": "University of Oxford",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
             },
@@ -2611,7 +2841,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -3034,7 +3264,7 @@
         "links": [
             {
                 "text": "Paul O'Prey",
-                "wiki": "https://en.wikipedia.org/wiki/Paul_O%27Prey"
+                "wiki": "https://en.wikipedia.org/wiki/Paul_O'Prey"
             },
             {
                 "text": "University of Roehampton",
@@ -3052,7 +3282,7 @@
         "links": [
             {
                 "text": "Queen's University, Belfast",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
             }
         ],
         "title": [
@@ -3194,7 +3424,7 @@
             },
             {
                 "text": "St Peter's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
             },
             {
                 "text": "University of Oxford",
@@ -3363,7 +3593,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -3465,7 +3695,7 @@
             },
             {
                 "text": "St Hugh's College, University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_Hugh%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Hugh's_College,_Oxford"
             }
         ],
         "title": [
@@ -3629,32 +3859,6 @@
             "Retired Fellow at Lincoln College, University of Oxford"
         ]
     },
-    "Laura Ashe": {
-        "count": 11,
-        "first": "9 May 2024",
-        "last": "10 January 2013",
-        "links": [
-            {
-                "text": "Laura Ashe",
-                "wiki": "https://en.wikipedia.org/wiki/Laura_Ashe"
-            },
-            {
-                "text": "University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
-            }
-        ],
-        "title": [
-            "Professor of English Literature at the University of Oxford",
-            "Professor of English Literature and Fellow in English at Worcester College, Oxford",
-            "Professor of English Literature at Worcester College, University of Oxford",
-            "Associate Professor of English at Worcester College, University of Oxford",
-            "associate professor of English and fellow of Worcester College at the University of Oxford",
-            "associate professor of English at Worcester College, Oxford",
-            "Associate Professor in English at the University of Oxford and Fellow of Worcester College",
-            "University Lecturer and Tutorial Fellow Worcester College, University of Oxford",
-            "CUF Lecturer and Tutorial Fellow at Worcester College at the University of Oxford"
-        ]
-    },
     "Emma Bunce": {
         "count": 1,
         "first": "2 May 2024",
@@ -3763,7 +3967,7 @@
         "links": [
             {
                 "text": "St Hugh's College, University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_Hugh%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Hugh's_College,_Oxford"
             }
         ],
         "title": [
@@ -3912,7 +4116,7 @@
             },
             {
                 "text": "University of Wisconsin–Madison",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Wisconsin%E2%80%93Madison"
+                "wiki": "https://en.wikipedia.org/wiki/University_of_Wisconsin–Madison"
             }
         ],
         "title": [
@@ -3940,7 +4144,7 @@
         "links": [
             {
                 "text": "King's College, London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -4085,20 +4289,6 @@
             "Reader in Theoretical Physics at Imperial College",
             "Reader in Theoretical Physics at Imperial College, London",
             "Lecturer in Theoretical Physics, Queen Mary, University of London"
-        ]
-    },
-    "Harry Cliff": {
-        "count": 2,
-        "first": "29 February 2024",
-        "last": "29 September 2022",
-        "links": [
-            {
-                "text": "University of Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
-            }
-        ],
-        "title": [
-            "Research Fellow in Particle Physics at the University of Cambridge"
         ]
     },
     "Jessica Goethals": {
@@ -4586,7 +4776,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -4674,7 +4864,7 @@
         "links": [
             {
                 "text": "St Mary's University, Twickenham",
-                "wiki": "https://en.wikipedia.org/wiki/St_Mary%27s_University,_Twickenham"
+                "wiki": "https://en.wikipedia.org/wiki/St_Mary's_University,_Twickenham"
             }
         ],
         "title": [
@@ -4711,7 +4901,7 @@
             },
             {
                 "text": "St Anne's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
             },
             {
                 "text": "University of Oxford",
@@ -4803,7 +4993,7 @@
             },
             {
                 "text": "Von Hügel Institute",
-                "wiki": "https://en.wikipedia.org/wiki/Von_H%C3%BCgel_Institute"
+                "wiki": "https://en.wikipedia.org/wiki/Von_Hügel_Institute"
             },
             {
                 "text": "University of Cambridge",
@@ -4979,30 +5169,13 @@
             "Melvyn Bragg talks to Mishal Husain for Radio 4's Today programme."
         ]
     },
-    "Jan Holmberg [sv]": {
+    "Jan Holmberg": {
         "count": 1,
         "first": "21 September 2023",
         "last": "21 September 2023",
-        "links": [
-            {
-                "text": "Jan Holmberg",
-                "wiki": "https://en.wikipedia.org/w/index.php?title=Jan_Holmberg&action=edit&redlink=1"
-            },
-            {
-                "text": "sv",
-                "wiki": "https://sv.wikipedia.org/wiki/Jan_Holmberg"
-            },
-            {
-                "text": "Ingmar Bergman Foundation",
-                "wiki": "https://en.wikipedia.org/w/index.php?title=Ingmar_Bergman_Foundation&action=edit&redlink=1"
-            },
-            {
-                "text": "sv",
-                "wiki": "https://sv.wikipedia.org/wiki/Stiftelsen_Ingmar_Bergman"
-            }
-        ],
+        "links": [],
         "title": [
-            "Director of the Ingmar Bergman Foundation [sv], Stockholm"
+            "Director of the Ingmar Bergman Foundation, Stockholm"
         ]
     },
     "Laura Hubner": {
@@ -5150,7 +5323,7 @@
         "links": [
             {
                 "text": "St Hilda's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
             },
             {
                 "text": "University of Oxford",
@@ -5186,7 +5359,7 @@
         "links": [
             {
                 "text": "St Johns College",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
             },
             {
                 "text": "University of Cambridge",
@@ -5245,7 +5418,7 @@
             },
             {
                 "text": "St Hilda's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
             },
             {
                 "text": "University of Oxford",
@@ -5273,7 +5446,6 @@
         "title": [
             "Professor of Classics at Durham University",
             "Professor of Classics at King's College London",
-            "Professor of Classics at King's College, London",
             "Professor of Classics and Drama at Royal Holloway, University of London",
             "Professor of Classics at Royal Holloway, University of London",
             "Professor of Drama and Classics at Royal Holloway, University of London",
@@ -5771,7 +5943,7 @@
         "links": [
             {
                 "text": "Michèle Barrett",
-                "wiki": "https://en.wikipedia.org/wiki/Mich%C3%A8le_Barrett"
+                "wiki": "https://en.wikipedia.org/wiki/Michèle_Barrett"
             },
             {
                 "text": "Queen Mary University of London",
@@ -5862,7 +6034,7 @@
             },
             {
                 "text": "Queens' College",
-                "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
             }
         ],
         "title": [
@@ -6003,7 +6175,7 @@
             },
             {
                 "text": "Collège de France",
-                "wiki": "https://en.wikipedia.org/wiki/Coll%C3%A8ge_de_France"
+                "wiki": "https://en.wikipedia.org/wiki/Collège_de_France"
             },
             {
                 "text": "Trinity College, Cambridge",
@@ -6137,7 +6309,7 @@
         "links": [
             {
                 "text": "Open University",
-                "wiki": "https://en.wikipedia.org/wiki/Open_university"
+                "wiki": "https://en.wikipedia.org/wiki/Open_University"
             }
         ],
         "title": [
@@ -6261,6 +6433,10 @@
         "first": "19 January 2023",
         "last": "19 January 2023",
         "links": [
+            {
+                "text": "Martin O'Neill",
+                "wiki": "https://en.wikipedia.org/wiki/Martin_O'Neill"
+            },
             {
                 "text": "University of York",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_York"
@@ -6399,7 +6575,7 @@
         "links": [
             {
                 "text": "Karen O'Brien",
-                "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
             },
             {
                 "text": "Durham University",
@@ -6449,28 +6625,6 @@
         ],
         "title": [
             "Professor of Film and Dean of Arts and Humanities at University College London"
-        ]
-    },
-    "Ian Christie": {
-        "count": 1,
-        "first": "15 December 2022",
-        "last": "15 December 2022",
-        "links": [
-            {
-                "text": "Ian Christie",
-                "wiki": "https://en.wikipedia.org/wiki/Ian_Christie_(film_scholar)"
-            },
-            {
-                "text": "Birkbeck",
-                "wiki": "https://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
-            },
-            {
-                "text": "University of London",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_London"
-            }
-        ],
-        "title": [
-            "Professor of Film and Media History at Birkbeck, University of London"
         ]
     },
     "John David Rhodes": {
@@ -6554,7 +6708,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -6762,10 +6916,6 @@
         "last": "20 October 2022",
         "links": [
             {
-                "text": "Michael Coates",
-                "wiki": "https://en.wikipedia.org/w/index.php?title=Michael_Coates_(biologist)&action=edit&redlink=1"
-            },
-            {
                 "text": "University of Chicago",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Chicago"
             }
@@ -6818,7 +6968,7 @@
         "links": [
             {
                 "text": "Queen's University Belfast",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
             }
         ],
         "title": [
@@ -6873,24 +7023,6 @@
         ],
         "title": [
             "Professor of Crusading History at Royal Holloway, University of London"
-        ]
-    },
-    "Victoria Martin": {
-        "count": 1,
-        "first": "29 September 2022",
-        "last": "29 September 2022",
-        "links": [
-            {
-                "text": "Victoria Martin",
-                "wiki": "https://en.wikipedia.org/wiki/Victoria_Martin"
-            },
-            {
-                "text": "University of Edinburgh",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
-            }
-        ],
-        "title": [
-            "Professor of Collider Physics at the University of Edinburgh"
         ]
     },
     "Christopher Gill": {
@@ -7197,7 +7329,7 @@
             },
             {
                 "text": "St Anne's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
             }
         ],
         "title": [
@@ -7301,7 +7433,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -7353,7 +7485,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -7810,7 +7942,7 @@
         "links": [
             {
                 "text": "Michèle Roberts",
-                "wiki": "https://en.wikipedia.org/wiki/Mich%C3%A8le_Roberts"
+                "wiki": "https://en.wikipedia.org/wiki/Michèle_Roberts"
             },
             {
                 "text": "University of East Anglia",
@@ -7973,7 +8105,7 @@
         "links": [
             {
                 "text": "St John's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
             }
         ],
         "title": [
@@ -8158,7 +8290,7 @@
         "links": [
             {
                 "text": "Queen's University Belfast",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
             }
         ],
         "title": [
@@ -8326,7 +8458,7 @@
             },
             {
                 "text": "St Antony's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
             },
             {
                 "text": "University of Oxford",
@@ -8485,7 +8617,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -8517,7 +8649,7 @@
         "links": [
             {
                 "text": "St Catherine's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Catherine%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Catherine's_College,_Oxford"
             },
             {
                 "text": "University of Oxford",
@@ -8572,7 +8704,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -8641,10 +8773,6 @@
             {
                 "text": "Academia Sinica",
                 "wiki": "https://en.wikipedia.org/wiki/Academia_Sinica"
-            },
-            {
-                "text": "Taiwan",
-                "wiki": "https://en.wikipedia.org/wiki/Taiwan"
             }
         ],
         "title": [
@@ -8701,7 +8829,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -8823,7 +8951,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -9032,7 +9160,7 @@
             },
             {
                 "text": "King's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College,_Cambridge"
             }
         ],
         "title": [
@@ -9128,7 +9256,7 @@
             },
             {
                 "text": "The Queen's College",
-                "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
             },
             {
                 "text": "University of Oxford",
@@ -9330,7 +9458,7 @@
         "links": [
             {
                 "text": "Queen's University Belfast",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
             }
         ],
         "title": [
@@ -9453,7 +9581,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -9568,7 +9696,7 @@
             },
             {
                 "text": "St John's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
             }
         ],
         "title": [
@@ -9583,7 +9711,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -9616,7 +9744,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -10041,7 +10169,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -10167,7 +10295,7 @@
             },
             {
                 "text": "St Edmund's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/St_Edmund%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/St_Edmund's_College,_Cambridge"
             }
         ],
         "title": [
@@ -10228,7 +10356,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -10502,7 +10630,7 @@
             },
             {
                 "text": "St Antony's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
             }
         ],
         "title": [
@@ -10748,7 +10876,7 @@
         "links": [
             {
                 "text": "Queen's University Belfast",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
             }
         ],
         "title": [
@@ -10795,7 +10923,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -11000,38 +11128,6 @@
             "Lecturer in US History at the University of Kent"
         ]
     },
-    "Susan-Mary Grant": {
-        "count": 3,
-        "first": "30 May 2019",
-        "last": "26 May 2016",
-        "links": [
-            {
-                "text": "Susan-Mary Grant",
-                "wiki": "https://en.wikipedia.org/wiki/Susan-Mary_Grant"
-            },
-            {
-                "text": "Newcastle University",
-                "wiki": "https://en.wikipedia.org/wiki/Newcastle_University"
-            }
-        ],
-        "title": [
-            "Professor of American History at Newcastle University"
-        ]
-    },
-    "Robert Cook": {
-        "count": 1,
-        "first": "30 May 2019",
-        "last": "30 May 2019",
-        "links": [
-            {
-                "text": "University of Sussex",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Sussex"
-            }
-        ],
-        "title": [
-            "Professor of American History at the University of Sussex"
-        ]
-    },
     "Isobel Falconer": {
         "count": 1,
         "first": "23 May 2019",
@@ -11220,7 +11316,7 @@
         "links": [
             {
                 "text": "Cormac O'Grada",
-                "wiki": "https://en.wikipedia.org/wiki/Cormac_O%27Grada"
+                "wiki": "https://en.wikipedia.org/wiki/Cormac_O'Grada"
             },
             {
                 "text": "University College Dublin",
@@ -11666,7 +11762,7 @@
         "links": [
             {
                 "text": "Tom O'Loughlin",
-                "wiki": "https://en.wikipedia.org/wiki/Thomas_O%27Loughlin"
+                "wiki": "https://en.wikipedia.org/wiki/Thomas_O'Loughlin"
             },
             {
                 "text": "University of Nottingham",
@@ -11872,7 +11968,7 @@
             },
             {
                 "text": "St John's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
             }
         ],
         "title": [
@@ -11886,7 +11982,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -11942,7 +12038,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -11978,7 +12074,7 @@
             },
             {
                 "text": "Regent's Park College at the University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/Regent%27s_Park_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/Regent's_Park_College,_Oxford"
             }
         ],
         "title": [
@@ -12103,10 +12199,6 @@
         "last": "21 June 2018",
         "links": [
             {
-                "text": "Gareth Jones",
-                "wiki": "https://en.wikipedia.org/w/index.php?title=Gareth_Jones_(biologist)&action=edit&redlink=1"
-            },
-            {
                 "text": "University of Bristol",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
             }
@@ -12216,7 +12308,7 @@
             },
             {
                 "text": "St Catherine's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Catherine%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Catherine's_College,_Oxford"
             },
             {
                 "text": "University of Oxford",
@@ -12466,7 +12558,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -12650,21 +12742,6 @@
             "Lecturer in American Studies at the University of Nottingham"
         ]
     },
-    "Karen Salt": {
-        "count": 2,
-        "first": "8 February 2018",
-        "last": "23 October 2014",
-        "links": [
-            {
-                "text": "University of Nottingham",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_Nottingham"
-            }
-        ],
-        "title": [
-            "Assistant Professor in Transnational American Studies at the University of Nottingham",
-            "Research Fellow at School of Divinity, History and philosophy, University of Aberdeen"
-        ]
-    },
     "Louise Allcock": {
         "count": 1,
         "first": "1 February 2018",
@@ -12806,7 +12883,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -12824,7 +12901,7 @@
             },
             {
                 "text": "St Catherine's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Catherine%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Catherine's_College,_Oxford"
             }
         ],
         "title": [
@@ -12842,7 +12919,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -13063,7 +13140,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -13181,7 +13258,7 @@
             },
             {
                 "text": "St John's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
             }
         ],
         "title": [
@@ -13259,7 +13336,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -13323,7 +13400,7 @@
             },
             {
                 "text": "St Hilda's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
             }
         ],
         "title": [
@@ -13365,7 +13442,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -13547,7 +13624,7 @@
             },
             {
                 "text": "Queen's College",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/Queen's_College,_Oxford"
             }
         ],
         "title": [
@@ -14168,7 +14245,7 @@
             },
             {
                 "text": "St Catharine's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Catharine%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/St_Catharine's_College,_Cambridge"
             },
             {
                 "text": "University of Cambridge",
@@ -14384,7 +14461,7 @@
         "links": [
             {
                 "text": "Queen's University Belfast",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
             }
         ],
         "title": [
@@ -14502,7 +14579,7 @@
         "links": [
             {
                 "text": "Queens' College",
-                "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
             }
         ],
         "title": [
@@ -14608,7 +14685,7 @@
             },
             {
                 "text": "Queen's University Belfast",
-                "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
             }
         ],
         "title": [
@@ -14853,7 +14930,7 @@
         "links": [
             {
                 "text": "Alice König",
-                "wiki": "https://en.wikipedia.org/wiki/Alice_K%C3%B6nig"
+                "wiki": "https://en.wikipedia.org/wiki/Alice_König"
             },
             {
                 "text": "University of St Andrews",
@@ -15013,7 +15090,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -15090,7 +15167,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -15190,7 +15267,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -15376,7 +15453,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -15443,10 +15520,6 @@
         "first": "19 November 2015",
         "last": "4 January 2001",
         "links": [
-            {
-                "text": "Emma Clery",
-                "wiki": "https://en.wikipedia.org/w/index.php?title=Emma_J._Clery&action=edit&redlink=1"
-            },
             {
                 "text": "University of Southampton",
                 "wiki": "https://en.wikipedia.org/wiki/University_of_Southampton"
@@ -16092,7 +16165,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -16126,7 +16199,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -16474,7 +16547,7 @@
             },
             {
                 "text": "The Queen's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
             }
         ],
         "title": [
@@ -16616,7 +16689,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -16841,7 +16914,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -16978,7 +17051,7 @@
             },
             {
                 "text": "The Queen's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
             }
         ],
         "title": [
@@ -17032,7 +17105,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -17123,7 +17196,7 @@
             },
             {
                 "text": "St Anne's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
             }
         ],
         "title": [
@@ -17521,7 +17594,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -17641,10 +17714,6 @@
             {
                 "text": "Gavin Flood",
                 "wiki": "https://en.wikipedia.org/wiki/Gavin_Flood"
-            },
-            {
-                "text": "Hindu Studies",
-                "wiki": "https://en.wikipedia.org/wiki/Hinduism"
             },
             {
                 "text": "Comparative Religion",
@@ -17787,7 +17856,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -18279,7 +18348,7 @@
             },
             {
                 "text": "St John's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
             }
         ],
         "title": [
@@ -18297,7 +18366,7 @@
                 "wiki": "https://en.wikipedia.org/wiki/Elizabeth_Ashman_Rowe"
             },
             {
-                "text": "[1]",
+                "text": "",
                 "wiki": "https://www.asnc.cam.ac.uk/people/academic/rowe.htm"
             },
             {
@@ -18306,7 +18375,7 @@
             }
         ],
         "title": [
-            "[1] Lecturer in Scandinavian History at the University of Cambridge",
+            "Lecturer in Scandinavian History at the University of Cambridge",
             "Lecturer in Scandinavian History of the Viking Age at Clare Hall, Cambridge"
         ]
     },
@@ -18317,7 +18386,7 @@
         "links": [
             {
                 "text": "Árni Magnússon Institute for Icelandic Studies",
-                "wiki": "https://en.wikipedia.org/wiki/%C3%81rni_Magn%C3%BAsson_Institute_for_Icelandic_Studies"
+                "wiki": "https://en.wikipedia.org/wiki/Árni_Magnússon_Institute_for_Icelandic_Studies"
             }
         ],
         "title": [
@@ -18433,7 +18502,7 @@
             },
             {
                 "text": "Christ's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
             }
         ],
         "title": [
@@ -18484,7 +18553,7 @@
         "links": [
             {
                 "text": "Queens' College",
-                "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
             },
             {
                 "text": "Faculty of Asian and Middle Eastern Studies",
@@ -18714,7 +18783,7 @@
             },
             {
                 "text": "St Anne's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
             }
         ],
         "title": [
@@ -18982,7 +19051,7 @@
             },
             {
                 "text": "St Anne's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
             }
         ],
         "title": [
@@ -19222,7 +19291,7 @@
             },
             {
                 "text": "St Peter's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
             }
         ],
         "title": [
@@ -19270,7 +19339,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -19477,7 +19546,7 @@
             },
             {
                 "text": "St Catharine's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/St_Catharine%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/St_Catharine's_College,_Cambridge"
             }
         ],
         "title": [
@@ -19491,7 +19560,7 @@
         "links": [
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -19792,12 +19861,12 @@
         "last": "22 March 2012",
         "links": [
             {
-                "text": "King's College, London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_London"
+                "text": "King's College London",
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
-            "Senior Lecturer in European History at King's College, London"
+            "Senior Lecturer in European History at King's College London"
         ]
     },
     "Robert Tavernor": {
@@ -21235,7 +21304,7 @@
         "links": [
             {
                 "text": "Jonathan Rée",
-                "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
             }
         ],
         "title": [
@@ -21484,7 +21553,7 @@
         "links": [
             {
                 "text": "St John's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
             }
         ],
         "title": [
@@ -21580,7 +21649,7 @@
             },
             {
                 "text": "St Antony's College, University of Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
             }
         ],
         "title": [
@@ -22254,7 +22323,7 @@
             },
             {
                 "text": "St Hugh's",
-                "wiki": "https://en.wikipedia.org/wiki/St_Hugh%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Hugh's_College,_Oxford"
             }
         ],
         "title": [
@@ -22571,7 +22640,7 @@
             },
             {
                 "text": "Christ's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
             }
         ],
         "title": [
@@ -22607,7 +22676,7 @@
         "links": [
             {
                 "text": "Christ's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
             }
         ],
         "title": [
@@ -22830,7 +22899,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -22891,7 +22960,7 @@
             },
             {
                 "text": "St Hilda's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
             }
         ],
         "title": [
@@ -23204,7 +23273,7 @@
         "links": [
             {
                 "text": "Anthony O'Hear",
-                "wiki": "https://en.wikipedia.org/wiki/Anthony_O%27Hear"
+                "wiki": "https://en.wikipedia.org/wiki/Anthony_O'Hear"
             },
             {
                 "text": "University of Buckingham",
@@ -23669,7 +23738,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -23873,7 +23942,7 @@
         "links": [
             {
                 "text": "St John's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
             }
         ],
         "title": [
@@ -23994,7 +24063,7 @@
             },
             {
                 "text": "The Queen's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
             }
         ],
         "title": [
@@ -24026,7 +24095,7 @@
         "links": [
             {
                 "text": "St Bartholomew's Hospital",
-                "wiki": "https://en.wikipedia.org/wiki/St_Bartholomew%27s_Hospital"
+                "wiki": "https://en.wikipedia.org/wiki/St_Bartholomew's_Hospital"
             }
         ],
         "title": [
@@ -24082,7 +24151,7 @@
         "links": [
             {
                 "text": "John Dupré",
-                "wiki": "https://en.wikipedia.org/wiki/John_Dupr%C3%A9"
+                "wiki": "https://en.wikipedia.org/wiki/John_Dupré"
             },
             {
                 "text": "Exeter University",
@@ -25050,7 +25119,7 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -25355,7 +25424,7 @@
             },
             {
                 "text": "The Philosophers' Magazine",
-                "wiki": "https://en.wikipedia.org/wiki/The_Philosophers%27_Magazine"
+                "wiki": "https://en.wikipedia.org/wiki/The_Philosophers'_Magazine"
             }
         ],
         "title": [
@@ -26201,7 +26270,7 @@
         "links": [
             {
                 "text": "Heather O'Donoghue",
-                "wiki": "https://en.wikipedia.org/wiki/Heather_O%27Donoghue"
+                "wiki": "https://en.wikipedia.org/wiki/Heather_O'Donoghue"
             },
             {
                 "text": "Oxford University",
@@ -26730,7 +26799,7 @@
         "links": [
             {
                 "text": "Felipe Fernández-Armesto",
-                "wiki": "https://en.wikipedia.org/wiki/Felipe_Fern%C3%A1ndez-Armesto"
+                "wiki": "https://en.wikipedia.org/wiki/Felipe_Fernández-Armesto"
             },
             {
                 "text": "Queen Mary",
@@ -26796,11 +26865,11 @@
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             },
             {
                 "text": "St Thomas' Hospital",
-                "wiki": "https://en.wikipedia.org/wiki/St_Thomas%27_Hospital"
+                "wiki": "https://en.wikipedia.org/wiki/St_Thomas'_Hospital"
             }
         ],
         "title": [
@@ -26915,7 +26984,7 @@
             },
             {
                 "text": "Christ's College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
             }
         ],
         "title": [
@@ -27103,7 +27172,7 @@
             },
             {
                 "text": "St Martin's College",
-                "wiki": "https://en.wikipedia.org/wiki/St_Martin%27s_College"
+                "wiki": "https://en.wikipedia.org/wiki/St_Martin's_College"
             }
         ],
         "title": [
@@ -27139,7 +27208,7 @@
         "links": [
             {
                 "text": "London School of Hygiene and Tropical Medicine",
-                "wiki": "https://en.wikipedia.org/wiki/London_School_of_Hygiene_%26_Tropical_Medicine"
+                "wiki": "https://en.wikipedia.org/wiki/London_School_of_Hygiene_&_Tropical_Medicine"
             }
         ],
         "title": [
@@ -27856,12 +27925,12 @@
                 "wiki": "https://en.wikipedia.org/wiki/Harold_Ellis_(professor)"
             },
             {
-                "text": "King's College, London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_London"
+                "text": "King's College London",
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
-            "Clinical Anatomist, School of Biomedical Sciences, King's College, London"
+            "Clinical Anatomist, School of Biomedical Sciences, King's College London"
         ]
     },
     "Ruth Richardson": {
@@ -27962,7 +28031,7 @@
             },
             {
                 "text": "St Catherine's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_Catherine%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Catherine's_College,_Oxford"
             }
         ],
         "title": [
@@ -28064,7 +28133,7 @@
         "links": [
             {
                 "text": "Dawn Adès",
-                "wiki": "https://en.wikipedia.org/wiki/Dawn_Ad%C3%A8s"
+                "wiki": "https://en.wikipedia.org/wiki/Dawn_Adès"
             },
             {
                 "text": "University of Essex",
@@ -28158,11 +28227,11 @@
         "links": [
             {
                 "text": "Charlotte Roueché",
-                "wiki": "https://en.wikipedia.org/wiki/Charlotte_Rouech%C3%A9"
+                "wiki": "https://en.wikipedia.org/wiki/Charlotte_Roueché"
             },
             {
                 "text": "King's College London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
@@ -29680,7 +29749,7 @@
             },
             {
                 "text": "St Antony's College, Oxford",
-                "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
             }
         ],
         "title": [
@@ -29798,12 +29867,12 @@
                 "wiki": "https://en.wikipedia.org/wiki/Jonathan_Glover"
             },
             {
-                "text": "King's College, London",
-                "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_London"
+                "text": "King's College London",
+                "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
             }
         ],
         "title": [
-            "philosopher and Director of the Centre of Medical Law and Ethics, King's College, London"
+            "philosopher and Director of the Centre of Medical Law and Ethics, King's College London"
         ]
     },
     "Gwen Adshead": {
@@ -29834,12 +29903,12 @@
                 "wiki": "https://en.wikipedia.org/wiki/Richard_Wollheim"
             },
             {
-                "text": "University of California in Berkeley",
-                "wiki": "https://en.wikipedia.org/wiki/University_of_California_in_Berkeley"
+                "text": "University of California, Berkeley",
+                "wiki": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley"
             }
         ],
         "title": [
-            "Professor of Philosophy, University of California in Berkeley"
+            "Professor of Philosophy, University of California, Berkeley"
         ]
     },
     "Andrew Marr": {
@@ -29911,7 +29980,7 @@
             },
             {
                 "text": "St Thomas' Hospital",
-                "wiki": "https://en.wikipedia.org/wiki/St_Thomas%27_Hospital"
+                "wiki": "https://en.wikipedia.org/wiki/St_Thomas'_Hospital"
             }
         ],
         "title": [
@@ -30289,7 +30358,7 @@
         "links": [
             {
                 "text": "Leszek Kołakowski",
-                "wiki": "https://en.wikipedia.org/wiki/Leszek_Ko%C5%82akowski"
+                "wiki": "https://en.wikipedia.org/wiki/Leszek_Kołakowski"
             },
             {
                 "text": "Oxford University",
@@ -30435,7 +30504,7 @@
             },
             {
                 "text": "Queens' College, Cambridge",
-                "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
             },
             {
                 "text": "Liverpool Cathedral",

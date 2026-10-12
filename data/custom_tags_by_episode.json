@@ -1,4 +1,16 @@
 {
+    "The Battle of Antietam": [
+        "19th century"
+    ],
+    "Megalosaurus: the first dinosaur to ever be scientifically named": [
+        "19th century"
+    ],
+    "Particle Accelerators": [
+        "21st century"
+    ],
+    "Thomas More's Utopia": [
+        "16th century"
+    ],
     "Seashells": [
         "nature"
     ],
@@ -9,7 +21,8 @@
         "painting"
     ],
     "The Delian League": [
-        "5th century BC"
+        "5th century BC",
+        "greece"
     ],
     "Machado de Assis": [
         "19th century",
@@ -78,9 +91,6 @@
     ],
     "Lise Meitner": [
         "20th century"
-    ],
-    "The Korean Empire": [
-        "5th century"
     ],
     "Molière": [
         "17th century"
@@ -285,8 +295,11 @@
     "The Federalist Papers": [
         "18th century"
     ],
-    "The Seventh Seal\n(1000th program)": [
-        "20th century"
+    "The Seventh Seal\n(1000th programme)": [
+        "14th century",
+        "20th century",
+        "book",
+        "language"
     ],
     "Albert Einstein": [
         "20th century",
@@ -312,12 +325,10 @@
         "1st century BC"
     ],
     "The Shimabara Rebellion": [
-        "17th century",
-        "3rd century"
+        "17th century"
     ],
     "The Dead Sea Scrolls": [
-        "20th century",
-        "3rd century"
+        "20th century"
     ],
     "Walt Whitman": [
         "19th century",
@@ -541,7 +552,6 @@
     ],
     "Shakespeare's Sonnets": [
         "17th century",
-        "2nd century",
         "poetry"
     ],
     "Edward Gibbon": [
@@ -590,9 +600,6 @@
     "The Bacchae": [
         "book"
     ],
-    "The Late Devonian Extinction": [
-        "4th century"
-    ],
     "The Rime of the Ancient Mariner": [
         "book"
     ],
@@ -625,7 +632,6 @@
         "20th century"
     ],
     "The Zong Massacre": [
-        "2nd century",
         "economics",
         "painting"
     ],
@@ -788,9 +794,6 @@
     "William Cecil": [
         "16th century"
     ],
-    "Antarah ibn Shaddad": [
-        "6th century"
-    ],
     "Aristotle's biology": [
         "greece"
     ],
@@ -877,9 +880,6 @@
         "17th century",
         "18th century",
         "france"
-    ],
-    "Persepolis": [
-        "2nd century"
     ],
     "Margaret of Anjou": [
         "15th century",
@@ -1411,9 +1411,6 @@
     "Sources of Early Chinese History": [
         "china"
     ],
-    "The Battle of Tours": [
-        "8th century"
-    ],
     "Plato's Symposium": [
         "4th century BC"
     ],
@@ -1553,7 +1550,6 @@
     ],
     "The Upanishads": [
         "6th century",
-        "7th century",
         "india"
     ],
     "The Anarchy": [
@@ -2482,7 +2478,6 @@
     ],
     "The Roman Republic": [
         "1st century BC",
-        "5th century",
         "rome"
     ],
     "Machiavelli and the Italian City States": [
@@ -2602,7 +2597,6 @@
     ],
     "Roman Britain": [
         "1st century",
-        "4th century",
         "5th century"
     ],
     "Youth": [
@@ -2646,7 +2640,6 @@
     "Muslim Spain": [
         "10th century",
         "11th century",
-        "7th century",
         "islam",
         "spain"
     ],
@@ -2911,7 +2904,6 @@
         "20th century"
     ],
     "Just War": [
-        "1st century",
         "theology"
     ],
     "Memory and Culture": [
@@ -2943,7 +2935,6 @@
         "21st century"
     ],
     "Animal Experiments and Rights": [
-        "2nd century",
         "animals"
     ],
     "History as Science": [

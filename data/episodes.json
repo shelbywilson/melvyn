@@ -1,5 +1,270 @@
 [
     {
+        "date": "22 October 2026",
+        "id": 1111,
+        "episode_link": "https://www.bbc.co.uk/programmes/m003339v",
+        "topic": "Ishtar, the Mesopotamian goddess of love, sex and war",
+        "wiki_link": "https://en.wikipedia.org/wiki/Inanna",
+        "experts": [
+            {
+                "name": "Martin Worthington",
+                "title": "Leader of the European Research Council Project MesOr at the University of Pisa",
+                "links": [
+                    {
+                        "text": "Martin Worthington",
+                        "wiki": "https://en.wikipedia.org/wiki/Martin_Worthington_(academic)"
+                    },
+                    {
+                        "text": "University of Pisa",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Pisa"
+                    }
+                ]
+            },
+            {
+                "name": "Christopher Metcalf",
+                "title": "Professor of Ancient Literature and Religion and Fellow in Classics at Queen’s College, University of Oxford",
+                "links": [
+                    {
+                        "text": "Queen’s College, University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Selena Wisnom",
+                "title": "Lecturer in the Heritage of the Middle East at the University of Leicester.",
+                "links": [
+                    {
+                        "text": "University of Leicester",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Leicester"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 October 2026",
+        "id": 1110,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0032r4c",
+        "topic": "The Battle of Antietam",
+        "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Antietam",
+        "experts": [
+            {
+                "name": "Karen Salt",
+                "title": "Professor of   Culture, Place and Communities at Manchester Metropolitan University",
+                "links": [
+                    {
+                        "text": "Manchester Metropolitan University",
+                        "wiki": "https://en.wikipedia.org/wiki/Manchester_Metropolitan_University"
+                    }
+                ]
+            },
+            {
+                "name": "Susan-Mary Grant",
+                "title": "Professor Emerita of American History at Newcastle University",
+                "links": [
+                    {
+                        "text": "Susan-Mary Grant",
+                        "wiki": "https://en.wikipedia.org/wiki/Susan-Mary_Grant"
+                    },
+                    {
+                        "text": "Newcastle University",
+                        "wiki": "https://en.wikipedia.org/wiki/Newcastle_University"
+                    }
+                ]
+            },
+            {
+                "name": "Robert Cook",
+                "title": "Emeritus Professor of American History at the University of Sussex.",
+                "links": [
+                    {
+                        "text": "University of Sussex",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Sussex"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "8 October 2026",
+        "id": 1109,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0032fqb",
+        "topic": "Megalosaurus: the first dinosaur to ever be scientifically named",
+        "wiki_link": "https://en.wikipedia.org/wiki/Megalosaurus",
+        "experts": [
+            {
+                "name": "Emily Rayfield",
+                "title": "Professor of Palaeobiology at the University of Bristol",
+                "links": [
+                    {
+                        "text": "Emily Rayfield",
+                        "wiki": "https://en.wikipedia.org/wiki/Emily_Rayfield"
+                    },
+                    {
+                        "text": "University of Bristol",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
+                    }
+                ]
+            },
+            {
+                "name": "Emma Nicholls",
+                "title": "Vertebrate Palaeontologist and Collections Manager at Oxford University Museum of Natural History",
+                "links": [
+                    {
+                        "text": "Oxford University Museum of Natural History",
+                        "wiki": "https://en.wikipedia.org/wiki/Oxford_University_Museum_of_Natural_History"
+                    }
+                ]
+            },
+            {
+                "name": "Steve Brusatte",
+                "title": "Professor of Palaeontology and Evolution at the University of Edinburgh.",
+                "links": [
+                    {
+                        "text": "Steve Brusatte",
+                        "wiki": "https://en.wikipedia.org/wiki/Stephen_L._Brusatte"
+                    },
+                    {
+                        "text": "University of Edinburgh",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "1 October 2026",
+        "id": 1108,
+        "episode_link": "https://www.bbc.co.uk/programmes/m00325cd",
+        "topic": "Casablanca",
+        "wiki_link": "https://en.wikipedia.org/wiki/Casablanca_(film)",
+        "experts": [
+            {
+                "name": "Ian Christie",
+                "title": "Emeritus Professor of Film and Media History at Birkbeck University of London",
+                "links": [
+                    {
+                        "text": "Ian Christie",
+                        "wiki": "https://en.wikipedia.org/wiki/Ian_Christie_(film_scholar)"
+                    },
+                    {
+                        "text": "Birkbeck University of London",
+                        "wiki": "https://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
+                    }
+                ]
+            },
+            {
+                "name": "Pamela Hutchinson",
+                "title": "Film historian and critic",
+                "links": []
+            },
+            {
+                "name": "Sheldon Hall",
+                "title": "Emeritus Fellow at Sheffield Hallam University.",
+                "links": [
+                    {
+                        "text": "Sheldon Hall",
+                        "wiki": "https://en.wikipedia.org/wiki/Sheldon_Hall_(film_historian)"
+                    },
+                    {
+                        "text": "Sheffield Hallam University",
+                        "wiki": "https://en.wikipedia.org/wiki/Sheffield_Hallam_University"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "24 September 2026",
+        "id": 1107,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0031vjw",
+        "topic": "Particle Accelerators",
+        "wiki_link": "https://en.wikipedia.org/wiki/Particle_accelerator",
+        "experts": [
+            {
+                "name": "Harry Cliff",
+                "title": "Particle Physicist at the University of Cambridge",
+                "links": [
+                    {
+                        "text": "University of Cambridge",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+                    }
+                ]
+            },
+            {
+                "name": "Victoria Martin",
+                "title": "Professor of Collider Physics at the University of Edinburgh",
+                "links": [
+                    {
+                        "text": "Victoria Martin",
+                        "wiki": "https://en.wikipedia.org/wiki/Victoria_Martin"
+                    },
+                    {
+                        "text": "University of Edinburgh",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+                    }
+                ]
+            },
+            {
+                "name": "Joseph Martin",
+                "title": "Professor of the History of Science and Technology at Durham University.",
+                "links": [
+                    {
+                        "text": "Joseph Martin",
+                        "wiki": "https://en.wikipedia.org/wiki/Joseph_D._Martin"
+                    },
+                    {
+                        "text": "Durham University",
+                        "wiki": "https://en.wikipedia.org/wiki/Durham_University"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "17 September 2026",
+        "id": 1106,
+        "episode_link": "https://www.bbc.co.uk/programmes/m0031jz3",
+        "topic": "Thomas More's Utopia",
+        "wiki_link": "https://en.wikipedia.org/wiki/Utopia_(book)",
+        "experts": [
+            {
+                "name": "Laura Ashe",
+                "title": "Professor of English Literature at Worcester College, University of Oxford",
+                "links": [
+                    {
+                        "text": "Laura Ashe",
+                        "wiki": "https://en.wikipedia.org/wiki/Laura_Ashe"
+                    },
+                    {
+                        "text": "Worcester College, University of Oxford",
+                        "wiki": "https://en.wikipedia.org/wiki/Worcester_College,_Oxford"
+                    }
+                ]
+            },
+            {
+                "name": "Cathy Shrank",
+                "title": "Professor of Tudor and Renaissance Literature at the University of Sheffield",
+                "links": [
+                    {
+                        "text": "University of Sheffield",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Sheffield"
+                    }
+                ]
+            },
+            {
+                "name": "Joanne Paul",
+                "title": "Honorary Associate Professor in Intellectual History at the University of Sussex.",
+                "links": [
+                    {
+                        "text": "University of Sussex",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Sussex"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "2 July 2026",
         "id": 1105,
         "episode_link": "https://www.bbc.co.uk/programmes/m002ybkj",
@@ -43,7 +308,7 @@
         "id": 1104,
         "episode_link": "https://www.bbc.co.uk/programmes/m002y1gt",
         "topic": "Vigée Le Brun",
-        "wiki_link": "https://en.wikipedia.org/wiki/%C3%89lisabeth_Vig%C3%A9e_Le_Brun",
+        "wiki_link": "https://en.wikipedia.org/wiki/Élisabeth_Vigée_Le_Brun",
         "experts": [
             {
                 "name": "Rosalind Polly Blakesley",
@@ -159,7 +424,7 @@
                     },
                     {
                         "text": "St. Peter's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -345,7 +610,7 @@
                     },
                     {
                         "text": "St John’s College, University of Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
                     }
                 ]
             }
@@ -550,12 +815,7 @@
             {
                 "name": "Ruth Smith",
                 "title": "Trustee and Council Member of the Handel Institute",
-                "links": [
-                    {
-                        "text": "Handel Institute",
-                        "wiki": "https://en.wikipedia.org/w/index.php?title=Handel_Institute&action=edit&redlink=1"
-                    }
-                ]
+                "links": []
             },
             {
                 "name": "Larry Zazzo",
@@ -574,7 +834,7 @@
         "id": 1092,
         "episode_link": "https://www.bbc.co.uk/programmes/m002tbzg",
         "topic": "The Spanish-American War 1898",
-        "wiki_link": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+        "wiki_link": "https://en.wikipedia.org/wiki/Spanish–American_War",
         "experts": [
             {
                 "name": "Frank Cogliano",
@@ -625,7 +885,7 @@
                     },
                     {
                         "text": "Queen’s College, University of Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
                     }
                 ]
             },
@@ -921,7 +1181,7 @@
                     },
                     {
                         "text": "The Queen’s College",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
                     }
                 ]
             },
@@ -964,7 +1224,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -1007,7 +1267,7 @@
                 "links": [
                     {
                         "text": "King’s College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%E2%80%99s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King’s_College_London"
                     }
                 ]
             },
@@ -1021,7 +1281,7 @@
                     },
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             }
@@ -1381,7 +1641,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -1395,7 +1655,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -1594,7 +1854,7 @@
         "id": 1068,
         "episode_link": "https://www.bbc.co.uk/programmes/m002b701",
         "topic": "Molière",
-        "wiki_link": "https://en.wikipedia.org/wiki/Moli%C3%A8re",
+        "wiki_link": "https://en.wikipedia.org/wiki/Molière",
         "experts": [
             {
                 "name": "Noel Peacock",
@@ -1702,7 +1962,7 @@
                     },
                     {
                         "text": "St John's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
                     }
                 ]
             },
@@ -1835,7 +2095,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -1874,7 +2134,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -2095,7 +2355,7 @@
                 "links": [
                     {
                         "text": "Sir John Soane's Museum",
-                        "wiki": "https://en.wikipedia.org/wiki/Sir_John_Soane%27s_Museum"
+                        "wiki": "https://en.wikipedia.org/wiki/Sir_John_Soane's_Museum"
                     }
                 ]
             },
@@ -2231,7 +2491,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -2398,6 +2658,10 @@
                 "title": "Associate Professor of Exoplanetary Sciences at the University of Oxford and Tutorial Fellow in Physics at Brasenose College",
                 "links": [
                     {
+                        "text": "Jayne Birkby",
+                        "wiki": "https://en.wikipedia.org/wiki/Jayne_Birkby"
+                    },
+                    {
                         "text": "University of Oxford",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Oxford"
                     },
@@ -2413,7 +2677,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -2661,7 +2925,7 @@
         "id": 1044,
         "episode_link": "https://www.bbc.co.uk/programmes/m0024fj3",
         "topic": "The Venetian Empire",
-        "wiki_link": "https://en.wikipedia.org/wiki/Stato_da_M%C3%A0r",
+        "wiki_link": "https://en.wikipedia.org/wiki/Stato_da_Màr",
         "experts": [
             {
                 "name": "Maartje van Gelder",
@@ -2798,7 +3062,7 @@
                 "links": [
                     {
                         "text": "Paul O'Prey",
-                        "wiki": "https://en.wikipedia.org/wiki/Paul_O%27Prey"
+                        "wiki": "https://en.wikipedia.org/wiki/Paul_O'Prey"
                     },
                     {
                         "text": "University of Roehampton",
@@ -2812,7 +3076,7 @@
                 "links": [
                     {
                         "text": "Queen's University, Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             },
@@ -2943,7 +3207,7 @@
                     },
                     {
                         "text": "St Peter's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -3112,7 +3376,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -3235,7 +3499,7 @@
                     },
                     {
                         "text": "St Hugh's College, University of Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Hugh%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hugh's_College,_Oxford"
                     }
                 ]
             },
@@ -3484,7 +3748,7 @@
                 "links": [
                     {
                         "text": "St Hugh's College, University of Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Hugh%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hugh's_College,_Oxford"
                     }
                 ]
             }
@@ -3503,7 +3767,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -3637,7 +3901,7 @@
                     },
                     {
                         "text": "University of Wisconsin–Madison",
-                        "wiki": "https://en.wikipedia.org/wiki/University_of_Wisconsin%E2%80%93Madison"
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_Wisconsin–Madison"
                     }
                 ]
             },
@@ -3666,7 +3930,7 @@
                 "links": [
                     {
                         "text": "King's College, London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -3869,7 +4133,7 @@
         "id": 1017,
         "episode_link": "https://www.bbc.co.uk/programmes/m001w7f9",
         "topic": "Alice's Adventures in Wonderland",
-        "wiki_link": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
+        "wiki_link": "https://en.wikipedia.org/wiki/Alice's_Adventures_in_Wonderland",
         "experts": [
             {
                 "name": "Franziska Kohlt",
@@ -4261,7 +4525,7 @@
                     },
                     {
                         "text": "St. John's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -4412,7 +4676,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -4494,7 +4758,7 @@
                 "links": [
                     {
                         "text": "St Mary's University, Twickenham",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Mary%27s_University,_Twickenham"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Mary's_University,_Twickenham"
                     }
                 ]
             },
@@ -4545,7 +4809,7 @@
                     },
                     {
                         "text": "St Anne's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -4643,7 +4907,7 @@
                     },
                     {
                         "text": "Von Hügel Institute",
-                        "wiki": "https://en.wikipedia.org/wiki/Von_H%C3%BCgel_Institute"
+                        "wiki": "https://en.wikipedia.org/wiki/Von_Hügel_Institute"
                     },
                     {
                         "text": "University of Cambridge",
@@ -4839,30 +5103,13 @@
         "date": "21 September 2023",
         "id": 996,
         "episode_link": "https://www.bbc.co.uk/programmes/m001qmkx",
-        "topic": "The Seventh Seal\n(1000th program)",
+        "topic": "The Seventh Seal\n(1000th programme)",
         "wiki_link": "https://en.wikipedia.org/wiki/The_Seventh_Seal",
         "experts": [
             {
-                "name": "Jan Holmberg [sv]",
-                "title": "Director of the Ingmar Bergman Foundation [sv], Stockholm",
-                "links": [
-                    {
-                        "text": "Jan Holmberg",
-                        "wiki": "https://en.wikipedia.org/w/index.php?title=Jan_Holmberg&action=edit&redlink=1"
-                    },
-                    {
-                        "text": "sv",
-                        "wiki": "https://sv.wikipedia.org/wiki/Jan_Holmberg"
-                    },
-                    {
-                        "text": "Ingmar Bergman Foundation",
-                        "wiki": "https://en.wikipedia.org/w/index.php?title=Ingmar_Bergman_Foundation&action=edit&redlink=1"
-                    },
-                    {
-                        "text": "sv",
-                        "wiki": "https://sv.wikipedia.org/wiki/Stiftelsen_Ingmar_Bergman"
-                    }
-                ]
+                "name": "Jan Holmberg",
+                "title": "Director of the Ingmar Bergman Foundation, Stockholm",
+                "links": []
             },
             {
                 "name": "Laura Hubner",
@@ -5033,7 +5280,7 @@
                 "links": [
                     {
                         "text": "St Hilda's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -5070,7 +5317,7 @@
                 "links": [
                     {
                         "text": "St Johns College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
                     },
                     {
                         "text": "University of Cambridge",
@@ -5125,7 +5372,7 @@
                     },
                     {
                         "text": "St Hilda's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -5479,7 +5726,7 @@
         "id": 983,
         "episode_link": "https://www.bbc.co.uk/programmes/m001kx5s",
         "topic": "The Battle of Crécy",
-        "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Cr%C3%A9cy",
+        "wiki_link": "https://en.wikipedia.org/wiki/Battle_of_Crécy",
         "experts": [
             {
                 "name": "Anne Curry",
@@ -5565,7 +5812,7 @@
         "id": 981,
         "episode_link": "https://www.bbc.co.uk/programmes/m001kh32",
         "topic": "A Room of One's Own",
-        "wiki_link": "https://en.wikipedia.org/wiki/A_Room_of_One%27s_Own",
+        "wiki_link": "https://en.wikipedia.org/wiki/A_Room_of_One's_Own",
         "experts": [
             {
                 "name": "Hermione Lee",
@@ -5587,7 +5834,7 @@
                 "links": [
                     {
                         "text": "Michèle Barrett",
-                        "wiki": "https://en.wikipedia.org/wiki/Mich%C3%A8le_Barrett"
+                        "wiki": "https://en.wikipedia.org/wiki/Michèle_Barrett"
                     },
                     {
                         "text": "Queen Mary University of London",
@@ -5689,7 +5936,7 @@
                     },
                     {
                         "text": "Queens' College",
-                        "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
                     }
                 ]
             },
@@ -5812,7 +6059,7 @@
         "id": 976,
         "episode_link": "https://www.bbc.co.uk/programmes/m001jc68",
         "topic": "Paul Erdős",
-        "wiki_link": "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s",
+        "wiki_link": "https://en.wikipedia.org/wiki/Paul_Erdős",
         "experts": [
             {
                 "name": "Colva Roney-Dougal",
@@ -5838,7 +6085,7 @@
                     },
                     {
                         "text": "Collège de France",
-                        "wiki": "https://en.wikipedia.org/wiki/Coll%C3%A8ge_de_France"
+                        "wiki": "https://en.wikipedia.org/wiki/Collège_de_France"
                     },
                     {
                         "text": "Trinity College, Cambridge",
@@ -5961,7 +6208,7 @@
                 "links": [
                     {
                         "text": "Open University",
-                        "wiki": "https://en.wikipedia.org/wiki/Open_university"
+                        "wiki": "https://en.wikipedia.org/wiki/Open_University"
                     }
                 ]
             },
@@ -6071,6 +6318,10 @@
                 "name": "Martin O'Neill",
                 "title": "Professor of Political Philosophy at the University of York",
                 "links": [
+                    {
+                        "text": "Martin O'Neill",
+                        "wiki": "https://en.wikipedia.org/wiki/Martin_O'Neill"
+                    },
                     {
                         "text": "University of York",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_York"
@@ -6199,7 +6450,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "Durham University",
@@ -6352,7 +6603,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -6552,7 +6803,7 @@
                     },
                     {
                         "text": "St Peter's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -6585,7 +6836,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             },
@@ -6626,10 +6877,6 @@
                 "name": "Michael Coates",
                 "title": "Chair and Professor of Organismal Biology and Anatomy at the University of Chicago",
                 "links": [
-                    {
-                        "text": "Michael Coates",
-                        "wiki": "https://en.wikipedia.org/w/index.php?title=Michael_Coates_(biologist)&action=edit&redlink=1"
-                    },
                     {
                         "text": "University of Chicago",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Chicago"
@@ -6693,7 +6940,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             }
@@ -7154,7 +7401,7 @@
                     },
                     {
                         "text": "St Anne's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
                     }
                 ]
             }
@@ -7242,7 +7489,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -7303,7 +7550,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -7346,7 +7593,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -7876,7 +8123,7 @@
                 "links": [
                     {
                         "text": "Michèle Roberts",
-                        "wiki": "https://en.wikipedia.org/wiki/Mich%C3%A8le_Roberts"
+                        "wiki": "https://en.wikipedia.org/wiki/Michèle_Roberts"
                     },
                     {
                         "text": "University of East Anglia",
@@ -8070,7 +8317,7 @@
                 "links": [
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             }
@@ -8276,7 +8523,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             }
@@ -8479,7 +8726,7 @@
         "id": 918,
         "episode_link": "https://www.bbc.co.uk/programmes/m0010f8z",
         "topic": "The Polish-Lithuanian Commonwealth",
-        "wiki_link": "https://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_Commonwealth",
+        "wiki_link": "https://en.wikipedia.org/wiki/Polish–Lithuanian_Commonwealth",
         "experts": [
             {
                 "name": "Robert I. Frost",
@@ -8515,7 +8762,7 @@
                     },
                     {
                         "text": "St Antony's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -8710,7 +8957,7 @@
         "id": 913,
         "episode_link": "https://www.bbc.co.uk/programmes/m000x6tr",
         "topic": "Shakespeare's Sonnets",
-        "wiki_link": "https://en.wikipedia.org/wiki/Shakespeare%27s_Sonnets",
+        "wiki_link": "https://en.wikipedia.org/wiki/Shakespeare's_Sonnets",
         "experts": [
             {
                 "name": "Hannah Crawforth",
@@ -8718,7 +8965,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -8765,7 +9012,7 @@
                 "links": [
                     {
                         "text": "St Catherine's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Catherine%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Catherine's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -8789,7 +9036,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Oxford",
@@ -8844,7 +9091,7 @@
                     },
                     {
                         "text": "St Peter's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -8891,7 +9138,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -8902,7 +9149,7 @@
         "id": 909,
         "episode_link": "https://www.bbc.co.uk/programmes/m000wcxn",
         "topic": "The Interregnum",
-        "wiki_link": "https://en.wikipedia.org/wiki/Interregnum_(1649%E2%80%931660)",
+        "wiki_link": "https://en.wikipedia.org/wiki/Interregnum_(1649–1660)",
         "experts": [
             {
                 "name": "Clare Jackson",
@@ -8976,10 +9223,6 @@
                     {
                         "text": "Academia Sinica",
                         "wiki": "https://en.wikipedia.org/wiki/Academia_Sinica"
-                    },
-                    {
-                        "text": "Taiwan",
-                        "wiki": "https://en.wikipedia.org/wiki/Taiwan"
                     }
                 ]
             },
@@ -9055,7 +9298,7 @@
         "id": 906,
         "episode_link": "https://www.bbc.co.uk/programmes/m000vqq3",
         "topic": "The Second Barons' War",
-        "wiki_link": "https://en.wikipedia.org/wiki/Second_Barons%27_War",
+        "wiki_link": "https://en.wikipedia.org/wiki/Second_Barons'_War",
         "experts": [
             {
                 "name": "David Carpenter",
@@ -9067,7 +9310,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -9208,7 +9451,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -9269,7 +9512,7 @@
                     },
                     {
                         "text": "Collège de France",
-                        "wiki": "https://en.wikipedia.org/wiki/Coll%C3%A8ge_de_France"
+                        "wiki": "https://en.wikipedia.org/wiki/Collège_de_France"
                     }
                 ]
             },
@@ -9396,7 +9639,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -9533,7 +9776,7 @@
                     },
                     {
                         "text": "King's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College,_Cambridge"
                     }
                 ]
             },
@@ -9659,7 +9902,7 @@
                     },
                     {
                         "text": "The Queen's College",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -9674,7 +9917,7 @@
         "id": 893,
         "episode_link": "https://www.bbc.co.uk/programmes/m000rvnj",
         "topic": "Emilie du Châtelet",
-        "wiki_link": "https://en.wikipedia.org/wiki/%C3%89milie_du_Ch%C3%A2telet",
+        "wiki_link": "https://en.wikipedia.org/wiki/Émilie_du_Châtelet",
         "experts": [
             {
                 "name": "Patricia Fara",
@@ -9849,7 +10092,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             },
@@ -10065,7 +10308,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -10133,7 +10376,7 @@
         "id": 884,
         "episode_link": "https://www.bbc.co.uk/programmes/m000p8cb",
         "topic": "Albrecht Dürer",
-        "wiki_link": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+        "wiki_link": "https://en.wikipedia.org/wiki/Albrecht_Dürer",
         "experts": [
             {
                 "name": "Susan Foister",
@@ -10169,7 +10412,7 @@
                     },
                     {
                         "text": "St John's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
                     }
                 ]
             }
@@ -10188,7 +10431,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -10257,7 +10500,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -10537,7 +10780,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -10772,7 +11015,7 @@
                     },
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             },
@@ -10796,7 +11039,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -10935,7 +11178,7 @@
                     },
                     {
                         "text": "St Edmund's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Edmund%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Edmund's_College,_Cambridge"
                     }
                 ]
             },
@@ -10988,7 +11231,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -11358,7 +11601,7 @@
                     },
                     {
                         "text": "St Antony's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
                     }
                 ]
             },
@@ -11686,7 +11929,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             },
@@ -11733,7 +11976,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -11772,7 +12015,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -12067,7 +12310,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Oxford",
@@ -12214,7 +12457,7 @@
                     },
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             },
@@ -12239,7 +12482,7 @@
         "id": 839,
         "episode_link": "https://www.bbc.co.uk/programmes/m00046rp",
         "topic": "A Midsummer Night's Dream",
-        "wiki_link": "https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream",
+        "wiki_link": "https://en.wikipedia.org/wiki/A_Midsummer_Night's_Dream",
         "experts": [
             {
                 "name": "Helen Hackett",
@@ -12333,7 +12576,7 @@
                 "links": [
                     {
                         "text": "Cormac O'Grada",
-                        "wiki": "https://en.wikipedia.org/wiki/Cormac_O%27Grada"
+                        "wiki": "https://en.wikipedia.org/wiki/Cormac_O'Grada"
                     },
                     {
                         "text": "University College Dublin",
@@ -12677,7 +12920,7 @@
         "id": 829,
         "episode_link": "https://www.bbc.co.uk/programmes/m0002cfd",
         "topic": "Aristotle's biology",
-        "wiki_link": "https://en.wikipedia.org/wiki/Aristotle%27s_biology",
+        "wiki_link": "https://en.wikipedia.org/wiki/Aristotle's_biology",
         "experts": [
             {
                 "name": "Armand Leroi",
@@ -12728,7 +12971,7 @@
         "id": 828,
         "episode_link": "https://www.bbc.co.uk/programmes/m00027xk",
         "topic": "Owain Glyndŵr",
-        "wiki_link": "https://en.wikipedia.org/wiki/Owain_Glynd%C5%B5r",
+        "wiki_link": "https://en.wikipedia.org/wiki/Owain_Glyndŵr",
         "experts": [
             {
                 "name": "Huw Pryce",
@@ -12873,7 +13116,7 @@
                 "links": [
                     {
                         "text": "Tom O'Loughlin",
-                        "wiki": "https://en.wikipedia.org/wiki/Thomas_O%27Loughlin"
+                        "wiki": "https://en.wikipedia.org/wiki/Thomas_O'Loughlin"
                     },
                     {
                         "text": "University of Nottingham",
@@ -13087,7 +13330,7 @@
                     },
                     {
                         "text": "St John's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
                     }
                 ]
             },
@@ -13214,7 +13457,7 @@
                     },
                     {
                         "text": "St John's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
                     }
                 ]
             },
@@ -13224,7 +13467,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -13363,7 +13606,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -13374,7 +13617,7 @@
         "id": 814,
         "episode_link": "https://www.bbc.co.uk/programmes/m0000qnh",
         "topic": "Is Shakespeare History? The Romans",
-        "wiki_link": "https://en.wikipedia.org/wiki/Shakespearean_history",
+        "wiki_link": "https://en.wikipedia.org/wiki/Roman_Empire",
         "experts": [
             {
                 "name": "Jonathan Bate",
@@ -13451,7 +13694,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -13541,7 +13784,7 @@
                     },
                     {
                         "text": "Regent's Park College at the University of Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/Regent%27s_Park_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/Regent's_Park_College,_Oxford"
                     }
                 ]
             },
@@ -13621,7 +13864,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -13763,10 +14006,6 @@
                 "title": "Professor of Biological Sciences at the University of Bristol",
                 "links": [
                     {
-                        "text": "Gareth Jones",
-                        "wiki": "https://en.wikipedia.org/w/index.php?title=Gareth_Jones_(biologist)&action=edit&redlink=1"
-                    },
-                    {
                         "text": "University of Bristol",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Bristol"
                     }
@@ -13880,7 +14119,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -13913,7 +14152,7 @@
                     },
                     {
                         "text": "St Catherine's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Catherine%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Catherine's_College,_Oxford"
                     },
                     {
                         "text": "University of Oxford",
@@ -14329,7 +14568,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -14850,7 +15089,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -14873,7 +15112,7 @@
                     },
                     {
                         "text": "St Catherine's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Catherine%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Catherine's_College,_Oxford"
                     }
                 ]
             },
@@ -14887,7 +15126,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -15053,7 +15292,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -15096,7 +15335,7 @@
         "id": 777,
         "episode_link": "https://www.bbc.co.uk/programmes/b09drjm1",
         "topic": "Germaine de Staël",
-        "wiki_link": "https://en.wikipedia.org/wiki/Germaine_de_Sta%C3%ABl",
+        "wiki_link": "https://en.wikipedia.org/wiki/Germaine_de_Staël",
         "experts": [
             {
                 "name": "Catriona Seth",
@@ -15186,7 +15425,7 @@
         "id": 775,
         "episode_link": "https://www.bbc.co.uk/programmes/b09bxkdm",
         "topic": "Picasso's Guernica",
-        "wiki_link": "https://en.wikipedia.org/wiki/Picasso%27s_Guernica",
+        "wiki_link": "https://en.wikipedia.org/wiki/Picasso's_Guernica",
         "experts": [
             {
                 "name": "Mary Vincent",
@@ -15320,7 +15559,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -15449,7 +15688,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Oxford",
@@ -15496,7 +15735,7 @@
                     },
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             },
@@ -15520,7 +15759,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -15596,7 +15835,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -15660,7 +15899,7 @@
         "id": 765,
         "episode_link": "https://www.bbc.co.uk/programmes/b08tbf4g",
         "topic": "The American Populists",
-        "wiki_link": "https://en.wikipedia.org/wiki/People%27s_Party_(United_States)",
+        "wiki_link": "https://en.wikipedia.org/wiki/People's_Party_(United_States)",
         "experts": [
             {
                 "name": "Lawrence Goldman",
@@ -15723,7 +15962,7 @@
                     },
                     {
                         "text": "St Hilda's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
                     }
                 ]
             },
@@ -15733,7 +15972,7 @@
                 "links": [
                     {
                         "text": "St Catharine's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Catharine%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Catharine's_College,_Cambridge"
                     }
                 ]
             },
@@ -15772,7 +16011,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -16025,7 +16264,7 @@
                     },
                     {
                         "text": "Queen's College",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_College,_Oxford"
                     }
                 ]
             }
@@ -16242,7 +16481,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -16267,7 +16506,7 @@
         "id": 752,
         "episode_link": "https://www.bbc.co.uk/programmes/b08hpmmf",
         "topic": "The Paleocene-Eocene Thermal Maximum",
-        "wiki_link": "https://en.wikipedia.org/wiki/Paleocene%E2%80%93Eocene_Thermal_Maximum",
+        "wiki_link": "https://en.wikipedia.org/wiki/Paleocene–Eocene_Thermal_Maximum",
         "experts": [
             {
                 "name": "Dame Jane Francis",
@@ -16787,7 +17026,7 @@
                     },
                     {
                         "text": "St John's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Cambridge"
                     }
                 ]
             },
@@ -16826,7 +17065,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             },
@@ -16920,7 +17159,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Oxford",
@@ -17026,7 +17265,7 @@
                     },
                     {
                         "text": "St Catharine's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Catharine%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Catharine's_College,_Cambridge"
                     },
                     {
                         "text": "University of Cambridge",
@@ -17183,7 +17422,7 @@
                     },
                     {
                         "text": "St Benet's Hall",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Benet%27s_Hall"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Benet's_Hall"
                     }
                 ]
             },
@@ -17346,7 +17585,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             }
@@ -17463,7 +17702,7 @@
         "id": 728,
         "episode_link": "https://www.bbc.co.uk/programmes/b07vs3v1",
         "topic": "Zeno's paradoxes",
-        "wiki_link": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes",
+        "wiki_link": "https://en.wikipedia.org/wiki/Zeno's_paradoxes",
         "experts": [
             {
                 "name": "Marcus du Sautoy",
@@ -17638,7 +17877,7 @@
                 "links": [
                     {
                         "text": "Queens' College",
-                        "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
                     }
                 ]
             },
@@ -17826,7 +18065,7 @@
                     },
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             },
@@ -17963,7 +18202,7 @@
         "id": 718,
         "episode_link": "https://www.bbc.co.uk/programmes/b078zcrr",
         "topic": "Tess of the d'Urbervilles",
-        "wiki_link": "https://en.wikipedia.org/wiki/Tess_of_the_d%27Urbervilles",
+        "wiki_link": "https://en.wikipedia.org/wiki/Tess_of_the_d'Urbervilles",
         "experts": [
             {
                 "name": "Dinah Birch",
@@ -18006,7 +18245,7 @@
         "id": 717,
         "episode_link": "https://www.bbc.co.uk/programmes/b07881kn",
         "topic": "Euclid's Elements",
-        "wiki_link": "https://en.wikipedia.org/wiki/Euclid%27s_Elements",
+        "wiki_link": "https://en.wikipedia.org/wiki/Euclid's_Elements",
         "experts": [
             {
                 "name": "Marcus du Sautoy",
@@ -18232,7 +18471,7 @@
                 "links": [
                     {
                         "text": "Alice König",
-                        "wiki": "https://en.wikipedia.org/wiki/Alice_K%C3%B6nig"
+                        "wiki": "https://en.wikipedia.org/wiki/Alice_König"
                     },
                     {
                         "text": "University of St Andrews",
@@ -18293,11 +18532,11 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -18414,7 +18653,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -18493,7 +18732,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -18634,7 +18873,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -19049,7 +19288,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -19122,10 +19361,6 @@
                 "name": "Emma Clery",
                 "title": "Professor of English at the University of Southampton",
                 "links": [
-                    {
-                        "text": "Emma Clery",
-                        "wiki": "https://en.wikipedia.org/w/index.php?title=Emma_J._Clery&action=edit&redlink=1"
-                    },
                     {
                         "text": "University of Southampton",
                         "wiki": "https://en.wikipedia.org/wiki/University_of_Southampton"
@@ -19643,11 +19878,11 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -20111,15 +20346,15 @@
         "experts": [
             {
                 "name": "Edith Hall",
-                "title": "Professor of Classics at King's College, London",
+                "title": "Professor of Classics at King's College London",
                 "links": [
                     {
                         "text": "Edith Hall",
                         "wiki": "https://en.wikipedia.org/wiki/Edith_Hall"
                     },
                     {
-                        "text": "King's College, London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_London"
+                        "text": "King's College London",
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -20388,7 +20623,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -20449,7 +20684,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -20967,7 +21202,7 @@
                     },
                     {
                         "text": "The Queen's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
                     }
                 ]
             }
@@ -21014,7 +21249,7 @@
                     },
                     {
                         "text": "King's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College,_Cambridge"
                     }
                 ]
             }
@@ -21274,7 +21509,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -21676,11 +21911,11 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -21694,7 +21929,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -21923,7 +22158,7 @@
                     },
                     {
                         "text": "The Queen's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
                     }
                 ]
             },
@@ -22021,7 +22256,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -22182,7 +22417,7 @@
                     },
                     {
                         "text": "St Anne's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
                     }
                 ]
             },
@@ -22745,7 +22980,7 @@
                 "links": [
                     {
                         "text": "Christ's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
                     }
                 ]
             }
@@ -22772,7 +23007,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -22906,7 +23141,7 @@
                 "links": [
                     {
                         "text": "Alice König",
-                        "wiki": "https://en.wikipedia.org/wiki/Alice_K%C3%B6nig"
+                        "wiki": "https://en.wikipedia.org/wiki/Alice_König"
                     },
                     {
                         "text": "Latin",
@@ -22974,10 +23209,6 @@
                     {
                         "text": "Gavin Flood",
                         "wiki": "https://en.wikipedia.org/wiki/Gavin_Flood"
-                    },
-                    {
-                        "text": "Hindu Studies",
-                        "wiki": "https://en.wikipedia.org/wiki/Hinduism"
                     },
                     {
                         "text": "Comparative Religion",
@@ -23067,7 +23298,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -23212,7 +23443,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -23263,7 +23494,7 @@
                     },
                     {
                         "text": "St Peter's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -23888,7 +24119,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -23923,7 +24154,7 @@
         "id": 600,
         "episode_link": "https://www.bbc.co.uk/programmes/b01sjjxl",
         "topic": "Lévi-Strauss",
-        "wiki_link": "https://en.wikipedia.org/wiki/Claude_L%C3%A9vi-Strauss",
+        "wiki_link": "https://en.wikipedia.org/wiki/Claude_Lévi-Strauss",
         "experts": [
             {
                 "name": "Adam Kuper",
@@ -24041,20 +24272,20 @@
                     },
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             },
             {
                 "name": "Elizabeth Ashman Rowe",
-                "title": "[1] Lecturer in Scandinavian History at the University of Cambridge",
+                "title": "Lecturer in Scandinavian History at the University of Cambridge",
                 "links": [
                     {
                         "text": "Elizabeth Ashman Rowe",
                         "wiki": "https://en.wikipedia.org/wiki/Elizabeth_Ashman_Rowe"
                     },
                     {
-                        "text": "[1]",
+                        "text": "",
                         "wiki": "https://www.asnc.cam.ac.uk/people/academic/rowe.htm"
                     },
                     {
@@ -24069,7 +24300,7 @@
                 "links": [
                     {
                         "text": "Árni Magnússon Institute for Icelandic Studies",
-                        "wiki": "https://en.wikipedia.org/wiki/%C3%81rni_Magn%C3%BAsson_Institute_for_Icelandic_Studies"
+                        "wiki": "https://en.wikipedia.org/wiki/Árni_Magnússon_Institute_for_Icelandic_Studies"
                     }
                 ]
             }
@@ -24257,7 +24488,7 @@
                     },
                     {
                         "text": "Christ's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
                     }
                 ]
             }
@@ -24304,7 +24535,7 @@
                 "links": [
                     {
                         "text": "Queens' College",
-                        "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
                     },
                     {
                         "text": "Faculty of Asian and Middle Eastern Studies",
@@ -24626,7 +24857,7 @@
                     },
                     {
                         "text": "St Anne's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
                     }
                 ]
             }
@@ -24769,7 +25000,7 @@
                     },
                     {
                         "text": "St Peter's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -24900,7 +25131,7 @@
         "id": 581,
         "episode_link": "https://www.bbc.co.uk/programmes/b01pp989",
         "topic": "Le Morte d'Arthur",
-        "wiki_link": "https://en.wikipedia.org/wiki/Le_Morte_d%27Arthur",
+        "wiki_link": "https://en.wikipedia.org/wiki/Le_Morte_d'Arthur",
         "experts": [
             {
                 "name": "Helen Cooper",
@@ -25112,7 +25343,7 @@
                     },
                     {
                         "text": "St Anne's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
                     }
                 ]
             },
@@ -25379,7 +25610,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -25390,7 +25621,7 @@
         "id": 571,
         "episode_link": "https://www.bbc.co.uk/programmes/b01ngn3j",
         "topic": "Fermat's Last Theorem",
-        "wiki_link": "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem",
+        "wiki_link": "https://en.wikipedia.org/wiki/Fermat's_Last_Theorem",
         "experts": [
             {
                 "name": "Marcus du Sautoy",
@@ -25543,7 +25774,7 @@
                     },
                     {
                         "text": "St Peter's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -25630,7 +25861,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -25751,7 +25982,7 @@
         "id": 564,
         "episode_link": "https://www.bbc.co.uk/programmes/b01kkr42",
         "topic": "Hadrian's Wall",
-        "wiki_link": "https://en.wikipedia.org/wiki/Hadrian%27s_Wall",
+        "wiki_link": "https://en.wikipedia.org/wiki/Hadrian's_Wall",
         "experts": [
             {
                 "name": "Greg Woolf",
@@ -25916,7 +26147,7 @@
                     },
                     {
                         "text": "St Peter's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -26034,7 +26265,7 @@
                     },
                     {
                         "text": "St Catharine's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Catharine%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Catharine's_College,_Cambridge"
                     }
                 ]
             }
@@ -26057,7 +26288,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -26067,7 +26298,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -26381,7 +26612,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -26599,11 +26830,11 @@
             },
             {
                 "name": "Adam Sutcliffe",
-                "title": "Senior Lecturer in European History at King's College, London",
+                "title": "Senior Lecturer in European History at King's College London",
                 "links": [
                     {
-                        "text": "King's College, London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_London"
+                        "text": "King's College London",
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -26650,7 +26881,7 @@
                 "links": [
                     {
                         "text": "Alice König",
-                        "wiki": "https://en.wikipedia.org/wiki/Alice_K%C3%B6nig"
+                        "wiki": "https://en.wikipedia.org/wiki/Alice_König"
                     },
                     {
                         "text": "University of St Andrews",
@@ -26933,10 +27164,6 @@
                     {
                         "text": "Julius Lipner",
                         "wiki": "https://en.wikipedia.org/wiki/Julius_Lipner"
-                    },
-                    {
-                        "text": "Hinduism",
-                        "wiki": "https://en.wikipedia.org/wiki/Hinduism"
                     },
                     {
                         "text": "University of Cambridge",
@@ -27235,7 +27462,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Birmingham",
@@ -27290,7 +27517,7 @@
                     },
                     {
                         "text": "St Peter's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -27351,7 +27578,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -28018,7 +28245,7 @@
                 "links": [
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -28102,7 +28329,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Birmingham",
@@ -28261,7 +28488,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -28320,7 +28547,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -28331,7 +28558,7 @@
         "id": 509,
         "episode_link": "https://www.bbc.co.uk/programmes/b0112xfd",
         "topic": "Custer's Last Stand",
-        "wiki_link": "https://en.wikipedia.org/wiki/Custer%27s_Last_Stand",
+        "wiki_link": "https://en.wikipedia.org/wiki/Custer's_Last_Stand",
         "experts": [
             {
                 "name": "Kathleen Burk",
@@ -28667,7 +28894,7 @@
                     },
                     {
                         "text": "St Peter's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -28727,7 +28954,7 @@
                     },
                     {
                         "text": "Regent's College, London",
-                        "wiki": "https://en.wikipedia.org/wiki/Regent%27s_College,_London"
+                        "wiki": "https://en.wikipedia.org/wiki/Regent's_College,_London"
                     }
                 ]
             }
@@ -29021,7 +29248,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -29275,7 +29502,7 @@
         "id": 490,
         "episode_link": "https://www.bbc.co.uk/programmes/b00xmx42",
         "topic": "Childe Harold's Pilgrimage",
-        "wiki_link": "https://en.wikipedia.org/wiki/Childe_Harold%27s_Pilgrimage",
+        "wiki_link": "https://en.wikipedia.org/wiki/Childe_Harold's_Pilgrimage",
         "experts": [
             {
                 "name": "Jonathan Bate",
@@ -29358,7 +29585,7 @@
                     },
                     {
                         "text": "St Peter's College, University of Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St._Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St._Peter's_College,_Oxford"
                     }
                 ]
             }
@@ -29608,7 +29835,7 @@
         "id": 483,
         "episode_link": "https://www.bbc.co.uk/programmes/b00vy2dd",
         "topic": "Foxe's Book of Martyrs",
-        "wiki_link": "https://en.wikipedia.org/wiki/Foxe%27s_Book_of_Martyrs",
+        "wiki_link": "https://en.wikipedia.org/wiki/Foxe's_Book_of_Martyrs",
         "experts": [
             {
                 "name": "Diarmaid MacCulloch",
@@ -29744,7 +29971,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Warwick",
@@ -30350,7 +30577,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Warwick",
@@ -30507,7 +30734,7 @@
                 "links": [
                     {
                         "text": "Jonathan Rée",
-                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
                     }
                 ]
             },
@@ -30943,7 +31170,7 @@
                 "links": [
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             }
@@ -31117,7 +31344,7 @@
                     },
                     {
                         "text": "St Antony's College, University of Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
                     }
                 ]
             },
@@ -31362,7 +31589,7 @@
                 "links": [
                     {
                         "text": "Jonathan Rée",
-                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
                     },
                     {
                         "text": "Roehampton University",
@@ -31449,7 +31676,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Warwick",
@@ -31774,7 +32001,7 @@
         "id": 437,
         "episode_link": "https://www.bbc.co.uk/programmes/b00nkqrv",
         "topic": "The Siege of Munster",
-        "wiki_link": "https://en.wikipedia.org/wiki/M%C3%BCnster_Rebellion",
+        "wiki_link": "https://en.wikipedia.org/wiki/Münster_Rebellion",
         "experts": [
             {
                 "name": "Diarmaid MacCulloch",
@@ -31810,15 +32037,15 @@
             },
             {
                 "name": "Lucy Wooding",
-                "title": "Lecturer in Early Modern History at King's College, London",
+                "title": "Lecturer in Early Modern History at King's College London",
                 "links": [
                     {
                         "text": "Lucy Wooding",
                         "wiki": "https://en.wikipedia.org/wiki/Lucy_Wooding"
                     },
                     {
-                        "text": "King's College, London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_London"
+                        "text": "King's College London",
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -31918,7 +32145,7 @@
         "id": 434,
         "episode_link": "https://www.bbc.co.uk/programmes/b00n5nqr",
         "topic": "The Death of Elizabeth I",
-        "wiki_link": "https://en.wikipedia.org/wiki/Elizabeth_I_of_England",
+        "wiki_link": "https://en.wikipedia.org/wiki/Elizabeth_I",
         "experts": [
             {
                 "name": "John Guy",
@@ -32271,7 +32498,7 @@
         "id": 427,
         "episode_link": "https://www.bbc.co.uk/programmes/b00l5mhl",
         "topic": "Sunni and Shia Islam",
-        "wiki_link": "https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations",
+        "wiki_link": "https://en.wikipedia.org/wiki/Shia–Sunni_relations",
         "experts": [
             {
                 "name": "Amira Bennison",
@@ -32593,7 +32820,7 @@
                 "links": [
                     {
                         "text": "St Mary's University, London",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Mary%27s_University,_Twickenham"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Mary's_University,_Twickenham"
                     }
                 ]
             }
@@ -32626,7 +32853,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -32749,7 +32976,7 @@
         "id": 417,
         "episode_link": "https://www.bbc.co.uk/programmes/b00jjgg8",
         "topic": "Suffragism",
-        "wiki_link": "https://en.wikipedia.org/wiki/Women%27s_Suffrage",
+        "wiki_link": "https://en.wikipedia.org/wiki/Women's_Suffrage",
         "experts": [
             {
                 "name": "Krista Cowman",
@@ -32824,7 +33051,7 @@
                 "links": [
                     {
                         "text": "Michèle Barrett",
-                        "wiki": "https://en.wikipedia.org/wiki/Mich%C3%A8le_Barrett"
+                        "wiki": "https://en.wikipedia.org/wiki/Michèle_Barrett"
                     },
                     {
                         "text": "Queen Mary, University of London",
@@ -32875,7 +33102,7 @@
                     },
                     {
                         "text": "St Hugh's",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Hugh%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hugh's_College,_Oxford"
                     }
                 ]
             }
@@ -33108,7 +33335,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             },
@@ -33306,7 +33533,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -33572,7 +33799,7 @@
                     },
                     {
                         "text": "Christ's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
                     }
                 ]
             },
@@ -33645,7 +33872,7 @@
                     },
                     {
                         "text": "Christ's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
                     }
                 ]
             },
@@ -33655,7 +33882,7 @@
                 "links": [
                     {
                         "text": "Christ's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
                     }
                 ]
             }
@@ -34008,7 +34235,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -34066,7 +34293,7 @@
         "id": 391,
         "episode_link": "https://www.bbc.co.uk/programmes/b00f4prq",
         "topic": "Bolivar",
-        "wiki_link": "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
+        "wiki_link": "https://en.wikipedia.org/wiki/Simón_Bolívar",
         "experts": [
             {
                 "name": "Anthony McFarlane",
@@ -34117,7 +34344,7 @@
                     },
                     {
                         "text": "St Hilda's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
                     }
                 ]
             },
@@ -34195,7 +34422,7 @@
         "id": 388,
         "episode_link": "https://www.bbc.co.uk/programmes/b00dshx3",
         "topic": "Gödel's Incompleteness Theorems",
-        "wiki_link": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_Incompleteness_Theorems",
+        "wiki_link": "https://en.wikipedia.org/wiki/Gödel's_Incompleteness_Theorems",
         "experts": [
             {
                 "name": "Marcus du Sautoy",
@@ -34262,7 +34489,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -34921,7 +35148,7 @@
                 "links": [
                     {
                         "text": "Anthony O'Hear",
-                        "wiki": "https://en.wikipedia.org/wiki/Anthony_O%27Hear"
+                        "wiki": "https://en.wikipedia.org/wiki/Anthony_O'Hear"
                     },
                     {
                         "text": "University of Buckingham",
@@ -34962,7 +35189,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     },
                     {
                         "text": "Seamus Heaney Centre for Poetry",
@@ -35034,7 +35261,7 @@
         "id": 371,
         "episode_link": "https://www.bbc.co.uk/programmes/b009mvj0",
         "topic": "The Laws of Motion",
-        "wiki_link": "https://en.wikipedia.org/wiki/Newton%27s_Laws_of_Motion",
+        "wiki_link": "https://en.wikipedia.org/wiki/Newton's_Laws_of_Motion",
         "experts": [
             {
                 "name": "Simon Schaffer",
@@ -35136,7 +35363,7 @@
         "id": 369,
         "episode_link": "https://www.bbc.co.uk/programmes/b009fycc",
         "topic": "Kierkegaard",
-        "wiki_link": "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
+        "wiki_link": "https://en.wikipedia.org/wiki/Søren_Kierkegaard",
         "experts": [
             {
                 "name": "Jonathan Rée",
@@ -35144,7 +35371,7 @@
                 "links": [
                     {
                         "text": "Jonathan Rée",
-                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
                     },
                     {
                         "text": "Roehampton University",
@@ -35482,7 +35709,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Warwick",
@@ -35607,7 +35834,7 @@
                     },
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             },
@@ -35970,7 +36197,7 @@
                     },
                     {
                         "text": "Queen's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
                     }
                 ]
             },
@@ -36097,7 +36324,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -36176,7 +36403,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             }
@@ -36732,7 +36959,7 @@
         "id": 337,
         "episode_link": "https://www.bbc.co.uk/programmes/b007m0w4",
         "topic": "Ockham's Razor",
-        "wiki_link": "https://en.wikipedia.org/wiki/Occam%27s_razor",
+        "wiki_link": "https://en.wikipedia.org/wiki/Occam's_razor",
         "experts": [
             {
                 "name": "Anthony Kenny",
@@ -36783,7 +37010,7 @@
         "id": 336,
         "episode_link": "https://www.bbc.co.uk/programmes/b007l3yq",
         "topic": "The Siege of Orléans",
-        "wiki_link": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
+        "wiki_link": "https://en.wikipedia.org/wiki/Siege_of_Orléans_(1428–1429)",
         "experts": [
             {
                 "name": "Anne Curry",
@@ -36805,7 +37032,7 @@
                 "links": [
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             },
@@ -36940,7 +37167,7 @@
                 "links": [
                     {
                         "text": "Jonathan Rée",
-                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
                     },
                     {
                         "text": "Roehampton University",
@@ -37136,7 +37363,7 @@
                     },
                     {
                         "text": "The Queen's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
                     }
                 ]
             },
@@ -37183,7 +37410,7 @@
                 "links": [
                     {
                         "text": "St Bartholomew's Hospital",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Bartholomew%27s_Hospital"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Bartholomew's_Hospital"
                     }
                 ]
             },
@@ -37283,7 +37510,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Warwick",
@@ -37316,7 +37543,7 @@
                 "links": [
                     {
                         "text": "John Dupré",
-                        "wiki": "https://en.wikipedia.org/wiki/John_Dupr%C3%A9"
+                        "wiki": "https://en.wikipedia.org/wiki/John_Dupré"
                     },
                     {
                         "text": "Exeter University",
@@ -37430,7 +37657,7 @@
                 "links": [
                     {
                         "text": "St Hilda's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
                     }
                 ]
             },
@@ -37495,7 +37722,7 @@
                 "links": [
                     {
                         "text": "Anthony O'Hear",
-                        "wiki": "https://en.wikipedia.org/wiki/Anthony_O%27Hear"
+                        "wiki": "https://en.wikipedia.org/wiki/Anthony_O'Hear"
                     },
                     {
                         "text": "Buckingham University",
@@ -37591,7 +37818,7 @@
                     },
                     {
                         "text": "Queen's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
                     }
                 ]
             },
@@ -37797,7 +38024,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -37840,7 +38067,7 @@
                 "links": [
                     {
                         "text": "St Hilda's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Hilda's_College,_Oxford"
                     }
                 ]
             },
@@ -38050,7 +38277,7 @@
                 "links": [
                     {
                         "text": "John Dupré",
-                        "wiki": "https://en.wikipedia.org/wiki/John_Dupr%C3%A9"
+                        "wiki": "https://en.wikipedia.org/wiki/John_Dupré"
                     },
                     {
                         "text": "Exeter University",
@@ -38069,7 +38296,7 @@
         "id": 309,
         "episode_link": "https://www.bbc.co.uk/programmes/p0038x8s",
         "topic": "The Peasants' Revolt",
-        "wiki_link": "https://en.wikipedia.org/wiki/Peasants%27_Revolt",
+        "wiki_link": "https://en.wikipedia.org/wiki/Peasants'_Revolt",
         "experts": [
             {
                 "name": "Miri Rubin",
@@ -38154,7 +38381,7 @@
         "id": 307,
         "episode_link": "https://www.bbc.co.uk/programmes/p0038x8l",
         "topic": "The Poincaré conjecture",
-        "wiki_link": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
+        "wiki_link": "https://en.wikipedia.org/wiki/Poincaré_conjecture",
         "experts": [
             {
                 "name": "June Barrow-Green",
@@ -38205,7 +38432,7 @@
         "id": 306,
         "episode_link": "https://www.bbc.co.uk/programmes/p0038x93",
         "topic": "The Encyclopédie",
-        "wiki_link": "https://en.wikipedia.org/wiki/Encyclop%C3%A9die",
+        "wiki_link": "https://en.wikipedia.org/wiki/Encyclopédie",
         "experts": [
             {
                 "name": "Judith Hawley",
@@ -38372,7 +38599,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -38699,7 +38926,7 @@
         "id": 296,
         "episode_link": "https://www.bbc.co.uk/programmes/p003c1bp",
         "topic": "Uncle Tom's Cabin",
-        "wiki_link": "https://en.wikipedia.org/wiki/Uncle_Tom%27s_Cabin",
+        "wiki_link": "https://en.wikipedia.org/wiki/Uncle_Tom's_Cabin",
         "experts": [
             {
                 "name": "Celeste-Marie Bernier",
@@ -39287,7 +39514,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -39530,7 +39757,7 @@
                     },
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             },
@@ -39693,7 +39920,7 @@
                 "links": [
                     {
                         "text": "Jonathan Rée",
-                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
                     },
                     {
                         "text": "Royal College of Art",
@@ -39770,7 +39997,7 @@
                     },
                     {
                         "text": "Queen's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
                     }
                 ]
             }
@@ -40146,7 +40373,7 @@
                     },
                     {
                         "text": "St Anne's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
                     }
                 ]
             },
@@ -40160,7 +40387,7 @@
                     },
                     {
                         "text": "The Philosophers' Magazine",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Philosophers%27_Magazine"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Philosophers'_Magazine"
                     }
                 ]
             },
@@ -40201,7 +40428,7 @@
                     },
                     {
                         "text": "St Peter's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -40679,7 +40906,7 @@
         "id": 257,
         "episode_link": "https://www.bbc.co.uk/programmes/p003k9d0",
         "topic": "The KT Boundary",
-        "wiki_link": "https://en.wikipedia.org/wiki/K%E2%80%93T_boundary",
+        "wiki_link": "https://en.wikipedia.org/wiki/K–T_boundary",
         "experts": [
             {
                 "name": "Simon Kelley",
@@ -40876,7 +41103,7 @@
                     },
                     {
                         "text": "The Queen's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Queen%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Queen's_College,_Oxford"
                     }
                 ]
             }
@@ -40982,7 +41209,7 @@
                     },
                     {
                         "text": "The Philosophers' Magazine",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Philosophers%27_Magazine"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Philosophers'_Magazine"
                     }
                 ]
             }
@@ -41023,7 +41250,7 @@
                     },
                     {
                         "text": "St Peter's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -41474,7 +41701,7 @@
                 "links": [
                     {
                         "text": "Jonathan Rée",
-                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
                     }
                 ]
             },
@@ -41593,7 +41820,7 @@
         "id": 239,
         "episode_link": "https://www.bbc.co.uk/programmes/p003k9b8",
         "topic": "The Mind/Body Problem",
-        "wiki_link": "https://en.wikipedia.org/wiki/Mind%E2%80%93body_problem",
+        "wiki_link": "https://en.wikipedia.org/wiki/Mind–body_problem",
         "experts": [
             {
                 "name": "A. C. Grayling",
@@ -41619,7 +41846,7 @@
                     },
                     {
                         "text": "The Philosophers' Magazine",
-                        "wiki": "https://en.wikipedia.org/wiki/The_Philosophers%27_Magazine"
+                        "wiki": "https://en.wikipedia.org/wiki/The_Philosophers'_Magazine"
                     }
                 ]
             },
@@ -41856,7 +42083,7 @@
         "id": 234,
         "episode_link": "https://www.bbc.co.uk/programmes/p004y26p",
         "topic": "Machiavelli and the Italian City States",
-        "wiki_link": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli",
+        "wiki_link": "https://en.wikipedia.org/wiki/Niccolò_Machiavelli",
         "experts": [
             {
                 "name": "Quentin Skinner",
@@ -42129,7 +42356,7 @@
                 "links": [
                     {
                         "text": "Queen's University Belfast",
-                        "wiki": "https://en.wikipedia.org/wiki/Queen%27s_University_Belfast"
+                        "wiki": "https://en.wikipedia.org/wiki/Queen's_University_Belfast"
                     }
                 ]
             }
@@ -42293,7 +42520,7 @@
                 "links": [
                     {
                         "text": "Jonathan Rée",
-                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
                     }
                 ]
             },
@@ -42497,7 +42724,7 @@
                     },
                     {
                         "text": "King's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College,_Cambridge"
                     }
                 ]
             },
@@ -42692,7 +42919,7 @@
                 "links": [
                     {
                         "text": "Jonathan Rée",
-                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
                     }
                 ]
             }
@@ -43247,7 +43474,7 @@
                     },
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             },
@@ -43257,7 +43484,7 @@
                 "links": [
                     {
                         "text": "Heather O'Donoghue",
-                        "wiki": "https://en.wikipedia.org/wiki/Heather_O%27Donoghue"
+                        "wiki": "https://en.wikipedia.org/wiki/Heather_O'Donoghue"
                     },
                     {
                         "text": "Oxford University",
@@ -43496,7 +43723,7 @@
                     },
                     {
                         "text": "King's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College,_Cambridge"
                     }
                 ]
             },
@@ -43776,7 +44003,7 @@
         "id": 194,
         "episode_link": "https://www.bbc.co.uk/programmes/p005493t",
         "topic": "St Bartholomew's Day Massacre",
-        "wiki_link": "https://en.wikipedia.org/wiki/St_Bartholomew%27s_Day_Massacre",
+        "wiki_link": "https://en.wikipedia.org/wiki/St_Bartholomew's_Day_Massacre",
         "experts": [
             {
                 "name": "Diarmaid MacCulloch",
@@ -44066,7 +44293,7 @@
         "id": 188,
         "episode_link": "https://www.bbc.co.uk/programmes/p0054921",
         "topic": "The Schism",
-        "wiki_link": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
+        "wiki_link": "https://en.wikipedia.org/wiki/East–West_Schism",
         "experts": [
             {
                 "name": "Henrietta Leyser",
@@ -44078,7 +44305,7 @@
                     },
                     {
                         "text": "St Peter's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Peter%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Peter's_College,_Oxford"
                     }
                 ]
             },
@@ -44430,7 +44657,7 @@
                 "links": [
                     {
                         "text": "Felipe Fernández-Armesto",
-                        "wiki": "https://en.wikipedia.org/wiki/Felipe_Fern%C3%A1ndez-Armesto"
+                        "wiki": "https://en.wikipedia.org/wiki/Felipe_Fernández-Armesto"
                     },
                     {
                         "text": "Queen Mary",
@@ -44577,11 +44804,11 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     },
                     {
                         "text": "St Thomas' Hospital",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Thomas%27_Hospital"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Thomas'_Hospital"
                     }
                 ]
             },
@@ -44661,7 +44888,7 @@
                     },
                     {
                         "text": "St John's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_John%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_John's_College,_Oxford"
                     }
                 ]
             },
@@ -44879,7 +45106,7 @@
                     },
                     {
                         "text": "Christ's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
                     }
                 ]
             },
@@ -45010,7 +45237,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -45020,7 +45247,7 @@
                 "links": [
                     {
                         "text": "Jonathan Rée",
-                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_R%C3%A9e"
+                        "wiki": "https://en.wikipedia.org/wiki/Jonathan_Rée"
                     }
                 ]
             },
@@ -45212,7 +45439,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -45343,7 +45570,7 @@
                     },
                     {
                         "text": "St Martin's College",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Martin%27s_College"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Martin's_College"
                     }
                 ]
             },
@@ -45404,7 +45631,7 @@
                 "links": [
                     {
                         "text": "London School of Hygiene and Tropical Medicine",
-                        "wiki": "https://en.wikipedia.org/wiki/London_School_of_Hygiene_%26_Tropical_Medicine"
+                        "wiki": "https://en.wikipedia.org/wiki/London_School_of_Hygiene_&_Tropical_Medicine"
                     }
                 ]
             },
@@ -45451,7 +45678,7 @@
                 "links": [
                     {
                         "text": "Karen O'Brien",
-                        "wiki": "https://en.wikipedia.org/wiki/Karen_O%27Brien"
+                        "wiki": "https://en.wikipedia.org/wiki/Karen_O'Brien"
                     },
                     {
                         "text": "University of Warwick",
@@ -45789,7 +46016,7 @@
                 "links": [
                     {
                         "text": "Felipe Fernández-Armesto",
-                        "wiki": "https://en.wikipedia.org/wiki/Felipe_Fern%C3%A1ndez-Armesto"
+                        "wiki": "https://en.wikipedia.org/wiki/Felipe_Fernández-Armesto"
                     },
                     {
                         "text": "Queen Mary College London",
@@ -46024,7 +46251,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -46242,7 +46469,7 @@
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -46314,7 +46541,7 @@
         "id": 141,
         "episode_link": "https://www.bbc.co.uk/programmes/p00548dl",
         "topic": "The Physics of Reality",
-        "wiki_link": "https://en.wikipedia.org/wiki/Schrodinger%27s_Cat",
+        "wiki_link": "https://en.wikipedia.org/wiki/Schrodinger's_Cat",
         "experts": [
             {
                 "name": "Roger Penrose",
@@ -46665,7 +46892,7 @@
                     },
                     {
                         "text": "King's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College,_Cambridge"
                     }
                 ]
             },
@@ -46730,7 +46957,7 @@
                     },
                     {
                         "text": "St Anne's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
                     }
                 ]
             }
@@ -46792,15 +47019,15 @@
         "experts": [
             {
                 "name": "Harold Ellis",
-                "title": "Clinical Anatomist, School of Biomedical Sciences, King's College, London",
+                "title": "Clinical Anatomist, School of Biomedical Sciences, King's College London",
                 "links": [
                     {
                         "text": "Harold Ellis",
                         "wiki": "https://en.wikipedia.org/wiki/Harold_Ellis_(professor)"
                     },
                     {
-                        "text": "King's College, London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_London"
+                        "text": "King's College London",
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -47060,7 +47287,7 @@
                     },
                     {
                         "text": "St Catherine's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Catherine%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Catherine's_College,_Oxford"
                     }
                 ]
             },
@@ -47163,7 +47390,7 @@
                 "links": [
                     {
                         "text": "Felipe Fernández-Armesto",
-                        "wiki": "https://en.wikipedia.org/wiki/Felipe_Fern%C3%A1ndez-Armesto"
+                        "wiki": "https://en.wikipedia.org/wiki/Felipe_Fernández-Armesto"
                     },
                     {
                         "text": "Oxford University",
@@ -47440,7 +47667,7 @@
                 "links": [
                     {
                         "text": "Dawn Adès",
-                        "wiki": "https://en.wikipedia.org/wiki/Dawn_Ad%C3%A8s"
+                        "wiki": "https://en.wikipedia.org/wiki/Dawn_Adès"
                     },
                     {
                         "text": "University of Essex",
@@ -47679,11 +47906,11 @@
                 "links": [
                     {
                         "text": "Charlotte Roueché",
-                        "wiki": "https://en.wikipedia.org/wiki/Charlotte_Rouech%C3%A9"
+                        "wiki": "https://en.wikipedia.org/wiki/Charlotte_Roueché"
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -48152,11 +48379,11 @@
                 "links": [
                     {
                         "text": "Charlotte Roueché",
-                        "wiki": "https://en.wikipedia.org/wiki/Charlotte_Rouech%C3%A9"
+                        "wiki": "https://en.wikipedia.org/wiki/Charlotte_Roueché"
                     },
                     {
                         "text": "King's College London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College_London"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -48515,7 +48742,7 @@
                     },
                     {
                         "text": "King's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College,_Cambridge"
                     }
                 ]
             },
@@ -48529,7 +48756,7 @@
                     },
                     {
                         "text": "King's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College,_Cambridge"
                     }
                 ]
             }
@@ -49124,7 +49351,7 @@
         "id": 83,
         "episode_link": "https://www.bbc.co.uk/programmes/p00546w3",
         "topic": "London",
-        "wiki_link": "https://en.wikipedia.org/wiki/London",
+        "wiki_link": "",
         "experts": [
             {
                 "name": "Peter Ackroyd",
@@ -49869,7 +50096,7 @@
                     },
                     {
                         "text": "All Tomorrow's Parties",
-                        "wiki": "https://en.wikipedia.org/wiki/All_Tomorrow%27s_Parties_(novel)"
+                        "wiki": "https://en.wikipedia.org/wiki/All_Tomorrow's_Parties_(novel)"
                     }
                 ]
             }
@@ -49892,7 +50119,7 @@
                     },
                     {
                         "text": "St Antony's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
                     }
                 ]
             },
@@ -50384,7 +50611,7 @@
                     },
                     {
                         "text": "St Antony's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
                     }
                 ]
             }
@@ -50477,7 +50704,7 @@
                 "links": [
                     {
                         "text": "Anthony O'Hear",
-                        "wiki": "https://en.wikipedia.org/wiki/Anthony_O%27Hear"
+                        "wiki": "https://en.wikipedia.org/wiki/Anthony_O'Hear"
                     },
                     {
                         "text": "University of Bradford",
@@ -50572,15 +50799,15 @@
         "experts": [
             {
                 "name": "Jonathan Glover",
-                "title": "philosopher and Director of the Centre of Medical Law and Ethics, King's College, London",
+                "title": "philosopher and Director of the Centre of Medical Law and Ethics, King's College London",
                 "links": [
                     {
                         "text": "Jonathan Glover",
                         "wiki": "https://en.wikipedia.org/wiki/Jonathan_Glover"
                     },
                     {
-                        "text": "King's College, London",
-                        "wiki": "https://en.wikipedia.org/wiki/King%27s_College,_London"
+                        "text": "King's College London",
+                        "wiki": "https://en.wikipedia.org/wiki/King's_College_London"
                     }
                 ]
             },
@@ -50609,15 +50836,15 @@
         "experts": [
             {
                 "name": "Richard Wollheim",
-                "title": "Professor of Philosophy, University of California in Berkeley",
+                "title": "Professor of Philosophy, University of California, Berkeley",
                 "links": [
                     {
                         "text": "Richard Wollheim",
                         "wiki": "https://en.wikipedia.org/wiki/Richard_Wollheim"
                     },
                     {
-                        "text": "University of California in Berkeley",
-                        "wiki": "https://en.wikipedia.org/wiki/University_of_California_in_Berkeley"
+                        "text": "University of California, Berkeley",
+                        "wiki": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley"
                     }
                 ]
             },
@@ -50695,7 +50922,7 @@
                     },
                     {
                         "text": "St Anne's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Anne%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Anne's_College,_Oxford"
                     }
                 ]
             },
@@ -50818,7 +51045,7 @@
                     },
                     {
                         "text": "St Thomas' Hospital",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Thomas%27_Hospital"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Thomas'_Hospital"
                     }
                 ]
             },
@@ -50884,7 +51111,7 @@
         "id": 39,
         "episode_link": "https://www.bbc.co.uk/programmes/p00545ld",
         "topic": "Africa",
-        "wiki_link": "https://en.wikipedia.org/wiki/Africa",
+        "wiki_link": "",
         "experts": [
             {
                 "name": "Henry Louis Gates Jr",
@@ -51048,7 +51275,7 @@
                     },
                     {
                         "text": "Christ's College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/Christ%27s_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Christ's_College,_Cambridge"
                     }
                 ]
             },
@@ -51410,7 +51637,7 @@
                 "links": [
                     {
                         "text": "Leszek Kołakowski",
-                        "wiki": "https://en.wikipedia.org/wiki/Leszek_Ko%C5%82akowski"
+                        "wiki": "https://en.wikipedia.org/wiki/Leszek_Kołakowski"
                     },
                     {
                         "text": "Oxford University",
@@ -51656,7 +51883,7 @@
                     },
                     {
                         "text": "Queens' College, Cambridge",
-                        "wiki": "https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge"
+                        "wiki": "https://en.wikipedia.org/wiki/Queens'_College,_Cambridge"
                     },
                     {
                         "text": "Liverpool Cathedral",
@@ -52118,7 +52345,7 @@
                     },
                     {
                         "text": "St Antony's College, Oxford",
-                        "wiki": "https://en.wikipedia.org/wiki/St_Antony%27s_College,_Oxford"
+                        "wiki": "https://en.wikipedia.org/wiki/St_Antony's_College,_Oxford"
                     }
                 ]
             },

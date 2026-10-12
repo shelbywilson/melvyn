@@ -9,7 +9,7 @@ def century_label(n, bc=False):
     suffix = 'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')
     return f'{n}{suffix} century BC' if bc else f'{n}{suffix} century'
 
-YEAR_RE = re.compile(r'\b([1-9]\d{2,3})\b')
+YEAR_RE = re.compile(r'\b([1-9]\d{3})\b')
 
 def year_to_century(year):
     n = (int(year) - 1) // 100 + 1
@@ -57,8 +57,7 @@ def get_custom_categories():
 
         # Century extraction from Wikipedia categories, episode title, and descriptions
         short_desc, long_desc = descriptions.get(topic, ('', ''))
-        full_desc = short_desc + ' ' + long_desc
-        search_text = cats_text + ' ' + topic + ' ' + full_desc
+        search_text = cats_text + ' ' + topic + ' ' + short_desc + ' ' + long_desc
         bc_centuries = {int(m.group(1)) for m in BC_RE.finditer(search_text)}
         all_centuries = {int(m.group(1)) for m in CENTURY_RE.finditer(search_text)}
         ad_centuries = all_centuries - bc_centuries
@@ -85,9 +84,16 @@ def get_custom_categories():
             if era in cats_lower or era in topic_lower:
                 tags.add(century_tag)
 
-        # Manual overrides
-        for tag in manual.get(topic, []):
-            tags.add(tag)
+        # Manual overrides — list to add tags, dict with "add"/"exclude" for finer control
+        override = manual.get(topic)
+        if isinstance(override, list):
+            for tag in override:
+                tags.add(tag)
+        elif isinstance(override, dict):
+            for tag in override.get('add', []):
+                tags.add(tag)
+            for tag in override.get('exclude', []):
+                tags.discard(tag)
 
         if tags:
             result[topic] = sorted(tags)

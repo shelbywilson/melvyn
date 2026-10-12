@@ -1,4 +1,13 @@
 {
+    "Vigée Le Brun": [
+        "Culture"
+    ],
+    "Joseph Roth": [
+        "Culture"
+    ],
+    "M.C. Escher": [
+        "Culture"
+    ],
     "Handel's Messiah": [
         "Culture"
     ],
@@ -93,9 +102,6 @@
         "Culture"
     ],
     "Germinal": [
-        "Culture"
-    ],
-    "The Seventh Seal\n(1000th program)": [
         "Culture"
     ],
     "Death in Venice": [
@@ -728,11 +734,26 @@
     "Africa": [
         "Culture"
     ],
+    "The Seventh Seal\n(1000th program)": [
+        "Culture"
+    ],
     "Ludwig van Beethoven": [
         "Culture"
     ],
     "Rabindranath Tagore": [
         "Culture"
+    ],
+    "The Delian League": [
+        "History"
+    ],
+    "The Welsh Marches": [
+        "History"
+    ],
+    "The Levellers": [
+        "History"
+    ],
+    "The Garamantes": [
+        "History"
     ],
     "The Spanish-American War 1898": [
         "History"
